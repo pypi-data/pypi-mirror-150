@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+addr/__init__.py
+addr.egg-info/PKG-INFO
+addr.egg-info/SOURCES.txt
+addr.egg-info/dependency_links.txt
+addr.egg-info/entry_points.txt
+addr.egg-info/top_level.txt
+addr.egg-info/zip-safe
+addr/shell/__init__.py
+addr/shell/usage.py
+addr/src/temp.txt
