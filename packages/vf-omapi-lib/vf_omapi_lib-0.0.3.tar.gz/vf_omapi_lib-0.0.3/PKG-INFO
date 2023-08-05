@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vf_omapi_lib
+Version: 0.0.3
+Summary: Shared python code for VF-OMAPI components
+Home-page: https://bitbucket.org/joerg_pauken/omapi_lib_python/
+Author: Joerg Pauken
+Author-email: joerg.pauken@vodafone.com
+License: UNKNOWN
+Keywords: OM,OMAPI,AWS,Lambda,APIG,MSK,Kafka
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# ToDo README.md
+
