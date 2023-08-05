@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: dls-pmaclib
+Version: 3.0.1b1
+Summary: Delta Tau pmac communication library
+Author: Jon Thompson
+Author-email: giles.knap@diamond.ac.uk
+Maintainer: Giles Knap
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: pyserial
+Requires-Dist: paramiko
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort (>5.0) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme-github-versions ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: setuptools-scm[toml] (>=6.2) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: types-mock ; extra == 'dev'
+Requires-Dist: types-paramiko ; extra == 'dev'
+
+dls_pmaclib
+===========
+
+|build_status| |coverage| |pypi_version| |readthedocs|
+
+The dls_pmaclib library brings together a number of useful modules that are used with the various PMAC tools.
+
+Documentation
+-------------
+
+Full documentation is available at http://dls_pmaclib.readthedocs.io
+
+Source Code
+-----------
+
+Available from http://github.com/dls-controls/dls_pmaclib
+
+Installation
+------------
+
+To start using this project::
+
+    git clone https://github.com/dls-controls/dls_pmaclib
+
+Contributing
+------------
+
+See `CONTRIBUTING`_
+
+License
+-------
+APACHE License. (see `LICENSE`_)
+
+
+.. |build_status| image:: https://travis-ci.com/dls-controls/dls_pmaclib.svg?branch=master
+    :target: https://travis-ci.com/dls-controls/dls_pmaclib
+    :alt: Build Status
+
+.. |coverage| image:: https://coveralls.io/repos/github/dls-controls/dls_pmaclib/badge.svg?branch=master
+    :target: https://coveralls.io/github/dls-controls/dls_pmaclib?branch=master
+    :alt: Test Coverage
+
+.. |pypi_version| image:: https://badge.fury.io/py/dls_pmaclib.svg
+    :target: https://badge.fury.io/py/dls_pmaclib
+    :alt: Latest PyPI version
+
+.. |readthedocs| image:: https://readthedocs.org/projects/dls_pmaclib/badge/?version=latest
+    :target: http://dls_pmaclib.readthedocs.io
+    :alt: Documentation
+
+.. _CONTRIBUTING:
+    https://github.com/dls-controls/dls_pmaclib/blob/master/CONTRIBUTING.rst
+
+.. _LICENSE:
+    https://github.com/dls-controls/dls_pmaclib/blob/master/LICENSE
+
+
