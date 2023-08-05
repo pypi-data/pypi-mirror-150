@@ -1,0 +1,15 @@
+addr/__init__.py,sha256=s4YtEPxJF0P9PmtWE3yb14r1mCUr_xUa7Fsw_WjcvC8,93
+addr/shell/__init__.py,sha256=RkaFlL5_PAvZ2ssMbBsyx9Bd1M7Vo3fPQgX360XlHYc,58
+addr/shell/usage.py,sha256=625ZJ2jf2-Xf44-fmT_VUkdH1FXastENu0iI92szFcg,190
+addr/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/__init__.py,sha256=XtPYATdtkDEIDY2B3uEN8ZzJTAC3VEkXtYVQ1umYv5Q,101
+package_name/shell/__init__.py,sha256=nszm5BU7g0_sHXwWwSXgFAgVhKYI5TLyvy84jNvFuBM,66
+package_name/shell/usage.py,sha256=oBOW-vYhtFTCLi3FLP1xtwj4TP-PfDlXUcTDKWhEQks,298
+package_name/src/temp.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addr-0.0.1.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+addr-0.0.1.dist-info/METADATA,sha256=Nzs5SCFoTKIA9xp7fRiD3OHqadKtiEogmIQr5PRoZVg,3096
+addr-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+addr-0.0.1.dist-info/entry_points.txt,sha256=rbOxbRDjEGAifSv-CjUGaWxnuAFEI-WTbDYzuq9TSdE,40
+addr-0.0.1.dist-info/top_level.txt,sha256=N3VQRb5xfdrE2pbkqO4w9FKkTls_3ZFKsl4qao_q6FU,5
+addr-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+addr-0.0.1.dist-info/RECORD,,
