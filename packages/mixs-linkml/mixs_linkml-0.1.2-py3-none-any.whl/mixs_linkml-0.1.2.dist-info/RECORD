@@ -1,0 +1,15 @@
+generated/graphql/mixs.graphql,sha256=KqoQd_bXcexg931IgPa1GTKylZCMhxEALHbw0tNfXU8,944623
+generated/jsonld/mixs.context.jsonld,sha256=R9snT0CvuYBd8_0wat6iypru_ElhY_SS_xJI9cyfDSk,84663
+generated/jsonld/mixs.jsonld,sha256=fRPTAXHdtQ-UcZul8vsNTDteExTOKemMX7Aw_P0U_28,5956552
+generated/jsonschema/mixs.schema.json,sha256=6pWEOZ-CgE-v4wREWEPN5zG3tYV9FjxPFp6poQsHxMQ,10278841
+generated/mixs.py,sha256=7Jz1lax4FpVEiClMrt4agF33GaRFyJMlh_hVZbUi8yE,4028555
+generated/owl/mixs.owl.ttl,sha256=gDxZf0jo-X3lN63RS2oOhChfoA_kI4-BKSFOpStLzkI,2477790
+generated/prefixmap/mixs.yaml,sha256=jT11rqGcsVRWBkU5Bryx3fvUHvnfn6-LccR61kS42DQ,178
+generated/protobuf/mixs.proto,sha256=C3fjuBhaaOXU2mZ3gLO_dtj4VJ46p20CfJMML_z6Pyk,1281597
+generated/shacl/mixs.shacl.ttl,sha256=d3DbQVa5X7tZtyNxRo7jtUJ6YmFzKinlM5otkqkhMFA,12606659
+generated/shex/mixs.shex,sha256=lC0dsUr4ozzzjhEPeUoGAvT23kwGAyuov5ApMZ3Etu4,641346
+generated/sqlschema/mixs.sql,sha256=sRYPJ24uggNqoH_IcivzMD9OSim5MoLdf71kePm2Mdw,1292118
+mixs_linkml-0.1.2.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+mixs_linkml-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mixs_linkml-0.1.2.dist-info/METADATA,sha256=ixuooPzyo3YnKM6T1N4EYaBgfE0Pf4QSeavRCN4eQYI,8052
+mixs_linkml-0.1.2.dist-info/RECORD,,
