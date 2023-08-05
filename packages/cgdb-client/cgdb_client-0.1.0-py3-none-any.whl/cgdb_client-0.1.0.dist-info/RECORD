@@ -1,0 +1,11 @@
+cgdb/__init__.py,sha256=gCxZgKbCjd3_WlxEShMafoeBCBbeWpXpKkoJt9YgJeU,26
+cgdb/cgdb.py,sha256=D65M87xQ1fVw3jN9vdXubpnZcaY7czpX47FOP0LCuD4,3233
+czechglobe/__init__.py,sha256=SdTlPjJXji2ozBalvMiBfGIhnrbElUk8H-GsHVdBrf8,13
+czechglobe/cgdb.py,sha256=KeGXVQOlRZzIHgfrK0Tw--O1adM_L37pZLZKbbWlMME,3540
+czechglobe/client.py,sha256=KeGXVQOlRZzIHgfrK0Tw--O1adM_L37pZLZKbbWlMME,3540
+czechglobe/cgdb/__init__.py,sha256=lJdH0oX08JIzmEAR77LgkJjVdSZC0nFDowHQb2C8tvI,54
+czechglobe/cgdb/client.py,sha256=AfFCjGEdSQa-m_kvpYo3kbqe8BgghiW-AbiTn4oDU7I,3409
+cgdb_client-0.1.0.dist-info/METADATA,sha256=sWW909jHTbNUeNlKsidcaQDOaK_9oR0rA2_8xkGuD8o,210
+cgdb_client-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cgdb_client-0.1.0.dist-info/top_level.txt,sha256=_MvDy1Dtk2uNhT4uJpZvhZZ__GgrD9TbKTjOhFoHLto,5
+cgdb_client-0.1.0.dist-info/RECORD,,
