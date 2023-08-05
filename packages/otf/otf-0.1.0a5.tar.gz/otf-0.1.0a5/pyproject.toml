@@ -1,0 +1,77 @@
+[tool.poetry]
+name = "otf"
+version = "0.1.0-alpha.5"
+description = "A python framework for on-the-fly distributed workflows"
+authors = ["Till Varoquaux <till.varoquaux@gmail.com>"]
+exclude = [".*"]
+license = "CC0-1.0"
+readme = "README.rst"
+repository = "https://github.com/till-varoquaux/otf"
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+ ]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+msgpack = {version = "^1.0.2", optional = true}
+
+# Everything is wide open here because we depend on the lock file to make sure
+# we're good.
+[tool.poetry.dev-dependencies]
+Sphinx = "*"
+black = {extras = ["jupyter"], version = "*"}
+codespell = "*"
+flake8 = "*"
+furo = "*"
+isort = "*"
+jupyter = "*"
+msgpack-types = "*"
+mypy = "*"
+pytest-cov = "*"
+types-Pygments = "*"
+types-docutils = "*"
+
+[tool.poetry.extras]
+msgpack = ["msgpack"]
+
+[tool.black]
+line-length = 80
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 80
+
+[tool.coverage.paths]
+source = ["src"]
+
+[tool.coverage.run]
+branch = true
+source = ["otf"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[tool.mypy]
+python_version = "3.10"
+show_error_codes = true
+strict = true
+no_incremental = true
+exclude = ["tests/*", "docs/deep_dives/examples/*"]
+
+[tool.pytest.ini_options]
+addopts = "--cov --doctest-modules"
+testpaths = ["src", "tests"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
