@@ -1,0 +1,11 @@
+pezzetti/__init__.py,sha256=xK2TNmKfYU0kmrbQvEpOpUt3KSSqYLEsf0vrWxBSYEE,85
+pezzetti/errors.py,sha256=cowxvjnLEwMpAcBM-SmxJvC-oDQ4nF5q_RIjeCbEt3U,1164
+pezzetti/feature_engineering.py,sha256=RZwjV8IdG3LiNoMzCDLLpSQNYwbPTWzu6_HuXRPzp1c,1114
+pezzetti/metadata.py,sha256=LJ86OuXfdaIZh5i2AY_ai0gFltwzDmYmrc_jZ_q4-x8,721
+pezzetti/utils.py,sha256=g40mENZxeyrrPI1u4VnWUWA5eeQwHpKD5WLa834mF_E,4340
+pezzetti/sources/__init__.py,sha256=nV5VNMz6a4ayKocZAJP9lUukveQJvsbdmhqZ8GunbUY,44
+pezzetti/sources/socrata.py,sha256=IV3zeKCDL_tnBLmA4uNW5n2u8xm1BALROfSRC6LJeBA,11490
+pezzetti-0.1.0.dist-info/METADATA,sha256=vwwzGJ9AeKQAl_ql0g5iMApyFWZLxH7sHEqjHk9qS10,154
+pezzetti-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pezzetti-0.1.0.dist-info/top_level.txt,sha256=-pZRtwwq8fcV8T2Bv7m3mwGAk7u-9SUnmN5B7_SD8j4,9
+pezzetti-0.1.0.dist-info/RECORD,,
