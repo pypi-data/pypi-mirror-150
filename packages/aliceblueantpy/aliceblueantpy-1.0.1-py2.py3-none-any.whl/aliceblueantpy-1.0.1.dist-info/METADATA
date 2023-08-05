@@ -1,0 +1,344 @@
+Metadata-Version: 2.1
+Name: aliceblueantpy
+Version: 1.0.1
+Summary: Python SDK for API users
+Home-page: https://ant.aliceblueonline.com/
+Author: Codifi
+Author-email: pradeep@codifi.in
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: setuptools
+
+# Python Alice Blue API
+[![PyPI](https://img.shields.io/pypi/v/kiteconnect.svg)](https://pypi.python.org/pypi/aliceblueconnect)
+
+
+
+Alice Blue is set of REST-like APIs based platform of all input and output parameters are based on JSON. Alice Blue rest provide an easy way to place order,and view orderbook.
+
+
+## Documentation
+
+- [Alice Blue API Documentation](https://v2api.aliceblueonline.com/introduction)
+
+
+
+
+## Installing the client
+You can install the pre release via pip
+```
+pip install aliceblueantpy
+```
+
+[//]: # (Its recommended to update `setuptools` to latest if you are facing any issue while installing)
+
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (```)
+
+[//]: # (pip install -U pip setuptools)
+
+[//]: # (```)
+
+For more details check [official Python documentation](https://wiki.python.org/moin/WindowsCompilers).
+
+# API usage (Sample method calls)
+```python
+from aliceblueantpy import AliceblueAPI
+
+sas_api = AliceblueAPI(user_id='Your_user_id',
+                                 api_key='Your_api_key')
+
+# # Method will invoke teh get encryption key and get User session Id methods
+# # Login with userid and API key and then receive the session Id
+# # after got the session Id ,obtain the session Id
+# # as follows.
+
+response = sas_api.getEncryptionKey()
+# # Market Watch Scrips
+# # Search Scrips
+scrip_response = sas_api.get_scrips(symbol='search_symbol_name', exchange=['exchange_name'])
+
+#     ====> Sample input parameters : symbol='TCS', exchange=[sas_api.EXCHANGE_NSE]
+#     Other available exchanges are as below
+#
+#         EXCHANGE_NSE     --- For NSE Cash
+#         EXCHANGE_NFO     --- For NSE DERIVATIVES
+#         EXCHANGE_CDS     --- For NSE Currency Derivatives
+#         EXCHANGE_BSE     --- For BSE Cash
+#         EXCHANGE_BSE     --- For BSE Derivatives
+#         EXCHANGE_BSE     --- For BSE Currency Derivatives
+#         EXCHANGE_MCX     --- For MCX Contracts
+
+#     If the search has to be global, like search on NSE and BSE for example,
+#     send the exchange parameter as below
+#     exchange=[sas_api.EXCHANGE_NSE, sas_api.EXCHANGE_BSE]
+
+#     SAMPLE RESPONSE
+#     {.....'exch': 'NSE', 'exchange': None, 'exchange_segment': 'nse_cm', 'symbol': 'TCS-EQ', 'token': '11536', 'instrument_name': 'TATA CONSULTANCY SERV LT'....}
+
+#     There will be more parameters in teh response, but you can ignore them
+#     SYMBOL and TOKEN are the important ones to call further APIs
+
+
+#  Market Watch List
+marketwatchrespdata = sas_api.getmarketwatch_list()
+
+
+#
+#  =====> Fetch Market Watch List
+#
+#  SAMPLE RESPONSE
+#  {'stat': 'Ok', 'values': ['mwGrpRM', 'mwGrpLN', 'mwGrpFk', 'mwGrpFF'], 'MaxMWCount': 200, 'logindefaultmw': 'mwGrpLN'}
+
+#   There will be no parameters in teh response,
+
+
+# # Market Watch Scrips
+marketwatchresp = sas_api.marketwatch_scripsdata(mwname='Enter_your_market_watch_name')
+
+#
+#   ====> Sample input parameters :mwname='mwGrpFk'
+#
+#   SAMPLE RESPONSE
+#   {'stat': 'Ok', 'values': [{'tcksize': '5', 'openinterest': '0', 'optiontype': 'XX', 'BestSellPrice': '132.20', 'ExchSeg': 'nse_cm',......}
+#
+#   values are in  Json array with watch names and maximum scrip counts are allowed
+
+
+# # Add Scrips
+addscripsresp = sas_api.addscrips(mwname='Enter_your_market_watch_name', exchange='exchange_name', token='Enter_your_tokenno')
+
+#
+#   ====> Sample input parameters : mwname='mwGrpFk', exchange='NSE', token='1235'
+#
+#   SAMPLE RESPONSE
+#   {'emsg': 'Scrip  is present in mwGrpFk', 'stat': 'Ok'}
+#
+#   Give the input parameters and status as ok and result as success
+
+
+# # Delete Scrips
+deletescripsresp = sas_api.deletescrips(mwname='Enter_your_market_watch_name', exchange='exchange_name',
+                                        token='Enter_your_tokenno')
+
+#
+#   Sample input parameters : mwname='mwGrpLn', exchange='NSE', token='245'
+#
+#   SAMPLE RESPONSE
+#   {'emsg': 'Scrip  is delete in mwGrpLn', 'stat': 'Ok'}
+#
+#   Delete the parameters value and status as ok then result as success
+
+
+# # Scrip Details
+scripsdetailresp = sas_api.scrips_details(exchange='exchange_name', token='Enter_your_tokenno')
+
+#    ====> Sample input parameters : exchange=[sas_api.EXCHANGE_NSE],token='777'
+#
+#
+#
+#    SAMPLE RESPONSE
+#    {'vwapAveragePrice': 'NA', 'LTQ': 'NA', 'DecimalPrecision': 2, 'openPrice': 'NA', 'LTP': 'NA', 'Ltp': 'NA', 'BRate': 'NA', 'defmktproval': '3', 'symbolname': 'UTIRGR28P2',...... }
+#
+#     There given exchange and token numbers are given the bunch of response will be displayed on output format
+#
+
+
+#  Order Management
+# # Position Book
+positionbookresp = sas_api.positionbook(ret='retention_type')
+
+# ====> Sample input parameters :  ret=[sas_api.RETENTION_DAY]
+#
+# SAMPLE RESPONSE
+#  {"emsg": "Success","stat": "Ok"}
+#
+#  The Retention type of input parameters DAY/NET will be given after response are bunch of data's are displayed like that stat,exchange,pcode,symbol,token....
+
+
+
+
+# # Square of position
+squareoffresp = sas_api.squareoff_positions(exchange='exchange_name', symbol='Enter_your_symbol',
+                                            qty='Enter_your_Qty',
+                                            pCode='Entey_your_productcode',
+                                            tokenno='Enter_your_tokenno')
+# ====> Sample input parameters :  ret=[sas_api.RETENTION_DAY], symbol='ASHOKLEY',qty='0',pCode=[sas_api.PRODUCT_INTRADAY], tokenno='12356'
+#
+# SAMPLE RESPONSE
+#  {"stat": "Ok","nestOrderNumber:"200626000052824"}
+
+#  The input parameters are given and response are ok, nestordernumbers are displayed
+
+
+# # Place Order
+placeorderresp = sas_api.place_order(complexty='Enter_your_ordertype', discqty='Enter_your_discqty',
+                                     exch='exchange_name',
+                                     pCode='Enter_your_productcode', price='Enter_your_Price',
+                                     qty='Enter_your_Quantity',
+                                     prctyp='Enter_your_pricetype', ret='Enter_your_retention_type',
+                                     symbol_id='Enter_your_symbol_id',
+                                     trading_symbol='Enter_your_trading_symbol',
+                                     transtype='Enter_your_transaction_type',
+                                     trigPrice='Enter_your_trigPrice')
+
+#  ====> Sample input parameters :  ret=[sas_api.RETENTION_DAY], complexity=[sas_api.REGULAR_ORDER], exchange=[sas_api.EXCHANGE_NSE],pCode='MIS',
+#                                  price='1',Qty='1',prctype=[sas_api.LIMIT_ORDER],ret=[sas_api.RETENTION_DAY],trading_symbol='49234',transtype=[sas_api.BUY_ORDER],
+#                                  trigprice='1'
+
+
+# SAMPLE RESPONSE
+# {['stat': 'Ok', 'nestOrderNumber': '191015000018737']}
+
+#  Same as the process of Square off positions given parameters and response are ok,nestordernumbers are displayed
+
+# Bracket Order
+bracketorderresp = sas_api.bracket_order(complexty='Enter_your_ordertype', discqty='Enter_your_discqty',
+                                         exch='exchange_name',
+                                         pCode='Enter_your_productcode', price='Enter_your_price', qty='Enter_your_qty',
+                                         prctyp='Enter_your_pricetype', stopLoss='Enter_your_stopLoss',
+                                         ret='Enter_your_retention_type',
+                                         symbol_id='Enter_your_symbol_id',
+                                         trading_symbol='Enter_your_trading_symbol',
+                                         trailing_stop_loss='Enter_your_trailing_stop_loss_value',
+                                         target='Enter_your_target_value',
+                                         transtype='Enter_your_transaction_type',
+                                         trigPrice='Enter_your_trigPrice')
+
+#  ====> Sample input parameters :  ret=[sas_api.RETENTION_DAY], complexity=[sas_api.REGULAR_ORDER], exchange=[sas_api.EXCHANGE_NSE],pCode='MIS',
+#                                  price='1',qty='1',prctype=[sas_api.LIMIT_ORDER],ret=[sas_api.RETENTION_DAY],trading_symbol='49234',transtype=[sas_api.BUY_ORDER],
+#                                  trigprice='1',discqty='0',symbol_id='13611',trailimg_stop_loss='3.4',target='28.0',transtype=[sas_api.BUY_ORDER],stoploss='28.0'
+
+
+# SAMPLE RESPONSE
+# [{"stat": "Ok", "nestOrderNumber": "210218000070901"}
+
+# Same process of previous one input parameters like retention type,complexity,exchange....... and response are ok,nestordernumbers displayed on screen
+
+
+# Fetch Order Book
+orderresp = sas_api.order_data()
+
+# ===>No Parameters are passed to get response
+# SAMPLE RESPONSE
+# [{....... "Prc": "1454.90", "RequestID": "1", "Cancelqty": 0, "discQtyPerc": "10",  "Qty": 8, "Prctype": "SL", "Status": "rejected","Exchange": "NSE" ,"Avgprc": "00.00", "Trgprc": "1450.90",.....}]
+
+#  This one get method and no input parameters and output will be bunch of data's are shown on response
+
+
+# Fetch Trade Book
+tradebookresp = sas_api.tradebook()
+# ===>No Parameters are passed to get response
+# SAMPLE RESPONSE
+
+# This one also get method and no input parameters and data's will be shown
+
+
+# # Exit Bracket Order
+exitboorderresp = sas_api.exitboorder(nestOrderNumber='Enter_your_nestOrderNumber',
+                                      symbolOrderId="Enter_your_symbolOrderId", status='Enter_your_status')
+
+#  ====> Sample input parameters :  nestOrderNumber='200626000052824', symbolOrderId='', status='OPEN',
+#
+# SAMPLE RESPONSE
+# {"stat":"Ok}
+
+#  The input parameters are nestordernumber,symbolid,and status will be given and response like ok.
+
+
+# # Modify Order
+modifyorderresp = sas_api.modifyorder(discqty='Your_Quantity_No', qty='Enter_your_Quantity', exch='exchange_name',
+                                      filledQuantity='Enter_your_Filledquantity',
+                                      nestOrderNumber='Enter_your_nestordernumber', prctyp='Enter_your_pricetype',
+                                      price='Enter_your_Price',
+                                      trading_symbol='Your_Trading_Symbol', trigPrice='Enter_your_trigger_Price',
+                                      transtype='Enter_your_transaction_type', pCode='Enter_your_productcode'),
+
+#  ====> Sample input parameters :  discqty='0', qty='1', exchange=[sas_api.EXCHANGE_NSE],filledQuantity='0',
+#                                    nestOrderNumber='191015000018737',prctype=[sas_api.LIMIT_ORDER], price='1'
+#                                   ,trading_symbol='ASHOKLEY-EQ',trigPrice='00.OO',transtype=[sas_api.BUY_ORDER],
+#                                    pCode=[sas_api.MARKET_ORDER]
+#
+# SAMPLE RESPONSE
+# [{"stat": "Ok", "nestOrderNumber": "210218000070901"}
+
+# The Input parameters are given and results are displayed on Sample response
+
+
+# # Market Order
+marketorderresp = sas_api.marketorder(complexty='Enter_your_ordertype', discqty='Enter_your_discqty',
+                                      exch='exchange_name',
+                                      pCode='Enter_your_productcode',
+                                      prctyp='Enter_your_pricetype', price="", qty='Enter_your_qty',
+                                      ret='Enter_your_retention_type',
+                                      symbol_id='Enter_your_symbol_id', trading_symbol='Enter_your_trading_symbol',
+                                      transtype='Enter_your_transaction_type',
+                                      trigPrice="")
+
+#  ====> Sample input parameters :   complexity=[sas_api.REGULAR_ORDER], discqty='0', qty='1', exchange=[sas_api.EXCHANGE_NSE],filledQuantity='0',nestOrderNumber='191015000018737',prctype=[sas_api.LIMIT_ORDER],price='1',trading_symbol='ASHOKLEY-EQ'
+#                                    trigPrice='00.OO',transtype=[sas_api.BUY_ORDER],pCode=[sas_api.MARKET_ORDER]
+
+# SAMPLE RESPONSE
+# {"stat": "Ok", "nestOrderNumber": "210218000070991"}
+
+# The market order data's can be input and output's are displayed
+
+
+# Cancel Order
+cancelresp = sas_api.cancel_order(exchange=sas_api.EXCHANGE_NSE, nestordernmbr='Enter_your_nestordernmbr',
+                                  tradingsymbol='Enter_your_tradingsymbol')
+#  ====> Sample input parameters :  exchange=[sas_api.EXCHANGE_NSE], nestordernumbrr='191015000018737',tradingsymbol='ASHOKLEY-EQ',
+
+# SAMPLE RESPONSE
+# {"stat": "Ok", "nestOrderNumber": "210218000070991"}
+
+# The Input parameters exchange,nestordernumber and trading symbol are given after output's are status ok, and nestordernumber are displayed
+
+
+# Order History
+orderhistoryresp = sas_api.order_history(nextorder='Enter_your_nextorder')
+
+# =====> Sample input parameter:  nestOrderNumber": "200628000000004"
+
+# SAMPLE RESPONSE
+# {'stat':'Ok' ...}
+# The nestordernumber's are displayed
+
+
+# Fetch Holdingsdata
+holdingresp = sas_api.holdingsdata()
+
+# =====> No parameter are passed to get holdings
+
+# SAMPLE RESPONSE
+# {'stat':'Ok' ...}
+#  This are get method no input parameters and output parameters will be displayed
+
+
+# Funds
+# Get Limit
+fundsresp = sas_api.fundsdata()
+#    =====> Fetch Market Watch List
+
+#   SAMPLE RESPONSE
+#   {'emsg': None, 'stat': 'Ok'}
+#   No parameters to send get fundsdetails
+
+
+
+
+
+
+
+
