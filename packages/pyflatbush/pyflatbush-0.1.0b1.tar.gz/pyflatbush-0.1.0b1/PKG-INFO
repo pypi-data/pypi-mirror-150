@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyflatbush
+Version: 0.1.0b1
+Summary: A Cython port of Flatbush for fast, static 2D spatial indexing
+Home-page: https://github.com/kylebarron/pyflatbush
+Author: Kyle Barron
+Author-email: kylebarron2@gmail.com
+License: MIT
+Description: # pyflatbush
+        
+        A Cython port of Flatbush for fast, static 2D spatial indexing
+        
+Keywords: spatial index numpy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: build
