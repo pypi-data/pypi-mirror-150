@@ -1,0 +1,8 @@
+setup.py
+cloudmanager_sdk.egg-info/PKG-INFO
+cloudmanager_sdk.egg-info/SOURCES.txt
+cloudmanager_sdk.egg-info/dependency_links.txt
+cloudmanager_sdk.egg-info/requires.txt
+cloudmanager_sdk.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
