@@ -1,0 +1,9 @@
+KratosCSharpWrapperApplication-9.1.3.dist-info/METADATA,sha256=1ntmYeWXThvBksW-C3rBth9WedJBqJGkg-mY5IvnIJE,1452
+KratosCSharpWrapperApplication-9.1.3.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+KratosCSharpWrapperApplication-9.1.3.dist-info/top_level.txt,sha256=8Ov--opRCptLbHStjyiZUVpzN1OUU_F7c7fGmsR5cMc,19
+KratosCSharpWrapperApplication-9.1.3.dist-info/RECORD,,
+KratosMultiphysics/.libs/KratosCSharpWrapperApplication.cpython-39-x86_64-linux-gnu.so,sha256=b1lbtplbNojp7yEanGK1MrOnA1_Z3GIrHVkE854Q0o4,1493008
+KratosMultiphysics/.libs/libKratosCSharpWrapperCore.so,sha256=F3uUtuhwj55xHj8LhowNhGSEa-sSO0ASXlrk__BNkb0,6008752
+KratosMultiphysics/CSharpWrapperApplication/__init__.py,sha256=7q1cCkwDUZhKtLUYLFKK7m03XXnTgZLyjHikETTeHXY,437
+KratosCSharpWrapperApplication.libs/libKratosStructuralMechanicsCore-8e62d9c2.so,sha256=BFCt-gDZs2t3cwd0jU8j2GlUVY-gJwEqfqmbIAiyPTY,18406584
+KratosCSharpWrapperApplication.libs/libKratosCSharpWrapperCore-6e353f48.so,sha256=xamv048ud5AEbekgJ-ONs38Y-4TeEAj_9L5uommC2PI,6495544
