@@ -1,0 +1,3 @@
+[orange.widgets]
+MECODA = mecoda_orange
+
