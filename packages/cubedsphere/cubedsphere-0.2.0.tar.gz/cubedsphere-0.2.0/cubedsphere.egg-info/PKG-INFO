@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cubedsphere
+Version: 0.2.0
+Summary: Library for post processing of MITgcm cubed sphere data
+Home-page: https://github.com/AaronDavidSchneider/cubedsphere
+Author: Aaron David Schneider
+Author-email: aaron.schneider@nbi.ku.dk
+License: MIT
+Download-URL: https://github.com/AaronDavidSchneider/chemcomp/archive/0.1.3.zip
+Description: # cubedsphere
+        [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cubedsphere/badges/installer/conda.svg)](https://conda.anaconda.org/conda-forge) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cubedsphere/badges/license.svg)](https://anaconda.org/conda-forge/cubedsphere) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cubedsphere/badges/version.svg)](https://anaconda.org/conda-forge/cubedsphere) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cubedsphere/badges/platforms.svg)](https://anaconda.org/conda-forge/cubedsphere) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cubedsphere/badges/latest_release_date.svg)](https://anaconda.org/conda-forge/cubedsphere)
+        
+        Library for post processing of MITgcm cubed sphere data
+        
+        ## Capabilities:
+        - regrid cubed sphere datasets using [`xESMF`](https://xesmf.readthedocs.io/en/latest/) and [`xgcm`](https://xgcm.readthedocs.io/en/latest/)
+        - open datasets created by the [`mnc`](https://mitgcm.readthedocs.io/en/latest/outp_pkgs/outp_pkgs.html#netcdf-i-o-pkg-mnc) package (depreciated)
+        - open datasets using [`xmitgcm`](https://xmitgcm.readthedocs.io/en/latest/) 
+        - plot original cubed sphere data
+        - some more small utilities
+        - more to come...
+        
+        ## Note:
+        Work in progress! This library is a collection of tools that I found useful to use for the interpretation of cubed sphere data.
+        
+        ## Getting Started
+        To learn how to install and use `cubedsphere` for your dataset, visit the [`cubedsphere` documentation](https://cubedsphere.readthedocs.io/en/latest).
+        
+        ## Credits
+        Many of the methods come from: https://github.com/JiaweiZhuang/cubedsphere
+        
+        I would especially like to thank [@rabernat](https://github.com/rabernat) for providing  [`xgcm`](https://xgcm.readthedocs.io/en/latest/) and [@JiaweiZhuang](https://github.com/JiaweiZhuang) for providing [`xESMF`](https://xesmf.readthedocs.io/en/latest/).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
