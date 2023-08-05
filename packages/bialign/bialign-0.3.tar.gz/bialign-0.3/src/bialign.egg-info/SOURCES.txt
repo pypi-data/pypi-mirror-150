@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bialign.py
+src/bialign_triplet.py
+src/bialignment.c
+src/bialignment_nonpyx.py
+src/bialign.egg-info/PKG-INFO
+src/bialign.egg-info/SOURCES.txt
+src/bialign.egg-info/dependency_links.txt
+src/bialign.egg-info/not-zip-safe
+src/bialign.egg-info/top_level.txt
