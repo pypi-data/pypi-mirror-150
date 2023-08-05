@@ -1,0 +1,12 @@
+LICENCE.txt
+README.md
+setup.py
+genealloy/__init__.py
+genealloy/codontable.py
+genealloy/genealloy.py
+genealloy/version.py
+genealloy.egg-info/PKG-INFO
+genealloy.egg-info/SOURCES.txt
+genealloy.egg-info/dependency_links.txt
+genealloy.egg-info/requires.txt
+genealloy.egg-info/top_level.txt
