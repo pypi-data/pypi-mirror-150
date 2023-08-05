@@ -1,0 +1,5 @@
+inferentia_hwm_pypi/inferentia_hwm/__init__.py
+inferentia_hwm_pypi/inferentia_hwm.egg-info/PKG-INFO
+inferentia_hwm_pypi/inferentia_hwm.egg-info/SOURCES.txt
+inferentia_hwm_pypi/inferentia_hwm.egg-info/dependency_links.txt
+inferentia_hwm_pypi/inferentia_hwm.egg-info/top_level.txt

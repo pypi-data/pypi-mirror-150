@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: inferentia_hwm
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Maintainer: Amazon Web Services, Inc.
+Maintainer-email: aws-neuron-support@amazon.com
+License: Proprietary
+Description: WRONG PACKAGE. Please install the package from Neuron Repository - pip.repos.neuron.amazonaws.com
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
