@@ -1,0 +1,11 @@
+lxml
+plone.app.z3cform
+plone.autoform>=1.0b2
+plone.base
+plone.registry>=1.0b1
+plone.supermodel>=1.1dev
+Products.statusmessages
+setuptools
+
+[test]
+plone.app.testing
