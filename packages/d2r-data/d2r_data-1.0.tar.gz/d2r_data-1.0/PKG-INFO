@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: d2r_data
+Version: 1.0
+Summary: Data extractor for D2R
+Home-page: UNKNOWN
+Author: Aimware0
+Author-email: <mail@neuralnine.com>
+License: UNKNOWN
+Description: 
+        # d2r_data
+Keywords: python,D2,D2R,Diablo II Resurrected,Diablo II,Diablo 2 Resurrected,Diablo 2
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
