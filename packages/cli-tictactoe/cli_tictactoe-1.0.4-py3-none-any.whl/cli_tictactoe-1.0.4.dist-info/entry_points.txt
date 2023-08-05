@@ -1,0 +1,3 @@
+[console_scripts]
+ttt = cli_tictactoe.scripts.run:run_game
+

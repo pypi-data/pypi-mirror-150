@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cli-tictactoe
+Version: 1.0.4
+Summary: A module to simulate a TicTacToe game
+Home-page: https://github.com/HugoValim/TicTacToe
+Author: Hugo Campos
+Author-email: hugohvlcampos96@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
+# This in my README!
+
+
