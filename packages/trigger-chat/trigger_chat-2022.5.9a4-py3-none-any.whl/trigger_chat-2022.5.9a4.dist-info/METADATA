@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: trigger-chat
+Version: 2022.5.9a4
+Summary: Trigger est une application permettant de faciliter la rencontre de personnes souhaitant débattre des idées opposées.
+Home-page: https://github.com/vanoud/Trigger-project
+Author: Trigger Team
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/vanoud/Trigger-project/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: Flask-SocketIO (>=4.3.2)
+Requires-Dist: eventlet
+Requires-Dist: pymongo
+Requires-Dist: flask-login
+Requires-Dist: Werkzeug (>=2.0.1)
+
+# Trigger, vous allez aimer vous détester
+
+Trigger est une application permettant de faciliter la rencontre de personnes souhaitant débattre des idées opposées.
+
+Equipe : Florent, Marco, Piero, Thomas, Wallid.
+
+Trigger est un projet réalisé dans le cadre de la formation Admin Production Cloud dispensée par m2i Formation & Semifir.
+
+## Pour installer le projet
+
+* Cloner le dépôt :
+```
+git clone https://github.com/vanoud/Trigger.git
+```
+
+* Depuis le répertoire du projet, créer un environnement virtuel :
+```
+py -3 -m venv venv
+```
+
+* Activer l'environnement virtuel nouvellement créé :
+```
+venv\Scripts\activate
+```
+
+* Installer Flask et autres dépendances :
+```
+pip install -r requirements.txt
+```
+
+## Pour lancer le projet
+
+* Se placer dans le répertoire du projet
+
+* Activer l'environnement virtuel nouvellement créé :
+```
+venv\Scripts\activate
+```
+
+* Lancer flask:
+```
+flask run
+```
+
+* Depuis un navigateur, se connecter à [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+
