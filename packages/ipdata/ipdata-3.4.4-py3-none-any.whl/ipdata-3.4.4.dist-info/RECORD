@@ -1,0 +1,16 @@
+ipdata/__init__.py,sha256=neB7crl8RVwIq1H86Hrh2PKnOsv8op8AmZFOXCqKrzI,44
+ipdata/cli.py,sha256=e17fM0GTIK8Y26Q4pyVLs7bzdDVKAQNlUyUUvVKNv5I,12123
+ipdata/ipdata.py,sha256=2vOgLC5vBrF0uVMYh2bSy0iQ9X_jDlm_dy3R5aOYeU8,3728
+ipdata/test_cli.py,sha256=AKaYBKWwBIGggfhwhUrj9b5fpLGe4ClAk5EaTtF1Pfs,4481
+ipdata/test_ipdata.py,sha256=qM1zkJ6ANOUkMiy1_tx4gNiZbOwM6hONA5_qpVYL2eY,1242
+ipdata/__pycache__/__init__.cpython-310.pyc,sha256=UiSpBREN9XZ969dLbXO-x2pQ52VLsdd3KQR92zeuUF8,192
+ipdata/__pycache__/cli.cpython-310.pyc,sha256=vdTsJjg25jIJ1W8glnPonlugptHSPCdpIM30kNFsrxQ,11416
+ipdata/__pycache__/ipdata.cpython-310.pyc,sha256=-JoH7Co3NNJCbcd_m6t37iRre28rKRynGUWD8cHk8qM,3132
+ipdata/__pycache__/test_cli.cpython-310.pyc,sha256=4IfMkstmcUrZWjT6TnY4S3EF6lYVGIjO5kbTVdXU9wE,3404
+ipdata/__pycache__/test_ipdata.cpython-310.pyc,sha256=C_gEr3h0WHAytUPd0qQ_YpzQw6r282x_50qD8k4vbos,1449
+ipdata-3.4.4.dist-info/LICENSE.txt,sha256=6rYomtggVGoE6Hn49Ml9L28aw6GLLkxboC17Ed1sDgg,1049
+ipdata-3.4.4.dist-info/METADATA,sha256=EkJxFHL9c6Jl2jIEw3DwH0mMDyEiqR4ASPZhFvF_WI8,13902
+ipdata-3.4.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ipdata-3.4.4.dist-info/entry_points.txt,sha256=HFAjKh7tjH9fWsI1fyJpqjAO7i9Ygx0F9g0C3LMpOtY,43
+ipdata-3.4.4.dist-info/top_level.txt,sha256=-ISDy2FJGomfZ_9XdCECRlGaGI1ZaGs8d7Eyee6MKro,7
+ipdata-3.4.4.dist-info/RECORD,,
