@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ExtractTransformLoad/__init__.py
+basic_ETL_functions.egg-info/PKG-INFO
+basic_ETL_functions.egg-info/SOURCES.txt
+basic_ETL_functions.egg-info/dependency_links.txt
+basic_ETL_functions.egg-info/top_level.txt

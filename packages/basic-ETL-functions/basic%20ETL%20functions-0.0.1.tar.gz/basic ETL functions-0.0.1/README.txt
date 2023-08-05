@@ -1,0 +1,1 @@
+These are repeating functions required to perform the ETL process for the Existing and Future customer points.

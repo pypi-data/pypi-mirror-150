@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: basic ETL functions
+Version: 0.0.1
+Summary: Contains functions that help in the geocoding, formating, and creating points and services portfolios.
+Home-page: UNKNOWN
+Author: Abhinav Agrawal
+Author-email: abhinav.agrawal@integralanalytics.com
+License: MIT
+Description: These are repeating functions required to perform the ETL process for the Existing and Future customer points.
+        
+        Chane Log
+        =========
+        
+        0.0.1 (05/03/2022)
+        -------------------
+        - First Release
+Keywords: ETL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
