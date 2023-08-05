@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: quantml
+Version: 0.0.4
+Summary: Algorithmic Trading using Machine Learning
+Home-page: https://github.com/markgacoka/quantml
+Author: Gacoka Mbui, Stevedavies Ndegwa
+Author-email: markgacoka@gmail.com, stevedaviesndegwa@gmail.com
+License: MIT
+Keywords: algorithmic trading,Crypto,Quantitative Finance,trading bot
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Algorithmic Trading using Machine Learning
+```
+# Installation
+pip install quantml
+
+# Usage
+Usage: quantml [command]
+quantml bitcoin
+
+                                 Open  ...  Ignore
+Open time                              ...
+2022-04-29 20:30:00+00:00 38525.80000  ...       0
+2022-04-29 20:35:00+00:00 38504.90000  ...       0
+2022-04-29 20:40:00+00:00 38543.50000  ...       0
+2022-04-29 20:45:00+00:00 38519.99000  ...       0
+2022-04-29 20:50:00+00:00 38540.12000  ...       0
+...                               ...  ...     ...
+2022-05-09 20:05:00+00:00 31309.00000  ...       0
+2022-05-09 20:10:00+00:00 31420.90000  ...       0
+2022-05-09 20:15:00+00:00 31834.17000  ...       0
+2022-05-09 20:20:00+00:00 31504.99000  ...       0
+2022-05-09 20:25:00+00:00 31539.30000  ...       0
+
+[2880 rows x 11 columns]
+```
+
+
