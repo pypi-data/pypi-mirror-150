@@ -1,0 +1,8 @@
+setup.py
+oneid_sdk.egg-info/PKG-INFO
+oneid_sdk.egg-info/SOURCES.txt
+oneid_sdk.egg-info/dependency_links.txt
+oneid_sdk.egg-info/requires.txt
+oneid_sdk.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
