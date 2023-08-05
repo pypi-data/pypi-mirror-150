@@ -1,0 +1,8 @@
+pandas
+numpy
+datetime
+scipy
+seaborn
+matplotlib
+seaborn_qqplot
+plotly

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mcbizmod/DistP.py
+mcbizmod/MCBizMod.py
+mcbizmod/__init__.py
+mcbizmod.egg-info/PKG-INFO
+mcbizmod.egg-info/SOURCES.txt
+mcbizmod.egg-info/dependency_links.txt
+mcbizmod.egg-info/not-zip-safe
+mcbizmod.egg-info/requires.txt
+mcbizmod.egg-info/top_level.txt
