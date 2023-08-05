@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: dls-pmaccontrol
+Version: 3.0.1b3
+Summary: Delta Tau pmac control utility
+Home-page: https://github.com/dls-controls/dls-pmac-control
+Author: Ulrik Kofoed Pederson
+Author-email: giles.knap@diamond.ac.uk
+Maintainer: Giles Knap
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: dls-pmaclib (>=3.0.1-beta1)
+Requires-Dist: numpy
+Requires-Dist: pyqt5
+Requires-Dist: pythonqwt
+Requires-Dist: mock
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort (>5.0) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme-github-versions ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: setuptools-scm[toml] (>=6.2) ; extra == 'dev'
+Requires-Dist: types-mock ; extra == 'dev'
+Requires-Dist: types-paramiko ; extra == 'dev'
+
+dls-pmac-control
+===========================
+
+|code_ci| |docs_ci| |coverage| |pypi_version| |license|
+
+The dls_pmaccontrol package is a python application which provides a GUI front 
+end to control the DeltaTau PMAC, Power PMAC and Geobrick motor control systems.
+
+
+============== ==============================================================
+PyPI           ``pip install dls-pmac-control``
+Source code    https://github.com/dls-controls/dls_pmaccontrol
+Documentation  https://dls-controls.github.io/dls-pmac-control
+Releases       https://github.com/dls-controls/dls_pmaccontrol/releases
+============== ==============================================================
+
+
+.. |code_ci| image:: https://github.com/dls-controls/dls_pmaccontrol/workflows/Code%20CI/badge.svg?branch=master
+    :target: https://github.com/dls-controls/dls_pmaccontrol/actions?query=workflow%3A%22Code+CI%22
+    :alt: Code CI
+
+.. |docs_ci| image:: https://github.com/dls-controls/dls_pmaccontrol/workflows/Docs%20CI/badge.svg?branch=master
+    :target: https://github.com/dls-controls/dls_pmaccontrol/actions?query=workflow%3A%22Docs+CI%22
+    :alt: Docs CI
+
+.. |coverage| image:: https://codecov.io/gh/dls-controls/dls_pmaccontrol/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/dls-controls/dls_pmaccontrol
+    :alt: Test Coverage
+
+.. |pypi_version| image:: https://img.shields.io/pypi/v/dls-pmac-control.svg
+    :target: https://pypi.org/project/dls-pmac-control
+    :alt: Latest PyPI version
+
+.. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+    :target: https://opensource.org/licenses/Apache-2.0
+    :alt: Apache License
+
+..
+    Anything below this line is used when viewing README.rst and will be replaced
+    when included in index.rst
+
+See https://dls-controls.github.io/dls-pmac-control for more detailed documentation.
+
+
