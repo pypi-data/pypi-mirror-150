@@ -1,0 +1,77 @@
+my_matth1
+=======
+
+#### Esse é um pacote que ira fornecer um conjunto de funções para operações matemáticas.
+
+## Funções que o pacote oferece:
+
+
+```
+• Função para arredondar um número para baixo
+• Função para arredondar um número para cima
+• Função para calcular raiz quadrada e mostrar seu gráfico
+• Função para calcular a potenciação
+• Função para calcular o seno e mostrar seu gráfico
+• Função para calcular o cosseno e mostrar seu gráfico
+• Função para calcular a tangente e mostrar seu gráfico
+• Função para calcular o fatorial
+• Função para calcular equações do 2° grau e mostrar seu gráfico
+• Função para calcular a função logaritmica de um numero natural
+ e mostrar seu gráfico
+• Função para converter um número para binário
+```
+
+## Instalação:
+
+  ` pip install my_matth1 `
+  
+## Uso:
+
+```
+from my_matth1 import My_mat
+
+• Função para arredondar um número para baixo:
+
+    (variavél) = My_mat.embaixo(valor)
+
+• Função para arredondar um número para cima:
+
+    (variavél) = My_mat.emcima(valor)
+
+• Função para calcular raiz quadrada e mostrar seu gráfico:
+
+    (variavél) = My_mat.raiz(valor)
+
+• Função para calcular a potenciação:
+
+    (variavél) = My_mat.potencia(base, exp)
+
+• Função para calcular o seno e mostrar seu gráfico:
+
+    (variavél) = My_mat.seno(valor)
+
+• Função para calcular o cosseno e mostrar seu gráfico:
+
+    (variavél) = My_mat.cosseno(valor)
+
+• Função para calcular a tangente e mostrar seu gráfico:
+
+    (variavél) = My_mat.tangente(valor)
+
+• Função para calcular o fatorial:
+
+    (variavél) = My_mat.fatorial(valor)
+
+• Função para calcular equações do 2° grau e mostrar seu gráfico:
+
+    (variavél) = My_mat.equa(a, b, c)
+
+• Função para calcular a função logaritmica de um numero natural
+e mostrar seu gráfico:
+
+    (variavél) = My_mat.loga(numero, base)
+
+• Função para converter um número para binário:
+
+    (variavél) = My_mat.binario(valor)
+```

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/my_matth1/My_mat.py
+src/my_matth1/__init__.py
+src/my_matth1.egg-info/PKG-INFO
+src/my_matth1.egg-info/SOURCES.txt
+src/my_matth1.egg-info/dependency_links.txt
+src/my_matth1.egg-info/top_level.txt
