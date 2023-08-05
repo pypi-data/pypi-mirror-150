@@ -1,0 +1,14 @@
+matlab_kernel/__init__.py,sha256=_2ihdFBTG4C-bTXkmuCsDMD2POft1cfI1uBPBcq01n8,58
+matlab_kernel/__main__.py,sha256=R4vgDQyAXCRel-bjwXhNqQY5rSVXMNjifL87mWDa9kM,95
+matlab_kernel/check.py,sha256=CKGRR2PvzS8jfEpIFhgE1fRVhR8-A-4f5pAwxBKDRMo,566
+matlab_kernel/kernel.py,sha256=MW7y2sVFpAjtkGGDeAzScoNV__JzlJ6MygD6DSatUHg,10993
+matlab_kernel/kernel_template.json,sha256=7k2qJkfSIs9eiyttBUy_15JvAMyAi8pLgf9kzGYQi4U,197
+matlab_kernel/matlab/kernel.json,sha256=e0PCKg620cX-F1SUxeWc10mHL4eibFrOnhau5g7XvhY,165
+matlab_kernel/matlab_connect/kernel.json,sha256=LEdHlkcdLSmZdD0Ca99OE1UVKl9AKUz-Ev5ysHLp_SE,230
+matlab_kernel-0.17.1.data/data/share/jupyter/kernels/matlab/kernel.json,sha256=e0PCKg620cX-F1SUxeWc10mHL4eibFrOnhau5g7XvhY,165
+matlab_kernel-0.17.1.data/data/share/jupyter/kernels/matlab_connect/kernel.json,sha256=LEdHlkcdLSmZdD0Ca99OE1UVKl9AKUz-Ev5ysHLp_SE,230
+matlab_kernel-0.17.1.dist-info/LICENSE.txt,sha256=rC-D-HosiOuurvuv-lhTR9CkkuPfS6axiSpOqMK_sMw,2639
+matlab_kernel-0.17.1.dist-info/METADATA,sha256=ugVkMoMmNCL1Zk2xMS5n1gNwPcQYAesNv3ZQPq7ur64,4013
+matlab_kernel-0.17.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matlab_kernel-0.17.1.dist-info/top_level.txt,sha256=2MCyDMeJtUZ_MTiILxj5tPlCpUL5cCpYiNqSHpv77FM,14
+matlab_kernel-0.17.1.dist-info/RECORD,,
