@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: galaxy-importer
+Version: 0.4.4
+Summary: Galaxy content importer
+Home-page: https://github.com/ansible/galaxy-importer
+Author: Red Hat, Inc.
+Author-email: info@ansible.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: ansible-core
+Requires-Dist: ansible-builder (<2.0,>=1.0.1)
+Requires-Dist: ansible-lint (<7.0,>=5.0.8)
+Requires-Dist: attrs (<22,>=21.2.0)
+Requires-Dist: bleach (<4,>=3.3.0)
+Requires-Dist: bleach-allowlist (<2,>=1.0.3)
+Requires-Dist: flake8 (<4,>=3.9.2)
+Requires-Dist: markdown (<4,>=3.3.4)
+Requires-Dist: pyyaml (<6,>=5.4.1)
+Requires-Dist: requests (<3,>=2.25.1)
+Requires-Dist: semantic-version (<3,>=2.8.5)
+Provides-Extra: dev
+Requires-Dist: black (>=21.7b0) ; extra == 'dev'
+Requires-Dist: GitPython (>=3.1.20) ; extra == 'dev'
+Requires-Dist: pyfakefs (<5,>=4.4.0) ; extra == 'dev'
+Requires-Dist: pytest (<7,>=6.2.4) ; extra == 'dev'
+Requires-Dist: pytest-cov (<3,>=2.11.1) ; extra == 'dev'
+Requires-Dist: pytest-mock (<4,>=3.6.1) ; extra == 'dev'
+Requires-Dist: towncrier ; extra == 'dev'
+
+UNKNOWN
+
