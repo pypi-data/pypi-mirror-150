@@ -1,0 +1,3 @@
+[console_scripts]
+histostats_plotter = nb_hdr_plotter.histostats_quick_plotter:main
+nb_hdr_plotter = nb_hdr_plotter.hdr_tool:main

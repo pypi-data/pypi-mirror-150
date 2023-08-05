@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/nb_hdr_plotter/__init__.py
+src/nb_hdr_plotter/hdr_manipulation.py
+src/nb_hdr_plotter/hdr_tool.py
+src/nb_hdr_plotter/histostats_quick_plotter.py
+src/nb_hdr_plotter/output_handling.py
+src/nb_hdr_plotter/tools.py
+src/nb_hdr_plotter.egg-info/PKG-INFO
+src/nb_hdr_plotter.egg-info/SOURCES.txt
+src/nb_hdr_plotter.egg-info/dependency_links.txt
+src/nb_hdr_plotter.egg-info/entry_points.txt
+src/nb_hdr_plotter.egg-info/requires.txt
+src/nb_hdr_plotter.egg-info/top_level.txt
