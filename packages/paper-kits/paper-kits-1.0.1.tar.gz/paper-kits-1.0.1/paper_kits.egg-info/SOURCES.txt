@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+paper_kits.egg-info/PKG-INFO
+paper_kits.egg-info/SOURCES.txt
+paper_kits.egg-info/dependency_links.txt
+paper_kits.egg-info/requires.txt
+paper_kits.egg-info/top_level.txt
+paperkits/__init__.py
