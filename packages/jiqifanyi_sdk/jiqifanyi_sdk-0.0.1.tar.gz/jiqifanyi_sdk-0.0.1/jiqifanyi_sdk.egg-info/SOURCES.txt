@@ -1,0 +1,8 @@
+setup.py
+jiqifanyi_sdk.egg-info/PKG-INFO
+jiqifanyi_sdk.egg-info/SOURCES.txt
+jiqifanyi_sdk.egg-info/dependency_links.txt
+jiqifanyi_sdk.egg-info/requires.txt
+jiqifanyi_sdk.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
