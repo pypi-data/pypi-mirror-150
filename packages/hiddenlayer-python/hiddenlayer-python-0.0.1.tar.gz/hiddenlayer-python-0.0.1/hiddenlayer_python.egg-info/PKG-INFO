@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hiddenlayer-python
+Version: 0.0.1
+Summary: HiddenLayer
+Home-page: https://www.github.com/hiddenlayersec/hiddenlayer-python
+Author: HiddenLayer
+Author-email: contact@hiddenlayer.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HiddenLayer
+
+    HiddenLayer's python tools and clients
+
+
+
