@@ -1,0 +1,7 @@
+Cython>=0.29.14
+xxhash
+requests>=2.24.0
+numpy
+xgboost==1.4.2
+orjson
+svix-ksuid
