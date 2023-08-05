@@ -1,0 +1,122 @@
+
+[tool.poetry]
+authors = ["Brian Kanya <briankanya@gmail.com>"]
+description = "Pulumi ComponentResource for running PufferPanel on GCP"
+name = "pulumi-gcp-pufferpanel"
+version = "0.1.0"
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+]
+documentation = "https://pulumi-gcp-pufferpanel.readthedocs.io"
+homepage = "https://github.com/briankanya/pulumi-gcp-pufferpanel"
+keywords = ["csgo", "minecraft", "pufferpanel"]
+readme = "README.md"
+repository = "https://github.com/briankanya/pulumi-gcp-pufferpanel"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/briankanya/pulumi-gcp-pufferpanel/issues"
+
+[tool.poetry.dependencies]
+python = "<4,>=3.7"
+pulumi-gcp = "^6.23.0"
+
+[tool.poetry.dev-dependencies]
+Flask = "^2.0.2"
+bandit = "1.7.2"
+black = "^22.3"
+bump2version = "^1.0.1"
+coverage = {version = "^6.2", extras = ["toml"]}
+darglint = "^1.8.0"
+flake8 = "^3.9.2"
+flake8-annotations = "^2.7.0"
+flake8-bandit = "^2.1.2"
+flake8-blind-except = "^0.2.0"
+flake8-bugbear = "^21.11.29"
+flake8-builtins = "^1.5.3"
+flake8-docstrings = "^1.6.0"
+flake8-logging-format = "^0.6.0"
+flakehell = "^0.9.0"
+google-api-python-client-stubs = "^1.9.0"
+google-cloud-dns = "^0.34.0"
+invoke = "^1.6.0"
+isort = "^5.10.1"
+mypy = "^0.921"
+pre-commit = "^2.16.0"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+recommonmark = "^0.7.1"
+safety = "^1.10.3"
+sphinx = "^4.3.2"
+types-Flask = "^1.1.6"
+watchdog = {version = "^2.1.6", extras = ["watchmedo"]}
+xdoctest = "^1.0.0"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["pulumi_gcp_pufferpanel"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "if self.debug",
+  "if settings.DEBUG:",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if 0:",
+  "if __name__ == __main__:",
+]
+fail_under = 80
+show_missing = true
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+[tool.flakehell]
+docstring-convention = "google"
+extended_default_ignore = []
+format = "grouped"
+max_line_length = 99
+show_source = true
+
+[tool.flakehell.plugins]
+darglint = ["+*"]
+"flake8-*" = ["+*"]
+mccabe = ["+*"]
+pycodestyle = ["+*"]
+pyflakes = ["+*"]
+
+[tool.flakehell.exceptions."src/"]
+flake8-annotations = ["-ANN101"]
+
+[tool.flakehell.exceptions."tests/"]
+flake8-annotations = ["-ANN101"]
+flake8-bandit = ["-S101"]
+
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+known_third_party = ["invoke", "nox"]
+line_length = 99
+multi_line_output = 3
+use_parentheses = true
+
+[tool.black]
+line-length = 99
+target-version = ["py37"]
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
