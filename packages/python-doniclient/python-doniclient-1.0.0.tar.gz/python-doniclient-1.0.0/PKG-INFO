@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-doniclient
+Version: 1.0.0
+Summary: This is a plugin for the openstack commandline client, to enable support for the Doni hardware inventory project
+Home-page: https://github.com/ChameleonCloud/python-doniclient
+License: Apache-2.0
+Author: Chameleon Cloud
+Author-email: contact@chameleoncloud.org
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (<=5.4.1)
+Requires-Dist: keystoneauth1 (>=4.4.0)
+Requires-Dist: osc-lib (<=2.4.2)
+Requires-Dist: python-dateutil (<=2.8.2)
+Requires-Dist: python-openstackclient[cli] (<=5.6.0)
+Project-URL: Repository, https://github.com/ChameleonCloud/python-doniclient
+Description-Content-Type: text/markdown
+
+# python-doniclient
+
+Client for Chameleon Registration Service
+
+
+
