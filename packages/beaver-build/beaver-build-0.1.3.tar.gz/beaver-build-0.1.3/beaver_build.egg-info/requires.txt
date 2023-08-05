@@ -1,0 +1,12 @@
+aiohttp
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-argparse
+
+[tests]
+flake8
+pytest
+pytest-cov
+twine

@@ -1,0 +1,3 @@
+[console_scripts]
+beaver = beaver_build.cli:__main__
+
