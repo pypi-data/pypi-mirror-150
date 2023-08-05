@@ -1,0 +1,2 @@
+PyQt5>=5.8
+python-get-absolute-resource-path>=0.0.1
