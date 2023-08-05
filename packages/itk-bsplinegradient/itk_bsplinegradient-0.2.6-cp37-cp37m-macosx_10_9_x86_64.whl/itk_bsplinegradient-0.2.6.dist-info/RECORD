@@ -1,0 +1,12 @@
+itk_bsplinegradient-0.2.6.dist-info/RECORD,,
+itk_bsplinegradient-0.2.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_bsplinegradient-0.2.6.dist-info/WHEEL,sha256=dVaE8boSvAsaWuT-mIwHIolzKRGVN47MyEuSepi3C9Q,103
+itk_bsplinegradient-0.2.6.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_bsplinegradient-0.2.6.dist-info/METADATA,sha256=tfeHgbzRAQJoVbBWvfUV15UfKWGhWHIfIMtSWJHqKJA,1437
+itk/itkImageToPointSetFilterPython.py,sha256=TamjzLiMR48NbmOZOxkU2c46MtbiD1my_ogeRu3SWyM,39852
+itk/BSplineGradientPython.py,sha256=CnrYmZPqp9d7Cei0jQX36UZCvnA82QLD1IymYy5T3CA,2480
+itk/_BSplineGradientPython.so,sha256=GfVSBgz6zD9Ysx0rG-zur0vEH8g67d9DodA_vTMS-94,4707584
+itk/itkBSplineGradientImageFilterPython.py,sha256=qI6qYKcycCwnVoVvrHrGXzxki0H5hCCAc3h_yPS7qXc,45438
+itk/Configuration/BSplineGradient_snake_case.py,sha256=ZD2ZGSPZzCQuouKBVwN6sJFxLzv_ut3fxdZDyQAZYec,89
+itk/Configuration/BSplineGradientConfig.py,sha256=g0j575vQuExsuow-vaGHgl7FZpIpvme4T9xMD122tM0,4878
+itk/.dylibs/libtbb.12.3.dylib,sha256=MSZbu6sGJ04ReL_0b72XtWowiSQgR1mQeMWnj2C41vc,387664
