@@ -1,0 +1,10 @@
+ailib/__init__.py,sha256=-3c3UfoDrldzbQSxWp4IWoOWD-ctfTyYixWclprx-o8,57393
+ailib/cli.py,sha256=80lsKWnM7FF8XWshk62CE93h9RXm3yv2WMB3fGg3w9Y,54289
+ailib/common/__init__.py,sha256=_CEyIOeQASJy60GlR_E67EFrWuUiBsCy3yWm575iX8Y,3232
+ailib/common/registries.conf.templ,sha256=s2d8IdYqjevLQtrOC0zO8SY3a5BcESDhJ7-VubcpUQM,748
+ailib/redfish/__init__.py,sha256=EnfRR3ukxcqfSh-JgHxSps9kcIhoS3_PO_MA5E7XSpE,4624
+aicli-99.0.202205091944.202103111306.dist-info/METADATA,sha256=LE2sLElsJ9hRJpY4cXNqkg_HMa6RsAS_AGEbH2EIuX4,384
+aicli-99.0.202205091944.202103111306.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aicli-99.0.202205091944.202103111306.dist-info/entry_points.txt,sha256=fxbM0zpCMtyyr5DtHLO8eMB8oUVL_4BAjCdiJrOVnV4,59
+aicli-99.0.202205091944.202103111306.dist-info/top_level.txt,sha256=uCyBeu-We3_G6jzv4SY05Rg3VHcZ2_Dr7dcFduB8Wsw,6
+aicli-99.0.202205091944.202103111306.dist-info/RECORD,,
