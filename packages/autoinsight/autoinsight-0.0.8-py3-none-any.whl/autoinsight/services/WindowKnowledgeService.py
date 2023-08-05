@@ -1,0 +1,110 @@
+import os
+import platform
+from functools import partial
+from multiprocessing import Process
+from typing import Dict
+
+from pywinauto import Desktop, WindowSpecification, Application
+
+from .KnowledgeServiceBase import KnowledgeServiceBase
+from autoinsight.common.models.Knowledge import Knowledge
+from autoinsight.ident.AutomationTyping import AutomationInstance
+from autoinsight.common.EnumTypes import OSTypes
+
+
+class WindowKnowledgeService(KnowledgeServiceBase):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.knowledge.append(Knowledge(alias=["windowscamera",
+                                               "windowscamera.exe",
+                                               "camera",
+                                               "camera.exe",
+                                               "microsoft.windows.camera"],
+                                        launch=_launchCamera))
+
+        self.knowledge.append(Knowledge(alias=["control panel"],
+                                        launch=_launchControlPanel))
+
+        self.knowledge.append(Knowledge(alias=["settings"],
+                                        launch=_launchSettings))
+
+        self.knowledge.append(Knowledge(alias=["calc", "calc.exe", "calculator"],
+                                        launch=_launchCalc))
+
+        self.knowledge.append(Knowledge(alias=["media player", "wmplayer.exe", "mediaplayer"],
+                                        launch=_launchMediaPlayer))
+
+    def recognize(self, cmdline: str) -> AutomationInstance:
+        knowledge = None
+        if cmdline:
+            cmdline = cmdline.lower()
+            for k in self.knowledge:
+                if cmdline in k.alias:
+                    knowledge = k
+                    break
+
+        if knowledge:
+            return knowledge.launch(knowledge)
+
+    def __repr__(self):
+        pass
+
+    def __str__(self):
+        pass
+
+    def wait(self, timeoutSeconds: int = 0):
+        pass
+
+
+def _task(commandline: str):
+    os.system(commandline)
+
+
+def _worker(commandline: str, k: Knowledge):
+    p = Process(target=partial(_task, commandline), args=k.arguments)
+    p.start()
+
+
+def _waitWindow(criteria: Dict[str, str]) -> AutomationInstance:
+    window = WindowSpecification(criteria)
+    # TODO add magic numbers into global configuration
+    window.wait("exists visible ready", timeout=30, retry_interval=3)
+    return window
+
+
+def _launchCamera(k: Knowledge) -> AutomationInstance:
+    _worker('cmd /C "start microsoft.windows.camera: "', k)
+    return _waitWindow({"backend": "uia", "best_match": "Camera"})
+
+
+def _launchControlPanel(k: Knowledge) -> AutomationInstance:
+    _worker('control.exe', k)
+    if _isWindow11():
+        return _waitWindow({"backend": "uia", "best_match": r"Control Panel\All Control Panel Items"})
+    else:
+        return _waitWindow({"backend": "uia", "best_match": r"Control Panel"})
+
+
+def _launchSettings(k: Knowledge) -> AutomationInstance:
+    pass
+
+
+def _launchCalc(k: Knowledge) -> AutomationInstance:
+    Application(backend="uia").start('calc.exe')
+
+    return Desktop(backend="uia").Calculator
+
+
+def _launchMediaPlayer(k: Knowledge) -> AutomationInstance:
+    path = rf'"{os.environ["HOMEDRIVE"]}\Program Files\Windows Media Player\wmplayer.exe"'
+    _worker(path, k)
+    return _waitWindow({"backend": "uia", "best_match": "Windows Media Player"})
+
+
+def _isWindow11() -> bool:
+    if OSTypes.fromStr(platform.system()) == OSTypes.Windows:
+        version = int(platform.version().split(".")[-1])
+        return version >= 22000
+    else:
+        return False
