@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+compositional_attention_pytorch/__init__.py
+compositional_attention_pytorch/compositional_attention_pytorch.py
+compositional_attention_pytorch.egg-info/PKG-INFO
+compositional_attention_pytorch.egg-info/SOURCES.txt
+compositional_attention_pytorch.egg-info/dependency_links.txt
+compositional_attention_pytorch.egg-info/requires.txt
+compositional_attention_pytorch.egg-info/top_level.txt
