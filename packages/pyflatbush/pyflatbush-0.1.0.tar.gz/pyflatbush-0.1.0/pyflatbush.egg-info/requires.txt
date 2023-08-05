@@ -1,0 +1,9 @@
+numpy
+
+[build]
+numpy
+Cython
+
+[test]
+pytest
+flatbush
