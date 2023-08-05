@@ -1,0 +1,14 @@
+degit/EthereumClient.py,sha256=TmQIpx5cKLcypx0QUhT6fvNvltYtnIdaM_5TXC0cKNk,8007
+degit/__init__.py,sha256=iC7EfgKR7GyJGP5yXuhVrkZfnv71yEELU42YmWklkis,70
+degit/degit.py,sha256=Nb4qDScj4WEUf_APjbDXAhjXgxjgMe-jIoqXRjf4AYw,20206
+degit/demo.py,sha256=5ss02ucIwy5pvkUeWjX3Q5WGN-9gMSITr0_3W4cchqc,43
+degit/main.py,sha256=lmMdoqBzTK83u0E0ziMVSPSivSkdPnFY4qIit_quhnE,4008
+degit/utils.py,sha256=sgangxtJS08EXMRekw0IAfB5wxv7LjjryH4uCv-qIkk,2201
+degit/compiled_contracts/repository_abi.json,sha256=9aQbY2XDvEbykZMrGn6717L7bXL2v_lstQhvGjeLqig,1925
+degit/compiled_contracts/repository_bytecode.txt,sha256=Vx182NPczwjE4W2SxmSM4-NchoadSk3hEEdKH2l31e8,11648
+degit-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+degit-0.0.1.dist-info/METADATA,sha256=ZM2qq1oR3yEkZIy_hBFPtBgICejJjmpZ9mM3Pysw_lc,3549
+degit-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+degit-0.0.1.dist-info/entry_points.txt,sha256=U71iHowJtRqF5HtQEsdckGqGrOWwFi_v4QtE7oW83w4,42
+degit-0.0.1.dist-info/top_level.txt,sha256=ONHEK8WdN6nY87A3EuiKbHcsl3GW2tnrSvIEbgTaLUM,6
+degit-0.0.1.dist-info/RECORD,,
