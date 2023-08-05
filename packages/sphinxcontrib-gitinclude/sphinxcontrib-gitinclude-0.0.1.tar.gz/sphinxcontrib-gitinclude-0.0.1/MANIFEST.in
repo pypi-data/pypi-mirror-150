@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+recursive-exclude .github *
+recursive-exclude test *
+recursive-include src *.py
+recursive-include example *.rst *.py
