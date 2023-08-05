@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+requestual.egg-info/PKG-INFO
+requestual.egg-info/SOURCES.txt
+requestual.egg-info/dependency_links.txt
+requestual.egg-info/requires.txt
+requestual.egg-info/top_level.txt
