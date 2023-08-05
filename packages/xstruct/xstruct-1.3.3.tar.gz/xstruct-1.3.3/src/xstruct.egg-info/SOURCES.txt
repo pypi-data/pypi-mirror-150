@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xstruct.py
+src/xstruct.egg-info/PKG-INFO
+src/xstruct.egg-info/SOURCES.txt
+src/xstruct.egg-info/dependency_links.txt
+src/xstruct.egg-info/top_level.txt
