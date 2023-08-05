@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+dls_pmaclib/__init__.py
+dls_pmaclib/__main__.py
+dls_pmaclib/_version_git.py
+dls_pmaclib/cli.py
+dls_pmaclib/dls_pmaclib.py
+dls_pmaclib/dls_pmacremote.py
+dls_pmaclib/dls_pmcpreprocessor.py
+dls_pmaclib.egg-info/PKG-INFO
+dls_pmaclib.egg-info/SOURCES.txt
+dls_pmaclib.egg-info/dependency_links.txt
+dls_pmaclib.egg-info/requires.txt
+dls_pmaclib.egg-info/top_level.txt
