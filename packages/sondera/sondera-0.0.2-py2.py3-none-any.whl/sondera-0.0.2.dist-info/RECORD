@@ -1,0 +1,17 @@
+sondera/__init__.py,sha256=Ewwccvavwi675V9cS45D6eaitFTAtn7W9_CDfHXAR7c,122
+sondera/datatypes.py,sha256=yhoYsvid37RtMewOvmttBwaKdf3yndJnyvxzbcItSLk,2182
+sondera/exceptions.py,sha256=4VF4qSk22AryPu_bMrC0fFX8p2jCwIGldTJTtwF52Co,1521
+sondera/geo_utils.py,sha256=Tgu1ctS5o9r5LnzcHf4lI1go9AH9ug08_g-7rQoCrXg,2404
+sondera/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sondera/clients/parameters.py,sha256=UCJfPdwSq7_ZdD_OZMITjpKWEyTNVixcsh3TzSTPHNM,8630
+sondera/clients/sgu/__init__.py,sha256=URYa9js1BDHQvWlE2SuvtY9SbfeabRJF0i-YmJ1PLHY,44
+sondera/clients/sgu/groundwater.py,sha256=gLD_ESnbodeOSrcaGgSK3aW6c7-_vUBRaHsmfgrW4Jc,9150
+sondera/clients/smhi/__init__.py,sha256=735ToIxm7sqePIuPzfKb5HsUSeCxNS49Ax1Kpn5t_GI,164
+sondera/clients/smhi/hydroobs.py,sha256=l6zEBEEoauN3hkt1DCdfiSSUdPdqrJ-Hqy427asUXkc,2109
+sondera/clients/smhi/metobs.py,sha256=87kw5emaamzXDheKsy6wyuKgyRzkNaovizHDZ8R9YgY,18193
+sondera/clients/smhi/smhistrang.py,sha256=c8XjCndqDlKxJLVSqAnHB-5HeurPpCyH5uQWktIsZj0,747
+sondera-0.0.2.dist-info/LICENSE,sha256=ftm8EVLwjPJhoEGbdWpiPx0jqLMPKMiFm3b-AIKraUw,1103
+sondera-0.0.2.dist-info/METADATA,sha256=d24aQ9fpcM4MeUZVhsEcRnHoVu7Bg3wQhYbkWFs3lY4,4153
+sondera-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sondera-0.0.2.dist-info/top_level.txt,sha256=BR0X8Gq9CCpwbQg5evpQfy5zwp9fTuGnlJhXSNqQ_hA,8
+sondera-0.0.2.dist-info/RECORD,,
