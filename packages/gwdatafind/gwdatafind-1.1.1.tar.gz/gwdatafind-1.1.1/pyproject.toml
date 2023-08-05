@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.paths]
+source = [
+    "gwdatafind/",
+    "/usr/lib/python*/*-packages/gwdatafind/",
+    "/usr/local/lib/python*/*-packages/gwdatafind/",
+]
+
+[tool.coverage.run]
+source = ["gwdatafind"]
+
+[tool.pytest.ini_options]
+addopts = "-r a --color=yes"
+filterwarnings = [
+	"error",
+]
