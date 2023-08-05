@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: django-learning-log
+Version: 1.1
+Summary: A Django app to log on learning.
+Author: Niko He
+Author-email: zhengxiaoyang13@icloud.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=====
+Learning Log
+=====
+
+Learning Log is a Django app to track learning that provides users with action such as log in, register, create topic, and entries to that topic.\
+
+Detailed documentation is in the 'docs' directory.
+
+Quick start
+-----------
+
+1. Add 'learning_logs', 'users' and 'bootstrap4' to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'learning_logs',
+	    'users',
+    ]
+
+2. Include the learning_logs and users URLconf in your project urls.py like this::
+
+    path('', include(\'learning_logs.urls')),
+    path('users', include('users.urls')),
+
+3. Add ``LOGIN_URL = 'users:login'`` in settings.py
+
+3. Run ``python3 manage.py migrate`` to create the required models
+
+4. Start the development server with ``python3 manage.py runserver`` and visit http://127.0.0.1:8000 to start your Learning Log!
+
