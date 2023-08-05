@@ -1,0 +1,3 @@
+[console_scripts]
+rickdb = rick_db.cli.manage:main
+
