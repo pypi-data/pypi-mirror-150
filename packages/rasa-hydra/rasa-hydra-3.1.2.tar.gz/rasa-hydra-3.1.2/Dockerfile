@@ -1,0 +1,70 @@
+# Create common base stage
+FROM python:3.6-slim as base
+
+WORKDIR /build
+
+# Create virtualenv to isolate builds
+RUN python -m venv /build
+
+# Install common libraries
+RUN apt-get update -qq \
+ && apt-get install -y --no-install-recommends \
+    # required by psycopg2 at build and runtime
+    libpq-dev \
+     # required for health check
+    curl \
+ && apt-get autoremove -y
+
+# Make sure we use the virtualenv
+ENV PATH="/build/bin:$PATH"
+
+# Stage to build and install everything
+FROM base as builder
+
+WORKDIR /src
+
+# Install all required build libraries
+RUN apt-get update -qq \
+ && apt-get install -y --no-install-recommends \
+    build-essential \
+    wget \
+    openssh-client \
+    graphviz-dev \
+    pkg-config \
+    git-core \
+    openssl \
+    libssl-dev \
+    libffi6 \
+    libffi-dev \
+    libpng-dev
+
+# Copy only what we really need
+COPY README.md .
+COPY setup.py .
+COPY setup.cfg .
+COPY MANIFEST.in .
+COPY requirements.txt .
+COPY LICENSE.txt .
+
+# Install dependencies
+RUN pip install -U pip && pip install --no-cache-dir -r requirements.txt
+
+# Install Rasa as package
+COPY rasa ./rasa
+RUN pip install .[sql]
+
+# Runtime stage which uses the virtualenv which we built in the previous stage
+FROM base AS runner
+
+# Copy virtualenv from previous stage
+COPY --from=builder /build /build
+
+WORKDIR /app
+
+COPY rasa-app-data /app/rasa-app-data
+COPY Makefile /app/
+COPY credentials.yml /app/
+
+EXPOSE 5005
+
+CMD ["make", "serve"]

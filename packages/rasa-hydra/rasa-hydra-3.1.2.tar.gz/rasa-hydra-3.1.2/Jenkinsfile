@@ -1,0 +1,60 @@
+pipeline {
+    agent {
+        label 'kubernetes-docker'
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+        gitLabConnection('gitlab.vailsys.com')
+        gitlabCommitStatus(name: 'jenkins')
+        retry(3)
+    }
+
+    environment {
+        DOCKER_REGISTRY_URL = 'https://shipyard-dev.vail'
+    }
+
+    triggers {
+        gitlab(triggerOnPush: true, triggerOnMergeRequest: true, branchFilterType: 'All')
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    unitTestImage = docker.build("shipyard-dev.vail/versay/rasa-hydra-unit-tests", "-f docker/Dockerfile.unitTests .")
+                }
+            }
+        }
+
+        stage('Tests') {
+            steps {
+                script {
+                    unitTestImage.withRun("-e PYTHONIOENCODING=utf-8") { c ->
+                         sh "docker logs -f ${c.id}"
+                         sh "docker cp ${c.id}:/build/results $WORKSPACE"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: "**/results/*"
+            junit "**/results/unitTests.xml"
+        }
+
+//         unstable {
+//             mail to: 'ctai@versay.com',
+//             subject: "Failed Pipeline: CUE AI/RasaHydraUnitTests}",
+//             body: "Something is unstable with ${env.BUILD_URL}. Unit tests for rasa-hydra was not completed successfully."
+//         }
+//
+//         failure {
+//             mail to: 'ctai@versay.com',
+//             subject: "Failed Pipeline: CUE AI/RasaHydraUnitTests",
+//             body: "Something is wrong with ${env.BUILD_URL}. Unit tests for rasa-hydra was not completed successfully."
+//         }
+    }
+}

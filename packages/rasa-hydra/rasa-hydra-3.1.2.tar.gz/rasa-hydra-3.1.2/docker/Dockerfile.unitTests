@@ -1,0 +1,14 @@
+FROM shipyard.vail/python:3.7
+
+RUN yum -y install gcc gcc-c++ wget git make && yum clean all
+
+# Copy as early as possible so we can cache ...
+WORKDIR /build
+COPY . .
+
+ENV PIP_USE_PEP517=false
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r requirements-dev.txt
+RUN pip install --no-cache-dir -e .
+
+CMD ["make", "test-jenkins"]
