@@ -1,0 +1,10 @@
+pyflatbush-0.1.0.dist-info/WHEEL,sha256=pfhjag4-d_Mdnoq0kvuT9UBn9CnXMYMpmQd_LOB5Bk0,112
+pyflatbush-0.1.0.dist-info/top_level.txt,sha256=1wB5wmFvpc23XEDGjZIs2fTuCssnSVDD2Bs_YZvV_zA,11
+pyflatbush-0.1.0.dist-info/METADATA,sha256=pK8j8lmv9U5fPwQgbPNii1fv30OM9-WRlZ-2BSL5nR8,1096
+pyflatbush-0.1.0.dist-info/RECORD,,
+pyflatbush-0.1.0.dist-info/LICENSE,sha256=0Jqx3VwPUHyD4JAz3I71A83UVw88pk2BzRxcrsoJk7I,1068
+pyflatbush/flatbush.c,sha256=EZPcDvyKTa8SezOHaY9mvkOmjcr1l1wTUv0hawNUVSY,1292375
+pyflatbush/flatbush.cpython-37m-x86_64-linux-gnu.so,sha256=erTGADQncZMNsO-nySSkHLdgFwnpJ50y8n1IH-MMC0A,1691824
+pyflatbush/flatbush.pyx,sha256=Cdazjms2I8mnjzA3RLmvfKh9Feh-qOb8PBNFNOItSTs,17305
+pyflatbush/__init__.py,sha256=mu9F7R8tQzWOLDc4QtPr0o6Gv0wltl0lQXOWnGs7_FY,162
+pyflatbush/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
