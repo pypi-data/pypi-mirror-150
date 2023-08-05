@@ -1,0 +1,13 @@
+jinja2
+bleach
+
+[android_backup]
+pycryptodome
+javaobj-py3
+
+[crypt12]
+pycryptodome
+
+[crypt15]
+pycryptodome
+javaobj-py3
