@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+trigger_chat.egg-info/PKG-INFO
+trigger_chat.egg-info/SOURCES.txt
+trigger_chat.egg-info/dependency_links.txt
+trigger_chat.egg-info/requires.txt
+trigger_chat.egg-info/top_level.txt
