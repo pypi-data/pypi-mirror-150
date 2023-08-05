@@ -1,0 +1,3 @@
+[console_scripts]
+sne=sphinx_needs_enterprise.scripts.cli:cli
+
