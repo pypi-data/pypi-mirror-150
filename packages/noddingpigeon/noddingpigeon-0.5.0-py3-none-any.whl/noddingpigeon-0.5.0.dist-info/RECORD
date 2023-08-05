@@ -1,0 +1,12 @@
+noddingpigeon/__init__.py,sha256=A2dCc3Oayuwtue3jU3myqU6D0Fh_UcACwrb2e8H8Q64,142
+noddingpigeon/_download.py,sha256=XYPfFzdQeio3lxVavzQgiXsX0EnZUZ43lJHSxGDyFek,839
+noddingpigeon/config.py,sha256=mePaGK6X87lPh0csN5iudx9nY0zcSPHImg_1r39YRVA,477
+noddingpigeon/inference.py,sha256=4f7QkBoGRn0P_l8UqtxFUihMaAKJHPwTvoQwUZ0UVyY,2411
+noddingpigeon/model.py,sha256=NWXc5yfU0-lGCDDtT_lKqFOg4MZvlKyK0RCcVYCe0Ro,2623
+noddingpigeon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noddingpigeon/video.py,sha256=15gbGb5k5u9myUanmDBeO6LH80wja85Blwo5WxgzpTI,5188
+noddingpigeon-0.5.0.dist-info/LICENSE,sha256=tMrtflzADXIHkMP0xXjHY80Vvf0i6bvidwHXAO6GQ7o,1067
+noddingpigeon-0.5.0.dist-info/METADATA,sha256=8LCDl-vxg3PADxP4wDhfcCsIUfhPDBYIT-6OvN7wA30,6997
+noddingpigeon-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+noddingpigeon-0.5.0.dist-info/top_level.txt,sha256=jcF9vsRsszp8VAPoyRuNUnHBGquvN3RF_rrqeZqmQ40,14
+noddingpigeon-0.5.0.dist-info/RECORD,,
