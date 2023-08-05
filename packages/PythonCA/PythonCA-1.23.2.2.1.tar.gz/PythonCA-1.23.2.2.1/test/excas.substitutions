@@ -1,0 +1,19 @@
+# 
+file excas.db {
+    pattern { NAME, scan ,start}
+       { "fred", "2 second","0.7" }
+        { "freddy", "2 second","0.8" }
+        { "jane", ".1 second","0.7" } #faster scan rate(<0.5 sec) may cause memory crash at exit.
+        { "janet",".1 second","0.8" }
+        { "boot", "1 second","0.5" }
+        { "booty", "1 second","0.6" }
+        { "bill", "1 second","0.7" }
+        { "billy", "1 second","0.8" }
+
+}
+file excasw.db {
+    pattern { NAME, scan ,nelm}
+        { "alan", "2 second" ,"100"}
+        { "albert", "2 second" ,"1000"}
+        { "bloaty", "5 second" ,"1000000"}
+}
