@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PDF4Cat
+Version: 0.0.2
+Summary: PDF4Cat Simple and Power tool for processing pdf docs using pikepdf
+Home-page: https://github.com/BlackCatDevel0per/PDF4Cat
+Author: bcdev
+Author-email: bcdev@mail.ru
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BlackCatDevel0per/PDF4Cat/issues
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pikepdf
+
+# PDF4Cat
+PDF4Cat Simple and Power tool for processing pdf docs using pikepdf
+
+# Planing add
+## PDF:
+- [X] Merge
+- [X] Split
+- [ ] Protect & Unlock
+- [ ] Compress
+- [ ] Edit Pages
+- [ ] Delete Pages
+- [ ] Extract Pages
+- [ ] Rotate
+
+## Other things
+
