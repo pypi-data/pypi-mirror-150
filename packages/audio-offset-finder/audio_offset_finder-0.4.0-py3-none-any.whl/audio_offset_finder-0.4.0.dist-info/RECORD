@@ -1,0 +1,11 @@
+audio_offset_finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_offset_finder/audio_offset_finder.py,sha256=FSiSY21GYt3u-pobbmjUKCoCEL_3blA5huBjuiutvkU,3733
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/audio_offset_finder_test.py,sha256=HfORBESlMmj8t3e-omeaBgqw5ybi3JSoG92YzEl1MWA,4962
+audio_offset_finder-0.4.0.dist-info/AUTHORS,sha256=pkKuUE0cdY6bTpLWmmt_CjF9-T2VZEuo2Z2KxwEPSiU,221
+audio_offset_finder-0.4.0.dist-info/COPYING,sha256=rW_FZN5hKQT6T3HUV16u78WRwcq1jd6OUNpMC6LttN0,11645
+audio_offset_finder-0.4.0.dist-info/METADATA,sha256=cYKpGNg-luTuW6QrbKtNg1scBiViHkdsdwHt0abHcLE,2746
+audio_offset_finder-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+audio_offset_finder-0.4.0.dist-info/entry_points.txt,sha256=Y28PnKWVqu-34xQs-NWkOw26Ui0LkdiT9Xe9TdhCgP8,81
+audio_offset_finder-0.4.0.dist-info/top_level.txt,sha256=gN0QOX2krgdl9XwIWf2AOeFV_E8sA9C_G_pIpB2JXis,26
+audio_offset_finder-0.4.0.dist-info/RECORD,,
