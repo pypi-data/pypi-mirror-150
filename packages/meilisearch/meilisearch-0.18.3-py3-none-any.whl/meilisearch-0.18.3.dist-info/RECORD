@@ -1,0 +1,14 @@
+meilisearch/__init__.py,sha256=6y5pMlGlNgTQ-spxz3k0Z2-30gV-CihC16gF5LZVBAw,88
+meilisearch/_httprequests.py,sha256=Ohj5JARZcy9qWs5MPQpNgvEaQW2Kd29YWYU12da-V0E,3388
+meilisearch/client.py,sha256=yg4W6ooRqIGnGOD1aI-8fItEYZEM8ZtmlD_MUYPghxI,18937
+meilisearch/config.py,sha256=tI3DUSY8qjNEmaNEB1GKDjGAjboTNvDk0i19T1Ojnuk,1335
+meilisearch/errors.py,sha256=v6KyM2qYDYyQWnLM7Cs_Fzz424KNkCE5Hc-GC0BVGoA,1655
+meilisearch/index.py,sha256=Z2XfpvZT1N_WGvBK49id9zWRVbrA2wxbq3VoultH4yk,46090
+meilisearch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meilisearch/task.py,sha256=EcgZQpuPzJ_3PeSVdaxMAP39rn644bz00ludtCGrvPE,3404
+meilisearch/version.py,sha256=KE8zvfsR2T8tctyh0X_NxePVgI416IAXNhBnw7nDy8A,159
+meilisearch-0.18.3.dist-info/LICENSE,sha256=YNdF6tE6mZFNPzTMgT4Xe8y4IHS0hsXncN9mfX_9i-M,1071
+meilisearch-0.18.3.dist-info/METADATA,sha256=8kbZtqu11dUTM8ko8MDXO4q30dTdSKmzEaix4NdxzJI,8416
+meilisearch-0.18.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+meilisearch-0.18.3.dist-info/top_level.txt,sha256=tJiQZo57Pw3_N7Oiufd33uXxmD8MFJhpF_yL_f7h-G0,12
+meilisearch-0.18.3.dist-info/RECORD,,
