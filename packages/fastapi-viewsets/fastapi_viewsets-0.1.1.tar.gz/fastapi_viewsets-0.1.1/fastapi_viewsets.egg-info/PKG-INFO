@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fastapi-viewsets
+Version: 0.1.1
+Summary: Package for creating endpoint
+Home-page: http://example.com
+Author: Alexander Valenchits
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
