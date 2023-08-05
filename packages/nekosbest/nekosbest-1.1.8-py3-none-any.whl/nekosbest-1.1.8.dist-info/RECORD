@@ -1,0 +1,11 @@
+nekosbest/__init__.py,sha256=fbbiGoZ_6z9cg4VdbKql1SZ-4bvhZyefXpqk0FcYJsM,1022
+nekosbest/client.py,sha256=9ktgfknqWiixTsCZ4m9ODzCPvsea3J44nRCNQcqqf80,1827
+nekosbest/errors.py,sha256=1rvqwBJL8s2rkdiRREq8gceRAbK4wuu9J1Dp9Y4eFu8,1131
+nekosbest/http.py,sha256=K8WCHZApRhKuWcI5BGDYy7uMDh5FD-RXsCFTX4ghiHQ,1897
+nekosbest/models.py,sha256=Hz6BhE4Cf-hWiAz7w9vXviXU1Z6jGER3rwZwzC7rSpg,2451
+nekosbest/types.py,sha256=RjUVMZX9jEZUSbnRcc4ebK4KOvNFKOlKwTjkZ7kYgGQ,1026
+nekosbest-1.1.8.dist-info/LICENSE,sha256=MNnUL6WOnqm8r2icrDIi2SoLRHkqwGD_8ua6K4-FvJU,34478
+nekosbest-1.1.8.dist-info/METADATA,sha256=b0wVFnMUT7WBqUhh8-9cju2EyvdrizYOXKpzp86AGwc,2947
+nekosbest-1.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nekosbest-1.1.8.dist-info/top_level.txt,sha256=JezkNIclHmPG10VHnMHHfKXLW9kIfUndeNxmy9X-65I,10
+nekosbest-1.1.8.dist-info/RECORD,,
