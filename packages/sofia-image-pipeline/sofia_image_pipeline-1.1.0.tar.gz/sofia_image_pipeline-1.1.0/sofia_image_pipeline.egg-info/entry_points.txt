@@ -1,0 +1,3 @@
+[console_scripts]
+sofia_image_pipeline = src.image_pipeline:main
+

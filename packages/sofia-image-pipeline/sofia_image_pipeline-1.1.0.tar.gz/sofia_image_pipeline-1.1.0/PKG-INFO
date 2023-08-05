@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sofia_image_pipeline
+Version: 1.1.0
+Summary: SIP takes a SoFiA generated source catalog and produce images for publication or quick inspection. Images include HI contours overlaid on multiwavelength images, HI moment maps, pixel-by-pixel SNR maps, pv-diagrams with SoFiA mask, and spectra with and without noise.
+Home-page: https://github.com/kmhess/SoFiA-image-pipeline
+Author: Kelley M. Hess
+Author-email: kmhess.astro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
