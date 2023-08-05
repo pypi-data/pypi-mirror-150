@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+data-eng-helper/__init__.py
+data-eng-helper/analytics.py
+data_eng_helper.egg-info/PKG-INFO
+data_eng_helper.egg-info/SOURCES.txt
+data_eng_helper.egg-info/dependency_links.txt
+data_eng_helper.egg-info/top_level.txt
