@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gdwrapper
+Version: 0.0.3
+Summary: A Python API for Geometry Dash
+Home-page: UNKNOWN
+Author: Rylixmods SFC
+Author-email: rylixmods@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
