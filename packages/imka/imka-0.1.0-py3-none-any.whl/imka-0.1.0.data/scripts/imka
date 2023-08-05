@@ -1,0 +1,5 @@
+#!python
+import imka.command
+
+if __name__ == "__main__":
+    imka.command.main()
