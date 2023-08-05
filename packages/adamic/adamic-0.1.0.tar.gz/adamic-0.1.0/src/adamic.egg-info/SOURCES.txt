@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/adamic/__init__.py
+src/adamic/adamic.py
+src/adamic.egg-info/PKG-INFO
+src/adamic.egg-info/SOURCES.txt
+src/adamic.egg-info/dependency_links.txt
+src/adamic.egg-info/requires.txt
+src/adamic.egg-info/top_level.txt
