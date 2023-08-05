@@ -1,0 +1,17 @@
+nafas/__init__.py,sha256=Z8kvf27yNIUxtJLU-zwUirmu7L4ZXZ90P4uc_OlFLmQ,112
+nafas/__main__.py,sha256=tEOjkTanFFOU0UySF6Za3o4I18UvPzPT0N0DNGYTVm8,912
+nafas/functions.py,sha256=VIp-zK8n_Ad9g2Sb37YPAV3bQOuzZF7XUFM2yJj-vwA,9063
+nafas/params.py,sha256=eDa7JuY9Jw2E1FRGmTV4Vv0ED_XYULEfe9uCLOLfknc,7319
+nafas/sounds/exhale.wav,sha256=ZvAVR7_dXHFzdWU6NvAsaFH2QC8zMpNX1kzLU5gdHco,28878
+nafas/sounds/inhale.wav,sha256=u9jg7RQEXBpph6cTmHIcHX3qdDXy6IJfe2h4CKdkX2w,26574
+nafas/sounds/preparing.wav,sha256=7ykOLyZzF16dXQ547d8LZor7gJ8OVt57JuwJipwJ8Xg,32334
+nafas/sounds/retain.wav,sha256=wbQdtWORjcpcO4Ecjjo3_dk8D8N_c04POGO3joIn7F4,27726
+nafas/sounds/start.wav,sha256=RcMyhh9TXdhEQiLHyaPxioWWB4mdHjDeAz1fMFkciJg,28878
+nafas/sounds/sustain.wav,sha256=HG0wxhoqFV89sg06ASBc-9Ws4OV0V8mVNQP_opGKQt4,30030
+nafas/sounds/well_done.wav,sha256=X1X9MKpHmmcZmPWJAKcfK6Aq09S51LVIPHBtLoQQBPs,31182
+nafas-0.5.dist-info/AUTHORS.md,sha256=KzELDvIr08U1TO3hbU6LPwRUJi16lPEELCjU0G9un6E,330
+nafas-0.5.dist-info/LICENSE,sha256=I6j2MfQVwI9YGitC4R1xT8yL60uegmEaNkZbmaBlL7s,1106
+nafas-0.5.dist-info/METADATA,sha256=J2e37bIT7s1W-XMFGWYj7SPZaXyP9rOQYtdowm8sYSM,12553
+nafas-0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+nafas-0.5.dist-info/top_level.txt,sha256=qFzn9lHD2348zXUuH79iQzCzzPqHyddGROiHuQ4nwOg,6
+nafas-0.5.dist-info/RECORD,,
