@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+crecombio/__init__.py
+crecombio/crecombio.py
+crecombio/version.py
+crecombio.egg-info/PKG-INFO
+crecombio.egg-info/SOURCES.txt
+crecombio.egg-info/dependency_links.txt
+crecombio.egg-info/requires.txt
+crecombio.egg-info/top_level.txt
