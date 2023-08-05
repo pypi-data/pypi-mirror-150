@@ -1,0 +1,10 @@
+DailyTrends/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+DailyTrends/collect.py,sha256=FxjyL9aJ1Q_Oa2D4LMG7vUucIMC5od3gHR4-SlxFb6M,843
+DailyTrends/request.py,sha256=wy2on2lr-YWQpf0IPNTvWIM92yv0pFsw9wQ7qFprMfU,3990
+DailyTrends/rescale.py,sha256=karKxuq7SYV20dJGpnchxUHlsXvg7_pLNPPcrvL-xFM,1888
+DailyTrends/test_rescaler.py,sha256=T6wzgWqrTRTT15PmG85oWB1aGoIVg7UY_Z-7qk5COXI,1238
+DailyTrends-5.0.dist-info/LICENSE,sha256=0MUXIdFLLUcBw-86y2p1MHU0LHVScf1_Td2_f8LlCrU,564
+DailyTrends-5.0.dist-info/METADATA,sha256=zApK1dQ7cQO0Vxd57KVa_MEQJrrZew8AR-Oi1Pe3c-4,3292
+DailyTrends-5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DailyTrends-5.0.dist-info/top_level.txt,sha256=vGwdiZY1wK01FBtaCQ9SuGGIUKcA3Hh_cKHm_NZ1-K8,12
+DailyTrends-5.0.dist-info/RECORD,,
