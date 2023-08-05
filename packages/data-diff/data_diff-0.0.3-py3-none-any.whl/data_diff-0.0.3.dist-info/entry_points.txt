@@ -1,0 +1,3 @@
+[console_scripts]
+data_diff=data_diff.__main__:main
+
