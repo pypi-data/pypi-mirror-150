@@ -1,0 +1,13 @@
+databind/core/__init__.py,sha256=wAxkK8w13vqoF47A8iqWdSlIgRRXmZiQ0R4wePZfzhs,22
+databind/core/context.py,sha256=bSAa3A8Jufn8dzkcADYT8g6GHIIyQNYAB0BG8CI49j4,5233
+databind/core/converter.py,sha256=TBrKZo54tsgtVYkugu-lo3mN_bohBQZ0Jw3wD8UU8AI,3664
+databind/core/dataclasses.py,sha256=LSbDfK1TcmsADioufYjTieqWJ-7SFWWm21VM5N-Zh1Q,4098
+databind/core/dataclasses.pyi,sha256=5EnzZfuLUFBbGRy1N2XHaBuLxXoZnP9t1tCykf1CrY4,7120
+databind/core/mapper.py,sha256=4cosO4CTvDmWf9lRibnK8C45XVADTI7so8UaaMLEy6g,4309
+databind/core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databind/core/schema.py,sha256=rLSdr_Aaeen-u17geW--cAkP5x8BCToaSKZ4xGsGZQU,12985
+databind/core/settings.py,sha256=fWbGkKXz3Gl_lnXpGPHeJ9fYvUAgzBTcJX1R3ygpxf0,26455
+databind/core/union.py,sha256=8EsS712tjtE8hkZVRcpDPvxkeVxsOFuUgX-OYRAIDAU,8725
+databind.core-2.0.1.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+databind.core-2.0.1.dist-info/METADATA,sha256=IfXNwra1jSTpP_ScJjsgrtsaL8kAe5feLDb7ITLnofs,2055
+databind.core-2.0.1.dist-info/RECORD,,
