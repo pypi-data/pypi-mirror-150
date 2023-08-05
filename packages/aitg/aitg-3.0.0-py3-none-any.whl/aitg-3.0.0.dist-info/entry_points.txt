@@ -1,0 +1,5 @@
+[console_scripts]
+aitg_cli=aitg.cli:main
+aitg_download_model=aitg.model:main
+aitg_srv=aitg.srv:main
+
