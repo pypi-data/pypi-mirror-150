@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: imka
+Version: 0.1.0
+Summary: A docker swarm package manager
+Home-page: https://github.com/byteplow/imka
+Author: byteplow
+Author-email: byteplow@posteo.de
+License: MIT License
+Project-URL: Source, https://github.com/byteplow/imka
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
