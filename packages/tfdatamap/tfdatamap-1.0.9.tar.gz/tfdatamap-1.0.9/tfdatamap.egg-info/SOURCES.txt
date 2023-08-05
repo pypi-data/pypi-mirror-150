@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+tfdatamap/__init__.py
+tfdatamap/callback.py
+tfdatamap/download.js
+tfdatamap/plot.py
+tfdatamap/selected.js
+tfdatamap.egg-info/PKG-INFO
+tfdatamap.egg-info/SOURCES.txt
+tfdatamap.egg-info/dependency_links.txt
+tfdatamap.egg-info/requires.txt
+tfdatamap.egg-info/top_level.txt
