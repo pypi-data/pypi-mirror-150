@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-ratings-underwave
+Version: 0.1.0
+Summary: Generic Ratings in Django
+Home-page: http://github.com/yacaeh/django-ratings
+Author: Yoonsoek Choi`
+Author-email: yacaeh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+
