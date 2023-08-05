@@ -1,0 +1,328 @@
+description: 'PubMed nbib parscival specification'
+identifier: 'pubmeb-nbib'
+author: 'martinec'
+version: '1.1.1'
+format: 'key-value'
+
+# PubMed Field Descriptions are avalable at
+# https://www.nlm.nih.gov/bsd/mms/medlineelements.html
+
+options:
+  # only process keys listed under 'keys:'
+  only_requested_keys: true
+
+grammar:
+  type: 'PEG'
+  record_separator: 'PMID-'
+  rules: |
+    dataset   =  document+
+    document  =  newline*
+                 record_start
+                 record_member+
+                 record_end
+
+    record_start  = key_start  key_sep value
+    record_member = key_member key_sep value
+    record_end    = key_end    key_sep value
+
+    key_start   = 'PMID'
+    key_member  = !key_start !key_end ~'[A-Z]+'
+    key_end     = 'SO'
+
+    key_sep     = whitespace? '-' whitespace?
+
+    value       = value_data
+                 (newline+ space value_data)*
+                  newline+
+
+    value_data  = ~'[^\n]+'
+
+    space       = ~' +'
+    whitespace  = ~'\s*'
+    newline     = ~'\n'
+
+keys:
+  AB: # Abstract
+    type: string
+    qualifier: optional
+  AD: # Affiliation
+    type: string
+    qualifier: repeated
+  AU: # Author
+    type: string
+    qualifier: repeated
+  AID: # Article Identifier
+    type: string
+    qualifier: repeated
+  CRDT: # Create Date
+    type: string
+    qualifier: optional
+  DCOM: # Date Completed
+    type: string
+    qualifier: optional
+  DP: # Date of Publication
+    type: date
+    qualifier: optional
+  FAU: # Full Author
+    type: string
+    qualifier: repeated
+  GR: # Grant Number
+    type: string
+    qualifier: optional
+  IP: # Issue
+    type: string
+    qualifier: optional
+  IS: # ISSN
+    type: string
+    qualifier: repeated
+  JT: # Journal Title
+    type: string
+    qualifier: optional
+  LA: # Language
+    type: string
+    qualifier: optional
+  MH: # MeSH Terms
+    type: string
+    qualifier: repeated
+  PG: # Pagination
+    type: string
+    qualifier: optional
+  PMID: # PubMed Unique Identifier
+    type: string
+    qualifier: required
+  PT: # Publication Type
+    type: string
+    qualifier: repeated
+  RN: # Registry Number/EC Number
+    type: string
+    qualifier: repeated
+  TA: # Journal Title Abbreviation
+    type: string
+    qualifier: optional
+  TI: # Title
+    type: string
+    qualifier: required
+  VI: # Volume
+    type: string
+    qualifier: optional
+  OT: # Other Term
+    type: string
+    qualifier: optional
+
+mappings:
+  # AB |-> Abstract
+  AB:
+    - target: 'Abstract'
+  # AD |-> Affiliation
+  AD:
+    - target: 'Affiliation'
+      rank: 'Author_name'
+      plugins:
+        # remove email addresses from affiliations
+        - mapping: 'regex_sub'
+          params:
+            regex: "\\s(Electronic address:?)?\
+                    \\s([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@\
+                    [A-Za-z0-9-]+\
+                    (\\.[A-Z|a-z-]{2,})+"
+            repl: ''
+        # split by ',' while increasing the parserank
+        - mapping: 'regex_ranker'
+          params:
+            regex: '\s*,\s*'
+        # trim trailing dots of each parsed rank
+        - mapping: 'regex_sub'
+          params:
+            regex: '\s*\.+\s*$'
+            repl: ''
+  # AU |-> Author
+  AU:
+    - target: 'Author'
+  # AID |-> doi
+  AID:
+    - target: 'doi'
+      plugins:
+        # map only string values ending with '[doi]' and if a value
+        # match, then keep the value without the '[doi]' tag
+        - mapping: 'regex_match_filter'
+          params:
+            regex: '^(.*)\s\[doi\]$'
+            value: '{{_[0]}}'
+  # CRDT |-> DateCreated
+  CRDT:
+    - target: 'DateCreated'
+      plugins:
+        # parse string as year with century as a decimal number (i.e YYYY)
+        - mapping: 'date_format'
+          params:
+            format: '%Y'
+  # DCOM |-> DateCompleted
+  DCOM:
+    - target: 'DateCompleted'
+      plugins:
+        # parse string as year with century as a decimal number (i.e YYYY)
+        - mapping: 'date_format'
+          params:
+            format: '%Y'
+  # DP |-> { ISIpubdate, PubDate }
+  DP:
+    - target: 'ISIpubdate'
+      plugins:
+        # convert invalid date strings of type 'YYYY Mth-Mth' e.g '2016 Sep-Oct'
+        # into 'YYYY Mth-Mth' e.g '2016 Sep'
+        - mapping: 'regex_format'
+          params:
+            regex: '\b([0-9]{4}\s[A-Z][a-z]{2})-[A-Z][a-z]{2}\b'
+            value: '{{_[0]}}'
+        # parse string as year with century as a decimal number (i.e YYYY)
+        - mapping: 'date_format'
+          params:
+            format: '%Y'
+            # as fallback keep only the first 4 characters
+            fallback: '{{ _[0][0:4] }}'
+    - target: 'PubDate'
+      plugins:
+        # convert invalid date strings of type 'YYYY Mth-Mth' e.g '2016 Sep-Oct'
+        # into 'YYYY Mth-Mth' e.g '2016 Sep'
+        - mapping: 'regex_format'
+          params:
+            regex: '\b([0-9]{4}\s[A-Z][a-z]{2})-[A-Z][a-z]{2}\b'
+            value: '{{_[0]}}'
+        # parse string as year with century as a decimal number (i.e YYYY)
+        - mapping: 'date_format'
+          params:
+            format: '%Y'
+            # as fallback keep only the first 4 characters
+            fallback: '{{ _[0][0:4] }}'
+  # FAU |-> { Author_firstname, Author_name }
+  FAU:
+    - target: 'Author_firstname'
+      plugins:
+        # this assumes that everything before the ',' is equal to
+        # the author's first name
+        - mapping: 'regex_format'
+          params:
+            regex: '^([^,]+),\s*(.*)$'
+            value: '{{_[0]}}'
+    - target: 'Author_name'
+  # GR |-> Grant
+  GR:
+    - target: 'Grant'
+  # IP |-> Issue
+  IP:
+    - target: 'Issue'
+  # IS |-> { ISSN, ISSNLinking }
+  IS:
+    - target: 'ISSN'
+    - target: 'ISSNLinking'
+  # JT |-> Journal
+  JT:
+    - target: 'Journal'
+  # LA |-> Language
+  LA:
+    - target: 'Language'
+  # MH |-> { MeshHeading, MeshHeading_Description }
+  MH:
+    - target: 'MeshHeading'
+      plugins:
+        # put the most significant term, identified with an asterisk (*), at the
+        # head of the list. Note that the resulting string is in lower case
+        - mapping: 'regex_format'
+          params:
+            regex: '^([^\*]*?)(/)?(\*[^/]+)?([^\*]*)$'
+            value: '{{_[2].lower()}}{{_[1]}}{{_[0].lower()}}{{_[3].lower()}}'
+        # split by '/' while increasing the parserank
+        - mapping: 'regex_ranker'
+          params:
+            regex: '/'
+    - target: 'MeshHeading_Description'
+      plugins:
+        # put the most significant term, identified with an asterisk (*), at the
+        # head of the list. Note that the resulting string is in lower case
+        - mapping: 'regex_format'
+          params:
+            regex: '^([^\*]*?)(/)?(\*[^/]+)?([^\*]*)$'
+            value: '{{_[2].lower()}}{{_[1]}}{{_[0].lower()}}{{_[3].lower()}}'
+        # split by '/' while increasing the parserank
+        - mapping: 'regex_ranker'
+          params:
+            regex: '/'
+  # PG |-> MedlinePgn
+  PG:
+    - target: 'MedlinePgn'
+  # PMID |-> PMID
+  PMID:
+    - target: 'PMID'
+  # PT |-> PublicationType
+  PT:
+    - target: 'PublicationType'
+  # RN |-> { Chemical, NameOfSubstance }
+  RN:
+    - target: 'Chemical'
+      plugins:
+      # map 'ID (Substance Name)' as 'ID', where ID is the unique
+      # 10-digit Unique Ingredient Identifiers (UNIIs) or the 5- to
+      # 9-digit number assigned by the Chemical Abstracts Service (CAS)
+      # Note that according to the MEDLINE/PubMed documentation, a ID equal
+      # to zero (0) is a valid value when an actual number cannot be located
+      # or is not yet available
+      - mapping: 'regex_match_filter'
+        params:
+          regex: '^([^\(]+) \((.+)\)$'
+          value: '{{_[0]}}'
+    - target: 'NameOfSubstance'
+      plugins:
+      # map 'ID (Substance Name)' as 'Substance Name'
+      - mapping: 'regex_match_filter'
+        params:
+          regex: '^([^\(]+) \((.+)\)$'
+          value: '{{_[1]}}'
+  # TA |-> ISOAbbreviation
+  TA:
+    - target: 'ISOAbbreviation'
+  # TI |-> ArticleTitle
+  TI:
+    - target: 'ArticleTitle'
+  # VI |-> Volume
+  VI:
+    - target: 'Volume'
+  # OT |-> Keywords
+  OT:
+    - target: 'Keywords'
+
+curation:
+  # before_mapping:
+    # [task_name]:
+    #   plugins
+    #     - [plugin_type]: '[name]'
+    #        params:
+    #         [param_name]: '[value]'
+
+  after_mapping:
+    # deduplicate the documents that have a given key repeted
+    deduplication:
+      plugins:
+        - filter: 'hash_key_deduplicator'
+          params:
+            hash_key: '{{PMID}}'
+
+outputs:
+
+  cortext.json:
+    plugins:
+      - transform: 'render_template'
+        params:
+          template: 'cortext.json.tpl'
+
+  cortext.sqlite:
+    plugins:
+      - transform: 'render_template'
+        params:
+          template: 'cortext.sqlite.tpl'
+
+  cortext.db:
+    plugins:
+      - transform: 'render_template'
+        params:
+          template: 'cortext.sqlite.tpl'
+      - transform: 'execute_sqlite_script'
