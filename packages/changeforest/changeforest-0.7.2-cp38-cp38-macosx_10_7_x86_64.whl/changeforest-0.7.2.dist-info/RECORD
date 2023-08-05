@@ -1,0 +1,7 @@
+changeforest-0.7.2.dist-info/METADATA,sha256=6xfXVIuYdTCHF22-fcaMgpSue8jdvxJsofadAii3474,5996
+changeforest-0.7.2.dist-info/WHEEL,sha256=MAFg01fI9HusDkFWeojLeUE88rvJyevrp0Nqy0lMSjc,104
+changeforest/plotting.py,sha256=FE3-sziTXJUIg0A0WPQkjRwV-uD6-PfGnVI2Kg-TnWI,6048
+changeforest/control.py,sha256=Xo10Pw9dMIPBsW0esXuFYcuOq7LeHdP-co5A-0rZJlQ,1780
+changeforest/__init__.py,sha256=kzu0wa1CQ3nKtuoIdhkNViMYeHQESC3wfbwYybXGMs8,218
+changeforest/changeforest.cpython-38-darwin.so,sha256=PWbca5W8zl0GPSyK5UaX5aZ6DmlAZEizZIK97fTq-KQ,1064080
+changeforest-0.7.2.dist-info/RECORD,,
