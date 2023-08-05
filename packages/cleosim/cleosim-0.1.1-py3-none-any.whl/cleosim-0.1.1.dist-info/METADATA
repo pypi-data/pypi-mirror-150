@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cleosim
+Version: 0.1.1
+Summary: Closed Loop, Electrophysiology, and Optogenetics Simulator: testbed and prototyping kit
+Home-page: https://cleosim.readthedocs.io
+License: MIT
+Author: Kyle Johnsen
+Author-email: kyle@kjohnsen.org
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bidict
+Requires-Dist: brian2 (>=2.4,<3.0,!=2.5.0.2)
+Requires-Dist: matplotlib (>=3.4,<4.0)
+Requires-Dist: nptyping (>=1.4.4,<2.0.0)
+Requires-Dist: numpy (>=1.16,<2.0)
+Requires-Dist: scipy
+Requires-Dist: tklfp (>=0.1,<0.2)
+Project-URL: Repository, https://github.com/kjohnsen/cleosim
+Description-Content-Type: text/markdown
+
+# `cleosim`: Closed Loop, Electrophysiology, and Optogenetics Simulator
+
+[![Test and lint](https://github.com/kjohnsen/cleosim/actions/workflows/test.yml/badge.svg)](https://github.com/kjohnsen/cleosim/actions/workflows/test.yml)
+[![Documentation Status](https://readthedocs.org/projects/cleosim/badge/?version=latest)](https://cleosim.readthedocs.io/en/latest/?badge=latest)
+
+Hello there! This package has the goal of making it easy to simulate electrode recording, optogenetics, and real-time input and output processing with the Brian 2 spiking neural network simulator. While `cleosim` was created to facilitate prototyping closed-loop control experiments, we hope the electrode and optogenetics components will be useful outside this scope for the broader community of Brian users.
+
+This package was developed by [Kyle Johnsen](https://kjohnsen.org) and Nathan Cruzado under the direction of [Chris Rozell](https://siplab.gatech.edu) at Georgia Institute of Technology.
+
+## Installation
+Just use pip:
+```
+pip install cleosim
+```
+
+## Usage
+[Read the docs!](https://cleosim.readthedocs.io)
