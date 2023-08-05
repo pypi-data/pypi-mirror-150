@@ -1,0 +1,14 @@
+.DS_Store
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+setup.py
+OrcidNormalizer/__init__.py
+OrcidNormalizer/main.py
+OrcidNormalizer.egg-info/PKG-INFO
+OrcidNormalizer.egg-info/SOURCES.txt
+OrcidNormalizer.egg-info/dependency_links.txt
+OrcidNormalizer.egg-info/not-zip-safe
+OrcidNormalizer.egg-info/top_level.txt
+test/test.py

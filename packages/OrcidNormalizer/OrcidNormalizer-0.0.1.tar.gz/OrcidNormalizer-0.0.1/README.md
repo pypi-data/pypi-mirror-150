@@ -1,0 +1,140 @@
+# 1. OrcidNormalizer
+
+Maintainer: taeger@dzd-ev.de  
+Status: RC1
+
+The purpose for this module is to normalize [ORCID](https://orcid.org/)s and bring them into a coherent (and thefore the official) ISNI format:
+
+http://orcid.org/0000-0000-0000-000(0/X)
+
+What is [ORCID](https://info.orcid.org/what-is-orcid/)?
+
+# 2. Table of content
+
+- [1. OrcidNormalizer](#1-orcidnormalizer)
+- [2. Table of content](#2-table-of-content)
+- [3. Introduction](#3-introduction)
+  - [3.1. Overview](#31-overview)
+  - [3.2. Problems](#32-problems)
+  - [3.3. Solution](#33-solution)
+- [4. Usage](#4-usage)
+  - [4.1 Install](#41-install)
+  - [4.2 Apply](#42-apply)
+  - [4.3 API](#43-api)
+    - [Orcid.uri - Uniform Resource Identifier](#orciduri---uniform-resource-identifier)
+    - [Orcid.urn - Uniform Resource Name](#orcidurn---uniform-resource-name)
+    - [Orcid.is_valid()](#orcidis_valid)
+    - [Orcid.RAISE_EXCEPTION_ON_UNPARSABLE_ORCID_STRING](#orcidraise_exception_on_unparsable_orcid_string)
+    - [Orcid.RETURN_VAL_ON_UNPARSABLE](#orcidreturn_val_on_unparsable)
+
+# 3. Introduction
+
+## 3.1. Overview
+
+This small python project is part of our [pipeline](https://git.connect.dzd-ev.de/dzdconnectpipeline/pipeline) to integrate a large number of PUBMED-articles (free database for medical journal articles etc.) into a database. ORCID stands for 'Open Researcher and Contributor ID' and is used to accurately connect an author to their work. This is usefull/important in cases where two or more researchers/scients share the same the name, which leads to the problem which author wrote which paper. 
+
+## 3.2. Problems
+
+When registering your article at PUBMED the ORCID-parameter is an optional textfield, which leads to multiple challenges. Due to the fact that we are dealing with user input everything is possible, from no numbers, to email addresses to abstracts etc. Therefore a tool to clean valid entries and skip invalid entries seems usefull.
+
+## 3.3. Solution
+
+For the sake of performance the tests that are performed on the entry are fairly simple and straight forward. 
+
+Remember: The officials ORCID consists of 16 digits in groups of 4 or 15 digits and an 'X' due to the checksum. If you are interested you can refer to the following documentaion: why ['X'](https://support.orcid.org/hc/en-us/articles/360053289173-Why-does-my-ORCID-iD-have-an-X-) and how to calculate the [checksum](https://support.orcid.org/hc/en-us/articles/360006897674-Structure-of-the-ORCID-Identifier)
+
+- If the input is not a string the input is invalid
+- If there are more than 16 digits in the input string the input is invalid
+- If there are 16 or more digits and an 'x' or 'X' **anywhere** in the input the input is invalid
+- If there is an 'x' or 'X' somewhere in the input the 'x'/'X' will be used as the checksum test (last digit) of the input
+- If there are less digits the input is padded left with 0s
+
+Input Examples 
+
+valid:
+
+- OrcidID("http://orcid.org/0000-0001-5000-0074") --> valid 
+- OrcidID("0001-5000-0074") --> valid, padded with 0s 
+- OrcidID("0001-5000-0074 peter123@net") --> vaild 15 digits + padding
+
+invalid (will raise ValueError):
+
+- OrcidID("http://orcid.org/0000-0001-5000-0074-0235") --> invalid, too many digits
+- OrcidID("http://orcid.org/0000-0001-5000-0074 pete123@mail.net") --> invalid, too many digits 
+- OrcidID("http://orcid.org/0000-0001-5000-0074X") --> invalid, too many digits and 'x'/'X' 
+- OrcidID(1234123412341234) --> invalid, input is not a string
+
+---
+
+The valid inputs will then be tested via checksum test (https://support.orcid.org/hc/en-us/articles/360006897674-Structure-of-the-ORCID-Identifier) 
+The chance of a false positive is 1 in 11
+
+
+
+# 4. Usage
+
+Requirements: 
+
+* Python3 with pip installed
+
+## 4.1 Install
+
+`pip3 install OrcidNormalizer`
+
+## 4.2 Apply
+Create an instance for every orcid id and normalize the input
+
+```python
+from OrcidNormalizer import Orcid
+
+id = OrcidID("0000000150000074")
+id.uri()
+
+> "https://orcid.org/0000-0001-5000-0074"
+```
+
+## 4.3 API
+
+### Orcid.uri - Uniform Resource Identifier
+
+Return the full [INSI](https://en.wikipedia.org/wiki/International_Standard_Name_Identifier) formated OCRID
+
+```python
+from OrcidNormalizer import Orcid
+
+id = Orcid("0000000150000074")
+id.uri()
+```
+> https://orcid.org/0000-0001-5000-0074
+
+
+### Orcid.urn - Uniform Resource Name
+
+Return the Uniform Resource Name part only
+
+```python
+from OrcidNormalizer import Orcid
+
+id = Orcid("0000000150000074")
+id.uri()
+```
+> 0000-0001-5000-0074
+### Orcid.is_valid()
+
+Does a checksum validation according to https://support.orcid.org/hc/en-us/articles/360006897674-Structure-of-the-ORCID-Identifier#checksum
+
+```python
+from OrcidNormalizer import Orcid
+
+id = Orcid("https://orcid.org/1-5000-0074")
+id.is_valid()
+```
+> True
+
+### Orcid.RAISE_EXCEPTION_ON_UNPARSABLE_ORCID_STRING
+
+If a string is unparsable `OrcidNormalizer`.`Orcid` will raise an exception. In large batch operations it can be conveineint to override this behaviour. Set to `False` to return `OrcidNormalizer`.`Orcid`.`RETURN_VAL_ON_UNPARSABLE` instead of raising an exception.
+
+### Orcid.RETURN_VAL_ON_UNPARSABLE
+
+See `Orcid`.`RAISE_EXCEPTION_ON_UNPARSABLE_ORCID_STRING`
