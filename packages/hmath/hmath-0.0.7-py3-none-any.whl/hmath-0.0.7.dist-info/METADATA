@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hmath
+Version: 0.0.7
+Summary: Hmath that can use advanced mathematical functions.
+Home-page: https://sites.google.com/view/hmath/home
+Author: caleb7023
+Author-email: caleb70230@egmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/caleb7023/hmath
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pmath
+
+Provides advanced mathematical terms.
+
+## Description
+
+It mainly provides mathematical functions.
+Complex numbers are also supported.
+producer : caleb7023
+
+### version
+
+v.0.0.1
+
