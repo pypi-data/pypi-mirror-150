@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/slf4py/__init__.py
+src/slf4py/set_logger.py
+src/slf4py.egg-info/PKG-INFO
+src/slf4py.egg-info/SOURCES.txt
+src/slf4py.egg-info/dependency_links.txt
+src/slf4py.egg-info/top_level.txt
