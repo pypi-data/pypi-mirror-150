@@ -1,0 +1,15 @@
+anytree
+nibabel
+click
+appdirs
+scikit-image
+requests
+memoization
+neuroglancer-scripts
+nilearn
+simple-term-menu
+pydantic==1.8.2
+fpdf
+
+[:python_version < "3.7"]
+importlib-resources
