@@ -1,0 +1,24 @@
+cookiecutter_python/__init__.py,sha256=pF8TnH2QJF8nfDmcD7oPTrAOnioy05dV4YmYDzkT5Es,22
+cookiecutter_python/cookiecutter.json,sha256=7aW1PZ8wvs7CdBvGGQjMWvcl3FIWGG3GmXY1FFmqdK0,708
+cookiecutter_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiecutter_python/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiecutter_python/hooks/post_gen_project.py,sha256=kMMvFpZuJpvGyW8CYzYygGFSyQKDRDczrFhs51vRiXY,4818
+cookiecutter_python/hooks/pre_gen_project.py,sha256=9dPe7jtULPe-S96XxUcy49Ep7kyMN5y-JWPipNeD_H8,5220
+cookiecutter_python/{{ cookiecutter.project_slug }}/CHANGELOG.rst,sha256=a36tu2N2ylr-XDtfrcBz88w9XfKHoqwn9DJdU2tImAM,1336
+cookiecutter_python/{{ cookiecutter.project_slug }}/CONTRIBUTING.md,sha256=4ygNK--vaYt6WrxBmW-KeAXN0lpaOGyiB4YozkGR6bs,7943
+cookiecutter_python/{{ cookiecutter.project_slug }}/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+cookiecutter_python/{{ cookiecutter.project_slug }}/MANIFEST.in,sha256=KeHRiluzdr2V7KSsyuD1gExIHYDbJ65YX3ROju84oAw,197
+cookiecutter_python/{{ cookiecutter.project_slug }}/README.rst,sha256=KyEz_2D6GXsRWVVruZQS7FCOBBozHkkKxgOYyOZiJZg,4206
+cookiecutter_python/{{ cookiecutter.project_slug }}/pyproject.toml,sha256=-5QCFtzjgdewZVcB7epFVaRyDTvyIoljyzvX0gQGoMQ,505
+cookiecutter_python/{{ cookiecutter.project_slug }}/.github/workflows/test.yaml,sha256=psFhVE5al2ATGuVEnT8pMicKhUw0WwA3l35ezPGWuMM,1182
+cookiecutter_python/{{ cookiecutter.project_slug }}/requirements/docs.txt,sha256=CiQ3KJDVrTxE1G1WIw4LDIUVJx0m4oRrvUJawC4od9Y,61
+cookiecutter_python/{{ cookiecutter.project_slug }}/requirements/rtd.txt,sha256=z1-BEyDZsKPYSVxBs85SmvCTCaO3cB6fuUAT1WHCCgY,61
+cookiecutter_python/{{ cookiecutter.project_slug }}/scripts/parse_version.py,sha256=JR-_RW6UHxs28ENLslIEXL3-6PBITM9G-zLwS75ZZ0o,2546
+cookiecutter_python/{{ cookiecutter.project_slug }}/src/{{ cookiecutter.pkg_name }}/__init__.py,sha256=jPyA-DUiRyGEiJSqvhV3i6GOHVfFL-yFZEbRe4HuKXk,43
+cookiecutter_python/{{ cookiecutter.project_slug }}/src/{{ cookiecutter.pkg_name }}/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiecutter_python/{{ cookiecutter.project_slug }}/tests/smoke_test.py,sha256=CkOLliclR89txCGI6OlgkfAUJv3lSG1KR47U-HR3hTk,134
+cookiecutter_python-0.9.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+cookiecutter_python-0.9.1.dist-info/METADATA,sha256=KU31ndX_Hd0rOiwaxD3-khTEjwh0GVdWyHFQyWpcu8c,11379
+cookiecutter_python-0.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cookiecutter_python-0.9.1.dist-info/top_level.txt,sha256=U_wDPl4NIMMpAhGtF-PMOzcuZ0U9gTCSNfMovfGEpM4,20
+cookiecutter_python-0.9.1.dist-info/RECORD,,
