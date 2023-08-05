@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: puma-hep
+Version: 0.0.0rc1
+Summary: Plotting API for HEP flavour tagging plots.
+Home-page: https://github.com/umami-hep/puma
+License: UNKNOWN
+Keywords: machine learning,flavour tagging,plots
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
