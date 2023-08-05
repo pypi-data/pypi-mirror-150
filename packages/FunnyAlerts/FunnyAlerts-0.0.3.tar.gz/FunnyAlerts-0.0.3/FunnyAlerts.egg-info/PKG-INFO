@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: FunnyAlerts
+Version: 0.0.3
+Summary: Funny alerts to prank a friends
+Home-page: UNKNOWN
+Author: Jan Kołodziej
+Author-email: jankolodziej04@gmail.com
+License: MIT
+Description: Library with funy alerts
+        
+        Chnage log
+        ===========
+        
+        0.0.1 (09/05/2022)
+        --------------------
+        - First Release
+        
+        0.0.2 (09/05/2022)
+        --------------------
+        - New alert
+        
+        0.0.3 (09/05/2022)
+        --------------------
+        - Repair issues
+Keywords: alerts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

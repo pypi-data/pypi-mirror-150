@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+FunnyAlerts/__init__.py
+FunnyAlerts.egg-info/PKG-INFO
+FunnyAlerts.egg-info/SOURCES.txt
+FunnyAlerts.egg-info/dependency_links.txt
+FunnyAlerts.egg-info/top_level.txt
