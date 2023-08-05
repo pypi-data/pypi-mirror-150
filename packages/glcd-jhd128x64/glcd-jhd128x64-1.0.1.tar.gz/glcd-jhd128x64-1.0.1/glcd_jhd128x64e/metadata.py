@@ -1,0 +1,8 @@
+name = "glcd-jhd128x64"
+version = "1.0.1"
+description = "A simple library for controlling JHD128X64E GLCDs"
+license = "MIT"
+author = "Eldho K K"
+author_email = "eldho.kuriakose@factana.com"
+url = "https://github.com/factana/glcd-jhd128x64e-ks0108"
+keywords = "library glcd display ks0108 interface raspberrypi factana"

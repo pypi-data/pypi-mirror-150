@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+glcd_jhd128x64.egg-info/PKG-INFO
+glcd_jhd128x64.egg-info/SOURCES.txt
+glcd_jhd128x64.egg-info/dependency_links.txt
+glcd_jhd128x64.egg-info/top_level.txt
+glcd_jhd128x64e/__init__.py
+glcd_jhd128x64e/jhd_glcd.py
+glcd_jhd128x64e/metadata.py
