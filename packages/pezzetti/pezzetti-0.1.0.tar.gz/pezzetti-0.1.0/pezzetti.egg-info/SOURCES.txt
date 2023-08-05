@@ -1,0 +1,13 @@
+README.md
+setup.py
+pezzetti/__init__.py
+pezzetti/errors.py
+pezzetti/feature_engineering.py
+pezzetti/metadata.py
+pezzetti/utils.py
+pezzetti.egg-info/PKG-INFO
+pezzetti.egg-info/SOURCES.txt
+pezzetti.egg-info/dependency_links.txt
+pezzetti.egg-info/top_level.txt
+pezzetti/sources/__init__.py
+pezzetti/sources/socrata.py
