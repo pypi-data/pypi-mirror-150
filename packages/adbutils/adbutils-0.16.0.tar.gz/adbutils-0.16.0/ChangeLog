@@ -1,0 +1,19 @@
+CHANGES
+=======
+
+0.16.0
+------
+
+* little update
+* fix screenrecord, ref #18
+* fix fix github build
+* fix github build
+* support #63, add more tests, add root, tcpip
+* close #54, support specify adb path through ADBUTILS\_ADB\_PATH
+* fix #45
+* ref #48
+* fix #60
+* Download binaries from android.com
+* remove default timeout, because some operation, eg install will take very long time
+* support socket\_timeout, default to 60s
+* add retry for install error
