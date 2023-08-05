@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: paddle_bfloat
+Version: 0.1.4
+Summary: Paddle numpy bfloat16 package
+Home-page: UNKNOWN
+Author: Jakub Piasecki
+Author-email: jakub1.piasecki@intel.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
