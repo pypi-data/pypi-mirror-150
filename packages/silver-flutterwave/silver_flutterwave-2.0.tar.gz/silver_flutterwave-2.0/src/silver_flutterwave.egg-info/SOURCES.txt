@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/silver/__init__.py
+src/silver/payment_processors.py
+src/silver/paypal_client.py
+src/silver/views.py
+src/silver_flutterwave.egg-info/PKG-INFO
+src/silver_flutterwave.egg-info/SOURCES.txt
+src/silver_flutterwave.egg-info/dependency_links.txt
+src/silver_flutterwave.egg-info/top_level.txt
