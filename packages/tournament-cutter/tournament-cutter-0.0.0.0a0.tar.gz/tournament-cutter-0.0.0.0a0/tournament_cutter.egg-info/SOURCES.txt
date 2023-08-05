@@ -1,0 +1,16 @@
+setup.py
+tc/__init__.py
+tc/__main__.py
+tc/cli.py
+tc/globals.py
+tc/init.py
+tc/main.py
+tc/settings.py
+tc/style.py
+tc/utils.py
+tournament_cutter.egg-info/PKG-INFO
+tournament_cutter.egg-info/SOURCES.txt
+tournament_cutter.egg-info/dependency_links.txt
+tournament_cutter.egg-info/entry_points.txt
+tournament_cutter.egg-info/requires.txt
+tournament_cutter.egg-info/top_level.txt
