@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eset
+Version: 0.0.1
+Summary: Extended set
+Home-page: https://github.com/freywaid/eset
+Author: Frey Waid
+Author-email: logophage1@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# eset
+Extended sets
+
+
