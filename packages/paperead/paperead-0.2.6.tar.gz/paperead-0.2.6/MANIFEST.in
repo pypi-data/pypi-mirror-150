@@ -1,0 +1,9 @@
+include paperead/server/static/netlify/*.toml
+include paperead/server/wwwroot/*.html
+include paperead/server/wwwroot/*.json
+include paperead/server/wwwroot/*.ico
+include paperead/server/wwwroot/assets/*.js
+include paperead/server/wwwroot/assets/*.css
+include paperead/server/wwwroot/static/css/*.css
+include paperead/server/wwwroot/static/js/*.js
+include paperead/server/wwwroot/static/js/*.mjs
