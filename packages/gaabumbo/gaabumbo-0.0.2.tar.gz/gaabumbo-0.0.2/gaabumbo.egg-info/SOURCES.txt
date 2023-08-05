@@ -1,0 +1,7 @@
+README.md
+setup.py
+gaabumbo.egg-info/PKG-INFO
+gaabumbo.egg-info/SOURCES.txt
+gaabumbo.egg-info/dependency_links.txt
+gaabumbo.egg-info/requires.txt
+gaabumbo.egg-info/top_level.txt
