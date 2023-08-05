@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mipscripts/__init__.py
+src/mipscripts/mipscripts.py
+src/mipscripts.egg-info/PKG-INFO
+src/mipscripts.egg-info/SOURCES.txt
+src/mipscripts.egg-info/dependency_links.txt
+src/mipscripts.egg-info/top_level.txt

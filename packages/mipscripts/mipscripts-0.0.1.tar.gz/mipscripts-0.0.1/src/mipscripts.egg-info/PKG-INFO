@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mipscripts
+Version: 0.0.1
+Summary: Tools for use with MIPTools pipelines
+Home-page: https://github.com/bailey-lab/mipscripts
+Author: Isaac Kim
+Author-email: isaac_kim@brown.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bailey-lab/mipscripts/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mipscripts
+
+Various tools for use with MIPTools pipelines.
+
+
