@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+conf.py
+pyproject.toml
+setup.py
+src/__init__.py
+src/py_reddit.egg-info/PKG-INFO
+src/py_reddit.egg-info/SOURCES.txt
+src/py_reddit.egg-info/dependency_links.txt
+src/py_reddit.egg-info/requires.txt
+src/py_reddit.egg-info/top_level.txt
+src/reddit/__init__.py
+src/reddit/reddit.py
