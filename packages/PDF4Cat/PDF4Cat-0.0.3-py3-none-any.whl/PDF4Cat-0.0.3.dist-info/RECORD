@@ -1,0 +1,12 @@
+PDF4Cat/__init__.py,sha256=a79OWpOMqv6gwA-6MVURvOiqY_ZlhsIJW13ZqdRqJEQ,57
+PDF4Cat/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PDF4Cat/cat.py,sha256=Y5upjJ1EFHzdd-7EKbsxsNoG9cUhQoNsKtxZWbOd_2U,1113
+PDF4Cat/helpers.py,sha256=LCz_Om-j-tGMCXKIjbZATH2jWK6rU5ktswHxvIwS57U,2175
+PDF4Cat/merger.py,sha256=iNJKb5HGowstSj__ZMKrZD40HjJ-qs5b6WrnAO_2Cvc,1358
+PDF4Cat/splitter.py,sha256=yWXQiyfweJo-tysOkxseFq6a_tr27y1pnbRVQRJRzGk,1168
+PDF4Cat-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PDF4Cat-0.0.3.dist-info/METADATA,sha256=sVa45vrh0u3zf1DNM_fPs3YebJV_bCHnHN3juOlw28M,997
+PDF4Cat-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PDF4Cat-0.0.3.dist-info/entry_points.txt,sha256=Rh_dZ1J-TYXaGlNaIqX8801FO072vSYCWlLhdBX0xxQ,45
+PDF4Cat-0.0.3.dist-info/top_level.txt,sha256=AtNwY1phvq8kjXP7j_AjbFQH_JYkOM42T_sR3sMLRdo,8
+PDF4Cat-0.0.3.dist-info/RECORD,,
