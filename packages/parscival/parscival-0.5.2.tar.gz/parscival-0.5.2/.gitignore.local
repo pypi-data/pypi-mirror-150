@@ -1,0 +1,6 @@
+*.cortext.sqlite
+*.cortext.json
+*.db
+*.hdf5
+*.sqlite3
+.vscode/
