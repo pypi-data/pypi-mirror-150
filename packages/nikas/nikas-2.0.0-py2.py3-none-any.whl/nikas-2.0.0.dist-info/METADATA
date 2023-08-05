@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nikas
+Version: 2.0.0
+Summary: The first persian comment system 
+Home-page: https://github.com/Nikas-Project/Server
+Author: Arash Hatami
+Author-email: hatamiarash7@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: html5lib (==1.1)
+Requires-Dist: misaka (==2.1.1)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Flask-Caching (==1.9.0)
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: argon2-cffi (==21.3.0)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: pytest (==7.1.1)
+Requires-Dist: pytest-cov (==3.0.0)
+
+# Nikas
+
+![PyPI](https://img.shields.io/pypi/v/nikas?label=Version) [![Deploy](https://github.com/Nikas-Project/Server/actions/workflows/deploy.yml/badge.svg)](https://github.com/Nikas-Project/Server/actions/workflows/deploy.yml) [![Build Status](https://dev.azure.com/nikas-project/Nikas-Server/_apis/build/status/Nikas-Server?branchName=master)](https://dev.azure.com/nikas-project/Nikas-Server/_build/latest?definitionId=1&branchName=master) [![CodeQL](https://github.com/Nikas-Project/Server/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Nikas-Project/Server/actions/workflows/codeql-analysis.yml) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nikas) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nikas-Project_Server&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Nikas-Project_Server) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Nikas-Project_Server&metric=security_rating)](https://sonarcloud.io/dashboard?id=Nikas-Project_Server) ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/nikasproject/server) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/hatamiarash7)
+
+The first persian comment system
+
+-   Python
+-   Self-Hosted
+-   Simple
+
+
