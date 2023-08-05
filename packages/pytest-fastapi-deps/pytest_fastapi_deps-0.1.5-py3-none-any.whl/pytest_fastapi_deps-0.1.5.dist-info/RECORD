@@ -1,0 +1,6 @@
+pytest_fastapi_deps/__init__.py,sha256=EAPvU1jTgFmdkY-QhyI6AudN5ONBhcGOI0heZlmw6rA,2465
+pytest_fastapi_deps-0.1.5.dist-info/entry_points.txt,sha256=kGuDhF5sfc6Hb16FsCy0iROr_NxaJ0CQv7aZjfK3j0U,52
+pytest_fastapi_deps-0.1.5.dist-info/LICENSE,sha256=-i-EkB6qz0BhmEC4cscPVdv5cSCZ1S29y1RKvmH3oDc,1076
+pytest_fastapi_deps-0.1.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytest_fastapi_deps-0.1.5.dist-info/METADATA,sha256=wd9laXiauh8ldCocNoya0NNjGYN25LjFwu90gjwK6HA,8216
+pytest_fastapi_deps-0.1.5.dist-info/RECORD,,
