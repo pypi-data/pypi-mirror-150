@@ -1,0 +1,11 @@
+pubmad/VERSION,sha256=KMQQiLADklCJ-XszPm3gFyrMoZomy0fpJm9mOFkrM_s,5
+pubmad/__init__.py,sha256=9Th4b3DadqG6nK8fjjvQ60K9s7RRY1soww_FXl7EUsM,81
+pubmad/pipeline.py,sha256=QXv-SH_Uw2avK7sF34RNngARi8fwofEyQcszlweJvK0,4413
+pubmad/types.py,sha256=45-4Z7unjADFjSEPivwt2GSV7Cnvw5-KRQ0K0rUm-sw,1642
+pubmad/utils.py,sha256=vUdxtLIoKFrG7Y5qn6oqf9aPX7vMmiZMQODPnf6wE-k,19351
+pubmad/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+pubmad-0.33.dist-info/LICENSE.txt,sha256=3k_1_9ns-BACqCKYo8ETjeEUg_h7qgfixjW2ijtOQAg,12059
+pubmad-0.33.dist-info/METADATA,sha256=s_PNoXqZGkEmKsYg4zhx_cec2oSPGp0pWPouqBg4QeE,1561
+pubmad-0.33.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pubmad-0.33.dist-info/top_level.txt,sha256=_hbTYAEphqPnhhPKDq-2XkbzfX2UK31674QxE5zaDYs,7
+pubmad-0.33.dist-info/RECORD,,
