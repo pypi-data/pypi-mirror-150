@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dbt-doris-fp
+Version: 0.1.1
+Summary: The doris adapter plugin for dbt
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
+License-File: LICENSE
+
+UNKNOWN
+
