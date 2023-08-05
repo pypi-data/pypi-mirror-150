@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hcl2-eval
+Version: 0.1.3
+Summary: 
+License: MIT
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: beartype (>=0.10.4,<0.11.0)
+Requires-Dist: hcl2-ast (>=0.3.0,<0.4.0)
+Requires-Dist: typing-extensions (>=3.10.0)
+Project-URL: Bug Tracker, https://github.com/NiklasRosenstein/python-hcl2-eval/issues
+Project-URL: Repository, https://github.com/NiklasRosenstein/python-hcl2-eval
+Description-Content-Type: text/markdown
+
+# hcl2-eval
+
+Evaluate HCL2 configurations like a programming language. Based on [hcl2-ast][].
+
+  [hcl2-ast]: https://pypi.org/project/hcl2-ast/
+## Usage
+
+The evaluation of the HCL2 AST uses three components: A *context*, an *evaluator* an
+*interpreter*. The context is responsible for performing attribute reads and writes, looking
+up functions as well as opening and closing *stanzas*. The evaluator's responsibility is to
+evaluate expressions in the AST to Python values, while the interpreter executes statement nodes.
+
+
+```py
+from hcl2_ast import parse_file
+from hcl2_eval import Context, Evaluator, Interpreter, Stanza
+
+class HelloStanza(Stanza):
+    ...
+
+module = parse_file(open("hello.hcl"), close=True)
+context = Context.of(hello=HelloStanza)
+Interpreter(Evaluator()).execute(module, context)
+```
+
+Check out the full example at [examples/hello.py](https://github.com/NiklasRosenstein/python-hcl2-eval/blob/develop/examples/hello.py).
+
+## Compatibility
+
+hcl2-eval requires Python 3.6 or higher.
+
