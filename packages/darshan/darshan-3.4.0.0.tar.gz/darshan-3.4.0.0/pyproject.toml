@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "wheel",
+    "setuptools",
+]
+
+[tool.cibuildwheel]
+before-all = [
+    "./prepare.sh",
+    "./configure --disable-darshan-runtime --enable-apxc-mod --enable-apmpi-mod",
+    "make install"
+]
+skip = [
+    "*musllinux*",
+    "*i686*"
+]
