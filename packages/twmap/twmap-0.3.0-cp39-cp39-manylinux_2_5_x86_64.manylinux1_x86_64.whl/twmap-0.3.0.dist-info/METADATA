@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: twmap
+Version: 0.3.0
+Summary: Python bindings for the crate twmap
+Author: Patiga <dev@patiga.eu>
+Author-email: Patiga <dev@patiga.eu>
+License: LGPL-3.0-only
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://gitlab.com/Patiga/twmap-py
+
+TwMap Python Module
+===
+
+Safely parse, edit and save [Teeworlds](https://www.teeworlds.com/) and [DDNet](https://ddnet.tw/) maps - in Python!
+
+See the Rust library [twmap](https://gitlab.com/Patiga/twmap) for details on the wrapped library.
+
+Installation
+---
+
+Simply do `pip install twmap`!
+
+Usage
+---
+
+The `help` function is your friend!
+Once you imported `twmap`, do `help(twmap.Map)` to access the documentation of the `Map` struct.
+It also contains important general knowledge about the module.
+
+To load your first map, do `map = twmap.Map(path-to-map)`.
+To see the attributes and documentation about an object... `help` helps you!
+
+For example, have a look into `help(map.groups)` and `help(map.groups[0])`.
+The first one will give you methods on the group collection and the second one attributes and methods on group objects.
+If you are confused about something in the module, the general information in `help(twmap.Map)` might help you.
+
+Manual Building (on Linux)
+---
+
+You need [Rust](https://www.rust-lang.org/tools/install) installed on your system.
+To compile twmap in release mode, execute the following command in the source root:
+```
+cargo build --release
+```
+Locate the file `target/release/libtwmap.so`.
+This file is only importable under `twmap.so`.
+Symlink or copy it to your desired location.
+
