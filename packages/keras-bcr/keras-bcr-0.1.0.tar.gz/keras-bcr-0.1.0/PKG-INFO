@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keras-bcr
+Version: 0.1.0
+Summary: Batch Correlation Regularizer for TF2/Keras
+Home-page: http://github.com/satzbeleg/keras-bcr
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
