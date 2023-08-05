@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_paps_quotes.egg-info/PKG-INFO
+django_paps_quotes.egg-info/SOURCES.txt
+django_paps_quotes.egg-info/dependency_links.txt
+django_paps_quotes.egg-info/top_level.txt
+quotes/__init__.py
+quotes/admin.py
+quotes/apps.py
+quotes/models.py
+quotes/serializers.py
+quotes/tests.py
+quotes/urls.py
+quotes/views.py
+quotes/migrations/__init__.py
