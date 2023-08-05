@@ -1,0 +1,11 @@
+cirq<=0.14.0.dev20220105215702,>=0.13.0
+qiskit~=0.28.0
+
+[dev_env]
+black~=22.3.0
+flake8~=3.8.4
+flake8-import-order~=0.18.1
+mypy==0.910
+pylint~=2.6.0
+pytest~=6.1.2
+pytest-cov~=2.11.1
