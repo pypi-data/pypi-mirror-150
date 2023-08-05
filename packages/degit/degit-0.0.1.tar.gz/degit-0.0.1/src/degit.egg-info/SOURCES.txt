@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/degit/EthereumClient.py
+src/degit/__init__.py
+src/degit/degit.py
+src/degit/demo.py
+src/degit/main.py
+src/degit/utils.py
+src/degit.egg-info/PKG-INFO
+src/degit.egg-info/SOURCES.txt
+src/degit.egg-info/dependency_links.txt
+src/degit.egg-info/entry_points.txt
+src/degit.egg-info/top_level.txt
+src/degit/compiled_contracts/repository_abi.json
+src/degit/compiled_contracts/repository_bytecode.txt
