@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+gdwrapper/__init__.py
+gdwrapper.egg-info/PKG-INFO
+gdwrapper.egg-info/SOURCES.txt
+gdwrapper.egg-info/dependency_links.txt
+gdwrapper.egg-info/not-zip-safe
+gdwrapper.egg-info/requires.txt
+gdwrapper.egg-info/top_level.txt
