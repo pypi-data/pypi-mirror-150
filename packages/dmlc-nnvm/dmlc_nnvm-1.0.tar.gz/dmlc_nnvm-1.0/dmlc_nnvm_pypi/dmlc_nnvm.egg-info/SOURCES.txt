@@ -1,0 +1,5 @@
+dmlc_nnvm_pypi/dmlc_nnvm/__init__.py
+dmlc_nnvm_pypi/dmlc_nnvm.egg-info/PKG-INFO
+dmlc_nnvm_pypi/dmlc_nnvm.egg-info/SOURCES.txt
+dmlc_nnvm_pypi/dmlc_nnvm.egg-info/dependency_links.txt
+dmlc_nnvm_pypi/dmlc_nnvm.egg-info/top_level.txt
