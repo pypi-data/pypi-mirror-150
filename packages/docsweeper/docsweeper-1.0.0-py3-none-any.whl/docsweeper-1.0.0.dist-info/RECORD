@@ -1,0 +1,16 @@
+_docsweeper/__init__.py,sha256=peo5vuk0eYfCTKyniqG-6nXHbggNX21lemFhgVVKNxY,423
+_docsweeper/command_line.py,sha256=7lPV6Y6gQr5qB05c5BUlBB_gjeAMev8hSDHrYYCSRws,11713
+_docsweeper/docsweeper.py,sha256=czBmmikPvZJi-Our-No3dSS6VVkS5o_tuyMTIbzZqbQ,13280
+_docsweeper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_docsweeper/result_handler.py,sha256=OLtXg2RkPH5rxMU2MsjU4-ccxxlbkttX7sZTO-91SFY,4011
+_docsweeper/util.py,sha256=cG-FcnVDm_ffE-69Td0O3IBUSbSwi33bpLJiJIrz8DE,2537
+_docsweeper/version_control.py,sha256=In5C_B_l04UO-lYhA8wwBkWjvOP4BqJernbhHwt95l4,25404
+docsweeper/__init__.py,sha256=kXGWw9UHLTFx6WKC118n19w80q5zPeASUbrZ_9h7Wm8,592
+docsweeper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_plugin/Plugin.py,sha256=fPpnKyDYQO1LIAH1suYgJGgeKjdxc7ucgPuN1-s-nhc,4715
+flake8_plugin/__init__.py,sha256=LSSCa_c3AMaL2QfsqWVfKupVaevGpA2HJ0k65h7HP7M,450
+docsweeper-1.0.0.dist-info/entry_points.txt,sha256=VQA8MChPkDSkMmXEXViF1_sCPzWUCegkxlab1YLfcpA,121
+docsweeper-1.0.0.dist-info/LICENSE,sha256=Oyo_Euam3iOVr27t6Uz7rkZ8RAOPwdmVrGi3GsJTFSw,1056
+docsweeper-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+docsweeper-1.0.0.dist-info/METADATA,sha256=f-H4eAdLHj7VXKjSdR2X1HVmiW0on4-8kC52RBSyC3s,2849
+docsweeper-1.0.0.dist-info/RECORD,,
