@@ -1,0 +1,17 @@
+napari_labeling/__init__.py,sha256=3khn-0Gtm4HKecIn116qVcp9oydap_FiSphNXDEN3FQ,257
+napari_labeling/_create_widget.py,sha256=rxIcjkGcAlBa_VNri2tDFzCClEnUb4AtUOcO_rINEJs,842
+napari_labeling/_reader.py,sha256=j2FOAT5dEN72WP_naIlTdt8kelfoiqD3Sn3mxd1zv5o,2258
+napari_labeling/_version.py,sha256=pPI3BGuGllxhhB2WE1snTKQDetAhYd0zSWxNwVjOJ5s,147
+napari_labeling/_widget.py,sha256=FB-PfwpoKTi2Lal3JEgZyewsz2KN1DKd9uwfW90SLqA,5599
+napari_labeling/_writer.py,sha256=gKOVaxfbLAmkZxTKZuCBWllHQ5GxGzY6acEklrD-_Do,387
+napari_labeling/napari.yaml,sha256=44VkOrYIjuv4X7u6NfFK-P920WFoRNhMliyGP6yn1X8,1120
+napari_labeling/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_labeling/_tests/test_reader.py,sha256=3kEWhJqr892eOle79QYac1NE4QEorF9dfp-819d7A0o,976
+napari_labeling/_tests/test_widget.py,sha256=X8A8XBCEa3ZOaCCf1b6uwtoZFQME4DXjIfCJALVmkcs,698
+napari_labeling/_tests/test_writer.py,sha256=zVamXtXKt-1trtpwKBcfAS-dhcM3U-QQaYCzoN-swJU,124
+napari_labeling-0.1.0.dist-info/LICENSE,sha256=GnkuZcs5O15SqGuTMR7ojXyL9Et7ycNd92YAdqvwfIo,1483
+napari_labeling-0.1.0.dist-info/METADATA,sha256=oiJJd1Nfh9TPMOthvDS27GskW4CcRhzqdUA_tfHI6FA,4034
+napari_labeling-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_labeling-0.1.0.dist-info/entry_points.txt,sha256=C0uJhVIvLWk2M3gSPVyWMYIDLeW1xym1JNPPy7wrkqY,64
+napari_labeling-0.1.0.dist-info/top_level.txt,sha256=d0iLv4ZMNLSrCzAQ3FoSo_cT4gRYucLQ361YYRiCDiA,16
+napari_labeling-0.1.0.dist-info/RECORD,,
