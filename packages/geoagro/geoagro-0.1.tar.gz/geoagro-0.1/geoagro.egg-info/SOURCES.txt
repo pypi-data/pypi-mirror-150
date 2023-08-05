@@ -1,0 +1,6 @@
+setup.py
+geoagro.egg-info/PKG-INFO
+geoagro.egg-info/SOURCES.txt
+geoagro.egg-info/dependency_links.txt
+geoagro.egg-info/not-zip-safe
+geoagro.egg-info/top_level.txt
