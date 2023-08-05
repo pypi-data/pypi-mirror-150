@@ -1,0 +1,10 @@
+paper_neural/__init__.py,sha256=g3cQnoAz9lJJRH67EFxjL80x02b6TJVSY1B99ukz7xQ,84
+paper_neural/fibers_siamese.py,sha256=eiH9ljLljVt8s1mmcTPUalMA5OEiecmrqyBj5T4xFbE,2693
+paper_neural/paper_siamese.py,sha256=lQxxPR9XgDszu8pVpHMx4QKkGpzGsKcl2WpVKhUo6Ng,1742
+paper_neural/paper_yolo_features.py,sha256=-tvjhZfrT6WB4Qtg_kzzJpH30PNIxPhCtXDQ8iMjkv0,2294
+paper_neural/siamese_util.py,sha256=SA0nvIMRQaiAB5Zynnem1VMzICpZAmdWrqXi7QgsusQ,3868
+paper_neural/yolo_util.py,sha256=SQCtGnmzpMVwo2YaR_pm6_W2Zjgd9K2H-Rez5J3yV8U,289
+paper_neural-0.2.1.dist-info/LICENSE,sha256=f6flbA23EQX0tZpqCsQCJesFmHb4XNOAOD99egZuaL4,35127
+paper_neural-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+paper_neural-0.2.1.dist-info/METADATA,sha256=b80Ll8ChO2PgrasWxBhMngQ1wFdHPvQW_opcIDO-FKI,498
+paper_neural-0.2.1.dist-info/RECORD,,
