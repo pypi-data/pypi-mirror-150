@@ -1,0 +1,3 @@
+graft trame_router/module/serve
+recursive-exclude trame_router/module/serve *.map
+include trame_router/LICENSE
