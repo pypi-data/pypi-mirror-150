@@ -1,0 +1,12 @@
+omapi/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+omapi/_version.py,sha256=LocRodN9Uxw91Apud9VBmwDdhq40GtDMFhx0Ap5NMQo,497
+omapi/package_data.dat,sha256=01ENMJjrdPMICZVviBIXUYCeVEd5Z3jt6bgMJgh24qM,25
+omapi/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omapi/data/mapping.py,sha256=hwR5-e0u6Betlh1W9Ymr2JuDzZLjfllvE5fJ4X2-tsE,101
+omapi/lmb/__init__.py,sha256=crao_j8G9WRXVGOJyk0sOuM88yBA1JRmXok1_8218l0,68
+omapi/lmb/log.py,sha256=5IiIfa_m7VyDkKt_lfhYimlmV5XCnhOxdI00GtV03Nw,1538
+vf_omapi_lib-0.0.3.dist-info/LICENSE.txt,sha256=IU5F0pYD1H9faTx-8G3ZVFmtav32t5K1_skJNlM72X8,1110
+vf_omapi_lib-0.0.3.dist-info/METADATA,sha256=fihf4eK7jrXEAtwtq0BYHmwbjiiHV5-z9xIaFrIGdPs,799
+vf_omapi_lib-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vf_omapi_lib-0.0.3.dist-info/top_level.txt,sha256=ZtHqVRkzIKm1BWU3h5GAotltdListexKvVlcSfv2zwI,6
+vf_omapi_lib-0.0.3.dist-info/RECORD,,
