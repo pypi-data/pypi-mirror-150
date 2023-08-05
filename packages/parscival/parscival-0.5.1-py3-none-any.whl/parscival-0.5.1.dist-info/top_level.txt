@@ -1,0 +1,3 @@
+parscival
+parscival_plugins
+parscival_specs
