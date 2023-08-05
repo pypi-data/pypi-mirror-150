@@ -1,0 +1,3 @@
+[console_scripts]
+magna = magna.__main__:app
+
