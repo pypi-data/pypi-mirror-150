@@ -1,0 +1,5 @@
+tar-ignore
+tar-ignore = .coverage
+tar-ignore = .venv
+tar-ignore = bin
+tar-ignore = *.log
