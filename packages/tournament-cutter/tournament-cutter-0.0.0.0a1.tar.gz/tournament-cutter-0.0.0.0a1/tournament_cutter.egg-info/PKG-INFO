@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tournament-cutter
+Version: 0.0.0.0a1
+Summary: Process tetris tournament videos
+Home-page: https://github.com/whinee/tournament-cutter
+Author: whinee
+Author-email: whinyaan@pm.me
+License: MIT
+Project-URL: Documentation, https://tc.comms.whinyaan.xyz
+Project-URL: Source, https://github.com/whinee/tournament-cutter
+Project-URL: Tracker, https://github.com/whinee/tournament-cutter/issues
+Keywords: python windows macos linux cli scraper downloader manga python3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Process tetris tournament videos and cut them appropriately using FFmpeg..
+    For full information, visit https://tc.comms.whinyaan.xyz
+
