@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: banshee
+Version: 0.0.0b1
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: injector
+Requires-Dist: exceptiongroup (>=1.0.0-rc.3,<2.0.0)
+Requires-Dist: injector (>=0.19.0,<0.20.0); extra == "injector"
+Description-Content-Type: text/markdown
+
+# Banshee
+
+<p class="lead">
+A command dispatcher and message bus implementation for python.
+</p>
+
+## 🛠 Installing
+
+```
+poetry add banshee
+```
+
+## 📚 Help
+
+See the [Documentation][docs] or ask questions on the [Discussion][discussions] board.
+
+## ⚖️ Licence
+
+This project is licensed under the [MIT licence][mit_licence].
+
+All documentation and images are licenced under the 
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc_by_sa].
+
+## 📝 Meta
+
+This project uses [Semantic Versioning][semvar].
+
+[docs]: https://python-banshee.artisan.io
+[discussions]: https://github.com/artisanofcode/python-banshee/discussions
+[mit_licence]: http://dan.mit-license.org/
+[cc_by_sa]: https://creativecommons.org/licenses/by-sa/4.0/
+[semvar]: http://semver.org/
