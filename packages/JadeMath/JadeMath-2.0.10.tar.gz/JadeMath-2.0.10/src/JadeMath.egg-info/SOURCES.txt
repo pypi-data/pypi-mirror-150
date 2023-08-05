@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/JadeGeometry/__init__.py
+src/JadeGeometry/math.py
+src/JadeGeometry/random.py
+src/JadeGeometry/surfarea.py
+src/JadeGeometry/volume.py
+src/JadeMath.egg-info/PKG-INFO
+src/JadeMath.egg-info/SOURCES.txt
+src/JadeMath.egg-info/dependency_links.txt
+src/JadeMath.egg-info/top_level.txt
