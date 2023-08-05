@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: message-lord
+Version: 0.0.1
+Summary: A very basic library
+Home-page: UNKNOWN
+Author: Lord
+Author-email: ramashisx@gmail.com
+License: MIT
+Keywords: message
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a basic python package.
+
+Change Log
+=============
+
+
+0.0.1 (09/05/2022)
+------------------
+- Initial Release
+
