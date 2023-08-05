@@ -1,0 +1,12 @@
+nb_hdr_plotter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nb_hdr_plotter/hdr_manipulation.py,sha256=BqAcXNricHtMgSVgWt8JEpbSHRGDxa-xOAu7B7HY1aY,4436
+nb_hdr_plotter/hdr_tool.py,sha256=mFpkV4XdhEZibO4eKpH6BFgYWs-CX-ic_FcuC27XbnU,11303
+nb_hdr_plotter/histostats_quick_plotter.py,sha256=xxHGwkbrhtuDi_p7w08r2qhigyy9MjJeZEeHrZhCbc0,6361
+nb_hdr_plotter/output_handling.py,sha256=-XQ4ngermGzwfmxQeZgomvjKavlj7w3iCRpJwZwNkeE,5988
+nb_hdr_plotter/tools.py,sha256=fC_H_yK22eRS4W8Or3Aqw7izI2SJFN0PPmDj78PE_jQ,923
+nb_hdr_plotter-0.1.0.dist-info/LICENSE.txt,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+nb_hdr_plotter-0.1.0.dist-info/METADATA,sha256=IDpkofD25D9DMx0kPQbJSEKFwnlWhH8iR6n4eLJeCj8,1616
+nb_hdr_plotter-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nb_hdr_plotter-0.1.0.dist-info/entry_points.txt,sha256=Isu5n19vJtim4pOq5v-w48Ecf-T4ETGLw_aefvKqQz0,130
+nb_hdr_plotter-0.1.0.dist-info/top_level.txt,sha256=-ichp7h7XBv6YAmMKbb6OY1y4sC7A-iKa-lCVKjpq3Q,15
+nb_hdr_plotter-0.1.0.dist-info/RECORD,,
