@@ -1,0 +1,11 @@
+datapusher/__init__.py,sha256=WFDz_2fuYueL3s63leYazqR2V41gvDoT88neDQLbI1w,23
+datapusher/jobs.py,sha256=aiM4oGCjJ5yQKTRvRoKOh7FZ2iMBI9FJSAfUB3bIOjc,29329
+datapusher/main.py,sha256=2YYoMu50PiGHmt8al9Ttzpsk7mg-BAtlgufvxosIJYk,1290
+datapusher/settings.py,sha256=7BVsKBcRL_7p6XmOq9MvkNRm0b0S9IjRiumsrtqLtgI,2041
+datapusher/wsgi.py,sha256=HSVDoza2tJpjGczIkAN5M8D_NySPQ870WviKYaO9zWw,268
+datapusher_plus-0.0.22.dist-info/LICENSE,sha256=566LXaF3CUdLolMWRBvAZBSIQc8QHn7vMYw8PuWggns,34499
+datapusher_plus-0.0.22.dist-info/METADATA,sha256=0vZMyCuHoHy5Yq7F_Eb7h9Nnk1ZsFnWCOSlYsDHLh2k,18424
+datapusher_plus-0.0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datapusher_plus-0.0.22.dist-info/entry_points.txt,sha256=peF26nGrVyLA_ZG3wFSQTIMxgZtzKo2T8nI-jN-pV7I,95
+datapusher_plus-0.0.22.dist-info/top_level.txt,sha256=jznPjMAHc7UElbtShhqeHH6cxgLQRVYxyvwePhMnA94,11
+datapusher_plus-0.0.22.dist-info/RECORD,,
