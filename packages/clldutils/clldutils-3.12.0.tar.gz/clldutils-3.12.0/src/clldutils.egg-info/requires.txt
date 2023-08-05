@@ -1,0 +1,16 @@
+attrs>=18.1.0
+colorlog
+csvw>=1.0
+python-dateutil
+tabulate>=0.7.7
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+coverage>=4.2
+pytest-cov
+pytest-mock
+pytest>=5.4
