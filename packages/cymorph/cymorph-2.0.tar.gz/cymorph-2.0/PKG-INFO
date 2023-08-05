@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: cymorph
+Version: 2.0
+Summary: Non-parametric Galaxy Morphology Package
+Home-page: https://github.com/igorkolesnikov13/cymorph
+Author: Igor Kolesnikov
+Author-email: igor.s.kolesnikov@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/igorkolesnikov13/cymorph
+Project-URL: Code, https://github.com/igorkolesnikov13/cymorph
+Project-URL: Issue tracker, https://github.com/igorkolesnikov13/cymorph/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
+
+# CyMorph - non-parametric galaxy morphology package
+_Updated and adjusted and repacked version of 1st CyMorph version:
+https://github.com/rsautter/CyMorph & Paulo Barchi work_
+
+
+## Installation
+Dependencies:
+```
+pip install numpy scipy matplotlib seaborn sep
+```
+CyMorph can be installed with:
+```
+pip install cymorph
+```
+
+## Documentation
+https://cymorph.readthedocs.io/
+
+## Basic Usage
+
+
+### Concentration
+```
+from cymorph.concentration import Concentration
+c = Concentration(image, radius1, radius2) 
+c.get_concentration()
+```
+
+### Asymmetry
+```
+from cymorph.asymmetry import Asymmetry
+a = Asymmetry(image) 
+a.get_pearsonr()
+a.get_spearmanr()
+a.get_collected_points_plot()
+```
+
+### Smoothness
+```
+from cymorph.smoothness import Smoothness
+s = Smoothness(clean_image, segmented_mask, smoothing_degradation, butterworth_order) 
+s.get_pearsonr() 
+s.get_spearmanr()
+s.get_smoothed_image()
+s.get_collected_points_plot()
+```
+
+
+### Entropy
+```
+from cymorph.entropy import Entropy
+e = Entropy(image, bins) 
+e.get_entropy()
+```
+
+
+### G2
+```
+from cymorph.g2 import G2
+g2 = G2(g2_modular_tolerance, g2_phase_tolerance, g2_position_tolerance) 
+g2.get_g2()
+g2.get_gradient_plot()
+g2.get_asymmetry_gradient_plot()
+```
+
+### Contributors
+
+- Igor Kolesnikov
+- Vitor Sampaio
+- Paulo Barchi
+- Rubens Sautter
+
