@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: softsync
+Version: 0.5.0b0
+Summary: Sync softly
+Home-page: https://github.com/nzjess/softsync
+Author: Jesse McLaughlin
+Author-email: jesse@ubercraft.org
+License: MIT
+Download-URL: https://github.com/nzjess/softsync/archive/refs/tags/v0.5.0-beta.tar.gz
+Description: 
+        Softsync helps you create and manage symbolic links to real files.  But, rather than
+        store the links as separate files, as with traditional symlinks (think: `ln -s source target`),
+        the links are stored in a single manifest file, per directory.  These kinds of links
+        are called "softlinks".
+            
+Keywords: FILESYSTEM,SYMLINK,UTILITY
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
