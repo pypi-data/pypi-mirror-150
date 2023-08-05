@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bashhistory
+Version: 1.2.0
+Summary: Common Python helper functions
+Home-page: https://github.com/lancethomps/bashhistory
+Author: Lance Thompson
+License: MIT
+Project-URL: Bug Reports, https://github.com/lancethomps/bashhistory/issues
+Project-URL: Source, https://github.com/lancethomps/bashhistory
+Keywords: bash,history,shell,utils
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argcomplete
+Requires-Dist: ltpylib
+Provides-Extra: pcre
+Requires-Dist: python-pcre ; extra == 'pcre'
+
+# Custom Bash History
+
+[![Build](https://github.com/lancethomps/bashhistory/actions/workflows/build.yml/badge.svg)](https://github.com/lancethomps/bashhistory/actions/workflows/build.yml)
+
+
