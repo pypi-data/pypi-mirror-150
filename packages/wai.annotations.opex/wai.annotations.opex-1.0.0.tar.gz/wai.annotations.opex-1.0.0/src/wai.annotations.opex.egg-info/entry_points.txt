@@ -1,0 +1,3 @@
+[wai.annotations.plugins]
+from-opex-od = wai.annotations.opex.od.specifier:OPEXODInputFormatSpecifier
+to-opex-od = wai.annotations.opex.od.specifier:OPEXODOutputFormatSpecifier
