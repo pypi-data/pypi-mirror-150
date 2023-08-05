@@ -1,0 +1,2 @@
+[pycurator.cli]
+pycurator = pycurator.cli:main
