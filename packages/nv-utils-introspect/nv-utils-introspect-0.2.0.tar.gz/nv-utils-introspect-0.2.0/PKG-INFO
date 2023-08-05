@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nv-utils-introspect
+Version: 0.2.0
+Summary: Helpers to import from or serialize certain Python objects to strings based on their naming convention on a somehow safe manner.
+Home-page: https://github.com/nextventures/nv-utils-introspect.git
+License: MIT
+Author: Gustavo Santos
+Author-email: gustavo@next.ventures
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/nextventures/nv-utils-introspect.git
