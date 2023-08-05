@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: giant_tour_smartlog_ai
+Version: 0.1
+Summary: A package for generating a gaint tour
+Author: Mr.Hanh
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# Example Package
+This is a class that includes functions to generate a giant tour.
+

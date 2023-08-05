@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/giant_tour_smartlog_ai/__init__.py
+src/giant_tour_smartlog_ai/giant_tour.py
+src/giant_tour_smartlog_ai.egg-info/PKG-INFO
+src/giant_tour_smartlog_ai.egg-info/SOURCES.txt
+src/giant_tour_smartlog_ai.egg-info/dependency_links.txt
+src/giant_tour_smartlog_ai.egg-info/top_level.txt
