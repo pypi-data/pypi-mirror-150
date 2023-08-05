@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nv-utils-introspect"
+version = "0.2.1"
+description = "Helpers to import from or serialize certain Python objects to strings based on their naming convention on a somehow safe manner."
+authors = ["Gustavo Santos <gustavo@next.ventures>"]
+license = "MIT"
+repository ="https://github.com/nextventures/nv-utils-introspect.git"
+packages = [{ include = "nv"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
