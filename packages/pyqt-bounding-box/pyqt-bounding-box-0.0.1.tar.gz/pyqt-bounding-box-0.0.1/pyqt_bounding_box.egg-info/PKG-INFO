@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: pyqt-bounding-box
+Version: 0.0.1
+Summary: PyQt bounding box for graphic design software
+Home-page: https://github.com/yjg30737/pyqt-bounding-box.git
+Author: Jung Gyu Yoon
+Author-email: yjg30737@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pyqt-bounding-box
+PyQt bounding box for graphic design software
+
+## Requirements
+PyQt5 >= 5.8
+
+## Setup
+```pip3 install git+https://github.com/yjg30737/pyqt-selection-box.git --upgrade```
+
+## Feature
+* Cursor shape changes properly for position (horizontal/vertical edge, etc.)
+* Being able to resize the box horizontally/vertically/diagonally 
+* Being able to move the box with either mouse cursor or arrow keys
+* Being able to change the line width of box with ```setLineWidth(n: int)```
+
+## Example
+Code Sample
+
+```python
+from PyQt5.QtWidgets import QWidget, QGraphicsView, QVBoxLayout, QApplication, QGraphicsScene
+
+from pyqt_bounding_box.boundingBox import BoundingBox
+
+
+class Example(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.__initUi()
+
+    def __initUi(self):
+        view = QGraphicsView()
+        self.__scene = QGraphicsScene()
+        self.__scene.setSceneRect(0, 0, 400, 400)
+
+        item = BoundingBox()
+        # item.setLineWidth(8) If you want to change the edge line width, add the code.
+        self.__scene.addItem(item)
+        view.setScene(self.__scene)
+
+        lay = QVBoxLayout()
+        lay.addWidget(view)
+
+        self.setLayout(lay)
+
+
+if __name__ == "__main__":
+    import sys
+
+    app = QApplication(sys.argv)
+    example = Example()
+    example.show()
+    app.exec_()
+```
+
+Result
+
+https://user-images.githubusercontent.com/55078043/148708740-cd1f0765-7768-44b6-88bb-770e2d34fe12.mp4
+
+## Note
+```BoundingBox``` class inherits ```QGraphicsRectItem```.
+
+Default line width value is 3.
+
+

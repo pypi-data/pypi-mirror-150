@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_bounding_box/__init__.py
+pyqt_bounding_box/boundingBox.py
+pyqt_bounding_box.egg-info/PKG-INFO
+pyqt_bounding_box.egg-info/SOURCES.txt
+pyqt_bounding_box.egg-info/dependency_links.txt
+pyqt_bounding_box.egg-info/requires.txt
+pyqt_bounding_box.egg-info/top_level.txt
