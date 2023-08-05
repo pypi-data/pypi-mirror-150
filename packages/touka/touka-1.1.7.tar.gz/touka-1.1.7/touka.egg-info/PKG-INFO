@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: touka
+Version: 1.1.7
+Summary: A Python wrapper for automation.
+Author: Black Reaper
+License: MIT
+Project-URL: Discord, https://discord.gg/yzAJ3wg5S3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.10.0,<4.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+.. image:: https://img.shields.io/discord/856755744669433867?color=blue&label=discord
+   :target: https://discord.gg/yzAJ3wg5S3
+   :alt: Discord server invite
+.. image:: https://img.shields.io/pypi/v/touka.svg
+   :target: https://pypi.python.org/pypi/touka
+   :alt: PyPI version info
+.. image:: 	https://img.shields.io/pypi/dm/touka?color=informational&label=pypi%20downloads
+   :target: https://pypi.python.org/pypi/touka
+   :alt: PyPI version info
+.. image:: https://img.shields.io/pypi/pyversions/touka.svg
+   :target: https://pypi.python.org/pypi/touka
+   :alt: PyPI supported Python versions
+   
+Touka
+--------
+   
+A modern, easy-to-use, feature-rich API wrapper for Discord Automation written in Python.
+
+
+Key Features
+-------------
+
+- Optimised in both speed and memory
+
+Installing
+----------
+
+**Python 3.10 or higher is required**
+
+To install the library, you can just run the following command:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U touka
+
+    # Windows
+    py -3 -m pip install -U touka
+
+
+Quick Example
+~~~~~~~~~~~~~
+
+.. code:: py
+
+    from touka.ext import commands
+
+
+    commands.daycare_spam(password='password', channel_id='channel_id', interval=10)
+
+
+**NOTE:** It is not advised to leave your token directly in your code, as it allows anyone with it to access your bot. If you intend to make your code public you should store it securely.
+
+Links
+------
+
+- `Official Discord Server <https://discord.gg/yzAJ3wg5S3>`_
+- `Discord API <https://discord.gg/discord-api>`_
+
