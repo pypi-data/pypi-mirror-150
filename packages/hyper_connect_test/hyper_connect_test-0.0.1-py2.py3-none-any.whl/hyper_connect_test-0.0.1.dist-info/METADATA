@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hyper_connect_test
+Version: 0.0.1
+Summary: hyper_connect_test wraps your hyper app's REST API, generating a short-lived JWT using a connection string (https://docs.hyper.io/app-keys) from one of your hyper app's app keys.
+Author-email: Trip Ottinger <trip@hyper.io>
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/tripott/hyper-connect-py-test
