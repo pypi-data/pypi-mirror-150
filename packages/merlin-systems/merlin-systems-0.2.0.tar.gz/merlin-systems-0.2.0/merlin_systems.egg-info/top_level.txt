@@ -1,0 +1,6 @@
+ci
+conda
+docs
+examples
+merlin
+tests
