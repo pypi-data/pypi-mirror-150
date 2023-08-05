@@ -1,0 +1,9 @@
+pulumi_gcp_pufferpanel/__init__.py,sha256=_VovpVqVJB5iLH5wnhsd7opSr93jbDNwLma_GJ-O98M,141
+pulumi_gcp_pufferpanel/cloud_function/main.py,sha256=HX_FfIrMx3pj7fPP32cnRXk46_yMAoVQjJJq_7dEz6M,4800
+pulumi_gcp_pufferpanel/cloud_function/requirements.txt,sha256=Z_64kO8Uy_rnX3r0dq4If84Rlog4gFBsfAAZL_UWlVM,48
+pulumi_gcp_pufferpanel/cloud_function/startup.sh,sha256=m4omgGiLAeDzb1drJNZW8n-8_iYDIMdq6pVwuK8r9rE,1323
+pulumi_gcp_pufferpanel/pulumi_gcp_pufferpanel.py,sha256=eo89GFEW6jbXUfv01Nu7ZhRJHDYXNKFgN14ZVHKzT9Q,6600
+pulumi_gcp_pufferpanel-0.1.0.dist-info/LICENSE.rst,sha256=o3mTinig_07JSFO0FZV-0X02AvYPCEvOBah0b4vxFoA,1623
+pulumi_gcp_pufferpanel-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pulumi_gcp_pufferpanel-0.1.0.dist-info/METADATA,sha256=AIa7qVB6311w_YQGIcgM9voXK0SNHEFTyfUaxH3TACI,2917
+pulumi_gcp_pufferpanel-0.1.0.dist-info/RECORD,,
