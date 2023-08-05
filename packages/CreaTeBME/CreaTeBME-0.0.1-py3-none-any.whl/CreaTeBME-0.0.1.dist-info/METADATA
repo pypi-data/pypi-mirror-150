@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CreaTeBME
+Version: 0.0.1
+Summary: Python Package for interfacing the bluetooth IMU module for CreaTe M8 BME.
+Home-page: https://github.com/CreaTe-M8-BME/CreaTeBME
+Author: Jonathan Matarazi
+Author-email: dev@jonathanm.nl
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CreaTe-M8-BME/CreaTeBME/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: serial (>=0.0.97)
+Requires-Dist: pybluez (==0.22)
+Requires-Dist: prompt-toolkit (>=3.0.29)
+
+UNKNOWN
+
