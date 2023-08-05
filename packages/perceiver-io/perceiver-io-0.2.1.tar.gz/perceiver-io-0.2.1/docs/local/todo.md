@@ -1,0 +1,22 @@
+- Check if token-based masking is in conflict with predicting a (masked) word that is composed of several sub-words (i.e. tokens)
+  - the method still learns about language but is restricted for recovering more complex words masked directly in the input
+- Datasets
+  - Wikipedia (https://www.tensorflow.org/datasets/catalog/wikipedia, https://huggingface.co/datasets/wikipedia)
+    - https://arxiv.org/pdf/1810.04805.pdf mentions the importance of a document-level dataset
+    - https://arxiv.org/pdf/1910.10683.pdf mentions 16 GB size of the Wikipedia dataset 
+      (see also https://huggingface.co/datasets/wikipedia#20220301en)
+  - C4 (https://github.com/allenai/allennlp/discussions/5056)
+  - GoEmotions dataset
+    - https://ai.googleblog.com/2021/10/goemotions-dataset-for-fine-grained.html
+    - https://www.marktechpost.com/2021/11/05/google-ai-introduces-goemotions-an-nlp-dataset-for-fine-grained-emotion-classification/
+  - NQ dataset
+    - https://ai.google.com/research/NaturalQuestions
+- Tasks
+  - Masked language modeling
+    - mask whole words, not tokens (see also huggingface transformers)
+  - Transformer Memory as a Differentiable Search Index (https://arxiv.org/abs/2202.06991)
+- Training
+  - use LAMB optimizer
+  - see Appendix F.3 (concatenate 10 documents ...)
+  - create sequence batches with minimal padding (related to previous)
+- Support Fourier features as output query 
