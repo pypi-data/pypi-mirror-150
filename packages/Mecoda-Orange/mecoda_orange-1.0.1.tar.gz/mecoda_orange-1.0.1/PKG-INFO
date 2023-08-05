@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: mecoda_orange
+Version: 1.0.1
+Summary: Add-on containing MECODA widgets to analyse data from citizen science observatories
+Home-page: https://github.com/eosc-cos4cloud/mecoda-orange
+Author: Ana Alvarez, ICM-CSIC
+Author-email: ana.alvarez@icm.csic.es
+License: BSD
+Description: UNKNOWN
+Keywords: orange3 add-on
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
