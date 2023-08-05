@@ -1,0 +1,1 @@
+from monostate.owner import MonoStateOwner
