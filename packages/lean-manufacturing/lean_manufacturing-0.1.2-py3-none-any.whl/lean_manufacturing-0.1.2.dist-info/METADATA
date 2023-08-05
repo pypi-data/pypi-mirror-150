@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: lean-manufacturing
+Version: 0.1.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Lean manufacturing for Python
+* Use lean manufacturing concepts to streamline python workflow. 
+* Organize and access your workflow through a mongodb local installation.
+* Make your relevant functions independent from each other.
+* Configure and make adjustments to your functions through mongodb.
+
+## Requirements
+
+You'll need a localhost default installation of the community version of MongoDb (i.e. accessible at *mongodb://localhost:27017*).
+
+This is a great and easy-to-use database, completely free. Please see https://www.mongodb.com/docs/manual/installation/ if you need help with the installation.
+
+### Not required, but useful
+
+Mongodb Compass is a free software from mongodb that allows you to visually edit your mongodb databases. Please see https://www.mongodb.com/products/compass if you want to download it.
+
+## Usage
+
+### Simple use
+
+For usage, simply include a decorator to your main functions, and make sure to add **config as key-arguments to your functions.
+
+```
+from lean-manufacturing import Lean
+
+@Lean.production_line('my_first_production_line')
+def do_something_relevant(**config):
+
+    # get elements from somewhere
+    elements = [{'_id': a, number: 1}, {'_id': b, number: 2}]
+
+    # do something with the elements
+    processed_elements = [{'_id': element['_id'], number= element['number']*2 } for element in elements]
+
+    # return elements
+    return processed_elements
+
+```
+Lean will automatically save the output to the 'workers' database under the collection name 'my_first_production_line.do_something_relevant'.
+
+### Getting output from other functions
+
+If you need to call the output of a function in another function, you can use the 'workers_db'.
+
+```
+from lean-manufacturing import Lean
+
+@Lean.production_line('my_first_production_line')
+def another_function(**config):
+
+    workers_db = config.get('workers_db')
+
+    # get elements using mongodb operators
+    elements = workers_db['my_first_production_line.another_function'].find()
+
+    # do something with the elements
+    processed_elements = [{'_id': element['_id'], number= element['number']*2 } for element in elements]
+
+    # return elements
+    return processed_elements
+
+```
+
+Remember that lean will automatically save the output to the 'workers' database under the collection name 'my_first_production_line.another_function'.
+
+Similarly, you can also use monitor_db, although be careful not to change it unintentionally.
+
+### Getting custom parameters for configuring your functions
+
+Lean creates and mantains a document for each worker at a local db named 'monitor' under a collection named 'workers' (do not confuse with the db named 'workers' which stores the output from functions).
+
+This will automatically store very interesting data about the functions, such as the 'last_duration', the 'last_success', the 'last_failure' and a list of errors with the 'error_time' and 'message'.
+
+You can also store custom configuration data, which will be accessible through the 'config' dictionary.
+
+In the following example, assume that you have manually include a 'my_key_at_mongodb' at your function's document at mongodb.
+
+```
+from lean-manufacturing import Lean
+
+@Lean.production_line('my_first_production_line')
+def my_configured_function(**config):
+
+    my_config_variable = config.get('my_key_at_mongodb')
+
+    # get elements from somewhere
+    elements = [{'_id': a, number: 1}, {'_id': b, number: 2}]
+
+    # do something with the elements
+    processed_elements = [{'_id': element['_id'], number= element['number']*my_config_variable } for element in elements]
+
+    # return elements
+    return processed_elements
+
+```
+Remember that lean will automatically save the output to the 'workers' database under the collection name 'my_first_production_line.my_configured_function'.
+
+### Bonus
+
+You'll also get a Lean.log function with all python default logging operators, that will automatically store your logs to the localdb named 'monitor', at the collection named 'logs'. The collection is capped, to avoid an excessive size.
+
+```
+from lean-manufacturing import Lean
+
+Lean.log.critical('This is a critical logging')
+Lean.log.error('This is an error logging')
+Lean.log.warning('This is a warning logging')
+Lean.log.info('This is an info logging')
+Lean.log.debug('This is a debug logging')
+
+```
+
+## Simple is better than complex
+
+This is a 75-lines code, including all newlines necessary to make it also beautiful (beautiful is better than ugly) - In fact, this markdown is larger than the code.
+
