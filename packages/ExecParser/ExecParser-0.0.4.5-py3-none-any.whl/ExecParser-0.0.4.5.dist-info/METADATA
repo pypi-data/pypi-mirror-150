@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ExecParser
+Version: 0.0.4.5
+Summary: Parse PE, ELF, and Mach-O using lief
+Home-page: https://github.com/r33-L1/ExecParser
+Author: Vladislav Burtsev
+Author-email: study.white.fox@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: lief (>=0.12.0)
+
+UNKNOWN
+
