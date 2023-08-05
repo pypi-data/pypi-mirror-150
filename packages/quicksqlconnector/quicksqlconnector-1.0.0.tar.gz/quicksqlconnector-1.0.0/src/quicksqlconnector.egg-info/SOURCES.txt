@@ -1,0 +1,8 @@
+README.txt
+setup.py
+src/quicksqlconnector/__init__.py
+src/quicksqlconnector.egg-info/PKG-INFO
+src/quicksqlconnector.egg-info/SOURCES.txt
+src/quicksqlconnector.egg-info/dependency_links.txt
+src/quicksqlconnector.egg-info/requires.txt
+src/quicksqlconnector.egg-info/top_level.txt
