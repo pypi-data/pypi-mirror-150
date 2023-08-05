@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: is-was-doc
+Version: 0.1.0
+Summary: Create and deal with error codes
+Home-page: https://github.com/nicoretti/iwd
+License: MIT
+Keywords: python,error-codes,errors
+Author: Nicola Coretti
+Author-email: nico.coretti@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/nicoretti/iwd
+Description-Content-Type: text/x-rst
+
+Is was Doc
+=================================
+
+
+
+
+
+
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+.. image:: https://img.shields.io/badge/imports-isort-ef8336.svg
+    :target: https://pycqa.github.io/isort/
+
+.. image:: https://img.shields.io/badge/docs-available-blue.svg
+    :target: https://nicoretti.github.io/iwd/
+
+.. image:: https://img.shields.io/pypi/v/iwd
+     :target: https://pypi.org/project/iwd/
+     :alt: PyPI Version
+
+
+Getting Started
++++++++++++++++
+
+#. Setup virtual environment for development
+
+    .. code-block:: shell
+
+        poetry shell
+
+#. Install a dependencies
+
+    .. code-block:: shell
+
+        poetry install
+
+#. List all tasks/targets
+
+    .. code-block:: shell
+
+        nox -l
+
+
