@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ses_send/__init__.py
+src/ses_send/send.py
+src/ses_send.egg-info/PKG-INFO
+src/ses_send.egg-info/SOURCES.txt
+src/ses_send.egg-info/dependency_links.txt
+src/ses_send.egg-info/requires.txt
+src/ses_send.egg-info/top_level.txt
