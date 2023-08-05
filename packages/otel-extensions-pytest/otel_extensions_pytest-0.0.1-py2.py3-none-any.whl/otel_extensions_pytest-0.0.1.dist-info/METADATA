@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: otel-extensions-pytest
+Version: 0.0.1
+Summary: pytest extensions for OpenTelemetry
+Home-page: https://github.com/s4v4g3/otel-extensions-pytest
+Maintainer: Joe Savage
+Maintainer-email: joe.savage@gmail.com
+License: Apache-2.0
+Project-URL: Source, https://github.com/s4v4g3/otel-extensions-pytest
+Project-URL: Tracker, https://github.com/s4v4g3/otel-extensions-pytest/issues
+Keywords: otel,opentelemetry,debug,pytest
+Platform: any
+Classifier: Environment :: Plugins
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: otel-extensions (>=0.0.4)
+Requires-Dist: pytest (>=5.0.0)
+Provides-Extra: test
+Requires-Dist: coverage (>=5) ; extra == 'test'
+
+# otel-extensions-pytest
+
