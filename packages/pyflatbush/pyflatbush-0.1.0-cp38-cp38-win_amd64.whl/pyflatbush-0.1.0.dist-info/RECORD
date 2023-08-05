@@ -1,0 +1,10 @@
+pyflatbush/__init__.py,sha256=q6w3L02GL6HBjek23uD-I-3QBorZp3fHKf06cjQIrkI,169
+pyflatbush/flatbush.c,sha256=zRUkwXeSLAD3ZgWtGHzvjraHWG3fwZ5odQwWsHxV2kU,1297184
+pyflatbush/flatbush.cp38-win_amd64.pyd,sha256=e8Dm9e_cUDOexydFkQtV8Np2MqM67yuugCch_xbv-6M,175616
+pyflatbush/flatbush.pyx,sha256=vf2id5KgY1Aal2stphU8Xv_Dqi9q47QgGUDMAzofBaU,17887
+pyflatbush/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyflatbush-0.1.0.dist-info/LICENSE,sha256=TJb_KkiD6aTCv26uV7fhSi7eHakCZhDWs_nwBEG8QOg,1089
+pyflatbush-0.1.0.dist-info/METADATA,sha256=pK8j8lmv9U5fPwQgbPNii1fv30OM9-WRlZ-2BSL5nR8,1096
+pyflatbush-0.1.0.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+pyflatbush-0.1.0.dist-info/top_level.txt,sha256=1wB5wmFvpc23XEDGjZIs2fTuCssnSVDD2Bs_YZvV_zA,11
+pyflatbush-0.1.0.dist-info/RECORD,,
