@@ -1,0 +1,25 @@
+{
+  "objective": [23, 18],
+  "spawn":
+  {
+    "allied": [1, 1, 5, 5],
+    "axis": [16, 26, 20, 30]
+  },
+  "cost_map":
+  {
+    "size": [32, 32],
+    "file": "map_01_cost.txt",
+    "bmp": "map_01_cost.bmp"
+  },
+  "art_map":
+  {
+    "size": [256, 256],
+    "bmp": "map_01_terrain.bmp"
+  },
+  "height":
+  {
+    "size": [32, 32],
+    "bmp": "map_01_heightmap.bmp"
+  }
+}
+
