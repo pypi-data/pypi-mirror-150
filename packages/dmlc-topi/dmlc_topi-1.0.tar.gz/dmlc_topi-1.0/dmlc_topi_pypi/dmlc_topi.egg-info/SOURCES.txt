@@ -1,0 +1,5 @@
+dmlc_topi_pypi/dmlc_topi/__init__.py
+dmlc_topi_pypi/dmlc_topi.egg-info/PKG-INFO
+dmlc_topi_pypi/dmlc_topi.egg-info/SOURCES.txt
+dmlc_topi_pypi/dmlc_topi.egg-info/dependency_links.txt
+dmlc_topi_pypi/dmlc_topi.egg-info/top_level.txt
