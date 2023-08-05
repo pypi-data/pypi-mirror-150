@@ -1,0 +1,102 @@
+---
+#
+# http://host:port/mami/master/getLicensingStatus
+# 
+#
+#    "hasAdvancedDocumentConversion": true,
+#    "hasAdvancedQueryReporting": false,
+#    "hasContentRecommender": true,
+#    "hasCrawler": false,
+#    "hasExtendedLanguages": true,
+#    "hasMashupBuilderPremium": true,
+#    "hasOCR": false,
+#    "hasSemanticFactory": true,
+
+#    "licenseValidityStatus": {
+#        "class": "com.exalead.mercury.mami.master.v10.LicenseValidityStatus",
+#        "company": "Dassault Aviation",
+#        "contactMail": "samir.ibka@3ds.com",
+#        "contactName": "Samir Ibka",
+#        "expired": true,
+#        "expiredGraceAllowed": true,
+#        "expiredSince": 548665458,
+#        "expiresOn": 1650060000000,
+#        "hostIdInvalidGraceAllowed": true,
+#        "hostIdInvalidSince": 0,
+#        "hostIdValid": true,
+#        "project": "Temporary key"
+#    },
+
+#    "indexingTokensStatus": {
+#        "available": 100000000,
+#        "class": "com.exalead.mercury.mami.master.v10.IndexingTokensStatus",
+#        "consumed": 105754,
+
+- name: Licence Status
+  actions:
+    - name: collect elements
+      url: /master/getLicensingStatus
+      var_name: _root
+
+
+    - name: values
+      metric_prefix: exalead_license
+      vars:
+        labels:
+          - name: type
+            value: "{{ licenseValidityStatus.project }}"
+          - name: company
+            value: "{{ licenseValidityStatus.company }}"
+
+      metrics:
+        - name: status
+          help: "license status (0: expired - 1: valid )"
+          type: gauge
+          value: "{{ 1 - ( licenseValidityStatus.expired | bool2int() ) }}"
+          labels: "{{ labels }}"
+
+        - name: expiration_grace
+          help: "license expiration grace status boolean (0: false - 1: true)"
+          type: gauge
+          value: "{{ licenseValidityStatus.expiredGraceAllowed | bool2int() }}"
+          labels: "{{ labels }}"
+
+        - name: expire_timestamp
+          help: "license expire timestamp in ms"
+          type: gauge
+          value: "{{ licenseValidityStatus.expiresOn }}"
+          labels: "{{ labels }}"
+
+        - name: tokenstatus_available
+          help: "total license tokens available"
+          type: gauge
+          value: "{{ indexingTokensStatus.available }}"
+
+        - name: tokenstatus_used
+          help: "total license tokens used"
+          type: gauge
+          value: "{{ indexingTokensStatus.consumed }}"
+
+        - name: "config_{{ counter.name }}"
+          help: "config feature {{ counter.name }} is enabled boolean (0: false - 1: true)"
+          type: gauge
+          value: "{{ counter.value | bool2int() }}"
+          labels: "{{ labels }}"
+          with_items:
+            - name: hasAdvancedDocumentConversion
+              value: "{{ hasAdvancedDocumentConversion }}"
+            - name: hasAdvancedQueryReporting
+              value: "{{ hasAdvancedQueryReporting }}"
+            - name: hasContentRecommender
+              value: "{{ hasContentRecommender }}"
+            - name: hasCrawler
+              value: "{{ hasCrawler }}"
+            - name: hasExtendedLanguages
+              value: "{{ hasExtendedLanguages }}"
+            - name: hasMashupBuilderPremium
+              value: "{{ hasMashupBuilderPremium }}"
+            - name: hasOCR
+              value: "{{ hasOCR }}"
+            - name: hasSemanticFactory
+              value: "{{ hasSemanticFactory }}"
+          loop_var: counter

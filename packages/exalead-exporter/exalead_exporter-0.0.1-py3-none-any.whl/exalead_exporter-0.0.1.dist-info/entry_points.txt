@@ -1,0 +1,4 @@
+[console_scripts]
+build_exalead_exporter_conf = exalead_exporter.build_conf:main
+exalead_exporter = exalead_exporter.exalead_exporter:main
+
