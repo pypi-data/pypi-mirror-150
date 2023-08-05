@@ -1,0 +1,14 @@
+auto_OD/IoU.py,sha256=OGX4yZACvuWYVe5rgdalTLDbmVqxKEapDTi3lZy6PcI,3491
+auto_OD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_OD/auto_object_detection.py,sha256=cVJB-AQL4bGR5C_H2dgN1cDI0u_nn1zCsthIE9Y8ldA,19313
+auto_OD/auto_object_detection_colab.py,sha256=wL3sSp_ZBtxnQHTT741AwIJQ9UExsF-e_afJaa12QNs,18015
+auto_OD/fullyfunctionality.py,sha256=oJV9lkMnRz__JvuvvC5iZ1A0f5ukc1M8JP3cljHtCB0,4456
+auto_OD/inference.py,sha256=EGo-6ElCyfauTpmAN4Qw3sMbKt4zZxaw7PfvTKoNcD4,5638
+auto_OD/prepare_data.py,sha256=elBg1-8vyElNUNDxcj2VpZsCAnRJtvEs_4WKl2S3-ZE,8875
+auto_OD/resize_images.py,sha256=JQ6t5e0xShRJmHFcWB6J2MtM2cPAoNNQZ0W_o8V2qnk,642
+auto_OD/scenario_detection_pm.py,sha256=FEdCOp9cIkNno9MBQalbMl3b6-xaQZ1Acp0n4H7arvA,10516
+auto_OD/video_stream.py,sha256=xE48FmP2a0f0mxoj78tt746FvFDe3GGOC5Q8sxfTa0g,3223
+auto_OD-0.1.1.dist-info/METADATA,sha256=AHhsRvTVmHQSQu616VVIv2746yAwzqWx-bGF5DYOzbg,3742
+auto_OD-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+auto_OD-0.1.1.dist-info/top_level.txt,sha256=gcCKM4f4xNs86T9KPOQdaHeMOt2qR2IENORkrLZqFGc,8
+auto_OD-0.1.1.dist-info/RECORD,,
