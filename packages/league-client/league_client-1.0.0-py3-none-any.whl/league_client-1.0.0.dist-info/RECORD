@@ -1,0 +1,12 @@
+league_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+league_client/logger.py,sha256=gYx3LXKVFNWNXGMYXZelJJqJg4g9-9tYFzV6kZCJARE,372
+league_client/login.py,sha256=J4bJ-PzWDQKilUqZi5F1s_-IItFf3zmUWs302LwFu2c,5750
+league_client/phases.json,sha256=WtYpGWzqK-l1MCwyjER-5onCqGrYwbrzDXicTEItUaE,406
+league_process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+league_process/process.py,sha256=YsOoelKArf5Ryhh8M6On5xxY4hNdCNKVXXuSSaUWmdY,1180
+league_process/utils.py,sha256=oAB-NsliY_h6hTiW_uxIk9c9_uUZUmE00MvImP5MWp4,1039
+league_client-1.0.0.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+league_client-1.0.0.dist-info/METADATA,sha256=bo_EFF_wLw9ypCXe6zBBT5aXGLdRjz1jVkQc7_wJnOo,1740
+league_client-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+league_client-1.0.0.dist-info/top_level.txt,sha256=-d1mX6FQGLZf62MHt0-I2K-tTuEnL6ZhqwctnxlWWDI,29
+league_client-1.0.0.dist-info/RECORD,,
