@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: testoutput2
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: https://github.com/madreal3267/testoutput
+Author: madreal3267
+Author-email: madreal3267@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+oss-dev calculator python module
+
