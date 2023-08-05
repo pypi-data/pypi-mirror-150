@@ -1,0 +1,13 @@
+- env.name=alfworld_train-v0
+- model.name=multi_rank
+- batch_size=4
+- virtual_batch_size=64
+- actor_batch_size=48
+- model.num_film=3
+- model.drnn=100
+- model.drep=200
+- model.demb=30
+- unroll_length=64
+- model.stateful=true
+- num_actor_cpus=48
+- num_actor_batches=4

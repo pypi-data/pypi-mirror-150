@@ -1,0 +1,17 @@
+- wandb.enable=True
+- env.name=td_segs_train-v0
+- model.name=multi_nav_emb
+- batch_size=3
+- virtual_batch_size=3
+- actor_batch_size=6
+- model.num_film=3
+- model.drnn=100
+- model.drep=200
+- model.demb=30
+- unroll_length=64
+- model.stateful=True
+- num_actor_cpus=6
+- num_actor_batches=1
+- suffix=2
+- project=silg-moolib
+- entropy_cost=0.05

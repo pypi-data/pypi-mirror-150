@@ -1,0 +1,5 @@
+- wandb.enable=True
+- model.name=multi
+- env.name=msgr_train-all_s1-v0
+- suffix=1
+- project=silg-moolib

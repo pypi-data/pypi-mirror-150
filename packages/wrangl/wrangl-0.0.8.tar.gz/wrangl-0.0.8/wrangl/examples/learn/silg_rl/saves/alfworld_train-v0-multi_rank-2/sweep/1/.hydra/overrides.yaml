@@ -1,0 +1,8 @@
+- wandb.enable=True
+- env.name=alfworld_train-v0
+- model.name=multi_rank
+- batch_size=32
+- virtual_batch_size=32
+- actor_batch_size=64
+- suffix=2
+- project=silg-moolib

@@ -1,0 +1,66 @@
+git:
+  enable: false
+wandb:
+  enable: false
+  project: ${project}
+  name: ${name}
+  entity: ${oc.env:USER}
+  dir: ${dproject}
+s3:
+  enable: false
+  fcredentials: not set
+  project_id: ${project}
+  experiment_id: ${name}
+  plot:
+    x: step
+    'y': ${early_stopping.monitor}
+  checkpoint: true
+  pred_samples: true
+early_stopping:
+  monitor: val_acc
+  mode: max
+debug: false
+seed: 0
+gpus: 1
+batch_size: 8
+grad_clip_norm: 40
+collate_fn: auto
+max_steps: 50000000
+log_every_n_steps: 100
+val_check_interval: 100
+flush_logs_every_n_steps: ${log_every_n_steps}
+test_only: false
+autoresume: false
+ckpt_path: latest.ckpt
+learning_rate: 0.0001
+val_sample_size: 100
+name: ${model}-${suffix}
+suffix: default
+model: mymodel
+project: wrangl-examples-atari_rl
+dsave: ${oc.env:PWD}/saves
+dproject: ${dsave}/${project}
+precision: 16
+limit_val_batches: 1.0
+strategy: null
+localdir: ${dsave}/peers/${peer}
+local_name: ${name}-${peer}
+peer: 0
+actor_batch_size: 32
+baseline_cost: 0.5
+connect: 127.0.0.1:4431
+discounting: 0.99
+entropy_cost: 0.0006
+env:
+  name: ALE/Breakout-v5
+  repeat_action_probability: 0.0
+  num_action_repeats: 4
+  noop_max: 30
+fixup_init: true
+num_actor_batches: 2
+num_actor_cpus: 4
+unroll_length: 20
+use_lstm: false
+virtual_batch_size: 32
+reward_clip: 1.0
+warmup: 0
