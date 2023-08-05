@@ -1,0 +1,72 @@
+---
+#
+# http://host:port/mami/deploy/getDeploymentStatus
+# => output is xml stream
+#
+
+# <HostStatus hostname="dalx3d20plma030.dassault-avion.fr" install="cvslave" status="ok" architecture="amd64-linux" nbCpus="4" cpuUsage="39.19598"
+#  dataDir="/local/x3dcv/data/x3dstructma/datadir" installDir="/opt/x3dcv/1.2.2020.1/all_linux00/CloudView/linux_a64/cv"
+#   user="x3dexpo" hostAgentStartupConfigVersion="31" exaHostAgentPort="61009" javaHostAgentPort="61012">
+#     <ProcessStatus 
+#         processName="index6-bg0-i1" 
+#         status="started" pid="128401"
+#         lastStartDate="1650578601275"
+#         nbUnexpectedRestarts="0"
+#         loopCrashing="false"
+#         nbConsecutiveUnexpectedRestarts="0"
+#         ports="61001" debugPort="-1" defaultPort="61001"
+#         jmxPort="-1"/>
+#
+
+- name: Deployment Status
+  actions:
+    - name: collect elements
+      url: /deploy/getDeploymentStatus
+      var_name: _root
+
+    - name: proceed hosts
+      with_items: "{{ DeploymentStatus.HostStatus }}"
+      loop_var: host
+      actions:
+
+        - name: proceed processes
+          with_items: "{{ host.ProcessStatus }}"
+          loop_var: proc
+          actions:
+
+            - name: process metrics
+              vars:
+                labels:
+                  - name: host
+                    value: "{{ host['@hostname'] }}"
+                  - name: process
+                    value: "{{ proc['@processName'] }}"
+
+              metric_prefix: exalead_process
+
+              metrics:
+                - name: status
+                  help: "process status (1-: unknown - 0: stopped - 1: started )"
+                  type: gauge
+                  value: "{{ proc['@status'] | process_status() }}"
+                  labels: "{{ labels }}"
+
+                - name: start_timestamp
+                  help: "timestamp of last restart in milliseconds"
+                  type: gauge
+                  value: "{{ proc['@lastStartDate'] | int() | default(0) }}"
+                  labels: "{{ labels }}"
+
+                - name: unexpected_restart
+                  help: "count unexpected restart"
+                  type: gauge
+                  value: "{{ proc['@nbUnexpectedRestarts'] | int() | default(0) }}"
+                  labels: "{{ labels }}"
+
+                - name: loopcrashing
+                  help: "process loop crashing boolean (0: false - 1: true )"
+                  type: gauge
+                  value: "{{ proc['@loopCrashing'] | bool2int() }}"
+                  labels: "{{ labels }}"
+
+...

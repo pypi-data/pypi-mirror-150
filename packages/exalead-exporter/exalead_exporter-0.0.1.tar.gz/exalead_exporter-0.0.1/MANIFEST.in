@@ -1,0 +1,3 @@
+include dashboards/*
+include screenshots/*
+include requirements.txt

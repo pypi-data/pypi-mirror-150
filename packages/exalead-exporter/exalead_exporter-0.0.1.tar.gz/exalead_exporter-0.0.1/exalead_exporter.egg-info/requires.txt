@@ -1,0 +1,8 @@
+xmltodict==0.12.0
+tenacity==6.2.0
+requests>=2.20.0
+Jinja2==3.0.3
+urllib3==1.24.2
+prometheus_client==0.14.1
+PyYAML>=5.3.1
+python-dateutil>=2.7.0
