@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: yt-dlpr
+Version: 1.0
+Summary: Rich output of yt-dlp.
+Home-page: https://github.com/Secozzi/yt-dlpr
+Author: Folke
+Author-email: folke.ishii@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Video
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: appdirs
+Requires-Dist: yt-dlp
+
+# yt-dlpr
+Rich output of yt-dlp
+
+## yt-dlpr options
+
+``--examples`` - print out examples
+
+``--yt-dlpr-config-path`` - print out path for config file
+
+## Examples of yt-dlp vs yt-dlpr
+
+Downloading video using yt-dlp:
+
+[![asciicast](https://asciinema.org/a/493210.svg)](https://asciinema.org/a/493210)
+
+Downlaoding video using yt-dlpr:
+
+[![asciicast](https://asciinema.org/a/493207.svg)](https://asciinema.org/a/493207)
+
+Extracting audio using yt-dlp:
+
+[![asciicast](https://asciinema.org/a/493214.svg)](https://asciinema.org/a/493214)
+
+Extracting audio using yt-dlpr:
+
+[![asciicast](https://asciinema.org/a/493212.svg)](https://asciinema.org/a/493212)
+
+
