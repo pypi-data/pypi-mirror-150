@@ -1,0 +1,5 @@
+[console_scripts]
+aitg_host_cli=aitg_host.cli:main
+aitg_host_download_model=aitg_host.model:main
+aitg_host_srv=aitg_host.srv:main
+
