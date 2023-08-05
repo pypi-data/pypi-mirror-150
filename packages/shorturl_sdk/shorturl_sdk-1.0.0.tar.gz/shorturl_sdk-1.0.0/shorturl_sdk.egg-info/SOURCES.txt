@@ -1,0 +1,8 @@
+setup.py
+shorturl_sdk.egg-info/PKG-INFO
+shorturl_sdk.egg-info/SOURCES.txt
+shorturl_sdk.egg-info/dependency_links.txt
+shorturl_sdk.egg-info/requires.txt
+shorturl_sdk.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
