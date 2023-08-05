@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: airtest-ext
+Version: 0.5.7
+Summary: An extension for airtest
+Home-page: https://github.com/softice70/airtest-ext
+Author: Ryan
+Author-email: dawnsun@sina.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: airtest
+Requires-Dist: mitmproxy (>=7.0.0)
+Requires-Dist: frida-hooks (>=0.9.16)
+Requires-Dist: dearpygui (>=1.5)
+
+UNKNOWN
+
