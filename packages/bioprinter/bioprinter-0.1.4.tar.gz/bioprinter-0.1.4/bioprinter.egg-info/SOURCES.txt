@@ -1,0 +1,15 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+ez_setup.py
+pypi-readme.rst
+setup.py
+bioprinter/__init__.py
+bioprinter/bioprinter.py
+bioprinter/version.py
+bioprinter.egg-info/PKG-INFO
+bioprinter.egg-info/SOURCES.txt
+bioprinter.egg-info/dependency_links.txt
+bioprinter.egg-info/requires.txt
+bioprinter.egg-info/top_level.txt
+examples/dolly_bioprint.py
