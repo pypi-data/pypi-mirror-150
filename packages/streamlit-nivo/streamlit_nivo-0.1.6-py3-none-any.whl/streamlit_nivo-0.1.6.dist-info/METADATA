@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit-nivo
+Version: 0.1.6
+Summary: Render Nivo charts in Streamlit
+Home-page: https://github.com/aswan-heart-centre/streamlit_nivo
+Author: Ahmed Saleh
+Author-email: a.saleh.ismael@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+
+Render Nivo charts in Streamlit
+
