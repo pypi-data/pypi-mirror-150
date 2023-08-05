@@ -1,0 +1,4 @@
+[console_scripts]
+cmdsta = angeltools.commands:cmd_status
+img2char = angeltools.commands:img2chars
+txt2char = angeltools.commands:txt2chars
