@@ -1,0 +1,16 @@
+dgl
+igraph
+matplotlib
+networkx
+numpy
+pandas
+requests
+scikit-learn
+scipy
+torch
+torch-geometric
+torch-scatter
+torch-sparse
+torchvision
+tqdm
+wheel
