@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: sap-ai-core-metaflow
+Version: 1.1.1
+Summary: A Metaflow plugin to execute flows on Argo Workflows
+Home-page: https://www.sap.com
+Author: SAP SE
+License: SAP DEVELOPER LICENSE AGREEMENT
+Project-URL: Documentation, https://blogs.sap.com/2022/04/20/train-your-model-in-sap-ai-core-using-the-metaflow-argo-plugin/
+Keywords: SAP AICore Metaflow Argo Kubernetes
+Platform: Linux
+Platform: Mac OS-X
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: metaflow (<2.5.5,>=2.5.4)
+Provides-Extra: kubernetes
+Requires-Dist: kubernetes ; extra == 'kubernetes'
+Provides-Extra: test
+Requires-Dist: pytest (>=7.1) ; extra == 'test'
+Requires-Dist: pytest-cov[all] ; extra == 'test'
+
+sap-ai-core-metaflow
+====================
+
+`sap-ai-core-metaflow` is a `Metaflow <https://metaflow.org/>`_ plugin to execute flows on `Argo Workflows <https://argoproj.github.io/argo-workflows/>`_.
+
+It adds Argo Workflows capabilities on top of Metaflow's `@kubernetes` decorator similar
+to `step-functions` and `@batch`.
+
+Installation
+------------
+
+::
+
+  pip install sap-ai-core-metaflow\[kubernetes\]
+
+
+Configuration
+-------------
+
+Plugin requires configured Metaflow::
+
+  metaflow configure eks
+
+
+Usage
+-----
+
+Resembles Metaflow's step-functions command::
+
+  cd metaflow-tutorials
+  python 00-helloworld/helloworld.py argo create
+  python 00-helloworld/helloworld.py argo trigger
+  python 00-helloworld/helloworld.py argo list-runs
+
+To see sub-commands' detailed information, run::
+
+  python 00-helloworld/helloworld.py argo [sub-command] --help
+
+
