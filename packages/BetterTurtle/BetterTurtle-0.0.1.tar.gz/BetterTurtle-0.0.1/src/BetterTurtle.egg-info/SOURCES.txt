@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/BetterTurtle.py
+src/BetterTurtle.egg-info/PKG-INFO
+src/BetterTurtle.egg-info/SOURCES.txt
+src/BetterTurtle.egg-info/dependency_links.txt
+src/BetterTurtle.egg-info/top_level.txt
