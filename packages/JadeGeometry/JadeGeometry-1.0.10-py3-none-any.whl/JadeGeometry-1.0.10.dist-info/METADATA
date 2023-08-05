@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: JadeGeometry
+Version: 1.0.10
+Summary: Package Used for solving math
+Author: Jade
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Jade Geometry now moved over to [Jade Math](https://pypi.org/project/JadeMath/2.0.9/#description)
+
+
+
