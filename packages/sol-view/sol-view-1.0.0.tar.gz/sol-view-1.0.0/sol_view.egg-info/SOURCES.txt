@@ -1,0 +1,16 @@
+README.md
+setup.py
+sol_view/__init__.py
+sol_view/fits.py
+sol_view/main.py
+sol_view/plot_actions.py
+sol_view/plot_hdf5.py
+sol_view/qdialog.py
+sol_view.egg-info/PKG-INFO
+sol_view.egg-info/SOURCES.txt
+sol_view.egg-info/dependency_links.txt
+sol_view.egg-info/entry_points.txt
+sol_view.egg-info/requires.txt
+sol_view.egg-info/top_level.txt
+sol_view/scripts/__init__.py
+sol_view/scripts/run.py
