@@ -1,0 +1,11 @@
+siwe/__init__.py,sha256=HgiZRKXWBF0PMUOYzTumkAVbJ0fXmFe1AFtvKn_ou8E,20
+siwe/defs.py,sha256=t3D4MmQHxmm8BoU_NqZ1WiWAWj4y5DFLtFG6DloqVY8,1063
+siwe/grammars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siwe/grammars/eip4361.py,sha256=atOVSOf4WypLmGlznSo3sBuoHL7Q7fUHDm9at4FILwM,1685
+siwe/grammars/rfc3339.py,sha256=Zw5aIvbJUCpcdH2bPlN7UnHTa7j6C6XjbxuBxBo5fZ4,867
+siwe/grammars/rfc5234.py,sha256=pGg6GucTIKZvMEEu4mNi3F_fkCSTXtodrSbutbOQvVQ,424
+siwe/parsed.py,sha256=-Mw-NXRiFpEMop5ZQINGuooqA_UyhcAuQG1fHR-TuYw,2300
+siwe/siwe.py,sha256=BhQgQO8c7ShNm6BJw6RzUYkvmfzvVVHxrROBo_piG-Q,9527
+siwe-2.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+siwe-2.0.0.dist-info/METADATA,sha256=Y0i0iuc4fjmdkwp72PKM4JA_4yc7X-bGShIQjdO1KWA,3571
+siwe-2.0.0.dist-info/RECORD,,
