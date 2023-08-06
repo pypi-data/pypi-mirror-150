@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: climbing_ratings
+Version: 4.2.1
+Summary: Estimate climber and route ratings from ascents data
+Home-page: https://github.com/p00ya/climbing_ratings
+Author: Dean Scarff
+Author-email: dos@scarff.id.au
+License: Apache License 2.0
+Platform: POSIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+
+
+climbing_ratings is a library for estimating ratings for the sport of rock
+climbing.  The ratings can be used to predict route difficulty and climber
+performance on a particular route.
+
+The algorithms are based on the Whole-History Rating system.
+

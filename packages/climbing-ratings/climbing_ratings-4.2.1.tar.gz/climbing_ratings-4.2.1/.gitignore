@@ -1,0 +1,17 @@
+# .gitignore
+
+.*
+!.Rbuildignore
+!/.github
+!/.travis.yml
+*.pyc
+*.c
+*.so
+*.tar.gz
+/dist/
+/build/
+/*.egg-info
+/*.egg
+/data
+/climbr/man
+/tests/testdata/**/*.rds
