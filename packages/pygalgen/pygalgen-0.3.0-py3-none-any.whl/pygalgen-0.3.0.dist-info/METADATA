@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pygalgen
+Version: 0.3.0
+Summary: Toolkit used for generation and validation of Galaxy tool definition files of python programs 
+Home-page: https://github.com/Kulivox/TRToolsTDFGenerator
+Download-URL: https://github.com/Kulivox/TRToolsTDFGenerator
+Author: Michal Klinka
+Author-email: mich.klinka@gmail.com
+Project-URL: Bug Tracker, https://github.com/Kulivox/TRToolsTDFGenerator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: PyYAML
+
+# PyGalGen
+Toolkit used for generation and validation of Galaxy tool
+definition files of python programs
+
+## Installation
+The tool can be installed by pip using this command:
+```
+pip install pygalgen
+```
+
+## Restrictions
+PyGalGen is restricted to python programs because of the way it extracts the necessary information. It is further restricted to programs that use the argparse built-in python module and initialise a single argument parser in one location.
