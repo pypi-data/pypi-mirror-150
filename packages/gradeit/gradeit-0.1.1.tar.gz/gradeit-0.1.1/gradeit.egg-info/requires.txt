@@ -1,0 +1,9 @@
+xarray
+numpy
+pandas
+requests
+rasterio
+scipy
+
+[plot]
+matplotlib
