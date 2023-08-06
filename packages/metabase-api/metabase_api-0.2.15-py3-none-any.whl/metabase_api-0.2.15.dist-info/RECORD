@@ -1,0 +1,9 @@
+metabase_api/__init__.py,sha256=uKau9xIMXlUkzNoQtWWdBnj4SKLQSnXjQHjtb_0hzWU,40
+metabase_api/metabase_api.py,sha256=1XDKLxkgqUMaWsZg7tV5ssPefJ90U8Q_LI21UZy9kQQ,61842
+tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/test_metabase_api.py,sha256=PE-PMkuWJUpL4C9s0Hmco4bclSf_oOTRYwNxArOWeeM,11842
+metabase_api-0.2.15.dist-info/LICENSE,sha256=wvTpuzuL9AgnLCaTEWxBiOwvMdTiz8ljb0GvOQ5kG7w,1101
+metabase_api-0.2.15.dist-info/METADATA,sha256=0xmF845phcjAz_0nU2HTVK3vJ0zOjFs_vEVc3U9Yzvw,12997
+metabase_api-0.2.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+metabase_api-0.2.15.dist-info/top_level.txt,sha256=XClx8BtOSxaovq1tUO-dVsMdxb8IP1qmHeGAnAYorUM,19
+metabase_api-0.2.15.dist-info/RECORD,,
