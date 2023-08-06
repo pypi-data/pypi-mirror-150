@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: simplemathutils-lib
+Version: 0.0.8
+Summary: simplemathutils-lib is a creative package for basic mathematical operations with Python.
+Home-page: https://github.com/MattithyahuData/simplemathutils-lib
+Author: Mattithyahu O
+Author-email: contactmattithyahu@gmail.com
+License: UNKNOWN
+Keywords: math
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# simplemathutils-lib
+
+`simplemathutils-lib` is a creative package for basic mathematical operations with Python.
+It works by simple math principles with more to come to make math easier in python3. 
+
+All simplemathutils-lib wheels distributed on pypi are MIT licensed.
+
+## Requirements
+
+simplemathutils-lib requires python 3.6 or greater.
+
+## Installation
+
+Install with pip:
+
+```
+pip install simplemathutils-lib
+```
+
+## Examples
+
+```python
+import simplemathutils-lib as simplemath
+
+simplemath.add(1,1)
+
+```
+
+## Contribute
+
+Feel free to open pull requests to expand this documentation, add features or fix problems.
+
+
+
