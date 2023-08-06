@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+python_color_getter/__init__.py
+python_color_getter/pythonColorGetter.py
+python_color_getter.egg-info/PKG-INFO
+python_color_getter.egg-info/SOURCES.txt
+python_color_getter.egg-info/dependency_links.txt
+python_color_getter.egg-info/top_level.txt
