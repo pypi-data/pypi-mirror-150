@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytubescraper
+Version: 0.0.1
+Summary: A python package that can scrape youtube
+Home-page: UNKNOWN
+Author: Aarav
+Author-email: aarav.trivedi12@gmail.com
+License: UNKNOWN
+Keywords: youtube,scrapers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: urllib.request
+Requires-Dist: requests
+Requires-Dist: py-youtube
+
+This libary has functions like titles(youtube_id,results_number)
+, ids(title,results,number) and recommandations(title). It should be used for youtube webbscraping
+
