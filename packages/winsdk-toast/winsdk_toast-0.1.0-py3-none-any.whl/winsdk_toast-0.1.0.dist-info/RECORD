@@ -1,0 +1,9 @@
+winsdk_toast/__init__.py,sha256=dlaUOf6SYTiqInL567ad5XlIAqmL6sR5kq3LISW5kRw,220
+winsdk_toast/event.py,sha256=W0s2XfZ1tTv_lbZ72EcZ_JJfbh96USmu5JqW9Lyhwcc,1996
+winsdk_toast/notifier.py,sha256=20m3VMzVmItXt-mRzuRaFsKLKRkvc6R3ddMfdRJ7uAI,2943
+winsdk_toast/toast.py,sha256=rWWc_oD6V2t2DBuELNKhI3cLdCzaqR36GgclCwJvU2k,13601
+winsdk_toast-0.1.0.dist-info/LICENSE,sha256=CPa9eCkZreyPdVPAMONIkT2qy1bmFOyC_xFa0FfwakU,1087
+winsdk_toast-0.1.0.dist-info/METADATA,sha256=HdlSMKPtZIOoVJwf3gZ_dzuDlZZF_wmb5YjU2cf69EU,1509
+winsdk_toast-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+winsdk_toast-0.1.0.dist-info/top_level.txt,sha256=iU_zJQOZq8VB70_95hm2rPiRx0MoNXkYsCdK3wzv-qE,13
+winsdk_toast-0.1.0.dist-info/RECORD,,
