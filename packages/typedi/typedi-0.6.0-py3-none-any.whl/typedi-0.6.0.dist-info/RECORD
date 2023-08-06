@@ -1,0 +1,11 @@
+typedi/__init__.py,sha256=dlXu08r7Jx0mkHIwruSuoZjDLOFGL-M_MBFU4bPvLmA,282
+typedi/container.py,sha256=Ik8U6DfAbI5k1TbWaqb6E-ooV_3bQX9_AzZZX152k-o,16120
+typedi/object_proxy.py,sha256=AL366P7_IvMdNDWL4qtUO_L58uAI0R7A9rn1t5i6h3E,12708
+typedi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typedi/resolution.py,sha256=XaxhFzBUhV3l34L1Jdth4xdfig4cqzBVXZKKS0Sxlb4,17429
+typedi/typing_utils.py,sha256=NBni-Od-FeZJTit4OTzSbdr-SrBvA-h6Fq5Wc35Agsw,4130
+typedi-0.6.0.dist-info/LICENCE,sha256=0DlqF-qkTS2un8sNcNCvFdLJ9RYKzbtkV2-p4cG7W8Y,1070
+typedi-0.6.0.dist-info/METADATA,sha256=DSsNyptU26C9qakeSKl3H1__LImVNtT_hXQNHjKGoVI,17164
+typedi-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typedi-0.6.0.dist-info/top_level.txt,sha256=YTuEkSw3eJZK1Z0KxEk34115AZ4HxpVz2ej_wKPXkOg,7
+typedi-0.6.0.dist-info/RECORD,,
