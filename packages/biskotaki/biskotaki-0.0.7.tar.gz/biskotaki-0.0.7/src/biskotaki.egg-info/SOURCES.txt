@@ -1,0 +1,16 @@
+CHANGELOG.rst
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/biskotaki/__init__.py
+src/biskotaki/py.typed
+src/biskotaki.egg-info/PKG-INFO
+src/biskotaki.egg-info/SOURCES.txt
+src/biskotaki.egg-info/dependency_links.txt
+src/biskotaki.egg-info/not-zip-safe
+src/biskotaki.egg-info/requires.txt
+src/biskotaki.egg-info/top_level.txt
+tests/smoke_test.py
