@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: navimagefilters
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Navaneeth-Sharma/imagefilters/
+Author: Navaneeth
+Author-email: navaneethsharma2310oct@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Image Filters
+
+This package contains simple image filters
+
+### How to Use?
+```python
+import cv2
+from facefilters.main import edge_detect
+
+# change the algorithm to get different edge detections
+img = edge_detect('example.jpg', algorithm="canny", show=False)
+
+cv2.imwrite('image.jpg', img)
+
+```
+
