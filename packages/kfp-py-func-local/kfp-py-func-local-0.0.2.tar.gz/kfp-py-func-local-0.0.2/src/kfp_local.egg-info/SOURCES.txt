@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/kfp_local/__init__.py
+src/kfp_local/client.py
+src/kfp_local.egg-info/PKG-INFO
+src/kfp_local.egg-info/SOURCES.txt
+src/kfp_local.egg-info/dependency_links.txt
+src/kfp_local.egg-info/entry_points.txt
+src/kfp_local.egg-info/requires.txt
+src/kfp_local.egg-info/top_level.txt
+src/kfp_local/.idea/idea.py
