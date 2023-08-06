@@ -1,0 +1,3 @@
+[console_scripts]
+myHMM = main:main
+
