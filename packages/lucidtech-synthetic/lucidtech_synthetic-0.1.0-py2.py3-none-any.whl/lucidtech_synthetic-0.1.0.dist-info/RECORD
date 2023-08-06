@@ -1,0 +1,10 @@
+synthetic/__init__.py,sha256=nDWNd6_TSf4vDQuHVBoAf4QfZCB3ZUFQ0M7XvifNJ-g,78
+synthetic/__main__.py,sha256=Po3-iOqm4pA-QT_GqKvtmKdC_7I_DjfdpkqFDZ9eKYc,2447
+synthetic/__version__.py,sha256=lqW9vV42LfoEm2k21edgPxsxKgtxLb9dNuFFGeyGi7M,382
+synthetic/iterdata.py,sha256=rje14rxkoyzaer5ejwunJnVdnC6yyyYJmNseDRYPkYo,2900
+lucidtech_synthetic-0.1.0.dist-info/LICENSE.md,sha256=of9iSHiTE61orqZxKpImeSCvDmmZC0T_uASggvwr6kU,11349
+lucidtech_synthetic-0.1.0.dist-info/METADATA,sha256=VTLKN0NaFxPxINBa2Ga_E7Y9SN8IA62U_DlpJI8UeB4,2559
+lucidtech_synthetic-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+lucidtech_synthetic-0.1.0.dist-info/entry_points.txt,sha256=hETuSNB_rhMExcynqoRXFdZwFpl3Jhs0Shgs1tdP-yM,55
+lucidtech_synthetic-0.1.0.dist-info/top_level.txt,sha256=GMT4WhgM8p3cH446MUP_VNZD0cMG2-YQ9PcEgmMgcdQ,10
+lucidtech_synthetic-0.1.0.dist-info/RECORD,,
