@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "ToxAssign"
+version = "0.5.1"
+description = "A toxic assigner used to classify potentially toxic chemicals from a list of formulas of compounds."
+license = "MIT"
+authors = ["Samuel Breuer <swbreuer@mtu.edu>"]
+maintainers = ["Samuel Breuer <swbreuer@mtu.edu>"]
+readme = "README.md"
+repository = "https://github.com/swbreuer/ToxAssign"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.5"
+openpyxl = "^3.0.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+toxassign = "toxassign.Automation:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/swbreuer/ToxAssign/issues"
