@@ -1,0 +1,102 @@
+###############################################################################
+# Copyright (C) 2022 Habana Labs, Ltd. an Intel Company
+# All Rights Reserved.
+#
+# Unauthorized copying of this file or any element(s) within it, via any medium
+# is strictly prohibited.
+# This file contains Habana Labs, Ltd. proprietary and confidential information
+# and is subject to the confidentiality and license agreements under which it
+# was provided.
+#
+###############################################################################
+import os
+try:
+    import horovod.tensorflow as hvd
+except ImportError:
+    hvd = None
+
+from habana_frameworks.tensorflow.media.habana_dataset import HabanaDataset
+import tensorflow as tf
+import logging
+log = logging.getLogger(__file__)
+
+force_fallback = os.environ.get("FORCE_HABANA_IMAGENET_LOADER_FALLBACK") is not None
+media_import_error_msg = ""
+try:
+    from medialoaders.tensorflow.media_resnet_pipe import ResnetPipe
+except ImportError as e:
+    media_import_error_msg = e.msg
+
+
+def _get_pytorch_dataset_dir(is_training, data_dir):
+    if is_training:
+        return os.path.join(data_dir, 'train')
+    else:
+        return os.path.join(data_dir, 'val')
+
+
+def log_fallback(device_type, jpeg_data_dir):
+    reasons = []
+    if not device_type.startswith("GAUDI2"):
+        reasons.append("Incorrect device type")
+    if force_fallback:
+        reasons.append("Fallback was forced")
+    if jpeg_data_dir is None:
+        reasons.append("jpeg_data_dir not provided")
+    if media_import_error_msg:
+        reasons.append(media_import_error_msg)
+    log.warning("Resnet dataset was fallbacked. Reasons: {%s}", ", ".join(reasons))
+
+
+def habana_imagenet_dataset(fallback,
+                            is_training,
+                            tf_data_dir,
+                            jpeg_data_dir,
+                            batch_size,
+                            num_channels,
+                            img_size,
+                            dtype,
+                            use_distributed_eval,
+                            **fallback_kwargs):
+    from habana_frameworks.tensorflow import habana_device
+    device_type = habana_device.get_type()
+    if device_type.startswith("GAUDI2") and not force_fallback and not media_import_error_msg and jpeg_data_dir is not None:
+        if dtype == tf.float32:
+            m_dtype = 'float32'
+        elif dtype == tf.bfloat16:
+            m_dtype = 'bfloat16'
+        else:
+            m_dtype = 'uint8'
+
+        if hvd and hvd.is_initialized() and (is_training or use_distributed_eval):
+            num_slices = hvd.size()
+            slice_index = hvd.rank()
+        else:
+            num_slices = 1
+            slice_index = 0
+
+        pipe = ResnetPipe("Gaudi2", 3, batch_size, num_channels,
+                          img_size, img_size, is_training,
+                          _get_pytorch_dataset_dir(is_training, jpeg_data_dir),
+                          m_dtype, num_slices, slice_index)
+        pipe.set_repeat_count(-1)
+
+        dataset = HabanaDataset(output_shapes=[(batch_size,
+                                                img_size,
+                                                img_size,
+                                                num_channels),
+                                               (batch_size,)],
+                                output_types=[dtype, tf.float32], pipeline=pipe)
+        dataset = dataset.prefetch(buffer_size=tf.data.AUTOTUNE)
+        return dataset
+    else:
+        log_fallback(device_type, jpeg_data_dir)
+        if tf_data_dir is not None:
+            return fallback(is_training=is_training,
+                            data_dir=tf_data_dir,
+                            batch_size=batch_size,
+                            dtype=dtype,
+                            use_distributed_eval=use_distributed_eval,
+                            **fallback_kwargs)
+        else:
+            raise RuntimeError("Tried to run fallback dataset without --data_dir provided")
