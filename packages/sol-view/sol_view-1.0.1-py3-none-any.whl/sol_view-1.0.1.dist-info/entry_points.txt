@@ -1,0 +1,3 @@
+[console_scripts]
+sol_view = sol_view.scripts.run:run_sol_view
+
