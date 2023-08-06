@@ -1,0 +1,7 @@
+resoto_plugin_cleanup_aws_vpcs/__init__.py,sha256=Vg_DIY0cBi5RTwd7pX89uTg-9C4xQSXV8gUn6Kj-O4M,5472
+resoto_plugin_cleanup_aws_vpcs/config.py,sha256=mxa_g_VM9YzJ1afhjbdwnV-9UZAnpNiFR3EE8HJtmZ0,1480
+resoto_plugin_cleanup_aws_vpcs-2.2.0.dist-info/METADATA,sha256=ib1T1T3iYZhNVq_YTnVoWXxO-4_-2tuJbpYw-8UNxQw,1618
+resoto_plugin_cleanup_aws_vpcs-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resoto_plugin_cleanup_aws_vpcs-2.2.0.dist-info/entry_points.txt,sha256=wbIVPaiyRI9NjzO3pnUQ3fb7d3tV5w6jIaCStN3Bl5o,88
+resoto_plugin_cleanup_aws_vpcs-2.2.0.dist-info/top_level.txt,sha256=6FUupXEwaCa-_mWYGuOBOaX7F0A-OxpXMXlaDYdalcA,31
+resoto_plugin_cleanup_aws_vpcs-2.2.0.dist-info/RECORD,,
