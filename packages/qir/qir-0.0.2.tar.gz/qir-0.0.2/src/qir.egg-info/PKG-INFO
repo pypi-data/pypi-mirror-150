@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qir
+Version: 0.0.2
+Summary: Chiral magnetic noise calculations in thin magnetic films
+Home-page: https://github.com/helenala/qi-relaxometry
+Author: Helena La
+Author-email: heelenala@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+License-File: LICENSE.txt
+
+UNKNOWN
+
