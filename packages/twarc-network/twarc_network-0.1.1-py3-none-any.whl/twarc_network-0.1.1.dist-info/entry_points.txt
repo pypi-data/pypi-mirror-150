@@ -1,0 +1,2 @@
+[twarc.plugins]
+network = twarc_network:network
