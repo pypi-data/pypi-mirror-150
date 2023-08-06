@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thwAPI/__init__.py
+thwAPI/test.py
+thwAPI/test_2.py
+thwAPI/thw.py
+thwAPI.egg-info/PKG-INFO
+thwAPI.egg-info/SOURCES.txt
+thwAPI.egg-info/dependency_links.txt
+thwAPI.egg-info/requires.txt
+thwAPI.egg-info/top_level.txt
