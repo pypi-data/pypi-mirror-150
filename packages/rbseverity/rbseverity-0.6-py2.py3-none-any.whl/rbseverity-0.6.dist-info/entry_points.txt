@@ -1,0 +1,2 @@
+[reviewboard.extensions]
+rbseverity = rbseverity.extension:SeverityExtension
