@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "asking-more-questions"
+version = "0.1.0"
+description = "A collection of tools that make ad-hoc queries faster"
+authors = ["Kim TImothy Engh <kimothy@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sqcli = "asking_more_questions.client:app"
