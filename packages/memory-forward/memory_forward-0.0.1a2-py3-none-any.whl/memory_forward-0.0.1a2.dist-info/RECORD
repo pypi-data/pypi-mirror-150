@@ -1,0 +1,10 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/goodbye.py,sha256=fddqMWtM4l9VBN6fo99eALMEaXtK8hYyjoyjOWDR4J8,98
+app/hello.py,sha256=D5XgtB3A7hd5t1TlzIcS3wJAv-TRyKf1bLc9okREwPM,93
+memory_forward-0.0.1a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+memory_forward-0.0.1a2.dist-info/METADATA,sha256=pBE7XrEj9VFMJNhn7c_tNAHy2qq_7hSY5fE5ONFj9sI,613
+memory_forward-0.0.1a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memory_forward-0.0.1a2.dist-info/entry_points.txt,sha256=KTX1KRISezs7jyt4rrEW-OFsPliFv-PWeUWxeey8UG4,43
+memory_forward-0.0.1a2.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+memory_forward-0.0.1a2.dist-info/RECORD,,
