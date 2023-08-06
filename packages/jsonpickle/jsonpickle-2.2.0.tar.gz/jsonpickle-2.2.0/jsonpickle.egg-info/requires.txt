@@ -1,0 +1,38 @@
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[docs]
+sphinx
+jaraco.packaging>=3.2
+rst.linker>=1.9
+
+[testing]
+pytest!=3.7.3,>=3.5
+pytest-checkdocs>=1.2.3
+pytest-black-multipy
+pytest-cov
+ecdsa
+feedparser
+numpy
+pandas
+pymongo
+scikit-learn
+sqlalchemy
+
+[testing.libs]
+simplejson
+ujson
+
+[testing.libs:python_version == "2.7"]
+yajl
+
+[testing:python_version <= "3.6"]
+pytest-flake8<1.1.0
+
+[testing:python_version == "2.7"]
+enum34
+jsonlib
+
+[testing:python_version >= "3.7"]
+pytest-flake8>=1.1.1
