@@ -1,0 +1,10 @@
+aistore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aistore/client/__init__.py,sha256=szoC-i9Pe_Uk7xY9MoL_D6xS_eF7kJ5t60ua69UvmuQ,64
+aistore/client/api.py,sha256=uaYQHnHnh7M0zVrGTPgakXg4f6hU43QPnzYQuay975c,17909
+aistore/client/const.py,sha256=-2uFWINBQcGLGXkFu85tfL2WbzL-uzOuOhK2c7DrcKw,557
+aistore/client/errors.py,sha256=xFhya_-yKhZouZNAXR5e4oAYtJ3nqz4T231CfkBp9tc,243
+aistore/client/msg.py,sha256=qbs-Vk0vH696cArdHKrsCIMykSFUjD_kDETZ9TjS-SQ,1805
+aistore-0.2.0.dist-info/METADATA,sha256=Gmm2WWlk5Q1FTh6DIwFeO84ISGS-mAp-Xgqbgy80eZA,5589
+aistore-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aistore-0.2.0.dist-info/top_level.txt,sha256=c3H8DxQKEf856pO3TXY1rOM83JkDSahS-CHrUhCKaJE,8
+aistore-0.2.0.dist-info/RECORD,,
