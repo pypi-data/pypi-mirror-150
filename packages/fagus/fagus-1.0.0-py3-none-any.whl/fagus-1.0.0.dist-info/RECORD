@@ -1,0 +1,9 @@
+fagus/__init__.py,sha256=oX9E3tTD_OhSIbOJTR3SegG4e4wSgsLBWJRRDXFS8bA,1041
+fagus/fagus.py,sha256=8Pz9J7mVQj6jqGb0nmel4WhGU3S-j2krj4Yuc4BvJH4,108926
+fagus/filters.py,sha256=daj_aL_diOu8737m7CJ89D-yKXAGz5VOtJ0L5HkovcQ,15826
+fagus/iterators.py,sha256=qCl81n5LM1k1TlURzWEhJLrXCsGEusCMBb67Xem6XtA,6821
+fagus/utils.py,sha256=gIGzluAmvQBkfYmK2pSHRmCynfEcM13nNVBEMiyaIpM,9464
+fagus-1.0.0.dist-info/LICENSE.md,sha256=vx2UudvCe-PGQ0B5KQYOrHas3JNZDA_VDefAf0EoWBA,751
+fagus-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fagus-1.0.0.dist-info/METADATA,sha256=IuEvXPdPRv60cYZb8gHsLMA7Q3_jwC0pdxtiA9R6qYE,13032
+fagus-1.0.0.dist-info/RECORD,,
