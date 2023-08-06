@@ -1,0 +1,49 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"Prosector. Reconsider. OTP-CR-117/19."
+
+
+import time
+
+
+from obj import Config
+
+
+Config.console = False
+Config.name = "genocide"
+Config.services = False
+Config.workdir = "/var/lib/genocide/"
+
+
+from irc import Config as IRCConfig
+
+
+IRCConfig.channel = "#genocide"
+IRCConfig.nick = "genocide"
+IRCConfig.realname = "Prosector. Reconsider. OTP-CR-117/19."
+IRCConfig.username = "genocide"
+
+
+from hdl import Callbacks, dispatch
+from irc import IRC
+from rss import Fetcher
+
+
+from genocide.scn import scan
+
+
+def main():
+    Callbacks.add("command", dispatch)
+    scan("genocide")
+    i = IRC()
+    i.start()
+    f = Fetcher()
+    f.start()
+    while 1:
+        time.sleep(1.0)
+
+
+
+main()

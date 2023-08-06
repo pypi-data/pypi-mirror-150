@@ -1,0 +1,11 @@
+csl
+evt
+genocide
+hdl
+irc
+obj
+rpt
+rss
+scn
+thr
+usr
