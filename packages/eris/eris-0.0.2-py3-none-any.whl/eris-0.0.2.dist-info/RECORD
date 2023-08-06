@@ -1,0 +1,9 @@
+eris/__init__.py,sha256=oGBQgiyHYjiT66-N9omA0nbdF3lkHOc0jWjIvnecLaw,206
+eris/decode.py,sha256=pbNhpwsCXglTxDiFmD4O4CY8swv7m-NGsHUPh1h2Hv0,264
+eris/encode.py,sha256=f4dhsZ2eYDqKJarf44lua5WdmyG-pBoYLSShvwPYvuo,6208
+eris/read_capability.py,sha256=59b_ZTdAg6uPKqExUFM3a9ZmqEb-Z05vW7k6Rj9u0Is,1456
+eris-0.0.2.dist-info/COPYING,sha256=7U2EzjVHkyxm99XjgzeO58waN9Qpu66cyjnclC_TtKY,7427
+eris-0.0.2.dist-info/METADATA,sha256=-hY5SDjJ-No6rv8FL7YU-aWz0yUW_tJOxt3sUHo6kR8,3235
+eris-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eris-0.0.2.dist-info/top_level.txt,sha256=9TYLCjW4e632KgNMBEz-EKDnqSFQklM45HKmLpFPWfw,5
+eris-0.0.2.dist-info/RECORD,,
