@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/datagen_example_pypi.egg-info/PKG-INFO
+src/datagen_example_pypi.egg-info/SOURCES.txt
+src/datagen_example_pypi.egg-info/dependency_links.txt
+src/datagen_example_pypi.egg-info/requires.txt
+src/datagen_example_pypi.egg-info/top_level.txt
+src/example_package_oren/__init__.py
+src/example_package_oren/example.py
