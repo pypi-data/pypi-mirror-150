@@ -1,0 +1,7 @@
+betfairlightweight
+pandas
+
+[files]
+betfairlightweight>=2.12.0
+orjson
+smart_open
