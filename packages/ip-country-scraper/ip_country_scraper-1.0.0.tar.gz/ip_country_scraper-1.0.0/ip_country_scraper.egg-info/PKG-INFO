@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ip-country-scraper
+Version: 1.0.0
+Summary: Automation Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Description: IP Country Scraper is a python library to fetch the country of a ip link.
+        
+        ### Installation
+        ```sh
+        pip install ip-country-scraper
+        ```
+        
+        ### Import IP Country Scraper
+        ```
+        from ip_country_scraper import *
+        ```
+        
+        ### Get API Key
+        You can get your api key from [here](https://datakund.com/account/login) after login.
+        
+        ### Set API Key
+        Set your api key to authenticate
+        ```sh
+        dk=set_api_key(apiKey="put your api key here")
+        ```
+        
+        ### Run a bot
+        ```sh
+        dk.ip_country_scraper(link="https://iplocation.io/ip/3.85.165.205",callback=print_the_data)
+        ```
+        
+        ### Stop a bot
+        It stops the current bot runing.
+        ```sh
+        dk.stop()
+        ```
+        
+        ### CallBack Function
+        This func takes the data returned by bot as a parameter, If you want to operate on data returned by bot, then make your function first and then pass it in callback argument. Consider follwing example:-
+        ```sh
+        from ip_country_scraper import *
+        def print_the_data(data):
+        	print("Data",data)
+        	
+        dk=set_api_key(apiKey="put your api key here")
+        dk.ip_country_scraper(link="https://iplocation.io/ip/3.85.165.205",callback=print_the_data)
+        ```
+        
+        ### Contact Us
+        * [Telegram](https://t.me/datakund)
+        * [Website](https://datakund.com)
+        
+        
+Keywords: A python library to scrape country of the ip link provided
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

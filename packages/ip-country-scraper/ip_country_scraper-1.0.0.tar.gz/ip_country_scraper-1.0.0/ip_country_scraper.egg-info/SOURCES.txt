@@ -1,0 +1,8 @@
+README.md
+setup.py
+ip_country_scraper/__init__.py
+ip_country_scraper.egg-info/PKG-INFO
+ip_country_scraper.egg-info/SOURCES.txt
+ip_country_scraper.egg-info/dependency_links.txt
+ip_country_scraper.egg-info/requires.txt
+ip_country_scraper.egg-info/top_level.txt
