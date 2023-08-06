@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scuttlesort
+Version: 0.0.1
+Summary: scuttlesort - incremental consistent topological sort for SSB
+Home-page: https://github.com/tschudin/scuttlesort
+Author: Christian Tschudin
+Author-email: christian.tschudin@unibas.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ScuttleSort
+
+Incremental consistent topological sort for Secure ScuttleButt
