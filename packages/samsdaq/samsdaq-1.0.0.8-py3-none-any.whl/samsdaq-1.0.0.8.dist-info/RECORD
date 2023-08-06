@@ -1,0 +1,10 @@
+ml_test/__init__.py,sha256=51pa0kDb1Tjjog6QhxWPNOcelBb37QWQN1oEHzu8IAs,24
+ml_test/model_test.py,sha256=0srBYzRk1ccp_nFDSdY8qVum9mAqy1avd5dphSgjDIw,248
+ml_test/packageTest.py,sha256=_U7EP4OtUzDfyd7KYkp0P626YH7VkiB3a97dNBIk8EE,54
+samsdaq/__init__.py,sha256=51pa0kDb1Tjjog6QhxWPNOcelBb37QWQN1oEHzu8IAs,24
+samsdaq/model_test.py,sha256=Gs6ByGHaPXR2fE15AK-qL-1ytDhse-O_yVRBAti8qUg,4062
+samsdaq/packageTest.py,sha256=_U7EP4OtUzDfyd7KYkp0P626YH7VkiB3a97dNBIk8EE,54
+samsdaq-1.0.0.8.dist-info/METADATA,sha256=rnjqIg1pwwnnjP9Cbk_Yd07QAA4D6vucAM5SvyXjd_M,222
+samsdaq-1.0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+samsdaq-1.0.0.8.dist-info/top_level.txt,sha256=7RBDM3zrl2fRtCQydzCJVbkM_5rKlidLmXGK3LR2cNU,8
+samsdaq-1.0.0.8.dist-info/RECORD,,
