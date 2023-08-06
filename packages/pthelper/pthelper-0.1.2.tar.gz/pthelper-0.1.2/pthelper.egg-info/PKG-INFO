@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pthelper
+Version: 0.1.2
+Summary: pthelper - boilerplate code for training, logging and evaluation in PyTorch.
+Home-page: https://github.com/LakshyaMalhotra/pt_helper
+Author: Lakshya Malhotra
+Author-email: lakshya9009@gmail.com
+License: MIT
+Keywords: artificial-intelligence,deep-learning,pytorch,ml,torchinfo,model
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `pthelper` - PyTorch
+A python package containing the basic boilerplate code for training and evaluation of PyTorch models. The main purpose of this package is to remove writing the same code for training/inference again and again for different projects. 
+
+Apart from training and evaluation, it also contains other helper functions to perform logging stats in the console as well as Keras like model summaries using [torchinfo](https://github.com/TylerYep/torchinfo) package.
+
+## Install
+```pip install pthelper```
+
+## Usage
+**Utility functions**
+- Print model details:
+```python
+from pthelper import utils
+
+model = PyTorchModel()
+input_size = (4, 28*28)
+device = torch.device('cpu')
+utils.model_details(model, input_size, device)
+```
+
+![model_summary](assets/model_summary.png)
+
+**Model training and evaluation**
+- Train the model:
+```python
+import torch
+import torch.nn as nn
+from pthelper import trainer, utils
+
+epochs = 5
+model = PyTorchModel()
+loss_fn = nn.BCEWithLogitsLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+logger = utils.get_logger()
+pt_trainer = trainer.PTHelper(model, loss_fn, optimizer, logger, num_classes=1)
+for i in range(epochs):
+    train_loss = pt_trainer.train(train_dataloader, epoch=i)
+    valid_loss, predictions, targets = pt_trainer.evaluate(valid_dataloader)
+```
+
+## Scope
+Right now, only binary and multi-class classification tasks are supported. In future releases, more functionality will be added like autoencoders, RNNs, GANs, etc.
