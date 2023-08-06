@@ -1,0 +1,9 @@
+darkstar/__init__.py,sha256=0zYWzEiVZikr-Ajr1cds6sFYf1zcfB-NVX3TvWiXRS8,87
+darkstar/__main__.py,sha256=NR79eR7HL1CEeMR06tmO0ANzmyptCPSxXkG8iFE8EsY,2680
+darkstar/applications.py,sha256=gV11lVBrI9Wgugv95w6WQMX28m_UBrDX0uFyUSm6Ke8,4764
+darkstar/templating.py,sha256=aJSd2pZvTyV08nWi1S9RrSm5cAOtONTWrZbzISxEa-U,2542
+darkstar-0.1.5.dist-info/entry_points.txt,sha256=px4sjN0_p4kyjkLuOTUqc5VhN0htofcZsxsYBf9315s,51
+darkstar-0.1.5.dist-info/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+darkstar-0.1.5.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+darkstar-0.1.5.dist-info/METADATA,sha256=tSG-yXCfFbT5TlTpWT8ddNgfXhzgXbZwSeHTtL2Z6CE,1831
+darkstar-0.1.5.dist-info/RECORD,,
