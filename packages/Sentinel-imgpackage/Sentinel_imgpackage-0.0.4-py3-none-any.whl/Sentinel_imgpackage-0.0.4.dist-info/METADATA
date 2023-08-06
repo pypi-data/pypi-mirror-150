@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: Sentinel-imgpackage
+Version: 0.0.4
+Summary: Sentinel satellite image module
+Home-page: https://github.com/dru-44/sen
+Author: Dru44
+Author-email: dhruthik28@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/dru-44/sen/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: rasterio
+Requires-Dist: plotly
+Requires-Dist: earthpy
+Requires-Dist: tensorboard
+Requires-Dist: rich
+Requires-Dist: lightgbm
+Requires-Dist: seaborn
+
+
+# Sentinel 2 image package
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+
+## Example of How To Use (Alpha Version)
+
+Creating obj
+
+```python
+
+from senpkg import *
+
+path="your data source path"
+p=LandCoverMod.senM(path)
+
+
