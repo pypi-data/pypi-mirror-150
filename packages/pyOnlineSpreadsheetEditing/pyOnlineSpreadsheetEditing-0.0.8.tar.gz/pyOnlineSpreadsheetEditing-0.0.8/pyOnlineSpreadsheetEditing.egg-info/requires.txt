@@ -1,0 +1,8 @@
+pyFlaskBootstrap4~=0.4.6
+py-3rdparty-mediawiki~=0.6.2
+ruamel.yaml
+flask-cors
+justpy~=0.2.3
+gspread~=5.3.2
+python-dateutil
+pyGenericSpreadSheet~=0.0.15
