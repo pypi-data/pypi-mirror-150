@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: yapenv
+Version: 0.0.1
+Summary: Yet another python environment
+Home-page: https://github.com/LamaAni/yape.git
+Author: Zav Shotan
+License: UNKNOWN
+Project-URL: Source, https://github.com/LamaAni/yape.git
+Keywords: environment,venv,virtualenv,pyenv,poetry
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yape
+Yet another python environment manager (One with less opinions)
+
+## Alpha
+
+### Install
+
+The name "yape" was taken. Oh well. To install,
+
+```shell
+pip install yapenv
+```
+
+
