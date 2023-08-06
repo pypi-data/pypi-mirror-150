@@ -1,0 +1,8 @@
+setup.py
+gyprint/__init__.py
+gyprint/gyprint.py
+gyprint.egg-info/PKG-INFO
+gyprint.egg-info/SOURCES.txt
+gyprint.egg-info/dependency_links.txt
+gyprint.egg-info/not-zip-safe
+gyprint.egg-info/top_level.txt
