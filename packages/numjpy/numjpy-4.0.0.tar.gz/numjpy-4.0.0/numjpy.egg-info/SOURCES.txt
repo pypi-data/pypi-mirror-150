@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+numjpy/__init__.py
+numjpy/main.py
+numjpy.egg-info/PKG-INFO
+numjpy.egg-info/SOURCES.txt
+numjpy.egg-info/dependency_links.txt
+numjpy.egg-info/entry_points.txt
+numjpy.egg-info/top_level.txt

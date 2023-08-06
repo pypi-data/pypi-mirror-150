@@ -1,0 +1,2 @@
+[console_scripts]
+numjpy = numjpy.__main__:main
