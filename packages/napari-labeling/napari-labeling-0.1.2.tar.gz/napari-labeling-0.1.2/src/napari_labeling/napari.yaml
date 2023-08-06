@@ -1,0 +1,28 @@
+name: napari-labeling
+display_name: napari Labeling
+contributions:
+  commands:
+    - id: napari-labeling.napari_get_reader
+      python_name: napari_labeling._reader:napari_get_reader
+      title: Open data with napari Labeling
+    - id: napari-labeling.write_single_image
+      python_name: napari_labeling._writer:writer_function
+      title: Save image data with napari Labeling
+    - id: napari-labeling.make_magic_widget
+      python_name: napari_labeling._widget:edit_widget
+      title: Make example magic widget
+    - id: napari-labeling.make_create_widget
+      python_name: napari_labeling._create_widget:create_widget
+      title: A widget to create a labeling object layer from label layers
+  readers:
+    - command: napari-labeling.napari_get_reader
+      accepts_directories: false
+      filename_patterns: ['*.lbl.json']
+  writers:
+    - command: napari-labeling.write_single_image
+      layer_types: ['labels']
+  widgets:
+    - command: napari-labeling.make_magic_widget
+      display_name: Labeling Explorer
+    - command: napari-labeling.make_create_widget
+      display_name: Create multi-layer labels
