@@ -1,0 +1,16 @@
+pure_protobuf/__init__.py,sha256=JUTxhHo8jJdwTSckC2fpjsmn4_hUwc1VOrKTVPaMfKc,235
+pure_protobuf/dataclasses_.py,sha256=BAmuf4c7yXJOzaLtjcBLTYUZ35sb8kFFWfMOSi3vx18,8932
+pure_protobuf/enums.py,sha256=MALR8KB824eudyee0JjjmVpjr50U96NArrnGQS08XmY,279
+pure_protobuf/fields.py,sha256=_uxbkn42SUjbSNCG_OPXMkB6ArruH00ZlIRpGvBxeGM,6769
+pure_protobuf/io_.py,sha256=-zqTp4Ga_hFCB-4iRLLhWXfSCNC-Bi7pvQLTlF5iha8,1030
+pure_protobuf/oneof.py,sha256=lN4l2iCd7hcwjb8cnOyp85GPZcjP-e9xvFp_5GZ917g,2617
+pure_protobuf/serializers/__init__.py,sha256=zOaOh2J103qRmUxMvvnD7hUhGlwRT1CT4xzEoitARzM,13402
+pure_protobuf/serializers/google.py,sha256=Ehs2VZRxvAcE0oaHVL2hfIt0OwqWQrmvuuXGVBOzIsw,3406
+pure_protobuf/types/__init__.py,sha256=ZLDHzH1dK8SJYStaN3N-HysyAhNajZ4AsC94on9Si_Q,793
+pure_protobuf/types/google.py,sha256=E3a39JAhXQgcmAmKkyyMw6fCrOvpy5lgRb7qyBpHUDE,1166
+hidden_pure_protobuf-0.2.dist-info/LICENSE,sha256=lLto_K8fON8VOb_2I8gWjzD3RQkRbFS418G3OwA4Oi4,1089
+hidden_pure_protobuf-0.2.dist-info/METADATA,sha256=i0Zu8NyVu9iP7dGoNVMcKLxg0zZHAPDZLmbI_6CQ7tI,10155
+hidden_pure_protobuf-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hidden_pure_protobuf-0.2.dist-info/top_level.txt,sha256=ZFE2TBklJ9bVOG6L6xtU1Oi2Zd3WL7u4e5I0gFQxznY,14
+hidden_pure_protobuf-0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hidden_pure_protobuf-0.2.dist-info/RECORD,,
