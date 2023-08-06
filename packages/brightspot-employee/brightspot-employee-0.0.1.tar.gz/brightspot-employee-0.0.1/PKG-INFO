@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: brightspot-employee
+Version: 0.0.1
+Summary: Pull and store BrightSpot employee data
+Home-page: https://github.com/SuperDyl/brightspot-employee
+Author: Dylan
+Author-email: SuperDyl19@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SuperDyl/brightspot-employee/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# brightspot-employee
+
+Simple database library for pulling data from a BrightSpot website.
+Default setup can pull employee data from https://religion.byu.edu/directory,
+though the Employee and Employee_Processor classes can be overridden easily
+to allow scraping data for most websites.
+The library also supports using csv files for storing and pulling data.
+
+[License: GPL-3.0-or-later]
+
