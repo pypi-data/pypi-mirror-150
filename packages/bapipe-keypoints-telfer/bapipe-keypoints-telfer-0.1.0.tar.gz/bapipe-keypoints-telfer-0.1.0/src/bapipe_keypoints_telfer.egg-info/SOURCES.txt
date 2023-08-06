@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bapipe/__init__.py
+src/bapipe/api.py
+src/bapipe/configs.py
+src/bapipe/utils.py
+src/bapipe_keypoints_telfer.egg-info/PKG-INFO
+src/bapipe_keypoints_telfer.egg-info/SOURCES.txt
+src/bapipe_keypoints_telfer.egg-info/dependency_links.txt
+src/bapipe_keypoints_telfer.egg-info/requires.txt
+src/bapipe_keypoints_telfer.egg-info/top_level.txt
