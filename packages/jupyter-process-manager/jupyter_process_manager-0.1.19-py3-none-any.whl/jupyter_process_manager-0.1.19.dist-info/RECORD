@@ -1,0 +1,12 @@
+jupyter_process_manager/__init__.py,sha256=IfnLAn8kKbOXVqe1VT6wUrB_puN9oNpU0uIjiLtX9aY,738
+jupyter_process_manager/class_one_process.py,sha256=uMftWcL91QgiTHQuEUqdutwkJuWCqr-tU6fTLOIlIHU,8106
+jupyter_process_manager/class_processes_manager.py,sha256=Aj4wx44is1b5NGGKoEgqeB8UKF7b4bwyROtcfDYavpo,9406
+jupyter_process_manager/function_wrapper.py,sha256=EXQY8YcVEKNCq0__w_gZljswGdJ-UDZvbvf0e83shpc,4044
+jupyter_process_manager/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_process_manager/gui/layouts.py,sha256=f2XJHbtX4uHGuqtViiValsojdMcIN_OiUXbVD3DCP4U,302
+jupyter_process_manager/gui/widget.py,sha256=V_8YM9xQF3wuMyBDhvTkwu9Tk63NFUYmXCkS4lrJ7SQ,9566
+jupyter_process_manager/logger.py,sha256=CMSVckZaRcogIPQjbB0TVMn5ZwIb76xr4ZnR2AjSB-c,4695
+jupyter_process_manager-0.1.19.dist-info/LICENSE.txt,sha256=a8MTW3v1xhtFrLD0_37pb2j89NzH1NRidGc6U-IFdx0,1097
+jupyter_process_manager-0.1.19.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jupyter_process_manager-0.1.19.dist-info/METADATA,sha256=Y8XJ14pGuYjWkFM4caVrR3fy5ywtY0yIIJLF72hsmEg,6382
+jupyter_process_manager-0.1.19.dist-info/RECORD,,
