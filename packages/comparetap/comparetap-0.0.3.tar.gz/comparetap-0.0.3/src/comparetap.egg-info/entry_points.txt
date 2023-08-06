@@ -1,0 +1,2 @@
+[console_scripts]
+comparetap = comparetap.skeleton:run
