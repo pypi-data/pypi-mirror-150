@@ -1,0 +1,8 @@
+setup.py
+mynumpytestadd/__init__.py
+mynumpytestadd/add.py
+mynumpytestadd.egg-info/PKG-INFO
+mynumpytestadd.egg-info/SOURCES.txt
+mynumpytestadd.egg-info/dependency_links.txt
+mynumpytestadd.egg-info/requires.txt
+mynumpytestadd.egg-info/top_level.txt
