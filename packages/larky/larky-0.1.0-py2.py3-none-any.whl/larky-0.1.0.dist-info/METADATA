@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: larky
+Version: 0.1.0
+Summary: larky - VGS edition of Google's safe and hermetically sealed Starlark language - a non-Turing complete and less dynamic subset of Python 3
+Author-email: "Very Good Security, Inc." <dev@verygoodsecurity.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://vgs.dev
