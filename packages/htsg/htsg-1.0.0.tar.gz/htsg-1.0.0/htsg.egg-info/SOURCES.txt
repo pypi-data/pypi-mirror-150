@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+htsg/__init__.py
+htsg/__main__.py
+htsg/htsg.py
+htsg.egg-info/PKG-INFO
+htsg.egg-info/SOURCES.txt
+htsg.egg-info/dependency_links.txt
+htsg.egg-info/entry_points.txt
+htsg.egg-info/requires.txt
+htsg.egg-info/top_level.txt
