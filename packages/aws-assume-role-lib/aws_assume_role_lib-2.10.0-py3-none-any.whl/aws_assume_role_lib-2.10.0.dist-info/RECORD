@@ -1,0 +1,8 @@
+aws_assume_role_lib/__init__.py,sha256=nIj-W8uWCcUNIj51SoYUQ6ieBfnjO7oFDcVk6nvv138,226
+aws_assume_role_lib/__main__.py,sha256=MAEaM6u4kZiGxFP4VzJn7yEXMLANYVAkNAZpAtcrQjg,46
+aws_assume_role_lib/aws_assume_role_lib.py,sha256=oD2u-YSk1xof_iHDSzq6NLL7JYt8yH6liMvvwX5f9KE,22449
+aws_assume_role_lib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_assume_role_lib-2.10.0.dist-info/LICENSE,sha256=9j8RqO8bPFqn4auDoWpegssMFBSlrw52EoRAO4PJyOA,11340
+aws_assume_role_lib-2.10.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aws_assume_role_lib-2.10.0.dist-info/METADATA,sha256=5k1Gf1dn7x73omuFf3xrRK4MJ6wLrWdbhOOCprrur8I,16714
+aws_assume_role_lib-2.10.0.dist-info/RECORD,,
