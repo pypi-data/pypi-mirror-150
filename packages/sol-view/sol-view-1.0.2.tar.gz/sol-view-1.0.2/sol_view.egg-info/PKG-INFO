@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sol-view
+Version: 1.0.2
+Summary: A Module to plot data stored in hdf files
+Home-page: https://github.com/lnls-sol/sol-view
+Author: Hugo Campos
+Author-email: hugohvlcampos96@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
+Sol View
+========
+
+Purpose
+-------
+
+Sol View is a package to facilitate the plot of data stored in
+hdf5 files that follow LNLS SOL group hierarchy.
+
+Run
+---
+
+After the installation, just use the command:
+``sol_view``
+
+
