@@ -1,0 +1,3 @@
+[console_scripts]
+json-de2zh=json_de2zh.__main__:app
+
