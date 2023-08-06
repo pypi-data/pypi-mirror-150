@@ -1,0 +1,8 @@
+pyprocessors_normalizer/__init__.py,sha256=tlINFhln7ACz7MlE8k8SHLzpiVD2kMb-WUAj5DoXLXk,46
+pyprocessors_normalizer/normalizer.py,sha256=4bXS9t2lAPKX-BIQzkz2sSbxEKooxcvzDoOHjjvTl4o,5215
+pyprocessors_normalizer/normalizers.py,sha256=krNDu2e54mcFm-E6i2KR-yLOoa7KsAQ7geawmNS0LuY,6790
+pyprocessors_normalizer/reducers.py,sha256=bqATyKCHywD0rEfdTZvKWhg02fPy8OQpFMaKD4pf8Cw,1892
+pyprocessors_normalizer-0.5.1.dist-info/entry_points.txt,sha256=FzFJOFPw8cyaOj8fN2tt3sWXBPupz877kBgbCkDtSmU,90
+pyprocessors_normalizer-0.5.1.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+pyprocessors_normalizer-0.5.1.dist-info/METADATA,sha256=5WWTPT4ezU48ykjQJmyZZWJm0-Z_HRTpEnhPojGaq5c,1864
+pyprocessors_normalizer-0.5.1.dist-info/RECORD,,
