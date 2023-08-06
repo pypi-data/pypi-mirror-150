@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+jdot/__init__.py
+jdot/__main__.py
+jdot/decoder.py
+jdot/encoder.py
+jdot/formatter.py
+jdot/jdot.py
+jdot/test_jdot.py
+jdot.egg-info/PKG-INFO
+jdot.egg-info/SOURCES.txt
+jdot.egg-info/dependency_links.txt
+jdot.egg-info/entry_points.txt
+jdot.egg-info/top_level.txt
