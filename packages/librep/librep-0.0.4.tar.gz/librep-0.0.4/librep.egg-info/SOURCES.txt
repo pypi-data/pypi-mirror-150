@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/librep
+librep/__init__.py
+librep.egg-info/PKG-INFO
+librep.egg-info/SOURCES.txt
+librep.egg-info/dependency_links.txt
+librep.egg-info/not-zip-safe
+librep.egg-info/top_level.txt
