@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"Prosector. Reconsider. OTP-CR-117/19."
+
+
+import os
+import readline
+import sys
+import termios
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+sys.path.insert(0, "lib")
+
+
+from obj import Config
+
+
+Config.console = False
+Config.name = "genocide"
+Config.services = False
+Config.workdir = os.path.expanduser("~/.genocide")
+
+
+from irc import Config as IRCConfig
+
+
+IRCConfig.channel = "#genocide"
+IRCConfig.nick = "genocide"
+IRCConfig.realname = "Prosector. Reconsider. OTP-CR-117/19."
+IRCConfig.username = "genocide"
+
+
+from csl import Console
+from evt import Command
+from hdl import Callbacks, Commands, Handler, dispatch
+from irc import IRC, Output
+from obj import Object, format
+from rss import Fetcher
+
+
+from genocide.mdl import init as mdlinit
+from genocide.sui import init as suiinit
+
+
+import genocide.all
+
+
+class Console(Console):
+
+
+    def raw(self, txt):
+        print(txt)
+
+
+def warp(func):
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+        for err in Callbacks.errors:
+            traceback.print_exception(type(err), err, err.__traceback__)
+
+
+def main():
+    Callbacks.add("command", dispatch)
+    c = Console()
+    if "-s" in sys.argv:
+        Config.services = True
+    if "-c" in sys.argv:
+        Config.console = True
+    elif len(sys.argv) > 1 and not Config.services:
+        return c.cmd(" ".join(sys.argv[1:]))
+    print("GENOCIDE started at %s" % time.ctime(time.time()).replace("  ", " "))
+    if not Config.console:
+        i = IRC()
+        i.start()
+        print(format(i.cfg, skip="realname,sleep,username"))
+        f = Fetcher()
+        f.start()
+        if Config.services:
+            suiinit()
+            mdlinit()
+    c.start()
+    while 1:
+        time.sleep(1.0)
+
+
+warp(main)
