@@ -1,0 +1,13 @@
+iso18245/__init__.py,sha256=gNznKSIMKsuq75ZRFpJOSC13JQwBv6fXD3xEgW9th1o,3519
+iso18245/data/alipay_list.csv,sha256=YhP8jB4THWGP1_2ccQJrps_zY7LfHumByh2rc0FyiC0,11368
+iso18245/data/iso18245_official_list.csv,sha256=jWhittmKNm8ysRAQSF13Yp_IslamK_TkzeHvvwbZd8M,12525
+iso18245/data/iso18245_ranges.csv,sha256=d63IgkvdQmd1wXMMWaUn_vTMC0UGQzk0LGoGYywM034,552
+iso18245/data/private_ranges.csv,sha256=Dz6rGRcTGW3ycLw3ydTlUoLLW83MHqbgqMX4mtsSzgA,88
+iso18245/data/stripe_list.csv,sha256=sirsimkkBjayApjOSD_5n2TEKP09_z9WKvV7pgShdxA,17546
+iso18245/data/usda_list.csv,sha256=b-0WSjyTvEyTkRVqk2zdb1NA6jn2xd5gCJIBKLKXDCM,21892
+iso18245/data/visa_list.csv,sha256=i4Rv7IkMpZNmcleh4H7B88tGaOuQIqWyKj7Eppd_VVc,29154
+iso18245/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iso18245-1.2.0.dist-info/LICENSE,sha256=zQaPTeL7_q5FxsRsw18cvGgF4zm7w_iHMoG9UXFvKe0,1073
+iso18245-1.2.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+iso18245-1.2.0.dist-info/METADATA,sha256=8UehFSF0C88qfj29i1HNNUyuUP2wGyOQAxHZo8kmUsU,2566
+iso18245-1.2.0.dist-info/RECORD,,
