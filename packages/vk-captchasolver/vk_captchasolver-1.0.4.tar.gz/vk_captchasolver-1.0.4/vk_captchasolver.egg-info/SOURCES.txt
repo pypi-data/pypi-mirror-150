@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.MD
+README.md
+setup.py
+vk_captchasolver/__init__.py
+vk_captchasolver/captcha_model.onnx
+vk_captchasolver/ctc_model.onnx
+vk_captchasolver/vk_captchasolver.py
+vk_captchasolver.egg-info/PKG-INFO
+vk_captchasolver.egg-info/SOURCES.txt
+vk_captchasolver.egg-info/dependency_links.txt
+vk_captchasolver.egg-info/requires.txt
+vk_captchasolver.egg-info/top_level.txt

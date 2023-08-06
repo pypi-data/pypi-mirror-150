@@ -1,0 +1,4 @@
+Pillow
+numpy
+requests
+onnxruntime==1.9.0
