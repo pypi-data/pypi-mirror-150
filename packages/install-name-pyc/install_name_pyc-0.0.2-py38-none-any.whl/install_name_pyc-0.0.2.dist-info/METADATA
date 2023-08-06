@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: install-name-pyc
+Version: 0.0.2
+Summary: runningz_automl
+Home-page: https://github.com/RunxingZhong/stacking_automl_001
+Author: zhongrunxinig
+Author-email: zhongrunxing@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas
+
+UNKNOWN
+
+
