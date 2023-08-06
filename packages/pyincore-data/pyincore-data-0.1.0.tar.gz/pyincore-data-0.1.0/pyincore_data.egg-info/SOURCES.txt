@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyincore-data/__init__.py
+pyincore-data/censusutil.py
+pyincore-data/globals.py
+pyincore_data.egg-info/PKG-INFO
+pyincore_data.egg-info/SOURCES.txt
+pyincore_data.egg-info/dependency_links.txt
+pyincore_data.egg-info/requires.txt
+pyincore_data.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: pyincore-data
+Version: 0.1.0
+Summary: IN-CORE data python package
+Home-page: https://git.ncsa.illinois.edu/incore/pyincore-viz
+License: Mozilla Public License v2.0
+Description: This package is designed for .
+Keywords: data,census
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
