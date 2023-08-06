@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tweetnlp
+Version: 0.0.0
+Summary: TBA
+Home-page: https://github.com/cardiffnlp/tweetnlp
+Author: Asahi Ushio
+Author-email: asahi1992ushio@gmail.com
+License: MIT
+Download-URL: https://github.com/cardiffnlp/tweetnlp/archive/0.0.0.tar.gz
+Keywords: tweet,nlp,language-model
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+WIP
+
+
