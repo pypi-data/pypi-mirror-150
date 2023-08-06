@@ -1,0 +1,11 @@
+[sphinx.html_themes]
+clear = themata.clear
+fandango = themata.fandango
+fluid = themata.fluid
+garri = themata.garri
+hackish = themata.hackish
+milkish = themata.milkish
+sugar = themata.sugar
+themata = themata
+water = themata.water
+
