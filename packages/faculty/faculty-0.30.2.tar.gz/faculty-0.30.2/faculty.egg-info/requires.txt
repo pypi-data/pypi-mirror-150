@@ -1,0 +1,6 @@
+requests
+pytz
+attrs
+marshmallow
+marshmallow_enum
+urllib3
