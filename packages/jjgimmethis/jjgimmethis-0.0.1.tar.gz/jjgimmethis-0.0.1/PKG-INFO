@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: jjgimmethis
+Version: 0.0.1
+Summary: A module for generating random usernames, passwords, names and objects.
+Home-page: https://github.com/jad-e/jjgimmethis
+Author: Khoo Hui Ying
+Author-email: khoohuiying01@gmail.com
+License: MIT
+Keywords: random,generator,username,password,name,objects
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A package to randomly generate names, usernames, passwords and things/objects.
+
+Features:
+
+1. Generate name based on user's options.
+- First name only
+- First name and last name
+- First name, middle name and last name
+
+2. Generate username based on user's options.
+- Words
+- Underscore
+- Number
+Example format of the generated username: smart_Potato25
+
+3. Generate password based on user's options.
+- Lowercase letters
+- Uppercase letters
+- Numbers
+- Symbols and special characters
+
+4. Generate random different things.
+Example: book, chair, car etc.
+
+
+Change Log
+===========
+
+0.0.1 (30/04/2022)
+-------------------
+- First Release
+- Contains 4 functions that generates name, username, password, and random things.
+

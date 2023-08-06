@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+jjgimmethis/__init__.py
+jjgimmethis.egg-info/PKG-INFO
+jjgimmethis.egg-info/SOURCES.txt
+jjgimmethis.egg-info/dependency_links.txt
+jjgimmethis.egg-info/top_level.txt

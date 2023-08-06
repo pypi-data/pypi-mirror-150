@@ -1,0 +1,7 @@
+Change Log
+===========
+
+0.0.1 (30/04/2022)
+-------------------
+- First Release
+- Contains 4 functions that generates name, username, password, and random things.
