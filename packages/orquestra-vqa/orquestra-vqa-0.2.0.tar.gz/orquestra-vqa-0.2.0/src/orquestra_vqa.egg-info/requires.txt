@@ -1,0 +1,12 @@
+orquestra-quantum
+orquestra-opt
+numpy>=1.20
+overrides>=3.10
+
+[dev]
+black~=22.3
+flake8~=3.9.0
+isort~=5.9.0
+mypy~=0.910
+pytest~=6.2
+pytest-cov>=2.12
