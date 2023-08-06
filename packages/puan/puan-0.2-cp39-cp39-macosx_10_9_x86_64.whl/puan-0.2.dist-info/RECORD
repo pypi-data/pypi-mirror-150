@@ -1,0 +1,12 @@
+puan/__init__.py,sha256=iQ7E8AqfzVI7eMBedQbOwo76Z3Qfeb8yRyeADMC6Z2s,854
+puan/npufunc.cpython-39-darwin.so,sha256=_P172uMOxsREXE1i9QPwGPtvhLTgjimggMw6wwSlp5A,34080
+puan/logic/__init__.py,sha256=q30_D4nfoKpN1XtTTYphDsDltAFCXAYss0S2zbXSeTM,35
+puan/logic/cic/__init__.py,sha256=1vgpfalS2WSJ1g_jxhg2urzMxLJghz0B2DTLuRoYGEA,31092
+puan/logic/sta/__init__.py,sha256=GDQ3P7gT_BVwQ-M6Xk5HelAjrH985c59UOUP1IPiTqs,22319
+puan/misc/__init__.py,sha256=anegfB9k5tOZiQm_M7ES9GzpWYXk5nEh1SHvaeds5bM,2407
+puan/ndarray/__init__.py,sha256=gkiVHMsh5R8MRNSs8FOrs8RXYK1v-hZ1JlJLZivrc9s,42511
+puan-0.2.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+puan-0.2.dist-info/METADATA,sha256=l4JUoiG9LIch6Qlbw9KHSvir1dMRBX3JOp8gb66j2M0,344
+puan-0.2.dist-info/WHEEL,sha256=pfjXB0CCNW4PSSqQc2t4Up6p3o0jxBnHy_2o38FQkyE,109
+puan-0.2.dist-info/top_level.txt,sha256=ay0sTgOFbSbfR9dy2Mal9OQVLZtVgw2AJrEKApQqg5s,18
+puan-0.2.dist-info/RECORD,,
