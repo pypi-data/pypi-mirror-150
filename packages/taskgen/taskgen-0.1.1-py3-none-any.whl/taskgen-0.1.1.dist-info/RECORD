@@ -1,0 +1,8 @@
+taskgen/__init__.py,sha256=PEdFQgd7pf0mfKztNCZsQcjOdLtMG4rlJ3vr9BU8K1c,342
+taskgen/generator.py,sha256=w7hJ_FKdDl3N1E3WQGYkS59-7d0Kedg343QoX-rskfo,18126
+taskgen/html2pdf.py,sha256=-1ktcF_gwwTFmGUs5oDXbpxGQ6nFLTiq8S4HOTdC5GY,6712
+taskgen-0.1.1.dist-info/COPYING,sha256=oH9RfLMFHWLvGEasupeOrhWia341ItKH61DYloKwXJ8,1077
+taskgen-0.1.1.dist-info/METADATA,sha256=okFxwEYN499mmXiBgEvW1hRvGxwtNUe_kb0O8gl5mjw,3554
+taskgen-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taskgen-0.1.1.dist-info/top_level.txt,sha256=CJv-xSk3wwdo4ptGrAY8wwe1BaKnp3AJTfg9FOKnC24,8
+taskgen-0.1.1.dist-info/RECORD,,
