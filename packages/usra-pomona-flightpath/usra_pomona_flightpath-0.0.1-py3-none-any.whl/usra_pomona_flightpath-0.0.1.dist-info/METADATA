@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: usra-pomona-flightpath
+Version: 0.0.1
+Summary: Flight path developed by Cal Poly Pomona and funded by Universities Space Research Association.
+Author: Olivia Alexander
+Author-email: oalexander@usra.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: argparse
+
+# Flight Planning Package
+
+This is a flight planning package developed by Cal Poly Pomona and funded by Universities Space Research Association. Beginning to configure as package on 5/9/22.
