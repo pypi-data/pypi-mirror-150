@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: vids-db
+Version: 1.0.1
+Summary: Server running vids_db
+Home-page: https://github.com/zackees/vids-db
+Author: Zach Vorhies
+Author-email: dont@email.me
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Console
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# vids_db
+
+Server for storing video information.
+
+## Platform Unit Tests
+
+[![Actions Status](https://github.com/zackees/vids-db/workflows/MacOS_Tests/badge.svg)](https://github.com/zackees/vids-db/actions/workflows/test_macos.yml)
+[![Actions Status](https://github.com/zackees/vids-db/workflows/Win_Tests/badge.svg)](https://github.com/zackees/vids-db/actions/workflows/test_win.yml)
+[![Actions Status](https://github.com/zackees/vids-db/workflows/Ubuntu_Tests/badge.svg)](https://github.com/zackees/vids-db/actions/workflows/test_ubuntu.yml)
+
+# Full Tests + linting
+
+  * `git clone https://github.com/zackees/vids-db`
+  * `cd vids_db`
+  * `tox`
+
+
+
