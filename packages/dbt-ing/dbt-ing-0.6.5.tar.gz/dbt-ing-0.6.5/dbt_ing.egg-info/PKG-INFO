@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbt-ing
+Version: 0.6.5
+Summary: dbt Ingestion Framework
+Home-page: http://github.com/andreax79/dbt-ing
+Author: Andrea Bonomi
+Author-email: andrea.bonomi@gmail.com
+License: MIT
+Keywords: dbt
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+dbt Ingestion Framework
