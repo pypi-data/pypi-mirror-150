@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+polymera/__init__.py
+polymera/polymera.py
+polymera/version.py
+polymera.egg-info/PKG-INFO
+polymera.egg-info/SOURCES.txt
+polymera.egg-info/dependency_links.txt
+polymera.egg-info/top_level.txt
+polymera/bio/__init__.py
+polymera/bio/dna.py
+polymera/bio/protein.py
