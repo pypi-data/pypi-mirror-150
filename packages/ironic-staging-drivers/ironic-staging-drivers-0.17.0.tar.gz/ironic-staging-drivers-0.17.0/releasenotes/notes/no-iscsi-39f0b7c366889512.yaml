@@ -1,0 +1,5 @@
+---
+upgrade:
+  - |
+    The custom ``amt-staging`` deploy interface has been removed. It was based
+    on the deprecated ``iscsi`` deploy. Use ``direct`` instead.
