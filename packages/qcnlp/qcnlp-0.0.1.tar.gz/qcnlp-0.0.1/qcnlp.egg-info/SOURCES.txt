@@ -1,0 +1,14 @@
+setup.py
+algorithm/__init__.py
+algorithm/segmation/__init__.py
+algorithm/segmation/backward_segment.py
+algorithm/segmation/forward_segment.py
+algorithm/segmation/longest_segment.py
+data_process/__init__.py
+data_process/remove_stopwords.py
+dictionary/__init__.py
+dictionary/dictionary_loader.py
+qcnlp.egg-info/PKG-INFO
+qcnlp.egg-info/SOURCES.txt
+qcnlp.egg-info/dependency_links.txt
+qcnlp.egg-info/top_level.txt
