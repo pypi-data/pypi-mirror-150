@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: copy-syntax
+Version: 0.0.1
+Summary: LiteralCopy helps to debug code by creating the syntax for any object to reproduce it
+Home-page: UNKNOWN
+Author: Cornelius Emde
+License: GNU
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pyperclip (>=1)
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: tox (>=3.24) ; extra == 'testing'
+
+UNKNOWN
+
