@@ -1,0 +1,11 @@
+memprocfs/__init__.py,sha256=GM1jGo-m7H2H2HS19w4bgVwlaydPU1I1O_zzGXHcugs,25
+memprocfs/info.db,sha256=b6ZGlgI9Ec1rjE-R7oqUKCY_mN46ft12DEVBjB4no98,1232896
+memprocfs/memprocfs.py,sha256=U4bgR58R2rUa8EDmWFPLXrm1LPmE342b9g6Waew-FaM,13735
+memprocfs/vmm.so,sha256=cHuWrtycBbxk_PeZsgrdNzYdFS2xEaTP6P1aHCs6JQw,1552656
+memprocfs/vmmpyc.abi3.so,sha256=83w6fKrUNsXMiKpFootJJBejNDUmCqC3-X0SxkVdeK8,433136
+memprocfs-4.8.0.dist-info/DESCRIPTION.rst,sha256=8Y5Uw0xzAvxbZawRbekTdsmk7kvYsa4gvxX0j-YTYtY,84
+memprocfs-4.8.0.dist-info/METADATA,sha256=_6e3e53_ZzPtA1njLwi4o1OLHx3HrcTdIdCP7Z_tyCM,610
+memprocfs-4.8.0.dist-info/RECORD,,
+memprocfs-4.8.0.dist-info/WHEEL,sha256=UrO9sJ3whd4KLYlhS6t0PHi7OM1o6hFxi_uE9beuz3I,108
+memprocfs-4.8.0.dist-info/metadata.json,sha256=HfohROq1rTNa42DYJZ0MsWlxdIU_Hi5OkL43geE4WNI,757
+memprocfs-4.8.0.dist-info/top_level.txt,sha256=AHMGWOo9AoyjchrjA28klXR60AijMZXtK_fdkrKKKCw,10
