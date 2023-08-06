@@ -1,0 +1,15 @@
+counterpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+counterpy/cantus.py,sha256=2WcVQXImY3AT87_JNQVt-lIiluGDVbTGRNj3bZc2zSM,12061
+counterpy/functions.py,sha256=0gkvUT6gfg_DhWtG3gU7jNSVY71JBA7erYdWS9nIRoE,3680
+counterpy/voice.py,sha256=5Iw2fb6kNCrQn28MlAr4m5V64dFQit0_GA5e2oClnSY,2244
+harmonics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harmonics/__main__.py,sha256=TTpAPzbJeIjULZdgZSXD4Q0Z8bo3auix0F4AyAVzAqo,109
+harmonics/audio.py,sha256=WaA-WTUiK9s-zVF1uKJwjv2WlQYotgCHy3oXMcF2V8I,6678
+harmonics/bot.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harmonics/harmonics.py,sha256=7WaX59_hsb8hPF7yhP9VNvpHvW5KFhz1_J0j3p0H0tQ,23324
+harmonics/midi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harmonics-0.0.0.dist-info/LICENCE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harmonics-0.0.0.dist-info/METADATA,sha256=3PmGMUYDJG936HTGXDBxVgYpuloAbk_EWOFEP22nMnQ,754
+harmonics-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+harmonics-0.0.0.dist-info/top_level.txt,sha256=WWI-gw8x_1RK3fTvrNPukGhpwWZvwTzmFodM4eTEd_Q,20
+harmonics-0.0.0.dist-info/RECORD,,
