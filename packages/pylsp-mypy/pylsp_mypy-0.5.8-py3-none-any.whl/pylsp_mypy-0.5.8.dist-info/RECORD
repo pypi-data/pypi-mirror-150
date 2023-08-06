@@ -1,0 +1,9 @@
+pylsp_mypy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_mypy/_version.py,sha256=bDuZ37zImJZsQ3a4pW87q4kg-zsIBrUFAv1aumIf_7k,22
+pylsp_mypy/plugin.py,sha256=KsDS_WpMV9VbmBSqd_o7VMgLdCVjFeGUJlzHw4DIByE,13191
+pylsp_mypy-0.5.8.dist-info/LICENSE,sha256=XvQOpqPZwlt3CYS-Pxmlrb4ktdImpUdD4oo9CB7QHi8,1111
+pylsp_mypy-0.5.8.dist-info/METADATA,sha256=xXsDlznFuf8qNhQ50S8DIbdncU9XiLcDxUbg6NKlpAU,4850
+pylsp_mypy-0.5.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylsp_mypy-0.5.8.dist-info/entry_points.txt,sha256=n1IsiuRW67p5QhnRjF0N9RRGAb9zXYXmH7bYd_u4QAA,40
+pylsp_mypy-0.5.8.dist-info/top_level.txt,sha256=Ea2UrbUM7LmRyUpvmNRQPUvjRt_kEB_inqmfXCUb-Qw,11
+pylsp_mypy-0.5.8.dist-info/RECORD,,
