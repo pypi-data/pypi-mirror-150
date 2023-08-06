@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: detik-scrapper
+Version: 1.0.2
+Summary: Detik Scrapping
+Home-page: https://sipaling.top
+Author: Kiyora
+Author-email: dev@sipaling.top
+License: MIT
+Keywords: detik scraping,scrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Detik Scrapper
+
+## Requirements
+* requests
+* BeautifulSoup
+
+
+## Installation
+- Clone Repository (name must detik!!!)
+```
+$ git clone https://github.com/ItsMyEyes/detik-scraper.git detik
+```
+- Install package
+After cloning, go to directory and run this command for installation package
+```
+$ pip install request
+$ pip install beautifulsoup4
+```
+- Then you test it with new file like main.py / Example Code
+```
+import detik
+import json
+
+print(json.dumps(detik.getListHotNews(), indent=4))
+```
+

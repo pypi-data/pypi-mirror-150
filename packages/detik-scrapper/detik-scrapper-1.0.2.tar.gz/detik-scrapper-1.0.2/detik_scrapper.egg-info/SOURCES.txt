@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+detik_scrapper.egg-info/PKG-INFO
+detik_scrapper.egg-info/SOURCES.txt
+detik_scrapper.egg-info/dependency_links.txt
+detik_scrapper.egg-info/requires.txt
+detik_scrapper.egg-info/top_level.txt
