@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rpmrepo
+Version: 0.1.0.dev6
+Summary: A library and CLI tool providing facilities for working with RPM repositories.
+Home-page: UNKNOWN
+Author: Daniel Alley
+License: GPLv2
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
