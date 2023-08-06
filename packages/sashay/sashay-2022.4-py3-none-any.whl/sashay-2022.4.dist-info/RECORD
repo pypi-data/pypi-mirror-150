@@ -1,0 +1,14 @@
+sashay/__init__.py,sha256=36WmtQb6E5qm48ZzezNNuzqJNWv3l0jB_KxRNP4RWRk,26
+sashay/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sashay/main.py,sha256=zoROyweOzeMzF-eFdVohRSsm1S3eq2LACO49kTmWKeg,268
+sashay/menu.py,sha256=wx3zk2JLFh6LFWtALeFSt1AUzmTmk-TvP-d5-dtvo6k,16560
+sashay/outlook.py,sha256=JQuIV2-Fhk3olkGqF5bTW6IMAMDXntZUYiVZipIWdSI,13545
+sashay/system.py,sha256=l0CP2mzeCsHSBnlh9zMTJHM5HvVm0m9X-7qT5QTVju4,2769
+sashay/assets/cat.json,sha256=7e3XO3vd30BDaKWUJzkEl30TGtf-xGSGas-4qyN3RvI,809
+sashay/assets/data.json,sha256=gnASVHoQp9dbJraa3rwTSQsd6nQMWLojE2nB6bOaSd4,91359
+sashay-2022.4.dist-info/LICENSE,sha256=AbTrfeAXOEvC24ZB6TysG4DRBsyjQfJiSJi2mKV6LnM,1073
+sashay-2022.4.dist-info/METADATA,sha256=AsNDr0jSYEmPxGqCP-rFm2-qB8ZBNennOOi0XLqRHRc,4402
+sashay-2022.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sashay-2022.4.dist-info/entry_points.txt,sha256=ud-ib4NZRBpyQw6tYC9hG0Q41sZf03h1EUSLIZJkfcI,79
+sashay-2022.4.dist-info/top_level.txt,sha256=5Etp28n8KrQCO24-Gw4TAVhuOm95gIdrk0wF706MoSA,7
+sashay-2022.4.dist-info/RECORD,,
