@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: elysium
+Version: 0.1.0
+Summary: Deta Base Typed ODM
+License: MIT
+Author: Ian Kollipara
+Author-email: ian.kollipara@cune.org
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: deta (>=1.1.0,<2.0.0)
+Requires-Dist: typing-extensions (>=4.2.0,<5.0.0)
+Description-Content-Type: text/plain
+
+#+title:🏰 Elysium
+#+author: Ian Kollipara
+#+date: <2022-05-15 Sun>
+
+Elysium is a Python ODM built for [[https:deta.sh][Deta]]. The name comes from one of the mountains of Mars. The main perks being:
+- Tight integration with Deta Base
+- Lambda queries to search with
+- Your choice off dataclasses or Pydantic for data modeling
+
+
+To install simply type:
+#+begin_src shell
+pip install elysium
+#+end_src
+
+Elysium is in development software, but the API is stable.
+
+** Roadmap
+- [X] Use Lambdas to query the database
+- [X] Allow use of Pydantic or dataclasses
+- [ ] Create Testing Suite
+- [ ] Implement Deta's updates on the backend
+- [ ] Implement some sort of way to handle related data (maybe ad-hoc joins?)
+
+** Usage
+
+#+begin_src python
+from elysium import Elysium
+from dataclasses import dataclass
+
+elysium = Elysium()
+
+@dataclass
+class Article(Elysium.Model):
+    title: str
+    author: str
+    body: str
+
+elysium.generate_mappings()
+
+
+a = Article("test", "ikollipara", "lorem ipsum")
+
+elysium.insert(a)
+
+Article.fetch(lambda a: a.title == "test") # Article("test", "ikollipara", "lorem ipsum")
+#+end_src
+
