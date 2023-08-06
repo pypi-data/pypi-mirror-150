@@ -1,0 +1,68 @@
+#
+# This is an example yapp-pipelines configuration file
+# You can also look at pipelines_annotated.yml for an extensively annotated version of this file
+#
+
++all:
+  hooks:
+    on_job_start:
+      - common.UselessHook.whatever
+
+simple_task:
+  inputs:
+    - file.CsvInput:
+        directory: "./data"
+    - pandas.read_csv
+
+  expose:
+    - pandas.read_csv:
+      - "./data/a_csv_file.csv": example_csv
+
+  hooks:
+    on_job_start:
+      - common.UselessHook.whatever
+    on_pipeline_start:
+      - common.UselessHook.whatever
+
+  steps:
+    - common.PreProcessor
+    - MainTask: common.PreProcessor
+    - Later.print_something: MainTask
+
+
+sligthly_more_complex :
+  inputs:
+    - pgsql.PgSqlInput:
+        username: carlo
+        password:
+        host: localhost
+        port: 5432
+        database: postgres
+    - utils.DummyInput
+    - file.CsvInput:
+        directory: "./data"
+
+  outputs:
+    - pgsql.PgSqlOutput:
+        username: carlo
+        password: !env PG_PWD
+        host: localhost
+        port: 5432
+        database: postgres
+
+  expose:
+    - PgSqlInput:
+      - dataset: dataset
+    - file.CsvInput:
+      - "a_csv_file.csv": example_csv
+    - utils.DummyInput:
+      - "whatever" : anempytdataframe
+
+  steps:
+    - common.PreProcessor
+    - PredictorA: common.PreProcessor
+    - PredictorB: common.PreProcessor
+    - PredictorC: common.PreProcessor
+    - Ensemble: [PredictorA, PredictorB, PredictorC]
+    - common.PostProcessor: Ensemble
+
