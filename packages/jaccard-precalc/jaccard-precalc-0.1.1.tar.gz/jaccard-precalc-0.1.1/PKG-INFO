@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: jaccard-precalc
+Version: 0.1.1
+Summary: The Jaccard index measures exhaustive substring comparison of two strings. This package is a slightly modified Jaccard with pre-calculation accelerate results.
+Author: mandrewstuart
+Author-email: andrew_matte_@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
