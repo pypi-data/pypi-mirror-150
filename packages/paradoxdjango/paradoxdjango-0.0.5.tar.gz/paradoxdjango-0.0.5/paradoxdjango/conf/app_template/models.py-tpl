@@ -1,0 +1,3 @@
+from paradoxdjango.db import models
+
+# Create your models here.

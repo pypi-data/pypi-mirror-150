@@ -1,0 +1,6 @@
+from paradoxdjango.apps import AppConfig
+
+
+class {{ camel_case_app_name }}Config(AppConfig):
+    default_auto_field = 'paradoxdjango.db.models.BigAutoField'
+    name = '{{ app_name }}'

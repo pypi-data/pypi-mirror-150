@@ -1,0 +1,3 @@
+from paradoxdjango.test import TestCase
+
+# Create your tests here.
