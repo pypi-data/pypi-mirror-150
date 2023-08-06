@@ -1,0 +1,7 @@
+attrs>=21.0.0
+aws-cdk.aws-ssm<=1.134.0,>=1.90.0
+aws-cdk.core<=1.134.0,>=1.90.0
+b-aws-cf<2.0.0,>=0.2.0
+b-continuous-subprocess<1.0.0,>=0.3.2
+boto3<=1.20.23,>=1.0.0
+pytest

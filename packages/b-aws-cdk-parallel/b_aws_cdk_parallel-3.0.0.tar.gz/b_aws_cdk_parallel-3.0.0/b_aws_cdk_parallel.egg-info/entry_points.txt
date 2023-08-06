@@ -1,0 +1,3 @@
+[console_scripts]
+acdk = b_aws_cdk_parallel.cli.acdk:main
+
