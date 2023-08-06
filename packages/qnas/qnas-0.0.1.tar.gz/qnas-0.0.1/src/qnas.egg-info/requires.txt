@@ -1,0 +1,7 @@
+numpy
+math
+qutip
+qiskit
+pandas
+sys
+re
