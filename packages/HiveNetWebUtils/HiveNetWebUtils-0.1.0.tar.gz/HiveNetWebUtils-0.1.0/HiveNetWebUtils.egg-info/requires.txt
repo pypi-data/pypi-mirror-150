@@ -1,0 +1,2 @@
+HiveNetCore
+pycryptodome
