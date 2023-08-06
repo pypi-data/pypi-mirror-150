@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+yt_dlpr/__init__.py
+yt_dlpr/default_config.py
+yt_dlpr/yt_dlpr.py
+yt_dlpr.egg-info/PKG-INFO
+yt_dlpr.egg-info/SOURCES.txt
+yt_dlpr.egg-info/dependency_links.txt
+yt_dlpr.egg-info/entry_points.txt
+yt_dlpr.egg-info/requires.txt
+yt_dlpr.egg-info/top_level.txt
