@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: harissa
+Version: 3.0.5
+Summary: Tools for mechanistic gene network inference from single-cell data
+Home-page: https://github.com/ulysseherbach/harissa
+Author: Ulysse Herbach
+Author-email: ulysse.herbach@inria.fr
+License: BSD-3-Clause
+Keywords: stochastic gene expression,gene regulatory networks,single-cell transcriptomics
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Harissa (HARtree approximation for Inference along with a Stochastic Simulation Algorithm) is a Python package for both inference and simulation of gene regulatory networks, based on stochastic gene expression with transcriptional bursting. It was implemented in the context of a [mechanistic approach to gene regulatory network inference from single-cell data](https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-017-0487-0).
+
+
