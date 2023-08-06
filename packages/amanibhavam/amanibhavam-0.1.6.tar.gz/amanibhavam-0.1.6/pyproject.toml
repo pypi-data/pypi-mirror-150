@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "amanibhavam"
+description = ""
+authors = ["Amanibhavam <iam@defn.sh>"]
+version = "0.1.6"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cdktf = "^0.10.4"
+cdktf-cdktf-provider-aws = "^7.0.55"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+amanibhavam = "config:main"
