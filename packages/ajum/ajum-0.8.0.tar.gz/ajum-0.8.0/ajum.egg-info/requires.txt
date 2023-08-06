@@ -1,0 +1,8 @@
+aiofiles
+aiohttp
+bs4
+click
+isbnlib
+lxml
+pytest
+requests

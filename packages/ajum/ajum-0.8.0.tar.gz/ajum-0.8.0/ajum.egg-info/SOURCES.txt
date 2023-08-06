@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ajum/__init__.py
+ajum/ajum.py
+ajum/cli.py
+ajum/utils.py
+ajum.egg-info/PKG-INFO
+ajum.egg-info/SOURCES.txt
+ajum.egg-info/dependency_links.txt
+ajum.egg-info/entry_points.txt
+ajum.egg-info/requires.txt
+ajum.egg-info/top_level.txt
+ajum/data/index.json
