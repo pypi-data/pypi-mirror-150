@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "queryones"
+version = "0.1.2"
+description = "Executing multiple sqlite queries"
+authors = ["to101 <to101kv@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/nixonsis/query_ones"
+
+[tool.poetry.dependencies]
+python = "^3.1"
+
+[tool.poetry.dev-dependencies]
+dictones = "^0.1.1"
+tablevalue = "^0.2.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
