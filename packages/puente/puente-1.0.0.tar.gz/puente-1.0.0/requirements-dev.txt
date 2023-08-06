@@ -1,0 +1,19 @@
+# These are test/development requirements.
+-e .
+
+# just to make development easier and test using test_project/
+django-jinja
+
+# for tests
+pytest
+pytest-pythonpath
+pytest-django
+tox
+
+# to build docs
+Sphinx
+
+# to do releases
+twine
+check-manifest
+wheel
