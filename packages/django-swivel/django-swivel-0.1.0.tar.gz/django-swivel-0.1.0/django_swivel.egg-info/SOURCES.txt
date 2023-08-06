@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_swivel.egg-info/PKG-INFO
+django_swivel.egg-info/SOURCES.txt
+django_swivel.egg-info/dependency_links.txt
+django_swivel.egg-info/top_level.txt
+swivel/__init__.py
