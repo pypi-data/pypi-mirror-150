@@ -1,0 +1,13 @@
+nn_module/__init__.py,sha256=eI0xnmMp2zYLAwEiNQsSPuwRazga3QD33xmGVInS4Hg,1769
+nn_module/chebnet.py,sha256=Aij17ziwEArlN4VJ-eJPKboKr2Q-n2WUOZ9xKVTpo8s,2758
+nn_module/crf.py,sha256=S2H7vRgdHuxN-1nANnFWpennDhEShU81rcXXqhYLz2g,14489
+nn_module/gcn.py,sha256=5uCH4ytQSyNIh_eiZhgsZ5OYZwGGybz9MrPsNrx8Hyg,2095
+nn_module/glap.py,sha256=EvyQdiYmP-yYx-Uf8CWz8e9pACRcMdKnnjlvcPaSd8g,2080
+nn_module/mlp.py,sha256=N_CxaRevOATVHZsgcZ8SjMOF_NukQVxIIcXnxhswlVM,1037
+nn_module/node.py,sha256=osKoxGM2OI6L2JC1h6BibjkoSZsW1UmIoeMuggoDe9w,868
+nn_module/wpool.py,sha256=7VNDpeM6b0fB9hb7RewghSD9wdLE2pxDOkRtw7juH7w,1438
+nn_module-0.0.3.dist-info/LICENSE,sha256=I1Ve9jPQTmkA1gIefmqLWVbBDC8_oT0TOyjBe4McAXI,1069
+nn_module-0.0.3.dist-info/METADATA,sha256=1Xa4DTTLPkZz8yr20W08NXhmqFtKowbtfOZQnYqY7PM,414
+nn_module-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nn_module-0.0.3.dist-info/top_level.txt,sha256=X_26Jhgn_xspjuS2ARqDF4FLT6phJJdPGC5yZ_T2Mgk,10
+nn_module-0.0.3.dist-info/RECORD,,

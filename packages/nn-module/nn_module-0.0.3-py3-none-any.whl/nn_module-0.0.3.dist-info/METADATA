@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nn-module
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/khanh-nguyen-code/nn-module
+Author: Nguyen Ngoc Khanh
+Author-email: khanh.nguyen.contact@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NN-MODULE
+collection of neural networks model
+
+# INSTALLATION
+
+```commandline
+pip install --upgrade nn-module
+```
+
