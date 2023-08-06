@@ -1,0 +1,13 @@
+COPYING
+README.md
+pyproject.toml
+setup.py
+eris/__init__.py
+eris/decode.py
+eris/encode.py
+eris/read_capability.py
+eris.egg-info/PKG-INFO
+eris.egg-info/SOURCES.txt
+eris.egg-info/dependency_links.txt
+eris.egg-info/requires.txt
+eris.egg-info/top_level.txt
