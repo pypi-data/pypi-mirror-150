@@ -1,0 +1,3 @@
+[console_scripts]
+grh = incenp.grainyhead.main:grh
+
