@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+zzd/__init__.py
+zzd/scores.py
+zzd.egg-info/PKG-INFO
+zzd.egg-info/SOURCES.txt
+zzd.egg-info/dependency_links.txt
+zzd.egg-info/top_level.txt
