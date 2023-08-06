@@ -1,0 +1,2 @@
+from setuptools import setup
+setup(name='plp_design',version='0.1.0', description='Package to design Padlock probes based on a reference transcriptome', url='https://github.com/Moldia/PLP_directRNA_design',author_email='sergiomarco.salas@scilifelab.se',license='BSD 2-clause',install_requires=['pandas>=1.1.5','Bio>=1.0','numpy>=1.19.0' ])#install_requires=['pandas==1.1.5','Bio==1.79','numpy==1.19.4' ])
