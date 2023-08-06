@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+sherok.egg-info/PKG-INFO
+sherok.egg-info/SOURCES.txt
+sherok.egg-info/dependency_links.txt
+sherok.egg-info/requires.txt
+sherok.egg-info/top_level.txt
