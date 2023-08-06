@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: savitrigen
+Version: 0.0.7
+Summary: Savitri code generator
+Author: João Santos
+Author-email: joaosan177@gmail.com
+License: ISC
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: multipledispatch (==0.6.0)
+Requires-Dist: pyyaml (==6.0)
+
