@@ -1,0 +1,15 @@
+audio2dataset/__init__.py,sha256=7T8XhjgxmyfrJCC3Wrxs9-EftvVMWL7acOCKVWlUAro,97
+audio2dataset/distributor.py,sha256=e7Cg4Xx-vNrdsRAxxjJwfYhMMWq6u7CKmOqOvjVXZ_c,1551
+audio2dataset/downloader.py,sha256=l5rWlPbNE8WehO3IQMuzmk3QYPLH2-edo4hXSIbJnMw,8502
+audio2dataset/logger.py,sha256=4d6abKVPMk08wpv6gC2uHgB7aGrbeTE-XkRxoq1aJaI,11184
+audio2dataset/main.py,sha256=3Qmx9pwIsNn7qsuRZyVZ30FeyJysLsyhOXj0K8LQNp4,4563
+audio2dataset/reader.py,sha256=QMazGzh7EG5nHvN2J2kFb1tXA7ZjvqzBgD3ucHmZ6ZU,6975
+audio2dataset/subsampler.py,sha256=nMLzr5me2qGKbQj2WpnGQxIKgaPLE1Y9P46bViH_O14,854
+audio2dataset/writer.py,sha256=xwmDgeraHDd-KLmdlHocYxsNFPF63RQnbRiLODRxmns,10039
+audio2dataset-1.0.1.data/data/README.md,sha256=Z4oHyOpfSKiSmJ0IraHTZbpgq_if4Sg0ur9KH-vXsUo,10725
+audio2dataset-1.0.1.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+audio2dataset-1.0.1.dist-info/METADATA,sha256=9MdcZGOVHwdNFS53OkDleFfCDg9Zp4-NqTPueNDXiws,11582
+audio2dataset-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+audio2dataset-1.0.1.dist-info/entry_points.txt,sha256=zNTPXEJUybj5FGXbHLWPUHQeKz-71Ag7mR3zd1A5uWw,54
+audio2dataset-1.0.1.dist-info/top_level.txt,sha256=s1LyWbRO_kcdGVMSLBWTbUJ347U5hjJWdGTR76s_Xy4,14
+audio2dataset-1.0.1.dist-info/RECORD,,
