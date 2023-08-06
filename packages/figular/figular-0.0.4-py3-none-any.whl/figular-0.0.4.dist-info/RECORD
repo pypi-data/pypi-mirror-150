@@ -1,0 +1,17 @@
+figular/__init__.py,sha256=EgJZVdFSWiBhvsmLl4nRi-wHediyiaG5a7MumpDhivc,1088
+figular/command_line.py,sha256=uJuk4gUi5ploZMhNegtzkqf1dIOPx5BhYh7ydKWvuuI,3146
+figular/case/boardelection.asy,sha256=_a4M6oHSTyl7OprYzcHDo6_IzFedACn92ZFXmR5vkfE,9220
+figular/concept/circle.asy,sha256=60o_kvf11-kdcO9gwhaIOUQhRLLF0nFYIZimoq2JY7E,4304
+figular/figular/cleanse.asy,sha256=4MVAtAfgbvTCcMyRFnJkaMMN8kEMAs0KQm-eUc-Tt0w,1856
+figular/figular/defpicture.asy,sha256=o9nDq6WllxAq1m83uL3RyhM0bgBnElelMsN0eTxkZNY,3802
+figular/figular/paramsolver.asy,sha256=TVY5lGvgD9q2TWtdouDKnHEoAvc1XUPJ97Kep6Dux9Q,2480
+figular/figular/stylereset.asy,sha256=bT5vEhKby1wTXPZff6t_E8NjfBDcrbktSxP8Lyfnhao,1062
+figular/org/orgchart.asy,sha256=DMFCs6t0Do18ok31xO1IML8mO1xO33J5KoTcHjpaEdE,15539
+figular-0.0.4.dist-info/AGPL-3.0-or-later.txt,sha256=cPTDMtpYDUSlxOGptbAy0VFTygpT_acCHHLGftnj6zg,33934
+figular-0.0.4.dist-info/CC-BY-4.0.txt,sha256=uJrrfCoWSgV2eG3SqLV_L7YosjmB8KBr134vmam--g8,16814
+figular-0.0.4.dist-info/CC-BY-SA-4.0.txt,sha256=8l9xX1LiqkzUrBB6u3RKJFG1ins5l2Psbi6jxvCMpI4,18109
+figular-0.0.4.dist-info/METADATA,sha256=UH8Cjhhsdh7FPIzAcqMAGl7W4L8EVQ7OACqbXUmLTBc,6204
+figular-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+figular-0.0.4.dist-info/entry_points.txt,sha256=EZCpqkCGlPzQFUzJe0NVvlhZnyD1DNKg7znaKDBJm2U,50
+figular-0.0.4.dist-info/top_level.txt,sha256=nDiHJ8OhBzMgBU_igNnqNtzVLFZnOCPDMYEvCm0uGuo,8
+figular-0.0.4.dist-info/RECORD,,
