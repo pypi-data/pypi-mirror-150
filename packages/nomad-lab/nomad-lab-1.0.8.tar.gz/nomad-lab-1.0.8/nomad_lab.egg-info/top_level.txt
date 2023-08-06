@@ -1,0 +1,7 @@
+atomisticparsers
+eelsdbparser
+electronicparsers
+exampleparser
+nomad
+nomad_dos_fingerprints
+workflowparsers
