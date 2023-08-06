@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+modelcards/__init__.py
+modelcards/cards.py
+modelcards/modelcard_template.md
+modelcards.egg-info/PKG-INFO
+modelcards.egg-info/SOURCES.txt
+modelcards.egg-info/dependency_links.txt
+modelcards.egg-info/requires.txt
+modelcards.egg-info/top_level.txt
