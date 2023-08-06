@@ -1,0 +1,10 @@
+setup.py
+datamuse_cli/__init__.py
+datamuse_cli/__main__.py
+datamuse_cli/cli.py
+datamuse_cli.egg-info/PKG-INFO
+datamuse_cli.egg-info/SOURCES.txt
+datamuse_cli.egg-info/dependency_links.txt
+datamuse_cli.egg-info/entry_points.txt
+datamuse_cli.egg-info/requires.txt
+datamuse_cli.egg-info/top_level.txt
