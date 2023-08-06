@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pyqt_font_dialog/__init__.py
+pyqt_font_dialog/fontDialog.py
+pyqt_font_dialog/fontWidget.py
+pyqt_font_dialog/sizeWidget.py
+pyqt_font_dialog/styleWidget.py
+pyqt_font_dialog.egg-info/PKG-INFO
+pyqt_font_dialog.egg-info/SOURCES.txt
+pyqt_font_dialog.egg-info/dependency_links.txt
+pyqt_font_dialog.egg-info/requires.txt
+pyqt_font_dialog.egg-info/top_level.txt
