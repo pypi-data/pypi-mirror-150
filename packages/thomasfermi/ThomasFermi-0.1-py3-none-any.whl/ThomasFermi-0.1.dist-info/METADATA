@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ThomasFermi
+Version: 0.1
+Summary: Performing Thomas Fermi calculations of two dimensional electronic systems
+Author: Taige Wang
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.7)
+Requires-Dist: scipy (>=1.7)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# ThomasFermi
+Perform Thomas Fermi calculation to find the lowest energy density configuration of two dimensional electronic systems 

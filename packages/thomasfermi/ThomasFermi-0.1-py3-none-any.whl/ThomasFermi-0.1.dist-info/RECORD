@@ -1,0 +1,13 @@
+algo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algo/phi.py,sha256=R0xF2Rq4x2lL1083pU1V2zE8dwhgTct9MT0c5WW8I2c,5411
+algo/thomasfermi.py,sha256=VOM5tj1CiFDshxGduPc8mutAIPUAE1_HnGSCVszIP14,10413
+algo/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algo/test/phi_test.py,sha256=jurpLWYmflfJ9dqplHAGiV6iBjaLFg9P9Lo8ZdPwlds,1519
+algo/test/thomasfermi_test.py,sha256=GoNWa2BNqHSSNY7mo-BLMPC9K9rksyDCuDYilcJTKO8,2357
+model/FQHE.py,sha256=C7swKKtz3qiZbOVEBh5CIWXSQRhtfT9BsmxNfdqaZKw,3747
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ThomasFermi-0.1.dist-info/METADATA,sha256=6uegiNZ_uYKbGImf2eASZc4NIVBGgXR1--ziJ1jXybU,965
+ThomasFermi-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ThomasFermi-0.1.dist-info/top_level.txt,sha256=19CH0Royy9sOIcaS7QPBq9es4ZAYvAs81nzmez-Mwl0,11
+ThomasFermi-0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ThomasFermi-0.1.dist-info/RECORD,,
