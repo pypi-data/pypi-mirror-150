@@ -1,0 +1,8 @@
+board/__init__.py,sha256=SB3SnbkGTxBy0YM3dHlN7o-_fB6o177MwjmkQSFOshA,103
+board/board.py,sha256=ogrV1CRGVP1pooT_AQ1Ewj0cUlIMvd9CaYZg-HuFNqw,3474
+board/vector.py,sha256=j7UjYwuhYJhQVB7t25-0FnJwentvVmI7O6KMw_kLF0M,1853
+oboard-0.3.0.dist-info/LICENSE,sha256=3TZe9K0DhrlVwvld3TIAbNR_QofhQINHeXa9a8OrDFE,1092
+oboard-0.3.0.dist-info/METADATA,sha256=r11NSyW8h1mTfTFFLLnhsT7se_gM-jYwl_wUJV8h3Gs,502
+oboard-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oboard-0.3.0.dist-info/top_level.txt,sha256=GSTtyc5utusIgYbmtVKbE5xIXVE50aMSL5xtG0L4zlk,6
+oboard-0.3.0.dist-info/RECORD,,
