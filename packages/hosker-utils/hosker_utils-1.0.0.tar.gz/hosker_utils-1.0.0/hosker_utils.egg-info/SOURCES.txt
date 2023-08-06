@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+hosker_utils.egg-info/PKG-INFO
+hosker_utils.egg-info/SOURCES.txt
+hosker_utils.egg-info/dependency_links.txt
+hosker_utils.egg-info/requires.txt
+hosker_utils.egg-info/top_level.txt
+source/__init__.py
+source/continuous_integration.py
+source/install_dependencies.py
+source/backup_configs/backup_pylintrc
+source/backup_configs/backup_pytest.ini
