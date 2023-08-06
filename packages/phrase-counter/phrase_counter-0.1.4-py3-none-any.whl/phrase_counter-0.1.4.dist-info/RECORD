@@ -1,0 +1,8 @@
+phrase_counter/__init__.py,sha256=wDIbmdpprGM8SCSF816_-Ws0SCYshjGslZ149gvnu94,41
+phrase_counter/cleaner.py,sha256=TF-4Ecu52VlM9jzJ1IGHYrFJ6vNEmFLwyPoylIsnkgM,2726
+phrase_counter/ingest.py,sha256=1hWYlBXEY7kLFoy675wl9vDfDfJ38miycT26Wd40jKs,3520
+phrase_counter/static/stop-words.txt,sha256=nrv27Fjmqrvu8EPEXznQ66xxbPVJHxZHA4JqzbBMcqg,25804
+phrase_counter-0.1.4.dist-info/LICENSE,sha256=Cs3ouQGwMAqrEndqkygpljpRRq8KcJUVNcUiuTa8TeY,1069
+phrase_counter-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+phrase_counter-0.1.4.dist-info/METADATA,sha256=4ugHuHgSrGQx530gwr9THiE4CMl_XiEzwg7bLk6D5Ts,4798
+phrase_counter-0.1.4.dist-info/RECORD,,
