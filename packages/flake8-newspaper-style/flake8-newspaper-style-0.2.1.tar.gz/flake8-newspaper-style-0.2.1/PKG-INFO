@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: flake8-newspaper-style
+Version: 0.2.1
+Summary: Check code for newspaper style
+Home-page: UNKNOWN
+Author: think
+Author-email: who@knows.me
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Flake8
