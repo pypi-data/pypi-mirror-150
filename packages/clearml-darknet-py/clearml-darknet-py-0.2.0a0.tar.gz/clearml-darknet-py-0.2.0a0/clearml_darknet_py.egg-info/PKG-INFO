@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: clearml-darknet-py
+Version: 0.2.0a0
+Summary: The library reproduces the reproduction of neural networks on the Darknet framework in ClearML
+Home-page: https://github.com/dkubatin/clearml-darknet-py
+Author: Denis Kubatin
+Author-email: kubatin.denis@gmail.com
+License: MIT
+Keywords: darknet,clearml,machine-learning,deep-learning,neural-network
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Monitoring
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ClearML Darknet
+
+**The library reproduces the reproduction of neural networks on the [Darknet](https://github.com/AlexeyAB/darknet) framework in [ClearML](https://github.com/allegroai/clearml)**
+
+![GitHub](https://img.shields.io/github/license/dkubatin/clearml-darknet-py)
+![PyPI](https://img.shields.io/pypi/v/clearml-darknet-py) 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clearml-darknet-py)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/clearml-darknet-py)
+![PyPI - Status](https://img.shields.io/pypi/status/clearml-darknet-py)
+
+---
+
+### Before launch
+
+_Before running, be sure to clone the Darknet repository and [compile](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make) for the appropriate operating system._
+  
+### Start using ClearML Darknet
+
+ Install the clearml-darknet python package:
+
+    $ pip install clearml-darknet-py
+
+_For examples and use cases, check the [examples](https://github.com/dkubatin/clearml-darknet-py/tree/master/examples) folder._
