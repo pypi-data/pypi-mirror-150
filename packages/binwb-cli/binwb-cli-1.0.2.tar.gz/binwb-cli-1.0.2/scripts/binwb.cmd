@@ -1,0 +1,1 @@
+@py -bb -Werror -c "import binwb_cli; binwb_cli.main.main()" %*

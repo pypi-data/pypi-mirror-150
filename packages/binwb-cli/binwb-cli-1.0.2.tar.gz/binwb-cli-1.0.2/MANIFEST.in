@@ -1,0 +1,3 @@
+include binwb_cli/LICENSE
+include requirements.txt
+include scripts/*

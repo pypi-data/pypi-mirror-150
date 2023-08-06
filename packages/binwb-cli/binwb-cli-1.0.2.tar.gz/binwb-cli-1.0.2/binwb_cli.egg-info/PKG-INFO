@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: binwb-cli
+Version: 1.0.2
+Summary: Binary Workbench command line client
+Home-page: https://github.com/hexalinq/binwb-cli/
+Author: Hexalinq
+Author-email: info@hexalinq.com
+Maintainer: Istvan Toth
+Maintainer-email: istvan@hexalinq.com
+License: GPLv2
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Command line client for [Binary Workbench](https://bw.hexalinq.com/)
+
+## License
+GNU General Public License version 2
+
+
