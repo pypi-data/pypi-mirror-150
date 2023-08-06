@@ -1,0 +1,3 @@
+[console_scripts]
+pyldapsearch=pyldapsearch.__main__:app
+
