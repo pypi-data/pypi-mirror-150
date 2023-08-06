@@ -1,0 +1,15 @@
+MANIFEST.in
+requirements.txt
+setup.py
+bounded.egg-info/PKG-INFO
+bounded.egg-info/SOURCES.txt
+bounded.egg-info/dependency_links.txt
+bounded.egg-info/requires.txt
+bounded.egg-info/top_level.txt
+chamber/__init__.py
+chamber/base/__init__.py
+chamber/base/serializable.py
+chamber/structure/__init__.py
+chamber/structure/entity.py
+chamber/structure/list_value_object.py
+chamber/structure/value_object.py
