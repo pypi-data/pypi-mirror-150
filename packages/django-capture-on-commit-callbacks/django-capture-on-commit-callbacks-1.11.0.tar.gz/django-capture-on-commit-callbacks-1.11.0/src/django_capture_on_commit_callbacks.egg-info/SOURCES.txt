@@ -1,0 +1,15 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/django_capture_on_commit_callbacks/__init__.py
+src/django_capture_on_commit_callbacks/py.typed
+src/django_capture_on_commit_callbacks.egg-info/PKG-INFO
+src/django_capture_on_commit_callbacks.egg-info/SOURCES.txt
+src/django_capture_on_commit_callbacks.egg-info/dependency_links.txt
+src/django_capture_on_commit_callbacks.egg-info/not-zip-safe
+src/django_capture_on_commit_callbacks.egg-info/requires.txt
+src/django_capture_on_commit_callbacks.egg-info/top_level.txt
