@@ -1,0 +1,13 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+c81utils.py
+setup.py
+test_c81utils.py
+c81utils.egg-info/PKG-INFO
+c81utils.egg-info/SOURCES.txt
+c81utils.egg-info/dependency_links.txt
+c81utils.egg-info/requires.txt
+c81utils.egg-info/top_level.txt
+c81utils.egg-info/zip-safe
