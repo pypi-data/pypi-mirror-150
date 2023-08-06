@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+meowmeowlib.egg-info/PKG-INFO
+meowmeowlib.egg-info/SOURCES.txt
+meowmeowlib.egg-info/dependency_links.txt
+meowmeowlib.egg-info/top_level.txt
+simpilyfile/__init__.py
