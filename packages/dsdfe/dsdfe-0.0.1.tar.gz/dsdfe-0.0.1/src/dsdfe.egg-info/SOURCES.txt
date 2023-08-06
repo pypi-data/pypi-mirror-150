@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dsdfe/__init__.py
+src/dsdfe/extract.py
+src/dsdfe/transform.py
+src/dsdfe/utils.py
+src/dsdfe.egg-info/PKG-INFO
+src/dsdfe.egg-info/SOURCES.txt
+src/dsdfe.egg-info/dependency_links.txt
+src/dsdfe.egg-info/requires.txt
+src/dsdfe.egg-info/top_level.txt
