@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: json-de2zh
+Version: 0.1.1a0
+Summary: pack_name descr 
+Home-page: https://github.com/ffreemt/json-de2zh
+License: MIT
+Author: ffreemt
+Requires-Python: >=3.8.3,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: alive-progress (>=2.4.1,<3.0.0)
+Requires-Dist: cmat2aset (>=0.1.0-alpha.7,<0.2.0)
+Requires-Dist: fast-scores (>=0.1.2,<0.2.0)
+Requires-Dist: fastlid (>=0.1.7,<0.2.0)
+Requires-Dist: icecream (>=2.1.1,<3.0.0)
+Requires-Dist: install (>=1.3.5,<2.0.0)
+Requires-Dist: joblib (>=1.1.0,<2.0.0)
+Requires-Dist: nltk (>=3.7,<4.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: rich (>=12.4.1,<13.0.0)
+Requires-Dist: set-loglevel (>=0.1.2,<0.2.0)
+Requires-Dist: simplemma (==0.3.0)
+Requires-Dist: sklearn (>=0.0,<0.1)
+Requires-Dist: split-words (>=0.1.2,<0.2.0)
+Requires-Dist: typer (>=0.4.1,<0.5.0)
+Project-URL: Repository, https://github.com/ffreemt/json-de2zh
+Description-Content-Type: text/markdown
+
+# json-de2zh
+[![pytest](https://github.com/ffreemt/json-de2zh/actions/workflows/routine-tests.yml/badge.svg)](https://github.com/ffreemt/json-de2zh/actions)[![python](https://img.shields.io/static/v1?label=python+&message=3.8%2B&color=blue)](https://www.python.org/downloads/)[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![PyPI version](https://badge.fury.io/py/json-de2zh.svg)](https://badge.fury.io/py/json-de2zh)
+
+json-de2zh gen_cmat based on fundset (stardict)
+
+## Install it
+
+```shell
+pip install git+https://github.com/ffreemt/json-de2zh
+# poetry add git+https://github.com/ffreemt/json-de2zh
+# git clone https://github.com/ffreemt/json-de2zh && cd json-de2zh
+```
+
+## Use it
+```python
+from json_de2zh import json_de2zh
+
+```
+

@@ -1,0 +1,12 @@
+json_de2zh/__init__.py,sha256=vfYBozqmr6R7wDZ1BkFNJ0giJTDuEkWtvjKx-lyeJ7g,103
+json_de2zh/__main__.py,sha256=Srq3VGAtUZN22Q2X56emutjbCbpsbYt_SutJVvy8u_E,1883
+json_de2zh/de2zh.py,sha256=W0YdY6HkUP5kPBPgNDF247nUkLKH2IzFaMezpOOAK0k,713
+json_de2zh/fundset.lzma,sha256=QPheYs4cCQ55_O5IScf8XsBlIUlJrCrFhcM4Wf9QmsA,2308402
+json_de2zh/gen_cmat.py,sha256=Q9aIYCwrul9GT8ywQwDfk1z3DkSF4CAvcZIk_gTmPpQ,2814
+json_de2zh/lemma_split.py-,sha256=rl1_HLJbNuHO7Nczoovp3y_lTqo-Ww2mSGg_dJysiRg,2814
+json_de2zh/split_compound.py,sha256=iorwt6elUDctgxknjACyMGK31UT8S2clsFQK5OIFdDw,2301
+json_de2zh-0.1.1a0.dist-info/entry_points.txt,sha256=iGvCPDgTxvQq_WYyOnaBn5qjh8E5EvkDGjaZLfNudok,54
+json_de2zh-0.1.1a0.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+json_de2zh-0.1.1a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+json_de2zh-0.1.1a0.dist-info/METADATA,sha256=6iwShLmVVU2aEs0hXo6V_mZ2nrGteM_DBELJ3eIdW0A,2012
+json_de2zh-0.1.1a0.dist-info/RECORD,,
