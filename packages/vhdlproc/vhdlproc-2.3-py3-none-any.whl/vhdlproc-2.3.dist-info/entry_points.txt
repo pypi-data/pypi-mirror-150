@@ -1,0 +1,3 @@
+[console_scripts]
+vhdlproc = vhdlproc.vhdlproc:_cli
+
