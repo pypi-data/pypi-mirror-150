@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: DTAnalyze
+Version: 1.0
+Summary: Python Decision Tree Analysis
+Home-page: https://github.com/nicholastoddsmith/DTAnalyze
+Author: Nicholas T. Smith
+Author-email: nicholastsmithblog@gmail.com
+License: UNKNOWN
+Description: # DTAnalyze
+        Functions to estimate importance of features in determining predictions for individual samples (aka "feature activations"). Fast `nogil` implementation in Cython.
+        
+        
+        ## Example Usage
+        ```
+        import numpy as np
+        from sklearn.ensemble import RandomForestRegressor
+        from DTAnalyze.Activation import GetActivations
+        
+        A = np.random.rand(256, 3)
+        Y = (2 * (A[:, 0] > 0.5) - (A[:, 1] < 0.5) - 
+             (A[:, 2] > 0.5) + np.random.normal(0, 0.1, size=256))
+        
+        rfr = RandomForestRegressor(n_jobs=4).fit(A, Y)
+        
+        L1 = GetActivations(rfr, A)
+        ```
+        
+        ## Install
+        
+        `python setup.py build_ext`
+        
+        Then copy build artifact into `DTAnalyze` (sub) folder and put that folder somewhere in your path.
+        
+Keywords: Decision,Tree,RandomForest,GBM,Activation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
