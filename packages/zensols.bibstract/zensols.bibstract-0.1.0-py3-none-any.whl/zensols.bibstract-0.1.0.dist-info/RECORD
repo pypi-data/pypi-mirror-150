@@ -1,0 +1,15 @@
+zensols/bibstract/__init__.py,sha256=KNUJADaiLXRYfELqjgvIfQ2XBNR2UFq2UCTq1jN7Kdg,129
+zensols/bibstract/app.py,sha256=6lrK1hfUCixEyOzYIoyxSSm7394QumKM1psKWAsgYxQ,4922
+zensols/bibstract/cli.py,sha256=_9X8RqqTmNK23CIp3VHpXkEk0WGbA6BoS-gXqHL9NOw,577
+zensols/bibstract/converter.py,sha256=VmmlMJwWCQ4uuncfVDirEG9apMvYBhg47pX0y10C3bM,7075
+zensols/bibstract/domain.py,sha256=1rI7ZkN4tCRi7xF0K_JyHRb1s-V8wxNZjkC039wBtzU,6727
+zensols/bibstract/extractor.py,sha256=wfO6Yf-Fst5PKznso6SkBm41GsODO4_UHEimgl-fu8M,5575
+zensols/bibstract/pkg.py,sha256=MPo5JLY68pdIr8VrV667ak3DmvKK1H4x_9sAGbAoAEc,2143
+zensols/bibstract/resources/app.conf,sha256=N8rmAoakcnUhJQV4B1yTwXsalYzoHeO_cJbVUzcpnzY,1176
+zensols/bibstract/resources/converters.conf,sha256=NOXo13JOPKPFoDiurv8LcqjUyYK5katAsVVH-h5VZPY,1783
+zensols/bibstract/resources/obj.conf,sha256=L4V0t8Sejp3Z-ExXYhJ-XrSW3BLNPUF_vI58hUJHYVM,262
+zensols.bibstract-0.1.0.dist-info/METADATA,sha256=l8Qk1sAHoS57nGSSwb4TnAGntkND8Req-vo8SAfG0xs,6073
+zensols.bibstract-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zensols.bibstract-0.1.0.dist-info/entry_points.txt,sha256=wbopC8DQD8MgkL_7-oPinMibM042e_w-g7MzXBQtGx0,54
+zensols.bibstract-0.1.0.dist-info/top_level.txt,sha256=-kn7KABYq0hfAgpIq7-lm_1ZkLHuE0p69p7rOWGwIjA,18
+zensols.bibstract-0.1.0.dist-info/RECORD,,
