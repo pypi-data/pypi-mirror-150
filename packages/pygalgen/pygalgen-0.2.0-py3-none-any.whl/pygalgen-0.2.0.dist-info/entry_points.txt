@@ -1,0 +1,3 @@
+[console_scripts]
+pygalgen = pygalgen.generator.main:run
+pygallint = pygalgen.linter.linter:run
