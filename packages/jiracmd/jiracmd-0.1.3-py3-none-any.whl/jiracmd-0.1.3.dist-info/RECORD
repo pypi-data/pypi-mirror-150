@@ -1,0 +1,13 @@
+jiracmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jiracmd/jira.py,sha256=M5ICALAcbnerqwEHUtGgG86B851C_UdbbX9jA0Zz7HM,2592
+jiracmd/objects.py,sha256=JhN88TumcUmysx5t2DUc82nACgk_G3TMOTRt3gGBAY4,3011
+jiracmd/utils.py,sha256=uGanrRmhi8QYyozyaE6l620AYEHvKhFNuyYKC7LsSFc,580
+jiracmd/cli/__init__.py,sha256=2LmVAlRcooBdK7j3gouOPJpBImmBmv8Yi2xvUcGAzIY,224
+jiracmd/cli/issue.py,sha256=VOwa9PZrwfdz40E2hNAAADFH8nFp6U9yn7IHaOERDJM,1486
+jiracmd/cli/worklog.py,sha256=M1iX-Nyu2wenQMNusBMY9f36Eqc2OAwpscGVtOjMvwE,2596
+jiracmd-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jiracmd-0.1.3.dist-info/METADATA,sha256=xCXq19p8BKVuu0PFPFiprsADSQpfBlV02g2nvPp7rAU,1656
+jiracmd-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jiracmd-0.1.3.dist-info/entry_points.txt,sha256=xmfyiI0ZljoXNY6kJSeDoW_TQV2FlCQ08IAYDc0JO8I,44
+jiracmd-0.1.3.dist-info/top_level.txt,sha256=A1gkiOTgD7oR_Okyk6FQnczSxS8_-7kocJpvezzYSUk,8
+jiracmd-0.1.3.dist-info/RECORD,,
