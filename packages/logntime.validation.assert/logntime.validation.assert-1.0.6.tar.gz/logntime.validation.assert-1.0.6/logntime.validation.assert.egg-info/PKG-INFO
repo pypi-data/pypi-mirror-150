@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: logntime.validation.assert
+Version: 1.0.6
+Summary: Assert functions. Allow for custom messages, compound errors, compare complex objects, and more.
+Home-page: https://github.com/logncontinuum/python-logntime-dbt-test-assert
+Author: David Garcia
+Author-email: code@isdavid.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: License
+
+# logntime.test.assert
+
+Assert functions. Allow for custom messages, compound errors, compare complex objects, and more.
