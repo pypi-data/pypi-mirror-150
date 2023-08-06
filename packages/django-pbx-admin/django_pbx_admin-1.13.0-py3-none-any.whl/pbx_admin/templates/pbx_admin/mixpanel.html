@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+mixpanel.init("{{ mixpanel.project_token }}");
+
+mixpanel.track("screen_view", {
+  eventCategory: "adminPanel",
+  instanceId: "{{ mixpanel.instance_name }}",
+  screenTitle: document.title,
+  screenType: "{{ page_type }}",
+});
+</script>
