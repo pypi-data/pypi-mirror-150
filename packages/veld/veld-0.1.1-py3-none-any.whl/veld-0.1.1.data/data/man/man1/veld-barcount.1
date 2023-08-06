@@ -1,0 +1,121 @@
+'\" t
+.\"     Title: veld-barcount
+.\"    Author: Gerrit J.J. van den Burg
+.\" Generator: Wilderness <https://pypi.org/project/wilderness>
+.\"      Date: 2022-05-15
+.\"    Manual: veld Manual
+.\"    Source: veld 0.1.1
+.\"  Language: English
+.\"
+.TH "VELD-BARCOUNT" "1" "2022\-05\-15" "Veld 0\&.1\&.1" "Veld Manual"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting *
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+veld-barcount \- Create a histogram with bars for all unique values in the stream
+.SH "SYNOPSIS"
+.sp
+.nf
+\fIveld barcount [\-e ENCODING | \-\-encoding=ENCODING] [\-f | \-\-flatten]
+              [\-i | \-\-ignore] [\-s SEPARATOR | \-\-separator=SEPARATOR]
+              [\-\-xmin=XMIN] [\-\-xmax=XMAX] [\-\-ymin=YMIN] [\-\-ymax=YMAX]
+              [\-\-xlabel=XLABEL] [\-\-ylabel=YLABEL] [\-\-title=TITLE]
+              [\-r | \-\-relative] [\-w WIDTH | \-\-width=WIDTH] [file]
+.fi
+.sp
+.SH "OPTIONS"
+.sp
+.sp
+.sp
+\-h, \-\-help
+.RS 4
+show this help message and exit
+.RE
+.PP
+\-e, \-\-encoding
+.RS 4
+Specify the encoding of the input stream.
+.RE
+.PP
+\-f, \-\-flatten
+.RS 4
+With multidimensional input (more than one value per line) the operation is normally conducted on each dimension independently. With the \-\-flatten option, the input is flattened line\-wise (RowMajor order) and the operation is conducted on the resulting one\-dimensional stream.
+.RE
+.PP
+\-i, \-\-ignore
+.RS 4
+Ignore non\-numeric values in the input stream
+.RE
+.PP
+\-s, \-\-separator
+.RS 4
+Some of the Veld commands have support for multidimensional input data. The values on each line of the input stream are expected to be separated by this separator. By default, the tab character will be used as a separator.
+.RE
+.PP
+\-\-xmin
+.RS 4
+Lower limit of the horizontal axis
+.RE
+.PP
+\-\-xmax
+.RS 4
+Upper limit of the horizontal axis
+.RE
+.PP
+\-\-ymin
+.RS 4
+Lower limit of the vertical axis
+.RE
+.PP
+\-\-ymax
+.RS 4
+Upper limit of the vertical axis
+.RE
+.PP
+\-\-xlabel
+.RS 4
+Axis label for the horizontal axis
+.RE
+.PP
+\-\-ylabel
+.RS 4
+Axis label for the vertical axis
+.RE
+.PP
+\-\-title
+.RS 4
+Title for the plot
+.RE
+.PP
+\-r, \-\-relative
+.RS 4
+Plot relative counts (proportions) instead of counts
+.RE
+.PP
+\-w, \-\-width
+.RS 4
+When there is one dimension of data in the input stream, this width is the width of each bar. When there are multiple dimensions, this width is shared between the bars.
+.RE
+.PP
+[file]
+.RS 4
+Veld is primarily designed for processing input streams, but it can also be applied on a file of data, which can be supplied with this argument. By default Veld will read the input data from stdin.
+.RE
+.PP
+.sp
