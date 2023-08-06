@@ -1,0 +1,2 @@
+[console_scripts]
+run_kfp_locally = kfp.local.client:main
