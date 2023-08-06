@@ -1,0 +1,6 @@
+dagster==0.14.15
+dagster-snowflake==0.14.15
+pandas
+requests
+snowflake-connector-python[pandas]
+snowflake-sqlalchemy
