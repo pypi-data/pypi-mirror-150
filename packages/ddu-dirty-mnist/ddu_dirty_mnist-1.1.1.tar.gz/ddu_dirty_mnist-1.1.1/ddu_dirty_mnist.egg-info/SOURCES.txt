@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ddu_dirty_mnist/__init__.py
+ddu_dirty_mnist/_nbdev.py
+ddu_dirty_mnist/dirty_mnist.py
+ddu_dirty_mnist.egg-info/PKG-INFO
+ddu_dirty_mnist.egg-info/SOURCES.txt
+ddu_dirty_mnist.egg-info/dependency_links.txt
+ddu_dirty_mnist.egg-info/entry_points.txt
+ddu_dirty_mnist.egg-info/not-zip-safe
+ddu_dirty_mnist.egg-info/requires.txt
+ddu_dirty_mnist.egg-info/top_level.txt

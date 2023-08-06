@@ -1,0 +1,11 @@
+torch
+torchvision
+tqdm
+
+[dev]
+pytorch
+torchvision
+matplotlib
+seaborn
+numpy
+tqdm
