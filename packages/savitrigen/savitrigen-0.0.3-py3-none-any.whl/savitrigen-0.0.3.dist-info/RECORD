@@ -1,0 +1,12 @@
+savitrigen/__init__.py,sha256=YeJkNOLWII7NN1V6ZF2oR6VhQ0Y6QjgVMv-fgWU-Hoc,227
+savitrigen/__main__.py,sha256=6YVWZTWyORIl2KFKVEOBXPIk1zXtX_O1dFAs3HL_iDE,858
+savitrigen/bootstrap.py,sha256=MO4PlSeU2cbhOB3EWKLCnDHodPOW5piWC1UQbdMpvGU,788
+savitrigen/commandline.py,sha256=yL4GB4I5FcTpc639W7ep13lz05-sy9xVJiAWAalbHvo,1505
+savitrigen/logging.py,sha256=_56zdxl9nqoDNxMZ70d2HMzyl7iRJ-GY-h6l9MHIOx0,168
+savitrigen/path.py,sha256=yPYNA-UhQkoP-ObO_4RR3a-1vcKnv-OpB694A604Tb0,1819
+savitrigen/util.py,sha256=7tDEetcXvKZ2Ctv2br8MCpAyArQwuRKB2z1bNjKIWIc,1965
+savitrigen-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+savitrigen-0.0.3.dist-info/METADATA,sha256=YIAOoVoS8LTTVPvD5agHShXMFUFh7RIOZFCZmgS63JE,285
+savitrigen-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+savitrigen-0.0.3.dist-info/top_level.txt,sha256=fqE2Jpssn-CF0095SZOYK16J04mo_4YvmEnpd59qwug,11
+savitrigen-0.0.3.dist-info/RECORD,,
