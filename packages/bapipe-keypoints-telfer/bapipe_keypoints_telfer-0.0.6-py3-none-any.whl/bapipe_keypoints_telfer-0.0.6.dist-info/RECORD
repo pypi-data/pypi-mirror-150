@@ -1,0 +1,10 @@
+bapipe/__init__.py,sha256=1JyyMyPF0dfssUwQ3k2gWm_NQ_ZVW5X8_CqyNsfgCso,63
+bapipe/api.py,sha256=DewgVhGxYLumbj5_tMZ65b70f7Z3AKg-QYhfZFcyztM,13632
+bapipe/camera_calibration.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bapipe/configs.py,sha256=mnz93p0Bfl48OjSHPIULdjXVtspaMbq9llqytRJ_E6s,794
+bapipe/utils.py,sha256=5DSXCObSNjS9kqEAkexOuuXYt8VM8lr8bh4l3HkHAv4,3607
+bapipe_keypoints_telfer-0.0.6.dist-info/LICENSE,sha256=M5mohU8oviYdGo4TtHcQjAdZVTmupmrKsWzKnTqjWUg,1069
+bapipe_keypoints_telfer-0.0.6.dist-info/METADATA,sha256=-E3T7ohtgF1XEJWrDlAxRmTcFtgWo6qXTC0F1DkAjzw,1276
+bapipe_keypoints_telfer-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bapipe_keypoints_telfer-0.0.6.dist-info/top_level.txt,sha256=N3qFIKDeA_t6ykot-dBq1wI3xp0D1rhF-r9aSO5bamk,7
+bapipe_keypoints_telfer-0.0.6.dist-info/RECORD,,
