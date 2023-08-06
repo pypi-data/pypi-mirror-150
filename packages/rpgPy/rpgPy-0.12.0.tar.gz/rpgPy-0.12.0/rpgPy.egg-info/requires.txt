@@ -1,0 +1,15 @@
+numpy<=1.21
+cython
+netCDF4
+tqdm
+pytz
+numba
+
+[dev]
+pre-commit
+
+[test]
+pytest-flakefinder
+pylint
+mypy
+types-pytz
