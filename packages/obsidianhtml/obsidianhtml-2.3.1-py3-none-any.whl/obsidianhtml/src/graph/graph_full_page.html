@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+                <!-- Page information -->
+                <meta charset="UTF-8" />
+                <meta name="node_id" content="{node_id}">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="shortcut icon" href="/favicon.ico" />
+
+                <!-- Set title -->
+                <title>{title}</title>
+
+                <!-- Includes -->
+                <link rel="stylesheet" href="{html_url_prefix}/obs.html/static/global_main.css" />
+                <link rel="stylesheet" href="{html_url_prefix}/obs.html/static/main.css" />
+                <link rel="stylesheet" href="{html_url_prefix}/obs.html/static/theme-obsidian.css" />
+                {dynamic_includes}
+
+                <!-- Onload tweaks -->
+                <script>
+                        const CURRENT_NODE = '{pinnedNode}';
+                        const HTML_URL_PREFIX = '{html_url_prefix}';
+                </script>
+        </head>
+
+<body onload="LoadPage();" class="theme-obs-light">
+        <div id="antiflash"></div>
+        {search_html}
+
+        <div id="page_holder" class="flex_col">
+                <div id="header" class="header">
+                        <div id="header_flex" class="flex_row">
+                                <a href="{html_url_prefix}/index.html" id="homelink" title="Clear screen and go to homepage">{title}</a>
+                                <div class="navbar-button" onclick="toggle_menu()">
+                                        ≡
+                                </div>
+                                <div id="navbar" class="navbar">
+                                {{navbar_links}}
+                                        <div class="icon-tray">
+                                                {rss_button}
+                                                {tags_page_button}
+                                                {dirtree_button}
+                                                {graph_button}
+                                                {search_button}
+                                                {theme_button}
+                                        </div>
+                                </div>
+                        </div>
+                        {theme_popup}
+                </div>
+                
+                <div class="graph_full_page">
+                        <div id="Agraph_full_page" class="graph_div_full"></div>
+                </div>
+                           
+                
+
+        </div>
+
+        <script src="{html_url_prefix}/obs.html/static/graph.js" type="text/javascript"></script>
+        
+        {grapher}
+
+        <script>
+            function graph_open_link(args){
+                return graph_open_link_normal(args)
+            }                
+            function graph_left_click(args){
+                    return graph_select_node(args)
+            }
+            function graph_right_click(args){
+                    return graph_open_link(args)
+            }
+
+            args = get_graph_args('graph_full_page');
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const pinnedNode = urlParams.get('node');
+            current_node_id = pinnedNode;
+            args.current_node_id = pinnedNode;
+
+            grapher(args)
+
+
+        </script>
+
+{footer_js_inclusions}
+
+
+</body>
+</html>
