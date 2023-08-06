@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cli_jam"
+version = "0.1.0"
+description = "A very useful app."
+authors = ["Chris Webster <chris@dataq.co.za>"]
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
