@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: acquisition-statute-parser
+Version: 0.1.2
+Summary: Parse statutes into fields after acquisition from scraping.
+Author: Marcelino G. Veloso III
+Author-email: mars@veloso.one
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: arrow (>=1.2,<2.0)
+Requires-Dist: beautifulsoup4 (>=4.11,<5.0)
+Requires-Dist: html-sanitizer (>=1.9.3,<2.0.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: httpx (>=0.22,<0.23)
