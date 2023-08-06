@@ -1,0 +1,3 @@
+[console_scripts]
+lark-js=larkjs.__main__:main
+
