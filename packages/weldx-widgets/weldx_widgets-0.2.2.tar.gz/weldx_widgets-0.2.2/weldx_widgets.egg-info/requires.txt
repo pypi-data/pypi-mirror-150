@@ -1,0 +1,12 @@
+weldx>=0.6
+ipywidgets
+k3d>=2.12
+ipympl
+bidict
+ipyfilechooser
+tqdm
+
+[test]
+pytest
+pytest-cov
+pytest-xdist
