@@ -1,0 +1,9 @@
+pysmme/__init__.py,sha256=2NbBpXfd5bfLoKa587Cnm6yriz4BbQsGceXEjY0EccE,33
+pysmme/_smme.cpython-39-darwin.so,sha256=hpFgJekkv4puwjV_rchwf6NtySCdvghVLIuhdVo6NdE,482064
+pysmme/tools.py,sha256=vr87VmFqYSBRS26WlSfYNOD19zSr8olFRKp1cmzYb50,28139
+pysmme/transforms.py,sha256=Sw2DErMZJsy8yMMMuSzGpUJpLuEmJhow54ZkQftevp0,6668
+pysmme-1.0.dist-info/LICENSE.note,sha256=g-m8frETQRS3pgb7unJ0d50h5sHJc6Ub55imPkVuPqI,1878
+pysmme-1.0.dist-info/METADATA,sha256=GGBP6m70MNKuBOZfFbNEib-tbFA8ZznmI2OF_5BjDck,1376
+pysmme-1.0.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+pysmme-1.0.dist-info/top_level.txt,sha256=-ZOLkxSP1IoeetpYDPjPizD_0cuH6FiIPY59MWeaw_o,7
+pysmme-1.0.dist-info/RECORD,,
