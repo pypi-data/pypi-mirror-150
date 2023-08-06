@@ -1,0 +1,3 @@
+[console_scripts]
+cao=cao_cli.main:app
+
