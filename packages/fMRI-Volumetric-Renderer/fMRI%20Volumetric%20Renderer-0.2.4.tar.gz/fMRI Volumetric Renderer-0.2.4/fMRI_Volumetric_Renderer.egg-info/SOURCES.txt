@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+fMRI_Volumetric_Renderer.egg-info/PKG-INFO
+fMRI_Volumetric_Renderer.egg-info/SOURCES.txt
+fMRI_Volumetric_Renderer.egg-info/dependency_links.txt
+fMRI_Volumetric_Renderer.egg-info/top_level.txt
+volume_plot_utils/__init__.py
+volume_plot_utils/plotter.py
+volume_plot_utils/template.html.txt
