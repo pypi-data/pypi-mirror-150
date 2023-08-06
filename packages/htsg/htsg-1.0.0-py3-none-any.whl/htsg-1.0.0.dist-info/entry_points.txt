@@ -1,0 +1,3 @@
+[console_scripts]
+htsg = htsg.__main__:main
+
