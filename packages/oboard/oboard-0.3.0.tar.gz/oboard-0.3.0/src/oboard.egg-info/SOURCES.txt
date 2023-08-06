@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/board/__init__.py
+src/board/board.py
+src/board/vector.py
+src/oboard.egg-info/PKG-INFO
+src/oboard.egg-info/SOURCES.txt
+src/oboard.egg-info/dependency_links.txt
+src/oboard.egg-info/requires.txt
+src/oboard.egg-info/top_level.txt
