@@ -1,0 +1,11 @@
+typed_argparse/__init__.py,sha256=gQqmyixYZyYiJ_rnZlr0pB30htW9y_pdO8CRXB2FBQ8,338
+typed_argparse/choices.py,sha256=G_Sy1TSJXiX2TYaonAz9lrMjpWjsPNbnGV5cz7c5AyQ,1681
+typed_argparse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typed_argparse/runtime_generic.py,sha256=Y1bPI6siElZqsZ5jrU6-QXWMu-u8Xd0jUrAUsjpoYhM,1261
+typed_argparse/type_utils.py,sha256=Rc5YY9TmLszTMxMKPrI9gclTbNrlAP52QsrPw-4JGBo,6881
+typed_argparse/typed_argparse.py,sha256=uYxvqkDhbCWD4skmBP1uXXWOlQtYNcmgc3kVQfYwHck,6729
+typed_argparse-0.1.8.dist-info/LICENSE,sha256=ig4Rutdjiqu2-dxrFgJjOuXD6oSpZWocILmBI4PnEzA,1067
+typed_argparse-0.1.8.dist-info/METADATA,sha256=5ZSgIrDGmd5orzFu04jKPEW2kY0nKIeB5fR2-hh19DY,8068
+typed_argparse-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typed_argparse-0.1.8.dist-info/top_level.txt,sha256=7va2Gqg5zTQh6zKBNfFITx8zvXA_3PgJhF3geE35wco,15
+typed_argparse-0.1.8.dist-info/RECORD,,
