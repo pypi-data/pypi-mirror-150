@@ -1,0 +1,6 @@
+README.md
+setup.py
+SEIQRmap.egg-info/PKG-INFO
+SEIQRmap.egg-info/SOURCES.txt
+SEIQRmap.egg-info/dependency_links.txt
+SEIQRmap.egg-info/top_level.txt
