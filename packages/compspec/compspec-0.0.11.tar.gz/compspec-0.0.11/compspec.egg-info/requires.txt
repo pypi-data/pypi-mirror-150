@@ -1,0 +1,5 @@
+clingo
+
+[all]
+clingo
+pytest>=4.6.2
