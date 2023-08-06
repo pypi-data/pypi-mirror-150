@@ -1,0 +1,11 @@
+pyswot/__init__.py,sha256=Zr_yMsstjtfBKfK0aZlK3cCVvntFTKTqAEfTsTnA1uc,99
+pyswot/pyswot.py,sha256=IuoKASYI_-YRcociG_17_7moJRy1Nc1CWQFafjwiopw,1248
+pyswot/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyswot/vendor/domains.py,sha256=-focXb2hJ_RfjR5XEk0YfeYChT-N1EbMmk1c0PMBYx4,1305478
+pyswot/vendor/license.txt,sha256=pRCl3Ql5cTgLMu9jsyIl7_TuscHD16reY9dcQ8eqFQw,1077
+pyswot/vendor/stoplist.py,sha256=t-omwtUTNlA7zAY2yYgz3ubihBnGv_8zAHHg6SpxD9Q,13991
+pyswot/vendor/tlds.py,sha256=xKevBaJpjBrii3Rs0eqDbLyRASSmr8H5FUl0IT4ZbVs,2147
+pyswot-0.2.2.dist-info/LICENSE,sha256=ooS_vbTGwa0r7AArDpI9mrfUmKl1zFLudjbE6kJY8K0,11363
+pyswot-0.2.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyswot-0.2.2.dist-info/METADATA,sha256=YkHei_fmLw5C6hT_YGqV2K3ed6KoLa_mbjMGPwFRCHk,1796
+pyswot-0.2.2.dist-info/RECORD,,
