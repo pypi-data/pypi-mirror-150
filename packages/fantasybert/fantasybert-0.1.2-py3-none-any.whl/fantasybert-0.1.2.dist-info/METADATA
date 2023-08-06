@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fantasybert
+Version: 0.1.2
+Summary: an easy module for bert models
+Home-page: https://github.com/Changanyue/fantasybert
+Author: Changanyue
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: torch (>1.4)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: transformers (>=4.5.1)
+Requires-Dist: fitlog
+
+fantasybert: 
+
