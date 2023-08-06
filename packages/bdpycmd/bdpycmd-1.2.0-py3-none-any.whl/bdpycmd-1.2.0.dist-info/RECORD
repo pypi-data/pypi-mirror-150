@@ -1,0 +1,11 @@
+bdpycmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdpycmd/pycmd.py,sha256=cNcRRQZAVHd4CXlKHsKnBckl5jZywvF5CtFqozSpWqM,6139
+bdpycmd/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdpycmd/cmd/camp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdpycmd/cmd/camp/assistant.py,sha256=9Ew5IstDNot5UX2X4KrMD5tJ1vFBR20SQwYMa3WBk5o,2122
+bdpycmd/cmd/factory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdpycmd/cmd/factory/base.py,sha256=XfY6J00L-3QcFEk3AhYUbuWv-l99Hb5PmvenZqt321Y,3831
+bdpycmd-1.2.0.dist-info/METADATA,sha256=EXYK6VJ0mfLzhgj6f7By6REf8OrzvRtOvyBgDS2vsKY,1766
+bdpycmd-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bdpycmd-1.2.0.dist-info/top_level.txt,sha256=HUXS42pPutozRV0yzzA8gkpe1z79HyxFmfMi5bFagnc,8
+bdpycmd-1.2.0.dist-info/RECORD,,
