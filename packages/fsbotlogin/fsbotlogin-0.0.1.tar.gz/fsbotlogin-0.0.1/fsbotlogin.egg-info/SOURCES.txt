@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+fsbotlogin/__init__.py
+fsbotlogin.egg-info/PKG-INFO
+fsbotlogin.egg-info/SOURCES.txt
+fsbotlogin.egg-info/dependency_links.txt
+fsbotlogin.egg-info/top_level.txt
