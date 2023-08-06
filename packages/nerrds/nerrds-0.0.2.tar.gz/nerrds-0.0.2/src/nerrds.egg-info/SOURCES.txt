@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nerrds/__init__.py
+src/nerrds/nerrds.py
+src/nerrds.egg-info/PKG-INFO
+src/nerrds.egg-info/SOURCES.txt
+src/nerrds.egg-info/dependency_links.txt
+src/nerrds.egg-info/entry_points.txt
+src/nerrds.egg-info/requires.txt
+src/nerrds.egg-info/top_level.txt

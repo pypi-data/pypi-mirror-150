@@ -1,0 +1,6 @@
+numpy
+ansurr
+pandas
+scikit-learn
+prody
+pdb-tools
