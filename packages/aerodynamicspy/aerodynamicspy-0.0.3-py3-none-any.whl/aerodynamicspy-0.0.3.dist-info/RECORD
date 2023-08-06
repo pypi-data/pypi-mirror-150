@@ -1,0 +1,9 @@
+aerodynamicspy/__init__.py,sha256=3i06vzoXgq5j32FnyrW5u26ofGkhK8kWH8k8s49zkNk,23
+aerodynamicspy/airfoils/Airfoil.py,sha256=elTzpusIPh5XOojdMbah6h7RHcZVcBMGdLupMMd22vg,535
+aerodynamicspy/airfoils/__init__.py,sha256=MwFq59_mzpsi0K0Ii5EDUmBmX4vmsM87CtawOKYxOjQ,105
+aerodynamicspy/airfoils/common_airfoils.py,sha256=8-SjkN7lkzw3UAsxNFRM1Yx6Y2MZRfD0ceCtHaHHOD0,2467
+aerodynamicspy-0.0.3.dist-info/LICENSE,sha256=eNLioW_7guXXXEhXdNBrpVG2PUB5udjJzqTpy01nhGQ,1073
+aerodynamicspy-0.0.3.dist-info/METADATA,sha256=NLNGf_F7QcLSkZdLTNkrk-3WkxbbgnNPrEkYndZP4fk,709
+aerodynamicspy-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aerodynamicspy-0.0.3.dist-info/top_level.txt,sha256=zMCj27RihI87F9tL4aDaoaHR5RqvdWL2Pkx3gsQGzbg,15
+aerodynamicspy-0.0.3.dist-info/RECORD,,
