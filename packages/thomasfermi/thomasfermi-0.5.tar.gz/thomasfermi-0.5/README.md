@@ -1,0 +1,32 @@
+# ThomasFermi
+Perform Thomas Fermi calculation to find the lowest energy density 
+configuration of two dimensional electronic systems. See the [**ref paper**](https://arxiv.org/abs/2204.10296) 
+for detail setup of the calculation.
+
+## Example usage
+A detailed example of FQHE is given in a [**Jupyter notebook**](https://github.com/tgwang98/ThomasFermi/blob/main/Example.ipynb)
+
+```python
+import numpy as np
+from opt_einsum import contract
+
+N = 10
+C = np.random.rand(N, N)
+I = np.random.rand(N, N, N, N)
+
+%timeit np.einsum('pi,qj,ijkl,rk,sl->pqrs', C, C, I, C, C)
+1 loops, best of 3: 934 ms per loop
+
+%timeit contract('pi,qj,ijkl,rk,sl->pqrs', C, C, I, C, C)
+1000 loops, best of 3: 324 us per loop
+```
+
+## Installation
+
+`thomasfermi` can be installed via `pip install thomasfermi`.
+
+## Citation
+
+If this code has benefited your research, please support us by citing:
+
+arXiv:2204.10296 [cond-mat.mes-hall]
