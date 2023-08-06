@@ -1,0 +1,8 @@
+typing
+numpy
+bitarray
+more_itertools
+succinct
+tqdm
+tensorflow
+tensorflow_probability

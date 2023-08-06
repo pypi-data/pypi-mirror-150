@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyDAC
+Version: 0.0.1
+Summary: pyDAC (python Directly Addressable Codes) offers a variable-length encoding scheme for (unsigned) integers with random access to any element of the encoded sequence.
+Home-page: https://github.com/rmrschub/pyDAC
+Author: René Schubotz
+Author-email: rene.schubotz@dfki.de
+License: CC BY-NC-SA 4.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# pyDAC
+pyDAC (python Directly Addressable Codes) offers a variable-length encoding scheme for (unsigned) integers with random access to any element of the encoded sequence.
+
+
