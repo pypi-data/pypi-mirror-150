@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Student_Information_System_with_Vaccination_Card_Status.egg-info/PKG-INFO
+Student_Information_System_with_Vaccination_Card_Status.egg-info/SOURCES.txt
+Student_Information_System_with_Vaccination_Card_Status.egg-info/dependency_links.txt
+Student_Information_System_with_Vaccination_Card_Status.egg-info/top_level.txt

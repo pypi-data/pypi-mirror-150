@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Student-Information-System-with-Vaccination-Card-Status
+Version: 2.1.1
+Summary: About SISVCS (GUI) - Use for a school especially to those students, to know what are their status by showing the QRCode before entering the school Campus.. This system is a big help for the school in order to avoid intruders that who want to
+Home-page: UNKNOWN
+Author: John Lloyd D. de Sape
+Author-email: johnlloyddesape@gmail.com
+License: MIT
+Keywords: Student Information,Vaccination Card Status
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is STUDENT INFORMATION SYSTEM WITH VACCIANATION CARD STATUS that I made for my PROGRAMMING FINAL PROJECT this 1st year.
+
+
+Change Log
+==========
+
+2.1.1 ()
+-Second Release
+
