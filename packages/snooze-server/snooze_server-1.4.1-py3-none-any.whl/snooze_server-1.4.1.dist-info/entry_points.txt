@@ -1,0 +1,5 @@
+[console_scripts]
+check_snooze_server=snooze.cli.health:check_snooze_server
+snooze=snooze.cli.__main__:snooze
+snooze-server=snooze.__main__:main
+
