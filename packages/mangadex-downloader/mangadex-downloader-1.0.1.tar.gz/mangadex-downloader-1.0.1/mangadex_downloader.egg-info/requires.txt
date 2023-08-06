@@ -1,0 +1,13 @@
+bs4
+requests[socks]
+tqdm
+pathvalidate
+packaging
+
+[docs]
+sphinx
+furo
+myst-parser[linkify]
+
+[optional]
+Pillow==9.0.1
