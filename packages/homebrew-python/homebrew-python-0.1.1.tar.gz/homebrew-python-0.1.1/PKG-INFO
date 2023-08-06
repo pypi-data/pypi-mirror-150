@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: homebrew-python
+Version: 0.1.1
+Summary: 
+Author: Xinyuan Chen
+Author-email: 45612704+tddschn@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
