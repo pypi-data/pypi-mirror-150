@@ -1,0 +1,5 @@
+setup.py
+com/insight_gateway_python.egg-info/PKG-INFO
+com/insight_gateway_python.egg-info/SOURCES.txt
+com/insight_gateway_python.egg-info/dependency_links.txt
+com/insight_gateway_python.egg-info/top_level.txt
