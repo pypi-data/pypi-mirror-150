@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "orx"
+version = "1.0.0a0"
+description = "A modern, async, lightweight Discord API wrapper."
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vcokltfre/orx"
+keywords = ["discord", "python", "library", "bot"]
+classifiers = [
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+include = ["orx/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+discord-typings = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+taskipy = "^1.10.1"
+
+[tool.taskipy.tasks]
+lint = "black . && isort --profile black ."
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
