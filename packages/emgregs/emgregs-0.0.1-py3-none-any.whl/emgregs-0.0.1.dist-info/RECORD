@@ -1,0 +1,7 @@
+emgregs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emgregs/function_emg__reg.py,sha256=tmExYXoBy5UREu_D2V6Ke_poTC9YsmFb0L-8hudpx1g,5006
+emgregs/function_simulation.py,sha256=ZU-g6bbPGl1YG9T4IguNT62CjwJJl9eBdNVqaEprEmk,3267
+emgregs/function_try__flare.py,sha256=uJz_9dnHU5encLEp_4SnWvqMyKaYjjZ5sljb1czHBYY,7793
+emgregs-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+emgregs-0.0.1.dist-info/METADATA,sha256=EGNOiB0n3cniSkxU7k4RzQdoLYElVCXPx9njouZmDME,587
+emgregs-0.0.1.dist-info/RECORD,,
