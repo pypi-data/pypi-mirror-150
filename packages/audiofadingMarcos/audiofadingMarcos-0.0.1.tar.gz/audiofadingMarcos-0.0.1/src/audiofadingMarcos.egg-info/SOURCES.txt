@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/audiofadingMarcos.egg-info/PKG-INFO
+src/audiofadingMarcos.egg-info/SOURCES.txt
+src/audiofadingMarcos.egg-info/dependency_links.txt
+src/audiofadingMarcos.egg-info/top_level.txt
+src/fading/__init__.py
+src/fading/audiofading.py
