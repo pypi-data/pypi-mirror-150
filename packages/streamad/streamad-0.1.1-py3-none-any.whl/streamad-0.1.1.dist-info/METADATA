@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: streamad
+Version: 0.1.1
+Summary: An anomaly detection package for data streams.
+Home-page: https://github.com/Fengrui-Liu/StreamAD
+Author: liufr
+Author-email: liufengrui18z@ict.ac.cn
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (>=1.3.0)
+Requires-Dist: scipy (>=1.7.0)
+Requires-Dist: scikit-learn (>=1.0.0)
+Requires-Dist: mmh3 (>=3.0.0)
+Requires-Dist: plotly
+
+# StreamAD
+
+![StreamAD Logo](docs/source/images/logo_htmlwithname.svg)
+
+
+
+
+
+Online anomaly detection for data stream. Detectors process the univariate or multivariate data one by one to simulte a real-time scene.
+
+
+
+[Documentation](https://streamad.readthedocs.io/en/latest/)
+
+
+<!--- BADGES: START --->
+
+![GitHub](https://img.shields.io/github/license/Fengrui-Liu/StreamAD)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/StreamAD?style=flat)
+![Read the Docs](https://img.shields.io/readthedocs/streamad?style=flat)
+![PyPI](https://img.shields.io/pypi/v/streamad)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/streamad)
+[![Downloads](https://static.pepy.tech/personalized-badge/streamad?period=total&units=international_system&left_color=grey&right_color=orange&left_text=Downloads)](https://pepy.tech/project/streamad)
+![example workflow](https://github.com/Fengrui-Liu/StreamAD/actions/workflows/testing.yml//badge.svg)
+[![codecov](https://codecov.io/gh/Fengrui-Liu/StreamAD/branch/main/graph/badge.svg?token=AQG26L2RA7)](https://codecov.io/gh/Fengrui-Liu/StreamAD)
+---
+
+
+
+## Installation
+
+The stable version can be installed from PyPI:
+
+```bash
+pip install streamad
+```
+
+The development version can be installed from GitHub:
+
+```bash
+pip install git+https://github.com/Fengrui-Liu/StreamAD
+```
+
+
+
+## MODELS
+
+### For univariate time series.
+- [x] KNN CAD
+- [x] SPOT
+
+### For multivariate time series, also compatible with univariate time series.
+- [x] xStream
