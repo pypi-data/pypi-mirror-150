@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gpn_zsdparser
+Version: 1.1
+Author: Anatoly Bryksin
+Author-email: anatoly.bryksin@gmail.com
+Requires-Python: >=3.8
