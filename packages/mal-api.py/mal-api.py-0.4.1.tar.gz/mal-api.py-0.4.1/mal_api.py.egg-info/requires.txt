@@ -1,0 +1,4 @@
+requests>=2.26
+
+[docs]
+sphinx==4.5.0
