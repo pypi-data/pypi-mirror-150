@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Rudraya
+Version: 0.15
+Summary: UNKNOWN
+Author: ['Tushar Kolekar', 'Sameer Sayyad']
+Author-email: tusharkolekar24@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: statsmodels
+
+## Rudraya
+This package aims to build a Machine Learning model to analyze the data using the various analytical technique. It performs Exploratory data analysis, data cleaning, and data wrangling process to select the most relevant feature that has a major contribution to the target feature. 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Rudraya.
+
+```bash
+pip install Rudraya
+```
+
+## Main Features
+Filter Techniques:
+* Missing Value
+* Multicollinearity 
+* Correlation 
+* F_Regression
+* Analysis Variance Test
+* Forward_Feature_Elimination
+* Backword Feature Elimination
+
+## Contributing
+Contributions in any form are welcome, including:
+- Documentation improvements
+- Additional tests
+- New features to existing models
+- New models
+
