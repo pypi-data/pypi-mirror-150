@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dir_to_crx.egg-info/PKG-INFO
+dir_to_crx.egg-info/SOURCES.txt
+dir_to_crx.egg-info/dependency_links.txt
+dir_to_crx.egg-info/requires.txt
+dir_to_crx.egg-info/top_level.txt
