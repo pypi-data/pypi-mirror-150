@@ -1,0 +1,3 @@
+[console_scripts]
+toxassign=toxassign.Automation:main
+
