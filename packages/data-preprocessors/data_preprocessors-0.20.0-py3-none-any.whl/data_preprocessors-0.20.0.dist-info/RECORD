@@ -1,0 +1,6 @@
+data_preprocessors/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+data_preprocessors/list_process.py,sha256=X7iZj_EdfvwIxmz7E7tkQdFnj6lGfEdjo8dPFzVUhCE,2215
+data_preprocessors/text_preprocessor.py,sha256=fFr-kMIyFyoyQ_NX379ENyhJfKsiEO0Yp3bP0NMhZlk,18687
+data_preprocessors-0.20.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+data_preprocessors-0.20.0.dist-info/METADATA,sha256=HoyZSqdFl3jvSWiic7AgSQybHXmNPksP2LNCNujvmHU,3090
+data_preprocessors-0.20.0.dist-info/RECORD,,
