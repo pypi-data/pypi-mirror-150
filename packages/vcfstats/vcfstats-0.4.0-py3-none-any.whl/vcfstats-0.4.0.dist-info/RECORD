@@ -1,0 +1,12 @@
+vcfstats/__init__.py,sha256=9awsDtRponVnteEFLIQgX7styFPzH_Sb9JLSeKbDliE,86
+vcfstats/__main__.py,sha256=fJTew2SYtJDrCC0bIJnXYNwdHD8eJeLkQGrrCrcHLK8,107
+vcfstats/args.toml,sha256=3pFh3aIKawFN9nPk6hQgGtlvx3Nr1Dx9UN1_nWtV43I,2138
+vcfstats/cli.py,sha256=OGr0LOPsl_Uu7_p9H7SxOkS-ZVfij84MbaKCtZpHCo8,6970
+vcfstats/formula.py,sha256=PuBcRB_U4oMJNPO8D1yRml7ihu7-MiGOqq2QjtlEu4Q,12056
+vcfstats/instance.py,sha256=1EroAOyVXPEQVd044Sxl9OOoQgv_VpFEsqr1m0JwbF8,11203
+vcfstats/macros.py,sha256=Y-GKyJEqQOPqU2lcVbUo5DPV20LFtz-Ykb69js4gBjE,4260
+vcfstats/utils.py,sha256=ZFTmFIcu2r-_snZRLgVXaTC8TfhNQU1OMcXFxPmpBZ8,3131
+vcfstats-0.4.0.dist-info/entry_points.txt,sha256=Rlof3uA9NqXKvOV9atJrwehQmIz0phHBk1pyljG4VxM,46
+vcfstats-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+vcfstats-0.4.0.dist-info/METADATA,sha256=VOyii8U-uIWuahZMOTScdiogHFOEds4J3lPV34_maJs,9744
+vcfstats-0.4.0.dist-info/RECORD,,
