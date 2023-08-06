@@ -1,0 +1,12 @@
+halo
+matplotlib
+ntlm-auth
+numpy
+pandas
+pytest
+requests
+scipy
+seaborn
+tabulate
+tqdm
+urllib3
