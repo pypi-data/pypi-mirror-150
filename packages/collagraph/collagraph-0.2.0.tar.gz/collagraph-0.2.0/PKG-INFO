@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: collagraph
+Version: 0.2.0
+Summary: Reactive user interfaces
+Home-page: https://github.com/fork-tongue/collagraph
+License: MIT
+Author: Berend Klein Haneveld
+Author-email: berendkleinhaneveld@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: pygfx
+Provides-Extra: pyside
+Requires-Dist: observ (>=0.9.2,<0.10.0)
+Requires-Dist: pygfx (>=0.1.9,<0.2.0); extra == "pygfx"
+Requires-Dist: pyside6_essentials (>=6.3,<6.4); (python_version < "3.11") and (extra == "pyside")
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/collagraph.svg)](https://badge.fury.io/py/collagraph)
+[![CI status](https://github.com/fork-tongue/collagraph/workflows/CI/badge.svg)](https://github.com/fork-tongue/collagraph/actions)
+
+# Collagraph 📓
+
+Reactive user interfaces.
+
+> The word [Collagraphy](https://en.wikipedia.org/wiki/Collagraphy) is derived from the Greek word _koll_ or _kolla_, meaning glue, and graph, meaning the activity of drawing.
+
+Currently in alpha.
+
