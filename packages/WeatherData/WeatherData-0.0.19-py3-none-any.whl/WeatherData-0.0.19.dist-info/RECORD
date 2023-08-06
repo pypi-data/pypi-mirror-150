@@ -1,0 +1,10 @@
+WeatherData/__init__.py,sha256=K2vjmOHx4alpY4dlqKH_rrb3OTVpmFUrxMIvsQbvjoQ,80
+WeatherData/fcst.py,sha256=7hu79u1-_2DAEoe1S_IQ3wu604o9vpe8FVUlb_YbpBo,1681
+WeatherData/obs.py,sha256=SNf3jxBABZwMUzGdmdbQJ25k8rfo0YxohaLkczPY2c8,2135
+WeatherData/region_code.py,sha256=PdICCxHbGNd15eItSQ4WLokCx7BcRPPcaJN-M_xcEeg,17931
+WeatherData/util.py,sha256=QLYzrEJerSdDmzVrH6-FRwSDg36R02sukTiLAwOOXBc,2113
+WeatherData-0.0.19.dist-info/LICENSE,sha256=tV3LxAqdp7W8IM7O0q23rAAipf9LUDKHZF50E5tYmfc,1089
+WeatherData-0.0.19.dist-info/METADATA,sha256=MCDKKAygjQPQkELv9UqBDPLzuF06lo2IUJLUM8uMoMA,3450
+WeatherData-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+WeatherData-0.0.19.dist-info/top_level.txt,sha256=77dBspFwVtU1xfNPQuBGo7o8orMzdUHiimh0c5nqVBo,12
+WeatherData-0.0.19.dist-info/RECORD,,
