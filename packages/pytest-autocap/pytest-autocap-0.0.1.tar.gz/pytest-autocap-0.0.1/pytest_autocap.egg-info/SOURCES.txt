@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytest_autocap/__init__.py
+pytest_autocap/pluginmodule.py
+pytest_autocap.egg-info/PKG-INFO
+pytest_autocap.egg-info/SOURCES.txt
+pytest_autocap.egg-info/dependency_links.txt
+pytest_autocap.egg-info/entry_points.txt
+pytest_autocap.egg-info/requires.txt
+pytest_autocap.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[pytest11]
+pytest_autocap = pytest_autocap.pluginmodule
+
