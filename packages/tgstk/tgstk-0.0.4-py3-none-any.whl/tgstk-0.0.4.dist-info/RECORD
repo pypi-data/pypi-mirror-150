@@ -1,0 +1,10 @@
+tgstk/__init__.py,sha256=0yZGnQn5iw9Q57jendyLdwkVwLPMM1XWQskHJ7b8br0,10
+tgstk/_tgstk.pyd,sha256=5H2Z3BNBTdUbZIFtVkbwittev4U3UU5lXL3oqvrCWN8,1203200
+tgstk/libgmp-10.dll,sha256=_sQ8sYzg7Ipd1q0dt0V0cWcxDMuStaz_DURaizAT8Ak,543027
+tgstk/libmpfr-4.dll,sha256=CbO4aLlkM5kfwVycWub5pExi0uIRlBEEQmB5Fzke2Sc,436011
+tgstk/tgstk.py,sha256=6I5KYQc4Ar-oiLnzL0JpRM5skOI0IAUGoJkIg0whoOk,13189
+tgstk-0.0.4.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+tgstk-0.0.4.dist-info/METADATA,sha256=SeqAMFZMs-XwIKCAs-Sc5Sn-4wykqtU8FPxNDGgJzZk,535
+tgstk-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tgstk-0.0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tgstk-0.0.4.dist-info/RECORD,,
