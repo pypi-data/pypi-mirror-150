@@ -1,0 +1,13 @@
+
+[dev]
+black
+flake8
+flake8-isort
+isort
+mypy
+pytest
+
+[test]
+black
+pytest
+pytest-cov
