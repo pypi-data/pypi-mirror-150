@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyfiber/pyfiber.egg-info/PKG-INFO
+pyfiber/pyfiber.egg-info/SOURCES.txt
+pyfiber/pyfiber.egg-info/dependency_links.txt
+pyfiber/pyfiber.egg-info/requires.txt
+pyfiber/pyfiber.egg-info/top_level.txt
