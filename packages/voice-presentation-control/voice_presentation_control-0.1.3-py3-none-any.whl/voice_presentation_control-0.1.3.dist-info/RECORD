@@ -1,0 +1,13 @@
+LICENSE,sha256=3g4WaZjbLVNjDjKYH9hwoBEohjbc7O3Xyu19dlpelwo,1062
+voice_presentation_control/__init__.py,sha256=La4AWDJ5b3YYKNSUFB4gsAj8iciQU5URYjc8OmwVNkQ,172
+voice_presentation_control/__main__.py,sha256=cZkOISa1NevzMqJyZ7P9yCsp5HMiuGvZmIroE98oh9o,98
+voice_presentation_control/action_matcher.py,sha256=HAaKsKhBTIncTC2RH8ALD6iHRk_4q64WJXeKSxeBI1M,481
+voice_presentation_control/cli.py,sha256=wiY00RBldn0DAqhkGutCeG_WUmAB2PRrevbYrMQQlm4,1646
+voice_presentation_control/controller.py,sha256=DhJpxDqO1d0xa_rYgytoXOtuuE-NFpLvDztGYUPUO5A,2275
+voice_presentation_control/mic.py,sha256=c6LGfFyWHYAiqPMZKpGbz8F9rxOtK8a8h8-jCGh_KIA,1452
+voice_presentation_control/recognizer.py,sha256=ce2Sjne-IJnmD6ElVy2avL57j_lB3069Z7TtqyNSu9A,526
+voice_presentation_control-0.1.3.dist-info/entry_points.txt,sha256=BYmSw870os26xTk2DGDZFTlVbpFW0Sy_eVkSiGpwwLU,64
+voice_presentation_control-0.1.3.dist-info/LICENSE,sha256=3g4WaZjbLVNjDjKYH9hwoBEohjbc7O3Xyu19dlpelwo,1062
+voice_presentation_control-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+voice_presentation_control-0.1.3.dist-info/METADATA,sha256=lzf5Z8dS6v2l8hJe9vZmbrQcCh92lqvhUMQ71r4bwM8,8353
+voice_presentation_control-0.1.3.dist-info/RECORD,,
