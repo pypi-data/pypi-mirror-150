@@ -1,0 +1,9 @@
+[console_scripts]
+gluetool=gluetool.tool:main
+gluetool-html-log=gluetool.html_log:main
+
+[gluetool.modules]
+.bash_completion=gluetool.modules.bash_completion:BashCompletion
+.dep_list=gluetool.modules.dep_list:DepList
+.yaml_pipeline=gluetool.modules.yaml_pipeline:YAMLPipeline
+
