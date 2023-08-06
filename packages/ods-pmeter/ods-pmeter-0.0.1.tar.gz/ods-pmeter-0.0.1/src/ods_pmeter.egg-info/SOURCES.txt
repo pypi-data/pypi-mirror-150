@@ -1,0 +1,23 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs/images/Screenshot 2022-03-28 at 11.14.05 AM.png
+docs/images/Screenshot 2022-03-28 at 11.14.13 AM.png
+docs/images/Screenshot 2022-03-28 at 11.15.09 AM.png
+docs/images/Screenshot 2022-03-28 at 11.15.54 AM.png
+src/ods_pmeter.egg-info/PKG-INFO
+src/ods_pmeter.egg-info/SOURCES.txt
+src/ods_pmeter.egg-info/dependency_links.txt
+src/ods_pmeter.egg-info/not-zip-safe
+src/ods_pmeter.egg-info/requires.txt
+src/ods_pmeter.egg-info/top_level.txt
+src/pmeter/constants.py
+src/pmeter/file_writer.py
+src/pmeter/pmeter_cli.py
+src/pmeter.egg-info/PKG-INFO
+src/pmeter.egg-info/SOURCES.txt
+src/pmeter.egg-info/dependency_links.txt
+src/pmeter.egg-info/not-zip-safe
+src/pmeter.egg-info/requires.txt
+src/pmeter.egg-info/top_level.txt
