@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-multiconnector
+Version: 1.0.0
+Summary: Python SQLAlchemy connector for SQL databases (sqlite, postgresql and mysql).Easy resources CRUD management.Supports multi-tenancy with multiple databases and/or multiple schemas.More infor in [project Github page](https://github.com/JoseVL92/sqlalchemy_multiconnector)
+Home-page: https://github.com/JoseVL92/sqlalchemy_multiconnector
+Author: Jose Alberto Varona Labrada
+Author-email: jovalab92@gmail.com
+License: MIT
+Download-URL: https://github.com/JoseVL92/sqlalchemy_multiconnector/archive/refs/tags/1.0.zip
+Keywords: database,ORM,sqlalchemy,SQL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+

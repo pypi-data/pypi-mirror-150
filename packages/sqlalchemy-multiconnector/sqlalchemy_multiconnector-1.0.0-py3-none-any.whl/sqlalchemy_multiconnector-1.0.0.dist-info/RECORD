@@ -1,0 +1,11 @@
+sqlalchemy_connector/__init__.py,sha256=Y8DDdn-viW3VoA1CZNqb-EMQtMiwQCn2jkv_k12hs5M,68
+sqlalchemy_connector/sqlalchemy_multiconnector.py,sha256=H4MSvMX0HTfvj69gUe2LHdL8TgUEBDCjD1F3sJ7sYhU,6591
+sqlalchemy_multiconnector/__init__.py,sha256=dtXwm5CQ5KABGuUPV-x4jG90UUwyKiDWqrvvsZXtE1Q,73
+sqlalchemy_multiconnector/sqlalchemy_multiconnector.py,sha256=q8J8EZZRBOVZOm9o7YNkOq6oTszbur9S9Lrmvo1nE9k,17212
+sqlalchemy_multiconnector-1.0.0.data/data/LICENSE.txt,sha256=sZkTXhEJl3_lyUZ_y51aFldz2-PXbMtxROFQ7_Pt2WM,1084
+sqlalchemy_multiconnector-1.0.0.data/data/README.md,sha256=c4uvad-XOkpUT103C0aH0r5Y9AnOtRWciQcDHTiLPl4,2275
+sqlalchemy_multiconnector-1.0.0.dist-info/LICENSE.txt,sha256=sZkTXhEJl3_lyUZ_y51aFldz2-PXbMtxROFQ7_Pt2WM,1084
+sqlalchemy_multiconnector-1.0.0.dist-info/METADATA,sha256=CG_CsiZG1XIciJyBmhnm3MOiP_2g_GKTsOvadWWNnHM,1050
+sqlalchemy_multiconnector-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlalchemy_multiconnector-1.0.0.dist-info/top_level.txt,sha256=LnI7VkZtJ7Xy3xuDvGTHf1KkQHqlakW7g4nctSdMkng,26
+sqlalchemy_multiconnector-1.0.0.dist-info/RECORD,,
