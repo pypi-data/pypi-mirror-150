@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+audioset_manager.egg-info/PKG-INFO
+audioset_manager.egg-info/SOURCES.txt
+audioset_manager.egg-info/dependency_links.txt
+audioset_manager.egg-info/requires.txt
+audioset_manager.egg-info/top_level.txt
+audiosetmanager/AudioSet.py
+audiosetmanager/__init__.py
+audiosetmanager/__main__.py
+audiosetmanager/constants.py
+tests/__init__.py
