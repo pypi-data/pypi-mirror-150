@@ -1,0 +1,10 @@
+requests
+psutil
+reportlab
+pillow
+
+[test]
+pytest
+pytest-watch
+flake8>=4.0.1
+tox>=3.23.1
