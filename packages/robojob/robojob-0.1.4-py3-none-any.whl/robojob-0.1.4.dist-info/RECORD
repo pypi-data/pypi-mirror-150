@@ -1,0 +1,13 @@
+robojob/__init__.py,sha256=3pAchiFBiOTKFzQtObvLLLUOUiSGKoIJLh5SJ6mHldo,113
+robojob/backend.py,sha256=empca_4BegPxjNG-utNJuJY-pbMpbeIog2RfAxVhnTU,3683
+robojob/function.py,sha256=jjnRQShW5am5OK4sJuAFmk2PKvB3BQjCXi4eTE5M5LE,476
+robojob/job_execution.py,sha256=hwxxGJY6xdXrGXufm3pYSzwHiqXMuop0O02KFUAvPMc,5703
+robojob/params.py,sha256=C3IZooMBW62BQyb73yqEtrF9JZ3QKVx0dvu2Eewycks,1022
+robojob/powershell.py,sha256=fCxGewyHoX9L5sRwGh-AKREdicQa5gNA3xyXb4__jnA,1308
+robojob/r.py,sha256=N42UW0Z1_ziauneBBDk4LRJLnM2GDmZ_ubk1za3GSjg,1221
+robojob/sql.py,sha256=AepwgEyuqtuG46dRqhVkN-8Z_XxSlGebtjp6RCEu7kM,1316
+robojob/task_execution.py,sha256=MEsfuYPKFgfO4BZ787ZsKA2TAAfEAcZ9u9mBBpkcrL4,497
+robojob-0.1.4.dist-info/METADATA,sha256=cYW_rks2J9l369oepCsmRSB2YSI1sfj4dV49EGWW8X8,106
+robojob-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+robojob-0.1.4.dist-info/top_level.txt,sha256=0n6c-LZNmSKRrvgnpOTmuvB9ve9HkeiFVv3PLvdCQp8,8
+robojob-0.1.4.dist-info/RECORD,,
