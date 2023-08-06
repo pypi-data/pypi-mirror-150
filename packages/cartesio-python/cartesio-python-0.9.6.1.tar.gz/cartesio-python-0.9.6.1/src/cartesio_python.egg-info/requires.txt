@@ -1,0 +1,9 @@
+numpy
+opencv-python
+scikit-image
+matplotlib
+numba
+simplejson
+micromind
+tifffile
+roifile
