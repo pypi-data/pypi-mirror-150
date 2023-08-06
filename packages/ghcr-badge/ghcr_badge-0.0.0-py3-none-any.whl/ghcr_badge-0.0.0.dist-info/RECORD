@@ -1,0 +1,10 @@
+ghcr_badge/__init__.py,sha256=yBvYsZQOt1-ZlEoYpgleQdfgXA4DYcQaseNC3dh9gjQ,98
+ghcr_badge/generate.py,sha256=B4nus3rjkLxMAwrPFztl1Eh01tbEy4VkT48VuR0JORs,4518
+ghcr_badge/main.py,sha256=TvpSI7NaeAw6v59Mej-hqN1m6uxqeAjnR3F6gi7YeRc,2203
+ghcr_badge/server.py,sha256=NPsZxeQmAtTAKmBmaqkwtHG-uy8-JwTWhqbzrnwSvRw,2362
+ghcr_badge-0.0.0.dist-info/LICENSE.txt,sha256=r8H2g5CSzw2VZr2CrBp33IHi2bpSxPAxRsUZhUn7e3M,1046
+ghcr_badge-0.0.0.dist-info/METADATA,sha256=nCEbLf1ezqMvDx-Ufxr3oO7naEk_YSX8kVNm4CTXldU,1478
+ghcr_badge-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ghcr_badge-0.0.0.dist-info/entry_points.txt,sha256=-Kv4hFMjhOTeYR0LfXFVt-_X_CXGt3CZYRPsF857nmo,96
+ghcr_badge-0.0.0.dist-info/top_level.txt,sha256=seTvXZLCmq32j3SN2kcTnZxNrQzCM6FATliqP-JDuqQ,11
+ghcr_badge-0.0.0.dist-info/RECORD,,
