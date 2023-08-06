@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: modelfox
+Version: 0.8.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Summary: ModelFox for Python
+Author: ModelFox
+Author-email: root@modelfox.dev
+License: MIT License
+	
+	Copyright (c) 2021 ModelFox, Inc.
+	
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+	
+Description-Content-Type: text/markdown
+Project-URL: homepage, https://modelfox.dev
+
+# ModelFox for Python
+
+- [Watch the Video](https://www.modelfox.dev)
+- [Read the Docs](https://www.modelfox.dev/docs)
+
+The ModelFox Python library makes it easy to make predictions with your ModelFox machine learning model from Python.
+
+## Usage
+
+```
+$ pip install modelfox
+```
+
+```python
+import modelfox
+
+model = modelfox.Model.from_path('./heart_disease.modelfox')
+
+input = {
+  'age': 63,
+  'gender': 'male',
+  # ...
+}
+
+output = model.predict(input)
+```
+
+For more information, [read the docs](https://www.modelfox.dev/docs).
+
+## Platform Support
+
+ModelFox for Python is currently supported on Linux, macOS, and Windows with ARM64 and AMD64 CPUs. Are you interested in another platform? [Open an issue](https://github.com/modelfoxdotdev/modelfox/issues/new) or send us an email at [help@modelfox.dev](mailto:help@modelfox.dev).
+
+## Examples
+
+The source for this package contains a number of examples in the `examples` directory. Each example has a `README.md` explaining how to run it.
+
+## Notes
+
+- ModelFox for Python requires pip 20.3 or later, which includes support for [PEP 600](https://www.python.org/dev/peps/pep-0600/). This is necessary to correctly install modelfox's native extension. If you are using an earlier python version, you may see the error "Could not find a version that satisfies the requirement modelfox" when you attempt to `pip install modelfox`. To resolve this, you should upgrade pip to version 20.3 or later.
+
