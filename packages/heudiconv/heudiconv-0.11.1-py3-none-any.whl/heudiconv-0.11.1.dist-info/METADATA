@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: heudiconv
+Version: 0.11.1
+Summary: Heuristic DICOM Converter
+Author: HeuDiConv team and contributors
+License: Apache 2.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: nibabel
+Requires-Dist: pydicom
+Requires-Dist: nipype (>=1.2.3)
+Requires-Dist: dcmstack (>=0.8)
+Requires-Dist: etelemetry
+Requires-Dist: filelock (>=3.0.12)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: all
+Requires-Dist: six ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: mock ; extra == 'all'
+Requires-Dist: tinydb ; extra == 'all'
+Requires-Dist: inotify ; extra == 'all'
+Requires-Dist: duecredit ; extra == 'all'
+Requires-Dist: datalad (>=0.13.0) ; extra == 'all'
+Provides-Extra: datalad
+Requires-Dist: datalad (>=0.13.0) ; extra == 'datalad'
+Provides-Extra: extras
+Requires-Dist: duecredit ; extra == 'extras'
+Provides-Extra: tests
+Requires-Dist: six ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: tinydb ; extra == 'tests'
+Requires-Dist: inotify ; extra == 'tests'
+
+Convert DICOM dirs based on heuristic info - HeuDiConv
+uses the dcmstack package and dcm2niix tool to convert DICOM directories or
+tarballs into collections of NIfTI files following pre-defined heuristic(s).
