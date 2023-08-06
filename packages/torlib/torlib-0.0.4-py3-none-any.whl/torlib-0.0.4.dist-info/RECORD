@@ -1,0 +1,8 @@
+torlib/__init__.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+torlib/crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torlib/crawler/github_crawler.py,sha256=cl_peY_3vYlFVz0VQoARhrmU7rlw7yuQ3hEalYqZ7JA,8146
+torlib-0.0.4.dist-info/LICENSE,sha256=zG3TzqBZ7Qis4Z1wYVa-tGGCdROEaNsswsvNTszZvi4,1072
+torlib-0.0.4.dist-info/METADATA,sha256=VWBq9IOiPnuBThhhK8WJbtm9q0ovQ3XxIO70lgvMzUE,1783
+torlib-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torlib-0.0.4.dist-info/top_level.txt,sha256=IKrU5lA8bpG7eIGy3jZKsyu3N-l7G1y1YtdHTirEguk,7
+torlib-0.0.4.dist-info/RECORD,,
