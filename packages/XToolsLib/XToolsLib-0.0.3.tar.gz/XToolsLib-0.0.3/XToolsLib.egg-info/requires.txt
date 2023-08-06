@@ -1,0 +1,4 @@
+requests
+random
+json
+requests[socks]
