@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyg-extension
+Version: 0.0.1
+Summary: Crystal extension for pytorch_geometric
+Home-page: UNKNOWN
+Author: wangchangxin
+Author-email: 986798607@qq.com
+Maintainer: wangchangxin
+License: UNKNOWN
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+PYG-Extension
+----------------------
+Welcome to PYG-Extension.
+
+PYG-Extension is an extension Python library of torch-geometrics for materials informatics.
+
+
+Quick Install
+----------------------
+
+```bash
+pip install pyg_extension
+```
+
+License
+----------------------
+MIT
+
+Contact
+----------------------
+Developer: boliqq07: 986798607@qq.com
+
+
+
+
+

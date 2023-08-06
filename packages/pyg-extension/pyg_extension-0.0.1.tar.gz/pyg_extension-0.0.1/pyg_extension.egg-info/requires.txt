@@ -1,0 +1,4 @@
+torch-geometric
+torch
+pymatgen
+ase
