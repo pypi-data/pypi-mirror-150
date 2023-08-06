@@ -1,0 +1,3 @@
+[console_scripts]
+xrdump = xrdump.__main__:main
+zarr2nc = xrdump.zarr2nc:main

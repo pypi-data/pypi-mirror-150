@@ -1,0 +1,8 @@
+xrdump/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+xrdump/__main__.py,sha256=e-rx6ME-95RSv-erSuPgtSck18I4QHG8Schqb2z0G-k,404
+xrdump/zarr2nc.py,sha256=GShRVQmULRymnIvQa6mkQ31AzXzLWWy5ZzEOiZ2llek,472
+xrdump-0.1.0.dist-info/METADATA,sha256=SOGToZs6eR74g55ABQlnwumtv8-ImMvcVw1_A3vALQU,645
+xrdump-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xrdump-0.1.0.dist-info/entry_points.txt,sha256=dPuYp8mX0lvB6Gr4jf-b29gpGPe1yXpu4tG5JdQZSvs,78
+xrdump-0.1.0.dist-info/top_level.txt,sha256=IoT9QdG343sodUTB8gTjhMr43It65HVwKtXcBBZXtC8,7
+xrdump-0.1.0.dist-info/RECORD,,
