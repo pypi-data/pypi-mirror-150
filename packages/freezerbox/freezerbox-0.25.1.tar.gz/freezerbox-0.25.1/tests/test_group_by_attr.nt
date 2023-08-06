@@ -1,0 +1,419 @@
+test_group_by:
+  -
+    id: identity
+    grouper: freezerbox.group_by_identity
+    items: []
+    expected:
+  -
+    id: identity
+    grouper: freezerbox.group_by_identity
+    items: [1]
+    expected:
+      -
+        value: 1
+        items: [1]
+  -
+    id: identity
+    grouper: freezerbox.group_by_identity
+    items: [1, 2]
+    expected:
+      -
+        value: 1
+        items: [1]
+      -
+        value: 2
+        items: [2]
+  -
+    id: identity
+    grouper: freezerbox.group_by_identity
+    items: [1, 2, 1, 2]
+    expected:
+      -
+        value: 1
+        items: [1, 1]
+      -
+        value: 2
+        items: [2, 2]
+  -
+    id: identity-unsortable
+    grouper: freezerbox.group_by_identity
+    items: [None]
+    expected:
+      -
+        value: None
+        items: [None]
+  -
+    id: identity-key
+    grouper: freezerbox.group_by_identity
+    items: ['a', 'b', 'A', 'B']
+    key: lambda x: x.upper()
+    expected:
+      -
+        value: 'A'
+        items: ['a', 'A']
+      -
+        value: 'B'
+        items: ['b', 'B']
+  -
+    id: identity-unsortable
+    grouper: freezerbox.group_by_identity
+    items: [None, 1, None, 1]
+    expected:
+      -
+        value: None
+        items: [None, None]
+      -
+        value: 1
+        items: [1, 1]
+  -
+    id: identity-unhashable
+    grouper: freezerbox.group_by_identity
+    items: [[1], [2], [1], [2]]
+    expected:
+      -
+        value: [1]
+        items: [[1], [1]]
+      -
+        value: [2]
+        items: [[2], [2]]
+
+  -
+    id: cluster
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: []
+    expected:
+  -
+    id: cluster
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: [1]
+    expected:
+      -
+        value: 1
+        items: [1]
+  -
+    id: cluster
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: 1, 2
+    expected:
+      -
+        value: approx(1.5)
+        items: [1, 2]
+  -
+    id: cluster
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: 1, 3
+    expected:
+      -
+        value: 1
+        items: [1]
+      -
+        value: 3
+        items: [3]
+  -
+    id: cluster
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: 1, 2, 3, 4
+    expected:
+      -
+        value: approx(1.5)
+        items: [1, 2]
+      -
+        value: approx(3.5)
+        items: [3, 4]
+  -
+    id: cluster-agg
+    grouper: freezerbox.group_by_cluster(max_diff=2, aggregate=min)
+    items: 1, 2, 3, 4
+    expected:
+      -
+        value: 1
+        items: [1, 2]
+      -
+        value: 3
+        items: [3, 4]
+  -
+    id: cluster-key
+    grouper: freezerbox.group_by_cluster(max_diff=2)
+    items: 'a', 'b', 'c', 'd'
+    key: lambda x: ord(x) - ord('a')
+    expected:
+      -
+        value: approx(0.5)
+        items: ['a', 'b']
+      -
+        value: approx(2.5)
+        items: ['c', 'd']
+
+test_iter_combos:
+  -
+    id: empty
+    items:
+    group_by:
+    merge_by:
+    expected:
+  -
+    id: empty
+    items:
+      - DummyItem()
+    group_by:
+    merge_by:
+    expected:
+      -
+        attrs:
+        items:
+          - DummyItem()
+  -
+    id: empty
+    items:
+    group_by:
+      a: freezerbox.group_by_identity
+    merge_by:
+    expected:
+  -
+    id: empty
+    items:
+    group_by:
+    merge_by:
+      a: list
+    expected:
+
+  -
+    id: group
+    items:
+      - DummyItem(a=1)
+    group_by:
+      a: freezerbox.group_by_identity
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: 1
+        items:
+          - DummyItem(a=1)
+  -
+    id: group
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+      a: freezerbox.group_by_identity
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: 1
+        items:
+          - DummyItem(a=1)
+      -
+        attrs:
+          a: 2
+        items:
+          - DummyItem(a=2)
+  -
+    id: group
+    items:
+      - DummyItem(a=1, b=1)
+      - DummyItem(a=1, b=2)
+    group_by:
+      a: freezerbox.group_by_identity
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: 1
+        items:
+          - DummyItem(a=1, b=1)
+          - DummyItem(a=1, b=2)
+  -
+    id: group-cluster
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+      - DummyItem(a=3)
+      - DummyItem(a=4)
+    group_by:
+      a: freezerbox.group_by_cluster(max_diff=2)
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: approx(1.5)
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+      -
+        attrs:
+          a: approx(3.5)
+        items:
+          - DummyItem(a=3)
+          - DummyItem(a=4)
+  -
+    id: group-keys
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+      a: freezerbox.group_by_identity
+    merge_by:
+    keys:
+      a: lambda x: 3
+    expected:
+      -
+        attrs:
+          a: 3
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+
+  -
+    id: merge-1
+    items:
+      - DummyItem(a=1)
+    group_by:
+    merge_by:
+      a: list
+    expected:
+      -
+        attrs:
+          a: [1]
+        items:
+          - DummyItem(a=1)
+  -
+    id: merge-2
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+    merge_by:
+      a: list
+    expected:
+      -
+        attrs:
+          a: [1, 2]
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+  -
+    id: merge-func
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+    merge_by:
+      a: min
+    expected:
+      -
+        attrs:
+          a: 1
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+  -
+    id: merge-func
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+    merge_by:
+      a: max
+    expected:
+      -
+        attrs:
+          a: 2
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+  -
+    id: merge-keys
+    items:
+      - DummyItem(a=1)
+      - DummyItem(a=2)
+    group_by:
+    merge_by:
+      a: list
+    keys:
+      a: lambda item: -item.a
+    expected:
+      -
+        attrs:
+          a: [-1, -2]
+        items:
+          - DummyItem(a=1)
+          - DummyItem(a=2)
+
+  -
+    id: group-merge
+    items:
+      - DummyItem(a=1, b=1)
+      - DummyItem(a=2, b=2)
+      - DummyItem(a=3, b=1)
+      - DummyItem(a=4, b=2)
+    group_by:
+      b: freezerbox.group_by_identity
+    merge_by:
+      a: list
+    expected:
+      -
+        attrs:
+          a: [1, 3]
+          b: 1
+        items:
+          - DummyItem(a=1, b=1)
+          - DummyItem(a=3, b=1)
+      -
+        attrs:
+          a: [2, 4]
+          b: 2
+        items:
+          - DummyItem(a=2, b=2)
+          - DummyItem(a=4, b=2)
+
+  -
+    id: attrs
+    items:
+      - DummyItem(a=1, b=1)
+      - DummyItem(a=1, b=2)
+    group_by:
+      a: freezerbox.group_by_identity
+      b: freezerbox.group_by_identity
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: 1
+          b: 1
+        items:
+          - DummyItem(a=1, b=1)
+      -
+        attrs:
+          a: 1
+          b: 2
+        items:
+          - DummyItem(a=1, b=2)
+  -
+    id: attrs
+    items:
+      - DummyItem(a=1, b=1, c=1)
+      - DummyItem(a=1, b=2, c=2)
+      - DummyItem(a=1, b=1, c=3)
+      - DummyItem(a=1, b=2, c=4)
+    group_by:
+      a: freezerbox.group_by_identity
+      b: freezerbox.group_by_identity
+    merge_by:
+    expected:
+      -
+        attrs:
+          a: 1
+          b: 1
+        items:
+          - DummyItem(a=1, b=1, c=1)
+          - DummyItem(a=1, b=1, c=3)
+      -
+        attrs:
+          a: 1
+          b: 2
+        items:
+          - DummyItem(a=1, b=2, c=2)
+          - DummyItem(a=1, b=2, c=4)
+

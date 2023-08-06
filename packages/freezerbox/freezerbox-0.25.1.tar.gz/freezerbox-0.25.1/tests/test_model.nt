@@ -1,0 +1,825 @@
+test_reagent_name:
+  -
+    kwargs:
+      {}
+    expected: ''
+
+  -
+    kwargs:
+      name: 'Dummy'
+    expected: 'Dummy'
+
+test_reagent_alt_names:
+  -
+    kwargs:
+      {}
+    expected: []
+
+  -
+    kwargs:
+      alt_names: ['Dummy']
+    expected: ['Dummy']
+
+test_reagent_date:
+  -
+    kwargs:
+      {}
+    expected: None
+  -
+    kwargs:
+      date: '2020-03-25'
+    expected: '2020-03-25'
+
+test_reagent_desc:
+  -
+    kwargs:
+      {}
+    expected: ''
+  -
+    kwargs:
+      desc: 'Dummy'
+    expected: 'Dummy'
+
+test_reagent_ready:
+  -
+    kwargs:
+      {}
+    expected: True
+  -
+    kwargs:
+      ready: False
+    expected: False
+  -
+    kwargs:
+      ready: lambda: True
+    expected: True
+  -
+    kwargs:
+      ready: lambda: False
+    expected: False
+
+test_molecule_seq:
+  -
+    id: seq
+    kwargs:
+      seq: 'AAAA'
+    expected: 'AAAA'
+  -
+    id: seq
+    kwargs:
+      seq: lambda: 'AAAA'
+    expected: 'AAAA'
+  -
+    id: maker
+    kwargs:
+      synthesis: Fields(['m'], {'seq': 'CCCC'})
+    expected: 'CCCC'
+  -
+    id: seq-maker
+    kwargs:
+      seq: 'AAAA'
+      synthesis: Fields(['m'], {'seq': 'CCCC'})
+    expected: 'AAAA'
+  -
+    id: seq-maker
+    kwargs:
+      seq: lambda: 'AAAA'
+      synthesis: Fields(['m'], {'seq': 'CCCC'})
+    expected: 'AAAA'
+  -
+    id: err
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: no sequence specified
+  -
+    id: err
+    kwargs:
+      synthesis: Fields(['m'], {})
+    error:
+      type: QueryError
+      message: no sequence specified
+
+test_molecule_length:
+  -
+    kwargs:
+      length: 20
+    expected: 20
+  -
+    kwargs:
+      length: 20
+      seq: 'AAAA'
+    expected: 20
+  -
+    kwargs:
+      seq: 'AAAA'
+    expected: 4
+  -
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: no length specified
+
+test_molecule_conc:
+  -
+    id: conc-nM
+    kwargs:
+      mw: 1e5
+      conc: Quantity(1000, 'nM')
+    expected:
+      - Quantity(1000, 'nM')
+      - Quantity(1, 'µM')
+      - Quantity(100, 'ng/µL')
+  -
+    id: conc-nM-no-mw
+    kwargs:
+      conc: Quantity(1000, 'nM')
+    expected:
+      - Quantity(1000, 'nM')
+      - Quantity(1, 'µM')
+  -
+    id: conc-nguL
+    kwargs:
+      mw: 1e5
+      conc: Quantity(1000, 'ng/µL')
+    expected:
+      - Quantity(1000, 'ng/µL')
+      - Quantity(1, 'mg/mL')
+      - Quantity(10, 'µM')
+  -
+    id: conc-nguL-no-mw
+    kwargs:
+      conc: Quantity(1000, 'ng/µL')
+    expected:
+      - Quantity(1000, 'ng/µL')
+      - Quantity(1, 'mg/mL')
+  -
+    id: synthesis
+    kwargs:
+      mw: 1e5
+      synthesis: Fields(['m'], {'conc': '1000 nM'})
+    expected:
+      - Quantity(1000, 'nM')
+      - Quantity(1, 'µM')
+      - Quantity(100, 'ng/µL')
+  -
+    id: redundant
+    kwargs:
+      mw: 1e5
+      conc: Quantity(1000, 'nM')
+      synthesis: Fields(['m'], {'conc': '500 nM'})
+    expected:
+      - Quantity(1000, 'nM')
+      - Quantity(1, 'µM')
+      - Quantity(100, 'ng/µL')
+  -
+    id: err
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: x1: no concentration specified
+  -
+    id: err
+    kwargs:
+      synthesis: Fields(['m'], {})
+    error:
+      type: QueryError
+      message: x1: no concentration specified
+
+test_molecule_volume:
+  -
+    id: kwargs
+    kwargs:
+      volume: Quantity(10, 'µL')
+    expected:
+      quantity: Quantity(10, 'µL')
+      uL: 10
+  -
+    id: synthesis
+    kwargs:
+      synthesis: Fields(['m'], {'volume': '20 µL'})
+    expected:
+      quantity: Quantity(20, 'µL')
+      uL: 20
+  -
+    id: redundant
+    kwargs:
+      volume: Quantity(10, 'µL')
+      synthesis: Fields(['m'], {'volume': '20 µL'})
+    expected:
+      quantity: Quantity(10, 'µL')
+      uL: 10
+  -
+    id: convert
+    kwargs:
+      volume: Quantity(1, 'mL')
+    expected:
+      quantity: Quantity(1, 'mL')
+      uL: 1000
+  -
+    id: err
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: x1: no volume specified
+  -
+    id: err
+    kwargs:
+      synthesis: Fields(['m'], {})
+    error:
+      type: QueryError
+      message: x1: no volume specified
+
+test_nucleic_acid_molecule:
+  -
+    id: default
+    kwargs:
+      {}
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: default
+    kwargs:
+      synthesis: Fields(['m'], {})
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'dna'
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'DNA'
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'ssdna'
+    expected:
+      molecule: 'DNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'ssDNA'
+    expected:
+      molecule: 'DNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'dsDNA'
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'dsdna'
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'rna'
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'RNA'
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'ssrna'
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'ssRNA'
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: molecule
+    kwargs:
+      molecule: 'dsrna'
+    expected:
+      molecule: 'RNA'
+      strandedness: 2
+  -
+    id: molecule
+    kwargs:
+      molecule: 'dsRNA'
+    expected:
+      molecule: 'RNA'
+      strandedness: 2
+  -
+    id: synthesis
+    kwargs:
+      synthesis: Fields(['m'], {'molecule': 'dna'})
+    expected:
+      molecule: 'DNA'
+      strandedness: 2
+  -
+    id: synthesis
+    kwargs:
+      synthesis: Fields(['m'], {'molecule': 'rna'})
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: redundant
+    kwargs:
+      molecule: 'rna'
+      synthesis: Fields(['m'], {'molecule': 'dna'})
+    expected:
+      molecule: 'RNA'
+      strandedness: 1
+  -
+    id: err
+    kwargs:
+      molecule: 'xyz'
+    error:
+      type: QueryError
+      message:
+        - unknown molecule type: 'xyz'
+        - expected: 'dna', 'ssdna', 'dsdna', 'rna', 'ssrna', 'dsrna'
+  -
+    id: err
+    kwargs:
+      synthesis: Fields(['m'], {'molecule': 'xyz'})
+    error:
+      type: QueryError
+      message:
+        - unknown molecule type: 'xyz'
+        - expected: 'dna', 'ssdna', 'dsdna', 'rna', 'ssrna', 'dsrna'
+
+test_nucleic_acid_circular:
+  -
+    kwargs:
+      {}
+    expected: False
+  -
+    kwargs:
+      circular: True
+    expected: True
+  -
+    kwargs:
+      circular: False
+    expected: False
+  -
+    kwargs:
+      circular: lambda: True
+    expected: True
+  -
+    kwargs:
+      circular: lambda: False
+    expected: False
+  -
+    kwargs:
+      synthesis: Fields(['m'], {'circular': 'y'})
+    expected: True
+  -
+    kwargs:
+      synthesis: Fields(['m'], {'circular': 'n'})
+    expected: False
+  -
+    kwargs:
+      circular: True
+      synthesis: Fields(['m'], {'circular': 'n'})
+    expected: True
+  -
+    kwargs:
+      circular: False
+      synthesis: Fields(['m'], {'circular': 'y'})
+    expected: False
+
+test_nucleic_acid_mw:
+  -
+    id: mw
+    kwargs:
+      mw: 1000
+    expected: 1000
+  -
+    id: seq
+    kwargs:
+      seq: 'ATCG'
+    expected: 2347.65
+  -
+    id: length
+    kwargs:
+      # https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-tools-and-calculators/dna-and-rna-molecular-weights-and-conversions.html
+      length: 20
+    expected: 12306
+  -
+    id: mw-seq
+    kwargs:
+      mw: 1000
+      seq: 'ATCG'
+    expected: 1000
+  -
+    id: mw-length
+    kwargs:
+      mw: 1000
+      length: 20
+    expected: 1000
+  -
+    id: seq-length
+    kwargs:
+      seq: 'ATCG'
+      length: 20
+    expected: 2347.65
+  -
+    id: mw-seq-length
+    kwargs:
+      mw: 1000
+      seq: 'ATCG'
+      length: 20
+    expected: 1000
+
+  -
+    id: err
+    kwargs:
+      seq: 'X'
+    error:
+      type: QueryError
+      message: 'X' is not a valid unambiguous letter
+  -
+    id: err
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: need sequence or length to calculate molecular weight
+
+test_plasmid_origin:
+  -
+    id: kwargs
+    kwargs:
+      origin: 'pUC'
+    expected: pUC
+  -
+    id: seq
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'pMock'
+          seq: 'ATTAC'
+          role: 'ori'
+    expected: pMock
+  -
+    id: seq-reverse-complement
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'pMock'
+          seq: 'GTAAT'
+          role: 'ori'
+    expected: pMock
+  -
+    id: seq-err-wrong-role
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'pMock'
+          seq: 'ATTAC'
+          role: 'gene'
+    error:
+      type: QueryError
+      message: p1: no origin of replication found
+  -
+    id: seq-err-missing-feat-info
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'pMock'
+          role: 'ori'
+    error:
+      type: QueryError
+      message:
+        - found feature without required key: 'seq'
+        - relevant config: unspecified
+  -
+    id: seq-err-two-oris
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'pMock1'
+          seq: 'GATTA'
+          role: 'ori'
+        -
+          name: 'pMock2'
+          seq: 'TTACA'
+          role: 'ori'
+    error:
+      type: QueryError
+      message: p1: multiple origins of replication found
+  -
+    id: err-unspecified
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: p1: no origin of replication found
+
+test_plasmid_resistance:
+  -
+    id: kwargs
+    kwargs:
+      resistance: ['AmpR']
+    expected:
+      - AmpR
+  -
+    id: seq
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'MockR'
+          seq: 'ATTAC'
+          role: 'resistance'
+    expected:
+      - MockR
+  -
+    id: seq-reverse-complement
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'MockR'
+          seq: 'GTAAT'
+          role: 'resistance'
+    expected:
+      - MockR
+  -
+    id: seq-mismatch
+    kwargs:
+      seq: 'GATACA'
+    config:
+      features:
+        -
+          name: 'MockR'
+          seq: 'GATTACA'
+          role: 'resistance'
+          identity_threshold: 0.8
+    expected:
+      - MockR
+  -
+    id: seq-mismatch
+    kwargs:
+      seq: 'GATACA'
+    config:
+      features:
+        -
+          name: 'MockR'
+          seq: 'GATTACA'
+          role: 'resistance'
+          identity_threshold: 0.9
+    error:
+      type: QueryError
+      message: p1: no resistance genes found
+  -
+    id: seq-err-wrong-role
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'Mock'
+          seq: 'ATTAC'
+          role: 'gene'
+    error:
+      type: QueryError
+      message: p1: no resistance genes found
+  -
+    id: seq-err-missing-feat-info
+    kwargs:
+      seq: 'GATTACA'
+    config:
+      features:
+        -
+          name: 'Mock'
+          role: 'origin'
+    error:
+      type: QueryError
+      message:
+        - found feature without required key: 'seq'
+        - relevant config: unspecified
+  -
+    id: err-unspecified
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: p1: no resistance genes found
+
+test_plasmid_antibiotics:
+  -
+    id: str
+    kwargs:
+      antibiotics: ['Amp']
+    expected:
+      - Amp
+  -
+    id: callable
+    kwargs:
+      antibiotics: lambda: ['Amp']
+    expected:
+      - Amp
+  -
+    id: resistance
+    kwargs:
+      resistance: ['AmpR']
+    expected:
+      - Amp
+  -
+    id: err-unspecified
+    kwargs:
+      {}
+    error:
+      type: QueryError
+      message: p1: no antibiotics specified
+
+test_oligo_tm:
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+    expected: 60
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer'
+    expected: 60
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer tm63'
+    expected: 63
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer Tm63'
+    expected: 63
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer TM63'
+    expected: 63
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer_tm63'
+    expected: 63
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer-tm63'
+    expected: 63
+  -
+    kwargs:
+      seq: 'GGTTATTGTCTCATGAGCGG'
+      name: 'primer tm=63'
+    expected: 63
+
+test_strain_plasmids:
+  -
+    id: unspecified
+    db:
+      {}
+    kwargs:
+      {}
+    expected:
+      []
+  -
+    id: given
+    db:
+      p1: Plasmid()
+    kwargs:
+      plasmids: [DB['p1']]
+    expected:
+      - DB['p1']
+  -
+    id: callable
+    db:
+      p1: Plasmid()
+    kwargs:
+      plasmids: lambda: [DB['p1']]
+    expected:
+      - DB['p1']
+
+test_strain_antibiotics:
+  -
+    id: explicit
+    db:
+      {}
+    kwargs:
+      antibiotics: ['Amp']
+    expected:
+      - Amp
+  -
+    id: callable
+    db:
+      {}
+    kwargs:
+      antibiotics: lambda: ['Amp']
+    expected:
+      - Amp
+  -
+    id: plasmids-1
+    db:
+      p1: Plasmid(antibiotics=['Amp'])
+    kwargs:
+      plasmids: [DB['p1']]
+    expected:
+      - Amp
+  -
+    id: plasmids-2
+    db:
+      p1: Plasmid(antibiotics=['Amp'])
+      p2: Plasmid(antibiotics=['Kan'])
+    kwargs:
+      plasmids: [DB['p1'], DB['p2']]
+    expected:
+      - Amp
+      - Kan
+
+test_find:
+  -
+    id: find-one
+    db:
+      x1: MockReagent()
+      x2: MockReagent()
+    tags: 'x1'
+    expected: DB['x1']
+  -
+    id: find-two
+    db:
+      x1: MockReagent()
+      x2: MockReagent()
+      x3: MockReagent()
+    tags: ['x2', 'x3']
+    expected: [DB['x2'], DB['x3']]
+  -
+    id: find-two-order
+    db:
+      x1: MockReagent()
+      x2: MockReagent()
+      x3: MockReagent()
+    tags: ['x3', 'x2']
+    expected: [DB['x3'], DB['x2']]
+  -
+    id: err-not-found
+    db:
+      x1: MockReagent()
+      x2: MockReagent()
+    tags: ['x1', 'x2', 'x3']
+    error:
+      type: QueryError
+      message:
+        - x3: not found in database
+  -
+    id: err-wrong-type
+    db:
+      x1: MockMolecule()
+      x2: MockReagent()
+    tags: ['x1', 'x2']
+    kwargs:
+      reagent_cls: MockMolecule
+    error:
+      type: QueryError
+      message:
+        - x2: wrong reagent type
+        - expected 'mock molecule', found 'mock reagent'
+

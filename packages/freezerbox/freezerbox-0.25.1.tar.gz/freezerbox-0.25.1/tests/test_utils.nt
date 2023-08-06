@@ -1,0 +1,1075 @@
+test_normalize_seq:
+  -
+    raw_seq: GATTACA
+    expected: GATTACA
+  -
+    raw_seq: gattaca
+    expected: GATTACA
+  -
+    raw_seq: /5Cy5/GATTACA
+    expected: XGATTACA
+  -
+    raw_seq: /5Cy5/GATTACA/3Puro/
+    expected: XGATTACAX
+  -
+    id: leading-space
+    raw_seq:  GATTACA
+    expected: GATTACA
+  -
+    id: trailing-space
+    raw_seq: GATTACA 
+    expected: GATTACA
+
+test_calc_sequence_identity:
+  -
+    seq:
+    ref:
+    expected: 0
+  -
+    seq: A
+    ref: A
+    expected: 1
+  -
+    seq: a
+    ref: A
+    expected: 1
+  -
+    seq: A
+    ref: T
+    expected: 0
+  -
+    seq: AG
+    ref: TG
+    expected: 1/2
+  -
+    seq: AG
+    ref: ATG
+    expected: 1
+  -
+    seq: ATG
+    ref: AG
+    expected: 2/3
+
+test_calc_sequence_identity_with_rc:
+  -
+    seq: ATCG
+    ref: ATCG
+    expected: 1
+  -
+    seq: ATCG
+    ref: CGAT
+    expected: 1
+  -
+    seq: ATCG
+    ref: xxxx
+    expected: 0
+
+test_check_tag:
+  -
+    id: match-no-config
+    tag: 'a1'
+    expected:
+      0: 'a1'
+  -
+    id: match-groups
+    db:
+      meta:
+        config:
+          tag_pattern: r'(?P<type>[a-z])(?P<id>\d+)'
+        paths:
+          tags: '/path/to/conf'
+    tag: 'a1'
+    expected:
+      0: 'a1'
+      1: 'a'
+      2: '1'
+      'type': 'a'
+      'id': '1'
+  -
+    id: no-match
+    db:
+      meta:
+        config:
+          tag_pattern: '[a-z]'
+        paths:
+          tag_pattern: '/path/to/conf'
+    tag: '1'
+    error:
+      type: ParseError
+      message:
+        - tag doesn't match expected pattern
+        - relevant config: /path/to/conf
+        - expected '1' to match '[a-z]'
+
+test_parse_tag:
+  -
+    tag_str: p1
+    expected:
+      type: p
+      id: 1
+  -
+    tag_str:
+      >  p1
+    expected:
+      type: p
+      id: 1
+  -
+    tag_str:
+      > p1 
+    expected:
+      type: p
+      id: 1
+  -
+    tag_str: f1
+    expected:
+      type: f
+      id: 1
+  -
+    tag_str: o1
+    expected:
+      type: o
+      id: 1
+  -
+    tag_str: p01
+    expected:
+      type: p
+      id: 1
+  -
+    tag_str: p10
+    expected:
+      type: p
+      id: 10
+  -
+    tag_str: p
+    error:
+      type: ParseError
+      message: not 'p'
+  -
+    tag_str: 1
+    error:
+      type: ParseError
+      message: not '1'
+  -
+    tag_str: p-1
+    error:
+      type: ParseError
+      message: not 'p-1'
+  -
+    tag_str: p1.0
+    error:
+      type: ParseError
+      message: not 'p1.0'
+  -
+    tag_str: p 1
+    error:
+      type: ParseError
+      message: not 'p 1'
+  -
+    tag_str: a1
+    error:
+      type: ParseError
+      message: not 'a1'
+
+test_parse_bool:
+  -
+    bool_str: 1
+    expected: True
+  -
+    bool_str: +
+    expected: True
+  -
+    bool_str: x
+    expected: True
+  -
+    bool_str: X
+    expected: True
+  -
+    bool_str: y
+    expected: True
+  -
+    bool_str: Y
+    expected: True
+  -
+    bool_str: yes
+    expected: True
+  -
+    bool_str: YES
+    expected: True
+  -
+    bool_str: true
+    expected: True
+  -
+    bool_str: True
+    expected: True
+
+  -
+    bool_str: 0
+    expected: False
+  -
+    bool_str: -
+    expected: False
+  -
+    bool_str:
+    expected: False
+  -
+    bool_str: n
+    expected: False
+  -
+    bool_str: N
+    expected: False
+  -
+    bool_str: no
+    expected: False
+  -
+    bool_str: NO
+    expected: False
+  -
+    bool_str: false
+    expected: False
+  -
+    bool_str: False
+    expected: False
+
+  -
+    bool_str: ?
+    error:
+      type: ParseError
+      message: can't interpret '?' as a bool
+
+test_parse_time:
+  -
+    time_str: 1s
+    parsed: Quantity(1, 's')
+    converted:
+      s: 1
+      m: 1/60
+      h: 1/3600
+  -
+    time_str: 1 sec
+    parsed: Quantity(1, 'sec')
+    converted:
+      s: 1
+      m: 1/60
+      h: 1/3600
+  -
+    time_str: 1 second
+    parsed: Quantity(1, 'second')
+    converted:
+      s: 1
+      m: 1/60
+      h: 1/3600
+  -
+    time_str: 1m30
+    parsed: Quantity(90, 's')
+    converted:
+      s: 90
+      m: 90/60
+      h: 90/3600
+  -
+    time_str: 1
+    kwargs:
+      default_unit: 's'
+    parsed: Quantity(1, 's')
+    converted:
+      s: 1
+      m: 1/60
+      h: 1/3600
+
+  -
+    time_str: 1m
+    parsed: Quantity(1, 'm')
+    converted:
+      s: 60
+      m: 1
+      h: 1/60
+  -
+    time_str: 1 min
+    parsed: Quantity(1, 'min')
+    converted:
+      s: 60
+      m: 1
+      h: 1/60
+  -
+    time_str: 1 minute
+    parsed: Quantity(1, 'minute')
+    converted:
+      s: 60
+      m: 1
+      h: 1/60
+  -
+    time_str: 1h30
+    parsed: Quantity(90, 'm')
+    converted:
+      s: 90*60
+      m: 90
+      h: 90/60
+  -
+    time_str: 1
+    kwargs:
+      default_unit: 'm'
+    parsed: Quantity(1, 'm')
+    converted:
+      s: 60
+      m: 1
+      h: 1/60
+
+  -
+    time_str: 1h
+    parsed: Quantity(1, 'h')
+    converted:
+      s: 3600
+      m: 60
+      h: 1
+  -
+    time_str: 1 hr
+    parsed: Quantity(1, 'hr')
+    converted:
+      s: 3600
+      m: 60
+      h: 1
+  -
+    time_str: 1 hour
+    parsed: Quantity(1, 'hour')
+    converted:
+      s: 3600
+      m: 60
+      h: 1
+  -
+    time_str: 1
+    kwargs:
+      default_unit: 'h'
+    parsed: Quantity(1, 'h')
+    converted:
+      s: 3600
+      m: 60
+      h: 1
+
+  -
+    time_str:
+    error:
+      type: ParseError
+      message: can't interpret '' as a time
+  -
+    time_str: 30
+    error:
+      type: ParseError
+      message: can't interpret '30' as a time
+  -
+    time_str: 1:30
+    error:
+      type: ParseError
+      message: can't interpret '1:30' as a time
+  -
+    time_str: 1 µL
+    error:
+      type: ParseError
+      message: can't interpret '1 µL' as a time, did you mean '1 s'?
+
+test_format_time_s:
+  -
+    given: 1
+    expected: 1s
+  -
+    given: 59
+    expected: 59s
+  -
+    given: 60
+    expected: 1m
+  -
+    given: 61
+    expected: 1m01
+  -
+    given: 119
+    expected: 1m59
+  -
+    given: 120
+    expected: 2m
+  -
+    given: 121
+    expected: 2m01
+
+test_format_time_m:
+  -
+    given: 1
+    expected: 1m
+  -
+    given: 59
+    expected: 59m
+  -
+    given: 60
+    expected: 1h
+  -
+    given: 61
+    expected: 1h01
+  -
+    given: 119
+    expected: 1h59
+  -
+    given: 120
+    expected: 2h
+  -
+    given: 121
+    expected: 2h01
+
+test_parse_temp:
+  -
+    temp_str: 60C
+    parsed: Quantity(60, 'C')
+    converted:
+      C: 60
+  -
+    temp_str: 60 C
+    parsed: Quantity(60, 'C')
+    converted:
+      C: 60
+  -
+    temp_str: 60°C
+    parsed: Quantity(60, '°C')
+    converted:
+      C: 60
+  -
+    temp_str: 60
+    kwargs:
+      default_unit: 'C'
+    parsed: Quantity(60, 'C')
+    converted:
+      C: 60
+  -
+    temp_str:
+    error:
+      type: ParseError
+      message: can't interpret '' as a temperature
+  -
+    temp_str: 60
+    error:
+      type: ParseError
+      message: can't interpret '60' as a temperature
+  -
+    temp_str: 60 µL
+    error:
+      type: ParseError
+      message: can't interpret '60 µL' as a temperature, did you mean '60 °C'?
+
+test_parse_volume:
+  -
+    vol_str: 1 nL
+    parsed: Q('1 nL')
+    converted:
+      uL: 1e-3
+      mL: 1e-6
+  -
+    vol_str: 1uL
+    parsed: Q('1 uL')
+    converted:
+      uL: 1
+      mL: 1e-3
+  -
+    vol_str: 1 uL
+    parsed: Q('1 uL')
+    converted:
+      uL: 1
+      mL: 1e-3
+  -
+    vol_str: 1 µL
+    parsed: Q('1 µL')
+    converted:
+      uL: 1
+      mL: 1e-3
+  -
+    vol_str: 1 mL
+    parsed: Q('1 mL')
+    converted:
+      uL: 1000
+      mL: 1
+  -
+    vol_str: 1
+    kwargs:
+      default_unit: 'mL'
+    parsed: Q('1 mL')
+    converted:
+      uL: 1000
+      mL: 1
+  -
+    vol_str:
+    error:
+      type: ParseError
+      message: can't interpret '' as a volume
+  -
+    vol_str: 1
+    error:
+      type: ParseError
+      message: can't interpret '1' as a volume
+  -
+    vol_str: 1 µg
+    error:
+      type: ParseError
+      message: can't interpret '1 µg' as a volume, did you mean '1 µL'?
+
+test_parse_mass:
+  -
+    mass_str: 1 ng
+    parsed: Q('1 ng')
+    converted:
+      ug: 1e-3
+      mg: 1e-6
+  -
+    mass_str: 1ug
+    parsed: Q('1 ug')
+    converted:
+      ug: 1
+      mg: 1e-3
+  -
+    mass_str: 1 ug
+    parsed: Q('1 ug')
+    converted:
+      ug: 1
+      mg: 1e-3
+  -
+    mass_str: 1 µg
+    parsed: Q('1 µg')
+    converted:
+      ug: 1
+      mg: 1e-3
+  -
+    mass_str: 1 mg
+    parsed: Q('1 mg')
+    converted:
+      ug: 1000
+      mg: 1
+  -
+    mass_str: 1
+    kwargs:
+      default_unit: 'mg'
+    parsed: Q('1 mg')
+    converted:
+      ug: 1000
+      mg: 1
+
+  -
+    mass_str:
+    error:
+      type: ParseError
+      message: can't interpret '' as a mass
+  -
+    mass_str: 1
+    error:
+      type: ParseError
+      message: can't interpret '1' as a mass
+  -
+    mass_str: 1 µL
+    error:
+      type: ParseError
+      message: can't interpret '1 µL' as a mass, did you mean '1 µg'?
+
+test_parse_conc:
+  -
+    conc_str: 4nM
+    mw: 1e6
+    parsed: Quantity(4, 'nM')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4 nM
+    mw: 1e6
+    parsed: Quantity(4, 'nM')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4nM
+    mw: 2e6
+    parsed: Quantity(4, 'nM')
+    converted:
+      nM: 4
+      ng/uL: 8
+  -
+    conc_str: 4 nM
+    mw: 2e6
+    parsed: Quantity(4, 'nM')
+    converted:
+      nM: 4
+      ng/uL: 8
+  -
+    conc_str: 4
+    kwargs:
+      default_unit: 'nM'
+    mw: 2e6
+    parsed: Quantity(4, 'nM')
+    converted:
+      nM: 4
+      ng/uL: 8
+  -
+    conc_str: 4uM
+    mw: 1e6
+    parsed: Quantity(4, 'uM')
+    converted:
+      nM: 4000
+      ng/uL: 4000
+  -
+    conc_str: 4 uM
+    mw: 1e6
+    parsed: Quantity(4, 'uM')
+    converted:
+      nM: 4000
+      ng/uL: 4000
+  -
+    conc_str: 4µM
+    mw: 1e6
+    parsed: Quantity(4, 'µM')
+    converted:
+      nM: 4000
+      ng/uL: 4000
+  -
+    conc_str: 4 µM
+    mw: 1e6
+    parsed: Quantity(4, 'µM')
+    converted:
+      nM: 4000
+      ng/uL: 4000
+  -
+    conc_str: 4uM
+    mw: 2e6
+    parsed: Quantity(4, 'uM')
+    converted:
+      nM: 4000
+      ng/uL: 8000
+  -
+    conc_str: 4 uM
+    mw: 2e6
+    parsed: Quantity(4, 'uM')
+    converted:
+      nM: 4000
+      ng/uL: 8000
+  -
+    conc_str: 4µM
+    mw: 2e6
+    parsed: Quantity(4, 'µM')
+    converted:
+      nM: 4000
+      ng/uL: 8000
+  -
+    conc_str: 4 µM
+    mw: 2e6
+    parsed: Quantity(4, 'µM')
+    converted:
+      nM: 4000
+      ng/uL: 8000
+  -
+    conc_str: 4
+    kwargs:
+      default_unit: 'µM'
+    mw: 2e6
+    parsed: Quantity(4, 'µM')
+    converted:
+      nM: 4000
+      ng/uL: 8000
+  -
+    conc_str: 4ng/uL
+    mw: 1e6
+    parsed: Quantity(4, 'ng/uL')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4 ng/uL
+    mw: 1e6
+    parsed: Quantity(4, 'ng/uL')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4ng/µL
+    mw: 1e6
+    parsed: Quantity(4, 'ng/µL')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4 ng/µL
+    mw: 1e6
+    parsed: Quantity(4, 'ng/µL')
+    converted:
+      nM: 4
+      ng/uL: 4
+  -
+    conc_str: 4ng/uL
+    mw: 2e6
+    parsed: Quantity(4, 'ng/uL')
+    converted:
+      nM: 2
+      ng/uL: 4
+  -
+    conc_str: 4 ng/uL
+    mw: 2e6
+    parsed: Quantity(4, 'ng/uL')
+    converted:
+      nM: 2
+      ng/uL: 4
+  -
+    conc_str: 4ng/µL
+    mw: 2e6
+    parsed: Quantity(4, 'ng/µL')
+    converted:
+      nM: 2
+      ng/uL: 4
+  -
+    conc_str: 4 ng/µL
+    mw: 2e6
+    parsed: Quantity(4, 'ng/µL')
+    converted:
+      nM: 2
+      ng/uL: 4
+  -
+    conc_str: 4
+    kwargs:
+      default_unit: 'ng/µL'
+    mw: 2e6
+    parsed: Quantity(4, 'ng/µL')
+    converted:
+      nM: 2
+      ng/uL: 4
+  -
+    conc_str:
+    mw: 1e6
+    error:
+      type: ParseError
+      message: can't interpret '' as a concentration
+  -
+    conc_str: 4
+    mw: 1e6
+    error:
+      type: ParseError
+      message: can't interpret '4' as a concentration
+  -
+    conc_str: 4 µL
+    mw: 1e6
+    error:
+      type: ParseError
+      pattern: can't interpret '4 µL' as a concentration, did you mean '4 .g/.L'\?
+
+test_parse_size:
+  -
+    size_str: 100bp
+    parsed: Quantity(100, 'bp')
+    converted:
+      bp: 100
+      kb: 0.1
+  -
+    size_str: 100 bp
+    parsed: Quantity(100, 'bp')
+    converted:
+      bp: 100
+      kb: 0.1
+  -
+    size_str: 100
+    kwargs:
+      default_unit: 'bp'
+    parsed: Quantity(100, 'bp')
+    converted:
+      bp: 100
+      kb: 0.1
+  -
+    size_str: 1kb
+    parsed: Quantity(1, 'kb')
+    converted:
+      bp: 1000
+      kb: 1
+  -
+    size_str: 1 kb
+    parsed: Quantity(1, 'kb')
+    converted:
+      bp: 1000
+      kb: 1
+  -
+    size_str: 1
+    kwargs:
+      default_unit: 'kb'
+    parsed: Quantity(1, 'kb')
+    converted:
+      bp: 1000
+      kb: 1
+  -
+    size_str: 1.5kb
+    parsed: Quantity(1.5, 'kb')
+    converted:
+      bp: 1500
+      kb: 1.5
+  -
+    size_str: 1.5 kb
+    parsed: Quantity(1.5, 'kb')
+    converted:
+      bp: 1500
+      kb: 1.5
+  -
+    size_str:
+    error:
+      type: ParseError
+      message: can't interpret '' as a size
+  -
+    size_str: 100
+    error:
+      type: ParseError
+      message: can't interpret '100' as a size
+  -
+    size_str: 100 µL
+    error:
+      type: ParseError
+      message: can't interpret '100 µL' as a size, did you mean '100 bp'?
+
+test_parse_stranded_molecule:
+  -
+    id: dsdna
+    molecule: 'dna'
+    expected: ('DNA', 2)
+  -
+    id: dsdna
+    molecule: 'DNA'
+    expected: ('DNA', 2)
+  -
+    id: dsdna
+    molecule: 'dsdna'
+    expected: ('DNA', 2)
+  -
+    id: dsdna
+    molecule: 'dsDNA'
+    expected: ('DNA', 2)
+  -
+    id: dsdna
+    molecule: ('DNA', 2)
+    expected: ('DNA', 2)
+
+  -
+    id: ssdna
+    molecule: 'ssdna'
+    expected: ('DNA', 1)
+  -
+    id: ssdna
+    molecule: 'ssDNA'
+    expected: ('DNA', 1)
+  -
+    id: ssdna
+    molecule: 'dna'
+    default_strandedness: 1
+    expected: ('DNA', 1)
+  -
+    id: ssdna
+    molecule: 'DNA'
+    default_strandedness: 1
+    expected: ('DNA', 1)
+  -
+    id: ssdna
+    molecule: ('DNA', 1)
+    expected: ('DNA', 1)
+
+  -
+    id: ssrna
+    molecule: 'rna'
+    expected: ('RNA', 1)
+  -
+    id: ssrna
+    molecule: 'RNA'
+    expected: ('RNA', 1)
+  -
+    id: ssrna
+    molecule: 'ssrna'
+    expected: ('RNA', 1)
+  -
+    id: ssrna
+    molecule: 'ssRNA'
+    expected: ('RNA', 1)
+  -
+    id: ssrna
+    molecule: ('RNA', 1)
+    expected: ('RNA', 1)
+
+  -
+    id: dsrna
+    molecule: 'dsrna'
+    expected: ('RNA', 2)
+  -
+    id: dsrna
+    molecule: 'dsRNA'
+    expected: ('RNA', 2)
+  -
+    id: dsrna
+    molecule: 'rna'
+    default_strandedness: 2
+    expected: ('RNA', 2)
+  -
+    id: dsrna
+    molecule: 'RNA'
+    default_strandedness: 2
+    expected: ('RNA', 2)
+
+  -
+    id: err
+    molecule: 'xyz'
+    error:
+      type: ParseError
+      message:
+        - unknown molecule type: 'xyz'
+        - expected: 'dna', 'ssdna', 'dsdna', 'rna', 'ssrna', 'dsrna'
+
+test_mw_from_length:
+  # https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-tools-and-calculators/dna-and-rna-molecular-weights-and-conversions.html
+  -
+    len: 20
+    molecule: 'ssRNA'
+    expected: 6569
+  -
+    len: 20
+    molecule: ('RNA', 1)
+    expected: 6569
+  -
+    len: 100
+    molecule: 'ssRNA'
+    expected: 32209
+
+  -
+    len: 20
+    molecule: 'ssDNA'
+    expected: 6153
+  -
+    len: 20
+    molecule: ('DNA', 1)
+    expected: 6153
+  -
+    len: 100
+    molecule: 'ssDNA'
+    expected: 30449
+
+  -
+    len: 20
+    molecule: 'dsDNA'
+    expected: 12306
+  -
+    len: 20
+    molecule: ('DNA', 2)
+    expected: 12306
+  -
+    len: 100
+    molecule: 'dsDNA'
+    expected: 60898
+
+test_unanimous:
+  -
+    items: []
+    error:
+      type: ValueError
+      message: empty iterable
+  -
+    items: []
+    kwargs:
+      err_empty: ZeroDivisionError
+    error:
+      type: ZeroDivisionError
+  -
+    items: []
+    kwargs:
+      default: 0
+    expected: 0
+  -
+    items: [1]
+    expected: 1
+  -
+    items: [1, 1]
+    expected: 1
+  -
+    items: [1, 2]
+    error:
+      type: ValueError
+      message: found multiple values: 1, 2
+  -
+    items: [1, 2]
+    kwargs:
+      err_multiple: lambda v1,v2: ZeroDivisionError
+    error:
+      type: ZeroDivisionError
+  -
+    items: [2, 1]
+    error:
+      type: ValueError
+      message: found multiple values: 2, 1
+  -
+    items: [2, 1]
+    kwargs:
+      err_multiple: lambda v1,v2: ZeroDivisionError
+    error:
+      type: ZeroDivisionError
+  -
+    items: [2, 2]
+    expected: 2
+
+test_join_lists:
+  -
+    given: []
+    expected: []
+  -
+    given: [[]]
+    expected: []
+  -
+    given: [[1]]
+    expected: [1]
+  -
+    given: [[1, 2]]
+    expected: [1, 2]
+  -
+    given: [[1], [2]]
+    expected: [1, 2]
+  -
+    given: [[1, 2], [3, 4]]
+    expected: [1, 2, 3, 4]
+
+test_join_dicts:
+  -
+    given: []
+    expected: {}
+  -
+    given: [{}]
+    expected: {}
+  -
+    given: [{'a': 1}]
+    expected: {'a': 1}
+  -
+    given: [{'a': 1}, {'a': 2}]
+    expected: {'a': 1}
+  -
+    given: [{'a': 1, 'b': 2}]
+    expected: {'a': 1, 'b': 2}
+  -
+    given: [{'b': 2, 'a': 1}]
+    expected: {'b': 2, 'a': 1}
+  -
+    given: [{'a': 1}, {'b': 2}]
+    expected: {'a': 1, 'b': 2}
+  -
+    given: [{'b': 2}, {'a': 1}]
+    expected: {'b': 2, 'a': 1}
+  -
+    given: [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]
+    expected: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+  -
+    given: [{'c': 3, 'd': 4}, {'a': 1, 'b': 2}]
+    expected: {'c': 3, 'd': 4, 'a': 1, 'b': 2}
+
+test_join_sets:
+  -
+    given: []
+    expected: set()
+  -
+    given: [set()]
+    expected: set()
+  -
+    given: [{1}]
+    expected: {1}
+  -
+    given: [{1, 2}]
+    expected: {1, 2}
+  -
+    given: [{1}, {2}]
+    expected: {1, 2}
+  -
+    given: [{1, 2}, {2, 3}]
+    expected: {1, 2, 3}
+
