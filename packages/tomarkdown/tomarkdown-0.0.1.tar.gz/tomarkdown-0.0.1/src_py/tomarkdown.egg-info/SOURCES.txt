@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src_py/tomarkdown/__init__.py
+src_py/tomarkdown/core.py
+src_py/tomarkdown/token.py
+src_py/tomarkdown.egg-info/PKG-INFO
+src_py/tomarkdown.egg-info/SOURCES.txt
+src_py/tomarkdown.egg-info/dependency_links.txt
+src_py/tomarkdown.egg-info/not-zip-safe
+src_py/tomarkdown.egg-info/requires.txt
+src_py/tomarkdown.egg-info/top_level.txt
