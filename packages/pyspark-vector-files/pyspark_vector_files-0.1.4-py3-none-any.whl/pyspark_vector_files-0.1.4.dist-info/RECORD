@@ -1,0 +1,9 @@
+pyspark_vector_files/__init__.py,sha256=OT5qlXyQ_PP6EV4aau0CRS0J940UYJoAgZMS9mRnsYQ,13399
+pyspark_vector_files/_files.py,sha256=2ht9DmZSpogv02ewfxHghabfOlY0AfTnoR8TpI0PlOs,6309
+pyspark_vector_files/_parallel_reader.py,sha256=0pdrZRiW2ToF1njK9u1Q9KIBNLlE249JzuJeGHKFgRQ,11149
+pyspark_vector_files/_schema.py,sha256=-TOgPFVEQ5ZJazWZ7rtnRVPl6_lAl0LTm8XpqbyDBUM,3878
+pyspark_vector_files/_types.py,sha256=7x7ugXVBuyrsDnApRSWRrv_l7cXnq8V17wls1v_lXWA,214
+pyspark_vector_files-0.1.4.dist-info/LICENSE,sha256=owGnilpNyfqdb4m1vbN7YlWglX-M4bDA2AS9HxQL25U,1096
+pyspark_vector_files-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyspark_vector_files-0.1.4.dist-info/METADATA,sha256=vFGAj7jws-g2VQz7GdG8xA53E4udx2EPTTWpX4tDKdU,4432
+pyspark_vector_files-0.1.4.dist-info/RECORD,,
