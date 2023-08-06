@@ -1,0 +1,7 @@
+GitPython
+
+[test]
+pytest
+pytest-cov
+GitPython
+requests_mock

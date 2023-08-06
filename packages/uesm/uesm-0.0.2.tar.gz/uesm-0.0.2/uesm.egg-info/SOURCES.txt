@@ -1,0 +1,13 @@
+pyproject.toml
+setup.cfg
+setup.py
+uesm/__init__.py
+uesm/__main__.py
+uesm/cmdline.py
+uesm/uepath.py
+uesm.egg-info/PKG-INFO
+uesm.egg-info/SOURCES.txt
+uesm.egg-info/dependency_links.txt
+uesm.egg-info/entry_points.txt
+uesm.egg-info/requires.txt
+uesm.egg-info/top_level.txt
