@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+NOTICE
+README.rst
+setup.cfg
+setup.py
+gridify/__init__.py
+gridify/gridify.py
+gridify/py.typed
+gridify.egg-info/PKG-INFO
+gridify.egg-info/SOURCES.txt
+gridify.egg-info/dependency_links.txt
+gridify.egg-info/not-zip-safe
+gridify.egg-info/requires.txt
+gridify.egg-info/top_level.txt
