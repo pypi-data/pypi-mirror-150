@@ -1,0 +1,16 @@
+vz_recommender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vz_recommender/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vz_recommender/models/bottom.py,sha256=UauSmUxCME4ld5w8j9RKMon8KFBsuuc2UMbEDQYEQpI,8020
+vz_recommender/models/candidate_gen.py,sha256=532eaQTq3vJ6r6WlKGppQXsK1xIuoNZPtjm1QLunbwY,3400
+vz_recommender/models/mmoe.py,sha256=_4EdeHwEK9dX3dLX-B4WzVbDp80LbDVIriYEAQS5xh8,4374
+vz_recommender/models/multitask.py,sha256=eB4BToiTh7jNJB2wlrrNnraxrTSThtEh99M2KuA4p9c,2855
+vz_recommender/models/txt.py,sha256=0JclfQpGOzbRfS-zEB_e6oYZd572w4cZHDQCz7OPqcg,9453
+vz_recommender/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vz_recommender/utils/callbacks_base.py,sha256=NJ2S0mxqrBHdA5eEm8-oYJT0XIz55Er1K5TagFSeJJs,7226
+vz_recommender/utils/loggers_base.py,sha256=nFCccTq-bCUdkrpTpdZbXnkUi3C5KkKNsX67aj3F7zI,4517
+vz_recommender/utils/utils.py,sha256=cO06KU-Lt9m0habvYqkMfa3l3cbuqK8Id99vUceMpZ4,5687
+vz_recommender-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+vz_recommender-0.0.8.dist-info/METADATA,sha256=olT1-FfT9TLIAZAvDxsYVsZLR2Jw_ic7wMY32bzgLaE,699
+vz_recommender-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vz_recommender-0.0.8.dist-info/top_level.txt,sha256=exiaYOYv6kBgyFSv-jNuxdo8dinBJwB2cSYV2zNGk7E,15
+vz_recommender-0.0.8.dist-info/RECORD,,
