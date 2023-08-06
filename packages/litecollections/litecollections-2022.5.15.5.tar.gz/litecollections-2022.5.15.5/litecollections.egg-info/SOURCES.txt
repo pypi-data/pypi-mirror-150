@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+litecollections/LiteCollection.py
+litecollections/LiteDict.py
+litecollections/__init__.py
+litecollections/loader.py
+litecollections.egg-info/PKG-INFO
+litecollections.egg-info/SOURCES.txt
+litecollections.egg-info/dependency_links.txt
+litecollections.egg-info/top_level.txt
+litecollections.egg-info/zip-safe
+litecollections/tests/__init__.py
+litecollections/tests/test_LiteDict.py
+litecollections/tests/test_loader.py
