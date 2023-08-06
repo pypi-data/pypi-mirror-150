@@ -1,0 +1,5 @@
+fastapi_scheduler/__init__.py,sha256=I3yI62zBLACMqLT6AKU8yHrHnH3N8r6KH3BEIvFdcIQ,92
+fastapi_scheduler/admin.py,sha256=gu6ioiYHALPqBj6A1Rkw7gY_FZ9Jpr2fgvvRZbZ1N-E,9439
+fastapi_scheduler-0.0.4.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+fastapi_scheduler-0.0.4.dist-info/METADATA,sha256=BbJYAAyCJi00cPxcSqiTTcGxyUt9kcQ86DCd49botEo,3166
+fastapi_scheduler-0.0.4.dist-info/RECORD,,
