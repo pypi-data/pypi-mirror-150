@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+audio2dataset/__init__.py
+audio2dataset/distributor.py
+audio2dataset/downloader.py
+audio2dataset/logger.py
+audio2dataset/main.py
+audio2dataset/reader.py
+audio2dataset/subsampler.py
+audio2dataset/writer.py
+audio2dataset.egg-info/PKG-INFO
+audio2dataset.egg-info/SOURCES.txt
+audio2dataset.egg-info/dependency_links.txt
+audio2dataset.egg-info/entry_points.txt
+audio2dataset.egg-info/requires.txt
+audio2dataset.egg-info/top_level.txt
