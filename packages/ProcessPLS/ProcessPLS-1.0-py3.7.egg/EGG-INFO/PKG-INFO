@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ProcessPLS
+Version: 1.0
+Summary: Implementation of ProcessPLS in Python
+Home-page: UNKNOWN
+Author: Sin Yong Teng
+Author-email: tsyet12@gmail.com
+License: BSD 2-Clause
+Description: # ProcessPLS
+        Implementation of ProcessPLS in Python
+        
+Keywords: Path Modelling,Chemometrics,Process Analytical Technology,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
