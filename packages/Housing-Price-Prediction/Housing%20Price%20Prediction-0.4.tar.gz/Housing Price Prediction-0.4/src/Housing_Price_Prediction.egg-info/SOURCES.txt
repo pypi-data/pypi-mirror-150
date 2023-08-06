@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/Housing_Price_Prediction.egg-info/PKG-INFO
+src/Housing_Price_Prediction.egg-info/SOURCES.txt
+src/Housing_Price_Prediction.egg-info/dependency_links.txt
+src/Housing_Price_Prediction.egg-info/top_level.txt
+src/house_pricing/__init__.py
+src/house_pricing/ingest_data.py
+src/house_pricing/logger.py
+src/house_pricing/score.py
+src/house_pricing/train.py
