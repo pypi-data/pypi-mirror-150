@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: fivesimapi
+Version: 0.1.7
+Summary: A python Api wrapper of 5sim.net
+Home-page: https://github.com/Subrata2402/fivesimapi
+Author: Subrata
+Author-email: 
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+### Installation
+```pip install fivesimapi```
+
+### Example Code
+```python
+import FiveSimApi, asyncio
+from FiveSimApi import fivesim
+
+async def main():
+    five_sim = fivesim.FiveSim(api_key)
+    data = await five_sim.get_profile()
+    print(data)
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
