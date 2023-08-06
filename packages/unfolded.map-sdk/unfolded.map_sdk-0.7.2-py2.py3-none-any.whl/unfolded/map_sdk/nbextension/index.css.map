@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../css/widget.css"],
+  "sourcesContent": [".unfolded-widget {\n    width: 100%;\n    height: 100%;\n    min-height: 400px;\n}\n.unfolded-widget iframe {\n    border: none;\n}\n"],
+  "mappings": ";AAAA;AACI;AACA;AACA;AAAA;AAEJ;AACI;AAAA;",
+  "names": []
+}
