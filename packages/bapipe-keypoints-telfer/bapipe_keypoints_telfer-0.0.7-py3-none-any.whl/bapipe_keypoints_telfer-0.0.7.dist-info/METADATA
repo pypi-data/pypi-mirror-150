@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bapipe-keypoints-telfer
+Version: 0.0.7
+Summary: Behavioural Analysis with Keypoints Data
+Home-page: https://github.com/A-Telfer/bapipe-keypoints
+Author: Andre Telfer
+Author-email: andretelfer@cmail.carleton.ca
+Project-URL: Bug Tracker, https://github.com/A-Telfer/bapipe-keypoints/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python (>=4)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: ffmpeg-python
+
+# Behavior Analysis Pipeline
+Pipeline for analyzing behavioral videos
+1. Precise normalization of videos (correct for setup differences between videos and lens warping)
+2. Customize behaviour analysis with a fast, parallelized interface. 
+3. Easily change analysis parameters such as timeslices, zone sizes, and more.
+4. Data formats that are easy to share.
+5. Works with DeepLabCut, SLEAP, and more!d.
+
+## Usage
+Most of the work to use this pipeline involves formatting data.
+
+## Demo
+Calculating total distance
+
+## View experiment results through a real-time Dashboard
+
+## Napari Zone-Drawing
