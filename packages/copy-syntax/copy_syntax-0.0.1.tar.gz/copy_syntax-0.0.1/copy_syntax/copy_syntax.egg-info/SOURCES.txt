@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+copy_syntax/copy_syntax.egg-info/PKG-INFO
+copy_syntax/copy_syntax.egg-info/SOURCES.txt
+copy_syntax/copy_syntax.egg-info/dependency_links.txt
+copy_syntax/copy_syntax.egg-info/not-zip-safe
+copy_syntax/copy_syntax.egg-info/requires.txt
+copy_syntax/copy_syntax.egg-info/top_level.txt
