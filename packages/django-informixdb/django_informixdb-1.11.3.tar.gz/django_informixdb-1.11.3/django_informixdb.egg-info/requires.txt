@@ -1,0 +1,11 @@
+django<5,>=3.2.0
+pyodbc~=4.0.21
+
+[all]
+coverage
+
+[dev]
+check-manifest
+
+[test]
+coverage
