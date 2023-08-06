@@ -1,0 +1,6 @@
+schedula[sphinx] >= 1.1.1
+sphinx-click
+scipy
+pandas
+click
+click-log

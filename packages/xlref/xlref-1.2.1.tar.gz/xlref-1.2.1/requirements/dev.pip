@@ -1,0 +1,13 @@
+-r all.pip
+-r test.pip
+
+wheel
+sphinx
+gitchangelog
+mako
+sphinx_rtd_theme
+readthedocs-sphinx-ext
+setuptools>=36.0.1
+sphinxcontrib-restbuilder
+sphinx-click
+twine
