@@ -1,0 +1,9 @@
+jax
+jaxlib
+equinox
+optax
+numpy
+matplotlib
+tqdm
+jupyter
+jupyterlab
