@@ -1,0 +1,15 @@
+nbproject/__init__.py,sha256=tTrtZt65lBEIM44mlTLmblpNpXKibN-mWVAWx8lRnUs,161
+nbproject/__main__.py,sha256=r5oaO0O_pT3Xb8sGYHta-8bdWK0DEQnZmvJ3aKTg4MQ,400
+nbproject/_header.py,sha256=QwBnn763ylngg9bpcUdmnRD0WXIm0EW-InFwIRx1CnE,3912
+nbproject/_jupyter_communicate.py,sha256=s5Noky1YIPp_RMwjCExQIl6oKeZh0B4z2jKd20HvbXc,3016
+nbproject/_logger.py,sha256=VnpkH6pwuw2Cyoqfc8OWxr23EzMHBvcbyuh4BQHIko8,185
+nbproject/_nbproject_cli.py,sha256=H2SH30kyIAWWy9mt_qkKcBzthV4grMNRC1fMUsoRCgo,1321
+nbproject/_schemas.py,sha256=vZkbmu6QS7xEGj4gPMJ5onz-TcSMLM3L003t7XX1kWs,2371
+nbproject/_utils.py,sha256=mOf5AUfLRinXXOme9Ump8YCrKBeJb889loV6SL55qcM,246
+nbproject/_version.py,sha256=HDTX5lW-bks33N_PSR3Y_bjkYufu7h99bHT-qGu5qEE,23139
+nbproject/header.py,sha256=o7wSMwrtRvy4jUZ3sJzJmbhK58EGttPtZVKh_6Ym1bo,59
+nbproject-0.0.5.dist-info/entry_points.txt,sha256=9AV3M_rcTFtKxJKUSCiecPmpaQpGuTzSYpcnVgljH-4,53
+nbproject-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbproject-0.0.5.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+nbproject-0.0.5.dist-info/METADATA,sha256=ArU941LmnpoRKc0qxfDuWM8ZcU3AJm16v8RmEM9aRuE,797
+nbproject-0.0.5.dist-info/RECORD,,
