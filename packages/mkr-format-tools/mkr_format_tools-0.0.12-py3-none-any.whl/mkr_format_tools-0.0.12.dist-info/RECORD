@@ -1,0 +1,9 @@
+mkr_format_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkr_format_tools/_version.py,sha256=1SFj-qMOaeO0fOKQaFmYhAKiRwwNda5uWKpYtIcken8,23
+mkr_format_tools/mkr_convert_fast5.py,sha256=P9Bd4xrVNjrCrQQ-d6bQkJXD5a4qaFw_0K_3e32W8UU,16790
+mkr_format_tools/mkr_inspect.py,sha256=Eh3W5iYDuZXCWbGiwHpdErZo_0vdtlsS1101ssEYYhc,6092
+mkr_format_tools-0.0.12.dist-info/METADATA,sha256=5z_D5QEM8351WH2VYxEapDXRU2igXsG_yi3ca4ZBwWY,713
+mkr_format_tools-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mkr_format_tools-0.0.12.dist-info/entry_points.txt,sha256=K2SjeuJ2qzmK_P-y5jOhYdRnNCB7JpMc9vqg91IOTyg,126
+mkr_format_tools-0.0.12.dist-info/top_level.txt,sha256=P6ZkiMWmoTpASVAnzqp6muYPes6omTxErfdezphP5cE,17
+mkr_format_tools-0.0.12.dist-info/RECORD,,
