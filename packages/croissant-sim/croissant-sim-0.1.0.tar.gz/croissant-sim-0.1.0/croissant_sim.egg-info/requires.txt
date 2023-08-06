@@ -1,0 +1,14 @@
+healpy
+jupyter
+matplotlib
+numpy
+pygdsm@ git+https://github.com/telegraphic/pygdsm.git
+pyshtools
+uvtools@ git+https://github.com/HERA-Team/uvtools.git
+
+[dev]
+black
+flake8
+mypy
+pytest
+tox
