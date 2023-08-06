@@ -1,0 +1,9 @@
+dir_to_crx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dir_to_crx/create.py,sha256=i_cQU5jzWZMI-jGs36cz3WRmCkcn1dFd-K4nq9WjXhQ,3856
+dir_to_crx/crx-packer.py,sha256=3aiq1pua2sDRnsWCLRRJOywdl1JBHMCat66A_1GQSC8,2998
+dir_to_crx/crx3_pb2.py,sha256=z110-SkG8JFo6fH2SfOnAlXZSYMx5sgockpabTIg3SM,5860
+dir_to_crx-1.0.3.dist-info/LICENSE,sha256=p8NQAcNjMsmWvIna2TqRQZ6UpEkHUE-C4UuVRX8cHG4,1075
+dir_to_crx-1.0.3.dist-info/METADATA,sha256=7tDrOn7RiHM9flElvO8tWPLHEtwNRTYAsbi7u2qNBjM,793
+dir_to_crx-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dir_to_crx-1.0.3.dist-info/top_level.txt,sha256=wPON1IK_HmfItp2i0lDxazRazMhbZ4GyO350Tg52sP0,11
+dir_to_crx-1.0.3.dist-info/RECORD,,
