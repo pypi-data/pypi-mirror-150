@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hello/__init__.py
+hello/main.py
+hello_world_vitzhdanov.egg-info/PKG-INFO
+hello_world_vitzhdanov.egg-info/SOURCES.txt
+hello_world_vitzhdanov.egg-info/dependency_links.txt
+hello_world_vitzhdanov.egg-info/top_level.txt
