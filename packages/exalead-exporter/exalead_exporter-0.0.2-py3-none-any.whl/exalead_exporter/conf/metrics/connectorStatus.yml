@@ -1,0 +1,225 @@
+---
+#
+# http://host:port/mami/connect/getConnectorsStatus
+#
+
+#    "connectorStatus": [
+#        {
+#            "class": "com.exalead.mercury.mami.connect.v10.ConnectorStatus",
+#            "classId": "com.exalead.enovia.er.connector.ERConnectorWrapper",
+#            "connectorName": "Structure_MBOM_ER",
+#            "connectorServer": "java0",
+#            "currentScan": null,
+#            "exceptionForStatus": null,
+#            "managed": true,
+#            "papiServerType": "consolidationServer",
+#            "perBuildGroupStatus": [
+#                {
+#                    "activeDocumentsCount": 0,
+#                    "buildGroup": "bg0",
+#                    "class": "com.exalead.mercury.mami.connect.v10.PerBuildGroupStatus",
+#                    "totalAdds": 0,
+#                    "totalDeletes": 0,
+#                    "totalFailedDeletes": 0,
+#                    "totalIndexedDocuments": 0,
+#                    "totalPartialUpdates": 0,
+#                    "totalReplaces": 0
+#                }
+#            ],
+#            "perBuildGroupStatusAsMap": {
+#                "bg0": {
+#                    "activeDocumentsCount": 0,
+#                    "buildGroup": "bg0",
+#                    "class": "com.exalead.mercury.mami.connect.v10.PerBuildGroupStatus",
+#                    "totalAdds": 0,
+#                    "totalDeletes": 0,
+#                    "totalFailedDeletes": 0,
+#                    "totalIndexedDocuments": 0,
+#                    "totalPartialUpdates": 0,
+#                    "totalReplaces": 0
+#                }
+#            },
+#            "perConsolidationServerStatus": [
+#                {
+#                    "class": "com.exalead.mercury.mami.connect.v10.PerConsolidationServerStatus",
+#                    "consolidationServer": "cs0",
+#                    "totalAdds": 0,
+#                    "totalConsolidatedDocuments": 7553733,
+#                    "totalDeletes": 0,
+#                    "totalFailedDeletes": 0,
+#                    "totalReplaces": 0
+#                }
+#            ],
+#            "perConsolidationServerStatusAsMap": {
+#                "cs0": {
+#                    "class": "com.exalead.mercury.mami.connect.v10.PerConsolidationServerStatus",
+#                    "consolidationServer": "cs0",
+#                    "totalAdds": 0,
+#                    "totalConsolidatedDocuments": 7553733,
+#                    "totalDeletes": 0,
+#                    "totalFailedDeletes": 0,
+#                    "totalReplaces": 0
+#                }
+#            },
+#            "perIndexUnitStatus": [],
+#            "perIndexUnitStatusAsMap": {},
+#            "perReplayServerStatus": [],
+#            "perReplayServerStatusAsMap": {},
+#            "previousScan": {
+#                "class": "com.exalead.mercury.mami.connect.v10.ConnectorStatus$PreviousScan",
+#                "previousScan": {
+#                    "aborted": false,
+#                    "class": "com.exalead.mercury.mami.connect.v10.ScanStatus",
+#                    "deletedObjects": 0,
+#                    "endTime": 1650575244250,
+#                    "exception": null,
+#                    "progress": null,
+#                    "pushedObjects": 7555130,
+#                    "result": null,
+#                    "scanRetries": 0,
+#                    "scannedObjects": 7555130,
+#                    "specificMeasures": [],
+#                    "startTime": 1650556834032,
+#                    "time": 18410218
+#                },
+#                "scanStatus": {
+#                    "aborted": false,
+#                    "class": "com.exalead.mercury.mami.connect.v10.ScanStatus",
+#                    "deletedObjects": 0,
+#                    "endTime": 1650575244250,
+#                    "exception": null,
+#                    "progress": null,
+#                    "pushedObjects": 7555130,
+#                    "result": null,
+#                    "scanRetries": 0,
+#                    "scannedObjects": 7555130,
+#                    "specificMeasures": [],
+#                    "startTime": 1650556834032,
+#                    "time": 18410218
+#                }
+#            },
+#            "reasonForStatus": null,
+#            "runtime": "java",
+#            "status": "idle"
+#        },
+
+- name: Connector Status
+  actions:
+    - name: collect elements
+      url: /connect/getConnectorsStatus
+      var_name: _root
+
+    - name: proceed connectors
+      with_items: "{{ connectorStatus }}"
+      loop_var: connector
+      actions:
+
+        - name: proceed phases
+          with_items:
+            - name: buildGroup
+              list: "{{ connector.perBuildGroupStatus }}"
+              counters:
+                - name: active_documents
+                  value: activeDocumentsCount
+                - name: added
+                  value: totalAdds
+                - name: deleted
+                  value: totalDeletes
+                - name: failed_deleted
+                  value: totalFailedDeletes
+                - name: indexed_documents
+                  value: totalIndexedDocuments
+                - name: partial_update
+                  value: totalPartialUpdates
+                - name: replaced
+                  value: totalReplaces
+
+            - name: consolidationServer
+              list: "{{ connector.perConsolidationServerStatus }}"
+              counters:
+                - name: added
+                  value: totalAdds
+                - name: total
+                  value: totalConsolidatedDocuments
+                - name: deleted
+                  value: totalDeletes
+                - name: failed_deleted
+                  value: totalFailedDeletes
+                - name: replaced
+                  value: totalReplaces
+
+
+          loop_var: phase_group
+          when:
+            - phase_group.list | length > 0
+          actions:
+            - name: set labels
+              set_fact:
+                labels:
+                  - name: connector
+                    value: "{{ connector.connectorName }}"
+                  - name: phase
+                    value: "{{ phase_group.name }}"
+
+            - name: phase group metrics
+              with_items: "{{ phase_group.list }}"
+              loop_var: phase
+              actions:
+                - name: phase metrics
+                  with_items: "{{ phase_group.counters }}"
+                  loop_var: counter
+                  metric_prefix: exalead_connectors
+                  metrics:
+                    - name: "{{ counter.name }}"
+                      help: "document count {{counter.value }}"
+                      type: gauge
+                      value: "{{ phase[ counter.value ] | default(0) }}"
+                      labels: "{{ labels }}"
+
+            - name: proceed scan info
+              when:
+               - connector.previousScan is defined and connector.previousScan is not none
+               - connector.previousScan.previousScan is mapping
+              actions:
+                - name: set labels
+                  set_fact:
+                    labels:
+                      - name: connector
+                        value: "{{ connector.connectorName }}"
+
+                - name: scan metrics
+                  loop_var: counter
+                  with_items:
+                    - name: status
+                      help: "scan status boolean (0: aborted - 1: ok)"
+                      value: "{{ 1 - (connector.previousScan.previousScan.aborded | bool2int() | default(0) ) }}"
+                    - name: duration
+                      help: "scan duration in milliseconds"
+                      value: "{{ connector.previousScan.previousScan.time | default(0) }}"
+                    - name: deleted_objects
+                      help: "number of deleted object during scan"
+                      value: "{{ connector.previousScan.previousScan.deletedObjects | default(0) }}"
+                    - name: pushed_objects
+                      help: "number of deleted object during scan"
+                      value: "{{ connector.previousScan.previousScan.pushedObjects | default(0) }}"
+                    - name: scanned_objects
+                      help: "number of scanned object during scan"
+                      value: "{{ connector.previousScan.previousScan.scannedObjects | default(0) }}"
+                    - name: retries
+                      help: "number of times the scan has retried"
+                      value: "{{ connector.previousScan.previousScan.scanRetries | default(0) }}"
+                    - name: end_timestamp
+                      help: "scan end timestamp in milliseconds"
+                      value: "{{ connector.previousScan.previousScan.endTime | default(0) }}"
+
+
+                  metric_prefix: exalead_connectors_scan
+
+                  metrics:
+                    - name: "{{ counter.name }}"
+                      help: "{{ counter.help }}"
+                      type: gauge
+                      value: "{{ counter.value }}"
+                      labels: "{{ labels }}"
+
+...

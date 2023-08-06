@@ -1,0 +1,25 @@
+
+exaleads:
+  - host: host.domain
+    port: 9398
+#      protocol: https
+    verify_ssl: false
+    timeout: 20
+#    keep_session: true # default
+#    default_labels:
+#      - name: exalead_domain
+#        value: exalead_domain.domain
+#    proxy:
+#      url: http://my.proxy.domain:port/
+#      protocol: https
+
+weblisten:
+  address: 0.0.0.0
+  port: 9271
+
+logger:
+  level: info
+  facility: syslog
+
+metrics_file: "conf/metrics/*.yml"
+
