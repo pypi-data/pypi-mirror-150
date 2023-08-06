@@ -1,0 +1,100 @@
+
+<html>
+<head>
+<title>Anjara Fanompoana</title>
+<style type="text/css">
+*{
+	margin:0;
+}
+body{
+	min-height: 100vh;
+	display:flex;
+	flex-direction:column;	
+}
+.wrap{
+
+	display: block;
+	width:480px;
+	overflow: hidden;
+	margin-left: 140px;
+}
+header{
+	text-align: center;
+	text-transform: uppercase;
+}
+footer{
+	font-size: 10
+	bottom: 0;
+	margin-top: auto;	
+	}
+#id1,#id3 {
+/*	text-align: center;*/
+	width: 220px;
+	float: left;
+	clear: left;
+}
+#id2,#id4 {
+/*	text-align: center;*/
+	width: 220px;
+	float: right;
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<p style="text-align: center;text-transform: uppercase;font-size: 14pt">Anjara Fanompoana</p>
+<p style="text-align: center;text-transform: capitalize;font-size: 10pt">Andriamatoa sy ramatoa isany</p>
+<br>
+<br>
+<%
+def modifdate(daty):
+    if "/" in daty:
+        daty=daty.replace("/","-")
+        daty="-".join((daty[6:10],daty[3:5],daty[0:2]))
+        return daty
+    if "-" in daty:
+        daty=daty.replace("-","/")
+        daty="/".join((daty[8:10],daty[5:7],daty[0:4]))
+        return daty
+%>
+<%
+ll=0
+sz=len(dd)
+%>
+%for ddl in dd:
+<%ll+=1%>
+<div id=${"id"+str(ll)}>
+%if ll==3 or ll==4:
+<br>
+%endif
+<p style="font-weight: bold;">${modifdate(ddl)}</p>
+<br>
+<!--<div class="record">-->
+    <table>
+ 			% for rows in data:
+ 				% if rows[0]==ddl:            
+ 				<tr>
+                	% for value in rows:
+                		% if value != ddl:
+                    			<td>${value}</td>
+                    	% endif
+                  % endfor
+            </tr>
+            % endif
+			% endfor
+    </table>
+    <br>
+<!--</div><!-- end record -->
+</div><!-- end idn -->
+%endfor
+</div><!-- end wrap -->
+<footer style="text-align: center;">
+SSM: Mitarika Sekoly Sabata; SST: Tatitra maneran-tany; SS5: 5 minitra Sekoly Sabata; SS10: 10
+minitra Sekoly Sabata; CUM: Mitarika Fanompoam-pivavahana; CUVK: Mamaky teny; CUVP:
+Vavaka Pastoraly; CUFN: Fanentanana Fanatitra; CUTA: Toriteny ho an ny ankizy; CUTL:
+Toriteny ho an ny lehibe; HARM: Mitarika fotoan-kariva; HARF: Fampaherezana hariva
+</footer>
+</body>
+</html>
+
