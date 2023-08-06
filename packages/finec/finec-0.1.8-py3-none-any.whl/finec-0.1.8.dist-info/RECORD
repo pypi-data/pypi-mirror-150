@@ -1,0 +1,10 @@
+finec/__init__.py,sha256=XD-ewpwGcO00HFU4C7fsVmFdt47rallKX95RNaXA5eU,28
+finec/columns.py,sha256=sgLr5S4BI9o9j2Ltxti3A8ouwsFnerN4QZhVDZ9Qs4w,1838
+finec/directory.py,sha256=raFTbDn39EHl2mFmDVVtljqNFpE-AwYR2001Rp8XNNI,115
+finec/dividend.py,sha256=N0jQuXetRRxGzeFgbQS8wia8a1-aeANrfNwpJT6XFAI,2376
+finec/moex.py,sha256=IDws-XOb-dTZ2JAdjruQml5QLKfwYfVhY14nWB-g7iY,14887
+finec/ofdata.py,sha256=M1jI0fdMu9lF_sXlkgWDmzcMc2eP4wVxyIOsrufGEGU,1217
+finec-0.1.8.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+finec-0.1.8.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+finec-0.1.8.dist-info/METADATA,sha256=PKw8jCiiVMzvVevDlMicF5-4IL650VLGbMgE7QNaxHk,3821
+finec-0.1.8.dist-info/RECORD,,
