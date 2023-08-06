@@ -1,0 +1,3 @@
+[console_scripts]
+aiee = aiee.runnable.main:main
+
