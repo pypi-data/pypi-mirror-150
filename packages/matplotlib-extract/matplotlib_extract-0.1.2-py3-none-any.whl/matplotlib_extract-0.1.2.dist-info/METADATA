@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: matplotlib-extract
+Version: 0.1.2
+Summary: Extract matplotlib plots components
+Home-page: https://github.com/RemDelaporteMathurin/matplotlib-extract
+Author: Remi Delaporte-Mathurin
+Author-email: rdelaportemathurin@gmail.com
+License: Apache Software License
+Project-URL: Source, https://github.com/RemDelaporteMathurin/matplotlib-extract
+Project-URL: Tracker, https://github.com/RemDelaporteMathurin/matplotlib-extract/issues
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.2.2)
+Provides-Extra: tests
+Requires-Dist: pytest (>=5.4.3) ; extra == 'tests'
+Requires-Dist: matplotlib (>=3.2.2) ; extra == 'tests'
+
+# matplotlib-extract
+This package is useful to create dynamic presentations where elements of a plot appear one by one. To do so, the elements are exported to seperate files.
+
+**Install with**
+
+```
+pip install matplotlib-extract
+```
+
+**Usage**
+
+```python
+
+import matplotlib.pyplot as plt
+from matplotlib_extract import extract_elements
+
+import numpy as np
+
+x = np.linspace(0, 2*np.pi)
+y1 = 2*x
+y2 = 6 + 2*np.sin(x)
+
+plt.plot(x, y1, label="line1")
+plt.plot(x, y2, label="line2")
+plt.legend()
+
+extract_elements()
+
+plt.show()
+```
+
+Running this script will create files for the lines, the axis and the legend.

@@ -1,0 +1,10 @@
+matplotlib_extract/__init__.py,sha256=yyUdwu1kwhe6-_82DcU6XnbGwhN_51IIMH9VzHz2fio,34
+matplotlib_extract/_version.py,sha256=nJw07NaAOarsjNXV62uCKxBueTVXsMnv45wa1HFr3pM,142
+matplotlib_extract/main.py,sha256=Boaakhisr8lGY0koR26vaJzoOHtyLK-t9OcX9TjU70s,1478
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_extract_elements.py,sha256=vZQyRtidRM4kdZjWbPUy-X2iOt-taBvQhMKEYpUbunw,512
+matplotlib_extract-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+matplotlib_extract-0.1.2.dist-info/METADATA,sha256=GSoVt7AhMxT0K5da-xy8DiFtEiARgr3f1qF8i5e3S4o,1751
+matplotlib_extract-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matplotlib_extract-0.1.2.dist-info/top_level.txt,sha256=H8VA90JSq2El5RrpQopPNegjPp2Gwj0JP6caNJgjyc8,25
+matplotlib_extract-0.1.2.dist-info/RECORD,,
