@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+DiscordDatabase/DiscordDatabase.py
+DiscordDatabase/__init__.py
+DiscordDatabase/common_functions.py
+DiscordDatabase/database.py
+DiscordDatabase.egg-info/PKG-INFO
+DiscordDatabase.egg-info/SOURCES.txt
+DiscordDatabase.egg-info/dependency_links.txt
+DiscordDatabase.egg-info/top_level.txt
