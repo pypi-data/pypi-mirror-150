@@ -1,0 +1,7 @@
+setup.py
+autokube.egg-info/PKG-INFO
+autokube.egg-info/SOURCES.txt
+autokube.egg-info/dependency_links.txt
+autokube.egg-info/requires.txt
+autokube.egg-info/top_level.txt
+bin/autokube

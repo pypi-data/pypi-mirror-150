@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+
+from kubernetes import client, config, utils
+from colorama import Fore, Style
+import argparse,os
+
+
+class AutoKube:
+    def __init__(self):
+        self.config = config
+        self.client = client
+        self.config.load_kube_config()
+        self.v1 = client.CoreV1Api()
+        self.utils = utils
+
+    def list_namespace(self, **kwargs):
+        """
+        Method to list the namespace available in k8s cluster.
+           :param kwargs: *
+        """
+        try:
+            namespaces_list = self.v1.list_namespace()
+            namespaces = [item.metadata.name for item in namespaces_list.items]
+            print(Fore.GREEN + f"Namespaces: - \n{', '.join(namespaces)} \n"
+                                                            + Style.RESET_ALL)
+        except Exception as e:
+            print(Fore.RED + f"Error: {e}"+ Style.RESET_ALL)
+
+    def apply_manifest(self, yaml_file: str, **kwargs):
+        """
+        Method apply manifest file in k8s cluster.
+           :param file_location: kubernetes manifest file location
+           :param kwargs: *
+        """
+        try:
+            k8s_client = self.client.ApiClient()
+            if yaml_file == ".":
+                yaml_file = [ELEM for ELEM in os.listdir() if "yaml" in ELEM or "yml" in ELEM ]
+                for yaml_f in yaml_file:
+                    self.utils.create_from_yaml(k8s_client, yaml_f)
+                    print(Fore.GREEN + f"Yaml file applied sucessfully [{yaml_f}]" +Style.RESET_ALL)
+            else:
+                self.utils.create_from_yaml(k8s_client, yaml_file)
+                print(Fore.GREEN + f"Yaml file applied sucessfully [{os.path.basename(yaml_file)}]" + Style.RESET_ALL)
+        except Exception as e:
+            print(Fore.RED + f"Error: Please provide correct path of manifest file"+ Style.RESET_ALL)
+
+def main():
+    parser = argparse.ArgumentParser()
+    kubectl_method_subparser = parser.add_subparsers(dest='kubectl_method')
+
+    # Get namespaces available in k8s cluster
+    namespace_parser = kubectl_method_subparser.add_parser("namespace",
+                                    help="Fetches the namespace information")
+
+    # Apply manifest file to k8s cluster
+    apply_manifest_parser = kubectl_method_subparser.add_parser("apply-manifest",
+                                                help="Apply manifest in k8s cluster")
+    apply_manifest_parser.add_argument("--yaml_file", type=str,
+          help="Location of the manifest yaml file" + Fore.RED + " [REQUIRED]" +
+                                   Style.RESET_ALL, required=True)
+
+    args = parser.parse_args()
+    if args.kubectl_method:
+        k8s_obj = AutoKube()
+        args_dict = vars(args)
+        if args.kubectl_method == "namespace":
+            del args_dict['kubectl_method']
+            k8s_obj.list_namespace(**args_dict)
+
+        elif args.kubectl_method == "apply-manifest":
+            del args_dict['kubectl_method']
+            k8s_obj.apply_manifest(**args_dict)
+
+
+if __name__ == '__main__':
+    main()
