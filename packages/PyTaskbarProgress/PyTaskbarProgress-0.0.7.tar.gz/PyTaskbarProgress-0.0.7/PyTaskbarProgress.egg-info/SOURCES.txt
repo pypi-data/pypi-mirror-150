@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PyTaskbar/ProgressAPI.py
+PyTaskbar/TaskbarLib.tlb
+PyTaskbar/__init__.py
+PyTaskbarProgress.egg-info/PKG-INFO
+PyTaskbarProgress.egg-info/SOURCES.txt
+PyTaskbarProgress.egg-info/dependency_links.txt
+PyTaskbarProgress.egg-info/requires.txt
+PyTaskbarProgress.egg-info/top_level.txt
