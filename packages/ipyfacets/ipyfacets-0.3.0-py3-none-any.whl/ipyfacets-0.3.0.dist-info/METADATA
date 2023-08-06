@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ipyfacets
+Version: 0.3.0
+Summary: The facets project(https://github.com/PAIR-code/facets) wrapper for jupyter
+Home-page: https://github.com/porkbeans/jupyter-facets
+Author: porkbeans
+Author-email: mizuo.taka@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: facets-overview (>=1.0,<2.0)
+Requires-Dist: ipython (>=8.3,<9.0)
+Requires-Dist: numpy (>=1.22,<2.0)
+Requires-Dist: pandas (>=1.4,<2.0)
+Project-URL: Repository, https://github.com/porkbeans/jupyter-facets
+Description-Content-Type: text/x-rst
+
+jupyter-facets
+==============
+
+Providing `facets <https://github.com/PAIR-code/facets>`_ wrapper for jupyter
+
+
+Installation
+============
+::
+
+   pip install ipyfacets
+
+Usage
+=====
+Import::
+
+    import ipyfacets as facets
+
+Facets Overview::
+
+    facets.overview({'train': df_train, 'test': df_test})
+
+Facets Dive::
+
+    facets.dive(df)
+
+Example
+=======
+See `Jupyter nbviewer <https://nbviewer.jupyter.org/github/porkbeans/jupyter-facets/blob/master/examples/simple_example.ipynb>`_
+
