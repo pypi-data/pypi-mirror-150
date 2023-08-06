@@ -1,0 +1,10 @@
+pandas
+numpy
+networkx
+cloudpickle
+woodwork
+tabulate
+pyarrow
+fastparquet
+
+[complete]
