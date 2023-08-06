@@ -1,0 +1,15 @@
+vptrade/__init__.py,sha256=ECVsaRiZdbBCdReWKcHEcdjsqA5UqnER0DowDrG_qe4,437
+vptrade/base.py,sha256=QV7M6wPjZO16csQaRjlwgkQ9Ejn9PbrIGj2eSuS_CuU,821
+vptrade/version.py,sha256=ABadmQ2jisPIB0yTB76vCP0sqlsQcg73NAd08FsoADo,228
+vptrade/indicators/__init__.py,sha256=-6pZVDxttD9SQeG5Iz5-tm_KAiPlnGoq96oXKXEtZRQ,62
+vptrade/indicators/oscillators.py,sha256=48QJb7CGJ_fHw0nZukGCgH-qta5KaUqMQXY9vip_fOg,799
+vptrade/indicators/trends.py,sha256=ZNZ7mGb3gjIQxpaaism-GefkOpAz46MaQnO2qa0SYDM,3892
+vptrade/plots/__init__.py,sha256=3bd0Y4XmoM9i1pKcG6rtuAt_ZZh0M8Xg__0btt5-bnI,34
+vptrade/plots/visualize.py,sha256=6AH4RRrXexgO6B_7McLoz99sLV2umz9kYx7fcHGOR-E,3733
+vptrade/strategies/__init__.py,sha256=rDBtk85TUw2EpygDQmWxFlKNUy5zS-N_EJ09qhRbcuU,51
+vptrade/strategies/moving_average.py,sha256=Okj4GYHAWESZ0f_bKz4YwD5vutr5g7MQkJHS7wBQhbA,1340
+vptrade-0.0.2.dist-info/LICENSE,sha256=jPIzsI9oGKbSFLy-PyvK3TvSvhGR_7cJeHMtJ3yUjYs,1081
+vptrade-0.0.2.dist-info/METADATA,sha256=9THSQ0_xgvHUJuEBLSpQuzF4zq0bA5hxccD_NO-j4XM,2445
+vptrade-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vptrade-0.0.2.dist-info/top_level.txt,sha256=9llOhgy4ZOZiOUYYWbhX0mSVJMG_FTyxlPBc4NTYBQk,8
+vptrade-0.0.2.dist-info/RECORD,,
