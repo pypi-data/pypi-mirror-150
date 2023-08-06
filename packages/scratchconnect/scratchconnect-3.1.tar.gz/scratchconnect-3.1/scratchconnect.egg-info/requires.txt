@@ -1,0 +1,9 @@
+requests
+websocket-client
+pymitter
+
+[chart]
+scChart
+
+[terminal]
+scScratchTerminal
