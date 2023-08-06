@@ -1,0 +1,15 @@
+wagtail_storages/__init__.py,sha256=YXIV2wXrpHRNcJpFckWEeuXptx103ipwDdNsFRbqNGg,91
+wagtail_storages/apps.py,sha256=VOypnBD86NC4bQN4GAqFUvwesv6Kesn_HQCKtEIsPTM,324
+wagtail_storages/backends.py,sha256=H0oM4FKd2s49F-VCQRkTu796Om9gMR-RcoNHQaqnSto,360
+wagtail_storages/factories.py,sha256=w7UfAVGvFw1ostgNVWqr2JynyDLBBtD8dZWkC8ZbyeQ,1524
+wagtail_storages/signal_handlers.py,sha256=1sKPDbV45hVDIA1dnCZcRwH1-xSjdjodXNLmvGDVnLQ,2659
+wagtail_storages/utils.py,sha256=jKWyJQ9V9MH6AWv5FGNGwC5IRb5Ui1CIH1ORmtH_Jg8,3400
+wagtail_storages/wagtail_hooks.py,sha256=CPLZ86i71W4AplVsVqS1Mw37PIw962EBOrYGFfJt5Ms,1537
+wagtail_storages/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_storages/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_storages/management/commands/fix_document_acls.py,sha256=6w2CheBNFNkWRge8pnskPppKXBcXaOBvpDhN9wOuX3A,673
+wagtail_storages-0.5rc1.dist-info/LICENSE,sha256=UNjF6uINfte4dkzmxmjtw72Z1eYt0N-7IzUMkWpBnKc,1323
+wagtail_storages-0.5rc1.dist-info/METADATA,sha256=7YAgGWE3yNGvzQUMG6rvYNz2YWgFWTdbpNTuI0uPIRo,12013
+wagtail_storages-0.5rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wagtail_storages-0.5rc1.dist-info/top_level.txt,sha256=ex4CSbGwQ1QOFWWENpYrwSdZ8xcKD7R02-NiV_xnaWg,17
+wagtail_storages-0.5rc1.dist-info/RECORD,,
