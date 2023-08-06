@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: py-vcheck
+Version: 0.0.2
+Summary: Enforce strict python versions in your code
+Home-page: https://pypi.org/project/py-vcheck
+Author: Miki Mendelson
+Author-email: lemustage@protonmail.com
+Project-URL: Bug Tracker, https://github.com/mikimn/pyvcheck/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: reST
+License-File: LICENSE
+
+# PyVCheck
+
+A simple decorator to enforce strict python versioning for your code.
+
+```python
+@version(">=3.6")
+def main():
+    print("I'm definitely a Python 3.6+ code!")
+```
+
+```bash
+$ python3.7 -V
+python 3.7.6
+
+$ python3.7 examples/py37/main.py
+I'm definitely a Python 3.6+ code!
+```
+ChangeLog
+=========
+
+0.1.0 (2022-04-09)
+------------------
+
+* Initial release.
+
