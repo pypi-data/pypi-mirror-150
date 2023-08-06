@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pyIntradel
+Version: 0.0.3
+Summary: Python interface for Intradel
+Home-page: https://github.com/thomasgermain/pyintradel.git
+Author: Thomas Germain
+Author-email: 12560542+thomasgermain@users.noreply.github.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Home Automation
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyIntradel
+
+![PyPI - License](https://img.shields.io/github/license/thomasgermain/pyIntradel)
+![PyPI](https://img.shields.io/pypi/v/pyIntradel)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyIntradel.svg)
+
+A python connector for waste collection for province of Liège. This connector is using screen scraping to collect
+following data (for the current year)
+- "Green bin" (organic waste) and "black bin" residual waste
+  - Total weight
+  - Number of collections
+  - details of all the collections
+  - chip number
+  - starting date (01/01 of the current year)
+- Recypark
+  - details of all the visits
+  - (01/01 of the current year)
+
+## Usage
+
+The `town` parameter is the name of the town, you can check it here: [towns](pyintradel/api/towns.py)
+
+### Python module
+
+```python
+import aiohttp
+from pyintradel import api
+
+async with aiohttp.ClientSession() as sess:
+    await api.get_data(sess, login, password, town)
+```
+
+### Command line
+```bash
+python3 api.py user passw town
+```
+
