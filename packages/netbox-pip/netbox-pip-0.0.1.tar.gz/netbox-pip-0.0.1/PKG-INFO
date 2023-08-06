@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: netbox-pip
+Version: 0.0.1
+Summary: netbox but on pypi
+Home-page: https://github.com/fruitloop/netbox
+Author: Roland Planitz
+Author-email: roland@planitz.at
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.8
+
+UNKNOWN
+
