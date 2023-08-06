@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sentry_strip_sensitive_data/__init__.py
+sentry_strip_sensitive_data/before_send_func_generator.py
+sentry_strip_sensitive_data.egg-info/PKG-INFO
+sentry_strip_sensitive_data.egg-info/SOURCES.txt
+sentry_strip_sensitive_data.egg-info/dependency_links.txt
+sentry_strip_sensitive_data.egg-info/top_level.txt

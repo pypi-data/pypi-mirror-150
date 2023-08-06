@@ -1,0 +1,1 @@
+sentry_strip_sensitive_data
