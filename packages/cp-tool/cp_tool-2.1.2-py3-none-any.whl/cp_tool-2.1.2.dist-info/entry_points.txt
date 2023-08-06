@@ -1,0 +1,2 @@
+[console_scripts]
+cp-tool = cpTool.__main__:main
