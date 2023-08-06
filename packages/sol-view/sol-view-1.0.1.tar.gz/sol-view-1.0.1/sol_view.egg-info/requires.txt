@@ -1,0 +1,10 @@
+PyQt5
+lmfit
+numpy
+pandas
+pydm
+pymca
+python-dateutil
+qdarkstyle
+silx
+wheel
