@@ -1,0 +1,13 @@
+keras_ocr/__init__.py,sha256=ahk1zSX-oj7WuaEl2ApELu1KVE3nOkLtjpzJeNI6VFU,161
+keras_ocr/config.py,sha256=ET1enzVgCrXYMQA-iiPzSM643Asflhm5CuE0rRIRJbE,867
+keras_ocr/data_generation.py,sha256=eI2bGZaWsVJoTFDnTau9PjV0oD3QHTBZOhhX3hSWGis,26148
+keras_ocr/datasets.py,sha256=B0rFe-LJ1nmvL8poUd-_cePboGOOk0-Hw82rx119vAc,19052
+keras_ocr/detection.py,sha256=7ewbDqSgiuGjKCxM8z2bmctQnpZrCgWLNcln7Viit8g,30332
+keras_ocr/evaluation.py,sha256=QzXLzzSnJA2PYNZrsGdVxSwEmVjYR4hcIMsLteJFD60,6354
+keras_ocr/pipeline.py,sha256=8zNmgOCGZRFbSZInTWTtnu1e4wgEPH3OFi_2htM-nTY,2722
+keras_ocr/recognition.py,sha256=NlawzVIHpneLhjjb0dxFf9piK99d0IoEj2bBT53dBpk,21180
+keras_ocr/tools.py,sha256=kJ5in7H78WWeqUpCpIhh2xFUQzvyWi-fw0sKhvRQOgo,20719
+keras_ocr-0.9.0.dist-info/LICENSE,sha256=wYHu0lSmCDmaEFnd9ctyyx8aWEGgg6qjDz5nE4U9358,1022
+keras_ocr-0.9.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+keras_ocr-0.9.0.dist-info/METADATA,sha256=kaz8fKM4ppuzrDLS_LjFo9VGlbB-DTCJVDoD-uKU8gQ,8421
+keras_ocr-0.9.0.dist-info/RECORD,,
