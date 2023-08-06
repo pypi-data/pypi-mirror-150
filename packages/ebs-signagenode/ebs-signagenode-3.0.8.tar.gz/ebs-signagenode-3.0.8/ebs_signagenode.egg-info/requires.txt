@@ -1,0 +1,8 @@
+setuptools-scm
+ebs-linuxnode-gui-kivy-core>=3.0.6
+ebs-linuxnode-gui-kivy-gallery>=2.1
+ebs-linuxnode-gui-kivy-marquee>=2.0
+ebs-linuxnode-gui-kivy-mediaplayer>=3.0.0
+ebs-linuxnode-rpi-omxplayer>=1.0
+ebs-linuxnode-bgsequence>=2.0.1
+cached_property

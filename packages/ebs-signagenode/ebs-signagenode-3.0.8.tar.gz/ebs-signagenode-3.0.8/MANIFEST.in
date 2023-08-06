@@ -1,0 +1,2 @@
+include ebs/signagenode/fonts/*.ttf
+include ebs/signagenode/fonts/noto/*.ttf
