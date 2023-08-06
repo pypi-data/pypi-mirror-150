@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rustfst-python
+Version: 0.9.1a9
+Summary: Library for constructing, combining, optimizing, and searching weighted finite-state transducers (FSTs). Re-implementation of OpenFst in Rust.
+Home-page: https://github.com/Garvys/rustfst
+Author: Alexandre Caulier, Emrick Sinitambirivoutin
+Author-email: alexandre.caulier.a@gmail.com, emrick.sinitambirivoutin@sonos.com
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://garvys.github.io/rustfst/
+Project-URL: Source, https://github.com/Garvys/rustfst
+Keywords: fst openfst graph transducer acceptor shortest-path minimize determinize wfst
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Provides-Extra: tests
+Requires-Dist: pytest (<7,>=6) ; extra == 'tests'
+
+UNKNOWN
+
