@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mitmproxy2swagger
+Version: 0.1.0
+Summary: 
+Author: alufers
+Author-email: alufers@wp.pl
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: mitmproxy (>=8.0.0,<9.0.0)
+Requires-Dist: ruamel.yaml (>=0.17.21,<0.18.0)
