@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Psychic_Soulmate_Sketch_Free.egg-info/PKG-INFO
+src/Psychic_Soulmate_Sketch_Free.egg-info/SOURCES.txt
+src/Psychic_Soulmate_Sketch_Free.egg-info/dependency_links.txt
+src/Psychic_Soulmate_Sketch_Free.egg-info/top_level.txt
