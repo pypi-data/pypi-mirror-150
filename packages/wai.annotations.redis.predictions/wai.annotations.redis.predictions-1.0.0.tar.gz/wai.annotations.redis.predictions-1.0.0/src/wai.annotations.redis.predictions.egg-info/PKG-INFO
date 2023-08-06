@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wai.annotations.redis.predictions
+Version: 1.0.0
+Summary: Inline stream processor for making predictions via a Redis backend.
+Home-page: https://github.com/waikato-ufdl/wai-annotations-redis-predictions
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Inline stream processors for making predictions via a Redis backend:
+
+* `redis-predict-ic`: broadcasts images via Redis and listens for predictions in JSON being broadcast (label/prediction pairs)
+* `redis-predict-is`: broadcasts images via Redis and listens for image predictions being broadcast (indexed or blue-channel PNG)
+* `redis-predict-od`: broadcasts images via Redis and listens for predictions in OPEX format being broadcast
+
+Changelog
+=========
+
+1.0.0 (2022-05-12)
+------------------
+
+- Initial release: redis-predict-(ic/is/od)
+
+

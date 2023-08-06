@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+redis-predict-ic = wai.annotations.redis_predictions.isp.image_classification.specifier:PredictISPSpecifier
+redis-predict-is = wai.annotations.redis_predictions.isp.image_segmentation.specifier:PredictISPSpecifier
+redis-predict-od = wai.annotations.redis_predictions.isp.object_detection.specifier:PredictISPSpecifier
