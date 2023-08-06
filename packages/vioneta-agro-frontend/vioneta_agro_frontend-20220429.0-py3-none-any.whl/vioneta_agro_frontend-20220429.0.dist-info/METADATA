@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vioneta-agro-frontend
+Version: 20220429.0
+Summary: The Vioneta Agro frontend
+Home-page: https://github.com/Vioneta/vioneta-ui
+Author: The Vioneta Authors
+Author-email: admin@vioneta.com
+License: Apache-2.0
+Platform: any
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+UNKNOWN
+
