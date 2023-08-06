@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "adviceslip"
+version = "1.0.1"
+description = "Client for the Advice Slip API"
+authors = ["cobaltgit <criterion@chitco.co.uk>"]
+license = "MPL-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.27.1"
+typer = {version = "^0.4.1", optional = true}
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+autoflake = "^1.4"
+tox = "^3.25.0"
+pytest = "^7.1.2"
+tox-pyenv-install = {git = "https://github.com/pojx/tox-pyenv-install.git"} # allow tox to detect interpreters installed via pyenv
+pre-commit = "^2.19.0"
+Sphinx = "^4.5.0"
+furo = "^2022.4.7"
+m2r2 = "^0.3.2"
+
+[tool.poetry.extras]
+cli = ["typer"]
+
+[tool.poetry.scripts]
+adviceslip = "adviceslip.cli:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

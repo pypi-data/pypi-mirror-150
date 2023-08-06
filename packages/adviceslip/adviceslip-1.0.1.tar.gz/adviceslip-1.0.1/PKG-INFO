@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adviceslip
+Version: 1.0.1
+Summary: Client for the Advice Slip API
+License: MPL-2.0
+Author: cobaltgit
+Author-email: criterion@chitco.co.uk
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: cli
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: typer (>=0.4.1,<0.5.0); extra == "cli"
