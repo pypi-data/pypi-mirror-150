@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+s2i2a.egg-info/PKG-INFO
+s2i2a.egg-info/SOURCES.txt
+s2i2a.egg-info/dependency_links.txt
+s2i2a.egg-info/entry_points.txt
+s2i2a.egg-info/top_level.txt
