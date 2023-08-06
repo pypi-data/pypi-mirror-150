@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: resu
+Version: 0.1.1
+Summary: Resume your progress in any python loop
+Author-email: Alyetama <56323389+Alyetama@users.noreply.github.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: tqdm
+Project-URL: Home, https://github.comm/Alyetama/resu
