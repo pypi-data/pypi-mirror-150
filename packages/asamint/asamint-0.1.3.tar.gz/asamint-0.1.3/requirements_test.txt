@@ -1,0 +1,9 @@
+pybind11
+asammdf
+pyxcp
+pya2ldb
+objutils
+babel
+lz4
+sortedcontainers
+
