@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: netbox-pip
+Version: 0.0.3
+Summary: netbox but on pypi
+Home-page: https://github.com/fruitloop/netbox
+Author: Roland Planitz
+Author-email: roland@planitz.at
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.8
+Requires-Dist: Django
+Requires-Dist: django-cors-headers
+Requires-Dist: django-debug-toolbar
+Requires-Dist: django-filter
+Requires-Dist: django-graphiql-debug-toolbar
+Requires-Dist: django-mptt
+Requires-Dist: django-pglocks
+Requires-Dist: django-prometheus
+Requires-Dist: django-redis
+Requires-Dist: django-rq
+Requires-Dist: django-tables2
+Requires-Dist: django-taggit
+Requires-Dist: django-timezone-field
+Requires-Dist: djangorestframework
+Requires-Dist: drf-yasg[validation]
+Requires-Dist: graphene-django
+Requires-Dist: gunicorn
+Requires-Dist: Jinja2
+Requires-Dist: Markdown
+Requires-Dist: markdown-include
+Requires-Dist: mkdocs-material
+Requires-Dist: mkdocstrings[python-legacy]
+Requires-Dist: netaddr
+Requires-Dist: Pillow
+Requires-Dist: psycopg2-binary
+Requires-Dist: PyYAML
+Requires-Dist: social-auth-app-django
+Requires-Dist: social-auth-core
+Requires-Dist: svgwrite
+Requires-Dist: tablib
+Requires-Dist: tzdata
+Requires-Dist: jsonschema
+
+UNKNOWN
+
