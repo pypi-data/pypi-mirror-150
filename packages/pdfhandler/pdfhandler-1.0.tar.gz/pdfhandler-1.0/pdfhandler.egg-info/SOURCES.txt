@@ -1,0 +1,6 @@
+README.md
+setup.py
+pdfhandler.egg-info/PKG-INFO
+pdfhandler.egg-info/SOURCES.txt
+pdfhandler.egg-info/dependency_links.txt
+pdfhandler.egg-info/top_level.txt
