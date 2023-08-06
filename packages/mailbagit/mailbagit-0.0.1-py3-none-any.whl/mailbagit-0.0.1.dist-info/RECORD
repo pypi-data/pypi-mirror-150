@@ -1,0 +1,11 @@
+mailbag/__init__.py,sha256=bbj2d2WPh8-PMneXHBhiZf4C1FDntwPkOQSf5-mTww8,684
+mailbag/emailModel.py,sha256=kr-tRYLKuu3KLyVoRLRXw-LzLhvnP1UbnhAl6YaKX2w,507
+mailbag/parser.py,sha256=Tud_e1H1M580ujaUVptphQZSWoCfL0sA7ohnkhSy2n8,1800
+mailbag/parsers/example.py,sha256=-K_v14v56-sGGLh-R0xpmOqpAss-kKX5hzH_-NVQwyY,283
+mailbag/parsers/mbox.py,sha256=iRJcgy2zXclNHBnKHyVOI2Wi-CIJ0ut3rj0UGVGKQAQ,1401
+mailbagit-0.0.1.dist-info/LICENSE,sha256=tI16B1xRriX0_Pbex6TrvbHNDTQShPX7bxVr7thYbqM,1145
+mailbagit-0.0.1.dist-info/METADATA,sha256=NjmyNkV-nUsDwoIQDPcCoQ-SbCUm7LFolyXKEpTr-xg,679
+mailbagit-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mailbagit-0.0.1.dist-info/entry_points.txt,sha256=6LRAkqjOUkzBumCSAaIvlcexf6SdAOkTfLDfgK0hhmE,74
+mailbagit-0.0.1.dist-info/top_level.txt,sha256=QkPiLgRBQKzgX60jQsbXH40qNSTN9-r1ZhXfKuct1x4,8
+mailbagit-0.0.1.dist-info/RECORD,,

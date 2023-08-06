@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mailbagit
+Version: 0.0.1
+Summary: A tool for preserving email with multiple masters.
+Home-page: https://github.com/UAlbanyArchives/mailbag
+Author: Gregory Wiedeman
+Author-email: gwiedeman@albany.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bagit (<2,>=1.8.1)
+Requires-Dist: gooey (<2,>=1.0.8.1)
+Requires-Dist: jsonmodels (<=2.5.0,>=2.2)
+
+# mailbagit
+A tool for creating and managing Mailbags, a package for preserving email with multiple masters
