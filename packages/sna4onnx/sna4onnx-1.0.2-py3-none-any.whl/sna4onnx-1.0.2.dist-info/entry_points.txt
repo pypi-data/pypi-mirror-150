@@ -1,0 +1,3 @@
+[console_scripts]
+sna4onnx = sna4onnx:main
+
