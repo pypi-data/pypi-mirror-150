@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cholespy
+Version: 0.1.0
+Summary: A self-contained sparse Cholesky solver, compatible with CPU and GPU tensor frameworks.
+Author: Baptiste Nicolet
+License: BSD
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
