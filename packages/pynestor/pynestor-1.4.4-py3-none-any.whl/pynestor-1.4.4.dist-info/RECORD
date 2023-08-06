@@ -1,0 +1,12 @@
+pynestor/__init__.py,sha256=K4iiJjfK4P70hxTQyNFBOB-otI3WLGA0Og4iGcYhPr8,23
+pynestor/__main__.py,sha256=T03zjo1wdC-kryvtqzMhtm9f3_tHNMVQnFyUINHcmdo,2603
+pynestor/connect_kube.py,sha256=Fe9_n08K44OYmpbDrhFiz-_1uH-4TLDAHYeVbdjIuhw,473
+pynestor/default-preview-nestor-cfg.yml,sha256=42n6JRvhAy0avsdd0IqorjCGu1alP06YchEgGurS56Y,574
+pynestor/preview_odoo_nestor.py,sha256=UdVBEgijHgPgJDUos-RRjgA3aSD_jge1zlHhynrScec,16740
+pynestor/pynestor.py,sha256=1h7LpQ1H2zgifG-igXkDK_5XXDZ9hFTI7FC7Z7omUSI,19564
+pynestor/script_move_to_s3.py,sha256=w32-cODFCbS0sSqwGVgU5Hm7isX7geWt7m34KH7Yj1k,1889
+pynestor/tester.py,sha256=I6xynNJeNuOPSia1sbWeFCNnNRs0-u3_Er2bEnQCfhA,270
+pynestor-1.4.4.dist-info/METADATA,sha256=3owbyipR0xa9DSrVoq-FC0YOiUTfED_n_GKod3MQSEY,631
+pynestor-1.4.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pynestor-1.4.4.dist-info/top_level.txt,sha256=c3Sf6U_rZN7TopfrgGnyrLsl36IIvVxoh5KYZoxjzd0,9
+pynestor-1.4.4.dist-info/RECORD,,
