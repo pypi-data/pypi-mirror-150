@@ -1,0 +1,10 @@
+atakama/__init__.py,sha256=hkgfT-wstn13HnMStn6NhUU_oaOofXiakgjWRVTSIjQ,321
+atakama/packager.py,sha256=pRXfnfTLdB0Y7BDRKcf33HkdBGt1GLFvmwjTr6ydnhU,8650
+atakama/plugin_base.py,sha256=ZxstAg0oVw_lS9qD_tJHljqMIdwlxrg0Y0ZV-as6_rM,4419
+atakama/rule_engine.py,sha256=GGYqw7evLK-w7arfW061lBXnh8ub6uE5b2X2oZxTA8E,12121
+atakama-1.8.0.dist-info/LICENSE,sha256=EvXIFysD8ggsRkBBjapSnVcMHmo4OfaTIHDLQFb-8W4,8024
+atakama-1.8.0.dist-info/METADATA,sha256=QprEHHj8ZEj1_oIO4rxaoCcAZsl4RJPGJ_1v8BNOgoo,2397
+atakama-1.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+atakama-1.8.0.dist-info/entry_points.txt,sha256=XRKkU9fMAonIp5k6iMx3Ax5ryUci8AxeHDyJXHPBpBg,54
+atakama-1.8.0.dist-info/top_level.txt,sha256=JkmOMUdgYkU9-n_zqEub2pNulb2d83Y3PyvlBys6GLQ,8
+atakama-1.8.0.dist-info/RECORD,,
