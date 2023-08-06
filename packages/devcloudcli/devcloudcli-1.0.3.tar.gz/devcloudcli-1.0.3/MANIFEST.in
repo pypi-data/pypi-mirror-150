@@ -1,0 +1,6 @@
+include dc_cli/src/scripts/system-tools/vim/*.sh
+include dc_cli/src/scripts/system-tools/vnc/*.sh
+include dc_cli/src/scripts/system-tools/ssh/*.sh
+include dc_cli/src/scripts/k8s-tools/microk8s/*.sh
+include dc_cli/src/scripts/k8s-tools/minikube/*.sh
+include dc_cli/src/scripts/k8s-tools/kind/*.sh
