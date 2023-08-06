@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+Analytis_Topological_Materials_Classifier.egg-info/PKG-INFO
+Analytis_Topological_Materials_Classifier.egg-info/SOURCES.txt
+Analytis_Topological_Materials_Classifier.egg-info/dependency_links.txt
+Analytis_Topological_Materials_Classifier.egg-info/top_level.txt
