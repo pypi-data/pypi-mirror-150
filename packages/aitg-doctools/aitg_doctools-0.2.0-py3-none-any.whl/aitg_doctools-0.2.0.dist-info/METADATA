@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aitg-doctools
+Version: 0.2.0
+Summary: a library for cleaning and chunking documents
+Author: redthing1
+Author-email: redthing1@alt.icu
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: sacremoses (>=0.0.45,<0.0.46)
+Requires-Dist: spacy (>=3.1.2,<4.0.0)
