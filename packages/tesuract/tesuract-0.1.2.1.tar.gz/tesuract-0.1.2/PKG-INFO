@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tesuract
+Version: 0.1.2
+Summary: Tensor surrogate construction methods
+Home-page: https://github.com/kennychowdhary/tesuract
+Author: Kenny Chowdhary
+Author-email: kchowdh@sandia.gov
+License: BSD3
+Description: UQ and ML tools for surrogate construction
+Platform: UNKNOWN
