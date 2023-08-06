@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sq-test
+Version: 0.0.4
+Summary: a ui tool
+Home-page: UNKNOWN
+Author: sq
+Author-email: sq@qq.com
+License: UNKNOWN
+Description: 这是一个UI框架实现关键字驱动
+        实现Excel管理用例
+        支持关键字browser、name、goto、input、click、save_text、save_texts、assert关键字
+        支持allure报告
+        实现用例步骤实时截图
+        实现用例步骤实时日志
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
