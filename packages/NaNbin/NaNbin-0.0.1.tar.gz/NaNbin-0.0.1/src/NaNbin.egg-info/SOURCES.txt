@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/bin_formats.py
+src/pastebin.py
+src/NaNbin.egg-info/PKG-INFO
+src/NaNbin.egg-info/SOURCES.txt
+src/NaNbin.egg-info/dependency_links.txt
+src/NaNbin.egg-info/requires.txt
+src/NaNbin.egg-info/top_level.txt
