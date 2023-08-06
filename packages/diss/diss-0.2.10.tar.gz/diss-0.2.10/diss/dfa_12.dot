@@ -1,0 +1,16 @@
+digraph G {
+0 [label="", shape=point];
+0 -> 1;
+1 [label="0\n---\nTrue"];
+1 -> 1  [label=x];
+1 -> 2  [label=z];
+1 -> 1  [label=y];
+2 [label="1\n---\nFalse"];
+2 -> 3  [label=x];
+2 -> 2  [label=z];
+2 -> 2  [label=y];
+3 [label="2\n---\nTrue"];
+3 -> 3  [label=x];
+3 -> 3  [label=z];
+3 -> 3  [label=y];
+}
