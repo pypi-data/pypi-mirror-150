@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+pyduct/__init__.py
+pyduct/_nbdev.py
+pyduct/pipes.py
+pyduct.egg-info/PKG-INFO
+pyduct.egg-info/SOURCES.txt
+pyduct.egg-info/dependency_links.txt
+pyduct.egg-info/not-zip-safe
+pyduct.egg-info/requires.txt
+pyduct.egg-info/top_level.txt
