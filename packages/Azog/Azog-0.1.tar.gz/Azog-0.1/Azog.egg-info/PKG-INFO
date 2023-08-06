@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Azog
+Version: 0.1
+Author: bitex47
+Author-email: xyjy5247@gmail.com
+Requires-Python: >=3.6
+
+## 一个获取linux服务器信息的工具 
