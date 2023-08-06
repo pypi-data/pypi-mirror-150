@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+Kyros/ExecTime.py
+Kyros/ThreeDeeify.py
+Kyros/__init__.py
+Kyros/main.py
+Kyros.egg-info/PKG-INFO
+Kyros.egg-info/SOURCES.txt
+Kyros.egg-info/dependency_links.txt
+Kyros.egg-info/requires.txt
+Kyros.egg-info/top_level.txt
