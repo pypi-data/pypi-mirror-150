@@ -1,0 +1,11 @@
+memory_forward/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memory_forward/cli.py,sha256=CevL3hqhzd5hgfOg51rPqh0us-og2UaxTSPW-9KoRJ4,206
+memory_forward/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memory_forward/app/goodbye.py,sha256=fddqMWtM4l9VBN6fo99eALMEaXtK8hYyjoyjOWDR4J8,98
+memory_forward/app/hello.py,sha256=D5XgtB3A7hd5t1TlzIcS3wJAv-TRyKf1bLc9okREwPM,93
+memory_forward-0.0.1a9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+memory_forward-0.0.1a9.dist-info/METADATA,sha256=k69J4hVZFVWk2Ma8K2ubdZT7ZUyOcmGGIh9VCbcxxBw,613
+memory_forward-0.0.1a9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memory_forward-0.0.1a9.dist-info/entry_points.txt,sha256=3i19V9c5h5OdDiXti7D0c6UjW5JODY0Da57XpkurRds,59
+memory_forward-0.0.1a9.dist-info/top_level.txt,sha256=WD3GjhbxMhouUpmlde8uKefvBAj2ljk9x-AFDXmHrVI,15
+memory_forward-0.0.1a9.dist-info/RECORD,,

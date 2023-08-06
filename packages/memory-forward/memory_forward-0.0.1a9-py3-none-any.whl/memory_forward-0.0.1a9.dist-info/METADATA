@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: memory-forward
+Version: 0.0.1a9
+Summary: A CLI tool for batch editing files
+Author: Justin Robertson
+Author-email: justin.robertson@auctane.com
+Keywords: python,memory-forward
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer (==0.4.1)
+
+# Memory Forward
+This is a CLI for batch editing files
