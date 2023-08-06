@@ -1,0 +1,16 @@
+thousandwords/__init__.py,sha256=27YY3zFpeaDh6JoC40AqkjBrn68SqFlsWZzjZtw5jwU,22
+thousandwords/auth.py,sha256=Xxd7hmP9NbvmSh9mp4jrSK24mlCepdR62RNea-Oz16o,7267
+thousandwords/capture.py,sha256=6UJHHwRT9SZP0AzBWJH9EskAoM796W3e_TC0XXrHL9c,755
+thousandwords/cli.py,sha256=MA5dlhi-BsCNCLLt6UEIzxjIWtlMZvIhAs8vVisOUTE,4400
+thousandwords/client.py,sha256=cfFIc5Kc_-o6OnkjrDKLAojD8utQM2wFmj5yerQle4g,3412
+thousandwords/config.py,sha256=oXFR0SH58HJAlTSi163Npq_5tfu08_3ELhEkkd3Y1_o,5720
+thousandwords/credentials.py,sha256=sDntoO5o-UM6kYPNQMJJhX_kxypXfznRCfp92uRi5cY,2388
+thousandwords/lint.py,sha256=ZS4CVGiYSZp4arCJfm8zlo6RVxe-maCo_jkugf0XbcM,837
+thousandwords/share.py,sha256=pd8lW1avWq9S49vfCS08JBYRHlclQ6vEHO5wy5XSLmo,3660
+thousandwords/snapshot.py,sha256=36k4Kb8ONM3UirOEthrxHTNdj9lIBcTY-yMOxVkF2KA,349
+thousandwords/status.py,sha256=i9n4ilrG29QLgIdVmeudrV6nfyaW-tNSzK3HNs98DxQ,1535
+thousandwords-0.8.0.dist-info/entry_points.txt,sha256=m0WLWMeYNQAWT-ibaSgOIO-h_mKZ0-U3-lqTNC-95MI,56
+thousandwords-0.8.0.dist-info/LICENSE,sha256=jvR5gXEPIcoInjt05gs6i3QFWDgIDNi4vUsUdWfLoNk,179
+thousandwords-0.8.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+thousandwords-0.8.0.dist-info/METADATA,sha256=Jj4Yyy-SvT0gHjl0i5hgT2GMgKahhbTl_FtziVW1BDc,1233
+thousandwords-0.8.0.dist-info/RECORD,,
