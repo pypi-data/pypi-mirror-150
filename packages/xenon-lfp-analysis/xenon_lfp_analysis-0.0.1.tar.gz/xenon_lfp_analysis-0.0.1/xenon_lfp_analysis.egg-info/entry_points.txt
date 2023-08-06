@@ -1,0 +1,4 @@
+[console_scripts]
+convert_utaharray = xenon_lfp_analysis.convert_utaharray:run
+downsample_brw = xenon_lfp_analysis.downsample_brw:run
+run_lfp_analysis = xenon_lfp_analysis.run_lfp_analysis:main
