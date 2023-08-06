@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+ProjetoNotebook/Analista.py
+ProjetoNotebook/Gerente.py
+ProjetoNotebook/ProcessoAutomatizado.py
+ProjetoNotebook/__init__.py
+ProjetoNotebook.egg-info/PKG-INFO
+ProjetoNotebook.egg-info/SOURCES.txt
+ProjetoNotebook.egg-info/dependency_links.txt
+ProjetoNotebook.egg-info/entry_points.txt
+ProjetoNotebook.egg-info/requires.txt
+ProjetoNotebook.egg-info/top_level.txt
+ProjetoNotebook/Dados/estudantes-pucsp.tsv
+ProjetoNotebook/Dados/Processamentos_Feitos/colunas_p.csv
+ProjetoNotebook/Dados/Processamentos_Feitos/notas_df.csv
