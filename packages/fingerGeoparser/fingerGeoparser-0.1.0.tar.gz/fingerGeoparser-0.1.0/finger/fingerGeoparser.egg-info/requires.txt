@@ -1,0 +1,7 @@
+pandas
+click==7.1.2
+spacy==3.0.8
+spacy_transformers==1.0.0
+libvoikko
+geocoder
+voikko
