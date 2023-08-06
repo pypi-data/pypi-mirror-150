@@ -1,0 +1,8 @@
+setup.py
+deployment_sdk.egg-info/PKG-INFO
+deployment_sdk.egg-info/SOURCES.txt
+deployment_sdk.egg-info/dependency_links.txt
+deployment_sdk.egg-info/requires.txt
+deployment_sdk.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
