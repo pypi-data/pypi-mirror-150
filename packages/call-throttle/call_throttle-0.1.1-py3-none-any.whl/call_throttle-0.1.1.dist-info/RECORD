@@ -1,0 +1,13 @@
+call_throttle/__init__.py,sha256=uXM4WtuQH2OipuzLvvZ0w3wC1uwLOgPppyrITY9Xb8s,195
+call_throttle/base.py,sha256=iCxko4gZuIZRbY25CGnMKRRAYGSEylf9TY9ufewENpw,1012
+call_throttle/decorators.py,sha256=NCOAp-BmwvsaumoshVcFysLkaN6lAxIerUDSnm-CQF8,1207
+call_throttle/exceptions.py,sha256=rfwL-MeIP8D6H96pDC4frM0S2PtX0_sgcHvAZwk2aos,45
+call_throttle/throttle.py,sha256=PDFmB4kYQLFDP3snGCBWf3gqZO_C49hdQE8JEq9iz5M,238
+call_throttle/aio/__init__.py,sha256=9dK1KBBwU-9akhgSo-o-ZdngGjcYs1klPFAgQk2hbXI,33
+call_throttle/aio/decorators.py,sha256=5X08gdyXboKeepsM4iWR6CwVFU0822HbIV9GbSXWSfQ,1246
+call_throttle/aio/throttle.py,sha256=9XPgLf4WbSmraVfaxru7dR7WEu8JR5wZYewGfq2-LTE,257
+call_throttle-0.1.1.dist-info/LICENSE,sha256=djME36OqYv3rnHrhx77q_ddke9QTn9ZOGuVz3nS_28M,1061
+call_throttle-0.1.1.dist-info/METADATA,sha256=ZjoUfzpo9b_A30EbSQpN1QFOAIFxkpDo-uvjwLDTDDM,1955
+call_throttle-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+call_throttle-0.1.1.dist-info/top_level.txt,sha256=0gEkWRWCtW4pWGSnwuCK6c0fC3_hcAlO6SAbJ4PFJTI,14
+call_throttle-0.1.1.dist-info/RECORD,,
