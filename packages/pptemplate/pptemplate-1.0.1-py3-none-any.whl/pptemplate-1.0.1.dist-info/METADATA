@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pptemplate
+Version: 1.0.1
+Author: Naser Derakhshan
+Author-email: 
+License-File: LICENSE
+Requires-Dist: ConfigArgParse (==1.5.3)
+Requires-Dist: numpy (==1.22.3)
+
