@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyNCBI
+Version: 0.1.4
+Summary: Simple API for Python Integration with NCBI
+Home-page: https://github.com/MuteJester/PyNCBI
+Download-URL: https://github.com/MuteJester/PyNCBI/archive/refs/tags/Alpha.tar.gz
+Author: Thomas Konstantinovsky
+Author-email: thomaskon90@gmail.com
+License: MIT
+Keywords: api,data database,analytics,biology,methylation,epigenetics,ncbi,epigenetic-data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
