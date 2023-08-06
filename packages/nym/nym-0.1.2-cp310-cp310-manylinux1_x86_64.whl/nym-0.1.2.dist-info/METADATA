@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: nym
+Version: 0.1.2
+Summary: Nim extension for Python, example project
+Home-page: https://github.com/gmagno/nym
+Author: Goncalo Magno
+Author-email: goncalo.magno@gmail.com
+License: MIT license
+Keywords: nym
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: Click (>=7.0)
+Requires-Dist: nimporter
+
+===
+nym
+===
+
+
+.. image:: https://img.shields.io/pypi/v/nym.svg
+        :target: https://pypi.python.org/pypi/nym
+
+.. image:: https://img.shields.io/travis/gmagno/nym.svg
+        :target: https://travis-ci.com/gmagno/nym
+
+.. image:: https://readthedocs.org/projects/nym/badge/?version=latest
+        :target: https://nym.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Nim extension for Python using nimporter, example project.
+
+
+* Free software: MIT license
+* Documentation: https://nym.readthedocs.io.
+
+
+Usage
+-----
+
+To install nym, run this command in your terminal:
+
+.. code-block:: console
+
+    $ pip install nym
+
+
+To install from source:
+
+.. code-block:: console
+
+    $ git clone git@github.com:gmagno/nym.git && cd nym
+    $ python -m venv .venv
+    $ source .venv/bin/activate
+    $ pip install -U pip && pip install -r requirements_dev.txt
+    $ python -m nym.cli
+
+
+To build:
+
+.. code-block:: console
+
+    $ make dist
+
+
+To use nym:
+
+.. code-block:: python
+
+    from nym import fast, slow
+
+    start = time.time()
+    python_ret = slow.fib(33)
+    python_time = time.time() - start
+
+    restart = time.time()
+    nim_ret = fast.fib(33)
+    nim_time = time.time() - restart
+
+    print(f"python ret: {python_ret}")
+    print(f"python elapsed time: {python_time}")
+
+    print(f"nim ret: {nim_ret}")
+    print(f"nim elapsed time: {nim_time}")
+
+
+=======
+History
+=======
+
+0.1.1 (2022-05-14)
+------------------
+
+* First release on PyPI.
+
+
