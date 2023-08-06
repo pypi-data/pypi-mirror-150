@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PDStoolkit/PDS_PCA.py
+src/PDStoolkit/PDS_PLS.py
+src/PDStoolkit/__init__.py
+src/PDStoolkit.egg-info/PKG-INFO
+src/PDStoolkit.egg-info/SOURCES.txt
+src/PDStoolkit.egg-info/dependency_links.txt
+src/PDStoolkit.egg-info/top_level.txt
