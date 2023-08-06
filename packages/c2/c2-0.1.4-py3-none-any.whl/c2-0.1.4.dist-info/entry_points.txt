@@ -1,0 +1,3 @@
+[console_scripts]
+tdo=c2.main:main
+
