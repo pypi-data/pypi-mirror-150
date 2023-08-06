@@ -1,0 +1,11 @@
+setup.py
+briansfirstpackage/__init__.py
+briansfirstpackage/add.py
+briansfirstpackage/subtract.py
+briansfirstpackage.egg-info/PKG-INFO
+briansfirstpackage.egg-info/SOURCES.txt
+briansfirstpackage.egg-info/dependency_links.txt
+briansfirstpackage.egg-info/top_level.txt
+briansfirstpackage/extras/__init__.py
+briansfirstpackage/extras/divide.py
+briansfirstpackage/extras/multiply.py
