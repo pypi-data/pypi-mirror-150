@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Backups-clientAPI-NPP
+Version: 0.1
+Summary: API Basica diversos tipus de backups, pensat per a EIO
+Home-page: https://github.com/NilPujolPorta/Backups_clientAPI-NPP
+Author: Nil Pujol Porta
+Author-email: nilpujolporta@gmail.com
+License: GNU
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+Requires-Dist: openpyxl
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: mysql-connector-python
+Requires-Dist: tqdm
+Requires-Dist: selenium (>=4.1.0)
+Requires-Dist: pytesseract (>=0.3.8)
+Requires-Dist: pyotp (>=2.6.0)
+Requires-Dist: opencv-python (>=4.5.4.60)
+
+# Under construction :)
+
+
+
