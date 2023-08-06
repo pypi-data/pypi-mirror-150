@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/uploadio_sdk/__init__.py
+src/uploadio_sdk/main.py
+src/uploadio_sdk.egg-info/PKG-INFO
+src/uploadio_sdk.egg-info/SOURCES.txt
+src/uploadio_sdk.egg-info/dependency_links.txt
+src/uploadio_sdk.egg-info/requires.txt
+src/uploadio_sdk.egg-info/top_level.txt
+src/uploadio_sdk/schemas/__init__.py
+src/uploadio_sdk/schemas/get_file_urls_schema.py
+src/uploadio_sdk/services/__init__.py
+src/uploadio_sdk/services/base_service.py
+src/uploadio_sdk/services/get_file_urls/__init__.py
+src/uploadio_sdk/services/get_file_urls/get_file_urls_service.py
