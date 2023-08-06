@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: biser
+Version: 1.1
+Summary: Fast Characterization of Segmental Duplication Structure in Multiple Genome Assemblies
+Home-page: https://github.com/0xTCG/biser
+Author: Hamza Išerić, Ibrahim Numanagić
+Author-email: inumanag@uvic.ca
+License: MIT License.
+Download-URL: https://github.com/0xTCG/biser/tarball/master
+Keywords: genome analysis,fast alignment,segmental duplications,sequence decomposition
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: tqdm
+Requires-Dist: ncls
+
+Please see https://github.com/0xTCG/biser for more details.
+
+

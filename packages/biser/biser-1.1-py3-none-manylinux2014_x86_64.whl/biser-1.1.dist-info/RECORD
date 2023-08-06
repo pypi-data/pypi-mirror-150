@@ -1,0 +1,13 @@
+biser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biser/__main__.py,sha256=ed3Nipe2JAfmpyjt6MF7UKBvXWk-Q6UbIfO-eZErpSE,10973
+biser/cover.py,sha256=ys-9rp1gfWcizRbSYqHgncDlSyKmQtPkbZZFJyE6Huc,3262
+biser/version.py,sha256=bE6kvmIABPl91-CUh2t711lzdZ2aNqX_YPRNlIfKOO8,19
+biser/exe/biser.exe,sha256=nvJdpzQhB0rym3uY7qV9kFcO3EALKCbkvjsfuXo0wdw,325408
+biser/exe/libomp.so,sha256=zT7_8dJHepgbxDNL5pFH56wkBALcygO-vI8JPT7y958,950688
+biser/exe/libseqrt.so,sha256=ypm1MCho0UKaoecIB625l_a2aBKT-FEvpNRWh230lGI,3724552
+biser-1.1.dist-info/LICENSE,sha256=eD2OJdzKvsA3re1RWExuyO0l7qAsQtrbo7PstWbBFxY,1123
+biser-1.1.dist-info/METADATA,sha256=-oJt24COtICe-XpMNx3TUQx5sxGVVf6VPLyhQjbaUa0,572
+biser-1.1.dist-info/WHEEL,sha256=YFDvGUd4qgsZW2DR7HoTshh6r2NDinrixRAyA44xxkw,109
+biser-1.1.dist-info/entry_points.txt,sha256=xJDq-EChCFtmr9sp9xskqFOtdbRD0bMjQzX0YFuDDdQ,50
+biser-1.1.dist-info/top_level.txt,sha256=t_-RsIXSV-BxbvDBWILw3sIH6JnJ1Mq2VSrn2jn6ItM,6
+biser-1.1.dist-info/RECORD,,
