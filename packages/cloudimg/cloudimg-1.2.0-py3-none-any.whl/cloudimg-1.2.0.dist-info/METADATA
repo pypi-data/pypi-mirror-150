@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cloudimg
+Version: 1.2.0
+Summary: Services for building and releasing products in cloud environments
+Home-page: https://github.com/release-engineering/cloudimg
+Author: Alex Misstear
+Author-email: amisstea@redhat.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: requests
+
+UNKNOWN
+
+
