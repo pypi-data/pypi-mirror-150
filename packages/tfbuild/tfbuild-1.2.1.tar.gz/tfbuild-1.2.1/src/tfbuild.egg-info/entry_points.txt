@@ -1,0 +1,3 @@
+[console_scripts]
+tfb = tfbuild.cli:main
+tfbuild = tfbuild.cli:main
