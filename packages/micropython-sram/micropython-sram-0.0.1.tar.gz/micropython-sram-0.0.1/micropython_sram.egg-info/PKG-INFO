@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: micropython-sram
+Version: 0.0.1
+Summary: Library for SRAM and EERAM memories for micropython
+Home-page: https://github.com/petrkr/micropython-sram
+Author: Petr Kracik
+Author-email: petrkr@petrkr.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# micropython-sram
+SRAM/EERAM library for micropython
+
+Primary used to work with 23LCV1024 (SPI SRAM with battery backup) memory which can be used as EEPROM/Flash but with unlimited number of writes. For applications where you need offten writes.
+
+
+Simple code just use default sequenatial mode and allow to read/write whole SRAM memory, in case of 23LCV1024 it's full 128kB.
+
+Nice2have TODO:
+  - support also other chips (for example 47xx, 48xx) and protocols (like I2C)
+  - IO Stream support
+  - Page/Byte access modes (for example to prevent overwritting other data by buffer overflow)
+  - Filesystem emulation (? - maybe if there will be IOStream, then someother lib could be used?)
+  - Direct support to write other data types than buffer ? Like string, int
+
+
+
