@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fAES
+Version: 1.0.0
+Summary: Use AES to encrypt & decrypt your files
+Home-page: https://github.com/FHYQ-DHY/fAES
+Author: FHYQ_DHY
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
