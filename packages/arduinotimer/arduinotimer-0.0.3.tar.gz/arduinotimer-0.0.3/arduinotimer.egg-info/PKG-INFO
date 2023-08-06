@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: arduinotimer
+Version: 0.0.3
+Summary: Arduino timer values calculator
+Home-page: UNKNOWN
+Author: Felipe Mendoza
+Author-email: menfelipe19@gmail.com
+License: MIT
+Description: This program is designed to get the better values of the Ps and cs register to calculate a specific frequency in the Arduino Timer
+        
+        Change Log 
+        =================  
+        0.0.1 (09/05/2022) 
+        - First Release 
+        =================
+        0.0.2 (09/05/2022) 
+        - Second Release 
+        =================
+        0.0.3 (09/05/2022) 
+        - Third Release 
+Keywords: Arduino,Timer,Values
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

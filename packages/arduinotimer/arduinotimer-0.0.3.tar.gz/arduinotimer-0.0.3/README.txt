@@ -1,0 +1,1 @@
+This program is designed to get the better values of the Ps and cs register to calculate a specific frequency in the Arduino Timer
