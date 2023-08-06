@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/exam_pack/__init__.py
+src/exam_pack/example.py
+src/example_package_sunn4room.egg-info/PKG-INFO
+src/example_package_sunn4room.egg-info/SOURCES.txt
+src/example_package_sunn4room.egg-info/dependency_links.txt
+src/example_package_sunn4room.egg-info/top_level.txt
