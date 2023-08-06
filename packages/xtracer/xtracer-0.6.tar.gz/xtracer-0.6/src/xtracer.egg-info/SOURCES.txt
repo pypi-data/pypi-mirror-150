@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xtracer/__init__.py
+src/xtracer/__main__.py
+src/xtracer.egg-info/PKG-INFO
+src/xtracer.egg-info/SOURCES.txt
+src/xtracer.egg-info/dependency_links.txt
+src/xtracer.egg-info/top_level.txt
