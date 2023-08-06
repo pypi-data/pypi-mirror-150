@@ -1,0 +1,15 @@
+.gitattributes
+.gitignore
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+Sentosa_SQL_Library.egg-info/PKG-INFO
+Sentosa_SQL_Library.egg-info/SOURCES.txt
+Sentosa_SQL_Library.egg-info/dependency_links.txt
+Sentosa_SQL_Library.egg-info/not-zip-safe
+Sentosa_SQL_Library.egg-info/top_level.txt
+ssqll/__init__.py
+ssqll/tests/args_test.py
+ssqll/tests/sample-uk.db
+ssqll/tests/sql_test.py

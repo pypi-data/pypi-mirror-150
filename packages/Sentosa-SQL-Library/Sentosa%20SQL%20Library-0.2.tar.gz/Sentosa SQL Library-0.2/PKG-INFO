@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Sentosa SQL Library
+Version: 0.2
+Summary: SQL Backend Library for Datatables and Frontend Apps
+Home-page: http://github.com/fthiella/Sentosa-SQL-Library
+Author: Federico Thiella
+Author-email: fthiella@gmail.com
+License: MIT
+License-File: LICENSE
