@@ -1,0 +1,9 @@
+PyYAML==5.3.1
+coverage==6.3.2
+entrypoints==0.3
+pytest-cov==3.0.0
+pytest==7.1.2
+python-apt==2.0.6+ubuntu0.20.4.4
+simplejson==3.16.0
+toml==0.10.2
+virtualenv==20.0.17
