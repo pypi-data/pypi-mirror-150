@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sharktopoda-client
+Version: 0.1.4
+Summary: Sharktopoda client API, translated to Python
+License: MIT
+Author: Kevin Barnard
+Author-email: kbarnard@mbari.org
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Rx (>=3.2.0,<4.0.0)
+Requires-Dist: dataclasses-json (>=0.5.4,<0.6.0)
+Requires-Dist: zmq (>=0.0.0,<0.0.1)
