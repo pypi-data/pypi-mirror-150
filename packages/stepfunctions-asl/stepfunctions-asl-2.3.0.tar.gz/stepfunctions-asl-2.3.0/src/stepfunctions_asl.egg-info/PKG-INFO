@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stepfunctions-asl
+Version: 2.3.0
+Summary: Stripped version of Step Functions Data Science SDK. Contains only code for ASL state machines.
+Home-page: https://github.com/aws/aws-step-functions-data-science-sdk-python
+Author: Amazon Web Services
+License: Apache License 2.0
+Keywords: ML Amazon AWS ASL
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+License-File: LICENSE
+
+Fork of the [aws > aws-step-functions-data-science-sdk-python](https://github.com/aws/aws-step-functions-data-science-sdk-python).
+
+Stripped version of the original repo - AWS Step Functions Data Science SDK. Contains only code for building 
+[Amazon States Language]() state machines.
+
+Does not contain code for integrating with various AWS services. If you need integration with Sagemaker, Lambda etc. -
+use original repo [aws > aws-step-functions-data-science-sdk-python](https://github.com/aws/aws-step-functions-data-science-sdk-python).
+
+
