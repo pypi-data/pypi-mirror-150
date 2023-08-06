@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: findfile_path
+Version: 0.0.1
+Summary: Find file on path with optional extensions
+Home-page: https://github.com/clearclaw/findfile_path
+Author: J C Lawrence
+Author-email: claw@kanga.nu
+License: LGPL v3.0
+Description: findfile_path
+        =============
+        
+        Find the first instance of a fine on a path of directories, with
+        possible file extensions.
+        
+        ::
+        
+          $ pip install findfile_path
+        
+Keywords: find_file search_file
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Utilities
