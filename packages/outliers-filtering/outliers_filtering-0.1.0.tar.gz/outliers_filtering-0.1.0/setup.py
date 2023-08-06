@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+
+# Learn more: https://github.com/kennethreitz/setup.py
+
+from setuptools import setup, find_packages
+
+
+with open('README.rst') as f:
+    readme = f.read()
+
+with open('LICENSE') as f:
+    license = f.read()
+    
+with open("./requirements.txt", "r") as fh:
+   requirements = fh.readlines()
+
+setup(
+    name='outliers_filtering',
+    version='0.1.0',
+    description='outliers_filtering package for Python-Guide.org',
+    long_description=readme,
+    author='Vincent Belz',
+    author_email='vincent.belz@loft.com.br',
+    url='https://github.com/vincent-belz/outliers_filtering',
+    license=license,
+    packages=find_packages(exclude=('tests', 'data','demo')),
+    install_requires=[req for req in requirements if req[:2] != "# "],
+)
+

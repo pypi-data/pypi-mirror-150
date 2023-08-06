@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+outliers_filtering/__init__.py
+outliers_filtering/utils.py
+outliers_filtering.egg-info/PKG-INFO
+outliers_filtering.egg-info/SOURCES.txt
+outliers_filtering.egg-info/dependency_links.txt
+outliers_filtering.egg-info/requires.txt
+outliers_filtering.egg-info/top_level.txt
