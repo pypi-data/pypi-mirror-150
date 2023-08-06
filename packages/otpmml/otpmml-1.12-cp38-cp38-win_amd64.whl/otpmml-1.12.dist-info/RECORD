@@ -1,0 +1,7 @@
+otpmml/otpmml.py,sha256=HIKshAmcBrqfG0y0c_mFxwmbiigKC38_Qlyi_64r0tY=,10887
+otpmml/__init__.py,sha256=GgUsEpI3VnzQHleHVzQhMpAXzujS-SowuUVKB7no-uc=,300
+otpmml/_otpmml.pyd,sha256=g1XbWvZ8Y4KAuvGuBkR_q-cM3Iy4BVSuMW-axE8r33c=,485324
+otpmml/libotpmml.dll,sha256=AGOLAGY3OYT8a8XdcUaxxePEwn3RuhoVeY6_sBzWSAk=,284895
+otpmml-1.12.dist-info/WHEEL,sha256=AZhNL47hR_4Dc3F35inmFwmd8WvMxgxS_8qQcNYgCEE=,66
+otpmml-1.12.dist-info/METADATA,sha256=5sAuH8WjXKPrhCeEdnnrFw8TGwpz_p9jLaRb9XsJ49M=,1635
+otpmml-1.12.dist-info/RECORD,,
