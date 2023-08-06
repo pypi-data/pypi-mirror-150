@@ -1,0 +1,4 @@
+pathspec
+pathlib
+GitPython
+cryptography
