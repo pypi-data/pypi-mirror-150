@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+btlewrap/__init__.py
+btlewrap/base.py
+btlewrap/bluepy.py
+btlewrap/gatttool.py
+btlewrap/pygatt.py
+btlewrap/version.py
+btlewrap.egg-info/PKG-INFO
+btlewrap.egg-info/SOURCES.txt
+btlewrap.egg-info/dependency_links.txt
+btlewrap.egg-info/not-zip-safe
+btlewrap.egg-info/requires.txt
+btlewrap.egg-info/top_level.txt
