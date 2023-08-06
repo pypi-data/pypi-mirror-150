@@ -1,0 +1,13 @@
+qwc/__init__.py,sha256=l9EXUXaKoNoJr8-D5t51Y1z0Hp7FCwEQDNqVUUGQP7w,273
+qwc/client.py,sha256=ekqwO9Mtnru2MStFzi3yTStyIecOVdBpNpvuUi3TRvA,2303
+qwc/config.ini,sha256=hSIXivxKzT4Z7HXNWrWdCQ4ChrReuITSv5bpvBo0n1c,717
+qwc/service.py,sha256=eK43Xs9afX4ZYTqY_F4qnVrNvIDlOIf4QR7Ci5xhhZo,12077
+qwc/objects/__init__.py,sha256=lIfKDwH8Ep5e1SV2EfYuWb0_qNn5nlBos8XoAtWbbTg,22
+qwc/objects/objects.py,sha256=ddEVf5uvLE_IeoE0AIl5Xoc4dBD5HPqd5qo7hgTYOXI,3084
+qwc/scripts/start_server.py,sha256=0SswMeuGUMiz2YdzXDj7m0PHGMMzu1k5KQZF7PY0vLI,272
+qwc-0.0.1.dist-info/LICENSE.txt,sha256=QjmaFI815erFbXdaqykrEZXjbodb_G7A_w3BFhbnZEI,1054
+qwc-0.0.1.dist-info/METADATA,sha256=vMyuiiuyJvd1z2OJtEkQxl0cI39ghhMr0LZGYXSb12o,3984
+qwc-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qwc-0.0.1.dist-info/entry_points.txt,sha256=HXpoGupoEMJpqnCbryNSksKllKyqoktjQ2U4F0KJJlY,54
+qwc-0.0.1.dist-info/top_level.txt,sha256=DLRycpXwYQpyqmPasMGibSmBAjFdr3NplBTqeuwj0OE,4
+qwc-0.0.1.dist-info/RECORD,,
