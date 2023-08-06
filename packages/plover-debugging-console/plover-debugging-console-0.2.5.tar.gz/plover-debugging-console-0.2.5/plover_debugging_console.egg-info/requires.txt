@@ -1,0 +1,2 @@
+plover>=4.0.0.dev8
+background_zmq_ipython>=1.20200202.222340
