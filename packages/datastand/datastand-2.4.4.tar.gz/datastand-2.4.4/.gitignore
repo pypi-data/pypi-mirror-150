@@ -1,0 +1,8 @@
+*.csv
+*egg-info
+build/*
+dist
+test.py
+*.pyc
+*.ipynb_checkpoints/
+.idea/
