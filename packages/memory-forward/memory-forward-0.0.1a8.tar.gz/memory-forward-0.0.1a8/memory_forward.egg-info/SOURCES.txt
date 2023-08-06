@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+memory_forward.egg-info/PKG-INFO
+memory_forward.egg-info/SOURCES.txt
+memory_forward.egg-info/dependency_links.txt
+memory_forward.egg-info/entry_points.txt
+memory_forward.egg-info/requires.txt
+memory_forward.egg-info/top_level.txt
