@@ -1,0 +1,7 @@
+mailer/__init__.py,sha256=nR-obD8fwuZa5t7uvkO07yZA2DvKRmey0arUwkWS-d8,137
+mailer/aio.py,sha256=A5xOC-ZW9AlLOrEQJi3RqDPgomf99Osld7FgAjzyDCg,4348
+mailer/blocking.py,sha256=gg9de2and7zMRKOpKCih-8QtyO-1yGGm7afBg1fNcU0,3841
+mailer/shared.py,sha256=IjaWqb1M-KK8OOkGDjRHgzjXPAGSa8Ir1xNy2EatUvo,198
+wafflehacks_mailer-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+wafflehacks_mailer-0.2.1.dist-info/METADATA,sha256=aprL-UlVvb1Bl8wqAK9-gIYtlp2Fx0cYaw2hkEjgmSo,713
+wafflehacks_mailer-0.2.1.dist-info/RECORD,,
