@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "reference": "R. G. Della Valle, D. Gazzillo, R. Frattini, and G. Pastore, Phys. Rev. B 49, 12625 (1994).",
+    "potential": [
+	{
+	    "type": "lennard_jones",
+	    "parameters": {
+		"sigma": [[1.0, 0.772768], [0.772768, 0.69573]],
+		"epsilon": [[1.0, 1.0], [1.0, 1.0]]}
+	}
+    ],
+    "cutoff": [
+	{
+	    "type": "quadratic_cut_shift",
+	    "parameters": {"rcut": [[2.5, 1.93192], [1.93192, 1.739325]]}
+	}
+    ],
+    "notes": "The actual cutoff was not reported in the original paper."
+}
