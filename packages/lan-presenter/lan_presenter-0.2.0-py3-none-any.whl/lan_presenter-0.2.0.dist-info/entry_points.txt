@@ -1,0 +1,3 @@
+[console_scripts]
+lan_presenter = lan_presenter.__main__:main
+
