@@ -1,0 +1,14 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+mager/__init__.py
+mager.egg-info/PKG-INFO
+mager.egg-info/SOURCES.txt
+mager.egg-info/dependency_links.txt
+mager.egg-info/top_level.txt
+mager/copy_checker/__init__.py
+mager/copy_checker/errors.py
+mager/gmail_manager/__init__.py
+mager/gmail_manager/errors.py
