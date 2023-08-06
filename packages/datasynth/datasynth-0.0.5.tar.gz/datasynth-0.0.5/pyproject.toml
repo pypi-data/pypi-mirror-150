@@ -1,0 +1,13 @@
+[default]
+__title__="datasynth"
+__description__="Synthetic data for your app."
+__url__="http://github.com/New-Math-Data/datasynth"
+__version__="0.0.5"
+__author__="Traey Hatch"
+__author_email__="thatch@newmathdata.com"
+__license__="Apache 2.0"
+__copyright__="Copyright 2020 New Math Data"
+github_organization="New-Math-Data"
+
+[tool.isort]
+profile="black"

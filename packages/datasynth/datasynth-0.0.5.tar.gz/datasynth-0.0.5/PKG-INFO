@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: datasynth
+Version: 0.0.5
+Summary: Synthetic data for your app.
+Home-page: http://github.com/New-Math-Data/datasynth
+Author: Traey Hatch
+Author-email: thatch@newmathdata.com
+License: http://github.com/New-Math-Data/datasynth
+Project-URL: Source, https://github.com/New-Math-Data/datasynth
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+
+# DataSynth
+
+
