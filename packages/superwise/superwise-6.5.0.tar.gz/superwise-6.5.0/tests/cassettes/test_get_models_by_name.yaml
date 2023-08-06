@@ -1,0 +1,154 @@
+interactions:
+- request:
+    body: '{"clientId": "079cf207-ce3f-43e8-b8e4-a2a12136a84d", "secret": "1170b830-4ee8-4b57-83f5-d183f5860e93"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Mon, 25 Apr 2022 16:36:50 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiIwNzljZjIwNy1jZTNmLTQzZTgtYjhlNC1hMmExMjEzNmE4NGQiLCJlbWFpbCI6InN3X2xpb3JAc3VwZXJ3aXNlLmFpIiwidXNlck1ldGFkYXRhIjp7fSwidGVuYW50SWQiOiJsaW9yIiwicm9sZXMiOlsiVmlld2VyIl0sInBlcm1pc3Npb25zIjpbImZlLnNlY3VyZS53cml0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLmRlbGV0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLnJlYWQudXNlckFwaVRva2VucyJdLCJtZXRhZGF0YSI6e30sImNyZWF0ZWRCeVVzZXJJZCI6ImQ0NmVkYmJiLTZmNjEtNDUwOC04NjUwLWQwNTAzMWJjZDMyOSIsInR5cGUiOiJ1c2VyQXBpVG9rZW4iLCJ1c2VySWQiOiJkNDZlZGJiYi02ZjYxLTQ1MDgtODY1MC1kMDUwMzFiY2QzMjkiLCJpYXQiOjE2NTA4MTgyMTAsImV4cCI6MTY1MDkwNDYxMCwiaXNzIjoiZnJvbnRlZ2cifQ.tXLoJV6B3RHp6-ZXKNiHcKAkn-joRTYpV22uLTb5yYaAypXWiHU7l__lztmqvy91-o9tQnd18nHQykqnxmMC0hsw8xdw68zZBOS8jWiXoA2WMYyXBGSaFd6wPuH7oKStKGQLDiNKxt2VzoM9T96nsVsxqN-6teYfKbKOEC7NIDl3CZJE2brWt_s6PxLsqT5Pum3gnBlhmb_5AEHyEY7_iZ8pXP11Tt3pDeqiXU3BwbKDRgsteQGij0iNS0mEVT_kUh-Di4DpIGWgC0Jrc2kWGNKMoUfILXjquCFcmmknTjIo-vC8c1ZG-vREkqkLgNk14pFP5QrbERvpXqcj8dDBMQ","refreshToken":"c204e936-981b-48de-814e-6a007ddf2460"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 701042975d3e7d9a-TLV
+      Cache-Control:
+      - no-transform
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1117'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 24 Apr 2022 16:36:50 GMT
+      RateLimit-Limit:
+      - '100'
+      RateLimit-Remaining:
+      - '99'
+      RateLimit-Reset:
+      - '1'
+      Server:
+      - cloudflare
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '99'
+      X-RateLimit-Reset:
+      - '1650818212'
+      X-Request-ID:
+      - be03e67eeb7a96eaf656db6c08a84384
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"45d-jvbRF/XfOnhlHv7MgVdz6pqaLAs"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - ace8a741-817e-45a9-b86c-d11a8b0bd9b5
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiIwNzljZjIwNy1jZTNmLTQzZTgtYjhlNC1hMmExMjEzNmE4NGQiLCJlbWFpbCI6InN3X2xpb3JAc3VwZXJ3aXNlLmFpIiwidXNlck1ldGFkYXRhIjp7fSwidGVuYW50SWQiOiJsaW9yIiwicm9sZXMiOlsiVmlld2VyIl0sInBlcm1pc3Npb25zIjpbImZlLnNlY3VyZS53cml0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLmRlbGV0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLnJlYWQudXNlckFwaVRva2VucyJdLCJtZXRhZGF0YSI6e30sImNyZWF0ZWRCeVVzZXJJZCI6ImQ0NmVkYmJiLTZmNjEtNDUwOC04NjUwLWQwNTAzMWJjZDMyOSIsInR5cGUiOiJ1c2VyQXBpVG9rZW4iLCJ1c2VySWQiOiJkNDZlZGJiYi02ZjYxLTQ1MDgtODY1MC1kMDUwMzFiY2QzMjkiLCJpYXQiOjE2NTA4MTgyMTAsImV4cCI6MTY1MDkwNDYxMCwiaXNzIjoiZnJvbnRlZ2cifQ.tXLoJV6B3RHp6-ZXKNiHcKAkn-joRTYpV22uLTb5yYaAypXWiHU7l__lztmqvy91-o9tQnd18nHQykqnxmMC0hsw8xdw68zZBOS8jWiXoA2WMYyXBGSaFd6wPuH7oKStKGQLDiNKxt2VzoM9T96nsVsxqN-6teYfKbKOEC7NIDl3CZJE2brWt_s6PxLsqT5Pum3gnBlhmb_5AEHyEY7_iZ8pXP11Tt3pDeqiXU3BwbKDRgsteQGij0iNS0mEVT_kUh-Di4DpIGWgC0Jrc2kWGNKMoUfILXjquCFcmmknTjIo-vC8c1ZG-vREkqkLgNk14pFP5QrbERvpXqcj8dDBMQ
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://dev.superwise.ai/lior/admin/v1/settings/service-account
+  response:
+    body:
+      string: '{"service_account":{"type":"service_account","project_id":"development112539df","private_key_id":"df9124ed43fd40e0a87cf9dbedfc49e13088a80f","private_key":"-----BEGIN
+        PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/WCCHlfoIpKUe\nxqehu9y9/HYBmryg9C/Dpl+Aq1HikLEoObUysDsQCiqp5BSiiv1eBgqJjc44jScx\nKLjwSl0NGzWSfJBlYHHrgErZyOQeZdPIsGkRAGNEpvl8aWo6u12aJdD/JYoECBl7\nTf4Lf65AopEJL9CSz4nUVZS2Wl5ljNSiEWZnngRoWA0EPL/VgUhy84CLelvntBjH\nr3fQZ3lScm8171sV3XxjqgsABakZAXJPqsjCJ+QqaUtkLvCu8xikO+b6ZhUb5npk\n4hCTofzSSa5aUy9QwkkQ4NhLEMQryKFm4WPa9g2PDJ4wKfkH3PgHtiZhERO1EXH0\nR1wraVPpAgMBAAECggEAFbRfbEHc7OIQQN9z4Gq47WwXzrLIttE8IctbhfLpBPQ4\nxEFXhnprGLSuhjrzBEUT3Hh+9X96ZvvL+E2QPOGSkIwHlag/kOBRy87vrqiVB8Wx\nMlCgemc622y9XBlxDVx3j6a+gFK3xyFMEqqUKKXBFF/cZ9hepmiYT9etWMoDby1J\n9MBXWRbxR0YyrOvUw/I5iCGQEM7lsRA8xDZTA/G69V8KTq7ed4z7t8yXfZd6IYBE\nq4ELkSg083LF4nmyzOp0NdL5mkYhG2UCcjiJHzEU+zpiYVo9HKFuH0C799pkyR1b\n0ssELHOoJuX8/1MfIk164fbsQ3F8meFCI/Afe/s7oQKBgQD0Q7I6UdG+WqDEZtog\nDEyhsZ5l7L+ZPeqGEimFW60NMMttnySiPhjgPTQfMWXdFri0kgJYlj7qHwQNdoeG\nvX58TG9iMoG2dll61TwtjoQnV/BNd5pktAbd815ykiGjoGFYuxOjYytWtyQBoT81\noXO9mNA0JMUbb8EkrAFkqH18rQKBgQDIiYt0NuptX1ki5yFplz0kBcEW9P5x8hsx\ncf2JanDELogX6c/ZD5LotbSNCCsi0uLNuie/OwBAg2GdV80ctzb/7GKuVkLiaqka\nlfNSiMtRgc8qEm3pKWujSrqxdlJZy3M8RM9fGaYNmptopuFzHT8+cmrc31PAOusy\nLJPQHNO/rQKBgDIMPNReN099Wjtjp4Wxf3IR5paTr55CZW8bAY7lfcuaF9RaKzNi\n7c3kPG23vVtTcHzu/bQQ9Msbl8T6aEJfSS9GqfvAxXsRPLxCPJZJASLejcoRm3zO\ntil71/o5ntLb5ZY8noV3qEWYOLRsyXq/netXCDHm5sv8VeKhq5doPm3xAoGAAM4E\ngD/kKvIyAmDZEnpn5WgcgUIUb1KgZ09kzBNgRnlFVIs8qUtVtJdeFR7ORYKBJIA1\nvp+2/YtJbf83NIFLuDUzpC12cUAqU4/8fP1Ni5MwyKNwS3o+E1aubx3hcLjPSpOg\nHWqV7wIK052v0+1vHooJAb/nryLNZNMm+LPU6bUCgYEAmWBVvIGanZK56cm1+Fod\nYLt6FRMi1u+XJcAqPVq0zS0FQrOeg5sxkhsHel+jlVe5ra8wn+AwmgrodN8YmiTA\n0hvDKcJXuM7HmwdyAm5prY12qPeqzf7jiV62DNQa9+sq8TYI9VBXQxVWmMLhqk46\nQejhYLMqTM+aL8zAXNAkyG8=\n-----END
+        PRIVATE KEY-----\n","client_email":"lior-managed-sa@development112539df.iam.gserviceaccount.com","client_id":"111435861940253195419","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url":"https://www.googleapis.com/robot/v1/metadata/x509/lior-managed-sa%40development112539df.iam.gserviceaccount.com"}}'
+    headers:
+      content-length:
+      - '2320'
+      content-type:
+      - application/json
+      date:
+      - Sun, 24 Apr 2022 16:36:42 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '4'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiIwNzljZjIwNy1jZTNmLTQzZTgtYjhlNC1hMmExMjEzNmE4NGQiLCJlbWFpbCI6InN3X2xpb3JAc3VwZXJ3aXNlLmFpIiwidXNlck1ldGFkYXRhIjp7fSwidGVuYW50SWQiOiJsaW9yIiwicm9sZXMiOlsiVmlld2VyIl0sInBlcm1pc3Npb25zIjpbImZlLnNlY3VyZS53cml0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLmRlbGV0ZS51c2VyQXBpVG9rZW5zIiwiZmUuc2VjdXJlLnJlYWQudXNlckFwaVRva2VucyJdLCJtZXRhZGF0YSI6e30sImNyZWF0ZWRCeVVzZXJJZCI6ImQ0NmVkYmJiLTZmNjEtNDUwOC04NjUwLWQwNTAzMWJjZDMyOSIsInR5cGUiOiJ1c2VyQXBpVG9rZW4iLCJ1c2VySWQiOiJkNDZlZGJiYi02ZjYxLTQ1MDgtODY1MC1kMDUwMzFiY2QzMjkiLCJpYXQiOjE2NTA4MTgyMTAsImV4cCI6MTY1MDkwNDYxMCwiaXNzIjoiZnJvbnRlZ2cifQ.tXLoJV6B3RHp6-ZXKNiHcKAkn-joRTYpV22uLTb5yYaAypXWiHU7l__lztmqvy91-o9tQnd18nHQykqnxmMC0hsw8xdw68zZBOS8jWiXoA2WMYyXBGSaFd6wPuH7oKStKGQLDiNKxt2VzoM9T96nsVsxqN-6teYfKbKOEC7NIDl3CZJE2brWt_s6PxLsqT5Pum3gnBlhmb_5AEHyEY7_iZ8pXP11Tt3pDeqiXU3BwbKDRgsteQGij0iNS0mEVT_kUh-Di4DpIGWgC0Jrc2kWGNKMoUfILXjquCFcmmknTjIo-vC8c1ZG-vREkqkLgNk14pFP5QrbERvpXqcj8dDBMQ
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://dev.superwise.ai/lior/admin/v1/models?name=Chargeback+prediction+-+task_id+1078
+  response:
+    body:
+      string: '[{"id":15,"external_id":"1078","name":"Chargeback prediction - task_id
+        1078","description":"A multiclass classification model that decide whether
+        to approve or reject a given transaction to avoid chargebacks","created_by":null,"active_version_id":14,"active_version_ts":"2021-07-26T17:31:39.416475","created_at":"2020-11-16T00:00:00","time_units":["D","W"],"is_archived":false,"tags":[]}]'
+    headers:
+      content-length:
+      - '388'
+      content-type:
+      - application/json
+      date:
+      - Sun, 24 Apr 2022 16:36:49 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '18'
+    status:
+      code: 200
+      message: OK
+version: 1
