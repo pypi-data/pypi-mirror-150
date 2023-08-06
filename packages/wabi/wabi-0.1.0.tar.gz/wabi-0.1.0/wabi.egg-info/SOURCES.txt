@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+wabi.egg-info/PKG-INFO
+wabi.egg-info/SOURCES.txt
+wabi.egg-info/dependency_links.txt
+wabi.egg-info/requires.txt
+wabi.egg-info/top_level.txt
+wbi/__init__.py
