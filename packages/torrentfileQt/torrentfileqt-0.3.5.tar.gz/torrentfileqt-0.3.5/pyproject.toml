@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "PySide6", "torrentfile"]
+
+[tool.bandit]
+skips = ["B101"]
+
+[tool.black]
+line-length = 80
+
+[tool.autopep8]
+max_line_length = 80
+ignore = "E266"
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    "torrentfileQt",
+]
+console_output_style = "progress"
+addopts = "--maxfail=5"
+
+[tool.pylint.messages_control]
+disable= [
+    'redefined-outer-name',
+    'unspecified-encoding',
+    'protected-access',
+    'attribute-defined-outside-init',
+    'consider-using-with',
+    'use-a-generator',
+    'not-callable',
+    'useless-super-delegation',
+    'invalid-name',
+    'no-name-in-module',
+    'redefined-builtin',
+    'subprocess-run-check',
+    'no-member',
+    'consider-using-f-string'
+]
+
+[tool.pylint.format]
+max-line-length=80
+max-module-lines=1000
+no-space-check=['trailing-comma','dict-separator']
+single-line-if-stmt='yes'
+
+[tool.pylint.basic]
+good-names=[
+    'l','r','g','b','w','i','j','k','v','n','x',
+    'y','l','z','ex','ok','fd','d','Run','_'
+]
+
+[tool.pylint.design]
+max-args=15
+max-attributes=35
+max-branches=28
+max-locals=20
+max-parents=7
+max-public-methods=20
+max-returns=6
+max-statements=120
