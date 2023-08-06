@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/python-publish.yml
+matplotlib_extrac/__init__.py
+matplotlib_extrac/_version.py
+matplotlib_extrac/main.py
+matplotlib_extrac.egg-info/PKG-INFO
+matplotlib_extrac.egg-info/SOURCES.txt
+matplotlib_extrac.egg-info/dependency_links.txt
+matplotlib_extrac.egg-info/requires.txt
+matplotlib_extrac.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: matplotlib-extrac
+Version: 0.1
+Summary: Extract matplotlib plots components
+Home-page: https://github.com/RemDelaporteMathurin/matplotlib-extrac
+Author: Remi Delaporte-Mathurin
+Author-email: rdelaportemathurin@gmail.com
+License: Apache Software License
+Project-URL: Source, https://github.com/RemDelaporteMathurin/matplotlib-extrac
+Project-URL: Tracker, https://github.com/RemDelaporteMathurin/matplotlib-extrac/issues
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# matplotlib-extrac
+blabla
