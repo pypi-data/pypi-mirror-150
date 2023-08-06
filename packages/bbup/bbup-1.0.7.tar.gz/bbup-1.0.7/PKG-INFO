@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: bbup
+Version: 1.0.7
+Summary: 
+Author: Rehmat Alam
+Author-email: contact@rehmat.works
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: b2sdk (>=1.14.0,<2.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Requires-Dist: validators (>=0.18.1,<0.19.0)
+Description-Content-Type: text/markdown
+
+# Backblaze Uploader
+
+Backblaze Uploader is a Python package that you can use in order to upload files to a Backblaze bucket from a remote URL or a local path.
+
+### Install
+```bash
+pip install bbup
+```
+
+### Configure a Bucket
+Sign in to your Backblaze account, create a bucket, create application keys and then configure **bbup**:
+
+```bash
+bbup configure
+```
+
+You can add as many buckets as you want. Beware that app keys are stored in plain text, so don't use this software on a shared computer.
+
+### Upload Remote Files
+Upload a remote file to the default bucket:
+```bash
+bbup remote-upload
+```
+
+Upload a remote file to a selected bucket:
+
+```bash
+bbup remote-upload --bucket mybucket
+```
+
+### Upload Local Files
+Upload a local file to the default bucket:
+```bash
+bbup local-upload
+```
+
+Upload a remote file to a selected bucket:
+
+```bash
+bbup local-upload --bucket mybucket
+```
+
+### Uninstall
+```bash
+pip uninstall bbup
+```
