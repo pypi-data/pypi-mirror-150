@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: plp-design
+Version: 0.1.0
+Summary: Package to design Padlock probes based on a reference transcriptome
+Home-page: https://github.com/Moldia/PLP_directRNA_design
+Author: UNKNOWN
+Author-email: sergiomarco.salas@scilifelab.se
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
