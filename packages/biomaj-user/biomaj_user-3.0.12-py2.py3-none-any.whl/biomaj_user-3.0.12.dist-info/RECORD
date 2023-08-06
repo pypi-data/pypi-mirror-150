@@ -1,0 +1,10 @@
+biomaj_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biomaj_user/biomaj_user_service.py,sha256=_-zkiOD3skdpFu5J0Wm1KHNj6KSG45Xf4ZUI7D2r0lk,4150
+biomaj_user/user.py,sha256=vZ4gdJEbv_aj6GGasYPpZk7XjUfxi094I8-CWxRgRAg,6412
+biomaj_user/wsgi.py,sha256=tpsm_uwxrzh-ZhulRo1_rYe9LywvGb2jG8yVnnmPQRU,90
+biomaj_user-3.0.12.data/scripts/biomaj-users.py,sha256=OAlPq9AxYd14jgzVkPPO2HGGaGxpe9iNwS-sdWRFgtU,4841
+biomaj_user-3.0.12.dist-info/LICENSE,sha256=iEtDSVe6aIMRlZDRzkl_1ESpyLcDC278TeglQBxnJb8,34501
+biomaj_user-3.0.12.dist-info/METADATA,sha256=xaHpmPXHmlWOf5MFLOxehkRVcFlkyne2hdV3qmGeLXo,2188
+biomaj_user-3.0.12.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+biomaj_user-3.0.12.dist-info/top_level.txt,sha256=uIyoVU6M3CrTeXvjebQN-bZ_ZV1jvVAOkicYUQJ8ldc,12
+biomaj_user-3.0.12.dist-info/RECORD,,
