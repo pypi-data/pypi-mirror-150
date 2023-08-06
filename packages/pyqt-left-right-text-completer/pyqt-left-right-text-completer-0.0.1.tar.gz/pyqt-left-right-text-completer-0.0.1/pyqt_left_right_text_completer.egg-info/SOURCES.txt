@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_left_right_text_completer/__init__.py
+pyqt_left_right_text_completer/leftRightTextCompleter.py
+pyqt_left_right_text_completer.egg-info/PKG-INFO
+pyqt_left_right_text_completer.egg-info/SOURCES.txt
+pyqt_left_right_text_completer.egg-info/dependency_links.txt
+pyqt_left_right_text_completer.egg-info/requires.txt
+pyqt_left_right_text_completer.egg-info/top_level.txt
