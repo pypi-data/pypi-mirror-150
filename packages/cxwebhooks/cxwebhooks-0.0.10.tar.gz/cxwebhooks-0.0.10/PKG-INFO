@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cxwebhooks
+Version: 0.0.10
+Summary: Dialogflow CX Webhook object classes.
+Home-page: https://www.cloud-colosseum.net
+Author: Yvan J. Aquino
+Author-email: yvanjaquino@gmail.com
+License: LICENSE.txt
+Requires-Python: >=3.6
+License-File: LICENSE
