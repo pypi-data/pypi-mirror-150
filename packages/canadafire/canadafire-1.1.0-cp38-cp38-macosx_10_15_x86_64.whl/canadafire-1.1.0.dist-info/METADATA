@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: canadafire
+Version: 1.1.0
+Summary: Computes Canada fire weather indices.
+Home-page: https://github.com/AlaskaFireWeather/canadafire
+Author: Elizabeth Fischer
+Author-email: eafischer2@alaska.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Canada Fire Index Calculator
+
+Compute the Canada Fire Weather indices.  You can use
+
+To package and upload to PyPI:
+https://packaging.python.org/tutorials/packaging-projects/
+
+
