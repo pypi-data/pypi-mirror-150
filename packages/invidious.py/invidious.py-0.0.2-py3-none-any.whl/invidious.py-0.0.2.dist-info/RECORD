@@ -1,0 +1,13 @@
+invidious/__init__.py,sha256=ToDXSwnkCTrwCH-PLdFLvLjcWENd0fbhRKkNf8XHapc,23
+invidious/channel.py,sha256=Vg1X-oXyazfu_KDZwyAstHFLs6YJpV-ErF__Vo_ngVs,1705
+invidious/channel_item.py,sha256=7lBpGmjZ-GYCTkKupKk9Ju8XjjqMLgFVRgTNjyFZVXY,992
+invidious/invidious.py,sha256=-2pAn8Ua-05K223HfWymMbGMSeAgtfjFNQrmPI_AhkU,3352
+invidious/playlist_item.py,sha256=knQdsXglxCNl1Sc8DvLx_iLBaknfwJMEnCVAH5_QFmE,751
+invidious/test.py,sha256=-EBzp8upBOYZOLiDTIqgylG7O4edlXJyoxbax8NNlUU,266
+invidious/video.py,sha256=1MARvWPOLJ70BeO0soBXrQfhQIES5_fXDBH3L2TFRWE,3496
+invidious/video_item.py,sha256=XWYnkCKWHuJeMalLvvakZZ3RNve0SuBJ-ms832yvgsM,1615
+invidious.py-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+invidious.py-0.0.2.dist-info/METADATA,sha256=vYvNIugeuVH_Esmx-HkHxR28VihHTSxRAZIdUluPfTk,636
+invidious.py-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+invidious.py-0.0.2.dist-info/top_level.txt,sha256=nHF3iYYd39Yx_rHdwLcHxBwtIwiafgi_k5ANWdI0PW4,10
+invidious.py-0.0.2.dist-info/RECORD,,
