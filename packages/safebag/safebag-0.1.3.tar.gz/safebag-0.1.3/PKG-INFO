@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: safebag
+Version: 0.1.3
+Summary: Easy Python package for optional chaining pattern
+Home-page: https://github.com/galeNightIn/safebag
+License: MIT
+Author: Alexandr Solovev
+Author-email: nightingale.alex.info@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/galeNightIn/safebag
+Description-Content-Type: text/markdown
+
+# Safebag
+
+_Safebag_ is a little python package implementing optional chaining.
+
+## Installation
+
+```bash
+pip install safebag
+```
