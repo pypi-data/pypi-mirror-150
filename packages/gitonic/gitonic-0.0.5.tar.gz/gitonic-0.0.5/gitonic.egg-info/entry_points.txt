@@ -1,0 +1,3 @@
+[console_scripts]
+gitonic = gitonic.main:main_func
+
