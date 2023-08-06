@@ -1,0 +1,9 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+src/pinata.egg-info/PKG-INFO
+src/pinata.egg-info/SOURCES.txt
+src/pinata.egg-info/dependency_links.txt
+src/pinata.egg-info/requires.txt
+src/pinata.egg-info/top_level.txt
