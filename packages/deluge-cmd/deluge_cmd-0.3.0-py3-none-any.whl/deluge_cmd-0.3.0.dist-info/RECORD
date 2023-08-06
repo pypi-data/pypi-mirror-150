@@ -1,0 +1,10 @@
+deluge_cmd/__init__.py,sha256=GxsHulG0_7n6d2tXFgrT97wFHcpcblF2pFYH7ULg_Bk,138
+deluge_cmd/cli.py,sha256=iPKpe3_Wne7iy_OtwzJw5lXECgvv0fGoAps3Dq6XPC4,306
+deluge_cmd/deluge_dls.py,sha256=cyfpUFQNQ1xGINXWrJhY3CTnezb3szq4jXQnRNocbaQ,1413
+deluge_cmd/deluge_dmv.py,sha256=hhZmkOjUkE5dUqK0PjWjU5US5O7N8SJdwGbot-Jut_g,1981
+deluge_cmd/helpers.py,sha256=geAMpXh1eimNDyP_yRT3m0PQlAerOsKZejb2A4JzMBY,934
+deluge_cmd-0.3.0.dist-info/entry_points.txt,sha256=L7DqhKoY2baOuYM3bCGdF4CaTRPIeX5LCXDmbw6spuA,81
+deluge_cmd-0.3.0.dist-info/LICENSE,sha256=maIdWPA4cOHPJWivyggJhy5HxXlUb1YWBlrj_fZW0A4,1077
+deluge_cmd-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+deluge_cmd-0.3.0.dist-info/METADATA,sha256=iz1Lg0yEZaZAGwiyhW1XJcSpz-EGMJbMyEnHAfgSA2k,3453
+deluge_cmd-0.3.0.dist-info/RECORD,,
