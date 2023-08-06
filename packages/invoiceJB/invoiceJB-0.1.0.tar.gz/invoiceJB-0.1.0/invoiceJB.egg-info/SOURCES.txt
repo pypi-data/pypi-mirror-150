@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+invoiceJB/__init__.py
+invoiceJB/invoice.py
+invoiceJB.egg-info/PKG-INFO
+invoiceJB.egg-info/SOURCES.txt
+invoiceJB.egg-info/dependency_links.txt
+invoiceJB.egg-info/top_level.txt
