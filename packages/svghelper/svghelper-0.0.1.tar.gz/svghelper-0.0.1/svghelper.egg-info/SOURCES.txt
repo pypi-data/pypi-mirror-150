@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+svghelper/__init__.py
+svghelper/main.py
+svghelper.egg-info/PKG-INFO
+svghelper.egg-info/SOURCES.txt
+svghelper.egg-info/dependency_links.txt
+svghelper.egg-info/top_level.txt
