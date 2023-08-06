@@ -1,0 +1,5 @@
+spyne>=2.0
+waitress>=2.1
+walrus>=0.9
+configobj>=5.0
+lxml>=4.0
