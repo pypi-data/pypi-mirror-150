@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: keras-cor
+Version: 0.1.0
+Summary: Add a regularization if the features/columns/neurons the hidden layer or output layer should be correlated. The vector with target correlation coefficient is computed before the optimization, and compared with correlation coefficients computed across the batch examples.
+Home-page: http://github.com/satzbeleg/keras-cor
+Author: Ulf Hamster
+Author-email: 554c46@gmail.com
+License: Apache License 2.0
+Requires-Python: >=3.7
+License-File: LICENSE
