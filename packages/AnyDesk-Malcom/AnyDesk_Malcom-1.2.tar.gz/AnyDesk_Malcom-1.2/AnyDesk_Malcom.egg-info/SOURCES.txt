@@ -1,0 +1,7 @@
+setup.py
+AnyDesk_Malcom.egg-info/PKG-INFO
+AnyDesk_Malcom.egg-info/SOURCES.txt
+AnyDesk_Malcom.egg-info/dependency_links.txt
+AnyDesk_Malcom.egg-info/top_level.txt
+anydesk_malcom/__init__.py
+anydesk_malcom/anydesk_malcom.py
