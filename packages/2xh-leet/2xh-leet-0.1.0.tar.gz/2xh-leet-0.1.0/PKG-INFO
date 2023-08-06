@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: 2xh-leet
+Version: 0.1.0
+Summary: Library of Eclectic Experiments by Tenchi
+License: MIT
+Author: Hamza Haiken
+Author-email: tenchi@team2xh.net
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.1.0,<10.0.0)
+Requires-Dist: progressbar2 (>=4.0.0,<5.0.0)
+Requires-Dist: sty (>=1.0.4,<2.0.0)
