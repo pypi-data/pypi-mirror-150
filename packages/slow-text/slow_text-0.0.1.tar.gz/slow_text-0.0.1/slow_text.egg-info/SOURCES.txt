@@ -1,0 +1,6 @@
+LICENCE
+setup.py
+slow_text.egg-info/PKG-INFO
+slow_text.egg-info/SOURCES.txt
+slow_text.egg-info/dependency_links.txt
+slow_text.egg-info/top_level.txt

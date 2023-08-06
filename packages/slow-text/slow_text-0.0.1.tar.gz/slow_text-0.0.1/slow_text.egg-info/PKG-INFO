@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: slow-text
+Version: 0.0.1
+Summary: Enables you to get typewriter animation.
+Home-page: UNKNOWN
+Author: Roshan Laharwani
+License: UNKNOWN
+Keywords: typewriter,python,text effect,slow text
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+This python moudle use fundamental libraries of python which help you to print your statements in a more authentic way.
+
