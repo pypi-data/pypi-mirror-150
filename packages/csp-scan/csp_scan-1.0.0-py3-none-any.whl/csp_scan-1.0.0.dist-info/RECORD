@@ -1,0 +1,10 @@
+csp_scan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csp_scan/__main__.py,sha256=LHmfgC7yRMDR9L_97Zk9WwRKg-JJ0TYVcLU1DwgpuGw,1606
+csp_scan/definitions.py,sha256=5rHFysOa6Q-kdMLp6PnSD88b7zbWsdwrSK7DFaUT4cw,3301
+csp_scan/directive.py,sha256=5xGPy7wX00SuQC6Z5ci4fH9CJLMD8L6T4oqZuKrDS1E,2509
+csp_scan-1.0.0.dist-info/LICENSE,sha256=Y0BPzeX1z4oLKqwW4B3xgIo6wlSg9IKm4uTMmM4Z4Mg,1061
+csp_scan-1.0.0.dist-info/METADATA,sha256=F67f3b8CWeeXQkr_HhtuuV2Z6TtUj-3W1MWUH7RE8mc,2614
+csp_scan-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csp_scan-1.0.0.dist-info/entry_points.txt,sha256=dGMzurnufQVDPj4MnWYBP9yx0rk-UwRs8RwnpJfy9R0,53
+csp_scan-1.0.0.dist-info/top_level.txt,sha256=B1wL1o39AKUvLEWNZAkKsy_zV_O_yYuR578p-hUt_ek,9
+csp_scan-1.0.0.dist-info/RECORD,,
