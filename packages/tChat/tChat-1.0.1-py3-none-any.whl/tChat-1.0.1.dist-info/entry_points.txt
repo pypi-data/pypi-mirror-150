@@ -1,0 +1,2 @@
+[console_scripts]
+tChat = tChat.main:_main

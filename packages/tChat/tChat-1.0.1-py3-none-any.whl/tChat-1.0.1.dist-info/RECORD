@@ -1,0 +1,14 @@
+tChat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tChat/__main__.py,sha256=PRhhKZSrT8QnaTqIgIvasIXAKwNJmU-ABACxtavaxAc,78
+tChat/command_line_argument_parser.py,sha256=zEJBvQPZ8NtP7_wL1wpR4t4UnhznE3UKt55rRIbrf0c,701
+tChat/config.py,sha256=S1D8s3qGo8EW0DLVlw6nVDJizHyYdMtIx-v83w3DtaQ,1230
+tChat/customizer.py,sha256=Rk2UilSQOdalMmD04ecwbQtxYFD6cWlRDguLwDPN2uQ,357
+tChat/irc_connection.py,sha256=80md4s5yajPbyq10cQcLyG8DYZfF2h3aMOhyg7tYglM,1509
+tChat/main.py,sha256=7VdiAQ4wSIuvuQBLgwD-Ckznan1XRI566XMDudN8GIw,4198
+tChat/twitch_message_parser.py,sha256=8Qt1-fJTQ5xhBb08ogmlq4oqrGE8e9ZwSUsIdjaha50,1568
+tChat-1.0.1.dist-info/LICENSE,sha256=rsWgO-p_CfLmpMXmfkgyju1d061tHoUiO0cRHMhp2Bg,1074
+tChat-1.0.1.dist-info/METADATA,sha256=wJo9cdH-gOpm6S036Ldkm28EEZPsNIk49upEWAd_Rdk,1396
+tChat-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tChat-1.0.1.dist-info/entry_points.txt,sha256=wSCVr4pnMfZzTTNrUSfcb7Ne_cR6JyWIC6XpNGqAI5Q,43
+tChat-1.0.1.dist-info/top_level.txt,sha256=APMTEoUxbPSh9Q3YegfT3-WKe9FVZmvqd-NDGG8ixrw,6
+tChat-1.0.1.dist-info/RECORD,,
