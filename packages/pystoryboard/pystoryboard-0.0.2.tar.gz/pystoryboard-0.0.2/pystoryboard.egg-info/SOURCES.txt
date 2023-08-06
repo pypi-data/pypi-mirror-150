@@ -1,0 +1,12 @@
+setup.py
+pystoryboard.egg-info/PKG-INFO
+pystoryboard.egg-info/SOURCES.txt
+pystoryboard.egg-info/dependency_links.txt
+pystoryboard.egg-info/requires.txt
+pystoryboard.egg-info/top_level.txt
+storyboard/__init__.py
+storyboard/sb.py
+storyboard/objects/__init__.py
+storyboard/objects/actions.py
+storyboard/objects/images.py
+storyboard/objects/sprite.py
