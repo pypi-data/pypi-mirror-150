@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+roboworld/__init__.py
+roboworld/vector.py
+roboworld/visualization.py
+roboworld/world.py
+roboworld.egg-info/PKG-INFO
+roboworld.egg-info/SOURCES.txt
+roboworld.egg-info/dependency_links.txt
+roboworld.egg-info/requires.txt
+roboworld.egg-info/top_level.txt
