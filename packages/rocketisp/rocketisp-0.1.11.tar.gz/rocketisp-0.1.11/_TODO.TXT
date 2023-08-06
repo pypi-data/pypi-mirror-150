@@ -1,0 +1,69 @@
+
+*) PDF that Ross Hewitt recommended.
+   D:\GoogleDrive\TKSyncDrive\References\_Aerospace\Liquid Rocket Thrust Chambers  Hulka.pdf 
+   page 157: Liquid Bipropellant Injectors, William E. Anderson
+   NOTE: ***** article has injector details. *****
+
+*) put link on RocketCEA page
+
+*) email Ross, Ponzo and Matt
+
+*) Connect EngCoolProp for LOX, LH2, etc.
+     - Also allow fixed point properties input
+
+*) Make *.risp files for all examples
+
+*) generate script from GUI case (with HTML save in script)
+
+*) Add option selects to plot tab (omit Pamb, use frac_ox instead of MR,
+   show IspDel only, switch to efficiency chart, etc.)
+
+*) Tab for selecting loss models, also nozzle separation model instead of Kalt&Badal
+
+*) Document effObj to turn on all calcs
+
+*) Add assumptions to all models (rocketObj, coreObj, geomObj, effObj)
+
+*) 
+
+*) Create a Design Guide for running an analysis
+
+*) Add conical nozzle option (effDiv)
+
+*) Run parametric TDK with different Twall
+
+*) Check delta/Rt ~ (1-Cd)/2 (from LossesRealNozzleEffects.PDF)
+
+*) Remove references to RWTD and RWTU
+
+*) Use parametric ODK to make some fracKin plots
+   (i.e. compare MLP fits to parametric values)
+
+*) THETAI range is about 17 to 70??? (20-35)
+
+*) effHL, add adiabatic wall flag, regen, radiation, ablative
+
+*) Add option to set Lcham with mixing angle, Lgen, etc.
+
+*) effDiv via MLP option is not implemented
+
+*) Calc pcentFFC for a target Twall
+
+*) Maybe change name of Injector object to LiqLiqInjector
+
+*) Use Lgen to determine which propellant controls stability
+
+*) Add effGG (about 1% per 1000 psia of Pc)
+
+*) 
+
+=========================== DONE ===================================
+
+*) Summary page with SI units (HTML?)
+
+*) Add Engine Definition *.INI file (read and save with GUI)
+
+*) Build a GUI (similar to ESP)
+
+*) Add effCham = effERE * effFFC
+
