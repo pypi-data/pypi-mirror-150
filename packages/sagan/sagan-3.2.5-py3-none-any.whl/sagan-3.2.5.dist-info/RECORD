@@ -1,0 +1,16 @@
+sagan/__init__.py,sha256=Trjsn-Fi6o7RrMJJ9QZ4Z8we4lqdfQgk_4tFRxjyhws,3850
+sagan/arducam.py,sha256=yfFYlAP8vZ14KAPDVmG6x_rqKM-OgGYKA37_UQD9AEc,2019
+sagan/baro.py,sha256=8K96CLqoZ8oUBHLaWJKxB0rilKxVCrcWj5cy09ywhJo,4613
+sagan/board.py,sha256=XVUxSF9ZwVXGzp2PJTZ4_gAVdJmgKVTuhdzsWifA6FE,321
+sagan/i2c.py,sha256=NkZgGicNJMP_3nSo5ui5I8EuxdgKJpRpwVRA-Eyk5y4,988
+sagan/imu.py,sha256=jstv9rzWgDHQolStW0j-VLzgqLkfSIw9kJODsKbWFI8,12561
+sagan/leds.py,sha256=uBNjh5R8T4-EBhhKtMFcSXzfaKZSvR65kr9yt-5TpDI,1758
+sagan/rgb_ir.py,sha256=2k7MCynQcX1N2Utc-n86ZyKttzzEkS27w8VIiCmubxA,5366
+sagan/rtc.py,sha256=Hu6Oi6hHWySHWUymTLStZL0ncbA-_K0hyLxBIWlC4vY,2513
+sagan/telemetry.py,sha256=YKr81b4eR9RZWUum5_vg-9km8wW3QzfeNJIgsCMF5KY,436
+sagan/temperature.py,sha256=R0nAnmv7XjtJoOJ7DuAaQQjKLBmlPuPGYg8B3b9ldC4,1022
+sagan/uva.py,sha256=PNLI_fzMYCVaU8Nb7QhZE4buLXzCFPnF6ojbWwIvweg,3495
+sagan-3.2.5.dist-info/METADATA,sha256=WfVCrgv5Ajl2gisSggug6fkILleG7-_XEbTXSiqjLYU,932
+sagan-3.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sagan-3.2.5.dist-info/top_level.txt,sha256=qS8Cbt-BuQwTR8x-cStHijGPwEVIdibmH2sPthWWJHE,6
+sagan-3.2.5.dist-info/RECORD,,
