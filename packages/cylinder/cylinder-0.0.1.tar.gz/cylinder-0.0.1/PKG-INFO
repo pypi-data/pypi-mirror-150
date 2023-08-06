@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cylinder
+Version: 0.0.1
+Summary: A web framework based on Flask
+Home-page: https://github.com/plasmacan/cylinder
+Author: Chris Wheeler
+Author-email: cwheeler@tier2.tech
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+todo: build readme
+
