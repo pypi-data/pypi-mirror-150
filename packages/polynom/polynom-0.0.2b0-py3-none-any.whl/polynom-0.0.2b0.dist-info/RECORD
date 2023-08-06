@@ -1,0 +1,14 @@
+polynom/__init__.py,sha256=qstOz4gZ9Jj2Zq_oKeCeuuO5OERVnxkDQmcFkDVPbQE,278
+polynom/_base.py,sha256=Ro4T6JtvM-_jASdrdobPF2QxKOIyQDbeb3kbcZWlKLs,3155
+polynom/chebyshev.py,sha256=xH37LQI0phLCHuTA_JhrcqGe9MUy-AvVCJkT4INVspk,2635
+polynom/gegenbauer.py,sha256=kLhtRrJa2o92waAaXoqKx_k-z2-4RNPjWVs0N3sU1rs,3100
+polynom/lagrange.py,sha256=5FqMAvPxkkRyw78KqXcBoVZbqwFwNEuHF4vVcUR2zxA,2472
+polynom/legendre.py,sha256=42xWtHI6jMMCgQCjnMuZeK3EPoR4UNPrVP_ulNguBgE,2623
+polynom/monomial.py,sha256=BQB8a8_yFiHSUNi5sT9xqUGR3Bkcf67EbTHQL-dtQYg,5885
+polynom/newton.py,sha256=WBDGfQvVvLhJU_Trqo2e2aXJbvPmZSi9iUYp8evdFwQ,2677
+polynom/shared.py,sha256=oRA2VAfBHTd1_uManTCUsRdR6my-ohQ3cslwWYH7l5U,14997
+polynom-0.0.2b0.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+polynom-0.0.2b0.dist-info/METADATA,sha256=iIvly0mi1LcWkR1eG_UKEyGm8pDMzEwyNngiIL3ytEM,2061
+polynom-0.0.2b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+polynom-0.0.2b0.dist-info/top_level.txt,sha256=eDqURdckLkMqFoACPZ2THkM7kVV907W6ZP4aFdujdgw,8
+polynom-0.0.2b0.dist-info/RECORD,,
