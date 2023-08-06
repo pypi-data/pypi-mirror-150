@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: monquery
+Version: 0.1.0
+Summary: A library for HTTP query string to MongoDB queries translation
+Home-page: https://github.com/monomonedula/monquery
+License: MIT
+Keywords: mongodb,utility,http
+Author: monomonedula
+Author-email: valh@tuta.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/monomonedula/monquery
