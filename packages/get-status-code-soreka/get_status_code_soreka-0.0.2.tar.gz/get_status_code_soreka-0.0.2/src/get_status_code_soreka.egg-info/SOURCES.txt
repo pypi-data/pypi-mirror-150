@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/get_status_code/__init__.py
+src/get_status_code/main.py
+src/get_status_code_soreka.egg-info/PKG-INFO
+src/get_status_code_soreka.egg-info/SOURCES.txt
+src/get_status_code_soreka.egg-info/dependency_links.txt
+src/get_status_code_soreka.egg-info/requires.txt
+src/get_status_code_soreka.egg-info/top_level.txt
