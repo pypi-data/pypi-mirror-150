@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nta_tools.egg-info/PKG-INFO
+nta_tools.egg-info/SOURCES.txt
+nta_tools.egg-info/dependency_links.txt
+nta_tools.egg-info/requires.txt
+nta_tools.egg-info/top_level.txt
+nta_tools.egg-info/zip-safe
+ntatools/__init__.py

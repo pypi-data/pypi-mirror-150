@@ -1,0 +1,2 @@
+nfstream>=6.5.0
+pynvml>=11.4.1
