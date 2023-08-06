@@ -1,0 +1,12 @@
+README.md
+setup.py
+xrdump/__init__.py
+xrdump/__main__.py
+xrdump/zarr2nc.py
+xrdump.egg-info/PKG-INFO
+xrdump.egg-info/SOURCES.txt
+xrdump.egg-info/dependency_links.txt
+xrdump.egg-info/entry_points.txt
+xrdump.egg-info/not-zip-safe
+xrdump.egg-info/requires.txt
+xrdump.egg-info/top_level.txt

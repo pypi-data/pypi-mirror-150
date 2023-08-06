@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: xrdump
+Version: 0.1.0
+Summary: Replacement for ncdump using xarray.
+Author: Allen Institute for Artificial Intelligence
+Author-email: jeremym@allenai.org
+License: BSD license
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+
+Replacement for ncdump using xarray.
+
