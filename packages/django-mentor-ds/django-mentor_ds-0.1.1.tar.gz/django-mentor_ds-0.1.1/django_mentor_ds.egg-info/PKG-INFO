@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: django-mentor-ds
+Version: 0.1.1
+Summary: mentor_ds templates for demiansoft
+Home-page: https://www.demiansoft.com
+Author: hyungjin kim
+Author-email: hj3415@gmail.com
+Project-URL: Bug Tracker, https://pypi.org/project/util-demian/
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+django-mentor_ds
+==========
+
+django-mentor_ds is a Django app to use for demiansoft. 
+
+Quick start
+------------
+
+1. 본 템플릿은 다음의 필수 앱들이 필요하다. 프로젝트의 settings.py에 다음을 추가한다. DATA_PATH 경로도 설정한다.
+```python
+INSTALLED_APPS = [
+    ...
+    
+    'django.contrib.humanize',
+    
+    'mentor_ds',
+    
+    # 필수 컴포넌트
+    'popup',
+    'base',
+    'home',
+    'hero',
+    
+    # 선택 공통 컴포넌트
+    'counts',
+    'about',
+    'whyus',
+    'testimonials',
+    'team',
+    'faq',
+    'contact',
+    'appointment',  # contact에서 내부적으로 사용함
+    
+    # 선택 유니크 컴포넌트
+    'courses',
+    'features',
+    'events',
+    'pricing',
+]
+...
+DATA_PATH = os.path.join(BASE_DIR, '_data', 'context.pickle')
+```
+
+2. home app을 추가한다.
+```commandline
+python manage.py startapp home
+```
+
+3. 프로젝트의 urls.py에 다음을 추가하여 home app에 연결한다.
+```python
+from django.urls import path, include
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    # ...
+    path('', include('home.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+
+4. home app의 urls.py에 다음을 추가하여 view함수와 연결한다.
+```python
+app_name = 'home'
+
+urlpatterns = [
+    path('', views.home),
+    ...
+]
+```
+
+5. views.py에서 context를 pickle로 저장하도록 준비한다.
+```python
+def home(request):
+    ...
+    # context가 될 내용을 context.pickle에 저장한다.
+    with open(settings.DATA_PATH, 'wb') as fw:
+        pickle.dump(context, fw)
+
+    return render(request, f"home/home.html", {'theme': mytheme})
+```
+
+6. home.html에서는 템플릿을 호출할수 있도록 다음을 작성한다.
+```html
+<meta http-equiv="refresh" content="0;URL='{{ url 테마명:buildup }}'">
+```
+
+
+
