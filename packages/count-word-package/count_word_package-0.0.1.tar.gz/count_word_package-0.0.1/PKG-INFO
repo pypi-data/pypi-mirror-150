@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: count_word_package
+Version: 0.0.1
+Summary: Word Count using Counter collections function package
+Home-page: https://github.com/kenmwangi/count-word
+Author: Ken mwangi
+Author-email: contact@kenmwangi.com
+License: MIT
+Description: # Python Packing Examples
+        
+        This package contains simple python scripts to count words using `Counter` collection function.
+        
+        ### Package Folder Structure
+        
+        ```
+        package-folder
+        ├── LICENSE
+        ├── README.md
+        ├── setup.py
+        └── test_package
+            └── __init__.py
+        
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+count_word_package/__init__.py
+count_word_package.egg-info/PKG-INFO
+count_word_package.egg-info/SOURCES.txt
+count_word_package.egg-info/dependency_links.txt
+count_word_package.egg-info/top_level.txt
