@@ -1,0 +1,9 @@
+[console_scripts]
+mdseo_desc = mdseo.core:chk_desc
+mdseo_desc_len = mdseo.core:chk_desc_len
+mdseo_dupe_title = mdseo.core:chk_dupe_title
+mdseo_img = mdseo.core:chk_img
+mdseo_len = mdseo.core:chk_len
+mdseo_slug = mdseo.core:chk_slug
+mdseo_slug_len = mdseo.core:chk_slug_len
+
