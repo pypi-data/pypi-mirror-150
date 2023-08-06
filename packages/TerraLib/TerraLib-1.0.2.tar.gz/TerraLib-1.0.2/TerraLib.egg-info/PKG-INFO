@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: TerraLib
+Version: 1.0.2
+Summary: Common libs for use, include operation on excel, print and so on.
+Home-page: UNKNOWN
+Author: TerraJuly
+Author-email: caijie_hui@163.com
+Maintainer: TerraJuly
+Maintainer-email: caijie_hui@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+
+**介绍**
+    这是一个包含了常用工具的包。包括对excel的处理，打印等等。
+
