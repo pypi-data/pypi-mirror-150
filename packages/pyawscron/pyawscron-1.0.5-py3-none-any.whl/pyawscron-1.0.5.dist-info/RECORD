@@ -1,0 +1,10 @@
+pyawscron/__init__.py,sha256=0bImFspa7BCyjGGDu8YQd8GHs0lu8A7OI4gyCdGTKis,28
+pyawscron/awscron.py,sha256=WVLrZlEV2K951Q_mwZFCefpj_uoBuvSzymL0un00lCg,7523
+pyawscron/commons.py,sha256=sREEH4KjrHKi3_jUY1sqFG92qS7cPZLwH_d_lyVosXg,3901
+pyawscron/occurrence.py,sha256=K0i65bzT2JYrJfT5dqL6w93o2J5vP7HSd2VRpJZEMq0,6290
+pyawscron/version.py,sha256=A2hyo7so0ekhMgLqX7oCoQZq9eN8grvMFanPPMDXD7w,22
+pyawscron-1.0.5.dist-info/LICENSE,sha256=tdX2jNuI9fsiFXbrHPCDXyhvBdOoeM8rqrGb1JRIcto,1518
+pyawscron-1.0.5.dist-info/METADATA,sha256=c4LxIujQd8mvuuGK03OEUZCvJFINzwkyGiwfL1sFjxM,8430
+pyawscron-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyawscron-1.0.5.dist-info/top_level.txt,sha256=IB7p8ABPskIyaSqQAY4nSH9ei62wi_AWmOWuah3hvxw,10
+pyawscron-1.0.5.dist-info/RECORD,,
