@@ -1,0 +1,13 @@
+ulist-0.10.0.dist-info/METADATA,sha256=ARRzpk6AZSAJ53Sjfdo9XSUp4TZyv9LC2f6lDIgVjik,67
+ulist-0.10.0.dist-info/WHEEL,sha256=hctWN9zJ-XQOKJhT6cJs4SNOH9wg41M5fh-2uRM5BCM,106
+ulist/ulist.pyi,sha256=whktKdeJ9caZsUELckivwro_SJjRMiVo820VqLpBtgM,13721
+ulist/constructor.py,sha256=R5e8tGPLlTMmDDI-rr0vXOr-niFzqjJ6Bhvxu6XrKi0,6944
+ulist/control_flow.py,sha256=wpinHC0HPuUWLLJNr8yTmhRWqEKNlPTku8Jyy9ABimc,4236
+ulist/__init__.py,sha256=dGzNBlDBDeEYOJFtX6LeJQrrZbNMtde6Pt73xilcSXM,227
+ulist/core.py,sha256=ulfax3nCwlpVu7iD7aXuyZpLNUgFphDApIsSG6eOf10,19986
+ulist/typedef.py,sha256=14gtMX0jspA5WgdnWGtu16g2rFRLGjsAC87wGJFYA1g,734
+ulist/mypy.ini,sha256=JqG9A9AcNrKVUCmPbaxzf-RHVK808ymVdGvatY3Y45I,140
+ulist/utils.py,sha256=bzN1uiPOkZGzRjiWqx6cXOAt4e1jp7vBynw2uLTvmp8,9825
+ulist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ulist/ulist.cpython-37m-darwin.so,sha256=1ugGIC1sPArr065s25EEmGFMK_KbP31do4pSsHx4Y6Y,1178536
+ulist-0.10.0.dist-info/RECORD,,
