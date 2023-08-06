@@ -1,0 +1,3 @@
+[console_scripts]
+wiktrola=wiktrola.script:run
+
