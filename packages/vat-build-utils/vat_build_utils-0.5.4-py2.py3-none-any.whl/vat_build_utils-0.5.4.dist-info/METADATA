@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vat-build-utils
+Version: 0.5.4
+Summary: UNKNOWN
+Author: VAT Dev
+Author-email: vatdev@invalid.in
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: boto3
+Requires-Dist: docker (<4.0,>=3.0)
+Requires-Dist: vat-utils
+Requires-Dist: ruamel.yaml
+
+UNKNOWN
+
