@@ -1,0 +1,11 @@
+vid2emoji/__init__.py,sha256=SDhk6o72NkbnapDHNYNs41fcOzu0HrMT0qitFqSqaO0,30
+vid2emoji/encode.py,sha256=4qSHmIEt-uikDq7fkB-PO8_-azE_GY6-KkUF6aNQE6M,2864
+vid2emoji/emojEncode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vid2emoji/emojEncode/emojencoder.py,sha256=Sc3-j0M2IUVdoqHLvcL65F8pJg25X6GRTYAiQ8UsDfU,2496
+vid2emoji/emojEncode/emojiGamutPartitioned.json,sha256=-7riH3jGkvVyBDvWlnFdzw1e4p4z3DWApqYEXBkj-Zk,36189
+vid2emoji-0.0.1.dist-info/LICENSE.txt,sha256=proz4x91SZR421UPJagjkyhDHtFpfHvGE_JrhKY2bz8,34667
+vid2emoji-0.0.1.dist-info/METADATA,sha256=93wZdUB3Sg7K-HOlc3s_K7MHcbwKn5Y1HHvCWd5Kjz4,977
+vid2emoji-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vid2emoji-0.0.1.dist-info/entry_points.txt,sha256=nQRnok6LZvcCWqUm6lnTJ2DHiN3ySo2-fv5X76BcLOs,52
+vid2emoji-0.0.1.dist-info/top_level.txt,sha256=zUbmxO-B1aBKZpIXprLlUXpl3seobB5ugTTi5V7116A,10
+vid2emoji-0.0.1.dist-info/RECORD,,
