@@ -1,0 +1,5 @@
+attrs>=20.3.0
+tzlocal==2.1
+
+[:python_version < "3.7"]
+contextvars>=2.4

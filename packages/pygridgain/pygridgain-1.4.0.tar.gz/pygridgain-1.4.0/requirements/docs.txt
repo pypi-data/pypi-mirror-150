@@ -1,0 +1,6 @@
+# these packages are required for documentation building
+# (look up the prebuilt docs in `docs/generated`)
+
+-r install.txt
+Sphinx==4.3.2
+sphinxcontrib-fulltoc==1.2.0
