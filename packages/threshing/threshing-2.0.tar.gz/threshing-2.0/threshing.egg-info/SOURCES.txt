@@ -1,0 +1,6 @@
+README.md
+setup.py
+threshing.egg-info/PKG-INFO
+threshing.egg-info/SOURCES.txt
+threshing.egg-info/dependency_links.txt
+threshing.egg-info/top_level.txt
