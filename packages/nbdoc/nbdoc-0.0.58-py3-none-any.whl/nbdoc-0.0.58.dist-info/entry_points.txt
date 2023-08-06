@@ -1,0 +1,9 @@
+[console_scripts]
+nbdoc_build = nbdoc.convert:nbdoc_build
+nbdoc_chk_desc = nbdoc.meta:chk_desc
+nbdoc_chk_desc_len = nbdoc.meta:chk_desc_len
+nbdoc_chk_img = nbdoc.meta:chk_img
+nbdoc_chk_len = nbdoc.meta:chk_len
+nbdoc_linkify = nbdoc.docindex:nbdoc_linkify
+nbdoc_test = nbdev.test:nbdev_test_nbs
+nbdoc_update = nbdoc.run:nbdoc_update
