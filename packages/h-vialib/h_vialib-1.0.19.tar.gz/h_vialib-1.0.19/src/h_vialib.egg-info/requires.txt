@@ -1,0 +1,9 @@
+pyjwt
+webob
+
+[tests]
+coverage
+h-matchers
+pyjwt
+pytest
+webob
