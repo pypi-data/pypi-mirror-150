@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: PyTaskbarProgress
+Version: 0.0.8
+Summary: The ultimate taskbar progress python package!
+Home-page: https://github.com/somePythonProgrammer/PyTaskbar
+Download-URL: https://github.com/somePythonProgrammer/PyTaskbar/archive/refs/tags/0.0.8.tar.gz
+Author: somePythonProgrammer
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyTaskbar
+### The ultimate taskbar progress python package!
+
+![](https://img.shields.io/github/downloads/somePythonProgrammer/PyTaskbar/total)
+![](https://img.shields.io/github/license/somePythonProgrammer/PyTaskbar?label=license)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=somePythonProgrammer.PyTaskbar)
+
+[Docs Here!](https://github.com/somePythonProgrammer/PyTaskbar/blob/main/DOCS.md)
+
+#### Works for both terminals and GUIs!
+
+## Requirements:
+
+        comtypes
+        PyGetWindow
+
+
+## **Installation**
+[click here](https://github.com/somePythonProgrammer/PyTaskbar/blob/main/DOCS.md#installation)
+<HR>
+        
+## **Example**:
+
+    import time
+    import PyTaskbar
+
+    prog = PyTaskbar.Progress()
+    prog.init()
+
+    prog.setState('loading')
+    time.sleep(5)
+
+    prog.setState('normal')
+
+    for i in range(100):
+        prog.setProgress(i)
+        time.sleep(0.05)
+    prog.setProgress(0)
+
+    prog.setState('warning')
+
+    for i in range(100):
+        prog.setProgress(i)
+        time.sleep(0.05)
+
+    prog.setProgress(0)
+    prog.setState('error')
+
+    for i in range(100):
+        prog.setProgress(i)
+        time.sleep(0.05)
+
+    prog.setProgress(0)
+
+    prog.setState('done')
+    while True:
+        time.sleep(1)
+        print('close me!')
+
+
+<HR>
+
+### Happy Coding!
