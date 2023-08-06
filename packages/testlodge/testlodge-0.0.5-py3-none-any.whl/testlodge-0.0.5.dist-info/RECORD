@@ -1,0 +1,11 @@
+testlodge/__init__.py,sha256=MGdDhQ-oEaYTMBaNXa23D_lrMKr3o6vfSrSC3ZHjo5o,164
+testlodge/_constants.py,sha256=aJwUSwUMAhypn1SBetjr7eJ4a4ts69esNQTIHLiJgZA,81
+testlodge/_types.py,sha256=er0fUvdHRB4g2rSOPQY31bZ-qp3PzXr1_qLI0WrqUts,391
+testlodge/client.py,sha256=gmWCZx5i9lF7JblyhFo6xXU5OZAMkK-b5HVLePNIkgk,1022
+testlodge/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testlodge/models/user.py,sha256=iJV_LveMSuaXwc8J4QQYCokBsaRePM62cATQEEMc75I,224
+testlodge-0.0.5.dist-info/LICENSE,sha256=z6E0_QU0VTZMEU6eAtrFPq46gwwk6PWYNbGS6YEyGMs,1200
+testlodge-0.0.5.dist-info/METADATA,sha256=VsV6PF5CQyG83ZCMQh_QQla4_d_giXIyuqN2OLnhEX8,1253
+testlodge-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+testlodge-0.0.5.dist-info/top_level.txt,sha256=c0DjGe8XD8jFHvonA05wvlZoLZs2ZWxGm_zaCYGdgkQ,10
+testlodge-0.0.5.dist-info/RECORD,,
