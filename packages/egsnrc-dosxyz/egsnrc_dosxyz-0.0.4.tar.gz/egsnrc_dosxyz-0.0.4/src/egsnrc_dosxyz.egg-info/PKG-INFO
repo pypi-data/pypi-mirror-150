@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: egsnrc-dosxyz
+Version: 0.0.4
+Summary: Read Write 3ddose and egsphant files
+Home-page: https://github.com/karnigen/egsnrc_dosxyz
+Author: Tony Karnigen
+Author-email: karnigen@gmail.com
+Project-URL: Bug Tracker, https://github.com/karnigen/egsnrc_dosxyz/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# egsnrc_dosxyz
+read write 3ddose and egsphant files
