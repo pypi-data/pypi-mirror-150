@@ -1,0 +1,10 @@
+flask_api_framework/__init__.py,sha256=ZA4BJXcYCJyOclJ9SFz7pdK7QPBSznAYlC8V5aifDkI,132
+flask_api_framework/errors.py,sha256=RzYS39x0AOnYPIZF9b-lTGyzEY5E1E889jKpAQgEbf8,733
+flask_api_framework/ext.py,sha256=_bqg_IxeGl6396qg0OUJdch7xlzxLtje-qVCL1Aedo4,487
+flask_api_framework/helpers.py,sha256=KRP5bhACNp1Iq_Eepn4acideT2kkUWRs7YvvAuDvc7k,576
+flask_api_framework/views.py,sha256=hMPWdcVcq02o_y1QNIvSEXm9qR70HO5HxuaoOr24iIU,9290
+Flask_API_Framework-0.0.3.dist-info/LICENSE,sha256=ZSFwIiuHqFliC0b597Nsa39OCdbvJWw4VEdqQ1UEgtI,1524
+Flask_API_Framework-0.0.3.dist-info/METADATA,sha256=lmtCcvhfYmpNh4sKOY9x5mW-P6_PvSYXnweuhksNSdI,1841
+Flask_API_Framework-0.0.3.dist-info/WHEEL,sha256=sUUyh13Zl2CLgx-5qtIC_BXerOaLJEeWveWcly42b7k,93
+Flask_API_Framework-0.0.3.dist-info/top_level.txt,sha256=-KqRfTuRBdISMV4gDvXksbO20v5lDJNIdNILmOIb4tY,20
+Flask_API_Framework-0.0.3.dist-info/RECORD,,

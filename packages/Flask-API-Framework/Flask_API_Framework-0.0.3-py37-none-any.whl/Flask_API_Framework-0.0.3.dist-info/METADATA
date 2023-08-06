@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Flask-API-Framework
+Version: 0.0.3
+Summary: Flask API Framework
+Home-page: UNKNOWN
+Author: Mattias Lindvall
+Author-email: mattias.lindvall@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://flask-api-framework.readthedocs.io/
+Project-URL: Source, https://github.com/thnee/flask-api-framework
+Keywords: flask api framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Flask
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: flask (>=2.0.0)
+Requires-Dist: marshmallow (>=3.14.0)
+Provides-Extra: build
+Requires-Dist: wheel (~=0.37.1) ; extra == 'build'
+Requires-Dist: twine (~=4.0.0) ; extra == 'build'
+Provides-Extra: test
+Requires-Dist: flask-sqlalchemy (~=2.5.1) ; extra == 'test'
+Requires-Dist: marshmallow-sqlalchemy (~=0.28.0) ; extra == 'test'
+Requires-Dist: flask-marshmallow (~=0.14.0) ; extra == 'test'
+Requires-Dist: pytest (~=7.1.2) ; extra == 'test'
+Requires-Dist: pytest-cov (~=3.0.0) ; extra == 'test'
+Requires-Dist: flake8 (~=4.0.1) ; extra == 'test'
+Requires-Dist: flake8-print (~=5.0.0) ; extra == 'test'
+Requires-Dist: flake8-bugbear (~=22.4.25) ; extra == 'test'
+Requires-Dist: black (~=22.3.0) ; extra == 'test'
+Requires-Dist: isort (~=5.10.1) ; extra == 'test'
+Requires-Dist: invoke (~=1.7.1) ; extra == 'test'
+Requires-Dist: tox (~=3.25.0) ; extra == 'test'
+
+Please see the project links.
+
