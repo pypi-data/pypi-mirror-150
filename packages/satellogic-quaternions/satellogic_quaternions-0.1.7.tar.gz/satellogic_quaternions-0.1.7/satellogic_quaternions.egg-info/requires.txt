@@ -1,0 +1,7 @@
+numpy
+
+[dev]
+flake8>=2.5.4
+hypothesis
+pytest
+pytest-coverage
