@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: SouBaiduPan
+Version: 0.1.0
+Summary: BaiduPan searcher
+Home-page: https://github.com/acgmusic/SouBaiduPan-master
+Author: acgmusic
+Author-email: 1152764556@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: tqdm
+Requires-Dist: threading
+Requires-Dist: lxml
+Requires-Dist: requests
+
+
+# SouBaiduPan-master
+
+## 搜索百度网盘资源，自动抓取密码，可在Chrome浏览器中批量打开百度网盘链接。
+
+
