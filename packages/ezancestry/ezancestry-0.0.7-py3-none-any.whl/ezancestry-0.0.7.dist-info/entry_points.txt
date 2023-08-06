@@ -1,0 +1,3 @@
+[console_scripts]
+ezancestry=ezancestry.commands:app
+
