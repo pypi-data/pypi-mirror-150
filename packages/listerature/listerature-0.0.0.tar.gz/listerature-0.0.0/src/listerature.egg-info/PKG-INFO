@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: listerature
+Version: 0.0.0
+Summary: Reading list generator
+Home-page: UNKNOWN
+Author: James Gregory
+Author-email: james.gregory94@hotmail.co.uk
+License: "MIT license"
+Description: listerature is a package for generating chronologically ordered reading lists using a Google Scholar API. Copy of readily.
+        
+Platform: UNKNOWN

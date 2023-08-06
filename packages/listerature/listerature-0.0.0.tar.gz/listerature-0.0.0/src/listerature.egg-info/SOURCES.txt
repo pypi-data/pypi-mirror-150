@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/Makefile
+docs/make.bat
+docs/source/conf.py
+docs/source/index.rst
+examples/example.py
+src/listerature/__init__.py
+src/listerature/module1.py
+src/listerature.egg-info/PKG-INFO
+src/listerature.egg-info/SOURCES.txt
+src/listerature.egg-info/dependency_links.txt
+src/listerature.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_module1.py
