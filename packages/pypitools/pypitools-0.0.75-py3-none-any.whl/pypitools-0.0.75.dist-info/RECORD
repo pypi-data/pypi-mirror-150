@@ -1,0 +1,15 @@
+pypitools/__init__.py,sha256=Boh3eS1v4fwUdHSMArseoCs_3A1lFIil7Xtzo3Yc0tY,26
+pypitools/common.py,sha256=YWOPVxuiKZuiveUAoJLUMB3kXjBwBiI_bnC8mYxTusk,4636
+pypitools/configs.py,sha256=UmNzIVbIngsgIirjlXMxNKRwU6FgMHdxP-RhydlqQgM,2954
+pypitools/git_utils.py,sha256=cBDgSCrUhqvj_35zuH8QWYX6HphA7-LjiQpcYaxelZs,201
+pypitools/main.py,sha256=HMhlEUzynEy8R8dGb01lLUToYmnPcaImZGxncF4PD94,5600
+pypitools/name_utils.py,sha256=BiUNWPtFYuHeyJ8DgN2OKsH2VclZwra8WXxRD7Er3WI,572
+pypitools/process_utils.py,sha256=xVtvaUFcolAMFFU3nyBnDdIJ-K7dvmtFYCbPXTtVMWE,1238
+pypitools/static.py,sha256=H88KwRpOiEa6FGYPiOJAo4psVY7OnKwnzsPBjHx8oPs,193
+pypitools/utils.py,sha256=PPfa6oPs4KYXc4vQWcroOkiyIpub0u9UjpqPuIaDYdA,112
+pypitools-0.0.75.dist-info/LICENSE,sha256=EXYyJnEISwRHPI6votWWYZsYO6nLtAWefr-P-q0h7Ug,1069
+pypitools-0.0.75.dist-info/METADATA,sha256=XT7D3AUN7L-9M5anGbOjfc2b4Jo5BV_fqW9bYlLdSgQ,1306
+pypitools-0.0.75.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypitools-0.0.75.dist-info/entry_points.txt,sha256=m2QAHyWoyLGQXaZ6O46ulo33aVIoWr1SJDAicCmdfPI,51
+pypitools-0.0.75.dist-info/top_level.txt,sha256=b88t5_lfx0canhmvK7s5drEjidN0tIYZsUVS2QgZgc0,10
+pypitools-0.0.75.dist-info/RECORD,,
