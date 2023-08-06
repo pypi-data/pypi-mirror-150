@@ -1,0 +1,5 @@
+elasticsearch
+fire
+marisa_trie
+redis
+requests
