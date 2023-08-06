@@ -1,0 +1,7 @@
+example_package_oren/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_oren/example.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+datagen_example_pypi-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+datagen_example_pypi-0.0.4.dist-info/METADATA,sha256=CmFH6sR-B71QvTtxuUnEkV2d-pwVblnNZ8ngIkfANJc,299
+datagen_example_pypi-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datagen_example_pypi-0.0.4.dist-info/top_level.txt,sha256=2T7WPHIGcNFTzwmBkMeGMCEssiIdU-VRAigVtII-3xQ,21
+datagen_example_pypi-0.0.4.dist-info/RECORD,,
