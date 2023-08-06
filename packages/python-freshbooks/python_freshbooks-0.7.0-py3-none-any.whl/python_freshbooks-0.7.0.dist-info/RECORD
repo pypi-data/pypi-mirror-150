@@ -1,0 +1,12 @@
+freshbooks/__init__.py,sha256=FsNQVXepEafPHd2jJKjIDDfL9U0CDm3wAXAsmolCA7c,5095
+freshbooks/client.py,sha256=HzCAjIu_uBn-wIue61QR4N4PGviMzajx2sCgc9xKIrs,1759
+freshbooks/exceptions.py,sha256=RsJqPmS5zW26nUiwDUpoU1HuQhGCtpgOx151ijW7Gas,124
+freshbooks/httpx_client.py,sha256=gecJ67UhYsZcu_RfxP0pJAuaqTq_xX14DC-0lc4HRog,2032
+freshbooks/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freshbooks/model/business.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freshbooks/model/identity.py,sha256=LMcSBLE8OG5kzlHttuahs7aPJygOQMCnapG10vHszCs,318
+python_freshbooks-0.7.0.dist-info/LICENSE,sha256=yS2z3FOQtXySMOQkF4TRg6W1T4vqbJU9U93t0sYUYCs,1074
+python_freshbooks-0.7.0.dist-info/METADATA,sha256=mZLDFvQDKuEmd6vG_vJbvyMNjqBPyelRM5oAQN2qbu4,304
+python_freshbooks-0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_freshbooks-0.7.0.dist-info/top_level.txt,sha256=k_TauQELrG486J3nisRGHyxHffjH3kOMKLdCC-JHi_E,11
+python_freshbooks-0.7.0.dist-info/RECORD,,
