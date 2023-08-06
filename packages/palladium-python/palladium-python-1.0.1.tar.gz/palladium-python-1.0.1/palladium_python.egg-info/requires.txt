@@ -1,0 +1,5 @@
+pandas
+requests
+selenium
+python-dateutil
+viper-python
