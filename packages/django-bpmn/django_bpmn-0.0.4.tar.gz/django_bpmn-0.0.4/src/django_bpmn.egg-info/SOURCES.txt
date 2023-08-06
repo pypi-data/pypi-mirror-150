@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_bpmn/__init__.py
+src/django_bpmn/widget.py
+src/django_bpmn.egg-info/PKG-INFO
+src/django_bpmn.egg-info/SOURCES.txt
+src/django_bpmn.egg-info/dependency_links.txt
+src/django_bpmn.egg-info/requires.txt
+src/django_bpmn.egg-info/top_level.txt
+src/django_bpmn/static/django_bpmn/css/bpmn-js.css
+src/django_bpmn/static/django_bpmn/css/bpmn.css
+src/django_bpmn/static/django_bpmn/css/diagram-js.css
+src/django_bpmn/static/django_bpmn/css/django_bpmn.css
+src/django_bpmn/static/django_bpmn/js/bpmn-modeler.development.js
+src/django_bpmn/templates/django_bpmn/bpmn.html
