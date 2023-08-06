@@ -1,0 +1,14 @@
+*.py[co]
+*.so
+__pycache__/
+/_skbuild/
+/_cmake_test_compile/
+/niftypet/nimpa/cmake/
+/niftypet/nimpa/_dist_ver.py
+MANIFEST
+/*.egg*/
+/build/
+/dist/
+/.coverage*
+/coverage.xml
+/.pytest_cache/
