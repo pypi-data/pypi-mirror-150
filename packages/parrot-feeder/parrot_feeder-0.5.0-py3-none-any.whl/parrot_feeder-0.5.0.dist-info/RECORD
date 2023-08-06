@@ -1,0 +1,10 @@
+parrotfeeder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parrotfeeder/config.py,sha256=9nymnyqZEhy0lvBCP7Ks2UUZuiT_TSYjbhODsLwIW0s,351
+parrotfeeder/parrot_feeder.py,sha256=LLiqokKNzjATy6F6FoPGKB8fko6jnme_aZ0-HORpNbM,9035
+parrotfeeder/squire.py,sha256=LGdvNwDiF6y-y53ghoLuCO_xda5ww9_f-6i5FZwWTRQ,5460
+parrot_feeder-0.5.0.dist-info/LICENSE,sha256=967_AkS3_ngrUwOCrxq3JgC4B4b91RLNanyo6Z-dwSY,1063
+parrot_feeder-0.5.0.dist-info/METADATA,sha256=NxhRlMalmWLUjXBIvQhMAgndPb5McXyyymFRQ1kNdhI,1625
+parrot_feeder-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parrot_feeder-0.5.0.dist-info/entry_points.txt,sha256=5-QxaHXTF7983uy2socjyzp7NpAJulK8CmTyMo1A0xU,66
+parrot_feeder-0.5.0.dist-info/top_level.txt,sha256=0EZ8jUyu7FuihAHiOAN4pTUveol0mKFPD5i8u3IeOrM,13
+parrot_feeder-0.5.0.dist-info/RECORD,,
