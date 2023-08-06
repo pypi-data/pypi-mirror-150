@@ -1,0 +1,2 @@
+revisions.rst:19: [redirected with Found] https://github.com/lbl-srg/BuildingsPy/pull/451 to https://github.com/lbl-srg/BuildingsPy/issues/451
+index.rst:24: [redirected permanently] https://www.scipy.org/ to https://scipy.org/
