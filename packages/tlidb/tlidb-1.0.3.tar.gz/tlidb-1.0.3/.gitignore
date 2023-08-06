@@ -1,0 +1,20 @@
+**/__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+
+**.zip
+
+dataset_preprocessing/*
+!dataset_preprocessing/DailyDialog/
+!dataset_preprocessing/friends/
+dataset_preprocessing/DailyDialog/TLiDB_DailyDialog/*
+dataset_preprocessing/friends/TLiDB_Friends/*
