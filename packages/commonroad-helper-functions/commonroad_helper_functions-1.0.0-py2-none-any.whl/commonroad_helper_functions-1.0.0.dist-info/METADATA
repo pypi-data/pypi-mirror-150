@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: commonroad-helper-functions
+Version: 1.0.0
+Summary: Additional supplement functions to CommonRoad
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CommonRoad Helper Functions
+
+## Installation as package
+Install this package with the following command:
+
+`pip install commonroad-helper-functions`
+
+### CommonRoad Scenarios
+In order to test the provided functions, download the scenarios by cloning the commonroad-scenarios repository:
+
+`git clone https://gitlab.lrz.de/tum-cps/commonroad-scenarios.git`
+
+Make sure to place the folder on the same directory level as this repository:
+
+```
+|
+|-- commonroad_helper_functions (This repository)
+|-- commonroad_scenarios
+|
+```
+
+## Functionalities
+
+### Sensor Occlusion Model
+
+As part of this repository a sensor model is implemented. Based on the position of an ego vehicle, the visible area is determined and all dynamic objects within this area are returned. Occlusions by dynamic objects can be taken into account, as well as by the road geometry.
+The two examples show the visible area in green. In contrast to the left, the right video uses a wall buffer of 5m. This means that we assume a buffer of 5m around the lane geometry that can be seen through.
+
+A dynamic objects is considered as visible as soon as any part of it can be physically seen from the ego position.
+
+![Sensor model without wall buffer](images/sensor_wo_buffer.gif) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Sensor model with 5m wall buffer](images/sensor_5m_buffer.gif)
+
+
+#### Deployment
+
+1. Import sensor model function
+
+`from commonroad_helper_functions.sensor_model import get_visible_objects`
+
+2. Call function
+
+`visible_object_ids, visible_area = get_visible_objects(scenario, time_step, ego_pos)`
+
+##### Optional Arguments
+* `sensor_radius`: Float number that defines the sensor radius in meter
+* `occlusion`: True if occlusions by dynamic objects should be considered
+* `wall_buffer`: Float number that defines the wall buffer in meter (see example above)
+
+
