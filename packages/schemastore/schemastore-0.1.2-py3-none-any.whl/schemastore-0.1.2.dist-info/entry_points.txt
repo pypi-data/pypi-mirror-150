@@ -1,0 +1,2 @@
+[console_scripts]
+schemastore = schemastore.__main__:main
