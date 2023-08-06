@@ -1,0 +1,8 @@
+nonebot_plugin_eventdone/.gitignore,sha256=ebb4BU-O9ennjBgXS_V8rymxFBAWa5Jo1pI-h1IOuI8,1799
+nonebot_plugin_eventdone/__init__.py,sha256=BYFO2H7c_OqsbmeGbNp_daLU41XAnv7ExCypvhNBZzM,3226
+nonebot_plugin_eventdone/config.py,sha256=5V9roOVMbL_lkMGiyGKU9bMi923-n2Vc2TzOCdxF8r0,99
+nonebot_plugin_eventdone/set.json,sha256=oBuBbsju_ffdyDJe28FoN106Mt3r32i1_gCYcFCSF0o,215
+nonebot_plugin_eventdone-0.1.7.dist-info/LICENSE,sha256=Qda6wT8uEu6CrkVxR71C6BSKoKeqAxXrA1F3Pdub-YA,1068
+nonebot_plugin_eventdone-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+nonebot_plugin_eventdone-0.1.7.dist-info/METADATA,sha256=ObW11VMSVQ1v6Nm4Yf6Dbx6o4mJnXY8XthwYLbGiUp8,422
+nonebot_plugin_eventdone-0.1.7.dist-info/RECORD,,
