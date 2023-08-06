@@ -1,0 +1,5 @@
+aiohttp
+anti-header
+w3lib
+parsel
+PyDispatcher
