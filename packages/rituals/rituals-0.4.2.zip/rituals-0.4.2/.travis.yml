@@ -1,0 +1,26 @@
+#
+# Travis Project Descriptor
+#
+# See http://docs.travis-ci.com/user/build-configuration/
+#
+
+# build matrix
+language: python
+cache: pip
+python:
+    - "3.6"
+    - "3.7"
+    - "3.8"
+#    - "pypy"
+
+# command to install dependencies
+install:
+    - "pip install -r dev-requirements.txt"
+    - "python setup.py develop -U"
+
+# command to run tests
+script: invoke --echo --pty ci
+
+# report to coveralls.io
+after_success:
+    - coveralls --rcfile project.d/coverage.cfg
