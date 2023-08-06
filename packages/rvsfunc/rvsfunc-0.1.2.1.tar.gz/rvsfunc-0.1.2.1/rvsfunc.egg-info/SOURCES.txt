@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rvsfunc/NNEDI3.py
+rvsfunc/__init__.py
+rvsfunc/dvd.py
+rvsfunc/edgecase.py
+rvsfunc/errors.py
+rvsfunc/masking.py
+rvsfunc/utils.py
+rvsfunc.egg-info/PKG-INFO
+rvsfunc.egg-info/SOURCES.txt
+rvsfunc.egg-info/dependency_links.txt
+rvsfunc.egg-info/not-zip-safe
+rvsfunc.egg-info/requires.txt
+rvsfunc.egg-info/top_level.txt
