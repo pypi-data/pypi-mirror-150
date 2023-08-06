@@ -1,0 +1,3 @@
+[console_scripts]
+fib_number = fliton_fib_py.cmd.fib_numb:fib_numb
+
