@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/brightspot_employee/__init__.py
+src/brightspot_employee/employee.py
+src/brightspot_employee/room.py
+src/brightspot_employee/util.py
+src/brightspot_employee.egg-info/PKG-INFO
+src/brightspot_employee.egg-info/SOURCES.txt
+src/brightspot_employee.egg-info/dependency_links.txt
+src/brightspot_employee.egg-info/top_level.txt
