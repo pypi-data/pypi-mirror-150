@@ -1,0 +1,17 @@
+README.md
+setup.py
+MySerializers.egg-info/PKG-INFO
+MySerializers.egg-info/SOURCES.txt
+MySerializers.egg-info/dependency_links.txt
+MySerializers.egg-info/top_level.txt
+MySerializers/json/__init__.py
+MySerializers/json/json_serializer.py
+MySerializers/json/parser.py
+MySerializers/src/__init__.py
+MySerializers/src/constants.py
+MySerializers/src/serializer.py
+MySerializers/toml/__init__.py
+MySerializers/toml/parser.py
+MySerializers/toml/toml_serializer.py
+MySerializers/yaml/__init__.py
+MySerializers/yaml/yaml_serializer.py

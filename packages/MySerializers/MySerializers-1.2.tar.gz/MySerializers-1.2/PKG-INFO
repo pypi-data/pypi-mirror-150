@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MySerializers
+Version: 1.2
+Summary: library for python serialization
+Home-page: https://github.com/ArtemDemba/LabsPython/tree/master
+Author: Dembovskiy Artem
+Author-email: DVL.45@mail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is the library for python serialization
