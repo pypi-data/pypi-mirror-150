@@ -1,0 +1,11 @@
+janus
+jinja2
+numpy
+python-can
+pyyaml
+websockets
+
+[gui]
+pyqt5
+pyqtgraph
+qscintilla
