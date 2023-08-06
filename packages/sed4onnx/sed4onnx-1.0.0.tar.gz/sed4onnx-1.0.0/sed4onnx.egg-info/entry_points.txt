@@ -1,0 +1,3 @@
+[console_scripts]
+sed4onnx = sed4onnx:main
+
