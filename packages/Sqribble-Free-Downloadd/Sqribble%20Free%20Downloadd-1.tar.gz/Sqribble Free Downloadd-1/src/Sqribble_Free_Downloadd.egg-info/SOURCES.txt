@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Sqribble_Free_Downloadd.egg-info/PKG-INFO
+src/Sqribble_Free_Downloadd.egg-info/SOURCES.txt
+src/Sqribble_Free_Downloadd.egg-info/dependency_links.txt
+src/Sqribble_Free_Downloadd.egg-info/top_level.txt
