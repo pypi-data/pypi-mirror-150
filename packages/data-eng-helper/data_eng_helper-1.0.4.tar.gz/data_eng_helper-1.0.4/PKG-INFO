@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: data_eng_helper
+Version: 1.0.4
+Summary: data engineers helper module
+Home-page: https://github.com/omusana/dataeng_exercise/tree/master/exercise_2
+Author: Oscar Musana Asiimwe
+Author-email: omusana@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+**Data engineering helper module**
+
+Package help with common Pandas' data frame operations.
+
+Set up the module using ```pip install data_eng_helper```
+
+
