@@ -1,0 +1,8 @@
+README.md
+setup.py
+bloomrpyc/__init__.py
+bloomrpyc/main.py
+bloomrpyc.egg-info/PKG-INFO
+bloomrpyc.egg-info/SOURCES.txt
+bloomrpyc.egg-info/dependency_links.txt
+bloomrpyc.egg-info/top_level.txt
