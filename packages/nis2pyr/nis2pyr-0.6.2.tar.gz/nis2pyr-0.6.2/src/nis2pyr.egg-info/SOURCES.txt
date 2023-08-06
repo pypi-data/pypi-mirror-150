@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nis2pyr/__init__.py
+src/nis2pyr/__main__.py
+src/nis2pyr/convertor.py
+src/nis2pyr/metadata.py
+src/nis2pyr/nis2pyr.py
+src/nis2pyr/reader.py
+src/nis2pyr/writer.py
+src/nis2pyr.egg-info/PKG-INFO
+src/nis2pyr.egg-info/SOURCES.txt
+src/nis2pyr.egg-info/dependency_links.txt
+src/nis2pyr.egg-info/entry_points.txt
+src/nis2pyr.egg-info/requires.txt
+src/nis2pyr.egg-info/top_level.txt

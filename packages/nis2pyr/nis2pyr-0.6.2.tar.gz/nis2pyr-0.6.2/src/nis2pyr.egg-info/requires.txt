@@ -1,0 +1,17 @@
+tifffile==2021.8.30
+imagecodecs==2021.8.26
+opencv-python==4.5.3.56
+ome_types==0.2.9
+nd2==0.1.4
+
+[:python_version < "3.8"]
+importlib-metadata==4.8.1
+
+[dev]
+coverage
+flake8
+mypy
+pyinstaller
+pytest
+pytest-cov
+pytest-mock
