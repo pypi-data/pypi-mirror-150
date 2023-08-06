@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: high5py
+Version: 0.2
+Summary: Interact with HDF5 files using one-line function calls
+Home-page: http://high5py.readthedocs.io
+Author: Jonathan H. Tu
+Maintainer: Jonathan H. Tu
+License: Free BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
