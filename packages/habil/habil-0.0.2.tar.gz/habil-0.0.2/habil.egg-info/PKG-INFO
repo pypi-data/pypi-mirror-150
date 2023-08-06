@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: habil
+Version: 0.0.2
+Summary: a lite python wrapper for habitica api
+Home-page: https://github.com/ZackaryW/habil
+Author: ZackaryW
+Author-email: zackaryxcw@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+['# habil\n', '## requirements\n', 'requests\n', '## examples\n', '### setting up a client\n', '>method 1: using username and password\n', '```py\n', 'from habil import HabiClient\n', '\n', 'client = HabiClient.login(\n', '    username="xxxxxxxxxxxxx",\n', '    password="`xxxxxxxxxxxxxx"\n', ')\n', '```\n', '\n', '### get tasks\n', '> method 1\n', '```py\n', 'for task in client.tasks:\n', '    print(task)\n', '\n', '"""\n', 'HabiHabit(a2e4ab47-6eb0-44f9-90f2-e9fecfb93d8d)\n', 'HabiHabit(9e3f908c-5c66-45b0-8a56-9873356f13e2)\n', 'HabiDaily(336ba8f2-948e-4d14-ab8d-87b61c7034be)\n', 'HabiDaily(ed1d2801-2676-440a-b967-7c6284d9d117)\n', 'HabiDaily(a428340d-a035-4008-b8d1-5f5c246a9b82)\n', 'HabiTodo(d98ca9fb-c8a4-4b79-a9bc-2c08aecede61)\n', 'HabiTodo(8735fc9e-803c-480e-8ddb-351b74fe56bf)\n', 'HabiReward(cea84120-a3a4-4da8-a8a7-fbf0438fe37e)\n', '"""\n', '```\n', '\n', '### update stats\n', '> -1 hp in exchange for 1 gold\n', '```py\n', '# assuming current hp 50 and gold 0\n', 'stats = client.stats.update(gold=1, hp=-1)\n', '# expected hp 49 and gold 1\n', '```\n', '\n', '### get tags\n', '```py\n', 'for tag in client.tags:\n', '    print(tag.name)\n', '\n', '"""\n', 'Work\n', 'Exercise\n', 'Health + Wellness\n', 'School\n', 'Teams\n', 'Chores\n', 'Creativity\n', '```\n', '\n']
+
