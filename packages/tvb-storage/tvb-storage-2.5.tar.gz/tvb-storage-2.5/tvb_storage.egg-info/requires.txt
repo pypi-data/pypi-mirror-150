@@ -1,0 +1,11 @@
+cryptography
+h5py
+numpy
+pyAesCrypt
+scipy
+
+[encrypt]
+syncrypto
+
+[test]
+pytest
