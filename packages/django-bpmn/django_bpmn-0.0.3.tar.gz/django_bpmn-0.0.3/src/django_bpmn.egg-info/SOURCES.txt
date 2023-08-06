@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_bpmn/__init__.py
+src/django_bpmn/widget.py
+src/django_bpmn.egg-info/PKG-INFO
+src/django_bpmn.egg-info/SOURCES.txt
+src/django_bpmn.egg-info/dependency_links.txt
+src/django_bpmn.egg-info/top_level.txt
