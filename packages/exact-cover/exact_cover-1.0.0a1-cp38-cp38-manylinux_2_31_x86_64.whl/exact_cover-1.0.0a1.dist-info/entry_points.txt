@@ -1,0 +1,6 @@
+[console_scripts]
+debug=tools.debug:run_debug
+doctest=tools.run_tests:run_doctest
+quicktest=tools.run_tests:quicktest
+test=tools.run_tests:test
+
