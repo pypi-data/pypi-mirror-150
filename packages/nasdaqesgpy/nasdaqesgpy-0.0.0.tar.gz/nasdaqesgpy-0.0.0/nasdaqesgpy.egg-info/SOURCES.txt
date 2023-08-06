@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+nasdaqesg/__init__.py
+nasdaqesgpy.egg-info/PKG-INFO
+nasdaqesgpy.egg-info/SOURCES.txt
+nasdaqesgpy.egg-info/dependency_links.txt
+nasdaqesgpy.egg-info/top_level.txt

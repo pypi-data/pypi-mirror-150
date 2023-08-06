@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: nasdaqesgpy
+Version: 0.0.0
+Summary: This is a very basic library that would give internal users access to our scraping efforts.
+Home-page: UNKNOWN
+Author: Viktor Aghajanyan
+Author-email: aghajanyanviktor@gmail.com
+License: MIT
+Description: This is a very simple app.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (05/15/2022)
+        -------------------
+        - First Release
+        
+Keywords: napp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
