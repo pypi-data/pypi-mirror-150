@@ -1,0 +1,8 @@
+web3
+py-solc-x
+eth_tester
+yfinance
+plotly
+numpy
+pandas
+requests==2.23
