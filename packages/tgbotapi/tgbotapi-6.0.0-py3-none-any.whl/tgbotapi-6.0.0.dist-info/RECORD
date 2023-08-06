@@ -1,0 +1,17 @@
+tgbotapi/__init__.py,sha256=aiRHRUZmrZoSHj_aNixXL4ixG7eFRsUKuhUSrBO0C3c,401
+tgbotapi/__version__.py,sha256=zyaiS_wup8sE8eCLYz4pZvga0jfT2pphRkSyJjqsOzw,296
+tgbotapi/asyncbot.py,sha256=A26ITKq7QrzRZoWD_SQkZpktstWsP-Gm5fadSAQDeAY,27898
+tgbotapi/bot.py,sha256=hqn15e0hjy-eLLYxiF-jges_8eB5P5aqPVx8t36f4YY,111502
+tgbotapi/methods.py,sha256=uuB7LaJfaKX69rXG09HvVwghk9qO9rDagTS0K_M4uc0,82505
+tgbotapi/types.py,sha256=EnO5wY41X3gkHn8UoflFd0Yvd6dUJhvzY5ap4y9pxvo,203076
+tgbotapi/utils/__init__.py,sha256=z3muXZJcblUlExSpBzlaElqCBnPjTVgcPpjJlSwCYc4,475
+tgbotapi/utils/api_exceptions.py,sha256=KCuBy7Fsk93tOthi-htDdFMwuzHbI79237vlRkN_HEE,663
+tgbotapi/utils/api_handler.py,sha256=xONBOTjGHBIOgGYN5mrEYo6yZMjWOK00F6K17mQLXp4,3316
+tgbotapi/utils/api_worker.py,sha256=_JWl4-tkHFWST1jVU32V9Z_gHj-u2DTubgRkf2R1qQ8,5438
+tgbotapi/utils/json_helper.py,sha256=RnkX5iLv_YjvNvSKJmWEEjsDUtLIC5Afi7yXxjEqc9I,2249
+tgbotapi/utils/logger.py,sha256=rzKH5zuGWxyR1nkQkc8mQJpe2twUqlVHi_mTM916Rbs,522
+tgbotapi-6.0.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+tgbotapi-6.0.0.dist-info/METADATA,sha256=Hkas7TEvN2tT7LHA5diBX2b9fBWSX8YLu8e3MOJyTYo,9681
+tgbotapi-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tgbotapi-6.0.0.dist-info/top_level.txt,sha256=youInHe8HM6wn3bEdRVu4bWGPxgzM3T-6NyEOCUEWx0,9
+tgbotapi-6.0.0.dist-info/RECORD,,
