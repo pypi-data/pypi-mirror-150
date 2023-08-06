@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "2xh-leet"
+version = "1.0.1"
+description = "Library of Eclectic Experiments by Tenchi"
+authors = ["Hamza Haiken <tenchi@team2xh.net>"]
+license = "MIT"
+packages = [
+    { include = "leet" },
+]
+repository = "https://github.com/Tenchi2xh/leet"
+homepage = "https://github.com/Tenchi2xh/leet"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sty = "^1.0.4"
+progressbar2 = "^4.0.0"
+Pillow = "^9.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
