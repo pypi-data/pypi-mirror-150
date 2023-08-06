@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: testfolio
+Version: 0.1.0a0
+Summary: Library that backtests a given portfolio's asset allocation using historical market data from Yahoo.
+Home-page: https://github.com/BradleyHe/testfolio
+License: MIT
+Keywords: portfolio,stock,backtest,finance
+Author: Bradley He
+Author-email: bhe6001@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: yfinance (>=0.1.70)
+Project-URL: Repository, https://github.com/BradleyHe/testfolio
+Description-Content-Type: text/markdown
+
+# testfolio
+
