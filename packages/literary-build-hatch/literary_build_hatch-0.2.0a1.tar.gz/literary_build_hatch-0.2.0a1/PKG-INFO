@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: literary-build-hatch
+Version: 0.2.0a1
+Summary: Hatchling build plugin for Literary
+Author-email: Angus Hollands <goosey15@gmail.com>
+License: MIT
+Keywords: build,hatch,literary
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.7
+Requires-Dist: hatchling>=0.24.0
+Requires-Dist: literary>=4.0.0a0
+Requires-Dist: traitlets>=5
+Description-Content-Type: text/markdown
+
+# literary-build-hatch
+
+`pyproject.toml`:
+```toml
+[tool.hatch.build.targets.wheel.hooks.literary]
+dependencies = ["literary-build-hatch"]
+```
