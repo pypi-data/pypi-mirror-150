@@ -1,0 +1,6 @@
+mamimo/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+mamimo/saturation.py,sha256=UlNNQPxxRdpQ47z9RkIFGcfWCMG_KFTDY8Gxgk1umeU,5540
+mamimo/smoothing.py,sha256=cUNGsyVyERsXpXBd82lgxX97HUy20vnck_Eiy2ILb-Y,8450
+mamimo-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mamimo-0.1.0.dist-info/METADATA,sha256=YfTVzo7DAd9Q5O_Uqus2IW5pKK_-Io5RBJ5k9scsfec,492
+mamimo-0.1.0.dist-info/RECORD,,
