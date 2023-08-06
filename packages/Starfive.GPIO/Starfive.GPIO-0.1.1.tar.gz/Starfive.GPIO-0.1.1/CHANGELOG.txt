@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.1.1
+-------
+- Support Sense Hat (B)
+  Methods list is as follows: SensorCheck(), softreset(), getHum(), getTem()
+
+

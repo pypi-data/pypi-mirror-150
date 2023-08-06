@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Starfive.GPIO
+Version: 0.1.1
+Summary: A module to control Starfive GPIO channels
+Home-page: http://gitlab.starfivetech.com/product1/oftware-ae/visionfive-python-gpio/starfive_gpio
+Author: Starfive
+Author-email: Starfive.shanghai@starfivetech.com
+License: MIT
+Keywords: Starfive GPIO
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Home Automation
+Classifier: Topic :: System :: Hardware
+License-File: LICENCE.txt
+
+GPIO package for starfive
+Change Log
+==========
+
+0.1.1
+-------
+- Support Sense Hat (B)
+  Methods list is as follows: SensorCheck(), softreset(), getHum(), getTem()
+
+
+
+
