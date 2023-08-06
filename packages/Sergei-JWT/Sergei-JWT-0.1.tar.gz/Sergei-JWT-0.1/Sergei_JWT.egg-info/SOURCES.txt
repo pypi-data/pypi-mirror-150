@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+Sergei/__init__.py
+Sergei/asgi.py
+Sergei/settings.py
+Sergei/urls.py
+Sergei/wsgi.py
+Sergei_JWT.egg-info/PKG-INFO
+Sergei_JWT.egg-info/SOURCES.txt
+Sergei_JWT.egg-info/dependency_links.txt
+Sergei_JWT.egg-info/top_level.txt
