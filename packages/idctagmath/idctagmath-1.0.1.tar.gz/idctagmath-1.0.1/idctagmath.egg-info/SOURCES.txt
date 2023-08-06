@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+idctagmath/__init__.py
+idctagmath/my_math.py
+idctagmath.egg-info/PKG-INFO
+idctagmath.egg-info/SOURCES.txt
+idctagmath.egg-info/dependency_links.txt
+idctagmath.egg-info/top_level.txt
