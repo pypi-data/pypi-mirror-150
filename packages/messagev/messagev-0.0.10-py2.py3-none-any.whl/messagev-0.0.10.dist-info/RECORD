@@ -1,0 +1,10 @@
+messagev/__init__.py,sha256=ZskyoFv99G5DfhFSxucT_L7GZyQHq5xwWi2dIV2meds,74
+messagev/auth_pb2.py,sha256=EiO14DUHbRhUTx2mRxkyx8_pcZN-JZi0RabusHrqiOw,11552
+messagev/base_pb2.py,sha256=hUgMX9gLak1oKQ1PdkjMp8IGe7RhcwBiTW3Hi42QmXg,8596
+messagev/command_pb2.py,sha256=V0zJJAjs2XcJg_dTdDkXb1oxfNscGCwf5RAF1Qzzd8M,5910
+messagev/config_pb2.py,sha256=21fvXebYMWaB3KEX0OUAD3xEls4KxSewRjr9yqSqFW4,48169
+messagev-0.0.10.dist-info/AUTHORS.rst,sha256=KxbvzQx9mLPLJJd2brQNk_TQP3qigoTIbFKIm8WdvYc,146
+messagev-0.0.10.dist-info/METADATA,sha256=O2ycsbs8ut4wn46D8YmDkTH9mfQZap8aKBmMM_P1hmw,685
+messagev-0.0.10.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+messagev-0.0.10.dist-info/top_level.txt,sha256=R8pdULh_iT29meq_T25xa79Di4pdIhFDh_WVYt-EYIk,9
+messagev-0.0.10.dist-info/RECORD,,
