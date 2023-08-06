@@ -1,0 +1,13 @@
+ams_brief/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+ams_brief/console.py,sha256=KFm6d-hJzXe6Op5N_Ich8It5Hr5p7AbASJe9NW6NKfk,3910
+ams_brief/cover_page_ams.py,sha256=0VoGVB0s4UEu747NEaXnYzZkGHnvEpy7v_9QAMZ8Obk,512
+ams_brief/cover_page_project.py,sha256=SjiG2sWfI7xnbpj3nfKFRiDdwS_taiyL9xnsIiQxgQc,427
+ams_brief/data/employees.json,sha256=xdMLn3R40CQ8vuOXEMKyH6Xtxi7HzR6W7ANtctFuJSA,148
+ams_brief/directory.py,sha256=su_ugXFOAqrVuqgeDsz8nY_snyHUanJOp9cSyoI6gP0,1651
+ams_brief/employees.py,sha256=tghpkrz0zM36rDtoJZcqsA3R1CLyAsDxh-xTsgDOZio,290
+ams_brief/functions.py,sha256=DXXEIQ6OYc9O1nNu_B2jVjf4ZlyZ1FbEeKFuJ-4hjBM,308
+ams_brief/mv.py,sha256=gXoGXmDclQViDQIVXpz-VIXQKuEe3KI2FT7e4w78b6U,833
+ams_brief-0.1.67.dist-info/entry_points.txt,sha256=udLrH1gTh42FxA4ZucU3Nd9RnCDez0jphAqj4YkwbjQ,52
+ams_brief-0.1.67.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ams_brief-0.1.67.dist-info/METADATA,sha256=rir8_giwfukl35vOvmkMoSrqJzVxzHxFT4pDTHeLPNU,443
+ams_brief-0.1.67.dist-info/RECORD,,
