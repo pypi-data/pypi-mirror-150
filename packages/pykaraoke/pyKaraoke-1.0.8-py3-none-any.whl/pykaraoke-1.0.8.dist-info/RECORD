@@ -1,0 +1,11 @@
+pyKaraoke/Gordon Lightfoot_The Wreck of the Edmund Fitzgerald.mp3,sha256=vL0qrqYNWbUL4CWOg-Dzgg0Dq1v5CPZ0gwNhCrA8ekM,311424
+pyKaraoke/__init__.py,sha256=Th6FPUfmw3s94879QiaD_OgzmQyEFPOnYrMVoQqee8Y,22
+pyKaraoke/pyKaraoke.py,sha256=_Dq1CUxl5nf4Og4WfdXPxFcy5pN0gpqhSplOJo-7HAo,2751
+pyKaraoke/script.py,sha256=Sr4cxApOhPaK1jXQLLW--yMMFs6z3nwpubk3ar3jKuI,58
+pyKaraoke/song.j2,sha256=9cja_y78aTGEeU5jBOjCyLWlaCD_dQ8tdxkjVwg3PCE,193
+pyKaraoke/song_list.html,sha256=gRI0lqnt5uRCoUYoiKKVqtVMQK1vBropfucYNurLVN4,236
+pykaraoke-1.0.8.dist-info/entry_points.txt,sha256=CgRLopl6P7ISoUrx439J_v4c7eRJF137juQzQk7XCGw,50
+pykaraoke-1.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pykaraoke-1.0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pykaraoke-1.0.8.dist-info/METADATA,sha256=qWwJ0aucre4TvmbYKkN0uxtqr9T8XNoyNNv4fDIANjU,2412
+pykaraoke-1.0.8.dist-info/RECORD,,
