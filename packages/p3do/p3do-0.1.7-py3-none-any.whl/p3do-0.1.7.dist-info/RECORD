@@ -1,0 +1,8 @@
+p3do/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+p3do/cli.py,sha256=OsfameT1cQpYNYttbfAD-9mrrMAwkPmNUSA_wCIfUmY,3520
+p3do/keycloak.py,sha256=QbNZA3ysTF-OYdL_zexgwKgTHhCNaxKdmFPvdkbP1Mw,921
+p3do-0.1.7.dist-info/entry_points.txt,sha256=Bm9cNxr0Aj6wQhXnj3nrGT1u9LdId-8RLRWjFfYYvxs,37
+p3do-0.1.7.dist-info/LICENSE,sha256=_OLBZw1m922-E2lew2yRRHGKINN3dUTFU4QTqh08AQg,1069
+p3do-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+p3do-0.1.7.dist-info/METADATA,sha256=gdDZFNrlEBwkgmN7rjvnj0SqwaUCdIIXNIGsAIU1rlA,7623
+p3do-0.1.7.dist-info/RECORD,,
