@@ -1,0 +1,14 @@
+vitbackbone/__init__.py,sha256=yR1q5RkVnH352M4UXCVqJizd_1ykFALtukMOLxsLLJ4,27
+vitbackbone/main.py,sha256=Tz2f---P6A5Yi-kp5wtaZ2ancDjhVB22mJ-x57cB0j8,12333
+vitbackbone/models/__init__.py,sha256=Vssh8ATUkeb3c4ZcO9S2oxm7BvvKqqZvsV9R4ETL62M,39
+vitbackbone/models/swin/__init__.py,sha256=by8HKQuLjng9-pmLleKEZ8QzGivLMVCUZOv6bEYH0Gk,111
+vitbackbone/models/swin/build.py,sha256=kyQ05BEb-OjftBy4PqpiqfZMUpdEehE57hk0uYmzCwc,2561
+vitbackbone/models/swin/swin_transformer.py,sha256=RTaRQsGNFmCjjngfwgC-7uZyJlEQV6WrRIViBu5bKeM,24505
+vitbackbone/models/swin/utils.py,sha256=C07rXEXDtpBUVgVFqpIHoN_qBk7SmQ-L-lnRqMTjTHM,19533
+vitbackbone/models/van/__init__.py,sha256=VgwUt3SMBj7EQ6XUZpTAKE60rP24w3HGeXnI_PS3rYs,84
+vitbackbone/models/van/utils.py,sha256=C07rXEXDtpBUVgVFqpIHoN_qBk7SmQ-L-lnRqMTjTHM,19533
+vitbackbone/models/van/van.py,sha256=K98PnHToHDde9jnEvnvDYFBWpdFrYOfGMwBwYxGBUBc,12131
+vitbackbone-1.0.2.dist-info/METADATA,sha256=tg45izikkeBbbb9CzPggQMUcX1CXd6TYiRLc95zTw7I,301
+vitbackbone-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vitbackbone-1.0.2.dist-info/top_level.txt,sha256=q6YSSLbpUvKzF8_3PkmUWeXKAN-fPrBJCywrZvMKPJQ,12
+vitbackbone-1.0.2.dist-info/RECORD,,
