@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aitg_doctools"
+version = "0.2.0"
+description = "a library for cleaning and chunking documents"
+authors = ["redthing1 <redthing1@alt.icu>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+spacy = "^3.1.2"
+sacremoses = "^0.0.45"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
