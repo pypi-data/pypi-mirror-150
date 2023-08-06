@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: opensees
+Version: 0.0.7
+Summary: OpenSees bindings
+Author: Claudio M. Perez
+Project-URL: repository, http://github.com/BRACE2/OpenSeesRT
+Project-URL: documentation, https://brace2.github.io/OpenSeesRT
+Keywords: seismic,earthquake
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: docs
+Provides-Extra: plots
+
+# OpenSees Python Bindings
+
+## Install
+
+```shell
+pip install opensees
+```
+
+
+## Documentation
+
+<dl>
+  <dt>building</dt>
+  <dd>Run <code>elstir build</code> to build the documentation.</dd>
+
+  <dt>publishing</dt>
+  <dd><code>git subtree push --prefix site/ origin gh-pages</code>.</dd>
+
+  <dt>developing</dt>
+  <dd><code>elstir serve</code>.</dd>
+
+  <dt>API documentation</dt>
+  <dd>
+   <code>for i in patch section...; do python tools/apidoc.py opensees.$i > docs/api/$i.md</code>.
+  </dd>
+</dl>
+
+
+
+
