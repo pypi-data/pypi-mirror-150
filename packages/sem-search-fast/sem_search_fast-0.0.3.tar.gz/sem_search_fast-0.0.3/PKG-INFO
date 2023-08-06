@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sem_search_fast
+Version: 0.0.3
+Summary: For quick semantic search
+Home-page: https://github.com/philfvbell/sem_search_fast
+Author: Phil Bell
+Author-email: philipfvbell@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sem_search
+ 
+This is designed to allow for rapid semantic search. It utilises Faiss to create an index for rapid search through embeddings. The library provides useful functions to preprocess data, create an index, retrieve data about datapoints corresponding to that index and search.
+
+It draws inspiration and code from Mathew Alexander's implementation [here](https://towardsdatascience.com/billion-scale-semantic-similarity-search-with-faiss-sbert-c845614962e2):
