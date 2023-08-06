@@ -1,0 +1,5 @@
+
+            [vpype.plugins]
+            pixelart=pixelart.pixelart:pixelart
+            pixelize=pixelart.pixelart:pixelize
+        

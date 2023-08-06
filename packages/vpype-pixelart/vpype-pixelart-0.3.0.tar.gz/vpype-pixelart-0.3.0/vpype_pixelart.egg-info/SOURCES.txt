@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pixelart/pixelart.py
+vpype_pixelart.egg-info/PKG-INFO
+vpype_pixelart.egg-info/SOURCES.txt
+vpype_pixelart.egg-info/dependency_links.txt
+vpype_pixelart.egg-info/entry_points.txt
+vpype_pixelart.egg-info/requires.txt
+vpype_pixelart.egg-info/top_level.txt
