@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: py-12f-common
+Version: 0.6.0
+Summary: This repository holds those infrastructure-level modules, that every application requires that follows the core 12-factor principles.
+Home-page: https://github.com/tombenke/py-12f-common
+Author: Tamás Benke
+Author-email: tombenke@gmail.com
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# py-12f-common
+
+[![Quality Check Status](https://github.com/tombenke/py-12f-common/workflows/Quality%20Check/badge.svg)](https://github.com/tombenke/py-12f-common)
+![Coverage](./coverage.svg)
+
+## About
+
+This repository holds those infrastructure-level modules,
+that every application requires that follows the core 12-factor principles.
+
+This version of the library is compatible with Python versions >=3.8.
+
+You can use pip to install the library from the
+[Python Package Index](https://pypi.org/project/py-12f-common/):
+
+```bash
+   $ pip install py-12f-common
+```
+
+For further information read [the documentation](https://tombenke.github.io/py-12f-common/).
