@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+convolvecl/__init__.py
+convolvecl/_mixmat.py
+convolvecl.egg-info/PKG-INFO
+convolvecl.egg-info/SOURCES.txt
+convolvecl.egg-info/dependency_links.txt
+convolvecl.egg-info/requires.txt
+convolvecl.egg-info/top_level.txt
+convolvecl/test/__init__.py
+convolvecl/test/test_mixmat.py
