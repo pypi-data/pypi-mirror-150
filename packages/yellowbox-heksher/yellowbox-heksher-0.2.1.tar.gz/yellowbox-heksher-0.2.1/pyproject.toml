@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "yellowbox-heksher"
+version = "0.2.1"
+description = ""
+authors = ["Biocatch LTD <serverteam@biocatch.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+yellowbox = { version = ">=0.6.4", extras = ["postgresql"] }
+httpx = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+flake8 = "*"
+isort = "^5.9.1"
+mypy = "^0.902"
+heksher = ">=0.2.1"
+pytest-cov = "*"
+yellowbox = { version = ">=0.7.1", extras = ["postgresql"] }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
