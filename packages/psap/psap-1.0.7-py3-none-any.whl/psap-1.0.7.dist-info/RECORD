@@ -1,0 +1,14 @@
+psap/__init__.py,sha256=TiLzpaWtfLakek1oWYDusxYi7Hg5RXH-zURDr0wNWcw,323
+psap/_version.py,sha256=zUzRlhNClEe3KGSMmvVbOXYiKiww8llVPAZX5hC69B4,498
+psap/classifier.py,sha256=PBXtjtczWKpoBgxEmyE5MP7Jdal8HT9igbxctEhkMFo,5627
+psap/cli.py,sha256=-UwOH3Rltu0669gKHV40O7dlbnzj5C6c2xkk27_1-Ko,3462
+psap/matrix.py,sha256=LIOtP1BEj51D2qTI30-Y6YyKX91qduAqincp0_HLreo,12690
+psap/data/assets/uniprot_ids.txt,sha256=-YTmiuYoxBgLTwR9_fUq16Ao3Gs6NUpnD_KSEWRwYvQ,650
+psap/data/model/UP000005640_9606_llps.json,sha256=FWx-42XhLQdvrWUmLvNl8DP2c9Ripmcyu93w_4aFqsk,35115128
+psap/data/testing/testset.fasta,sha256=usomIrIJSH1LLwsNue3a6H402AE9zXVpki_YWRYLi9M,520
+psap-1.0.7.dist-info/LICENSE,sha256=3Rp0V8M8MJaJ6vytaY8EnNCeqSYQmciTknXt6ewXW0Q,1074
+psap-1.0.7.dist-info/METADATA,sha256=TiJWtkLNgR9as83qv-djHj6bopAdIMKPuJb44GM4nhk,4546
+psap-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+psap-1.0.7.dist-info/entry_points.txt,sha256=R_8kGkgvhR_nHG9grhakicvo_DdQn3m31u3XGCLtyds,40
+psap-1.0.7.dist-info/top_level.txt,sha256=84M4tveFacnuyTnJXzYZ5loxWPfTA6mG9ZCzZXLKTck,5
+psap-1.0.7.dist-info/RECORD,,
