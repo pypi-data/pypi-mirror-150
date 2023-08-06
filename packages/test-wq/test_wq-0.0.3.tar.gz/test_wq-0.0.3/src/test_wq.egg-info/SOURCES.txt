@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/test_wq/__init__.py
+src/test_wq.egg-info/PKG-INFO
+src/test_wq.egg-info/SOURCES.txt
+src/test_wq.egg-info/dependency_links.txt
+src/test_wq.egg-info/top_level.txt
