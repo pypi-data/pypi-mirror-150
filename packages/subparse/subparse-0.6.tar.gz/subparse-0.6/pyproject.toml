@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 41"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target-version = ['py38', 'py39', 'py310']
+skip-string-normalization = true
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \.pytest_cache
+  | dist
+  | build
+  | docs
+  | tests/fake_packages
+)/
+'''
+
+ # This next section only exists for people that have their editors
+# automatically call isort, black already sorts entries on its own when run.
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+src_paths = ["src/subparse", "tests", "setup.py"]
+include_trailing_comma = true
+force_grid_wrap = false
+combine_as_imports = true
+line_length = 88
+force_sort_within_sections = true
+default_section = "THIRDPARTY"
+known_first_party = "subparse"
+skip_glob = ["tests/fake_packages/**"]
