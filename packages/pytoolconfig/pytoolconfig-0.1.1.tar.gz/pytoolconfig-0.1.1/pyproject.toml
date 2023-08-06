@@ -1,0 +1,39 @@
+[project]
+name = "pytoolconfig"
+version = "0.1.1"
+description = "Python tool configuration"
+authors = [
+    { name = "bageljr", email = "bageljr897@protonmail.com" },
+]
+license-expression = "LGPL-3.0-or-later"
+dependencies = [
+    "tomli>=2.0; python_version < \"3.11\"",
+    "pydantic>=1.7.4",
+    "packaging>=21.3",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/bageljrkhanofemus/pytoolconfig"
+
+[project.optional-dependencies]
+global = [
+    "appdirs>=1.4.4",
+]
+doc = [
+    "tabulate>=0.8.9",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.0.1",
+]
+
+[tool.pytoolconfig]
+formatter = "black"
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
