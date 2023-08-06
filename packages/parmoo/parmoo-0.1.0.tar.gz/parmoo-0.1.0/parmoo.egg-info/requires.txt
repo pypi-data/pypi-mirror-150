@@ -1,0 +1,11 @@
+numpy
+scipy
+pyDOE
+
+[docs]
+sphinx
+sphinxcontrib.bibtex
+sphinx_rtd_theme
+
+[extras]
+libensemble
