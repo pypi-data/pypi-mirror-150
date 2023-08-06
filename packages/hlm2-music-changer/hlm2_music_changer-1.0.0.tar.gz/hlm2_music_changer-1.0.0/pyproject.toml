@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hlm2_music_changer"
+version = "1.0.0"
+description = "A Python module to make the installation and management of Hotline Miami 2 music mods simpler."
+authors = ["generic-user1 <89677116+generic-user1@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+appdirs = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hlm2mc = "hlm2_music_changer.hlm2mc:main"
