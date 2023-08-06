@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: reading_gist
+Version: 0.0.4
+Summary: Reading list generator
+Home-page: UNKNOWN
+Author: James Gregory
+Author-email: james.gregory94@hotmail.co.uk
+License: "MIT license"
+Description: reading_gist is a package for generating chronologically ordered reading lists using a Google Scholar API.
+        
+Platform: UNKNOWN
