@@ -1,0 +1,9 @@
+{
+  "pgsql": {
+    "host": "106.3.151.9",
+    "port": 64253,
+    "user": "zhixin_user",
+    "password": "8sjehj37dkwo92",
+    "db": "org_basket"
+  }
+}
