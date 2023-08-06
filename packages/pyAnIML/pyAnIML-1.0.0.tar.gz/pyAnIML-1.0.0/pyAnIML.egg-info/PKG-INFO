@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyAnIML
+Version: 1.0.0
+Summary: Handling of AnIML files
+Home-page: https://github.com/FAIRChemistry/pyAnIML
+Author: Range, Jan
+Author-email: jan.range@simtech.uni-stuttgart.de
+License: MIT License
+License-File: LICENSE
