@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: streusel
+Version: 1.0.16
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: ase
+
