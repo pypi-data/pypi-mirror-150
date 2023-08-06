@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: harpo
+Version: 1.1.7
+Summary: A GPG-based secret storing/sharing library
+License: Apache Software License (Apache-2)
+Author: Behavox Devops
+Author-email: devops@behavox.com
+Requires-Python: >=3.6.2,<3.9
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: buildtools
+Provides-Extra: publish
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: colorlog (==4.1.0)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: pbr (==5.4.5)
+Requires-Dist: python-gnupg (==0.4.8)
+Requires-Dist: setuptools[buildtools] (>=62.2.0,<63.0.0); extra == "buildtools"
+Requires-Dist: six (==1.15.0)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: twine[publish] (>=3.8.0,<4.0.0); extra == "publish"
+Requires-Dist: wheel[buildtools] (>=0.37.1,<0.38.0); extra == "buildtools"
