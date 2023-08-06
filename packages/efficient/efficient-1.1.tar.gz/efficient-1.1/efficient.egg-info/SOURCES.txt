@@ -1,0 +1,12 @@
+dir.py
+general.py
+setup.py
+aide/LoggingHelper.py
+aide/MySQLHelper.py
+aide/__init__.py
+efficient.egg-info/PKG-INFO
+efficient.egg-info/SOURCES.txt
+efficient.egg-info/dependency_links.txt
+efficient.egg-info/top_level.txt
+test/__init__.py
+test/hello.py

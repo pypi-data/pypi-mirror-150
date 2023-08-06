@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: efficient
+Version: 1.1
+Summary: 模块简介
+Home-page: https://gitee.com/jaifire/efficient
+Author: jaifire
+Author-email: boydearea@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+模块详细介绍
+
