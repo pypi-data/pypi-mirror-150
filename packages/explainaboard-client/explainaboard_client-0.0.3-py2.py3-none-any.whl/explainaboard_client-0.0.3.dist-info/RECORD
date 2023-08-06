@@ -1,0 +1,15 @@
+explainaboard_client/__init__.py,sha256=ogGr6YT8c2TvS_J1d7h8giwG9Xr6LrsMLVzx6n14z2Y,206
+explainaboard_client/__main__.py,sha256=xToAtgeZ-Iquirr_5pg_msQHEscfEox1frcZp_k-T9U,58
+explainaboard_client/client.py,sha256=c2PZ06JxSF2F8As3l_D_jxo2BmvOl_kkrNgwoSiYbRk,1794
+explainaboard_client/config.py,sha256=ZHfcz3lkhPvE_nqyFJPNqHhFvfVMFpAjvGWkO5HY_P0,1180
+explainaboard_client/utils.py,sha256=1wtqer2KHAgWV5QKXda5ui9bish0Lk_L1_a9sEgk3SI,443
+explainaboard_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+explainaboard_client/tests/test_info.py,sha256=N9FYpX40plEGqjRgpXVswWyTJltLRsyYX10aJXnvYhQ,253
+explainaboard_client/tests/test_system.py,sha256=L_0E_QqufitqSKAAvbDPzaeRSCMaDJoU9ZcrqmTit-I,2306
+explainaboard_client/tests/test_user.py,sha256=C3iQh7lykx4FOFtUrBKCyPoxpMPwADR7SDBMmNIFvns,863
+explainaboard_client/tests/test_utils.py,sha256=VM6RcoNIb2ryrSsd3DYWXj4maWfQaRqWbo45eNR1WUw,567
+explainaboard_client-0.0.3.dist-info/METADATA,sha256=VJqjCfCjjd199Su6kYP6gsoPdFBHlZsfSpgkzW7i614,1818
+explainaboard_client-0.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+explainaboard_client-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+explainaboard_client-0.0.3.dist-info/top_level.txt,sha256=sBj7Lf5ITFz-IpTK2YJonnAmpylbAs0-3lNwQCTIST4,21
+explainaboard_client-0.0.3.dist-info/RECORD,,
