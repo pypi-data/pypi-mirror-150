@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/merged/pyclui/__init__.py
+dist/obfuscated/merged/pyclui/clui.py
+dist/obfuscated/merged/pyclui.egg-info/PKG-INFO
+dist/obfuscated/merged/pyclui.egg-info/SOURCES.txt
+dist/obfuscated/merged/pyclui.egg-info/dependency_links.txt
+dist/obfuscated/merged/pyclui.egg-info/top_level.txt
+dist/obfuscated/merged/pyclui/pytransform/__init__.py
+dist/obfuscated/merged/pyclui/pytransform/platforms/linux/aarch64/_pytransform.so
+dist/obfuscated/merged/pyclui/pytransform/platforms/linux/x86_64/_pytransform.so
+test/test.py
