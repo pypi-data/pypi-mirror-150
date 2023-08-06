@@ -1,0 +1,48 @@
+DataKund Cloud is a python library for runing bots built with DataKund Studio on Cloud.
+You can also train bots with DataKund to automate repetitive work without doing any programming.
+
+### Installation
+```sh
+pip install datakund-cloud
+```
+
+### Import DataKund Cloud
+```
+from datakund_cloud import *
+```
+
+### Get API Key
+You can get your api key from [here](https://datakund.com/account/login) after login.
+
+### Set API Key
+Set your api key to authenticate
+```sh
+dk=datakund_cloud.set_api_key(apiKey="put your api key here")
+```
+
+### Run a bot
+```sh
+dk.ip_country_scraper(link="https://iplocation.io/ip/3.85.165.205",callback=print_the_data)
+```
+
+### Stop a bot
+It stops the current bot runing.
+```sh
+dk.stop()
+```
+
+### CallBack Function
+This func takes the data returned by bot as a parameter, If you want to operate on data returned by bot, then make your function first and then pass it in callback argument. Consider follwing example:-
+```sh
+from datakund_cloud import *
+def print_the_data(data):
+	print("Data",data)
+	
+dk=datakund_cloud.set_api_key(apiKey="put your api key here")
+dk.ip_country_scraper(link="https://iplocation.io/ip/3.85.165.205",callback=print_the_data)
+```
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+* [Website](https://datakund.com)
+
