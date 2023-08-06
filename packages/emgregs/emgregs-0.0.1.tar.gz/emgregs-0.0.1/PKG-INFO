@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: emgregs
+Version: 0.0.1
+Summary: Python port to Yanxi Li's R emg flare code
+Author: jgori
+Author-email: juliengori@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: statsmodels (>=0.13.2,<0.14.0)
