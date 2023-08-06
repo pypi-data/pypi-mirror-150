@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pywhoami/__init__.py
+src/pywhoami/__main__.py
+src/pywhoami/asgi.py
+src/pywhoami.egg-info/PKG-INFO
+src/pywhoami.egg-info/SOURCES.txt
+src/pywhoami.egg-info/dependency_links.txt
+src/pywhoami.egg-info/requires.txt
+src/pywhoami.egg-info/top_level.txt
