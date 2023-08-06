@@ -1,0 +1,14 @@
+xyz_posedetect/__init__.py,sha256=XexKCXknQhcrovcGWRGbV69tyH09pQ-03kCLGUjwHb8,49
+xyz_posedetect/admin.py,sha256=p5Tx9lepPfEgdvEC00DiBIHY3satwnpNYm2bgLlBHrw,281
+xyz_posedetect/apis.py,sha256=ICVTL7Mrp5DInndzBAqI2EMwng7k1yhvznf9Uhptbmo,1181
+xyz_posedetect/apps.py,sha256=ZAt5p3018jcNmS1iYAhWK0nTSEYVKQ3Z489l4WLx9bw,346
+xyz_posedetect/choices.py,sha256=WEJvfVJ_HXMJKRpMfXP0srWexMdmSlu_Nq5AIb9Ciio,88
+xyz_posedetect/helper.py,sha256=WEJvfVJ_HXMJKRpMfXP0srWexMdmSlu_Nq5AIb9Ciio,88
+xyz_posedetect/models.py,sha256=oBB_FbaEAc1NSAV2Qqrfgq1iMdsd43IbrA_2-bnQPjA,1101
+xyz_posedetect/serializers.py,sha256=rUqioUWZnjAwH48dgyKJLohFhTWxJrXx3cjXgstZKBU,361
+xyz_posedetect/migrations/0001_initial.py,sha256=EPIEwrGUp_lid12D0aguZud23oX12V9vy0LgBlsy_ZI,1707
+xyz_posedetect/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_posedetect-0.0.1.dist-info/METADATA,sha256=rEeWLLX1j7-TuFrY72NVsfP4SFfmAjKhasYjLDRndNw,973
+xyz_posedetect-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xyz_posedetect-0.0.1.dist-info/top_level.txt,sha256=ncvqmXHRPNx2CB0x2ePedSsfPu1rHpyltcqSEYrWIuQ,15
+xyz_posedetect-0.0.1.dist-info/RECORD,,
