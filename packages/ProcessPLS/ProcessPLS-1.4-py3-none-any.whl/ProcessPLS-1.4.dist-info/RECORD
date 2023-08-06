@@ -1,0 +1,12 @@
+processPLS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+processPLS/data.py,sha256=jqoU87H4wOowE317hajY80rpe1Ys8EaltwH78LTkujQ,2454
+processPLS/datasets.py,sha256=jqoU87H4wOowE317hajY80rpe1Ys8EaltwH78LTkujQ,2454
+processPLS/model.py,sha256=tBmiFdxtNBz0IY4gmbNiIwQM12n8V5VsKGmviGSz9bY,26846
+processPLS/data/OilDistillationData.csv,sha256=8O4mUhRAcNpF6lDjwJkAyfHTx2uss8FhfSJtdayKk7k,5768466
+processPLS/data/ValdeLoirData.csv,sha256=r8033I-9q6m1ZC_Iru0aPJll5uBQE5OirTl-_xH3XD8,3897
+processPLS/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ProcessPLS-1.4.dist-info/LICENSE,sha256=xCZUJAXpANhmTZr0rxQW65XssBQYOq-YMfxkqP3oE4Q,1348
+ProcessPLS-1.4.dist-info/METADATA,sha256=vnfctcGecbWUMs_2jD_SiVhgf4BFb9k_piF29qHyXDE,4708
+ProcessPLS-1.4.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+ProcessPLS-1.4.dist-info/top_level.txt,sha256=Natb1eYAjO9KYbla0NcyrMSyoWnct97Fd7PsUanTOz4,11
+ProcessPLS-1.4.dist-info/RECORD,,
