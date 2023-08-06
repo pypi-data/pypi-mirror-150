@@ -1,0 +1,6 @@
+brython~=3.10
+wheel
+starlette
+sse-starlette
+uvicorn
+aiofiles
