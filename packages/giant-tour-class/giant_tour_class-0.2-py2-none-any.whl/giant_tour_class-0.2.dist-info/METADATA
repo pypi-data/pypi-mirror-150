@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: giant-tour-class
+Version: 0.2
+Summary: giant tour class
+Home-page: UNKNOWN
+Author: Mr. Hanh
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: ortools
+Requires-Dist: kmedoids
+Requires-Dist: math
+Requires-Dist: numpy
+
+#A giant tour class
+This class include many functions for generating a giant tour
+
