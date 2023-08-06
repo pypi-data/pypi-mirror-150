@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: data-hopper
+Version: 0.1.0
+Summary: Package for data wrangling in python.
+Home-page: https://github.com/tomasoak/data_hopper
+Author: Tomas Carvalho
+Author-email: tomas.jpeg@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.*

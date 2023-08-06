@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+data_hopper/__init__.py
+data_hopper.egg-info/PKG-INFO
+data_hopper.egg-info/SOURCES.txt
+data_hopper.egg-info/dependency_links.txt
+data_hopper.egg-info/requires.txt
+data_hopper.egg-info/top_level.txt
+data_hopper/manager/__init__.py
+data_hopper/manager/data_normalize.py
+data_hopper/summary/__init__.py
+data_hopper/summary/data_summary.py
