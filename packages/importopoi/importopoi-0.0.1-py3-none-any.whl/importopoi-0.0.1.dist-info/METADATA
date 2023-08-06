@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: importopoi
+Version: 0.0.1
+Summary: Visualising module connections within a Python package
+Home-page: https://github.com/lmmx/importopoi
+Author: Louis Maddox
+Author-email: louismmx@gmail.com
+Maintainer: Louis Maddox
+Maintainer-email: louismmx@gmail.com
+License: MIT
+Project-URL: Documentation, https://importopoi.readthedocs.io/
+Project-URL: Bug Tracker, https://github.com/lmmx/importopoi/issues
+Project-URL: Source Code, https://github.com/lmmx/importopoi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argcomplete
+Requires-Dist: import-deps
+Provides-Extra: dev
+Requires-Dist: coverage[toml] (>=5.5) ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (>=4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage[toml] (>=5.5) ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+# importopoi
+
+[![Documentation](https://readthedocs.org/projects/importopoi/badge/?version=latest)](https://importopoi.readthedocs.io/en/latest/)
+[![CI Status](https://github.com/lmmx/importopoi/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/importopoi/actions/workflows/master.yml)
+[![Coverage](https://codecov.io/gh/lmmx/importopoi/branch/master/graph/badge.svg)](https://codecov.io/github/lmmx/importopoi)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Visualising module connections within a Python package
+
+[Read The Docs](https://importopoi.readthedocs.io/en/latest/) here and the [blog series][blog-post] I
+wrote while developing it.
+
+[blog-post]: https://pore.spin.systems/importopoi
+
+## Requires
+
+- Python 3.9+
+- `graph_tools`
+
+## Installation
+
+```sh
+pip install importopoi
+```
+
+> _importopoi_ is available from [PyPI](https://pypi.org/project/importopoi), and
+> the code is on [GitHub](https://github.com/lmmx/importopoi)
+
+

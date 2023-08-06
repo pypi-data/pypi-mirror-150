@@ -1,0 +1,3 @@
+[console_scripts]
+importopoi = importopoi.cli:run_cli
+
