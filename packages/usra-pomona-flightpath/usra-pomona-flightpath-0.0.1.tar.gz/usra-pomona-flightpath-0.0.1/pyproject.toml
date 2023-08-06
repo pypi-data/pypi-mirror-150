@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usra-pomona-flightpath"
+description = "Flight path developed by Cal Poly Pomona and funded by Universities Space Research Association."
+dependencies = [
+    "matplotlib",
+    "argparse",
+]
+dynamic = ["version"]

@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/packaging/__init__.py
+src/packaging/flight_path.py
+src/usra_pomona_flightpath.egg-info/PKG-INFO
+src/usra_pomona_flightpath.egg-info/SOURCES.txt
+src/usra_pomona_flightpath.egg-info/dependency_links.txt
+src/usra_pomona_flightpath.egg-info/requires.txt
+src/usra_pomona_flightpath.egg-info/top_level.txt
