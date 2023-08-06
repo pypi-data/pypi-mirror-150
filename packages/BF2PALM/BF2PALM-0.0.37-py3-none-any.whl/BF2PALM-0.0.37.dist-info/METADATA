@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: BF2PALM
+Version: 0.0.37
+Summary: Transfer building footprint to 2D DEM for LES simulation
+Author: Jiachen Lu
+Author-email: jiachensc@gmail.com
+License: MIT
+Requires: numpy
+Requires: matplotlib
+Requires: shapely
+Requires: pandas
+Requires: scipy
+Requires: osmnx
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: shapely
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: osmnx
+Requires-Dist: netCDF4
+
