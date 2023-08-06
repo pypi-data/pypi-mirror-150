@@ -1,0 +1,9 @@
+README.md
+setup.py
+cgdb/__init__.py
+cgdb/cgdb.py
+cgdb_client.egg-info/PKG-INFO
+cgdb_client.egg-info/SOURCES.txt
+cgdb_client.egg-info/dependency_links.txt
+cgdb_client.egg-info/requires.txt
+cgdb_client.egg-info/top_level.txt
