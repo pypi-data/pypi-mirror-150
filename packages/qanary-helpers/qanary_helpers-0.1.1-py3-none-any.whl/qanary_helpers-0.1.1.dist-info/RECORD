@@ -1,0 +1,12 @@
+qanary_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qanary_helpers/qanary_queries.py,sha256=tdipZtNrNTgSZ8Yxb9kzBafvORkPTpqWhQ3IRh9hv5k,3817
+qanary_helpers/registration.py,sha256=bvi0CbXg1Z1O63_9fQa96K6iF8E2_3yEhFpl1kwm4no,712
+qanary_helpers/registrator.py,sha256=lhNa4dAaZGkSqee6I4Jf_lM-SG3rg6ecuGAsnA2JLK4,2177
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_registration.py,sha256=KdQWceadYv6AM-nFhfbeChPwXNabkdFKmsEekQ7HNHw,720
+tests/test_registrator.py,sha256=qpcPr8QCBVfuAlmwMvA9D-qbBHmlcKue66GEGgi-lYI,927
+qanary_helpers-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qanary_helpers-0.1.1.dist-info/METADATA,sha256=M84jKYKD82qll_b4VRMZmX_u2uCtUGYpvTZCPv4-4to,6086
+qanary_helpers-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qanary_helpers-0.1.1.dist-info/top_level.txt,sha256=fvd7bLxc3jvc1sBI9YMJd2I_TIMWvp1RPTgz0VGk0-8,21
+qanary_helpers-0.1.1.dist-info/RECORD,,
