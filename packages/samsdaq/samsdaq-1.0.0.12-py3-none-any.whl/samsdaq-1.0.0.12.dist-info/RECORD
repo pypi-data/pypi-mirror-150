@@ -1,0 +1,13 @@
+ml_test/__init__.py,sha256=51pa0kDb1Tjjog6QhxWPNOcelBb37QWQN1oEHzu8IAs,24
+ml_test/model_test.py,sha256=0srBYzRk1ccp_nFDSdY8qVum9mAqy1avd5dphSgjDIw,248
+ml_test/packageTest.py,sha256=_U7EP4OtUzDfyd7KYkp0P626YH7VkiB3a97dNBIk8EE,54
+samsdaq/X_train.csv,sha256=6NQD8LfOKm8y4KYajRmAhw_a9TFekGc407ZD7mG2oWI,715267
+samsdaq/__init__.py,sha256=51pa0kDb1Tjjog6QhxWPNOcelBb37QWQN1oEHzu8IAs,24
+samsdaq/best_model.h5,sha256=wm7YTvGSjeRzW7Z178hhm1vjG9E99LH3g4Y0jgq0R4U,4997928
+samsdaq/model_test.py,sha256=u-cjPzRhDEN-kbsClTVRf2Gfc2NEQRu0qtIFP5OrJws,2626
+samsdaq/model_test_old.py,sha256=Lk7JbkbxnNy3QFjd89tvcSp9PnSeAFHIw8G7xuXLfTU,4600
+samsdaq/packageTest.py,sha256=_U7EP4OtUzDfyd7KYkp0P626YH7VkiB3a97dNBIk8EE,54
+samsdaq-1.0.0.12.dist-info/METADATA,sha256=soWTubsoVux_rhWcM5iRPwxzDyYrfq7zot6RLCRVN8o,223
+samsdaq-1.0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+samsdaq-1.0.0.12.dist-info/top_level.txt,sha256=7RBDM3zrl2fRtCQydzCJVbkM_5rKlidLmXGK3LR2cNU,8
+samsdaq-1.0.0.12.dist-info/RECORD,,
