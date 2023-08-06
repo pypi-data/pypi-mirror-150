@@ -1,0 +1,7 @@
+minos/plugins/aiohttp/__init__.py,sha256=vzNAKdwmeqaQ4CQdClK7-MgfYMLaXwOfB7iYpvq4cLE,284
+minos/plugins/aiohttp/connectors.py,sha256=_1-9pctxol9_1Xb5T-3luPNb61wTsl37YY3s0cUTZbs,3025
+minos/plugins/aiohttp/requests.py,sha256=JJYw5_BDTc8wKqdwp-_LA537ajOAPq-Z5UwecIwaync,9359
+minos_http_aiohttp-0.7.0.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_http_aiohttp-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minos_http_aiohttp-0.7.0.dist-info/METADATA,sha256=-m1YIJPNY4B70jmZZTOE7nc3Nk4rz0U7Fj_AETL5uRk,3335
+minos_http_aiohttp-0.7.0.dist-info/RECORD,,
