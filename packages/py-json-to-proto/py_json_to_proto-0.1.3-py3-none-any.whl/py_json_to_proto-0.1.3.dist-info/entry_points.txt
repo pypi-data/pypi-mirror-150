@@ -1,0 +1,3 @@
+[console_scripts]
+jsp=py_json_to_proto.cli:main
+
