@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pyenergydiagrams
+Version: 1.0
+Summary: Plot potential energy diagram in python
+Home-page: https://github.com/RemDelaporteMathurin/pyEnergyDiagrams
+Author: Remi Delaporte-Mathurin
+Author-email: rdelaportemathurin@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/RemDelaporteMathurin/pyEnergyDiagrams
+Project-URL: Tracker, https://github.com/RemDelaporteMathurin/pyEnergyDiagrams/issues
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: matplotlib (>=3.5.1)
+Requires-Dist: scipy (>=1.8)
+Provides-Extra: tests
+Requires-Dist: pytest (>=5.4.3) ; extra == 'tests'
+
+# pyEnergyDiagram
+
+## Installation
+
+```
+pip install pyenergydiagrams
+```
+
+## Usage
+
+```python
+from pyenergydiagrams import State, Diagram
+import matplotlib.pyplot as plt
+
+states = [State((-1) ** i) for i in range(20)]
+
+states[5] = State(-3)
+states[13] = State(-5)
+my_diagram = Diagram(states)
+
+plt.plot(my_diagram.x, my_diagram.y)
+
+my_diagram.add_dotted_line(states[-2], dx_right=2)
+my_diagram.add_arrow(states[14], states[13], "$E_1$")
+my_diagram.add_arrow(states[-1], states[-2], "$E_2$")
+plt.show()
+```
+
+![image](https://raw.githubusercontent.com/RemDelaporteMathurin/pyEnergyDiagrams/main/examples/simple.png)
