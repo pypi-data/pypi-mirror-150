@@ -1,0 +1,2 @@
+[console_scripts]
+grounds = grounds.__main__:main
