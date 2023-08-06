@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streusel
+Version: 1.0.8
+Summary: Pore volume and surface area calcs for porous materials
+Home-page: https://github.com/austin-mroz/STREUSEL
+Author: Austin Mroz
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: ase
+
