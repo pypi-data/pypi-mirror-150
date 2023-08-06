@@ -1,0 +1,13 @@
+Cargo.toml
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+chanoma/__init__.py
+chanoma.egg-info/PKG-INFO
+chanoma.egg-info/SOURCES.txt
+chanoma.egg-info/dependency_links.txt
+chanoma.egg-info/not-zip-safe
+chanoma.egg-info/top_level.txt
+src/characters_set.rs
+src/lib.rs
