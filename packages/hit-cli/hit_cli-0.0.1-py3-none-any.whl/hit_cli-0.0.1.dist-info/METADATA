@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: hit-cli
+Version: 0.0.1
+Summary: Graviti Github workflow CLI
+Home-page: https://github.com/Graviti-AI/hit
+Author: Graviti
+Author-email: pypi@graviti.com
+License: MIT
+Keywords: github,git,hit
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=7.0.0)
+Requires-Dist: PyGithub (>=1.54.0)
+Requires-Dist: requests (>=2.4.2)
+
+# Github Workflow CLI —— hit
+
+The github pull request based workflow is quite tedious and complicated,
+`hit` CLI simplify the workflow by wrapping `git` CLI and github API.
+
+## Installation
+
+`hit` CLI has below dependences:
+
+-   [`git`](https://git-scm.com)
+
+Install `hit` CLI by pip:
+
+```bash
+pip3 install hit-cli
+```
+
+## Usage
+
+```bash
+$ hit --help
+Usage: hit [OPTIONS] COMMAND [ARGS]...
+
+  Usage: 'hit' + COMMAND.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  auth   Get Github Auth for hit CLI.
+  clean  Detele useless local and remote develop branch.
+  clone  Fork then clone the target github repo for hit CLI.
+  land   Merge the pull request then clean and sync repo.
+  pull   Sync the local and remote develop repo with upstream repo.
+  push   Push the local branch to remote and create/update the pull request.
+```
+
+## Shell completion
+
+```bash
+# add this to your ~/.bashrc
+eval "$(_HIT_COMPLETE=source_bash hit)"
+```
+
+```zsh
+# add this to your ~/.zshrc
+eval "$(_HIT_COMPLETE=source_zsh hit)"
+```
+
+```fish
+# add this to your ~/.config/fish/completions/foo-bar.fish
+eval (env _HIT_COMPLETE=source_fish hit)
+```
+
+See detailed info in [Click Shell Completion](https://click.palletsprojects.com/en/7.x/bashcomplete/)
+
+
