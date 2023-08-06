@@ -1,0 +1,8 @@
+setup.py
+scheduler/__init__.py
+scheduler/whatsapp.py
+wappschedule.egg-info/PKG-INFO
+wappschedule.egg-info/SOURCES.txt
+wappschedule.egg-info/dependency_links.txt
+wappschedule.egg-info/requires.txt
+wappschedule.egg-info/top_level.txt
