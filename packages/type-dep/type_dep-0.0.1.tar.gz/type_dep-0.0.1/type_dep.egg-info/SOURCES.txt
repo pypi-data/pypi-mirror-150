@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+type_dep/__init__.py
+type_dep/_core.py
+type_dep.egg-info/PKG-INFO
+type_dep.egg-info/SOURCES.txt
+type_dep.egg-info/dependency_links.txt
+type_dep.egg-info/top_level.txt
