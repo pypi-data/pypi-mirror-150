@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: dune-xt
+Version: 2022.1.4.601
+Summary: Python for Dune-Xt
+Home-page: https://github.com/dune-community/dune-xt
+Author: The dune-xt devs
+Author-email: dune-xt-dev@listserv.uni-muenster.de
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: ipython
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: all
+Requires-Dist: k3d (==2.6.6) ; extra == 'all'
+Requires-Dist: vtk ; extra == 'all'
+Requires-Dist: ipywidgets ; extra == 'all'
+Requires-Dist: lxml ; extra == 'all'
+Requires-Dist: xmljson ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: pylicense3 (>=0.4.1) ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: cmake-format (==0.4.1) ; extra == 'all'
+Requires-Dist: codecov ; extra == 'all'
+Requires-Dist: yapf (==0.25) ; extra == 'all'
+Requires-Dist: jinja2 ; extra == 'all'
+Provides-Extra: infrastructure
+Requires-Dist: pylicense3 (>=0.4.1) ; extra == 'infrastructure'
+Requires-Dist: pytest ; extra == 'infrastructure'
+Requires-Dist: pytest-cov ; extra == 'infrastructure'
+Requires-Dist: cmake-format (==0.4.1) ; extra == 'infrastructure'
+Requires-Dist: codecov ; extra == 'infrastructure'
+Requires-Dist: yapf (==0.25) ; extra == 'infrastructure'
+Requires-Dist: jinja2 ; extra == 'infrastructure'
+Provides-Extra: visualisation
+Requires-Dist: k3d (==2.6.6) ; extra == 'visualisation'
+Requires-Dist: vtk ; extra == 'visualisation'
+Requires-Dist: ipywidgets ; extra == 'visualisation'
+Requires-Dist: lxml ; extra == 'visualisation'
+Requires-Dist: xmljson ; extra == 'visualisation'
+Requires-Dist: matplotlib ; extra == 'visualisation'
+
+UNKNOWN
+
