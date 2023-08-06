@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: choc-ddp
+Version: 0.1.0
+Summary: chocolate deduplication
+License: MIT
+Author: AnjoyLi
+Author-email: 1589631311@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: pyexecjs (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# choco_ddp
+
