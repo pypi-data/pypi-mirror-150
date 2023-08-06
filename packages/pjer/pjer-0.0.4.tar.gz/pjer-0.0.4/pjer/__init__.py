@@ -1,0 +1,1 @@
+from pjer.main import sprite
