@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+clibf/__init__.py
+clibf/__main__.py
+clibf.egg-info/PKG-INFO
+clibf.egg-info/SOURCES.txt
+clibf.egg-info/dependency_links.txt
+clibf.egg-info/entry_points.txt
+clibf.egg-info/not-zip-safe
+clibf.egg-info/requires.txt
+clibf.egg-info/top_level.txt

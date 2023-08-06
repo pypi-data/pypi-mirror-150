@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: clibf
+Version: 1.1.1
+Summary: CLI tool to execute Brainfuck code from files and strings
+Home-page: https://github.com/donno2048/bf-interpreter
+Author: Elisha Hollander
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clibf
+
+## Install
+
+### From PyPi
+
+```sh
+pip install clibf
+```
+
+### From GitHub
+
+```sh
+pip install git+https://github.com/donno2048/bf-interpreter
+```
+
+## Run
+
+### Brainfuck file
+
+```sh
+clibf -f my_bf_script.b
+# or with a prompt
+clibf -F
+```
+
+### String
+
+```sh
+clibf -s "+[+[<<<+>>>>]+<-<-<<<+<++]<<.<++.<++..+++.<<++.<---.>>.>.+++.------.>-.>>--."
+```
+
+### Choose file with GUI
+
+```sh
+clibf -g
+```
+
+
