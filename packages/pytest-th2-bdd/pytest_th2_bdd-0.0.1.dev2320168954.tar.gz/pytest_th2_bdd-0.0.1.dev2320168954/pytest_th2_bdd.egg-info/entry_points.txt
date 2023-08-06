@@ -1,0 +1,3 @@
+[pytest11]
+pytest-th2-bdd = th2_bdd.pytest
+
