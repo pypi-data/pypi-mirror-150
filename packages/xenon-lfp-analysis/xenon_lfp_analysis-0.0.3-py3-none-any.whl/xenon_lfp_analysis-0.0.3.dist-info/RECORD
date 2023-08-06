@@ -1,0 +1,14 @@
+xenon_lfp_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xenon_lfp_analysis/convert_utaharray.py,sha256=0Vo_d0j2BJz20qv8Femwvn3jiGJnLb3XlFZwRmO-3bA,32138
+xenon_lfp_analysis/downsample_brw.py,sha256=V4Csv7DT29dqPmZcVNG9amzrEY5Wd7OxMYa5H8CTg88,9679
+xenon_lfp_analysis/run_lfp_analysis.py,sha256=Jx6Uwq3wcQTN8xaX5wpbGK3Qlajm_ColdE-1fDJhJqc,730
+xenon_lfp_analysis/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xenon_lfp_analysis/app/app.py,sha256=zMyU55otZzW4DnP6sNKrvPjsQ4OYcEKlyI0NCtiu4No,269460
+xenon_lfp_analysis/app/app.wsgi,sha256=4I3iqATRz20OI8m0kA5J_SfVXBcppMQo4YJHFbAtxkg,48
+xenon_lfp_analysis-0.0.3.dist-info/LICENSE,sha256=izCOb8w_ynktidSixQVpIzLGs4jnhEw2rc18qLJID40,1096
+xenon_lfp_analysis-0.0.3.dist-info/METADATA,sha256=QWc0TNAzr8N2P-69hBOmerr-pEEym4_PxukZCBdiulU,4341
+xenon_lfp_analysis-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xenon_lfp_analysis-0.0.3.dist-info/entry_points.txt,sha256=TS1OORU4t2oNLqNb5xN61Fd9bzA6vj_WPWLrhriKezs,194
+xenon_lfp_analysis-0.0.3.dist-info/top_level.txt,sha256=ke9E-lZhbpoTdc_3rTWberz2kj8MudSa48gBH3X8LGo,19
+xenon_lfp_analysis-0.0.3.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+xenon_lfp_analysis-0.0.3.dist-info/RECORD,,
