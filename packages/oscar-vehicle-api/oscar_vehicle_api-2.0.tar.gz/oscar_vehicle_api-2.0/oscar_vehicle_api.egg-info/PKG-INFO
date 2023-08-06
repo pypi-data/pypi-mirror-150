@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: oscar-vehicle-api
+Version: 2.0
+Summary: OSCAR Vehicle API
+Home-page: https://gitlab.com/starline/oscar_vehicle_api
+Author: Nikolay Dema
+Author-email: ndema2301@gmail.com
+License: UNKNOWN
+Description: ### OSCAR vehicle API
+        
+        Репозиторий содержит API низкоуровневой системы управления автомобилем [Alpha](alpha.starline.ru), разрабатываемой в рамках проекта [OSCAR](https://gitlab.com/starline/oscar), для беспилотных транспортных средств.
+        
+        
+        #### Установка с PyPI
+        
+        ```
+        pip3 install --user oscar_vehicle_api
+        ```
+        
+        
+        #### Установка из исходников
+        
+        ```
+        git clone https://gitlab.com/starline/oscar_vehicle_api.git && cd oscar_vehicle_api
+        pip3 install --user -e .
+        ```
+        
+        
+        #### Использование
+        
+        ```
+        import oscar_vehicle_api as oscar
+        vehicle = oscar.Vehicle(“/dev/ttyACM0”)
+        vehicle.drive()
+        vehicle.steer(20)
+        vehicle.move(10)
+        vehicle.manual()
+        vehicle.led_blink()
+        vehicle.emergency_stop()
+        vehicle.recover()
+        vehicle.left_turn_signal()
+        vehicle.right_turn_signal()
+        vehicle.emergency_signals()
+        vehicle.turn_off_signals()
+        vehicle.get_vehicle_speed()
+        ```
+        
+Keywords: oscar,vehicle,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
