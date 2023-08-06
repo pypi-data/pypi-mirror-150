@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vino
+Version: 0.0.2
+Summary: vino
+Author: Peter G. Mikhael
+Author-email: 
+Project-URL: Source, https://github.com/pgmikhael/vino/
+Project-URL: Tracker, https://github.com/pgmikhael/vino/issues
+Platform: any
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Provides-Extra: testing
+License-File: LICENSE.txt
+
+# <img src="/assets/purple-grape-vine.svg " width="128"> vino
+
+a template for deep learning research projects
+
+
+
+### Features
+
+- [x] grid search
+- [ ] class-level args
+- [x] callbacks
+- [ ] logging
+    - [x] Comet ML
+- [ ] hyperparameter optimization with Ray
+- [x] standard formatting (autodocstring + black)
+- [ ] tests
+
