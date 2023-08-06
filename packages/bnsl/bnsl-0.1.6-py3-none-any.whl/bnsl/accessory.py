@@ -1,0 +1,651 @@
+from itertools import combinations
+import random
+import pingouin as pg
+from copy import deepcopy
+
+import numpy as np
+from graphviz import Digraph
+from numba import njit
+from rpy2.robjects.packages import importr
+from rpy2.robjects import pandas2ri
+import rpy2.rinterface
+from scipy.stats.distributions import chi2
+import scipy.stats as st
+from .score import compute_weights
+
+base, bnlearn, wtd = importr('base'), importr('bnlearn'), importr('weights')
+
+pandas2ri.activate()
+
+
+# random.seed(941214)
+
+
+# create missing mechanism
+def miss_mechanism(dag, noise='MAR', rom=0.5):
+    '''
+
+    :param dag: true DAG
+    :param noise: type of missing mechanism
+    :param rom: ratio of missing variables
+    :return: missing mechanism
+    '''
+    cause_dict = {}
+    if noise == 'MCAR':
+        vars_miss = random.sample(list(bnlearn.nodes(dag)), round(len(bnlearn.nodes(dag)) * rom))
+        for var in vars_miss:
+            cause_dict[var] = []
+    elif noise == 'MAR':
+        varnames = list(bnlearn.nodes(dag))
+        nom = round(len(varnames) * rom)
+        noc = len(varnames) - nom
+        vstructs = np.array(bnlearn.vstructs(dag))
+        vstructs = vstructs.reshape(3, int(len(vstructs) / 3))
+        vars_miss = []
+        vars_comp = []
+        for i in range(vstructs.shape[1]):
+            if len(vars_comp) != noc or (len(vars_comp) == noc and vstructs[1, i] in vars_comp):
+                if vstructs[0, i] not in vars_miss + vars_comp:
+                    cause_dict[vstructs[0, i]] = [vstructs[1, i]]
+                    vars_miss.append(vstructs[0, i])
+                    vars_comp = list(set(vars_comp + [vstructs[1, i]]))
+                elif vstructs[2, i] not in vars_miss + vars_comp:
+                    cause_dict[vstructs[2, i]] = [vstructs[1, i]]
+                    vars_miss.append(vstructs[2, i])
+                    vars_comp = list(set(vars_comp + [vstructs[1, i]]))
+                if len(vars_miss) == nom:
+                    break
+        if len(vars_miss) < nom:
+            vars_miss2 = random.sample([x for x in varnames if x not in vars_miss + vars_comp], nom - len(vars_miss))
+            vars_comp = [x for x in varnames if x not in vars_miss + vars_miss2]
+            for var in vars_miss2:
+                nbr = list(bnlearn.nbr(dag, var))
+                if any(item in vars_comp for item in nbr):
+                    cause_dict[var] = random.sample([x for x in nbr if x in vars_comp], 1)
+                else:
+                    cause_dict[var] = random.sample(vars_comp, 1)
+    elif noise == 'MNAR':
+        varnames = list(bnlearn.nodes(dag))
+        nom = round(len(varnames) * rom)
+        vstructs = np.array(bnlearn.vstructs(dag))
+        vstructs = vstructs.reshape(3, int(len(vstructs) / 3))
+        vars_miss = []
+        for i in range(vstructs.shape[1]):
+            if vstructs[0, i] not in cause_dict:
+                cause_dict[vstructs[0, i]] = [vstructs[1, i]]
+                vars_miss = list(set(vars_miss + [vstructs[0, i], vstructs[1, i]]))
+            elif vstructs[2, i] not in cause_dict:
+                cause_dict[vstructs[2, i]] = [vstructs[1, i]]
+                vars_miss = list(set(vars_miss + [vstructs[2, i], vstructs[1, i]]))
+            if len(vars_miss) >= nom:
+                break
+        if len(vars_miss) < nom:
+            vars_miss2 = random.sample([x for x in varnames if x not in vars_miss], nom - len(vars_miss))
+            vars_comp = [x for x in varnames if x not in vars_miss + vars_miss2]
+            for var in vars_miss2:
+                nbr = list(bnlearn.nbr(dag, var))
+                if any(item not in vars_comp for item in nbr):
+                    cause_dict[var] = random.sample([x for x in nbr if x not in vars_comp + [var]], 1)
+                else:
+                    cause_dict[var] = random.sample([x for x in varnames if x not in vars_comp + [var]], 1)
+    else:
+        raise Exception('noise ' + noise + ' is undefined.')
+    return cause_dict
+
+
+# add missing value in dataset
+def add_missing(data, cause_dict):
+    data_missing = deepcopy(data)
+    m_min = 0.1
+    m_max = 0.6
+    for var in cause_dict.keys():
+        if len(cause_dict[var]) == 0:
+            m = np.random.uniform(m_min, m_max)
+            data_missing[var][np.random.uniform(size=len(data)) < m] = None
+        else:
+            for cause in cause_dict[var]:
+                if data[cause].dtype == 'category':
+                    state_m = data[cause].mode()[0]
+                    data_missing[var][(np.random.uniform(size=len(data)) < m_max) & (data[cause] == state_m)] = None
+                    data_missing[var][(np.random.uniform(size=len(data)) < m_min) & (data[cause] != state_m)] = None
+                elif data[cause].dtype == 'float' or data[cause].dtype == 'int':
+                    thres = data[cause].quantile(0.2)
+                    data_missing[var][(np.random.uniform(size=len(data)) < m_max) & (data[cause] < thres)] = None
+                    data_missing[var][(np.random.uniform(size=len(data)) < m_min) & (data[cause] >= thres)] = None
+                else:
+                    raise Exception('data type ' + data[cause].dtype + ' is not supported.')
+    return data_missing
+
+
+def pairwise(data, varnames, vars, cause_list, cache_data, cache_weight, method):
+    if method == 'pw':
+        W = tuple(sorted([v for v in vars if v in cause_list]))
+        if W not in cache_data:
+            W_ids = [i for i in range(len(varnames)) if varnames[i] in W]
+            if len(W):
+                if 'int' in data.dtype.name:
+                    cache_data[W] = data[data[:, W_ids].min(axis=1) >= 0]
+                else:
+                    cache_data[W] = data[~np.isnan(data[:, W_ids]).any(axis=1)]
+            else:
+                cache_data[W] = data
+            cache_weight[W] = np.ones(len(cache_data[W]))
+    elif method == 'ipw':
+        W = list(vars)
+        while True:
+            Pa_R_vars = [cause_list[x] for x in W if x in cause_list]
+            Pa_R_vars = [x for l in Pa_R_vars for x in l]
+            if all(elem in W for elem in Pa_R_vars):
+                break
+            else:
+                W = list(set(W) | set(Pa_R_vars))
+        W = tuple(sorted([v for v in W if v in cause_list]))
+        if W not in cache_data:
+            W_ids = [i for i in range(len(varnames)) if varnames[i] in W]
+            if len(W) > 0:
+                if 'int' in data.dtype.name:
+                    cache_data[W] = data[data[:, W_ids].min(axis=1) >= 0]
+                else:
+                    cache_data[W] = data[~np.isnan(data[:, W_ids]).any(axis=1)]
+                cache_weight[W] = compute_weights(data, varnames, W_ids, cause_list)
+            else:
+                cache_data[W] = data
+                cache_weight[W] = np.ones(len(data))
+    elif method == 'aipw':
+        Pa_R_vars = [cause_list[x] for x in vars if x in cause_list]
+        Pa_R_vars = [x for l in Pa_R_vars for x in l]
+        W = tuple(sorted([v for v in vars if v in cause_list.keys()]))
+        pa_d = [v for v in Pa_R_vars if v not in W]
+        pa_d = [v for v in pa_d if v in cause_list]
+        if W not in cache_data:
+            if len(W) > 0:
+                W_ids = [i for i in range(len(varnames)) if varnames[i] in W]
+                if 'int' in data.dtype.name:
+                    cache_data[W] = data[data[:, W_ids].min(axis=1) >= 0]
+                else:
+                    cache_data[W] = data[~np.isnan(data[:, W_ids]).any(axis=1)]
+
+                if pa_d:
+                    cache_weight[W] = np.ones(cache_data[W].shape[0])
+                else:
+                    cache_weight[W] = compute_weights(data, varnames, W_ids, cause_list)
+            else:
+                cache_data[W] = data
+                cache_weight[W] = np.ones(data.shape[0])
+    else:
+        raise Exception('Unknown variant of HC')
+    return cache_data, cache_weight, W
+
+
+# find the missing mechanism of dataset with missing values
+def find_causes(data, test_function='default', alpha=0.01):
+    var_miss = data.columns[data.isnull().any()]
+    if all(data[var].dtype.name == 'category' for var in data):
+        factor = True
+        data = data.apply(lambda x: x.cat.codes)
+        if test_function == 'default':
+            test_function = 'g_test'
+    elif all(data[var].dtype.name != 'category' for var in data):
+        if test_function == 'default':
+            test_function = 'pearson_test'
+        factor = False
+    else:
+        raise Exception('Mixed data is not supported.')
+
+    causes = {}
+    varnames = data.columns.tolist()
+    for var in var_miss:
+        causes[var] = list(varnames)
+        causes[var].remove(var)
+        if factor:
+            data['missing'] = data[var] == -1
+            data['missing'] = data['missing'].astype('int8')
+        else:
+            data['missing'] = data[var].isna()
+        l = 0
+        while len(causes[var]) > l:
+            remain_causes = list(causes[var])
+            for can in remain_causes:
+                cond_set = list(remain_causes)
+                cond_set.remove(can)
+                for cond in combinations(cond_set, l):
+                    if factor:
+                        data_delete = data[(data[[can] + list(cond)] > -1).all(1)].to_numpy()
+                    else:
+                        data_delete = data.dropna(subset=[can] + list(cond))
+                    cols = np.asarray(
+                        [data_delete.shape[1] - 1] + [varnames.index(can)] + [varnames.index(x) for x in cond])
+                    p_value = globals()[test_function](data_delete, cols)
+                    if p_value > alpha:
+                        causes[var].remove(can)
+                        break
+            l += 1
+    data.pop('missing')
+    return causes
+
+
+# convert the dag to bnlearn format
+def to_bnlearn(dag):
+    output = ''
+    for var in dag:
+        output += '[' + var
+        if dag[var]['par']:
+            output += '|'
+            for par in dag[var]['par']:
+                output += par + ':'
+            output = output[:-1]
+        output += ']'
+    return bnlearn.model2network(output)
+
+
+# convert bnlearn format to my format
+def from_bnlearn(dag):
+    output = {}
+    for node in bnlearn.nodes(dag):
+        output[node] = {}
+        output[node]['par'] = list(bnlearn.parents(dag, node))
+        output[node]['nei'] = list(
+            base.setdiff(base.setdiff(bnlearn.nbr(dag, node), bnlearn.parents(dag, node)), bnlearn.children(dag, node)))
+    return output
+
+
+# random orient a CPDAG to a DAG
+def random_orient(cpdag):
+    undirected_edges = []
+    for var in cpdag:
+        for nei in cpdag[var]['nei']:
+            edge = sorted([var, nei])
+            if edge not in undirected_edges:
+                undirected_edges.append(edge)
+    random.shuffle(undirected_edges)
+    orient_state = []
+    orient_history = []
+    dag = deepcopy(cpdag)
+    index = 0
+    while len(undirected_edges):
+        edge = undirected_edges[index]
+        sin_flag_temp, sin_direction_temp = sin_path_check(dag, edge[0], edge[1])
+        v_flag_temp, v_direction_temp = v_check(dag, edge[0], edge[1])
+        dag[edge[0]]['nei'].remove(edge[1])
+        dag[edge[1]]['nei'].remove(edge[0])
+        if (not sin_flag_temp) & (not v_flag_temp):
+            orient_history.append(random.randint(0, 1))
+            if orient_history[-1] == 0:
+                dag[edge[0]]['par'].append(edge[1])
+            else:
+                dag[edge[1]]['par'].append(edge[0])
+            orient_state.append(0)
+            index += 1
+        elif sin_flag_temp & (not v_flag_temp):
+            dag[sin_direction_temp[1]]['par'].append(sin_direction_temp[0])
+            if sin_direction_temp[1] == edge[0]:
+                orient_history.append(0)
+            else:
+                orient_history.append(1)
+            orient_state.append(1)
+            index += 1
+        elif (not sin_flag_temp) & v_flag_temp & (v_direction_temp != 'both'):
+            dag[v_direction_temp[1]]['par'].append(v_direction_temp[0])
+            if v_direction_temp[1] == edge[0]:
+                orient_history.append(0)
+            else:
+                orient_history.append(1)
+            orient_state.append(1)
+            index += 1
+        elif sin_flag_temp & v_flag_temp & (v_direction_temp == sin_direction_temp):
+            dag[v_direction_temp[1]]['par'].append(v_direction_temp[0])
+            if v_direction_temp[1] == edge[0]:
+                orient_history.append(0)
+            else:
+                orient_history.append(1)
+            orient_state.append(1)
+            index += 1
+        else:
+            if 0 in orient_state[::-1]:
+                last = len(orient_state) - 1 - orient_state[::-1].index(0)
+                dag = deepcopy(cpdag)
+                orient_history_temp = []
+                for i in range(last):
+                    edge = undirected_edges[i]
+                    dag[edge[0]]['nei'].remove(edge[1])
+                    dag[edge[1]]['nei'].remove(edge[0])
+                    if orient_history[i] == 0:
+                        dag[edge[0]]['par'].append(edge[1])
+                    else:
+                        dag[edge[1]]['par'].append(edge[0])
+                    orient_history_temp.append(orient_history[i])
+                edge = undirected_edges[last]
+                dag[edge[0]]['nei'].remove(edge[1])
+                dag[edge[1]]['nei'].remove(edge[0])
+                if orient_history[last] == 0:
+                    dag[edge[1]]['par'].append(edge[0])
+                    orient_history_temp.append(1)
+                else:
+                    dag[edge[0]]['par'].append(edge[1])
+                    orient_history_temp.append(0)
+                index = last + 1
+                orient_state = orient_state[: last + 1]
+                orient_state[last] = 1
+                orient_history = deepcopy(orient_history_temp)
+            else:
+                orient_history.append(random.randint(0, 1))
+                if orient_history[-1] == 0:
+                    dag[edge[0]]['par'].append(edge[1])
+                else:
+                    dag[edge[1]]['par'].append(edge[0])
+                orient_state.append(0)
+                index += 1
+
+        if index == len(undirected_edges):
+            break
+    return dag
+
+
+# single direction path check
+def sin_path_check(dag, var1, var2):
+    sin_flag = False
+    sin_direction = None
+    # check single direction path var1 -> ... -> var2
+    unchecked = deepcopy(dag[var2]['par'])
+    checked = []
+    while unchecked:
+        if sin_flag:
+            break
+        unchecked_copy = deepcopy(unchecked)
+        for dag_par in unchecked_copy:
+            if var1 in dag[dag_par]['par']:
+                sin_flag = True
+                sin_direction = [var1, var2]
+                break
+            else:
+                for key in dag[dag_par]['par']:
+                    if key not in checked:
+                        unchecked.append(key)
+            unchecked.remove(dag_par)
+            checked.append(dag_par)
+
+    # check single direction path var2 -> ... -> var1
+    if not sin_flag:
+        unchecked = deepcopy(dag[var1]['par'])
+        checked = []
+        while unchecked:
+            if sin_flag:
+                break
+            unchecked_copy = deepcopy(unchecked)
+            for dag_par in unchecked_copy:
+                if var2 in dag[dag_par]['par']:
+                    sin_flag = True
+                    sin_direction = [var2, var1]
+                    break
+                else:
+                    for key in dag[dag_par]['par']:
+                        if key not in checked:
+                            unchecked.append(key)
+                unchecked.remove(dag_par)
+                checked.append(dag_par)
+    return sin_flag, sin_direction
+
+
+# v-structure check
+def v_check(dag, var1, var2):
+    v_flag1 = False
+    v_flag2 = False
+    if len(dag[var1]['par']):
+        for par in dag[var1]['par']:
+            if (var2 not in dag[par]['nei']) and (var2 not in dag[par]['par']) and (par not in dag[var2]['par']):
+                v_flag1 = True
+                break
+    if len(dag[var2]['par']):
+        for par in dag[var2]['par']:
+            if (var1 not in dag[par]['nei']) & (var1 not in dag[par]['par']) & (par not in dag[var1]['par']):
+                v_flag2 = True
+                break
+    if v_flag1 & (not v_flag2):
+        return v_flag1, [var1, var2]
+    elif (not v_flag1) & v_flag2:
+        return v_flag2, [var2, var1]
+    elif v_flag1 & v_flag2:
+        return True, 'both'
+    else:
+        return False, None
+
+
+# statistical G2 test
+def g_test(data, cols, weights=None):
+    '''
+    :param data: the unique datapoints as a 2-d array, each row is a datapoint, assumed unique
+    :param arities: the arities of the variables (=columns) for the contingency table order must match that of `cols`.
+    :param cols: the columns (=variables) for the marginal contingency table. columns must be ordered low to high
+
+    :returns : p value
+    '''
+    arities = np.amax(data, axis=0) + 1
+    G, dof = g_counter(data, arities, np.array(cols), weights=weights)
+    return chi2.sf(G, dof)
+
+
+@njit(fastmath=True)
+def g_counter(data, arities, cols, weights=None):
+    if weights is None:
+        weights = np.ones(len(data))
+    strides = np.empty(len(cols), dtype=np.uint32)
+    idx = len(cols) - 1
+    stride = 1
+    while idx > -1:
+        strides[idx] = stride
+        stride *= arities[cols[idx]]
+        idx -= 1
+    N_ijk = np.zeros(stride)
+    N_ik = np.zeros(stride)
+    N_jk = np.zeros(stride)
+    N_k = np.zeros(stride)
+    for rowidx in range(data.shape[0]):
+        idx_ijk = 0
+        idx_ik = 0
+        idx_jk = 0
+        idx_k = 0
+        for i in range(len(cols)):
+            idx_ijk += data[rowidx, cols[i]] * strides[i]
+            if i != 0:
+                idx_jk += data[rowidx, cols[i]] * strides[i]
+            if i != 1:
+                idx_ik += data[rowidx, cols[i]] * strides[i]
+            if (i != 0) & (i != 1):
+                idx_k += data[rowidx, cols[i]] * strides[i]
+        N_ijk[idx_ijk] += weights[rowidx]
+        for j in range(arities[cols[1]]):
+            N_ik[idx_ik + j * strides[1]] += weights[rowidx]
+        for i in range(arities[cols[0]]):
+            N_jk[idx_jk + i * strides[0]] += weights[rowidx]
+        for i in range(arities[cols[0]]):
+            for j in range(arities[cols[1]]):
+                N_k[idx_k + i * strides[0] + j * strides[1]] += weights[rowidx]
+    G = 0
+    for i in range(stride):
+        if N_ijk[i] != 0:
+            G += 2 * N_ijk[i] * np.log(N_ijk[i] * N_k[i] / N_ik[i] / N_jk[i])
+    dof = (arities[cols[0]] - 1) * (arities[cols[1]] - 1) * strides[1]
+    return G, dof
+
+
+# statistical fisher's z test
+def zf_test(data, cols, weights=None):
+    if len(cols) == 2:
+        rho = wtd.partial_cor(x=data.columns[cols[0]], y=data.columns[cols[1]], weight=weights) if weights == None else \
+            pg.partial_corr(data, data.columns[cols[0]], data.columns[cols[1]])['r'][0]
+    elif len(cols) > 2:
+        rho = wtd.partial_cor(x=data.columns[cols[0]], y=data.columns[cols[1]], preds=list(data.columns[cols[2:]]),
+                              weight=weights) if weights == None else \
+            pg.partial_corr(data, data.columns[cols[0]], data.columns[cols[1]], list(data.columns[cols[2:]]))['r'][0]
+    else:
+        raise Exception('Length of input cols is less than 2')
+    z = np.arctanh(rho) * np.sqrt(data.shape[0] - 3 - len(cols) + 2)
+    return st.norm.sf(abs(z)) * 2
+
+
+# statistical pearson test
+def pearson_test(data, cols):
+    if len(cols) == 2:
+        return pg.partial_corr(data, data.columns[cols[0]], data.columns[cols[1]])['p-val'][0]
+    elif len(cols) > 2:
+        return \
+            pg.partial_corr(data, data.columns[cols[0]], data.columns[cols[1]], list(data.columns[cols[2:]]))['p-val'][
+                0]
+    else:
+        raise Exception('Length of input cols is less than 2')
+
+
+# plot the bnlearn DAG
+def plot(dag, filename):
+    dot = Digraph()
+    for node in bnlearn.nodes(dag):
+        dot.node(node)
+        for parent in bnlearn.parents(dag, node):
+            if parent not in dot.body:
+                dot.node(parent)
+            dot.edge(parent, node)
+    dot.render(filename, view=True)
+
+
+# random orient a PDAG to a DAG
+def pdag2dag(pdag):
+    pdag_dc = deepcopy(pdag)
+    dag = {var: {'par': [] + pdag[var]['par'], 'nei': []} for var in pdag}
+
+    while pdag_dc:
+        pdag_length = len(pdag_dc)
+        for var in list(pdag_dc.keys()):
+            if all(var not in pdag_dc[x]['par'] for x in pdag_dc):
+                if pdag_dc[var]['nei']:
+                    if pdag_check(pdag_dc, var):
+                        for nei in pdag_dc[var]['nei']:
+                            dag[var]['par'].append(nei)
+                            pdag_dc[nei]['nei'].remove(var)
+                        pdag_dc.pop(var)
+                else:
+                    pdag_dc.pop(var)
+        if len(pdag_dc) == pdag_length:
+            return None
+    return dag
+
+
+def pdag2cpdag(pdag):
+    dag = pdag2dag(pdag)
+    dag_bnlearn = to_bnlearn(dag)
+    cpdag_bnlearn = bnlearn.cpdag(dag_bnlearn)
+    return from_bnlearn(cpdag_bnlearn)
+
+
+# check function used for pdag2dag
+def pdag_check(pdag, x):
+    for y in pdag[x]['nei']:
+        x_adj = [v for v in pdag if v in set().union(*pdag[x].values()) or x in pdag[v]['par']]
+        x_adj.remove(y)
+        for x_a in x_adj:
+            if y not in set().union(*pdag[x_a].values()) and x_a not in pdag[y]['par']:
+                return False
+    return True
+
+
+# convert gobnilp cpdag to bnlearn format
+def gobnilp2bnlearn(dag):
+    try:
+        return bnlearn.cpdag(bnlearn.model2network(dag))
+    except rpy2.rinterface.embedded.RRuntimeError:
+        return None
+
+
+# convert DAG into CPDAG
+def dag2cpdag(dag):
+    # initialise CPDAG
+    cpdag = {var: {'par': [], 'nei': []} for var in dag}
+    # remain all unshielded colliders
+    for var in dag:
+        if len(dag[var]['par']) > 1:
+            par_adj = {par: [par] + dag[par]['par'] + dag[par]['nei'] + [v for v in dag if par in dag[v]['par']] for par
+                       in dag[var]['par']}
+            check_list = [val for lst in par_adj.values() for val in lst]
+            for par in dag[var]['par']:
+                if check_list.count(par) < len(dag[var]['par']):
+                    cpdag[var]['par'].append(par)
+                else:
+                    if par not in cpdag[var]['nei']:
+                        cpdag[var]['nei'].append(par)
+                    if var not in cpdag[par]['nei']:
+                        cpdag[par]['nei'].append(var)
+        elif len(dag[var]['par']) == 1:
+            par = dag[var]['par'][0]
+            if par not in cpdag[var]['nei']:
+                cpdag[var]['nei'].append(par)
+            if var not in cpdag[par]['nei']:
+                cpdag[par]['nei'].append(var)
+    while True:
+        stop_flag = True
+        for var in dag:
+            for nei in cpdag[var]['nei']:
+                # Meek's Rule 1
+                if len(cpdag[var]['par']) > 0:
+                    par_adj = {par: dag[par]['par'] + dag[par]['nei'] + [v for v in dag if par in dag[v]['par']]
+                               for par in cpdag[var]['par']}
+                    check_list = [val for lst in par_adj.values() for val in lst]
+                    if check_list.count(nei) < len(cpdag[var]['par']):
+                        cpdag[nei]['par'].append(var)
+                        cpdag[var]['nei'].remove(nei)
+                        cpdag[nei]['nei'].remove(var)
+                        stop_flag = False
+                        break
+                # Meek's Rule 2
+                if len(cpdag[nei]['par']) > 0:
+                    # check directed path var -> ... -> nei
+                    dir_flag = False
+                    unchecked = deepcopy(cpdag[nei]['par'])
+                    checked = []
+                    while unchecked:
+                        if dir_flag:
+                            break
+                        unchecked_copy = deepcopy(unchecked)
+                        for dag_par in unchecked_copy:
+                            if var in cpdag[dag_par]['par']:
+                                dir_flag = True
+                                break
+                            else:
+                                for key in cpdag[dag_par]['par']:
+                                    if key not in checked:
+                                        unchecked.append(key)
+                            unchecked.remove(dag_par)
+                            checked.append(dag_par)
+                    if dir_flag:
+                        cpdag[var]['nei'].remove(nei)
+                        cpdag[nei]['nei'].remove(var)
+                        cpdag[nei]['par'].append(var)
+                        stop_flag = False
+                        break
+                # Meek's Rule 3
+                if len(cpdag[nei]['par']) > 1:
+                    for par_pair in combinations(cpdag[nei]['par'], 2):
+                        p1 = par_pair[0]
+                        p2 = par_pair[1]
+                        if p1 not in cpdag[p2]['par'] + cpdag[p2]['nei'] and p2 not in cpdag[p1]['par']:
+                            if var in cpdag[p1]['nei'] and var in cpdag[p2]['nei']:
+                                cpdag[var]['nei'].remove(nei)
+                                cpdag[nei]['nei'].remove(var)
+                                cpdag[nei]['par'].append(var)
+                                stop_flag = False
+                                break
+                # Meek's Rule 4
+                if len(cpdag[nei]['par']) > 0 and len(cpdag[var]['nei']) > 2:
+                    for par_nei in cpdag[nei]['par']:
+                        if par_nei in cpdag[var]['nei'] and len(cpdag[par_nei]['par']) > 0:
+                            for par_par_nei in cpdag[par_nei]['par']:
+                                if par_par_nei in cpdag[var]['nei']:
+                                    cpdag[var]['nei'].remove(nei)
+                                    cpdag[nei]['nei'].remove(var)
+                                    cpdag[nei]['par'].append(var)
+                                    stop_flag = False
+                                    break
+                        if not stop_flag:
+                            break
+            if not stop_flag:
+                break
+        if stop_flag:
+            return cpdag
