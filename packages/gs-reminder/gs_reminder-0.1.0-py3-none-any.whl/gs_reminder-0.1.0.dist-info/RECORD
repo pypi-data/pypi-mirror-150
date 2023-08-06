@@ -1,0 +1,16 @@
+gs_reminder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_reminder/__main__.py,sha256=dwHSXaGw2Upy38NzP2TYkWXmXI3i9ws-9rFqLTcpyIc,103
+gs_reminder/bridge.py,sha256=tXOPvaHqyCUT5uJ3tb4VtjQZyu-g_b00cGLu-IhxSr0,257
+gs_reminder/github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_reminder/github/api.py,sha256=-ileNq0HDlth1uhQ27kZWZRfszbPJ18tqtPatkWacjs,945
+gs_reminder/github/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_reminder/github/models/pull_request.py,sha256=Abn6Jorn6-n18weT6S_LZO95DvB7JlRJAUncyzEo_-8,1071
+gs_reminder/github/models/user.py,sha256=zQ5nI05Ftl5G-f76KoP32If7v4qTnFOM2q4eM1mZkZA,457
+gs_reminder/notifier.py,sha256=HnFY-S5xrqKWYHwr8zW--Ra66v2G41SpO68uFBhnHNY,1652
+gs_reminder/slack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_reminder/slack/api.py,sha256=CHpdodJScdVHpeVpl2yd4t6htDADp3dUQQygv3i3524,3090
+gs_reminder-0.1.0.dist-info/entry_points.txt,sha256=HAXJqWczhOW-ydFmS5HdNsqoHUGycJ8W6Vrl5anz6VQ,57
+gs_reminder-0.1.0.dist-info/LICENSE,sha256=maXeQ-zWt9V1YP-SBBdMu0D0FbgVdRANDeKDLbOKNV4,1065
+gs_reminder-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gs_reminder-0.1.0.dist-info/METADATA,sha256=ogBkymJ5qFlHjAwAcNuIrQFrhPphBbXVwd1j3is6Ppg,1703
+gs_reminder-0.1.0.dist-info/RECORD,,
