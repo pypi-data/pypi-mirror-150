@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+otel_extensions_pytest/__init__.py
+otel_extensions_pytest.egg-info/PKG-INFO
+otel_extensions_pytest.egg-info/SOURCES.txt
+otel_extensions_pytest.egg-info/dependency_links.txt
+otel_extensions_pytest.egg-info/entry_points.txt
+otel_extensions_pytest.egg-info/requires.txt
+otel_extensions_pytest.egg-info/top_level.txt
+otel_extensions_pytest.egg-info/zip-safe
