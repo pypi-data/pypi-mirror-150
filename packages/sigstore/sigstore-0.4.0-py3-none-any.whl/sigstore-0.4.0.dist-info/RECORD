@@ -1,0 +1,16 @@
+sigstore/__init__.py,sha256=BDng8gWjqSh9HA_uYCtZlajpRWuUqBEG574H0Igi5Gk,685
+sigstore/__main__.py,sha256=HCfDgHYNeIUnutq746I_T9SPrBKyqrehAMBvTrNc_9Q,726
+sigstore/_cli.py,sha256=ZUKMrGHEO8jvaO7neaSPsl7mUDb_iRDyxcur6hcmuRg,4541
+sigstore/_sign.py,sha256=mshvCxBLd1lextqz5QZbHXruIBxFnX0HRMdPXbBR088,4584
+sigstore/_verify.py,sha256=PmhcAFPgSu8dyYTvTUf_jvS_VWnn17ix-bE43i9nzt4,7637
+sigstore/_version.py,sha256=RGRAx6FJuVJ0AIiXIMYl4CZhCsPCHlK2uke9JU5ql3g,653
+sigstore/_store/__init__.py,sha256=YWh3su-XhpFx7_fN58m-D0N3Lma1ZRj8nzQqulpUA3g,1157
+sigstore/_store/ctfe.pub,sha256=f8uUpdDtVBJgRzuZC5mmw5hkwfsW8_PllKWjzrv-E4o,177
+sigstore/_store/fulcio.crt.pem,sha256=-YmqI974fFSUBOrbp2d2jSo8jW0wqLeT-fUYqOr9LPU,740
+sigstore/_store/rekor.pub,sha256=3OXvcVUC7J8839EfjMOEsxphQQI9PnWV6ZCKgctiQb0,178
+sigstore-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sigstore-0.4.0.dist-info/METADATA,sha256=PZ6afYSPT4uhEALR6eDzK5ibNneYdf5kjj2DHpdlwVs,17841
+sigstore-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sigstore-0.4.0.dist-info/entry_points.txt,sha256=RV6yt5yw2jvveOZVFrz8L47r_2RGcEtsT9GF4IrhVTw,48
+sigstore-0.4.0.dist-info/top_level.txt,sha256=zKpFCz9Tn_rsH6C-R9bQbFxZ2BOtCDe0eDuNscHllfk,9
+sigstore-0.4.0.dist-info/RECORD,,
