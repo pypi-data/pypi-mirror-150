@@ -1,0 +1,2 @@
+recursive-include dist/obfuscated/merged/btgatt/pytransform *.so
+recursive-include src/btgatt/res *.json
