@@ -1,0 +1,3 @@
+[console_scripts]
+c2=c2.main:main
+
