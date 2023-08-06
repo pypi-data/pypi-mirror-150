@@ -1,0 +1,16 @@
+LICENSE
+setup.py
+jguvc_eip/_BasicIOWindowUI.py
+jguvc_eip/__init__.py
+jguvc_eip/_io_messages.py
+jguvc_eip/_io_window.py
+jguvc_eip/_mylabel.py
+jguvc_eip/basic_io.py
+jguvc_eip/basic_io_error.py
+jguvc_eip/colors.py
+jguvc_eip/image_objects.py
+jguvc_eip_unofficial.egg-info/PKG-INFO
+jguvc_eip_unofficial.egg-info/SOURCES.txt
+jguvc_eip_unofficial.egg-info/dependency_links.txt
+jguvc_eip_unofficial.egg-info/requires.txt
+jguvc_eip_unofficial.egg-info/top_level.txt
