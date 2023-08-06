@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: toro-toggler
+Version: 2.0.0
+Summary: TORO python markdown extension for wrapping image in special div tag
+Author: Jerrick M. Pua
+Author-email: jerrick.pua@toro.io
+Keywords: python toro
+Classifier: Programming Language :: Python
+
