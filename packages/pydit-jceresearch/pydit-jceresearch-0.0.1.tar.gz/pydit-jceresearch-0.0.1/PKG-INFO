@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pydit-jceresearch
+Version: 0.0.1
+Summary: Data cleansing tools for Internal Auditors
+License: MIT
+Author: jceresearch
+Author-email: jceresearch@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
