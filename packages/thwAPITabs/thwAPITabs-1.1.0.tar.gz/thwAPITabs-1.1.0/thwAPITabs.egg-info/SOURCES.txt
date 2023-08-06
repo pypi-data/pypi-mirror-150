@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+thwAPITabs.egg-info/PKG-INFO
+thwAPITabs.egg-info/SOURCES.txt
+thwAPITabs.egg-info/dependency_links.txt
+thwAPITabs.egg-info/requires.txt
+thwAPITabs.egg-info/top_level.txt
