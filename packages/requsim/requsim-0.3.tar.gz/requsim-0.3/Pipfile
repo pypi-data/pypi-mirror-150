@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+
+[dev-packages]
+pre-commit = "*"
+pytest = "*"
+setuptools = "*"
+wheel = "*"
+requsim = {editable = true, path = "."}
+sphinx = "*"
+autodocsumm = "*"
+recommonmark = "*"
+sphinx-rtd-theme = "*"
+setuptools-scm = "*"
+
+[requires]
+python_version = "3.8"
