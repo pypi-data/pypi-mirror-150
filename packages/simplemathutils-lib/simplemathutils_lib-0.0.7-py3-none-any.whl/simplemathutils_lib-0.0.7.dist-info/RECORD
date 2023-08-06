@@ -1,0 +1,10 @@
+simplemathutils_lib/__init__.py,sha256=L0CqzlExFMTeJG8RyaTtGQrIC6vRMjEUH1EMjKuEflM,144
+simplemathutils_lib/class_simplemath.py,sha256=zmBxs4uOnxKzdS60LGqY1GiTkrN7RcYMDDrQm_-J_Ls,1863
+simplemathutils_lib/simplemath.py,sha256=uLjB_OOosfcZ1m5Kho0_TUdtl0KptwYp-stPnx8Zrps,1535
+tests/__init__.py,sha256=OGaz65tGXJw1XzVZaAp0E7SgGtHR9aAhPUcbWP0tW38,57
+tests/simplemath_test.py,sha256=NmZGD_pAkk7KxB0953G9gHb4EFQcSZYuXEfLcoYTFYA,1369
+simplemathutils_lib-0.0.7.dist-info/LICENSE.txt,sha256=dnK6Y6UDK9T4Y4PRRO3MabVTCfzKeveDbTyWXz9T-T8,1058
+simplemathutils_lib-0.0.7.dist-info/METADATA,sha256=PdXyfbWaMBBPW5iaKStqEJaqVwTkHmyRk9wFURFnLa8,863
+simplemathutils_lib-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simplemathutils_lib-0.0.7.dist-info/top_level.txt,sha256=4dwQKNXyBCmmSBnjRSvvjuaMhbgLOiRQNA6xa-Wrfe4,26
+simplemathutils_lib-0.0.7.dist-info/RECORD,,
