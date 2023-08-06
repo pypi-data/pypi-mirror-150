@@ -1,0 +1,13 @@
+wattson/__init__.py,sha256=SRvUActvsz3WU4N5c118lXTmTfCfJgtFc0Ue4L4Nhyo,23
+wattson/consts.py,sha256=bkDXQIUOlmfkj-V068oUGGFLCNkNZIxD26hkh0yneQA,261
+wattson/data.py,sha256=H00wpNUixWBRoHV49jJCNUlTQPBDe6G_wwTvMv2q49g,116576
+wattson/estimator.py,sha256=DGEx6rVwegWS3E35-6EBtThkmY8QMaebTzFwQFCtwCA,3358
+wattson/interpolation.py,sha256=mcLTtY5CfXfyAycqffBOhOyrElHq9GP-JrsXhkBw09k,889
+wattson/test_estimator.py,sha256=3kPugJ-HhY_I8zLj7ZT9W88GHMilKIjqY70pvGzWQCg,2364
+wattson/test_interpolation.py,sha256=rN0fYLkUFoNi6LtCGjPb8Wocb7l65t5LtFsaX7j6dz4,374
+wattson/types.py,sha256=37Jt4HHiyRqwmMtYErgge_xCrRroQ3cyFyNJXb06cUk,564
+valohai_wattson-22.5.0.dist-info/LICENSE,sha256=YuUXOALblhX0j4mREUXigBOULShQgQkgJ9_abvIp600,1075
+valohai_wattson-22.5.0.dist-info/METADATA,sha256=70a6PH-_rCaaavMOdUbLCV2_XsF7YtL7k9Dv_yNpPzY,2908
+valohai_wattson-22.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+valohai_wattson-22.5.0.dist-info/top_level.txt,sha256=EqYp4rYxuZC89B-htuwDCmnrUfa3PROF1fFeo_I1ggE,8
+valohai_wattson-22.5.0.dist-info/RECORD,,
