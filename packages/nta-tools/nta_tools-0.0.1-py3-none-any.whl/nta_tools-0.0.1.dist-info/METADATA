@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nta-tools
+Version: 0.0.1
+Summary: Network Traffic Analysis Tools
+Home-page: https://pypi.org/project/nta-tools/
+Author: NTA-Tools Developers
+Author-email: wellshark.net@gmail.com
+License: MIT-0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: nfstream (>=6.5.0)
+Requires-Dist: pynvml (>=11.4.1)
+
+UNKNOWN
+
