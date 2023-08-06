@@ -1,0 +1,15 @@
+apiman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiman/base.py,sha256=S-GKIp17w5ic4m4TsYo14GekdNXo-zx845RCVgVFw3M,8340
+apiman/bottle.py,sha256=2c4vhZ2xsdGkBpaFodzq67gtT292uYFIvyegyHuOoQY,3776
+apiman/django.py,sha256=34a71EZ-TMn-QioCCcHC2HzhuH5VEeKH0Yj2rVFwg1M,6440
+apiman/flask.py,sha256=EigqnX7uK0MgGFGFOKmKhcwQr-7KYfJsa_6WYN7By_k,5005
+apiman/starlette.py,sha256=kjCtvEJ-aOikQnDjwAhk4hDLOzBfjQLgXVu7widzLgU,5389
+apiman/static/index.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiman/static/redoc.html,sha256=l5TRhj1mhRsZqsYhcpzNp5q-k7ZaX4FlV9B2ASRVaQc,657
+apiman/static/swagger.html,sha256=xljI0cRbxP1BcR-LVcqt0kFtS0yCH1fj0W-gYEXICvU,1552
+apiman/static/template.yaml,sha256=XSOWsbRdx5f_nO3R2Eosgn3TaJMKlRiRpocHRHA2684,86
+apiman/tornado.py,sha256=rm6atIpJloZwuGX9x7VansZavD44lG1_5WCrjZGY78M,5477
+apiman-0.5.0.dist-info/LICENSE,sha256=R6qPdMZD-B5I2jTus6tLXAomhEwfmzr3sqAbzHdeAcQ,1508
+apiman-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+apiman-0.5.0.dist-info/METADATA,sha256=B2WvYQxzaXCvE_eCYZI_9fDdP_aUC8mJ4u4gnSUAMKs,9688
+apiman-0.5.0.dist-info/RECORD,,
