@@ -1,0 +1,13 @@
+mixsea/__init__.py,sha256=BcLFJts8rdsqJTurF9gSHMuUeA6Kxf-AuzNuAdhxnpg,109
+mixsea/helpers.py,sha256=x0REQkEInR1H4fwF2bynZCk1pTsws6aYxLzWAAgsJCo,7919
+mixsea/nsq.py,sha256=tGc7ObxEtWebOl-yXU2Rwc7A_VoFvyaOmqsUAZRlECA,7708
+mixsea/overturn.py,sha256=oGujysbMjWosPGjV9ZDEdj-CyONmRCJseLtZ0uxayCM,19948
+mixsea/shearstrain.py,sha256=FXNp7iCaP5kIZMVjhicuvoFF5e_ek6rYjuIAGT44Ho8,27829
+mixsea/tests/data/ctd_test_data.csv,sha256=Gh88YL8X_J_9G6oDw73EXZgQKEGtbgZTmKcLt4IFE48,815601
+mixsea/tests/data/ladcp_test_data.csv,sha256=s2UlInsxCgO6BeN3-VQsamae84_R0a71rd962tDYPEg,125906
+mixsea-0.1.1.dist-info/AUTHORS.rst,sha256=kiMBd4j8YyYatu8rfYTjnK3vJ42fOnouT6S2vi8YMfg,428
+mixsea-0.1.1.dist-info/LICENSE,sha256=eULoukPqXJ8pv1CQ3t8D0A9kGYSuHxkqxcPBAPBfhX4,1070
+mixsea-0.1.1.dist-info/METADATA,sha256=XmCYHzoOHvWIc1pOQgfpUwz6RGIMVbdBa9gnlF67jEE,1938
+mixsea-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+mixsea-0.1.1.dist-info/top_level.txt,sha256=6M8oQSxXwGK-L686wn90Np_MCQvu9QcHeCHp7E06Pbw,7
+mixsea-0.1.1.dist-info/RECORD,,
