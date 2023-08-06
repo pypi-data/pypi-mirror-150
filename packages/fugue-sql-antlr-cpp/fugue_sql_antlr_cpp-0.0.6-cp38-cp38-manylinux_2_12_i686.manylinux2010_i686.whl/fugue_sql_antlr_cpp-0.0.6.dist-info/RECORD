@@ -1,0 +1,8 @@
+fugue_sql_antlr_version/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+fugue_sql_antlr_cpp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fugue_sql_antlr_cpp/sa_fugue_sql_cpp_parser.cpython-38-i386-linux-gnu.so,sha256=YpWxPpUoa3gXMxVKIIgeWMO4BfTNWTQmqAk-hqYx3_M,155613156
+fugue_sql_antlr_cpp-0.0.6.dist-info/top_level.txt,sha256=FcmZmMvvmTOWVIzH7iF8Viw7NwEh-3OyuVjkqZ2hPzM,44
+fugue_sql_antlr_cpp-0.0.6.dist-info/RECORD,,
+fugue_sql_antlr_cpp-0.0.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+fugue_sql_antlr_cpp-0.0.6.dist-info/METADATA,sha256=TxonlDFImFKYEoUwH0Oin54e99qLvCs9WPY0Rw3W-Gk,2346
+fugue_sql_antlr_cpp-0.0.6.dist-info/WHEEL,sha256=DeCI5j8Kpcfo9K-79YaO9xQDpAnn859nJfgrDV3PbMk,144
