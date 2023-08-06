@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bbgo
+Version: 0.1.9
+Summary: 
+Author: なるみ
+Author-email: weaper@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: flake8 (>=4.0.1,<5.0.0)
+Requires-Dist: grpcio (>=1.44.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.44.0,<2.0.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
