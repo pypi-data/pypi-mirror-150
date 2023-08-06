@@ -1,0 +1,9 @@
+npgbq/__init__.py,sha256=tN1kH_JIuqqhPAMu48BtdYLQn8p-UJ2clAzRO4CmZ0E,632
+npgbq/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npgbq/core/helper_phone_number_th.py,sha256=Ei2Lu3ysEFd4KNJMUM-jwy2_Sd1a8jPAU-LeC-BeOKo,7842
+npgbq/core/tools.py,sha256=cYmCJr48EDK-B_COefML4yPa4s_U2IFe4C_FP4Go5Co,22483
+npgbq-1.0.0.dist-info/LICENSE,sha256=XSkCXY5nQkgvaCsE1iU48zVL1Pul0A2xdAgxUxkBHLw,1083
+npgbq-1.0.0.dist-info/METADATA,sha256=5gX7ZrBb6h_HAUff2jtcaKlxRurhos4_x8L9wRghsy0,1388
+npgbq-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+npgbq-1.0.0.dist-info/top_level.txt,sha256=gR-EHulHhqsHknqA5xTpT5GLv7WHV7yyQvupLdXrhaM,6
+npgbq-1.0.0.dist-info/RECORD,,
