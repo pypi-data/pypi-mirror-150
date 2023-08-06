@@ -1,0 +1,8 @@
+setuptools
+plone.registry
+requests
+z3c.caching
+Zope
+
+[test]
+plone.app.testing
