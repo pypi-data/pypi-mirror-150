@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: danny
+Version: 0.0.1
+Summary: A very basic package to find the GCD of two numbers
+Home-page: UNKNOWN
+Author: Dhanvina
+Author-email: peckdoor@gmail.com
+License: MIT
+Keywords: GCD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a very simple package which takes two inputs and gives the GCD (greatest common divisor) of those two numbers
+
+Change Log
+==========
+
+0.0.1 (10/05/2022)
+-------------------
+-First Release
+

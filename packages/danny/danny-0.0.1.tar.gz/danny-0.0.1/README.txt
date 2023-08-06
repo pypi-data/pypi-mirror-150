@@ -1,0 +1,1 @@
+This is a very simple package which takes two inputs and gives the GCD (greatest common divisor) of those two numbers

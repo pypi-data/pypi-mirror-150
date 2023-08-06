@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+danny.egg-info/PKG-INFO
+danny.egg-info/SOURCES.txt
+danny.egg-info/dependency_links.txt
+danny.egg-info/top_level.txt
