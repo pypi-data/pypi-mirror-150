@@ -1,0 +1,15 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/tunic_language/IPA.runes
+src/tunic_language/__init__.py
+src/tunic_language/cmudict.IPA
+src/tunic_language/cmudict.phones
+src/tunic_language/mappings.py
+src/tunic_language/translation.py
+src/tunic_language_YI_JIAHE.egg-info/PKG-INFO
+src/tunic_language_YI_JIAHE.egg-info/SOURCES.txt
+src/tunic_language_YI_JIAHE.egg-info/dependency_links.txt
+src/tunic_language_YI_JIAHE.egg-info/requires.txt
+src/tunic_language_YI_JIAHE.egg-info/top_level.txt
+test/test.py
