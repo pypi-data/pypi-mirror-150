@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+absresgetter/__init__.py
+absresgetter/main.py
+absresgetter.egg-info/PKG-INFO
+absresgetter.egg-info/SOURCES.txt
+absresgetter.egg-info/dependency_links.txt
+absresgetter.egg-info/top_level.txt
