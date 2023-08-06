@@ -1,0 +1,10 @@
+setup.py
+distributions_yanting/Binomialdistribution.py
+distributions_yanting/Gaussiandistribution.py
+distributions_yanting/Generaldistribution.py
+distributions_yanting/__init__.py
+distributions_yanting.egg-info/PKG-INFO
+distributions_yanting.egg-info/SOURCES.txt
+distributions_yanting.egg-info/dependency_links.txt
+distributions_yanting.egg-info/not-zip-safe
+distributions_yanting.egg-info/top_level.txt
