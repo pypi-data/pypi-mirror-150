@@ -1,0 +1,10 @@
+coloredlogs
+extendedos>=0.1.5
+langdetect
+lxml
+pydub
+python-pptx
+termcolor
+
+[:python_version < "3.0"]
+pathlib
