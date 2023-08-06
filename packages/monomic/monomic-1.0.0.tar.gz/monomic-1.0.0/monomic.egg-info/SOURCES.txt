@@ -1,0 +1,9 @@
+setup.py
+monomic/__init__.py
+monomic/intermediate.py
+monomic.egg-info/PKG-INFO
+monomic.egg-info/SOURCES.txt
+monomic.egg-info/dependency_links.txt
+monomic.egg-info/entry_points.txt
+monomic.egg-info/not-zip-safe
+monomic.egg-info/top_level.txt
