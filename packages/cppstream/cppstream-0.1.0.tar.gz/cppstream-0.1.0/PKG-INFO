@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: cppstream
+Version: 0.1.0
+Summary: C++-style IO with streams
+Home-page: https://github.com/mrlegohead0x45/cppstream
+License: MIT
+Author: mrlegohead0x45
+Author-email: mrlegohead0x45@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Documentation, https://mrlegohead0x45.github.io/cppstream
+Project-URL: Repository, https://github.com/mrlegohead0x45/cppstream
+Description-Content-Type: text/x-rst
+
+cppstream
+---------
+
+This is a library that implements C++-style IO with streams in Python.
+It is **not** a wrapper around the actual C++ streams, but instead provides a
+higher-level interface that is more Pythonic.
+
+For example
+
+.. code:: cpp
+
+    #include <iostream>
+    #include <fstream>
+    std::cout << "Hello, " << "World!" << std::endl;
+
+    std::ofstream ostrm("test.txt");
+    ostrm << "Hello, World!" << std::endl;
+
+translates to
+
+.. code:: python
+
+    import cppstream
+
+    cppstream.cout << "Hello, " << "World!" << cppstream.endl
+
+    ostrm = cppstream.OutFileStream()
+
+    # or using the context manager 
+    with cppstream.OutFileStream() as ofs:
+        ofs.open("test.txt")
+        ofs << "beans" << cppstream.endl
+
+See the inheritance diagram:
+
+.. image:: streams.png
+

@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "cppstream"
+version = "0.1.0"
+description = "C++-style IO with streams"
+authors = ["mrlegohead0x45 <mrlegohead0x45@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/mrlegohead0x45/cppstream"
+repository = "https://github.com/mrlegohead0x45/cppstream"
+documentation = "https://mrlegohead0x45.github.io/cppstream"
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: C++",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+isort = "^5.10.1"
+Sphinx = "^4.5.0"
+flake8 = "^4.0.1"
+mypy = "^0.950"
+pre-commit = "^2.18.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+pytest-html = "^3.1.1"
+
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+exclude = ["examples.py", "docs/source/conf.py", "tests/*"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
