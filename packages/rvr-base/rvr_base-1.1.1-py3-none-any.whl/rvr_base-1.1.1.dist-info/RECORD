@@ -1,0 +1,17 @@
+rvrbase/__about__.py,sha256=TOtS8lNzwLeBFG309bIzptKXIRRxlGVRae-6k9CKGEI,56
+rvrbase/__init__.py,sha256=k9fP2riIMLBh0Dv-xwVmfCMe6e6ywKK6hL35Mo8aDQQ,118
+rvrbase/constants.py,sha256=FMxs6UnnW0S7PDcWw2Y0A_b8f04_4nqaM0ZDVtPL9Es,717
+rvrbase/rvrbase.py,sha256=zqGWJ-yLVxxqz7TkEkTrr_Lb6PXruPrS9L_3VmF6eVQ,4112
+rvrbase/api/__init__.py,sha256=QAuiiVdMWcaa0fCSDBbAqE2X946tltov_lUZwBCj1fs,151
+rvrbase/api/azure_logger_api.py,sha256=R7qu1Cqs0cy_N_oCdVb_62Z29w5M1IXst9GimEaltBY,2504
+rvrbase/api/azure_reader_api.py,sha256=-vCjUWa5j3hut9b0N_GFnjzaMks2wTTVDsBw7o5GtYw,2290
+rvrbase/api/notification_api.py,sha256=RCKva4bnio6W4ti_uvSNwYsBCnl7xYorUYssZwWBO9I,227
+rvrbase/api/rvrconfig.py,sha256=XnyhoqhOpO24xslYk-MawwHNRa0rP29mUXtlgOXitMI,1038
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_azure_reader_api.py,sha256=y5sU5-JWGGCGxyiWvz4hg-ibC3quK8sKJAi3l9Wq4zg,3322
+test/test_delegate.py,sha256=HB0-JBAWT69pZsA2865mYZk6OhALw1CivenMQ_8Cglo,3622
+rvr_base-1.1.1.dist-info/LICENSE,sha256=s_NUk0VVX9ln2_QSWlC24DDkt15cvufAM1axrCcXobk,1068
+rvr_base-1.1.1.dist-info/METADATA,sha256=YOxm5GxaJ8aOR7Kz8AC9R3PkNwzoVpqIO1XE-2murWw,2970
+rvr_base-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rvr_base-1.1.1.dist-info/top_level.txt,sha256=0x4gYzwiB29eDEvQNmdSVE5JYA1QuuJ6Pge4_BrZdso,13
+rvr_base-1.1.1.dist-info/RECORD,,
