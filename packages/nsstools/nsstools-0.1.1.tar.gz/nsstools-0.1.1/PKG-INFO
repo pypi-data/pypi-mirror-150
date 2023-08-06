@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nsstools
+Version: 0.1.1
+Summary: Tools for calculate campbell and covmat from Gaia CU4 sources
+Home-page: https://gitlab.obspm.fr/gaia/nsstools.git
+Author: Nicolas Leclerc, Carine Babusiaux, Jean-Louis Halbwachs
+Author-email: gaia.project@obspm.fr
+License: CeCILL-2.1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# nsstools
+Tools for NSS in GAIA ESA project
+
+## Installation
+
+### with pip
+pip3 install --user nsstools
+
+### with setup
+python3 setup.py install
+
+## Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+
+## Authors and acknowledgment
+Jean-Louis Halbwachs
+Carine Babusiaux
+Nicolas Leclerc
+
+
