@@ -1,0 +1,9 @@
+ocs
+autobahn[serialization]
+twisted
+pyserial
+sqlalchemy
+pysnmp
+
+[so3g]
+so3g
