@@ -1,0 +1,10 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/functional.py,sha256=XRt2dDPFpc3VK58lA4hfNwTFa3VhZtkcon3BSqU3mxA,157
+examples/periodic.py,sha256=xSpwR6AWVXxmE0DoS3_tcFmwTe2n7XeBiL18Yf-8JBs,221
+examples/polynomial.py,sha256=QHwrGjUvEAQ_QC3A6agJWQtIxdZ6nsFdEcOoDBlZ1GI,140
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_graph.py,sha256=VGQbcDn4Qa0SRDyMnN29YhdlYP5VGRUPVAK_YrPLn0Y,916
+Graft_Psy-1.0.0.dist-info/METADATA,sha256=EV5WwMDr99JuRV5VvQbngYzwWMiR0um9uqzXCDM-gfg,408
+Graft_Psy-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Graft_Psy-1.0.0.dist-info/top_level.txt,sha256=0M_q4z1rcVnxMaWpKYLpD8k_V871rRuE8__boDbZHKI,15
+Graft_Psy-1.0.0.dist-info/RECORD,,

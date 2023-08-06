@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Graft-Psy
+Version: 1.0.0
+Summary: A simple package for constructing 2d graph functions
+Home-page: https://github.com/ArchmagePsy/Graft
+Author: ArchmagePsy
+Author-email: SeaOfCodeSi@gmail.com
+Project-URL: Bug Tracker, https://github.com/ArchmagePsy/Graft/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
