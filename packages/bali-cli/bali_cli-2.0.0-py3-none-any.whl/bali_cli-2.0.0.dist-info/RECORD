@@ -1,0 +1,16 @@
+cli/__init__.py,sha256=hwOJuFUEKtsgiOt4l6op9s-hviovM6TK1uCdtRNWY4E,22
+cli/biz.py,sha256=ry-NIxPTj7LQZP1cgfLsQAQ0h1BZebQR5durTxXJbr0,5474
+cli/main.py,sha256=n4pduWcCZ9AB7zncUJsbXkwG_yLREjax_fU21ZJ-e9Q,640
+cli/templates/client.jinja2,sha256=y3Q9KsV2rrPCTq3uBTG9Pnwn2U3XRDDTOWxsc7cmnuI,1437
+cli/templates/clients.init.jinja2,sha256=tUb0qD0TNpGDNEDkW2iZ_2yuODfXTcYbmDufXbp0mc8,92
+cli/templates/config.jinja2,sha256=WJFY7k5YXwlOTJtUiToBWauBvhtF2HModDO6B4vp-Vk,131
+cli/templates/utils.jinja2,sha256=IfJmB27Ah1G6v9Rgkx64nTU5WYP3puEa6OAwIlr69OI,7938
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_biz.py,sha256=0mgi5Pc9xBRbWY0RDvp1R_GZW3_xb2WiKTT70tEA1yU,4687
+tests/test_main.py,sha256=kB3nAXSc5HdmvyTEwf0MWnrv3glpLzwpLOETF-ZfYQk,185
+bali_cli-2.0.0.dist-info/LICENSE,sha256=-wSWGB428BHu2R9AP9NhYXRcr-kGp0tAXw5-t9REG4g,1064
+bali_cli-2.0.0.dist-info/METADATA,sha256=dKqX4U0TSsvhPrX7YKCt4G14Qz3ZHDJPla4yuw2nyRg,605
+bali_cli-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bali_cli-2.0.0.dist-info/entry_points.txt,sha256=Bc-bbcpENpkqHhce1-ol1nbaaXgmuIHCmRiYyzkrGmo,39
+bali_cli-2.0.0.dist-info/top_level.txt,sha256=Vj2uoDLTvyrBTgd15he9psaltKtSsF5Vz4jFpifytOk,10
+bali_cli-2.0.0.dist-info/RECORD,,
