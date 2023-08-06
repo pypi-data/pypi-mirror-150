@@ -1,0 +1,6 @@
+README.md
+setup.py
+threshimg.egg-info/PKG-INFO
+threshimg.egg-info/SOURCES.txt
+threshimg.egg-info/dependency_links.txt
+threshimg.egg-info/top_level.txt
