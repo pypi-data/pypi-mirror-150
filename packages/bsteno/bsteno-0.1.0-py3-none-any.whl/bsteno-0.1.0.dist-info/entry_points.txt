@@ -1,0 +1,4 @@
+[console_scripts]
+bsteno_extract=bsteno.bsteno_extract:main
+bsteno_insert=bsteno.bsteno_insert:main
+
