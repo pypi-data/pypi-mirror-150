@@ -1,0 +1,3 @@
+[console_scripts]
+sqcli=asking_more_questions.client:app
+
