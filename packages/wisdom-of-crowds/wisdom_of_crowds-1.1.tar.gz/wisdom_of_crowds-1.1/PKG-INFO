@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: wisdom_of_crowds
+Version: 1.1
+Summary: Re-implementation and extension of the measures described in Sullivan et al. (2020): Vulnerability in Social Epistemic Networks, International Journal of Philosophical Studies
+Home-page: https://github.com/cvklein/wisdom-of-crowds
+Author: Colin Klein and Marc Cheong
+Author-email: Colin.Klein@anu.edu.au
+License: GPL3.0
+Description: UNKNOWN
+Keywords: wisdom crowds epistemology network
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Sociology
+Requires-Python: >=3.7
