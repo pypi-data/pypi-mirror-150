@@ -1,0 +1,8 @@
+asyncspawner/__init__.py,sha256=z6yOTbmE34z3V7mAvNN4ylrCBgFuCxwBo2KygTsLKGw,154
+asyncspawner/logger.py,sha256=BZLl9NfhhW4L5prNvH15c5IpdrDkZFLHnLCYjLx9rEY,1412
+asyncspawner/spawner.py,sha256=yLeuEUUuWO9xv7AkDsqFwgTqf0zXqe71gKtTK-OZojg,5586
+AsyncSpawner-0.1.1.dist-info/LICENSE,sha256=djME36OqYv3rnHrhx77q_ddke9QTn9ZOGuVz3nS_28M,1061
+AsyncSpawner-0.1.1.dist-info/METADATA,sha256=sUMHvZtfoBZZoZQGYVEMIuN_vJvACN1fzcQbaL8v6Q8,4709
+AsyncSpawner-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AsyncSpawner-0.1.1.dist-info/top_level.txt,sha256=4Nd035iqvSROeMSHFcd8UGIHtbT_jo6tq5l8NUEyo04,13
+AsyncSpawner-0.1.1.dist-info/RECORD,,
