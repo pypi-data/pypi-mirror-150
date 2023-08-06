@@ -1,0 +1,3 @@
+[console_scripts]
+awemecommit=awemecommit.main:app
+

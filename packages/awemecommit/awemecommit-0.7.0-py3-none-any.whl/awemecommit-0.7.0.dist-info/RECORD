@@ -1,0 +1,10 @@
+awemecommit/__init__.py,sha256=09hol5ovL6ArILJIJZ-MiscnOjKa6RjaETmtdgJpW2c,22
+awemecommit/commands/commit.py,sha256=YUyjunenAcMk6kRATizbzJ4KeDNAxGKxHkBhRzZxB_c,8851
+awemecommit/commands/commit_config.py,sha256=jpsvt6-yap3eC90yzxz3a6RuGXT3XtjQuVJT99sguWA,1132
+awemecommit/commands/helper.py,sha256=pqqzTLB07TsviaTYohRAoqMcma_Xm1_JK_0XecpwKak,3808
+awemecommit/commands/onecommit.py,sha256=g7H3LAt9hNbPVH-s3vPR8Q1jCCCIWRuxY75-n00NNj8,632
+awemecommit/main.py,sha256=Knb20Xh_fsWV4pK0lT5A8ETpvv_HsZFRmObsm49ZEwc,618
+awemecommit-0.7.0.dist-info/entry_points.txt,sha256=3LeZ5YckDyYAwaXcBtcXWg0a06pBEu_4GlLi6sT3A6Q,52
+awemecommit-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+awemecommit-0.7.0.dist-info/METADATA,sha256=ieXNkxOrnYJAgTW6KdgFq_agON1eVsjOzwufXjP2720,1705
+awemecommit-0.7.0.dist-info/RECORD,,
