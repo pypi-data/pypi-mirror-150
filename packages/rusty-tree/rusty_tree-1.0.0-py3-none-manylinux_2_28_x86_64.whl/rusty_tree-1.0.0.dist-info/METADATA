@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rusty_tree
+Version: 1.0.0
+Requires-Dist: cffi
+Requires-Dist: numpy
+Requires-Dist: mpi4py
+Summary: Octree data structures in Rust.
+Keywords: numerics
+Home-Page: https://github.com/rusty-fast-solvers/rusty-tree
+Author: Timo Betcke <timo.betcke@gmail.com>, Srinath Kailasa <srinathkailasa@gmail.com>
+Author-email: Timo Betcke <timo.betcke@gmail.com>, Srinath Kailasa <srinathkailasa@gmail.com>
+License: BSD-3-Clause
+Requires-Python: >=3.8
+Project-URL: Source Code, https://github.com/rusty-fast-solvers/rusty-tree
