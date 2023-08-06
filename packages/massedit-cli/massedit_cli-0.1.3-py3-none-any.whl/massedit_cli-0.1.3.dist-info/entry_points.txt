@@ -1,0 +1,3 @@
+[console_scripts]
+massedit=massedit_cli:main
+
