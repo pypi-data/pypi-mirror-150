@@ -1,0 +1,17 @@
+statkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statkit/distributions.py,sha256=AYZCqVEFKOJmbU2gYlg-3sYJxNRGLHCWUP2qh2560eU,17984
+statkit/feature_selection.py,sha256=wipcvNyg1ph5LLwzn-uBmEzPoVgfdlcWv1FpO-3PJ-E,3745
+statkit/metrics.py,sha256=y6PXjQ8KmQPwvndublJsQ3eUta4X8-puR1PTYgmAgVc,3590
+statkit/naive_bayes.py,sha256=kjb0f7wLWyOPRW8-WvyA7stDOQ-ZDMf8ZTlaByKm9R0,11123
+statkit/non_parametric.py,sha256=6bcpgNZlLlbVkSlk3nLk0GosXRh-ffGTe5SKhmmDpUc,6931
+statkit/views.py,sha256=mG20fi-e-Qtt8AI1gu6lzdCV0YO6NqIFjp38r-ukItY,1741
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_distributions.py,sha256=0MXjDfuFSkRJ_z5B_kJp-XMwiyoG8mUBauMZ7FyDJl8,14488
+test/test_metrics.py,sha256=gLnlA89-3HHCqnbOBV8HLvkvQChV_C74uHUQfgIvotA,1503
+test/test_naive_bayes.py,sha256=8cmBUTuWvne7EybcF4fgr24S_G4dTI38w6QQ0oM8aSQ,14758
+test/test_non_parametric.py,sha256=63TskumPE8gVV_jvVJby3lGc6rfIrm0_L6seaLA2Sgs,5648
+statkit-0.0.2.dist-info/LICENSE,sha256=VbL3SeezkaROfSbPjnjB0G7BWK4MvFWmQA7JIgga1As,1071
+statkit-0.0.2.dist-info/METADATA,sha256=uF-wlxLHupRPSZXJxMtPP-KKPxvMXr83tlG4rpUT6fs,2270
+statkit-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+statkit-0.0.2.dist-info/top_level.txt,sha256=KrYRHANfPKUZr_A1YfLQi0Nb94FnDWHm3Vg033Uys8w,13
+statkit-0.0.2.dist-info/RECORD,,
