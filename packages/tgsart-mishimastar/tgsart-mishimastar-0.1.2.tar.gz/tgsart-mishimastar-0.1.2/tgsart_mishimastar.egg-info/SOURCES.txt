@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+tgsart/__init__.py
+tgsart_mishimastar.egg-info/PKG-INFO
+tgsart_mishimastar.egg-info/SOURCES.txt
+tgsart_mishimastar.egg-info/dependency_links.txt
+tgsart_mishimastar.egg-info/requires.txt
+tgsart_mishimastar.egg-info/top_level.txt
