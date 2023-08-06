@@ -1,0 +1,15 @@
+.DS_Store,sha256=K4Hpi1OHqMOZLG8UpO4HWCONn3EPL1NPi-h6ZoAOURg,6148
+umls_downloader/__init__.py,sha256=wp77EgxOJbx2Q_IIQESjnHCQAP0MBd3l_0bWKiSYXWs,573
+umls_downloader/__main__.py,sha256=YryP6Zng-dqu0322M3DGqCtfP_HD9XPO0atUe07X1wU,332
+umls_downloader/api.py,sha256=OyEbCvpn8aC3aApXO5ZXLte32V_Swdd6cAWV5LSLO6E,4447
+umls_downloader/cli.py,sha256=fL7HahISVv3dScIPO-7UTo0vcXHcxJw9jqSBp8gJ1-o,2641
+umls_downloader/rxnorm.py,sha256=CL9Ig3SihulG3EAr7GOv0iJOd7QNx4-915QtkR7MZVY,2352
+umls_downloader/semmeddb.py,sha256=9gqXuYxoZ4bM2c2qEivpu-DxZiZTQaXHGbVTT7Ny4mY,2388
+umls_downloader/umls.py,sha256=_jdbBGjxwu-Nxx9u3DZcMW_RpOK6cxiU3yB6RjKFTEU,3065
+umls_downloader/version.py,sha256=dYQ2okdTYr7sDiHxM0mra7JUATvJzkddUGxXGmwgIPg,1036
+umls_downloader-0.1.0.dist-info/LICENSE,sha256=ve6WiK7DUzD7fEkZ_ddqaiBSMNj9ib93QYZG5UsOAH0,1076
+umls_downloader-0.1.0.dist-info/METADATA,sha256=r8uFHrrkS6Blon6c73S51PM8KV_5qwkF9i3Np6JErd0,7328
+umls_downloader-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+umls_downloader-0.1.0.dist-info/entry_points.txt,sha256=YSCtRsA-Eqeh5HCoUKNs9rgWtm8U71RYnOLaxxANxO8,61
+umls_downloader-0.1.0.dist-info/top_level.txt,sha256=rMekL8AVtH1HVnzsGFDEMrgb2R0c4y8hmW196tey3v4,16
+umls_downloader-0.1.0.dist-info/RECORD,,
