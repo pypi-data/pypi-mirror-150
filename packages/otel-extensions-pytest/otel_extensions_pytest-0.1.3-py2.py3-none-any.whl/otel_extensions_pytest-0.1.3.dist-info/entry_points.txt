@@ -1,0 +1,3 @@
+[pytest11]
+otel_extensions = otel_extensions_pytest
+
