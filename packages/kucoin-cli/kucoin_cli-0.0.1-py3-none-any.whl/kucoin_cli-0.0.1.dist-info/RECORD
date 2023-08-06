@@ -1,0 +1,9 @@
+kucoin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kucoin/kucoin.py,sha256=MgCOOLUrZPwDPJqIkc21Wx3NV_irWeXXFwVm7ZvdlS4,26331
+kucoin/websocket/SocketManager.py,sha256=ct6gXhEX77sMZpgRmCeB9RSfxZHrHWr_V7KhywpnZR4,1280
+kucoin/websocket/SocketSubs.py,sha256=iWhMxIXx2-1e9gyeo2PGYkVAev3ImmAvTZiyvd1mWqI,1949
+kucoin/websocket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kucoin_cli-0.0.1.dist-info/METADATA,sha256=DePFqQjfaDd9xsurgm_7W5CLTDlBqQG_FrRSOsU5fBc,808
+kucoin_cli-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kucoin_cli-0.0.1.dist-info/top_level.txt,sha256=4b6K_6oF2HhZSF9vOinP59_LdAYPMTzXTu1cl9hUiMA,7
+kucoin_cli-0.0.1.dist-info/RECORD,,
