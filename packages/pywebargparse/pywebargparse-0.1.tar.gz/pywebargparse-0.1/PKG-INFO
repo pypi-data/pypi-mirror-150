@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pywebargparse
+Version: 0.1
+Summary: This is a tool to create an web ui from argparse script
+Home-page: https://github.com/penfree/webargparse
+Author: penfree
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
