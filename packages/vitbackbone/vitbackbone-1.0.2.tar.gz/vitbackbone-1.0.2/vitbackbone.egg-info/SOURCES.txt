@@ -1,0 +1,15 @@
+setup.py
+vitbackbone/__init__.py
+vitbackbone/main.py
+vitbackbone.egg-info/PKG-INFO
+vitbackbone.egg-info/SOURCES.txt
+vitbackbone.egg-info/dependency_links.txt
+vitbackbone.egg-info/top_level.txt
+vitbackbone/models/__init__.py
+vitbackbone/models/swin/__init__.py
+vitbackbone/models/swin/build.py
+vitbackbone/models/swin/swin_transformer.py
+vitbackbone/models/swin/utils.py
+vitbackbone/models/van/__init__.py
+vitbackbone/models/van/utils.py
+vitbackbone/models/van/van.py
