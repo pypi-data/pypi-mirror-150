@@ -1,0 +1,1 @@
+#define HTS_VERSION_TEXT "1.15.1-19-g3c44c0b"
