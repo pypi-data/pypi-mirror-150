@@ -1,0 +1,3 @@
+[console_scripts]
+hlm2mc=hlm2_music_changer.hlm2mc:main
+
