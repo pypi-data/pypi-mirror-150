@@ -1,0 +1,5 @@
+nltk
+joblib
+sklearn_crfsuite
+fuzzywuzzy
+python-Levenshtein
