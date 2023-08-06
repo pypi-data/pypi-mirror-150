@@ -1,0 +1,4 @@
+[console_scripts]
+yape = yape.__main__:run_cli_main
+yapenv = yape.__main__:run_cli_main
+
