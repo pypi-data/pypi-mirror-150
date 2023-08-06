@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spacy-richtext-utils"
+version = "0.1.0"
+description = "Spacy tokenizer and pipeline steps to exploit the semantics of a Rich Text, like HTML or RTF."
+authors = ["Massimo Rebuglio <massimo.rebuglio@polito.it>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+spacy = "^3.3.0"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
