@@ -1,0 +1,8 @@
+fix_pyorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fix_pyorch/message.py,sha256=PIMphkHbzkqqQZHZaVlPGW3WUp8NAfpX9KPFLeuKFfQ,7370
+fix_pyorch/message_spec.py,sha256=tnMzDOwXxT0Km0iOUUy3XUmz2gV3O7uqq2StL3Gphgw,4139
+fix_pyorch-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fix_pyorch-0.0.3.dist-info/METADATA,sha256=0aiw8fvw6MhdtPrUKhpQrFAIlJwev5RMSL5h1xkf7YE,641
+fix_pyorch-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fix_pyorch-0.0.3.dist-info/top_level.txt,sha256=1Mb3dcc2csdFqmCPra9XG33EvJe1pos3i_9RgdD8RUM,11
+fix_pyorch-0.0.3.dist-info/RECORD,,
