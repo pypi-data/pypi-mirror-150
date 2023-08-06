@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyaggregate/__init__.py
+pyaggregate/aggregate.py
+pyaggregate.egg-info/PKG-INFO
+pyaggregate.egg-info/SOURCES.txt
+pyaggregate.egg-info/dependency_links.txt
+pyaggregate.egg-info/top_level.txt
