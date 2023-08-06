@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ddfr/__init__.py
+ddfr/ddfr.py
+ddfr.egg-info/PKG-INFO
+ddfr.egg-info/SOURCES.txt
+ddfr.egg-info/dependency_links.txt
+ddfr.egg-info/entry_points.txt
+ddfr.egg-info/requires.txt
+ddfr.egg-info/top_level.txt
