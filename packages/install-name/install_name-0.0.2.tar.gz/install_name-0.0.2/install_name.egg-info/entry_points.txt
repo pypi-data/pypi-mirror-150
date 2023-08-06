@@ -1,0 +1,2 @@
+[console_scripts]
+import_name = import_name:hello_world
