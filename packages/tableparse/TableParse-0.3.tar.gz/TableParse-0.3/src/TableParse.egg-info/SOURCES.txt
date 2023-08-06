@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/TableParse/__init__.py
+src/TableParse/tableparse.py
+src/TableParse.egg-info/PKG-INFO
+src/TableParse.egg-info/SOURCES.txt
+src/TableParse.egg-info/dependency_links.txt
+src/TableParse.egg-info/top_level.txt
