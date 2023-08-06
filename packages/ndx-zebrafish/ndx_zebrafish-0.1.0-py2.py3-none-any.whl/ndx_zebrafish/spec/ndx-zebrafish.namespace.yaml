@@ -1,0 +1,14 @@
+namespaces:
+- author:
+  - Ruben Portugues
+  - Martin Haesemeyer
+  - Luigi Petrucco
+  - Vilim Stih
+  contact:
+  - ruben.portugues@tum.de
+  doc: NWB extensions for storing (larval) zebrafish experiment related data
+  name: ndx-zebrafish
+  schema:
+  - namespace: core
+  - source: ndx-zebrafish.extensions.yaml
+  version: 0.1.0
