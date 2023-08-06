@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: dione
+Version: 0.0.6
+Summary: DIONE tool.
+Home-page: https://github.com/JRCSTU/dione
+Author: Vincenzo Arcidiacono
+Author-email: vinci1it2000@gmail.com
+License: EUPL 1.1+
+Download-URL: https://github.com/JRCSTU/dione/tarball/v0.0.6
+Project-URL: Documentation, http://JRCSTU.github.io/dione
+Project-URL: Issue tracker, https://github.com/JRCSTU/dione/issues
+Description: 
+        What is DIONE?
+        **************
+        
+        DIONE is a family of software applications that the JRC has been
+        developing since 2014 to support EU transport emission reduction
+        policies. It is presently employed to support road vehicle CO:sub:`2`
+        emissions standards within EC’s Fit for 55 package. It has also been
+        supporting the European Strategy for Low-Emission Mobility.
+        
+        The assessment of the costs of potential road vehicle CO:sub:`2`
+        emissions standards is carried out through the following computational
+        modules:
+        
+        *  DIONE Cost Curve Module: Develops CO:sub:`2` reduction cost curves,
+           applying an optimisation technique, which provide cost estimates
+           associated with reaching a given CO:sub:`2` reduction for different
+           vehicle segments and powertrains.
+        
+        *  DIONE Cross-Optimization and Energy Consumption Module: Identifies
+           cost-optimal strategies to reach given emission targets and
+           respective vehicle manufacturing costs, building on the cost
+           curves. Cross-optimization outcomes can be used to assess the
+           impact of different policy options on manufacturing costs for
+           different manufacturer categories, contributing to the economic
+           assessment.
+        
+        *  DIONE Total Cost of Ownership (TCO) Module: Computes total costs of
+           ownership under different regulation options, summarizing the
+           results from the previous steps and adding in operation and
+           maintenance costs. Results allow assessing the societal costs
+           associated with a policy option, as well as the costs for consumers
+           (new vehicle buyers and second-hand vehicle buyers).
+        
+        
+        Installation
+        ************
+        
+        To install it use (with root privileges):
+        
+        .. code:: console
+        
+           $ pip install dione
+        
+        Or download the last git version and use (with root privileges):
+        
+        .. code:: console
+        
+           $ python setup.py install
+        
+        
+        Install extras
+        ==============
+        
+        Some additional functionality is enabled installing the following
+        extras:
+        
+        *  cli: enables the command line interface.
+        
+        *  gui: enables the graphical user interface.
+        
+        *  plot: enables to plot the model process and its workflow.
+        
+        *  dev: installs all libraries plus the development libraries.
+        
+        To install DIONE and all extras (except development libraries), do:
+        
+        .. code:: console
+        
+           $ pip install 'dione[all]'
+        
+Keywords: python,utility,library,fleet,fuel,scientific,engineering,forecast
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Provides-Extra: cli
+Provides-Extra: plot
+Provides-Extra: gui
+Provides-Extra: parallel
+Provides-Extra: all
+Provides-Extra: dev
