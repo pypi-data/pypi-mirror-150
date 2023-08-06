@@ -1,0 +1,14 @@
+comis/__init__.py,sha256=Cbise-FCopw7NBjnyEWlD7lURHmhDcI_nhfDED2OwqQ,198
+comis/checks.py,sha256=8_nYNCrU9DPGEMhUUokQdoY1X-53YnRuVOR2gPzkXVY,284
+comis/filters/__init__.py,sha256=OoXGlT4bpMdj8NyQ6AND-H-mlrVQAoEHfG1naUeZFR0,166
+comis/filters/author.py,sha256=I58BXqU27Ge-owtvv6tua0lOgH3ahXPmXTPul4LzVk8,2395
+comis/filters/flair.py,sha256=VWkxHcSM5OKOcsEnsKOEZF3Sc_M271sph_RPn7hhj7I,1660
+comis/filters/karma.py,sha256=JCBYTk7d9f5gnwWaMg6M5_fax9uInqc01SYnqbBgFlQ,1456
+comis/filters/time.py,sha256=ReBb-OF6z2kDLnV85Vyj0e5fgzovyRzAfBGOkPrU-xA,720
+comis/main.py,sha256=7AoEyLxwgBawbUc9JWN3H24Y21m5gCeJZu0RoKdHYW4,5239
+comis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+comis/utils/__init__.py,sha256=uYjNrDGEIP0CQTtiSzkb69PM5DACny344rDV8V68D_M,492
+comis-0.1.1.dist-info/LICENSE,sha256=4zrFMB_eIPtiorG6Vx6qeVuP0gT5djhApu6RTDrV3l8,1134
+comis-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+comis-0.1.1.dist-info/METADATA,sha256=CH59r7YgNvwKlErNmkKptWGrWP9irB07yIwOxIlU4rg,1375
+comis-0.1.1.dist-info/RECORD,,
