@@ -1,0 +1,7 @@
+include LICENSE
+include pylintrc
+include README.rst
+include requirements.txt
+include zapf/RELEASE-VERSION
+
+global-exclude *.pyc
