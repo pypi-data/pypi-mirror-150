@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: deeplens
+Version: 0.0.1
+Summary: A simple parser written in Python for Amazon Deeplens
+Home-page: https://github.com/wnstdrr/deeplens
+Author: Xander Tedder
+Author-email: xandertedder7@gmail.com
+License: GNU GPL 3.0
+Description: UNKNOWN
+Keywords: deeplens lens amazon mqtt
+Platform: UNKNOWN
