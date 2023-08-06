@@ -1,0 +1,10 @@
+deep_dance/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+deep_dance/__main__.py,sha256=Kq1SbLFLDntYBelvZJYPuLzx1VPuguTWZ4B5Y3DvOl8,103
+deep_dance/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deep_dance/client/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deep_dance/client/commands/commands.py,sha256=wmFiJZoO4s91rwOFZPF-gtAYMqyhjiaSVqABlbbp3ro,4238
+deep_dance/client/dance_application.py,sha256=_9SAOCSLAUIY4ivvLBuBOWCL-e-LnmAxvfBIda4tdXg,308
+deep_dance-0.1.0.dist-info/entry_points.txt,sha256=3g2z58uvGHqfO8ruCTz3dwsN-aE4zDHNk3xC3-_ZsM0,71
+deep_dance-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deep_dance-0.1.0.dist-info/METADATA,sha256=fnId4B4ESG24lo0YIwxfyD4CCQ4vYIRSe4ngOyW9fAU,346
+deep_dance-0.1.0.dist-info/RECORD,,
