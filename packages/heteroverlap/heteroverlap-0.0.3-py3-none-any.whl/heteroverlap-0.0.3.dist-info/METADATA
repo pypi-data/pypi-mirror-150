@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: heteroverlap
+Version: 0.0.3
+Summary: Regression-based heterogeneity analysis to identify overlapping subgroup structure in high-dimensional data
+Home-page: https://github.com/foliag/subgroup
+Author: ZiyeLuo
+Author-email: 2017100369@ruc.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: openpyxl (>=3.0.9)
+Requires-Dist: pandas (>=1.3.3)
+Requires-Dist: scikit-learn (>=1.0.1)
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: seaborn (>=0.11.2)
+
+# heteroverlap
+This project is used for regression-based heterogeneity analysis to identify overlapping subgroup structure in high-dimensional data. For more details, please check our paper.
+
+## Installation
+1) Install the package from pypi or
+    ```
+    pip install heteroverlap
+    ```   
+2) from source
+    ```
+    git clone https://github.com/foliag/subgroup
+    cd subgroup
+    pip install .
+    ```       
+
+
+## License & citation
+
+The content of this repository is released under the terms of the [MIT license](LICENCE.txt).
+Please consider citing our paper if you use it.
+
+```
+@article{luo2022regression,
+author = {Luo, Ziye and Yao, Xinyue and Sun, Yifan and Fan, Xinyan},
+title = {Regression-based heterogeneity analysis to identify overlapping subgroup structure in high-dimensional data},
+journal = {Biometrical Journal},
+volume = {n/a},
+number = {n/a},
+pages = {},
+keywords = {heterogeneity analysis, high-dimensional data, overlapping subgroup structure, penalization, regression},
+doi = {https://doi.org/10.1002/bimj.202100119},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.202100119},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/bimj.202100119}
+}
+```
+
+
+
+
+
+
