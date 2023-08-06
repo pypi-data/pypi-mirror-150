@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: thomasfermi
+Version: 0.7
+Summary: Performing Thomas Fermi calculations of two dimensional electronic systems
+Author: Taige Wang
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# ThomasFermi
+Perform Thomas Fermi calculation to find the lowest energy density 
+configuration of two dimensional electronic systems. See the [**ref paper**](https://arxiv.org/abs/2204.10296) 
+for detail setup of the calculation.
+
+## Example usage
+A detailed example of FQHE is given in a [**Jupyter notebook**](https://github.com/tgwang98/ThomasFermi/blob/main/Example.ipynb)
+
+```python
+from thomasfermi.FQHE import FQHE_TFdata
+from thomasfermi.phi import *
+from thomasfermi.algo import TF_engine
+
+pars = {'L':20., 'l_B':7., 'd_t':30, 'd_b':30, 'dx':0.5, 'dy':0.5, 'Ec':5.85/40.}
+data = FQHE_TFdata(pars)
+pars = {'TFdata': data, 'Phi_EW_ext':-0.045, 'Phi_NS_ext':-0.015, 'Phi_back':-0.055}
+Phi = make_QPC_Phi(pars)
+pars = {'TFdata': data, 'Phi_ext':Phi.Phi_ext, 'n_iter':8}
+engine = TF_engine(pars)
+
+n = engine.find_local_opt(engine.init_n(eta = 0.3))
+n = engine.find_opt(n0 = n, n_iter = 40)
+```
+
+## Installation
+
+`thomasfermi` can be installed via `pip install thomasfermi`.
+
+## Citation
+
+If this code has benefited your research, please support us by citing:
+
+arXiv:2204.10296 [cond-mat.mes-hall]
