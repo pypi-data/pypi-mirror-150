@@ -1,0 +1,6 @@
+fire
+pyqlikengine
+pytz
+qsapi
+requests
+requests_ntlm
