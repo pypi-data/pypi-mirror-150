@@ -1,0 +1,3 @@
+[console_scripts]
+multiweb = multiweb.runnode:run_node
+
