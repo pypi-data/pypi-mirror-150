@@ -1,0 +1,6 @@
+numpy>=1.18.5
+ansurr>=2.0.55
+pandas
+scikit-learn
+prody
+pdb-tools
