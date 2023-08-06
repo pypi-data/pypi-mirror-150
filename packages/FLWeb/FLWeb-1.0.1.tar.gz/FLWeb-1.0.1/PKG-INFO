@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: FLWeb
+Version: 1.0.1
+Summary: Extensión para Flask
+Home-page: https://github.com/nakato156/FLWeb
+Author: Im_Cristina
+License: MIT
+Keywords: flask,extension,web,server
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Este es un mÃ³dulo que actÃºa como extensiÃ³n de Flask.
+
+El proposito de esto es poder crear aplicaciones web de forma mucho mÃ¡s sencilla y ordenada.
+
+El mÃ³dulo se basa en la creaciÃ³n de rutas mediante una lista de diccionarios
+
+# ejemplo de uso
+```python
+from FLweb.FWeb import FWeb
+web = Fweb(__name__)
+
+#creaciÃ³n de funciones asociadas a las rutas
+def index():
+    return "Hola mundo"
+#puede importar un archivo que contenga las rutas y pasarlas en el diccionario
+
+web.routes = [
+    {"route": "/", "methods":["GET"], "function": index}
+]
+
+web.parse_url()
+web.start(debug=True) #puede pasarle todos los argumentos que pasarÃ­a a app.run() de Flask
+```
+TambiÃ©n puede hacer uso de distintos mÃ©todos propios de flask como `register_blueprint`.
+Cabe aclarar que todo es compatible con Flask. Puede usar las funciones `render_template` dentro de las funciones que declare para las rutas y hacer uso de `session`, solo recuerde importarlo.
