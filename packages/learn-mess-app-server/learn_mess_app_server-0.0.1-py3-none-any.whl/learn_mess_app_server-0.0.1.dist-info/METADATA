@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: learn-mess-app-server
+Version: 0.0.1
+Summary: learn_mess_app_server
+Home-page: UNKNOWN
+Author: Chizhikov Roman
+Author-email: nod3223@ya.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
