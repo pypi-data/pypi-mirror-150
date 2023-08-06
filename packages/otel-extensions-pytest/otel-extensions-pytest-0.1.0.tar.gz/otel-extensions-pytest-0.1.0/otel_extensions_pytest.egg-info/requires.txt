@@ -1,0 +1,7 @@
+opentelemetry-api
+opentelemetry-sdk
+otel-extensions>=0.1.0
+pytest>=6.2.0
+
+[test]
+coverage>=5
