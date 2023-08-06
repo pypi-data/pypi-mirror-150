@@ -1,0 +1,1 @@
+pyqt_auto_search_bar
