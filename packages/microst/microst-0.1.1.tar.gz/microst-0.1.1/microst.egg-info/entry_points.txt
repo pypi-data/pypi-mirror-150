@@ -1,0 +1,3 @@
+[console_scripts]
+microst = microst.microst:main
+
