@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+gradeit/__init__.py
+gradeit/elevation.py
+gradeit/filter_bridge.py
+gradeit/grade.py
+gradeit/gradeit.py
+gradeit/visualization.py
+gradeit.egg-info/PKG-INFO
+gradeit.egg-info/SOURCES.txt
+gradeit.egg-info/dependency_links.txt
+gradeit.egg-info/requires.txt
+gradeit.egg-info/top_level.txt
