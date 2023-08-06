@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+./satisfactory_planner/__init__.py
+./satisfactory_planner/map_data.py
+./satisfactory_planner/recipes.py
+./satisfactory_planner/res/images/Map.webp
+satisfactory_planner.egg-info/PKG-INFO
+satisfactory_planner.egg-info/SOURCES.txt
+satisfactory_planner.egg-info/dependency_links.txt
+satisfactory_planner.egg-info/requires.txt
+satisfactory_planner.egg-info/top_level.txt
+satisfactory_planner.egg-info/zip-safe
