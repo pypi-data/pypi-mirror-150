@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pytray.c
+setup.py
+ptray.egg-info/PKG-INFO
+ptray.egg-info/SOURCES.txt
+ptray.egg-info/dependency_links.txt
+ptray.egg-info/not-zip-safe
+ptray.egg-info/top_level.txt

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ptray
+Version: 1.0.0
+Summary: A Python module to interact with the Windows tray.
+Home-page: https://github.com/donno2048/pytray
+Author: Elisha Hollander
+Author-email: just4now666666@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/donno2048/pytray#readme
+Project-URL: Bug Reports, https://github.com/donno2048/pytray/issues
+Project-URL: Source Code, https://github.com/donno2048/pytray
+Platform: win32
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytray
+
+A Python module to interact with the Windows tray.
+
+## Installation
+
+### From PyPI
+
+```sh
+pip3 install ptray
+```
+
+### From GitHub
+
+```sh
+pip3 install git+https://github.com/donno2048/pytray
+```
+
+## Usage
+
+Here is a simple example:
+
+```py
+import pytray, time, os
+pytray.create_tray_element()
+pytray.add_icon()
+i = 0
+while True:
+    time.sleep(.1)
+    pytray.set_icon(os.path.abspath(f"cat\\{i}.ico"))
+    i = (i + 1) % 5
+```
+
+In the future, I will add more features you can see in main.py.
+
+
