@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+signalio.egg-info/PKG-INFO
+signalio.egg-info/SOURCES.txt
+signalio.egg-info/dependency_links.txt
+signalio.egg-info/top_level.txt
