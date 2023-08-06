@@ -1,0 +1,2 @@
+[console_scripts]
+mira-preprocess = mira.preprocessing.cli:main
