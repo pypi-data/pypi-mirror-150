@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: thomasfermi
+Version: 0.2
+Summary: Performing Thomas Fermi calculations of two dimensional electronic systems
+Author: Taige Wang
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# ThomasFermi
+Perform Thomas Fermi calculation to find the lowest energy density configuration of two dimensional electronic systems 

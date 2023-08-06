@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+thomasfermi.egg-info/PKG-INFO
+thomasfermi.egg-info/SOURCES.txt
+thomasfermi.egg-info/dependency_links.txt
+thomasfermi.egg-info/requires.txt
+thomasfermi.egg-info/top_level.txt
+thomasfermi.egg-info/zip-safe
