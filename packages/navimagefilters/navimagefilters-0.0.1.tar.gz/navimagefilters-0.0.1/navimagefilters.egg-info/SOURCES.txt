@@ -1,0 +1,9 @@
+README.md
+setup.py
+facefilters/__init__.py
+facefilters/main.py
+facefilters/utils.py
+navimagefilters.egg-info/PKG-INFO
+navimagefilters.egg-info/SOURCES.txt
+navimagefilters.egg-info/dependency_links.txt
+navimagefilters.egg-info/top_level.txt
