@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+src/templo/__init__.py
+src/templo/lexer.py
+src/templo/parser.py
+src/templo/parsetab.py
+src/templo/run.py
+src/templo.egg-info/PKG-INFO
+src/templo.egg-info/SOURCES.txt
+src/templo.egg-info/dependency_links.txt
+src/templo.egg-info/requires.txt
+src/templo.egg-info/top_level.txt
