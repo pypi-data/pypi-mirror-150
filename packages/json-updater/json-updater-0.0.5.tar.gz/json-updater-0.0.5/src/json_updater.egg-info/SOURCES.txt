@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/json_updater/__init__.py
+src/json_updater/main.py
+src/json_updater/models.py
+src/json_updater.egg-info/PKG-INFO
+src/json_updater.egg-info/SOURCES.txt
+src/json_updater.egg-info/dependency_links.txt
+src/json_updater.egg-info/requires.txt
+src/json_updater.egg-info/top_level.txt

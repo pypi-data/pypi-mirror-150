@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: json-updater
+Version: 0.0.5
+Summary: Updates JSON according to a change spec
+Home-page: https://github.com/FortressEngineering/json-updater
+Author: Craig McConomy
+Author-email: cmcconomy@fwig.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# json-updater
+
+## Setup
+To import this library to your environment:
+* `pip install json-updater`
+
+To import this function in your python code:  
+* `from json_updater import update_json`
+
+## Use
+To invoke:
+* `modified_input = update_json(input, changeset)`
+
+Where,
+* `input` is either:
+  * a json-serializable `str`, or 
+  * a json-serializable `dict`
+* `changeset` is a json-serializable `str` or `dict` , or a `json_updater.ChangeSet` object.
+  * a json-serializable `str` conforming to the `json_updater.ChangeSet`,
+  * a json-serializable `dict` conforming to the `json_updater.ChangeSet`, or
+  * a `json_updater.ChangeSet` object
+
+## ChangeSet Spec
+The `ChangeSet` definition can be found [here](./src/json_updater/models.py); it consists of a set of `Change` objects. Each `Change` contains:
+* an `op` (operation),
+* a `path` which conforms to [jsonpath](https://github.com/json-path/JsonPath) syntax,
+* an optional `value` parameter, used in certain `op` types
+* an optional `index` parameter, used in certain `op` types
+
+Changes are applied in the order they are received.
+
+### Operation Types
+The following operations are supported:
+
+#### Delete: `"del"`
+Deletes all json nodes specified in the change `path`
+
+#### Init: `"init"`
+For all json nodes specified in the change `path`, if that node doesn't exist, its value is initialized to the change `value`. Otherwise, ignores the existing node.  
+Primarily used to ensure an array exists in the object tree before invoking Array Insert commands.
+
+#### Upsert: `"ups"`
+For all json nodes specified in the change `path`, creates or replaces that node, setting the value to the change `value`
+
+#### Replace: `"rpl"`
+For all json nodes specified in the change `path`, replaces that node, setting the value to the change `value`
+
+#### Array Insert: `"arr_ins"`
+For all json nodes specified in the change `path`, which must be of type array, insert the change `value` at the provided `index`.  
+If `index` is `null`, appends to the end of the array.
+
