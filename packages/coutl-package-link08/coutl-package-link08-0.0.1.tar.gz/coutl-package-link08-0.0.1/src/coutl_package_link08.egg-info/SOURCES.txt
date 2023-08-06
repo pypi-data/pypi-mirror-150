@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/coutl_package_link08.egg-info/PKG-INFO
+src/coutl_package_link08.egg-info/SOURCES.txt
+src/coutl_package_link08.egg-info/dependency_links.txt
+src/coutl_package_link08.egg-info/top_level.txt
