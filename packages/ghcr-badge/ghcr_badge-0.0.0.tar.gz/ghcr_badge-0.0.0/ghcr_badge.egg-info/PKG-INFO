@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ghcr-badge
+Version: 0.0.0
+Summary: Generate ghcr.io container's status badge
+Home-page: https://github.com/eggplants/ghcr-badge
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# ghcr-badge
+
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/eggplants/ghcr-badge/master.svg)](https://results.pre-commit.ci/latest/github/eggplants/ghcr-badge/master) [![Maintainability](https://api.codeclimate.com/v1/badges/f77401f6fb543dd8c436/maintainability)](https://codeclimate.com/github/eggplants/ghcr-badge/maintainability)
+
+Generate ghcr.io container's status badge
+
+
