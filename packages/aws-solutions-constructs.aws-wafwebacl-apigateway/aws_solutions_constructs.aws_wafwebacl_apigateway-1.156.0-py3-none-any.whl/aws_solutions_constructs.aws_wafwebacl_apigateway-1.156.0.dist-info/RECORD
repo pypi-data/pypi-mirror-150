@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_wafwebacl_apigateway/__init__.py,sha256=g-V9bomUzBqzOFhLSyK7LevWPIeuyOQJ-VVscxnlMOU,12540
+aws_solutions_constructs/aws_wafwebacl_apigateway/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_wafwebacl_apigateway/_jsii/__init__.py,sha256=kH7tXP0mhtQDpEUKKnmQ0AcmXJEQSE6wl45USM4AkDs,685
+aws_solutions_constructs/aws_wafwebacl_apigateway/_jsii/aws-wafwebacl-apigateway@1.156.0.jsii.tgz,sha256=xVHaWlxxsP83YVjJ_D-CiNPB4ITWkY_vvEZ9hM5wtqA,227835
+aws_solutions_constructs.aws_wafwebacl_apigateway-1.156.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_wafwebacl_apigateway-1.156.0.dist-info/METADATA,sha256=afZNGuYdJ0sD2FEBWIh1Lz7nGpvvf8KwTucEXqQuc38,8494
+aws_solutions_constructs.aws_wafwebacl_apigateway-1.156.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_solutions_constructs.aws_wafwebacl_apigateway-1.156.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_wafwebacl_apigateway-1.156.0.dist-info/RECORD,,
