@@ -1,0 +1,5 @@
+[console_scripts]
+mag_screen = magscreen.screen:main
+mag_screen_gui = magscreen.mag_screen_gui:main
+mag_screen_plot = magscreen.plot:main
+mag_screen_sum = magscreen.summary:main

@@ -1,0 +1,14 @@
+magscreen/__init__.py,sha256=stQY8N6plHxY5I1TeDB0D78vlbW4gROdXL4Qk-hvBss,34
+magscreen/calc.py,sha256=HUYd5CaYsM3zV3e11DmA66ybchoHqVye2fg7IXHwDVs,13684
+magscreen/common.py,sha256=fMZ2hgLbQsA31Gl1Q1LSZcGZcZkr7C2nc1-PUwM28y4,2781
+magscreen/plot.py,sha256=44H2y-23FA-6Yw-4OGvs-n8n6d1itbqrtZsox1_PDnE,14212
+magscreen/screen.py,sha256=x2hpUPlDva87M1NKKr_TwOqRfmh7-MK-xEhO8oZWG4Q,9504
+magscreen/semcsv.py,sha256=h6CAQ6wU3KchfQz4jJmzLCm8v2Tl1vpbocC-FgvcP-o,10068
+magscreen/summary.py,sha256=mIF2tBWqsDWxj92dNp9ut3yTnHOs-ULZHx5Bzl3Te5A,3024
+magscreen/tlvmr.py,sha256=tdJo2UKKHPBAIOrPp5yiFuR9vuzQiqigAeLYjEvhwtA,11414
+magscreen-0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+magscreen-0.3.dist-info/METADATA,sha256=mgdiFl8dDtBO_6d_CLhBa2NlsCjuBVuYkuD_gRbzPtc,6825
+magscreen-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magscreen-0.3.dist-info/entry_points.txt,sha256=JEOpoujzfOC0jA5GiVSNO2wp2TSZLxQUQJxIP3TUDB0,178
+magscreen-0.3.dist-info/top_level.txt,sha256=UAqIGZbY4Ev0sl0WO9WX3yxOnNwEl0-WFcclUnQsQV0,10
+magscreen-0.3.dist-info/RECORD,,
