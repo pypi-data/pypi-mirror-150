@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+treedist.py
+treedist.egg-info/PKG-INFO
+treedist.egg-info/SOURCES.txt
+treedist.egg-info/dependency_links.txt
+treedist.egg-info/entry_points.txt
+treedist.egg-info/requires.txt
+treedist.egg-info/top_level.txt
