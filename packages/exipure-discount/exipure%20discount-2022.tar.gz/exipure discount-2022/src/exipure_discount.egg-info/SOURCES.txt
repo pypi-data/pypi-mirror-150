@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/exipure_discount.egg-info/PKG-INFO
+src/exipure_discount.egg-info/SOURCES.txt
+src/exipure_discount.egg-info/dependency_links.txt
+src/exipure_discount.egg-info/top_level.txt
