@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: photobox
+Version: 0.0.1
+Summary: A guizero application to image insect sticky plates
+Home-page: https://github.com/kalfasyan/photobox
+Author: Ioannis Kalfas
+Author-email: kalfasyan@gmail.com
+License: UNKNOWN
+Keywords: photobox
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
