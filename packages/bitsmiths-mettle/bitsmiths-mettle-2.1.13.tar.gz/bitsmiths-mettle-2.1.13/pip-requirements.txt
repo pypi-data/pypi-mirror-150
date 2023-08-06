@@ -1,0 +1,14 @@
+asyncpg
+attrs
+build
+databases[postgres]
+pre-commit
+psycopg2
+pydantic
+pytest
+pytest-asyncio
+pyyaml
+sqlalchemy
+sqlparse
+stringcase
+twine
