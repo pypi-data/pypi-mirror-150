@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+if (( UID )); then
+  echo 'ERROR: Root permissions required. Please run this command as root user, via "sudo" or "su". Aborting...'
+  exit 1
+fi
+
+# Process CLI arguments
+SKIP_SYSTEMD=0
+SKIP_APT_UPDATE=0
+while (( $# )); do
+  case "$1" in
+    '--skip-systemd') SKIP_SYSTEMD=1;;
+    '--skip-apt-update') SKIP_APT_UPDATE=1;;
+    *) echo "ERROR: Invalid command-line argument \"$1\". Aborting..."; exit 1;;
+  esac
+  shift
+done
+
+# Install dependencies
+if command -v apt-get > /dev/null; then
+  (( SKIP_APT_UPDATE )) || apt-get update
+  # On Debian Buster and Ubuntu Focal, install newer motion from GitHub
+  FILE=''
+  MOTION='motion'
+  DISTRO=''
+  [[ -f '/etc/os-release' ]] && DISTRO=$(sed -n '/^VERSION_CODENAME=/{s/^[^=]*=//p;q}' /etc/os-release)
+  if [[ $DISTRO == 'buster' || $DISTRO == 'focal' ]]; then
+    MOTION_REL='4.3.2'
+    MOTION_SUBREL='-1'
+    ARCH=$(dpkg --print-architecture)
+    # On ARMv6 Raspberry Pi models, download armv6hf package
+    PI=''
+    [[ $(uname -m) == 'armv6l' && -f '/sys/firmware/devicetree/base/model' ]] && grep -q 'aspberry' /sys/firmware/devicetree/base/model && PI='pi_'
+    FILE="${PI}${DISTRO}_motion_${MOTION_REL}${MOTION_SUBREL}_${ARCH}.deb"
+    command -v curl > /dev/null || DEBIAN_FRONTEND="noninteractive" apt-get -y --no-install-recommends install curl
+    curl -fLO "https://github.com/Motion-Project/motion/releases/download/release-${MOTION_REL}/${FILE}"
+    MOTION="./${FILE}"
+  fi
+  DEBIAN_FRONTEND="noninteractive" apt-get -y --no-install-recommends install "${MOTION}" v4l-utils ffmpeg curl
+  [[ ${FILE} ]] && rm "${FILE}"
+elif command -v yum > /dev/null; then
+  yum -y install motion v4l-utils ffmpeg curl
+else
+  echo 'This system uses neither apt nor yum. Please install these dependencies manually:
+  motion v4l-utils ffmpeg curl'
+fi
+
+# Pre-create config and data dirs and install configuration files
+[[ -d '/etc/motioneye' ]] || mkdir /etc/motioneye
+[[ -f '/etc/motioneye/motioneye.conf' ]] || cp extra/motioneye.conf.sample /etc/motioneye/motioneye.conf
+chown -R motion:motion /etc/motioneye
+
+(( SKIP_SYSTEMD )) && exit 0
+
+# Install service
+[[ -f '/etc/systemd/system/motioneye.service' ]] || cp extra/motioneye.systemd /etc/systemd/system/motioneye.service
+systemctl daemon-reload
+systemctl enable --now motioneye
