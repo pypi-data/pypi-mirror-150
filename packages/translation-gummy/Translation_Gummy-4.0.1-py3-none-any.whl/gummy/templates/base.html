@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="{{ title }} - Translation-Gummy" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Translated '{{ title }}' using Translation Gummy." />
+  <meta property="og:image"
+    content="https://github.com/iwasakishuto/Translation-Gummy/blob/master/image/header.png?raw=true" />
+  {# <meta property="og:url" content="" /> #}
+  <meta property="og:site_name" content="Translation Gummy" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@cabernet_rock" />
+  {# <meta name="twitter:url" content="" /> #}
+  <meta name="twitter:title" content="{{ title }} - Translation-Gummy" />
+  <meta name="twitter:description" content="Translated '{{ title }}' using Translation Gummy." />
+  <meta name="twitter:image"
+    content="https://github.com/iwasakishuto/Translation-Gummy/blob/master/image/header.png?raw=true" />
+
+  <meta name="slack-app-id" content="A017FQB5GV9">
+  <title>{{ title }}</title>
+  <style>
+    {% include 'style.css'%}
+  </style>
+</head>
+
+<body>
+  <div class="translation-gummy">
+    <span class="title"> {{ title }} </span>
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+[console_scripts]
+gummy-driver=gummy.cli.check_driver:check_driver
+gummy-journal=gummy.cli.translate_journal:translate_journal
+gummy-translate=gummy.cli.translate_text:translate_text
+
