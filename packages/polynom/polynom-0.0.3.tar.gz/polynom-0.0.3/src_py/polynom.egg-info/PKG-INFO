@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: polynom
+Version: 0.0.3
+Summary: python package for evaluation and differentiation of polynomials in various basis representations
+Home-page: https://gitlab.com/berlinade/polynom
+Author: codima
+License: GPLv3
+Project-URL: Doc, https://berlinade.gitlab.io/polynom/
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# polynom
+
+## (Short) Description
+
+A package to provide polynomials/polynomial-basis-functions for interpolation
+
+provides routines for
+
+  - simple arithmetic
+  - (vectorized) evaluation
+  - (vectorized) (higher order) differentiation
+  - base conversion
+
+supports the following polynomial bases
+
+  - Monomial base
+  - Newton base
+  - Lagrange base
+  - ... others (experimentally)
+
+## Getting Started
+
+### Installation
+
+... via pip from PYPI (python package index)
+```bash
+pip install polynom
+```
+
+... or locally (using pip)
+```bash
+git clone https://gitlab.com/berlinade/polynom.git
+cd polynom
+pip install -e .
+```
+
+### Usage
+
+... *under construction*
+
+## Documentation
+
+... can be found here (*under construction*): [https://berlinade.gitlab.io/polynom/](https://berlinade.gitlab.io/polynom/)
+
+## Find polynom 
+
+- @ GitLab: [https://gitlab.com/berlinade/polynom](https://gitlab.com/berlinade/polynom)
+- @ PYPI: [https://pypi.org/project/polynom/](https://pypi.org/project/polynom/)
+- auther: [codima on youtube.com](https://www.youtube.com/channel/UCwnthITQqkWgaHnz82U7WsA)
+
+## (Informal Info on) License
+
+this version of the "polynom" has been published under GPLv3 (see [LICENSE](https://gitlab.com/berlinade/polynom/-/blob/main/LICENSE)). <br> 
+Alternative Licenses are negotiable.

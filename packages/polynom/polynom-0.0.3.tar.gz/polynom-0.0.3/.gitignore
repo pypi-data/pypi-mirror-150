@@ -1,0 +1,14 @@
+**/*.hint
+
+**/*.egg-info/
+build/
+dist/
+dist_backups/
+**/.idea/
+
+_docs/
+
+**/__pycache__/
+
+**/*.npy
+**/*.pyc
