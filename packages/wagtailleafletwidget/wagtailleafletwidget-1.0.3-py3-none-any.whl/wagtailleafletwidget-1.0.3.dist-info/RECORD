@@ -1,0 +1,16 @@
+wagtailleafletwidget/__init__.py,sha256=4hoAqUsCz3xYOtM1M-6lbWoXKZD-Y_22HMlWumCQZhI,265
+wagtailleafletwidget/app_settings.py,sha256=rM5QuSmvYdZrqk6gK8bICqB5TuEzty4zEkSApgMrm3M,349
+wagtailleafletwidget/apps.py,sha256=jYIZfituIZo3XBRh_KJfYYsy1jVxOR11vu5JNTyDDDk,109
+wagtailleafletwidget/blocks.py,sha256=xBVKXop024OfrHCWXXEcpMrPPYILeaXXRnOdtn3aJOo,1785
+wagtailleafletwidget/edit_handlers.py,sha256=ft4puJs4UvfJzLAfkgX1g_t_LK6qA0orZSrZo7KIL_U,1075
+wagtailleafletwidget/helpers.py,sha256=u_RH3tHOXqt-xYiiuLnsV2T1zQf12P9lMsYNNy0IQTw,492
+wagtailleafletwidget/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+wagtailleafletwidget/widgets.py,sha256=0WaxAnYCBAYZ3kkK4RP1JWPwqdNMm_05wdV7P4Kr8fA,4157
+wagtailleafletwidget/static/wagtailleafletwidget/css/geo-field.css,sha256=9osseh4J9r4imQzRSCdrkyhzIUUSwYPpHVQQ-nUgzBw,206
+wagtailleafletwidget/static/wagtailleafletwidget/js/geo-field.js,sha256=D74e3hQLuicOc1qyZiKNXnKo0TLaI1LiP4O6RBbz6NE,8072
+wagtailleafletwidget/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailleafletwidget/tests/test_geosgeometry_parser_helper.py,sha256=0uqhj1xQez0t1KMNGAtXbMNGQ_ZG_MxaWowhNmbjwKo,870
+wagtailleafletwidget-1.0.3.dist-info/METADATA,sha256=_3okHR5UPS2jNAnvyQ-E7tVlVNp2OzESsg8I6_0YoKg,1852
+wagtailleafletwidget-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wagtailleafletwidget-1.0.3.dist-info/top_level.txt,sha256=iI7LnnMyosDGX9W4YHeiWG2XsRbzm5PbUZRdcsunJPE,21
+wagtailleafletwidget-1.0.3.dist-info/RECORD,,
