@@ -1,0 +1,122 @@
+#!/usr/bin/env python
+
+import cinemasci
+import cinemasci.server
+import argparse
+import sys
+
+# ----------------------------------------------------------------------------
+#
+# parse command line options
+#
+# ----------------------------------------------------------------------------
+
+def server(args):
+    if args.verbose:
+        print(args.viewer)
+        print(args.rundir)
+        print(args.databases)
+        print(args.port)
+        print(args.assetname)
+        print(args.verbose)
+    cinemasci.server.run_cinema_server( args.viewer, args.rundir, args.databases, args.port, args.assetname, args.verbose)
+
+def view(args):
+    try:
+        import webbrowser
+    except ImportError or ModuleNotFoundError:
+        print("This can only be run if the python module webbrowser is available")
+        sys.exit(1)
+
+    if args.verbose:
+        print(args.viewer)
+        print(args.rundir)
+        print(args.databases)
+        print(args.port)
+        print(args.assetname)
+        print(args.verbose)
+
+    if cinemasci.server.verify_cinema_databases( args.rundir, args.databases ):
+        try:
+            webbrowser.get(using=args.browser).open("http://localhost:{}".format(args.port), new=2)
+            cinemasci.server.run_cinema_server( args.viewer, args.rundir, args.databases, args.port, args.assetname, args.verbose, silent=True)
+        except Exception as e:
+            print(str(e))
+            sys.exit(1)
+
+    else:
+        sys.exit(1)
+
+helptext = "\n\
+\n\
+examples: \n\
+\n\
+  BROWSE\n\
+    cinema view --databases first.cdb second.cdb\n\
+        run a cinema server and view it with the \'view\' viewer\n\
+\n\
+    cinema view --databases first.cdb second.cdb --viewer explorer --port XXXX\n\
+        run a cinema server and view it with the \'explorer\' viewer\n\
+\n\
+  SERVER\n\
+    cinema server --databases first.cdb second.cdb\n\
+        both commands run a cinema server that uses the \'view\' viewer to view databases\n\
+  \n\
+    cinema server --databases first.cdb second.cdb --viewer explorer --port XXXX\n\
+        run a cinema server that uses the \'explorer\' viewer to view databases over port XXXX\n\
+  \n\
+" 
+ 
+# normal option parsing 
+parent_parser = argparse.ArgumentParser( description="cinema: transform input data to cinema database", 
+                                  epilog=helptext, 
+                                  formatter_class=argparse.RawDescriptionHelpFormatter ) 
+
+
+subparsers = parent_parser.add_subparsers()
+
+# subcommand
+parser_server = subparsers.add_parser('server', 
+                                        add_help=False,
+                                        epilog=helptext, 
+                                        formatter_class=argparse.RawDescriptionHelpFormatter,
+                                        parents=[parent_parser],
+                                        help="run a cinema server to view databases" )
+parser_server.add_argument("--assetname", default=None, help="asset name to use (optional)") 
+parser_server.add_argument("-d", "--databases", required=True, nargs="+", default=None, help="database to view (required)") 
+parser_server.add_argument("--port", type=int, default=8000, help="port to use (optional)") 
+parser_server.add_argument("--rundir", default=".", help="directory in which to run the server") 
+parser_server.add_argument("--viewer", 
+                            default="view", 
+                            type=str, 
+                            choices={"explorer", "view"}, 
+                            help="which viewer to use") 
+parser_server.add_argument("--verbose", action="store_true", help="directory in which to run the server") 
+parser_server.set_defaults(func=server)
+
+# subcommand
+parser_view = subparsers.add_parser('view', 
+                                        add_help=False,
+                                        epilog=helptext, 
+                                        formatter_class=argparse.RawDescriptionHelpFormatter,
+                                        parents=[parent_parser],
+                                        help="run a cinema server and viewer to view databases" )
+parser_view.add_argument("--assetname", default=None, help="asset name to use (optional)") 
+parser_view.add_argument("-d", "--databases", required=True, nargs="+", default=None, help="database to view (required)") 
+parser_view.add_argument("--port", type=int, default=8000, help="port to use (optional)") 
+parser_view.add_argument("--rundir", default=".", help="directory in which to run the server") 
+parser_view.add_argument("--viewer", 
+                            default="view", 
+                            type=str, 
+                            choices={"explorer", "view"}, 
+                            help="which viewer to use") 
+parser_view.add_argument("--browser", 
+                            default="chrome", 
+                            type=str, 
+                            choices={"chrome", "firefox", "safari"}, 
+                            help="which browser to use") 
+parser_view.add_argument("--verbose", action="store_true", help="directory in which to run the server") 
+parser_view.set_defaults(func=view)
+
+args = parent_parser.parse_args()
+args.func(args)
