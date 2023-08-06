@@ -1,0 +1,6 @@
+setup.py
+com/insight_gateway_python_v4.0.5.egg-info/PKG-INFO
+com/insight_gateway_python_v4.0.5.egg-info/SOURCES.txt
+com/insight_gateway_python_v4.0.5.egg-info/dependency_links.txt
+com/insight_gateway_python_v4.0.5.egg-info/requires.txt
+com/insight_gateway_python_v4.0.5.egg-info/top_level.txt
