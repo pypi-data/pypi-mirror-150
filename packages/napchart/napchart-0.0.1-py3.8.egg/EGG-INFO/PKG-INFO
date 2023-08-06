@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: napchart
+Version: 0.0.1
+Summary: A simple API wrapper for the NAPChart
+Home-page: https://github.com/Arslan223/NapchartWrapper
+Author: Arslan S. Khalilov
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/Arslan223/NapchartWrapper/archive/refs/tags/v0.0.1-alpha.tar.gz
+Description: # napchart
+        A simple napchart wrapper for python3.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
