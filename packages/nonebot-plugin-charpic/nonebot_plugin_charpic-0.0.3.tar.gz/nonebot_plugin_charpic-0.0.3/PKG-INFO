@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_charpic
+Version: 0.0.3
+Summary: Generate picture(or GIF) by character
+Home-page: https://github.com/RafuiiChan/nonebot_plugin_charpic
+Author: Yuyu1628
+Author-email: a1628420979@163.com
+License: MIT Licence
+Keywords: pip,nonebot_plugin_charpic
+Platform: any
+
+Generate picture(or GIF) by character, for nonebot2 beta1
+
