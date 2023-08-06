@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: stacmap
+Version: 0.0.2
+Summary: Create interactive maps of STAC items.
+Home-page: https://github.com/aazuspan/stacmap
+Author: Aaron Zuspan
+Author-email: aazuspan@gmail.com
+License: MIT
+Keywords: STAC,folium,map,interactive,cloud-native-geospatial
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# stacmap
+
+Create interactive maps of [STAC]() items.
+
+# Features
+
+- 🗺️ Explore STAC item footprints
+- 🌈 Color-code items by properties
+- 🖼️ Preview item thumbnails
+- 🪶 Lightweight, minimal dependencies (just `folium` and `pystac`)
+
+# Installation
+
+```bash
+pip install stacmap
+```
+
+# Quickstart
+
+`stacmap.explore` creates an interactive [Folium]() map from STAC items or collections.
+
+```python
+import stacmap
+from pystac_client import Client
+
+# Find Sentinel-2 scenes over an area of interest
+catalog = Client.open("https://earth-search.aws.element84.com/v0")
+items = catalog.search(
+    bbox=[-120.9519, 37.2455, -113.4812, 45.1025],
+    collections=["sentinel-s2-l2a-cogs"],
+    datetime="2019-08-01/2019-08-03"
+).get_all_items()
+
+
+# Plot the items on an interactive map
+stacmap.explore(items)
+```
+
+You can color-code items by property by passing a `prop`:
+
+```python
+stacmap.explore(items, prop="eo:cloud_cover")
+```
+
+Include thumbnail overlays with `thumbnails=True`:
+
+```python
+stacmap.explore(items, thumbnails=True)
+```
+
+Draw the search bounding box with `bbox`:
+```python
+stacmap.explore(items, bbox=[-120.9519, 37.2455, -113.4812, 45.1025])
+```
+
+
+
