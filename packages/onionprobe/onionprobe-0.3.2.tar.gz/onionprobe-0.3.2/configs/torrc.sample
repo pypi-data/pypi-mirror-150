@@ -1,0 +1,5 @@
+# Minimal torrc example for testing
+# Do not use in production
+SocksPort 9050
+ControlPort 9051
+HashedControlPassword 16:B26845599A0B016A60F729DB6CBEDD9530B7627B13AFE55D267D7DABBE
