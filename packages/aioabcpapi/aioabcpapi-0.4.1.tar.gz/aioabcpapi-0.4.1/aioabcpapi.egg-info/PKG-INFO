@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aioabcpapi
+Version: 0.4.1
+Summary: Async library for ABCP API
+Home-page: https://github.com/bl4ckm45k/aioabcpapi
+Author: bl4ckm45k
+Author-email: nonpowa@gmail.com
+License: Apache License, Version 2.0 see LICENSE file
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# AioAbcpApi
+РђСЃРёРЅС…СЂРѕРЅРЅР°СЏ Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ [API ABCP](https://www.abcp.ru/wiki/ABCP.API "API ABCP") РґР»СЏ Python >= 3.7  СЃ asyncio Рё aiohttp
+
+![](https://img.shields.io/github/stars/bl4ckm45k/aioabcpapi.svg) ![](https://img.shields.io/github/forks/bl4ckm45k/aioabcpapi.svg)  ![](https://img.shields.io/github/issues/bl4ckm45k/aioabcpapi.svg) ![](https://img.shields.io/pypi/dm/aioabcpapi.svg?)
+##РЎСЃС‹Р»РєРё
+
+[Telegram Chat](https://t.me/aioabcpapi "Telegram Chat")
+
