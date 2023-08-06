@@ -1,0 +1,2 @@
+[console_scripts]
+adl2pydm = adl2pydm.cli:main
