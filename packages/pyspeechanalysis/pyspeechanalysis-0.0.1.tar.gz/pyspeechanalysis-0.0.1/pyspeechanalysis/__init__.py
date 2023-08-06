@@ -1,0 +1,1 @@
+from pyspeechanalysis.analysis import SpeechProcessing

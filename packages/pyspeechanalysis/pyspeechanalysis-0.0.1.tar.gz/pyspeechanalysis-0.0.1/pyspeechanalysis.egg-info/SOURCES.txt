@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyspeechanalysis/__init__.py
+pyspeechanalysis/analysis.py
+pyspeechanalysis.egg-info/PKG-INFO
+pyspeechanalysis.egg-info/SOURCES.txt
+pyspeechanalysis.egg-info/dependency_links.txt
+pyspeechanalysis.egg-info/requires.txt
+pyspeechanalysis.egg-info/top_level.txt
