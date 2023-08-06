@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: nerv
+Version: 1.0.0
+Summary: Neuroimaging Results Visualization
+Home-page: https://github.com/rmanaem/nerv
+Author: (rmanaem) Arman Jahanpour
+Author-email: <armanjahanpour7@gmail.com>
+License: MIT
+Keywords: python,dash,pandas,data visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Brotli (==1.0.9)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: dash (==2.3.0)
+Requires-Dist: dash-bootstrap-components (==1.0.3)
+Requires-Dist: dash-bootstrap-templates (==1.0.5)
+Requires-Dist: dash-core-components (==2.0.0)
+Requires-Dist: dash-html-components (==2.0.0)
+Requires-Dist: dash-table (==5.0.0)
+Requires-Dist: Flask (==2.0.3)
+Requires-Dist: Flask-Compress (==1.11)
+Requires-Dist: itsdangerous (==2.1.1)
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: MarkupSafe (==2.1.1)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: plotly (==5.6.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tenacity (==8.0.1)
+Requires-Dist: Werkzeug (==2.0.3)
+
+
+# Neuroimaging Results Visualization
+
+Neuroimaging Results Visualization (NeRV) is an interface developed in Python using Plotly Dash and pandas for visualization of neuroimaging results obtained from continuous testing of neuroimaging data across software pipelines.
+
+## Getting Started
+
+### Install the package using pip
+
+```cmd
+pip install nerv
+```
+
+In order for NeRV to generate and populate plots the underlying app requires access to the directory containing the datasets. The path to directory can be passed to the app module as input to the start function.
+
+### Example usage
+
+```python
+from nerv import app
+
+app.start("path-to-data-directory")
+```
+
+Once the file containing the above snipet is executed, a local server (at port 8050 by default) is launched. The server and the app can be accessed by browser through `localhost:8050` url.
+
+<p alt="Interface-image" align="center"><a href="https://github.com/rmanaem/nerv/blob/master/img/interface.PNG"><img src="https://github.com/rmanaem/nerv/blob/master/img/interface.PNG?raw=true"/></a></p>
+
+## Deployment
+
+*Work in progress*
+
+## Developed with
+
+* [Python](https://www.python.org/)
+* [Plotly](https://plotly.com/python/)
+* [pandas](https://pandas.pydata.org/)
+
+## Author
+
+* **Arman Jahanpour** - [rmanaem](https://www.python.org/rmanaem)
+
+## License
+
+This package is licensed under the [MIT License](LICENSE).
+
+
