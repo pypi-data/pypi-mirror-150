@@ -1,0 +1,8 @@
+setup.py
+ChatConnector/__init__.py
+ChatConnector/chatClient.py
+ChatConnector.egg-info/PKG-INFO
+ChatConnector.egg-info/SOURCES.txt
+ChatConnector.egg-info/dependency_links.txt
+ChatConnector.egg-info/requires.txt
+ChatConnector.egg-info/top_level.txt
