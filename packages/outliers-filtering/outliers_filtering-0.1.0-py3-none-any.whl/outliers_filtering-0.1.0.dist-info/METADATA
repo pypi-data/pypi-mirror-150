@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: outliers-filtering
+Version: 0.1.0
+Summary: outliers_filtering package for Python-Guide.org
+Home-page: https://github.com/vincent-belz/outliers_filtering
+Author: Vincent Belz
+Author-email: vincent.belz@loft.com.br
+License: Copyright (c) 2017, Kenneth Reitz        
+        All rights reserved.        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:        
+        Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.        
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+How to use?
+================================================
+
+
+- ``pip install outliers_filtering``
+- ``from outliers_filtering.utils import remove_outliers_numeric, plot_distribution_numeric``
+
+Two functions:
+
+**remove_outliers_numeric**
+**plot_distribution_numeric**
+
+
+
+Let's see how to use the functions.
+
+First the function remove_coutliers_numeric, it applies an IQR outliers filtering to normal or lognormal numerical pandas columns.
+
+
+
+remove_coutliers_numeric(df,feature,option = "lognormal",delta=1.5)
+
+- df: is the pandas dataframe where to apply the outlier removal
+- feature: name of the column to apply the function
+- option: shape of the distribution, either "normal" or "lognormal"
+- delta: coefficient to remove outliers outside IQR. default value is 1.5, the higher it is the less outliers you remove.
+
+
+Example:
+
+.. image:: https://github.com/vincent-belz/outliers_filtering/blob/master/img/example_remove_outliers.png
+
+Second the function plot_distribution_numeric, it can plot distribution with and without outliers.
+
+
+plot_distribution_numeric(df, feature, option = 'lognormal',title = 'distribution', mode = 'with_outliers')
+
+- df: is the pandas dataframe where to apply the function
+- feature: name of the column to plot the distribution
+- option: shape of the distribution, either "normal" or "lognormal"
+- title: Title of the plot
+- mode: Two possible modes "with_outliers" to plot the raw distribution and "without_outliers" to plot distribution without outliers
+
+
+Example:
+
+
+- plot_distribution_numeric(data,'useful_area', option = 'lognormal',title = 'distribution useful_area', mode='with_outliers')
+- plot_distribution_numeric(data, 'useful_area', option = 'lognormal', title = 'distribution useful_area without extreme values', mode='without_outliers')
+
+
+.. image:: https://github.com/vincent-belz/outliers_filtering/blob/master/img/plot_distributions.png
