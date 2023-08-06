@@ -1,0 +1,16 @@
+dubious/Interaction.py,sha256=H5CgXiLcHHUHQlNqOakm8AGW_tnkjTEdixdFYYlZF9w,2470
+dubious/Machines.py,sha256=7lcIn5dp4iWQhIhDOO6F2ZNLH0RjMVUYi_Qr9SrxEAY,3943
+dubious/Pory.py,sha256=n4mXR5TR1ir0xcgudq6ydD2OEw2rtK3aADctqXfvxpo,8907
+dubious/Register.py,sha256=R6C_RVBB8YZ5XDQ1ejJ1rXtBfCz9s9yuqpnr9xNjxSI,2943
+dubious/__init__.py,sha256=BkDqJ8bDDDnW8pkq1_WZvE1OgGdO8be6YzDW_DJkgG0,169
+dubious/discord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dubious/discord/api.py,sha256=UqHigShQNb0lwu_qJvjaBrvfk9H5Get1nOY1jSPmtI0,36312
+dubious/discord/core.py,sha256=g-XRr6Fq346QEnlMTdaMFJDnJ45RyU0HhcOFGqFgqms,7154
+dubious/discord/enums.py,sha256=pv6CWXUqKLgwbZxnw0_6xweYYflhZthe9TU-IGoP6U0,7195
+dubious/discord/make.py,sha256=cMwplQBYwJ0LfMuA4N2-smTLhO_1WNJhTByXusbF-7Y,5227
+dubious/discord/rest.py,sha256=fKswbmsXy4w0pEXbzZGr_YQE4hmndhL0cmZzmSiwwjY,13154
+dubiousdiscord-0.2.5.dist-info/LICENSE,sha256=J5TGxsxPfcxWDGGosDdGyqzRUaNt19MJcd70YDNOnqo,1068
+dubiousdiscord-0.2.5.dist-info/METADATA,sha256=qunkKU7il6jsTxG2WBU8dLQUZAYcZvHd4y1PcGKmLFU,747
+dubiousdiscord-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dubiousdiscord-0.2.5.dist-info/top_level.txt,sha256=UbNdRTs-o__st1Nwo5HLmSq51-p9D4X9RnSIDoisDh0,8
+dubiousdiscord-0.2.5.dist-info/RECORD,,
