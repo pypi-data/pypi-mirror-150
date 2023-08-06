@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jaccard-precalc"
+version = "0.1.6"
+description = "The Jaccard index measures exhaustive substring comparison of two strings. This package is a slightly modified Jaccard with pre-calculation accelerate results."
+authors = ["mandrewstuart <andrew_matte_@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
