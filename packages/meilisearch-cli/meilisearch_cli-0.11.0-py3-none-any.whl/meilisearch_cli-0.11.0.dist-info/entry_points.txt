@@ -1,0 +1,3 @@
+[console_scripts]
+meilisearch-cli=meilisearch_cli.main:app
+
