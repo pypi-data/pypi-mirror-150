@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/rollbar_integration/__init__.py
+src/rollbar_integration.egg-info/PKG-INFO
+src/rollbar_integration.egg-info/SOURCES.txt
+src/rollbar_integration.egg-info/dependency_links.txt
+src/rollbar_integration.egg-info/requires.txt
+src/rollbar_integration.egg-info/top_level.txt
