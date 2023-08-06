@@ -1,0 +1,12 @@
+geo/Calculation_gdal.py,sha256=89dUiNVv3S4dlZvfN2FN1qtakr7Vv4tZ8uW4kFA-9xM,1083
+geo/FunctionsToImplement.py,sha256=-FubOA07rlmrl0H1BIljlDMhncHuS92pusj8lgnDns8,4775
+geo/Geoserver.py,sha256=H1IZAKbVXaTPFJsPNIhMQeC86h2Dh0jzkf0l_2ZixTs,70323
+geo/Style.py,sha256=FmP05hovdL4_TdqZ4AzKX5xNJZzj6OENXhxS7uqaVwk,13618
+geo/__init__.py,sha256=INS_gN0ZnwgF83-5AT4SGPVpaCoTVRFIMRWZojacXzw,39
+geo/__version__.py,sha256=UuJAdikGAvvOwFsc_Hal1E4L5n2lSXxdVh6XK89VUOc,342
+geo/supports.py,sha256=zQY4dVnRdUL6YII9QJa2TWpUCW6OrFfBwS2daj0k-Ck,1300
+geoserver_rest-2.3.1.dist-info/LICENSE,sha256=2kF-9Gj6N_YK5L16J70zsLSN9eKxoq2CO9vqQTeE59g,1164
+geoserver_rest-2.3.1.dist-info/METADATA,sha256=McLEbkxjjud6HKCqYs3kzirpS03ygSZ9whu8A4QL-nA,4991
+geoserver_rest-2.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+geoserver_rest-2.3.1.dist-info/top_level.txt,sha256=Pyx8GSTm_4U-pn0tGSAr2StromCOwbqDuJNjIKjymro,26
+geoserver_rest-2.3.1.dist-info/RECORD,,
