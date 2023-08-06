@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+svg2json/__init__.py
+svg2json/svg2json.py
+svg2json.egg-info/PKG-INFO
+svg2json.egg-info/SOURCES.txt
+svg2json.egg-info/dependency_links.txt
+svg2json.egg-info/entry_points.txt
+svg2json.egg-info/requires.txt
+svg2json.egg-info/top_level.txt
