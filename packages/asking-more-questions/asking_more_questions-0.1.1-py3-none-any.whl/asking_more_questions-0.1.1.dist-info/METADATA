@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: asking-more-questions
+Version: 0.1.1
+Summary: A collection of tools that make ad-hoc queries faster
+Author: Kim TImothy Engh
+Author-email: kimothy@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
