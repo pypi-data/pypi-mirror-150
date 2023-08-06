@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/abalyzer/__init__.py
+src/abalyzer/parser.py
+src/abalyzer.egg-info/PKG-INFO
+src/abalyzer.egg-info/SOURCES.txt
+src/abalyzer.egg-info/dependency_links.txt
+src/abalyzer.egg-info/top_level.txt
+src/abalyzer/data/__init__.py
+src/abalyzer/data/generate_data/__init__.py
+src/abalyzer/data/generate_data/__main__.py
+src/abalyzer/data/generate_data/duplicate_entry_remover.py
+src/abalyzer/data/generate_data/get_aba_numbers_scraper.py
+src/abalyzer/data/generate_data/website_list_cleaner.py

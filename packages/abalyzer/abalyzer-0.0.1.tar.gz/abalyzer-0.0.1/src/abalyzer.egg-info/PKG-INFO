@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: abalyzer
+Version: 0.0.1
+Summary: Parses ABA (American Bankers Association) codes
+Home-page: https://github.com/shivanprasad/abalyzer
+Author: Shivan Prasad
+Project-URL: Bug Tracker, https://github.com/shivanprasad/abalyzer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<br />
+<div align="center">
+
+  <h3 align="center">abalyzer</h3>
+
+  <p align="center">
+    Parses ABA (American Bankers Association) codes
+
+   <br />
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Parsing out information from ABA numbers can be tricky without the use of online lookup tools. This project aims to create an offline and open-source alternative. When used, the package can be used to validate ABA numbers and if valid, return information about the number including:
+ - Bank Name
+ - Bank Address
+ - Bank State
+ - Bank Phone Number
+
+#### ABA Number Validation:
+> Check digit\
+> The ninth, check digit provides a checksum test using a position-weighted sum of each of the digits. High-speed check-sorting equipment will typically verify the checksum and if it fails, route the item to a reject pocket for manual examination, repair, and re-sorting. Mis-routings to an incorrect bank are thus greatly reduced.
+>
+> The following condition must hold: \
+> (3(d1 + d4 + d7) + 7(d2 + d5 + d8) + (d3 + d6 + d9)) mod 10 = 0
+
+
+-----------
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
