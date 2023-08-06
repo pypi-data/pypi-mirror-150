@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+hagtl.egg-info/PKG-INFO
+hagtl.egg-info/SOURCES.txt
+hagtl.egg-info/dependency_links.txt
+hagtl.egg-info/top_level.txt
