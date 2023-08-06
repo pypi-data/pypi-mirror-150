@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+tekleo_common_utils_ai/__init__.py
+tekleo_common_utils_ai/utils_dataset_pascalvoc.py
+tekleo_common_utils_ai/utils_detectron_model.py
+tekleo_common_utils_ai/utils_visualize_od.py
+tekleo_common_utils_ai.egg-info/PKG-INFO
+tekleo_common_utils_ai.egg-info/SOURCES.txt
+tekleo_common_utils_ai.egg-info/dependency_links.txt
+tekleo_common_utils_ai.egg-info/requires.txt
+tekleo_common_utils_ai.egg-info/top_level.txt
