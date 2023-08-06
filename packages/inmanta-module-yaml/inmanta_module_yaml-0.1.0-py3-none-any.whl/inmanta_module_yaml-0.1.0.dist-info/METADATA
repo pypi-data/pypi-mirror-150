@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: inmanta-module-yaml
+Version: 0.1.0
+Summary: A module to help with handling yaml files
+License: ASL 2.0
+Platform: UNKNOWN
+Requires-Dist: inmanta-module-std
+Requires-Dist: PyYAML
+
+UNKNOWN
+

@@ -1,0 +1,7 @@
+inmanta_plugins/yaml/__init__.py,sha256=f2-m8M5B8l1GcqSzHA6wc-vRhkmFwYOdJ1EROGb7-Xk,1170
+inmanta_plugins/yaml/setup.cfg,sha256=vHpHq1Q66MESr3IFb0r4OGRV2J5SSIdxBxFmAREkad8,356
+inmanta_plugins/yaml/model/_init.cf,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inmanta_module_yaml-0.1.0.dist-info/METADATA,sha256=w07cNxpUi699Ma8K1MY4MVke7TbHjfE9i7VU5HP-4GM,215
+inmanta_module_yaml-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+inmanta_module_yaml-0.1.0.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_yaml-0.1.0.dist-info/RECORD,,
