@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+forexcom/__init__.py
+forexcom.egg-info/PKG-INFO
+forexcom.egg-info/SOURCES.txt
+forexcom.egg-info/dependency_links.txt
+forexcom.egg-info/requires.txt
+forexcom.egg-info/top_level.txt
