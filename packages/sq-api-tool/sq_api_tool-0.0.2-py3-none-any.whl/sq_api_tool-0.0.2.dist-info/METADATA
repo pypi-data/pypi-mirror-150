@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sq-api-tool
+Version: 0.0.2
+Summary: a ui tool
+Home-page: UNKNOWN
+Author: sq
+Author-email: sq@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pytest
+Requires-Dist: xlrd
+Requires-Dist: allure-pytest
+Requires-Dist: loguru
+
+根据excel维护接口自动化用例
+
+
