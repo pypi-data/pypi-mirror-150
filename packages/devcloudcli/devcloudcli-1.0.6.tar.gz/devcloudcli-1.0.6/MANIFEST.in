@@ -1,0 +1,19 @@
+include dc_cli/src/scripts/system-tools/vim/*.sh
+include dc_cli/src/scripts/system-tools/vnc/*.sh
+include dc_cli/src/scripts/system-tools/ssh/*.sh
+include dc_cli/src/scripts/k8s-tools/microk8s/*.sh
+include dc_cli/src/scripts/k8s-tools/minikube/*.sh
+include dc_cli/src/scripts/k8s-tools/kind/*.sh
+include dc_cli/src/scripts/dl-model-training-services/intel-optimized-tensorflow/*.sh
+include dc_cli/src/scripts/dl-model-training-services/intel-optimized-pytorch/*.sh
+include dc_cli/src/scripts/dl-model-training-services/kubeflow/*.sh
+include dc_cli/src/scripts/dl-model-training-services/one-api/*.sh
+include dc_cli/src/scripts/dl-model-training-services/convrg/*.sh
+include dc_cli/src/scripts/dl-model-services/dl-work-bench/*.sh
+include dc_cli/src/scripts/edge-to-cloud-services/seo-reference-implementations/intelligent-connection-management-for-automated-handover/*.sh
+include dc_cli/src/scripts/edge-to-cloud-services/seo-reference-implementations/smartvr–livestreaming-of-immersive-media/*.sh
+include dc_cli/src/scripts/edge-to-cloud-services/seo-reference-implementations/telehealth-remote-monitoring/*.sh
+include dc_cli/src/scripts/edge-to-cloud-services/seo-reference-implementations/wireless-network-ready-intelligent-traffic-management/*.sh
+include dc_cli/src/scripts/edge-to-cloud-services/seo-reference-implementations/wireless-network-ready-pcb-defect-detection/*.sh
+
+
