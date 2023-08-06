@@ -1,0 +1,2 @@
+[console_scripts]
+richify = richify.richify:run
