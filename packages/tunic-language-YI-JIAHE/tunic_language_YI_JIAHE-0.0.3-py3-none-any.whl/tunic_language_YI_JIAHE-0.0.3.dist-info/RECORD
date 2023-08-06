@@ -1,0 +1,10 @@
+tunic_language/IPA.runes,sha256=DcpOAfYMIxdVSqX6AjBB--qKwulLzC5fF7-eS3_wKSI,884
+tunic_language/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tunic_language/cmudict.IPA,sha256=1Eo9k2V9_YmKPytPzq7pgnHuIFZBMvWaG0TX3Q3Ughw,241
+tunic_language/cmudict.phones,sha256=gnEbxbhP6Xf6UOlyeHdgqxpFeI_QREVpaw7chuQ0_8Y,419
+tunic_language/mappings.py,sha256=LBSllr37bDc0cG2zBjRjnxznCOTDne8j-3KGCf5rZ2k,1400
+tunic_language/translation.py,sha256=P9tWObJy1umH5_bi_A-YpXBCjW3Z-lU9-5295uj1dJs,3484
+tunic_language_YI_JIAHE-0.0.3.dist-info/METADATA,sha256=CWmfA7WY3QoMusqPodx4Or8cu5rBpm9mDqyAqh1NDkg,467
+tunic_language_YI_JIAHE-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tunic_language_YI_JIAHE-0.0.3.dist-info/top_level.txt,sha256=3Ix9ZYGdJ_o4aGaj5kIP6g6j-rLrVC8did8JjKBijtU,15
+tunic_language_YI_JIAHE-0.0.3.dist-info/RECORD,,
