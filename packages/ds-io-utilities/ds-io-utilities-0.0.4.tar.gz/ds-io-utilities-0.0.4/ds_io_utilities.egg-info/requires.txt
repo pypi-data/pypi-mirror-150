@@ -1,0 +1,4 @@
+hdfs>=2.0.0
+bda-service-utils
+s3fs==2022.3.0
+minio==7.1.8
