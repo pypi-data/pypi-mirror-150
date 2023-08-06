@@ -1,0 +1,70 @@
+rituals (0.5.1) unstable; urgency=medium
+
+  * release.pex: '--windows' option for cross-platform builds
+  * release.shiv: new task for single-binary releases
+  * rituals.acts.releasing.upload_artifacts: helper function
+    you can use for WebDAV uploads from your custom tasks
+  * release.bump: only consider annotated tags, and exclude 'stable'
+  * docs autobuild: add sources to watch dirs when using API docs
+  * docs.sphinx: no markdown file conversion when recommonmark is used
+  * Officially supported Python versions now 3.6 .. 3.8
+
+ -- Juergen Hermann <jh@web.de>  Tue, 21 Jul 2020 06:54:10 +0200
+
+rituals (0.4.1) unstable; urgency=medium
+
+  * docs.upload: add 'git_path' as url variable
+  * docs.upload: fix for 'ssh://' git urls
+  * sdist: fixed MANIFEST omissions
+  * chg: Removed Python 2.7
+
+ -- Juergen Hermann <jh@web.de>  Tue, 16 Jul 2019 13:44:59 +0200
+
+rituals (0.3.1) unstable; urgency=low
+
+  * new: 'docs.sphinx' and 'docs.upload' task (to PyPI/WebDAV/Artifactory)
+  * new: convenient control of 'sphinx-autobuild' daemon
+  * new: added 'test' namespace and 'tox' task
+  * new: 'release.pex' to create PEX artifacts
+  * new: optional inclusion of PyRun in PEX artifacts
+  * new: 'release.bump' to create unique development versions
+  * new: build a DEB package (new 'deb' task)
+  * new: 'devpi' namespace with a 'refresh' task
+  * new: added 'freeze' as a root task
+  * new: 'jenkins.description' to display project metadata in the Jenkins UI
+  * new: support for projects with 'py_modules'
+  * new: 'util.filesys' module with a 'pushd' helper
+  * new: 'fail' helper function in 'rituals.easy'
+  * new: 'with_root' param for FileSet.walk()
+  * chg: 'test.pytest' as the default in 'test' namespace
+  * chg: 'prep' renamed to 'release.prep'
+  * chg: added '--clean' option to 'test.tox', and 'clean --tox'
+  * chg: exclude SCM dirs from 'clean'
+  * chg: improved autoenv script
+  * chg: better HTTP error reporting for docs upload
+  * chg: more unit tests (still missing a lot)
+  * chg: Python 3.4 support
+  * chg: Python3 is now the workdir default
+  * fix: non-git workdirs are handled correctly in 'release.prep'
+  * fix: support for Invoke v1 (`ctask` rename)
+
+ -- Juergen Hermann <jh@web.de>  Thu, 24 Jan 2019 14:07:23 +0100
+
+rituals (0.2.0) unstable; urgency=low
+
+  * new: added 'release-prep' task
+  * new: added --skip-root to 'check', and checking './*.py' too
+  * new: 'dist' task automatically creates wheels if possible
+  * chg: better handling of 'build --docs'
+  * chg: added help for task parameters (closes #4)
+  * chg: warn about missing Sphinx docs (when '--docs' is provided)
+  * fix: get src package list for 'check' from 'project.packages'
+  * fix: use 'which' to look for 'py.test' binary (closes #2)
+
+ -- Juergen Hermann <jh@web.de>  Mon, 16 Mar 2015 18:02:42 +0100
+
+rituals (0.1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Juergen Hermann <jh@web.de>  Thu, 12 Mar 2015 18:20:16 +0100
