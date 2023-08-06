@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spacy-richtext-utils
+Version: 0.1.1
+Summary: Spacy tokenizer and pipeline steps to exploit the semantics of a Rich Text, like HTML or RTF.
+Home-page: https://github.com/rebuglio/spacy-richtext-utils
+License: MIT
+Author: Massimo Rebuglio
+Author-email: massimo.rebuglio@polito.it
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: spacy (>=3.3.0,<4.0.0)
+Project-URL: Repository, https://github.com/rebuglio/spacy-richtext-utils
