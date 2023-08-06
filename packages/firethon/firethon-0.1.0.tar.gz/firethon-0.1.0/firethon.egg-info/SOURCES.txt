@@ -1,0 +1,10 @@
+README.md
+setup.py
+firethon/__init__.py
+firethon/config.py
+firethon/firebase.py
+firethon.egg-info/PKG-INFO
+firethon.egg-info/SOURCES.txt
+firethon.egg-info/dependency_links.txt
+firethon.egg-info/requires.txt
+firethon.egg-info/top_level.txt
