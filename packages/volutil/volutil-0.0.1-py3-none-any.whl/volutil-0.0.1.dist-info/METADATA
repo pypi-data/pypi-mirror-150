@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: volutil
+Version: 0.0.1
+Summary: Neuroimaging volume utilities
+Home-page: https://github.com/chaselgrove/volutil
+Author: Christian Haselgrove
+Author-email: christian.haselgrove@umassmed.edu
+Project-URL: Bug Tracker, https://github.com/chaselgrove/volutil/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: Pillow
+
+volutil: neuroimaging volume utilities
+======================================
+
+Scripts are:
+
+* vol-info: print basic information about a volume
+* vol-stats: print basic statistics of a volume
+* vol-cat: print the voxel values in volumes
+* vol-hist: dump an integer histogram for a volume
+* vol-vol: calculate volumes of ROIs
+* vol-dice: calculate Dice coefficients for ROI overlaps
+* vol-tr: change values in a volume
+* vol-slice: create slice images from a volume, with an optional overlay
