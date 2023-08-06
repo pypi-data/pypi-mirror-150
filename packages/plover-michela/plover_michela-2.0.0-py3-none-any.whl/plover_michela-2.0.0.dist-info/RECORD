@@ -1,0 +1,15 @@
+plover_michela/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_michela/machine.py,sha256=qRDkDbCdrwCid0V_DYV6BHNVoPgExcLaY5D6ZMZeE3M,502
+plover_michela/system.py,sha256=GrK8-zW5vcTttkT0iTYBrOYEwiQDLRMUBPSDMJar6Fc,13601
+plover_michela/assets/italian_words.txt,sha256=UaSKMEsnBn9M0f_EqxUMK9KdUTgq3ZOYpQadKTSrikQ,1477176
+plover_michela/assets/michela_numeri.json,sha256=_foWDFAUKkcURmp0u0F7uyWKBgJjxEAr-eViSKuH09g,2191
+plover_michela/assets/michela_principale.json,sha256=-fNUFOE_eojx2k3K1oEw22rqcZgat0THMU1yiSRGkzs,2774918
+plover_michela/assets/michela_punteggiaturacomandi.json,sha256=ST2DdGMUKUediIFGQLzy-2x4gEGrAGVXs1cn9HTcl-w,1620
+plover_michela/assets/michela_sillabico.json,sha256=Lk0Dlw27rDTwb-jfuwWOtNejvx2oNZBAJ_CT6XCazzc,344327
+plover_michela/assets/michela_utente.json,sha256=yj0WO6sFU4GCciYUBWjzvvfqrBh869doeOC2Pp5EI1Y,3
+plover_michela-2.0.0.dist-info/METADATA,sha256=zspyNfjprzdKqYa563Q7-Zs08keWYms2xP9hbtmbI7s,3109
+plover_michela-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plover_michela-2.0.0.dist-info/entry_points.txt,sha256=U3XudjhxYpE0aV7usp8ZuuvAHinh1lZd-Z6CSJD8epU,230
+plover_michela-2.0.0.dist-info/top_level.txt,sha256=NPn8xikIQglY16Bwy7Hm8_Ne_7p3tNhdkgzsXRcAZfY,15
+plover_michela-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_michela-2.0.0.dist-info/RECORD,,

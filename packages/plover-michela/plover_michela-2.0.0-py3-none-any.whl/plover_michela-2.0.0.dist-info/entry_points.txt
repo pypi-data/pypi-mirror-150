@@ -1,0 +1,6 @@
+[plover.machine]
+Michela Keyboard (MIDI, 2 octaves) = plover_michela.machine:MichelaKeyboardMidi2
+Michela Keyboard (MIDI, 3+ octaves) = plover_michela.machine:MichelaKeyboardMidi3p
+
+[plover.system]
+Michela = plover_michela.system
