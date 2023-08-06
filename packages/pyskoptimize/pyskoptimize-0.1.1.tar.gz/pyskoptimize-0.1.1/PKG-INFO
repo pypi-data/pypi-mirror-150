@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pyskoptimize
+Version: 0.1.1
+Summary: A configuration driven approach to facilitating Bayesian Hyperparameter Tuning
+Home-page: https://www.pyscale.net/PySkOptimize/
+License: Apache-2.0
+Keywords: python,data science,low-code,software development
+Author: ed-turner
+Author-email: edward.turner@pyscale.net
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
+Requires-Dist: scikit-optimize (>=0.9.0,<0.10.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Project-URL: Repository, https://github.com/pyscale/PySkOptimize
+Description-Content-Type: text/markdown
+
+# PySkOptimize
+
+## Installation
+
+## Developer Contribution
+
+To install from local development, run the following commands in order:
+
+    1. make init
+    2. make install
+
+To add any new packages, follow the poetry requirements and add
+unit tests
+
+
+
