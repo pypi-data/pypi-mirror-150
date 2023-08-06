@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: urlToHTML
+Version: 1.0.0
+Summary: Auto save HTML files from URLs for Offline Viewing
+Home-page: https://github.com/Ronlin1/urlToHTML
+Author: Ronnie Atuhaire
+Author-email: ronlinx6@gmail.com
+License: MIT
+Keywords: HTML URLS Save Chrome Offline
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# urlToHTML
+Save your favorite site, blog, html in just two lines of code. 
+
+
+This is an example project that is used to demonstrate how to publish Python packages on PyPI. To take a look at the step by step guide on how to do so, make sure you read my article on my personal blog.
+
+# Installing
+pip install urlToHTML
+
+# Usage
+```
+url = 'https://blog.octachart.com/how-to-deploy-a-docz-site-on-render'
+
+from urltohtml import Blog 
+new = Blog().save(url, "file")
+```
+
+You don't have to add file extension to the second parameter.
+
+So running the script automatically creates ```file.html```
+
+ðŸŒŸ â™¥ Hope You Found This Useful ðŸŒŸ â™¥
