@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gitOgit
+Version: 0.1.1
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/renweibo/gitOgit
+Author: Weibo Ren
+Author-email: renweibo@gmail.com
+License: MIT license
+Keywords: gitOgit
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: typer
+
+- Documentation: https://gitOgit.readthedocs.io.
+
+
+# History
+
+## 0.1.0 (2022-05-13)
+
+* First release on PyPI.
+
+
