@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+vhdlproc/__init__.py
+vhdlproc/vhdlproc.py
+vhdlproc.egg-info/PKG-INFO
+vhdlproc.egg-info/SOURCES.txt
+vhdlproc.egg-info/dependency_links.txt
+vhdlproc.egg-info/entry_points.txt
+vhdlproc.egg-info/top_level.txt
+vhdlproc/tests/and.vhdl
+vhdlproc/tests/include-to.vhdl
+vhdlproc/tests/include.vhdl
+vhdlproc/tests/nest.vhdl
+vhdlproc/tests/test.vhdl
+vhdlproc/tests/version.vhdl
