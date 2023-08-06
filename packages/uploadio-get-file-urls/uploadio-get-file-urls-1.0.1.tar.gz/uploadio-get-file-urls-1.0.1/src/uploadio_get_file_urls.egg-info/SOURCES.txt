@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/get_file_urls/__init__.py
+src/get_file_urls/get_file_urls_handlre.py
+src/uploadio_get_file_urls.egg-info/PKG-INFO
+src/uploadio_get_file_urls.egg-info/SOURCES.txt
+src/uploadio_get_file_urls.egg-info/dependency_links.txt
+src/uploadio_get_file_urls.egg-info/requires.txt
+src/uploadio_get_file_urls.egg-info/top_level.txt
