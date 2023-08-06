@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/counterpy/__init__.py
+src/counterpy/counterpy.py
+src/counterpy.egg-info/PKG-INFO
+src/counterpy.egg-info/SOURCES.txt
+src/counterpy.egg-info/dependency_links.txt
+src/counterpy.egg-info/requires.txt
+src/counterpy.egg-info/top_level.txt
+src/counterpy/__pycache__/__init__.cpython-310.pyc
