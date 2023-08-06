@@ -1,0 +1,16 @@
+leotune/__init__.py,sha256=rxEWG1FyYbcucElEu6Kk_Mo8C95YCgWc6D-JbepvZLg,102
+leotune/__main__.py,sha256=ZQS1GSN3_izw6GnS91vMckA06tUD3klCYXhTj9BbREU,59
+leotune/cli.py,sha256=rbFLeYX5gPtoC9jejytLCm1r7BgFR3I_-x36NRZ0xTs,424
+leotune/lrc.py,sha256=Bm2TS8JPJrVP57sFVq08k_4CXX8rfWX2PF8k0uNmd6g,1326
+leotune/data/__init__.py,sha256=aodeUieOEJbPPNmrTJTQerZnKVglJ_951L3wGjabkIM,241
+leotune/data/acgnjrock.py,sha256=o0TQCUjFziPxP-uykGGlKPXrbyXlvqw1czwji-M43I4,3667
+leotune/data/leoneed.py,sha256=Vh5BYaCWVSK371VAGanvL-A45HX6U84MnlV0TMR_FNg,8563
+leotune/data/others.py,sha256=uNCnqdbx66MLXZSjPIzF_Ep-9hgnJTSE-Q4gYQVF7EU,21318
+leotune/data/vc.py,sha256=r-xhaSeCx9NkPeNyqd7xLRi_MR3pxLkpetiTuA6LxG8,654
+leotune/data/voca_pinosophy.py,sha256=Y42ELqdwc4YwXqTw8eUaJtSihh6B65aGpJD7jyjfZoY,11
+leotune-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+leotune-0.0.3.dist-info/METADATA,sha256=JV2Pe9jKg3FrR5vKhdU2gq6xbg6iYr-u_QG6fR9qr30,511
+leotune-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+leotune-0.0.3.dist-info/entry_points.txt,sha256=Y035boV7hLwo11ajTLNEOI13UZUT2zXxi7YcEvXJ2qY,45
+leotune-0.0.3.dist-info/top_level.txt,sha256=H2-QC4JpQX6P927d9cJ7QYUjCJmf57CKT8l9U2oCUBk,8
+leotune-0.0.3.dist-info/RECORD,,
