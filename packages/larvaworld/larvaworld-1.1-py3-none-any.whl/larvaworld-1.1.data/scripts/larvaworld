@@ -1,0 +1,16 @@
+#!python
+
+#https://dzone.com/articles/executable-package-pip-install
+
+#Teminal commands to run
+#chmod +x larvaworld
+#python setup.py bdist_wheel
+#python -m pip install dist/larvaworld-1.0-py3-none-any.whl
+
+#python3.9 -m venv larvaworld_venv
+#source larvaworld_venv/bin/activate
+#cd larvaworld
+
+#pip install -r requirements.txt
+#python -m ipykernel install --user --name=larvaworld_venv
+echo "This is the Larvaworld package"
