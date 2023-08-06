@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+jarvis_akul2010.egg-info/PKG-INFO
+jarvis_akul2010.egg-info/SOURCES.txt
+jarvis_akul2010.egg-info/dependency_links.txt
+jarvis_akul2010.egg-info/not-zip-safe
+jarvis_akul2010.egg-info/requires.txt
+jarvis_akul2010.egg-info/top_level.txt
