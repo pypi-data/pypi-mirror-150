@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ib-syncevent
+Version: 0.0.1
+Summary: Get financial data synchronously. This package is a wrapper around the IB API.
+Home-page: UNKNOWN
+Author: Zohar
+Author-email: <mail@neuralnine.com>
+License: UNKNOWN
+Requires-Dist: ibapi
+
+
+# IB_SyncEvent
+
