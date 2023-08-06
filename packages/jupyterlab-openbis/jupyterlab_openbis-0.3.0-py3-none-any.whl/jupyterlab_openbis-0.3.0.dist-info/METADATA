@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: jupyterlab-openbis
+Version: 0.3.0
+Summary: JupyterLab openBIS extension
+Home-page: https://sissource.ethz.ch/sispub/jupyterlab-openbis
+Author: Antti Luomi | ID SIS | ETH Zürich
+License: Apache-2.0
+Keywords: Jupyter,JupyterLab,openBIS
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: JavaScript
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jupyterlab (==3.*,>=3.0.0rc13)
+Requires-Dist: jupyter-openbis-server (~=0.4.0)
+
+# JupyterLab openBIS extension
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fsissource.ethz.ch%2Fsispub%2Fjupyterlab-openbis/master?urlpath=lab)
+
+## About
+
+JupyterLab openBIS extension is a client-side extension for JupyterLab that enables connectivity with openBIS instances.
+
+## Installing prebuilt extension (recommended)
+
+```bash
+pip install jupyterlab-openbis
+```
+
+## Installing source extension (requires Node.js)
+
+1. Install jupyter-openbis-server (see <https://pypi.org/project/jupyter-openbis-server/>) to your Jupyter server
+2. Install JupyterLab openBIS extension with command
+
+```bash
+jupyter labextension install jupyterlab-openbis@0.3.0
+```
+
+## Compatibility
+
+| jupyterlab-openbis | jupyter-openbis-server | jupyterlab    |
+| ------------------ | ---------------------- | ------------- |
+| 0.3.x              | >=0.4.0                | >=3.0         |
+| 0.2.x              | >=0.2.1                | >=2.0, <3.0   |
+| 0.1.x              | >=0.2.1                | >=1.1.3, <2.0 |
+
+
