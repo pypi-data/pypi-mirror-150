@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/1000pip_Builder_Forex_Signals.egg-info/PKG-INFO
+src/1000pip_Builder_Forex_Signals.egg-info/SOURCES.txt
+src/1000pip_Builder_Forex_Signals.egg-info/dependency_links.txt
+src/1000pip_Builder_Forex_Signals.egg-info/top_level.txt
