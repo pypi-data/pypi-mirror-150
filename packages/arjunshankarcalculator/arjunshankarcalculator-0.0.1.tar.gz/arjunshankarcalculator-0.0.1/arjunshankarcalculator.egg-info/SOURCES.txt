@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+test.py
+arjunshankarcalculator.egg-info/PKG-INFO
+arjunshankarcalculator.egg-info/SOURCES.txt
+arjunshankarcalculator.egg-info/dependency_links.txt
+arjunshankarcalculator.egg-info/requires.txt
+arjunshankarcalculator.egg-info/top_level.txt
+basic_calculator/__init__.py
+basic_calculator/calculations/calc.py
