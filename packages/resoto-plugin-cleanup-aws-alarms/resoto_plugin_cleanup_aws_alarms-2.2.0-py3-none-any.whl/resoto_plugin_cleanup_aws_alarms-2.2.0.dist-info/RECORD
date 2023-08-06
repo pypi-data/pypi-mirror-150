@@ -1,0 +1,7 @@
+resoto_plugin_cleanup_aws_alarms/__init__.py,sha256=M7d4alesKKUyxA4M14cfXkGFvKUmieenJrAPnuDrRwU,2865
+resoto_plugin_cleanup_aws_alarms/config.py,sha256=KrbrvStfhYKMUjyZIUmtaiEnwJqG5rK3FxfddTlNqAg,1268
+resoto_plugin_cleanup_aws_alarms-2.2.0.dist-info/METADATA,sha256=Y5pXQv8OxQl4PiL5v-Nletdc0_1FzQgTROPLgu9_Umw,1369
+resoto_plugin_cleanup_aws_alarms-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resoto_plugin_cleanup_aws_alarms-2.2.0.dist-info/entry_points.txt,sha256=bShemafcSodAUvv7lIVmzg5QMTFHciHse7MLwMeQyQg,94
+resoto_plugin_cleanup_aws_alarms-2.2.0.dist-info/top_level.txt,sha256=ScHGXcmfTjkNA7CCQK7kyvwDlm0aMkoX28MbJxAEAac,33
+resoto_plugin_cleanup_aws_alarms-2.2.0.dist-info/RECORD,,
