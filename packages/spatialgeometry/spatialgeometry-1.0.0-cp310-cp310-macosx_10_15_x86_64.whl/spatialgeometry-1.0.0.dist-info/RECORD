@@ -1,0 +1,13 @@
+scene.cpython-310-darwin.so,sha256=TpHKTAs-Gu7_pnJCiOeMAm63jbsUrET7LCPdr4XWthY,52688
+spatialgeometry/CollisionShape.py,sha256=UqSUgUlDXS8lJlIlTni6uLyWjrxXzRPvkmVos6frN4g,11458
+spatialgeometry/SceneGroup.py,sha256=IDvQ6AtVpPajMRyGbKEj3O-FdcsfEYmdLaQn-P2RNqk,614
+spatialgeometry/SceneNode.py,sha256=L-jUPW2RYH_sot2utMxSPanc421CCdbYgkmh0sFTDPI,8850
+spatialgeometry/Shape.py,sha256=CQL9UwF7dlsZJ0rKUYPmXinESoHsebRsIHwbomRrQU8,10263
+spatialgeometry/__init__.py,sha256=kuVG5dDmBJnc7GFd-3DUjasmtDE-pkoHeNvqpngpUHE,452
+spatialgeometry/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatialgeometry/tools/stdout_supress.py,sha256=5AxKVcnUrePkP3iL8UdawTJYgpSv5T6Z4zyG7OlagCA,9309
+spatialgeometry-1.0.0.dist-info/LICENSE,sha256=UeGTnAyOjNbqZP8fejHSSYQifF7kxQ2yLS3DBURMacg,1071
+spatialgeometry-1.0.0.dist-info/METADATA,sha256=GX9wEtAxUvIFAWB1BCXrMipOqQ_rxdW76632_fDbCrU,2957
+spatialgeometry-1.0.0.dist-info/WHEEL,sha256=Mp26lirrtUNzLUWsPKBAjl3RVvrCg7YEjI0nue_kNcE,112
+spatialgeometry-1.0.0.dist-info/top_level.txt,sha256=EDEdgLBolYseg69bSX6k1OQAGxLAmftTuOaiLdLoPIM,22
+spatialgeometry-1.0.0.dist-info/RECORD,,
