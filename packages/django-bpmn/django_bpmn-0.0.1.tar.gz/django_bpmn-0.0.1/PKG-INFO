@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django_bpmn
+Version: 0.0.1
+Summary: Encapsulates the bpmn-js diagram modeler into a Django widget
+Home-page: https://github.com/jplobianco/django-bpmn
+Author: Joao Paulo Lobianco
+Author-email: joaopaulolobianco1@gmail.com
+Project-URL: Bug Tracker, https://github.com/jplobianco/django-bpmn/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-bpmn
+
+Encapsulates the [bpmn-js](https://github.com/bpmn-io/bpmn-js.git) modeler into a Django widget. 
+This is not part of the oficial [bpmn-io](https://github.com/bpmn-io/) initiative. 
+Take a look at their [license](https://raw.githubusercontent.com/bpmn-io/bpmn-js/develop/LICENSE), specially the explicit forbidden to hide their watermark.
