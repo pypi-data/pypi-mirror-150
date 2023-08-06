@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ods-cmdline
+Version: 1.0.0
+Summary: Demo Package for CLI
+Home-page: UNKNOWN
+Author: Admin OneDataShare
+Author-email: admin@onedatashare.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
