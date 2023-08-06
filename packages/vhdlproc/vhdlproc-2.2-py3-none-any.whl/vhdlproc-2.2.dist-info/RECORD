@@ -1,0 +1,14 @@
+vhdlproc/__init__.py,sha256=RmUtcmLhXcLD9lLtqaqGK0D5G5wf-sq8E31U_fEmvYc,32
+vhdlproc/vhdlproc.py,sha256=hjYegwKs8-5jmuAoJGJ7rNpVCeCGXVlz3BrjHluolUE,13230
+vhdlproc/tests/and.vhdl,sha256=3iUuPi1tD8jj8j4E3ZEv-pJsttiIBK-erCFpKYBcGoU,1162
+vhdlproc/tests/include-to.vhdl,sha256=bG-eBYzT2lBFm_2HqqCn5bH7w-ogBc6G5ttZxhyxORg,250
+vhdlproc/tests/include.vhdl,sha256=s_8H4iLRVRJ9tk-_VAISZTgKbjVjDUa4DQ-iVkBGSNQ,408
+vhdlproc/tests/nest.vhdl,sha256=QLhhHKLV_OPbilJWtGOP-N5N2aXbkqCUXdkFrCey_G0,874
+vhdlproc/tests/test.vhdl,sha256=HhiZUEnxapBlHf-yUAXv4bfWhUZ_vWJwPKhuFKCA9Cc,364
+vhdlproc/tests/version.vhdl,sha256=4D2Fq6UHWifOaUetEo1dIV3KSpdZjJZr0F5NnRA270s,149
+vhdlproc-2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vhdlproc-2.2.dist-info/METADATA,sha256=VzGpua9CcCwwiNzuDJ9xe4uR8P4L3ILnVoJil3gzDz8,7269
+vhdlproc-2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vhdlproc-2.2.dist-info/entry_points.txt,sha256=lXO2iRV2S1lsfedHRpLFwBYfNJNOlm8DApggE8YIeYA,53
+vhdlproc-2.2.dist-info/top_level.txt,sha256=ppUj2LRhfaC7azIkxGXFR1_SLaHX8UgENEfsQaNYfxw,9
+vhdlproc-2.2.dist-info/RECORD,,
