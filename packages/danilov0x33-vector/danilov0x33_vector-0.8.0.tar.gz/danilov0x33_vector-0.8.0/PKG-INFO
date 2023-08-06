@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: danilov0x33_vector
+Version: 0.8.0
+Summary: The Vector SDK is a connected vision- and character-based robotics platform for everyone.
+Home-page: https://github.com/danilov0x33/vector-python-sdk
+Author: Anki, Inc
+Author-email: developer@anki.com
+License: Apache License, Version 2.0
+Keywords: anki,vector,robot,robotics,sdk,ai,vision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: 3dviewer
+Provides-Extra: docs
+Provides-Extra: experimental
+Provides-Extra: test
+License-File: LICENSE.txt
+
+
+The Vector SDK gives you direct access to Vector's unprecedented set of advanced sensors, AI capabilities, and robotics technologies including computer vision, intelligent mapping and navigation, and a groundbreaking collection of expressive animations.
+
+It's powerful but easy to use, complex but not complicated, and versatile enough to be used across a wide range of domains including enterprise, research, and entertainment. Find out more at https://developer.anki.com
+
+Vector SDK documentation: https://developer.anki.com/vector/docs/
+
+Official developer forum: https://forums.anki.com/
+
+Requirements:
+    * Python 3.6.1 or later
+
+
