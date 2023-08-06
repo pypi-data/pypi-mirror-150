@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qibuild
+Version: 3.17
+Summary: The Meta Build Framework
+Home-page: http://doc.aldebaran.com/qibuild
+Author: SoftBank Robotics
+Author-email: qibuild-dev@aldebaran-robotics.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Version Control :: Git
+License-File: COPYING
+License-File: AUTHORS
+
+UNKNOWN
+
