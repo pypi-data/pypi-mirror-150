@@ -1,0 +1,2 @@
+[console_scripts]
+PhotoBox = photobox.photobox_app:main
