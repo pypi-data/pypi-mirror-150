@@ -1,0 +1,10 @@
+
+[dev]
+flake8
+isort
+mypy
+pytest
+coveralls
+build
+twine
+pytest-benchmark
