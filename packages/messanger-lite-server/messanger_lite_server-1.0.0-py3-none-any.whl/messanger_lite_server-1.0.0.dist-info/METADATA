@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: messanger-lite-server
+Version: 1.0.0
+Summary: messanger_lite_server
+Author: Idel Yusupov
+Author-email: idel@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
