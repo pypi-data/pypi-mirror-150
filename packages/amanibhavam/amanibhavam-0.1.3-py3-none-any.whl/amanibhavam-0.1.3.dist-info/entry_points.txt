@@ -1,0 +1,3 @@
+[console_scripts]
+amanibhavam=amanibhavam:main
+
