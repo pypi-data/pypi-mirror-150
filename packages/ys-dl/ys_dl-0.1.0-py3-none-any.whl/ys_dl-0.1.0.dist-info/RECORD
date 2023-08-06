@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ys_dl/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ys_dl/cli.py,sha256=sNfJrxFIJg8PENwEe0YeLb2JcUwJ2jXxd2BIFTgR_OI,200
+ys_dl/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ys_dl/gui.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ys_dl-0.1.0.dist-info/entry_points.txt,sha256=YyrOFXLN9CqtSwRtE2PJrS4t_MQSGr1MIG2ZjpRAUBc,40
+ys_dl-0.1.0.dist-info/LICENSE,sha256=xqANAG5mNHNXB6LceTJSQmNwUYEcYqM-weugjqYAERQ,1069
+ys_dl-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ys_dl-0.1.0.dist-info/METADATA,sha256=Wa-OCI6uPhxrnizJcHEAoVCEBpXiDI3pjLpzV50S7Ao,2451
+ys_dl-0.1.0.dist-info/RECORD,,
