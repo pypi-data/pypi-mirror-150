@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+src/bcf_vcf.py
+src/helper_functions.py
+src/hmm_functions.py
+src/main.py
+src/myHmm.egg-info/PKG-INFO
+src/myHmm.egg-info/SOURCES.txt
+src/myHmm.egg-info/dependency_links.txt
+src/myHmm.egg-info/entry_points.txt
+src/myHmm.egg-info/requires.txt
+src/myHmm.egg-info/top_level.txt
