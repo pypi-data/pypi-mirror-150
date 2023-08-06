@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scratch3.py
+Version: 0.3.8
+Summary: An Scratch API Wrapper for scratch.mit.edu
+Home-page: https://github.com/TimMcCool/scratch3.py
+Author: TimMcCool
+Author-email: timmccool.scratch@gmail.com
+License: UNKNOWN
+Keywords: scratch api,scratchattach,scratch api python,scratch python,scratch for python,scratch,scratch cloud,scratch cloud variables,scratch bot
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: websocket-client
+Requires-Dist: numpy
+
+The package has been renamed to 'scratchattach', please install that instead! Link: https://pypi.org/project/scratchattach/
+
