@@ -1,0 +1,6 @@
+include setup.py
+include README.md
+include LICENSE
+include MANIFEST.in
+
+include thomasfermi/nu_to_mu.dat
