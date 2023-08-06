@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: microns-utils
+Version: 0.1.0
+Summary: utilities for MICrONS
+Home-page: UNKNOWN
+Author: Stelios Papadopoulos, Christos Papadopoulos
+Author-email: spapadop@bcm.edu, cpapadop@bcm.edu
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: cloud-volume
+Requires-Dist: caveclient
+Requires-Dist: nglui
+Requires-Dist: datajoint-plus
+
+UNKNOWN
+
