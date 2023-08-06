@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dispatchmail/__init__.py
+dispatchmail/dispatchmail.py
+dispatchmail.egg-info/PKG-INFO
+dispatchmail.egg-info/SOURCES.txt
+dispatchmail.egg-info/dependency_links.txt
+dispatchmail.egg-info/top_level.txt
