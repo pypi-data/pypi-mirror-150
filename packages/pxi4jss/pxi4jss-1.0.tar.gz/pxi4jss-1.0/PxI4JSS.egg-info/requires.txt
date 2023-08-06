@@ -1,0 +1,4 @@
+snakes-utils>=2.0.2
+dwave-neal
+pandas
+pyqubo
