@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: pysatCDF
+Version: 0.3.2
+Summary: 'Simple NASA Common Data Format (CDF) File reader.'
+Home-page: https://github.com/pysat/pysatCDF
+Author: Russell A. Stoneback, et al.
+Author-email: pysat.developers@gmail.com
+License: UNKNOWN
+Keywords: CDF,NASA,pysat,pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+        <img height="0" width="0px">
+        <img width="20%" src="https://raw.githubusercontent.com/pysat/pysatCDF/main/docs/images/logo.png" alt="pysatCDF" title="pysatCDF"</img>
+</div>
+
+# pysatCDF
+[![PyPI Package latest release](https://img.shields.io/pypi/v/pysatcdf.svg)](https://pypi.python.org/pypi/pysatcdf)
+[![Build Status](https://github.com/pysat/pysatCDF/actions/workflows/main.yml/badge.svg)](https://github.com/pysat/pysatCDF/actions/workflows/main.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/pysat/pysatCDF/badge.svg?branch=main)](https://coveralls.io/github/pysat/pysatCDF?branch=main)
+[![DOI](https://zenodo.org/badge/51764432.svg)](https://zenodo.org/badge/latestdoi/51764432)
+
+Self-contained Python reader for NASA CDF file format
+
+Uses standard and extended Fortran CDF interfaces to load Common Data Format (CDF) files into Python.
+
+# Example
+```
+import pysatCDF
+with pysatCDF.CDF(filename) as cdf:
+
+    # All variable data loaded into dictionary in .data
+    cdf.data
+    data = cdf.data[name]
+    # Attributes dictionary
+    cdf.meta
+    attribute = cdf.meta[name][attr_name]
+
+    # CDF variable information available by name
+    cdf[name]
+
+    # Data access similar to other packages
+    data = cdf[name][...]
+    attribute = cdf[name].attrs[attr_name]
+
+    # Export data to pysat data and metadata format
+    data, meta = cdf.to_pysat()
+```
+
+# Testing
+pysatCDF has been tested on Mac OS X and Ubuntu 15.04. Support is included 
+for building on windows via Windows Subsystem for Linux. 
+
+# Motivation
+Provide simple, robust access to CDF data in Python and simplify 
+adding instruments to [pysat](https://github.com/pysat/pysat).
+
+# Installation in POSIX compatible environments
+Actual CDF loading is performed by the [NASA CDF libraries] (http://cdf.gsfc.nasa.gov/html/sw_and_docs.html) 
+which are included with pysatCDF.
+
+To install pysatCDF
+```
+git clone https://github.com/rstoneback/pysatCDF.git
+cd pysatCDF
+python setup.py install
+```
+
+# Installing pysatCDF in MacOS
+
+MacOS does not ship with a Fortran compiler. One method for getting a suitable
+build environment is to use brew.
+```
+brew install gcc
+```
+
+and then install pysatCDF as normal.
+
+# Installing pysatCDF in Windows
+
+Install the Windows Subsytem for Linux and proceed as per POSIX installation.
+
+
+Change Log
+==========
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](https://semver.org/).
+
+[0.3.2] - 2022-05-13
+--------------------
+* New Features
+  * Compatible with pysat v3.0+
+* Deprecations
+* Documentation
+  * Added pull request templates and other GitHub project documentation.
+  * Switched Windows installation instructions to favor installing WSL.
+* Bug Fix
+  * Improved builds for newer compilers.
+  * Replaces uninterpretable characters with '*' so data loading may continue.
+* Maintenance
+  * Adopted latest pysat development standards.
+  * Shifted from TravisCI to GitHub Actions for online testing.
+  * Adopted setup.cfg
+  * Improved PEP8 compliance
+
+
+
