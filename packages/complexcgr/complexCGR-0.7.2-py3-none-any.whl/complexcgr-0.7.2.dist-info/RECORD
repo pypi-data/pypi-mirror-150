@@ -1,0 +1,11 @@
+complexcgr/__init__.py,sha256=zJubLOOUwm5jA23LLCymXEJNKN2K4Bzo3VAu8xmNT8U,199
+complexcgr/cgr.py,sha256=ODhHGFlo5cVpqRIuytNpMJ-k_6cqRLvzZbGQ98eZrjM,2740
+complexcgr/complexcgr.py,sha256=c6rePehM81If_WL4mRfXcsVmTB46mm3H_YvCVA0z1cY,2235
+complexcgr/complexfcgr.py,sha256=40EaxetsCRkx5BCsw5UjXMoG6H8ig-eBMvN7pNSm1tA,3361
+complexcgr/fcgr.py,sha256=Jkvq20tesAXFiXOj0TbreYuvoAblc2Yteezbf2uvqHU,3278
+complexcgr/fcgr_samples.py,sha256=XyXTnRQ24j2LekJohy6VLg3V9VYHn3pHQXB_WeIFWcs,4303
+complexcgr/icgr.py,sha256=luwDUunpQgc8zPTjvdEE_D88FvX3TfYklBKvtYJgS-I,3327
+complexcgr-0.7.2.dist-info/LICENSE,sha256=zhS7lMBNXy08w9LHuTY8wo2zjIzpiXHeN86hpRZ-Ck4,1061
+complexcgr-0.7.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+complexcgr-0.7.2.dist-info/METADATA,sha256=90Ln2iwcDOflVYwb-GKBux5qG3Y5QapCY0vD4IZazNw,584
+complexcgr-0.7.2.dist-info/RECORD,,
