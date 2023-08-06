@@ -1,0 +1,2 @@
+[console_scripts]
+xcp-log = asamint.scripts.xcp_log:main
