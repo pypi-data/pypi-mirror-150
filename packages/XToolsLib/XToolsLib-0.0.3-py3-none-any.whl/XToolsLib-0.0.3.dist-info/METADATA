@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: XToolsLib
+Version: 0.0.3
+Summary: This is a simple library with many useful and simple tools.
+Home-page: UNKNOWN
+Author: Mr Abood
+Author-email: XTools@outlook.sa
+License: UNKNOWN
+Keywords: XToolsLib
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+Requires-Dist: random
+Requires-Dist: json
+Requires-Dist: requests[socks]
+
+UNKNOWN
+
