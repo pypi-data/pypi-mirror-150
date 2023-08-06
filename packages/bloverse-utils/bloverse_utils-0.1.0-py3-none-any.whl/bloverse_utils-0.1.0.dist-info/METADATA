@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bloverse-utils
+Version: 0.1.0
+Summary: This repo contains the utility functions that would typically be used across all the other functions.
+Author: Bloverse Tech Team
+Author-email: ukeme.wilson@bloverse.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
