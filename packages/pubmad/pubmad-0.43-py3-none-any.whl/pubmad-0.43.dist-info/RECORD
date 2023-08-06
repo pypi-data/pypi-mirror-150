@@ -1,0 +1,11 @@
+pubmad/VERSION,sha256=x-Lww3z0I9I46r18cAgrE6UgdcS6Zdv1KO5_cA3bCGo,5
+pubmad/__init__.py,sha256=DPEbWniBXaqYHZsaozFfO2kTzK17JI7nQpC3eGuWRmU,57
+pubmad/pipeline.py,sha256=5k83GOODqb0Frd671hvrhHYtyD-yma9IPO4-WEXnOb4,4846
+pubmad/types.py,sha256=45-4Z7unjADFjSEPivwt2GSV7Cnvw5-KRQ0K0rUm-sw,1642
+pubmad/utils.py,sha256=xOfhITxCybJ8dynFHVZGv1H9B_w6Z6dagNMILpSuhUM,27605
+pubmad/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+pubmad-0.43.dist-info/LICENSE.txt,sha256=3k_1_9ns-BACqCKYo8ETjeEUg_h7qgfixjW2ijtOQAg,12059
+pubmad-0.43.dist-info/METADATA,sha256=C-ttrGze02FdwXtAgO9XYGRsm7NUT6g379JwdH4TdCs,1449
+pubmad-0.43.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pubmad-0.43.dist-info/top_level.txt,sha256=_hbTYAEphqPnhhPKDq-2XkbzfX2UK31674QxE5zaDYs,7
+pubmad-0.43.dist-info/RECORD,,
