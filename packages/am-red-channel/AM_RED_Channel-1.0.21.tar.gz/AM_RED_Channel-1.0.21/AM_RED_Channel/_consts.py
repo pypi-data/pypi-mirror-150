@@ -1,0 +1,6 @@
+k_AM_localNodeURL = 'http://127.0.0.1:1880/'
+k_AM_failure = 'failure'
+K_AM_success = 'success'
+k_AM_GET = 'GET'
+k_AM_SEND = 'POST'
+k_AM_contentType = 'Text/Plain'
