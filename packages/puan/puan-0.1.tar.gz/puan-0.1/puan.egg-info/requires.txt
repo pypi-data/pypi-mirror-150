@@ -1,0 +1,4 @@
+numpy
+more-itertools
+scipy
+maz
