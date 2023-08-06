@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: main-entrypoint
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/jstriebel/main-entrypoint
+License: MIT
+Author: Jonathan Striebel
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typing-extensions (>=4.2.0,<5.0.0)
+Project-URL: Repository, https://github.com/jstriebel/main-entrypoint
+Description-Content-Type: text/markdown
+
+# main-entrypoint
+
+A decorator to avoid `if __name__ == "__main__":`
+
+```python
+from main_entrypoint import entrypoint
+
+@entrypoint
+def main():
+    print("Hello World")
+```
+
+```bash
+$ python my_script.py
+Hello World
+
+$ python -c "import my_script"
+# no output
+```
+
+## Installation
+
+```bash
+pip install main-entrypoint
+```
+
