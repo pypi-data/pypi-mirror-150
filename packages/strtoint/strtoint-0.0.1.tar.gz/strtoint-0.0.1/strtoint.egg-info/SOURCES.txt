@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+str2int/__init__.py
+str2int/strtoint.py
+strtoint.egg-info/PKG-INFO
+strtoint.egg-info/SOURCES.txt
+strtoint.egg-info/dependency_links.txt
+strtoint.egg-info/requires.txt
+strtoint.egg-info/top_level.txt
