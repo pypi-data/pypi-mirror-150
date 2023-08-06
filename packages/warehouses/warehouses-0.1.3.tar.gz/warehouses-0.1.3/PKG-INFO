@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: warehouses
+Version: 0.1.3
+Summary: Python library to facilitate read/write of GIS and tabular data between Python and cloud warehouses
+License: MIT
+Author: aaronfraint
+Author-email: aaronfraint@icloud.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: geopandas (>=0.10.2,<0.11.0)
+Requires-Dist: google-cloud-bigquery (>=3.1.0,<4.0.0)
+Requires-Dist: pandas-gbq (>=0.17.4,<0.18.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
