@@ -1,0 +1,210 @@
+Metadata-Version: 2.1
+Name: tributary
+Version: 0.2.0
+Summary: Streaming reactive and dataflow graphs in Python
+Home-page: https://github.com/timkpaine/tributary
+Author: Tim Paine
+Author-email: t.paine154@gmail.com
+License: Apache 2.0
+Keywords: streaming lazy graph dag dataflow reactive
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioconsole (>=0.2.1)
+Requires-Dist: aiofiles (>=0.4.0)
+Requires-Dist: aiohttp (>=3.5.4)
+Requires-Dist: aiohttp-sse (>=2.0)
+Requires-Dist: aiohttp-sse-client (>=0.2.0)
+Requires-Dist: aiokafka (>=0.6.0)
+Requires-Dist: aiostream (>=0.3.1)
+Requires-Dist: asyncpg (>=0.20.1)
+Requires-Dist: beautifulsoup4 (>=4.9.1)
+Requires-Dist: boltons (>=20.1.0)
+Requires-Dist: emails (>=0.5.15)
+Requires-Dist: frozendict (>=1.2)
+Requires-Dist: future (>=0.17.1)
+Requires-Dist: gevent (>=1.3.7)
+Requires-Dist: graphviz (>=0.10.1)
+Requires-Dist: ipython (>=7.0.1)
+Requires-Dist: ipydagred3 (>=0.1.5)
+Requires-Dist: numpy (>=1.15.3)
+Requires-Dist: pandas (>=0.19.0)
+Requires-Dist: scipy (>1.2.0)
+Requires-Dist: six (>=1.11.0)
+Requires-Dist: socketIO-client-nexus (>=0.7.6)
+Requires-Dist: sympy (>=1.5.1)
+Requires-Dist: temporal-cache (>=0.0.6)
+Requires-Dist: tornado (>=5.1.1)
+Requires-Dist: twilio (>=6.50.1)
+Provides-Extra: dev
+Requires-Dist: black (>=20.) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: flake8 (>=3.7.8) ; extra == 'dev'
+Requires-Dist: flake8-black (>=0.2.1) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pybind11 (>=2.4.0) ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: Sphinx (>=1.8.4) ; extra == 'dev'
+Requires-Dist: sphinx-markdown-builder (>=0.5.2) ; extra == 'dev'
+Requires-Dist: aioconsole (>=0.2.1) ; extra == 'dev'
+Requires-Dist: aiofiles (>=0.4.0) ; extra == 'dev'
+Requires-Dist: aiohttp (>=3.5.4) ; extra == 'dev'
+Requires-Dist: aiohttp-sse (>=2.0) ; extra == 'dev'
+Requires-Dist: aiohttp-sse-client (>=0.2.0) ; extra == 'dev'
+Requires-Dist: aiokafka (>=0.6.0) ; extra == 'dev'
+Requires-Dist: aiostream (>=0.3.1) ; extra == 'dev'
+Requires-Dist: asyncpg (>=0.20.1) ; extra == 'dev'
+Requires-Dist: beautifulsoup4 (>=4.9.1) ; extra == 'dev'
+Requires-Dist: boltons (>=20.1.0) ; extra == 'dev'
+Requires-Dist: emails (>=0.5.15) ; extra == 'dev'
+Requires-Dist: frozendict (>=1.2) ; extra == 'dev'
+Requires-Dist: future (>=0.17.1) ; extra == 'dev'
+Requires-Dist: gevent (>=1.3.7) ; extra == 'dev'
+Requires-Dist: graphviz (>=0.10.1) ; extra == 'dev'
+Requires-Dist: ipython (>=7.0.1) ; extra == 'dev'
+Requires-Dist: ipydagred3 (>=0.1.5) ; extra == 'dev'
+Requires-Dist: numpy (>=1.15.3) ; extra == 'dev'
+Requires-Dist: pandas (>=0.19.0) ; extra == 'dev'
+Requires-Dist: scipy (>1.2.0) ; extra == 'dev'
+Requires-Dist: six (>=1.11.0) ; extra == 'dev'
+Requires-Dist: socketIO-client-nexus (>=0.7.6) ; extra == 'dev'
+Requires-Dist: sympy (>=1.5.1) ; extra == 'dev'
+Requires-Dist: temporal-cache (>=0.0.6) ; extra == 'dev'
+Requires-Dist: tornado (>=5.1.1) ; extra == 'dev'
+Requires-Dist: twilio (>=6.50.1) ; extra == 'dev'
+Provides-Extra: develop
+Requires-Dist: black (>=20.) ; extra == 'develop'
+Requires-Dist: check-manifest ; extra == 'develop'
+Requires-Dist: flake8 (>=3.7.8) ; extra == 'develop'
+Requires-Dist: flake8-black (>=0.2.1) ; extra == 'develop'
+Requires-Dist: mock ; extra == 'develop'
+Requires-Dist: pybind11 (>=2.4.0) ; extra == 'develop'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'develop'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'develop'
+Requires-Dist: Sphinx (>=1.8.4) ; extra == 'develop'
+Requires-Dist: sphinx-markdown-builder (>=0.5.2) ; extra == 'develop'
+Requires-Dist: aioconsole (>=0.2.1) ; extra == 'develop'
+Requires-Dist: aiofiles (>=0.4.0) ; extra == 'develop'
+Requires-Dist: aiohttp (>=3.5.4) ; extra == 'develop'
+Requires-Dist: aiohttp-sse (>=2.0) ; extra == 'develop'
+Requires-Dist: aiohttp-sse-client (>=0.2.0) ; extra == 'develop'
+Requires-Dist: aiokafka (>=0.6.0) ; extra == 'develop'
+Requires-Dist: aiostream (>=0.3.1) ; extra == 'develop'
+Requires-Dist: asyncpg (>=0.20.1) ; extra == 'develop'
+Requires-Dist: beautifulsoup4 (>=4.9.1) ; extra == 'develop'
+Requires-Dist: boltons (>=20.1.0) ; extra == 'develop'
+Requires-Dist: emails (>=0.5.15) ; extra == 'develop'
+Requires-Dist: frozendict (>=1.2) ; extra == 'develop'
+Requires-Dist: future (>=0.17.1) ; extra == 'develop'
+Requires-Dist: gevent (>=1.3.7) ; extra == 'develop'
+Requires-Dist: graphviz (>=0.10.1) ; extra == 'develop'
+Requires-Dist: ipython (>=7.0.1) ; extra == 'develop'
+Requires-Dist: ipydagred3 (>=0.1.5) ; extra == 'develop'
+Requires-Dist: numpy (>=1.15.3) ; extra == 'develop'
+Requires-Dist: pandas (>=0.19.0) ; extra == 'develop'
+Requires-Dist: scipy (>1.2.0) ; extra == 'develop'
+Requires-Dist: six (>=1.11.0) ; extra == 'develop'
+Requires-Dist: socketIO-client-nexus (>=0.7.6) ; extra == 'develop'
+Requires-Dist: sympy (>=1.5.1) ; extra == 'develop'
+Requires-Dist: temporal-cache (>=0.0.6) ; extra == 'develop'
+Requires-Dist: tornado (>=5.1.1) ; extra == 'develop'
+Requires-Dist: twilio (>=6.50.1) ; extra == 'develop'
+Provides-Extra: functional
+Requires-Dist: confluent-kafka (>=0.11.6) ; extra == 'functional'
+Requires-Dist: websocket-client (>=0.57.0) ; extra == 'functional'
+
+# <a href="https://tributary.readthedocs.io"><img src="https://raw.githubusercontent.com/timkpaine/tributary/main/docs/img/icon.png" width="300"></a>
+Python Data Streams
+
+[![Build Status](https://github.com/timkpaine/tributary/workflows/Build%20Status/badge.svg?branch=main)](https://github.com/timkpaine/tributary/actions?query=workflow%3A%22Build+Status%22)
+[![Coverage](https://codecov.io/gh/timkpaine/tributary/branch/main/graph/badge.svg)](https://codecov.io/gh/timkpaine/tributary)
+[![PyPI](https://img.shields.io/pypi/l/tributary.svg)](https://pypi.python.org/pypi/tributary)
+[![PyPI](https://img.shields.io/pypi/v/tributary.svg)](https://pypi.python.org/pypi/tributary)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timkpaine/tributary/main?urlpath=lab)
+
+
+Tributary is a library for constructing dataflow graphs in python. Unlike many other DAG libraries in python ([airflow](https://airflow.apache.org), [luigi](https://luigi.readthedocs.io/en/stable/), [prefect](https://docs.prefect.io), [dagster](https://docs.dagster.io), [dask](https://dask.org), [kedro](https://github.com/quantumblacklabs/kedro), etc), tributary is not designed with data/etl pipelines or scheduling in mind. Instead, tributary is more similar to libraries like [mdf](https://github.com/man-group/mdf), [pyungo](https://github.com/cedricleroy/pyungo), [streamz](https://streamz.readthedocs.io/en/latest/), or [pyfunctional](https://github.com/EntilZha/PyFunctional), in that it is designed to be used as the implementation for a data model. One such example is the [greeks](https://github.com/timkpaine/greeks) library, which leverages tributary to build data models for [options pricing](https://www.investopedia.com/articles/optioninvestor/07/options_beat_market.asp). 
+
+![](https://raw.githubusercontent.com/timkpaine/tributary/main/docs/img/example.gif)
+
+
+# Installation
+Install with pip:
+
+`pip install tributary`
+
+or with conda:
+
+`conda install -c conda-forge tributary`
+
+or from source:
+
+`python setup.py install`
+
+Note: If installing from source or with pip, you'll also need [Graphviz itself](https://www.graphviz.org/download/) if you want to visualize the graph using the `.graphviz()` method.
+
+# Stream Types
+Tributary offers several kinds of streams:
+
+## Streaming
+These are synchronous, reactive data streams, built using asynchronous python generators. They are designed to mimic complex event processors in terms of event ordering.
+
+## Functional
+These are functional streams, built by currying python functions (callbacks). 
+
+## Lazy
+These are lazily-evaluated python streams, where outputs are propogated only as inputs change. They are implemented as directed acyclic graphs.
+
+# Examples
+- [Streaming](docs/examples/streaming/streaming.md): In this example, we construct a variety of forward propogating reactive graphs.
+- [Lazy](docs/examples/lazy/lazy.md): In this example, we construct a variety of lazily-evaluated directed acyclic computation graphs. 
+- [Automatic Differentiation](docs/examples/autodiff/autodiff.md): In this example, we use `tributary` to perform automatic differentiation on both lazy and streaming graphs.
+
+# Graph Visualization
+You can visualize the graph with Graphviz. All streaming and lazy nodes support a `graphviz` method.
+
+Streaming and lazy nodes also support [ipydagred3](https://github.com/timkpaine/ipydagred3) for live update monitoring.
+
+## Streaming
+![](https://raw.githubusercontent.com/timkpaine/tributary/main/docs/img/streaming/dagred3.gif)
+
+Here green indicates executing, yellow indicates stalled for backpressure, and red indicates that `StreamEnd` has been propogated (e.g. stream has ended).
+
+## Lazy
+![](https://raw.githubusercontent.com/timkpaine/tributary/main/docs/img/lazy/dagred3.gif)
+
+Here green indicates executing, and red indicates that the node is dirty. Note the the determination if a node is dirty is also done lazily (we can check with `isDirty` whcih will update the node's graph state.
+
+## Catalog
+See the [CATALOG](CATALOG.md) for a full list of functions, transforms, sources, and sinks.
+
+## Support / Contributors
+Thanks to the following organizations for providing code or financial support.
+
+
+<a href="https://nemoulous.com"><img src="https://raw.githubusercontent.com/timkpaine/tributary/main/docs/img/nem.png" width="50"></a>
+
+<a href="https://nemoulous.com">Nemoulous</a>
+
+## License
+This software is licensed under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
+
+## Alternatives
+Here is an incomplete list of libraries which implement similar/overlapping functionality
+
+- [man-group/mdf](https://github.com/man-group/mdf)
+- [cedricleroy/pyungo](https://github.com/cedricleroy/pyungo)
+- [python-streamz/streamz](https://github.com/python-streamz/streamz)
+- [EntilZha/pyfunctional](https://github.com/EntilZha/PyFunctional)
+- [stitchfix/hamilton](https://github.com/stitchfix/hamilton)
+
+
+
