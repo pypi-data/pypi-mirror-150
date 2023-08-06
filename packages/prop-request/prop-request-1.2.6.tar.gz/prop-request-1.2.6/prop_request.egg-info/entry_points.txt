@@ -1,0 +1,2 @@
+[console_scripts]
+prop = prop.__main__:main
