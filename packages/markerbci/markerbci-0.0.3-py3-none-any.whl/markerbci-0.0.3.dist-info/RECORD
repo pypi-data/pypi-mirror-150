@@ -1,0 +1,10 @@
+markerbci/__init__.py,sha256=bxlhpmG4vOe1G83efgs6hD4yvRu9AmLnv4WLl00TuV0,48
+markerbci/buttonbox.py,sha256=lr6KsjYa6goMZQ78z_TK9TuTLp2gy8R8Kyih63k5Z9A,12017
+markerbci/extended.py,sha256=n-0Ne0ayVeOmnsXUsYY12tT-91cfVt3lEM5QAVLlI_U,3935
+markerbci/joystick.py,sha256=snTMgCOcPAUyb8bl-x6sZ5X8r5ifZKcO5k_tLzpw2t0,2491
+markerbci/utils.py,sha256=MXnynec2_2L3DUe9vBFrNYkrosFDt-GOLDhyOTTN3UQ,8871
+markerbci-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+markerbci-0.0.3.dist-info/METADATA,sha256=QbRsI6z81PSrpuDgSz_Zc3vjKSIQ6BSCkyEscqGgMjM,817
+markerbci-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+markerbci-0.0.3.dist-info/top_level.txt,sha256=j5ssB12xZ1NL58_9DIlk3RiovEjbfrhWeVKxxA_Q4Hg,10
+markerbci-0.0.3.dist-info/RECORD,,
