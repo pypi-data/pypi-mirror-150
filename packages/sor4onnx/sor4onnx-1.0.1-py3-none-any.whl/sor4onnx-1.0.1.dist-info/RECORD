@@ -1,0 +1,9 @@
+sor4onnx/__init__.py,sha256=-KKFnutTgoupE--t_UHC6sybpsBQSEaiqeK6IvQnrLY,77
+sor4onnx/__main__.py,sha256=2RSCQ7d4lc6CwD-rlGn9UicPFg-P5du7ZD_yh-kuBEU,57
+sor4onnx/onnx_opname_renamer.py,sha256=o2ht_vnp0i_SCSxBs2rxDi8iaCG1OgAso9UXrI4TSSo,6422
+sor4onnx-1.0.1.dist-info/LICENSE,sha256=5v_Kxihy8i6mzHVl349ikSREaIdsl9YeUnX1KBDLD2w,1070
+sor4onnx-1.0.1.dist-info/METADATA,sha256=rkzL2fpywXD4YlbC78PdlSWl0DOCTd89akYARfgfijc,5180
+sor4onnx-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sor4onnx-1.0.1.dist-info/entry_points.txt,sha256=SOKhtDT9j_wvCD79Pp6n5D7EXI8YmxWrNGAkk-yW0jk,44
+sor4onnx-1.0.1.dist-info/top_level.txt,sha256=9QpkVRBXbMyA1RoaY0BIq0f7FGuNaj8PKr2DW0xGIxw,9
+sor4onnx-1.0.1.dist-info/RECORD,,
