@@ -1,0 +1,11 @@
+octocheese/__init__.py,sha256=ElRsGOEnbka7hcuSwfIaPmNJNFfOAWxwRaJCYZPHdqI,1296
+octocheese/__main__.py,sha256=YFhauHHF3VTt9zapBlrZVI1SA061whQK6B19EI12P6w,4881
+octocheese/action.py,sha256=dersVihSFWzcgKslK48-cREynuTVoEH8uV4K4CUXCxA,1480
+octocheese/colours.py,sha256=2-NewT1kbtiToDKZ5t83gq-PjKvXaqI7KGwx3dS1yqA,1501
+octocheese/core.py,sha256=K6XeFNMn35LmDqC5--gIj8y70FJEbEoA2EgTX4ZlWVI,9135
+octocheese/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octocheese-0.5.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+octocheese-0.5.0.dist-info/METADATA,sha256=ApUtgeug6GCO4RixxzqQpDUC7wJ0OGgS5TBdfQdZVZM,6792
+octocheese-0.5.0.dist-info/WHEEL,sha256=_nYm96LFGWcGUDy24M52CNMc-jCEmsEf2GWrdz0JxGY,84
+octocheese-0.5.0.dist-info/entry_points.txt,sha256=7zCEz2ZkSQo3NCOzTBo1y3Nlycc4bmKhDLDdaiqUcyU,56
+octocheese-0.5.0.dist-info/RECORD,,
