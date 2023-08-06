@@ -1,0 +1,15 @@
+ipywidgets
+apache-flink==1.14.3
+setuptools
+pandas
+ipython
+py4j
+requests
+wget
+sqlparse
+
+[tests]
+pytest<7.0.0,>=6.2.2
+pytest-cov<3.0.0,>=2.8.0
+pre-commit==2.15.0
+tox==3.21.1
