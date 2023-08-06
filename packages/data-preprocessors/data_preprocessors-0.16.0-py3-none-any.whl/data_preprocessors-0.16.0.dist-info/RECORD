@@ -1,0 +1,14 @@
+data_preprocessors/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+data_preprocessors/count_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/count_manager/count_manager.py,sha256=w494z31Fm0f4vXmuZt4hCScY004qPsGHK-pMYC4ybfA,1524
+data_preprocessors/file_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/list_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/list_manager/list_manager.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/list_process.py,sha256=7fqUbiHoIWFXVbj0e8xp0Cf-BrbsdYMydcXxJtE1jJs,1544
+data_preprocessors/punc_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/text_preprocessor.py,sha256=-iogquIDCRyUViFU1QV4Epgpxg-XPZG12rfnLTlpHoE,18707
+data_preprocessors/tokenizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_preprocessors/tokenizers/tokenizers.py,sha256=BtQ67wzA0nKtbcFIUZPjqwJSpAs3ngriIAkLTaaXxaQ,2077
+data_preprocessors-0.16.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+data_preprocessors-0.16.0.dist-info/METADATA,sha256=EdjeFR7E2Z9wo7FNhNBMDM1czzSgp2icr8uASVeJgOI,3220
+data_preprocessors-0.16.0.dist-info/RECORD,,
