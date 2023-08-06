@@ -1,0 +1,11 @@
+Changelog
+=========
+
+
+0.2.4 - 2022-05-12
+------------------
+
+- [FIX] Fix for external event simulations in realtime
+- [FIX] Renamed async.py to asnycio.py to fix problem with import of async, which is a keyword since Python 3.5
+- [FIX] Constrain simpy version to <4.0.0 due to incompatibility
+- [CHANGE] python 3.5, 3.6, 3.7, 3.8 and 3.9 are currently supported, python <=3.4 not anymore.

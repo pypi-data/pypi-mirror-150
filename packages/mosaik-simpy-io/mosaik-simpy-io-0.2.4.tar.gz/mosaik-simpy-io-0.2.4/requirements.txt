@@ -1,0 +1,3 @@
+pytest
+tox
+simpy==3.0.13
