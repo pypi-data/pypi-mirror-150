@@ -1,0 +1,3 @@
+[ibis.backends]
+heavyai=ibis_heavyai
+

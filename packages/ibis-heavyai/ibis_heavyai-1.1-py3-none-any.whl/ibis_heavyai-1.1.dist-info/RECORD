@@ -1,0 +1,14 @@
+ibis_heavyai/__init__.py,sha256=DPXLdD00IdNSNXbzjvL8R0QEMUwozivNEH_Okyn36tE,23999
+ibis_heavyai/client.py,sha256=bJBZkWvudH2aI_eO24MlOE2Mb9j3zaGWdWqD9OWlnrQ,14189
+ibis_heavyai/compiler.py,sha256=WJ38ifGlazb3jjPS5HYIWBE1y8tJ91SOTEgpM-hqUUY,7775
+ibis_heavyai/ddl.py,sha256=HEAzviUQ0ZWPJrGHf6vXqIGClWXrMa_JfLboQGKCuXA,16746
+ibis_heavyai/dtypes.py,sha256=3W35Han414oCj31w-ycZTtMTCOx0Xob2PB692cTatIE,1799
+ibis_heavyai/geo.py,sha256=HjgcKRsbKUtwxBE6zx4Y1rXyfk4vXFeiml-ILHFDNY8,2117
+ibis_heavyai/identifiers.py,sha256=EQah0k72hZTAAEQA5Pn5xGK-CzSw8srIQZRusi1zTHE,3910
+ibis_heavyai/operations.py,sha256=wAcJ4um8nuKSZsii8nzXGX7KvUawxQRbeedrDkwKtZo,32601
+ibis_heavyai/udf.py,sha256=vJPVmquKJkiOj3E0wReCkqUNfByAkFtzhnHdvSBl4j8,8744
+ibis_heavyai-1.1.dist-info/entry_points.txt,sha256=B1eAZsd9X6x8AHKwc7dCH-PFUw1nOVJ43akm81upIr0,38
+ibis_heavyai-1.1.dist-info/LICENSE.md,sha256=6wPX9DYEGS-frrmyKVHs3ZTBospJSEi8jwX5jLSF6P0,11343
+ibis_heavyai-1.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+ibis_heavyai-1.1.dist-info/METADATA,sha256=-CR8XFKv-ThVCkH9X8S-o53PDTERtfs9NPzwdHJR2Cc,2111
+ibis_heavyai-1.1.dist-info/RECORD,,
