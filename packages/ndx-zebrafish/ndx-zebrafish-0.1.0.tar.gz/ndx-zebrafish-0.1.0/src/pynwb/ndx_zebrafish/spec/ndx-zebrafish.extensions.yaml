@@ -1,0 +1,23 @@
+groups:
+- neurodata_type_def: ZebrafishBehavior
+  neurodata_type_inc: NWBDataInterface
+  doc: An extension of the NWB group to include all behavioral data from a zebrafish
+    tracking experiemnt
+  attributes:
+  - name: fish_id
+    dtype: int32
+    doc: The fish ID.
+  groups:
+  - name: orientation
+    neurodata_type_inc: SpatialSeries
+    doc: The direction the fish head points in a left coordinate system (angle increases
+      clockwise, zero points right
+    quantity: '?'
+  - name: tail_shape
+    neurodata_type_inc: SpatialSeries
+    doc: The shape of the tail recorded as relative angles to first tail segment
+    quantity: '?'
+  - name: position
+    neurodata_type_inc: SpatialSeries
+    doc: The x,y position of the swim bladder in camera coordinates
+    quantity: '?'
