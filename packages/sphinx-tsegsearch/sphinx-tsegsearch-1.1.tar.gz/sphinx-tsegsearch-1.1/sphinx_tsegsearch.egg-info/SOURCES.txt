@@ -1,0 +1,9 @@
+setup.py
+sphinx_tsegsearch/__init__.py
+sphinx_tsegsearch.egg-info/PKG-INFO
+sphinx_tsegsearch.egg-info/SOURCES.txt
+sphinx_tsegsearch.egg-info/dependency_links.txt
+sphinx_tsegsearch.egg-info/requires.txt
+sphinx_tsegsearch.egg-info/top_level.txt
+sphinx_tsegsearch/static/tiny_segmenter.js
+sphinx_tsegsearch/templates/search.html
