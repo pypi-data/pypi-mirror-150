@@ -1,0 +1,10 @@
+trame/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/modules/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/modules/markdown.py,sha256=BedLW63kT1BxOjSVwLS64Mw52EIeLSFa3mV9YwZfOlk,36
+trame/widgets/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+trame/widgets/markdown.py,sha256=vrdXwJTa1VWrTWzoRfNjW_6gd6vtu1M-5jQUie46L0U,144
+trame_markdown-2.0.0rc2.dist-info/LICENSE,sha256=7Fap-G4xE-Cyd7HMGRilqOZqwDLU8CjM90hQGg2YAdU,1078
+trame_markdown-2.0.0rc2.dist-info/METADATA,sha256=7-rgXrF5gPlp55CIEhQVQQPmkQ41N75KKrXJe3Gnsbs,3863
+trame_markdown-2.0.0rc2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trame_markdown-2.0.0rc2.dist-info/top_level.txt,sha256=3H1oKPyevAYlXac81bNWGddmd9oEI3y8edFzuOBKF-0,6
+trame_markdown-2.0.0rc2.dist-info/RECORD,,
