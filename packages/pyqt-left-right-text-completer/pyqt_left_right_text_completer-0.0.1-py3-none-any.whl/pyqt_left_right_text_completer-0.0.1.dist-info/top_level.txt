@@ -1,0 +1,1 @@
+pyqt_left_right_text_completer
