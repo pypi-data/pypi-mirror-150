@@ -1,0 +1,13 @@
+p_tqdm>=1
+tqdm>=4
+bs4
+numpy>=1
+pandas>=1
+yfinance>=0.1
+aenum>=3
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+flake8>=3.9
+tox>=3.24
