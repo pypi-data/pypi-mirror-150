@@ -1,0 +1,2 @@
+django_auditmatic
+django_model_auditmatic
