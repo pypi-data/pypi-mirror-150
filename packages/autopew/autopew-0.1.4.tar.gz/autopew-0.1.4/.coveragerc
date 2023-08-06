@@ -1,0 +1,11 @@
+[run]
+source = autopew
+omit =
+    # Omit test, docs, draft and data files
+    test/*
+    docs/*
+    **/data
+    _draft/*
+
+    # Ignore _version.py
+    */_version.py
