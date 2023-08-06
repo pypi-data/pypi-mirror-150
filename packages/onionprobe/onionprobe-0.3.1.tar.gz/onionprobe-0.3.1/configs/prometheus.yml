@@ -1,0 +1,12 @@
+---
+# Sample Prometheus configuration to be used
+# with Docker Compose
+
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'onionprobe'
+
+    static_configs:
+      - targets: ['onionprobe:9091']

@@ -1,0 +1,7 @@
+configs/tor.yaml etc/onionprobe
+configs/securedrop.yaml etc/onionprobe
+configs/onionprobe.yaml etc/onionprobe
+configs/real-world-onion-sites.yaml etc/onionprobe
+packages/real-world-onion-sites.py usr/share/onionprobe/examples
+packages/securedrop.py usr/share/onionprobe/examples
+packages/tpo.py usr/share/onionprobe/examples
