@@ -1,0 +1,10 @@
+file_service_client/__init__.py,sha256=AyATCmzszAxlizHvHsAHPbmMhsE2DIMHhrqGnuZerbU,545
+file_service_client/file_service_client.py,sha256=OFH86pYtXLJGJ3q6HtTPBFfpdhh9_Lw1XSsMRuNd5qU,2680
+file_service_client/file_store_client.py,sha256=P8uDqo4yFf0_AYmTAgGO7SmwV66u65JMMZ9dsqtwXHg,2440
+file_service_client/models.py,sha256=LcRfWOVRbvn6v1UZR7hbrPCagQ2AOBeo4avkyDl8bYI,1824
+file_service_client/utils.py,sha256=pRuUdsDBnCM17FcsmYPcYIdCZecN4oNKynMCZ8EFxhw,282
+file_service_client-2.0.0rc1.dist-info/LICENSE.txt,sha256=S9X_6Wphp7hv_2oZKR6dUNq-bUvewqXeEBiDQ8CVJMY,575
+file_service_client-2.0.0rc1.dist-info/METADATA,sha256=PrFcCXo5lvHa42_4kUma1ZJZ3r2JFuYREAVhHigM_sY,865
+file_service_client-2.0.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+file_service_client-2.0.0rc1.dist-info/top_level.txt,sha256=xMJ4t2DkLBBGaFgJY_D3FcIm-rdbO50rrU7-LyPnXNI,20
+file_service_client-2.0.0rc1.dist-info/RECORD,,
