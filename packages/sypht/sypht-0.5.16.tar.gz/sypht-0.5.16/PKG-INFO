@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sypht
+Version: 0.5.16
+Summary: Sypht Python Client
+Home-page: https://sypht.com
+Author: Sypht Pty Ltd.
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+License-File: LICENSE
