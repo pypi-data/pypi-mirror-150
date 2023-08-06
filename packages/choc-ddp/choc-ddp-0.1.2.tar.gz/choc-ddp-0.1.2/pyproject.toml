@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "choc-ddp"
+version = "0.1.2"
+description = "chocolate deduplication"
+authors = ["AnjoyLi <1589631311@qq.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "*", from = "src" }]
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = false
+
+[[tool.poetry.source]]
+name = "aliyun"
+default = false
+url = "https://mirrors.aliyun.com/pypi/simple/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.1"
+pyexecjs = "^1.5.1"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
