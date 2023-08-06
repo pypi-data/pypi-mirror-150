@@ -1,0 +1,16 @@
+aneris/__init__.py,sha256=H6GN4gl3xdVVtvNhiYeyA5ZnPWNeQc9EGL8Im16FnU8,177
+aneris/_io.py,sha256=LO8s2HNshdBD1lXEELxjbiZQemcMsK2-MwOXBUyrADs,6236
+aneris/_version.py,sha256=HUX-iDeBrlu3dvx4bPBz0iZHb0kNTbK1D0jHdnicvRg,497
+aneris/cli.py,sha256=YG5x9itJB36eysNUFF7-WYbmZzd7ZsLM_9Bb6lM2nHA,3494
+aneris/convenience.py,sha256=daDUuF-Z_QrGYUD1mpuTFk8OsEvFBQfDT65-Sd0lXZ0,6367
+aneris/errors.py,sha256=FsZuT1Q-QgCrq2M22iwH2DxMs02zOvhI-0oCGyAtL1Y,349
+aneris/harmonize.py,sha256=5qZFtnom0QhdeuehfaDhKVYfBgkSH04e5fIsl_dZqAI,27127
+aneris/methods.py,sha256=LVqBfW09BpPOouFBSHZ4cBGe3PvFReamCYvI2r9Kqfg,14546
+aneris/tutorial.py,sha256=7lHkbSGircKwsbJ3Nb94vIgCVDVwWoozvYeuY9898PM,2486
+aneris/utils.py,sha256=4hHxEDLG70tZdO_MUYuqIGtkoNsEqrKe_aaZ_n51dbI,19941
+aneris_iamc-0.3.1.dist-info/LICENSE,sha256=du0_hTZ1diz34t503BamSfWecYkSS5s2aMD_QUjfy-A,11346
+aneris_iamc-0.3.1.dist-info/METADATA,sha256=RMNulZtz0CKrx7Het-z_pjA-G3feTWfaaQqOwyx7OqA,987
+aneris_iamc-0.3.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aneris_iamc-0.3.1.dist-info/entry_points.txt,sha256=EuAo-PNGWiC7959XE-C2aUklLuoYTzii-xZPMP4rXCE,44
+aneris_iamc-0.3.1.dist-info/top_level.txt,sha256=Qjy4XIiPMwFhbgW38jYCPLx1O9sN_czQrwgWkVba0PU,7
+aneris_iamc-0.3.1.dist-info/RECORD,,
