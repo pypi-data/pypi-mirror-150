@@ -1,0 +1,1 @@
+"""pymitt - a simple wrapper for the Keymitt api"""
