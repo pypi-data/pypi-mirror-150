@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+CalIPv4/VLSM_GUI.py
+CalIPv4/kal_IP_GUI.py
+PCpranks/shutdownPC.py
+johnnyLibrary/__init__.py
+johnnyLibrary.egg-info/PKG-INFO
+johnnyLibrary.egg-info/SOURCES.txt
+johnnyLibrary.egg-info/dependency_links.txt
+johnnyLibrary.egg-info/requires.txt
+johnnyLibrary.egg-info/top_level.txt
