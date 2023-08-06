@@ -1,0 +1,6 @@
+Hello, this package finds the armstrong number which you provide. <br>
+Usage:
+```python
+import armstrongnbrfinder
+armstrongnbrfinder.armstrongnbr(<yournumber/varhere>)
+```
