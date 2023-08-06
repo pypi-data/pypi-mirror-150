@@ -1,0 +1,35 @@
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+.vs/
+.idea/
+.DS_Store
+cmake-build-debug/
+cmake-build-release/
+out/
+build/
+experiments/
+docs/references/PYTHON/_generate/
+# Tests
+tests/gtest/*
+!tests/gtest/CMakeLists.txt*
+
+#VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
