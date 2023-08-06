@@ -1,0 +1,3 @@
+[console_scripts]
+redc = red_cipher.__main__:main
+
