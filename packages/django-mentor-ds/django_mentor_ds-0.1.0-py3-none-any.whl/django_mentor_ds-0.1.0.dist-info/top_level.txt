@@ -1,0 +1,6 @@
+courses
+events
+features
+home
+mentor_ds
+pricing
