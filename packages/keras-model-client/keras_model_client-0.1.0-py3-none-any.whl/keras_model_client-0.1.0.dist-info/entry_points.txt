@@ -1,0 +1,3 @@
+[console_scripts]
+model-server-predict=keras_model_client.scripts.predict:main
+
