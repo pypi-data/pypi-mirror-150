@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: JSON-Chunker
+Version: 1.0.0
+Summary: A little helper tool to split big json files into chunks
+Home-page: https://github.com/DogukanK/JSON-Chunker
+Author: Dogukan Ertunga Kurnaz
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
