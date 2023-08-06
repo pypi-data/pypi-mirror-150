@@ -1,0 +1,4 @@
+[console_scripts]
+dls=deluge_cmd.deluge_dls:main
+dmv=deluge_cmd.deluge_dmv:main
+
