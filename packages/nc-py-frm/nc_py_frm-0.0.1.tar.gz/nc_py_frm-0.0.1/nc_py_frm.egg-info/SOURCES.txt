@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nc_py_frm/__init__.py
+nc_py_frm/__main__.py
+nc_py_frm/_version.py
+nc_py_frm.egg-info/PKG-INFO
+nc_py_frm.egg-info/SOURCES.txt
+nc_py_frm.egg-info/dependency_links.txt
+nc_py_frm.egg-info/requires.txt
+nc_py_frm.egg-info/top_level.txt
+nc_py_frm.egg-info/zip-safe
+tests/basic_test.py

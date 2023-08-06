@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nc_py_frm
+Version: 0.0.1
+Summary: Nextcloud Python Framework
+Home-page: https://github.com/bigcat88/nc_py_frm
+Author: Alexander Piskun
+Author-email: bigcat88@users.noreply.github.com
+License: Apache-2.0
+Project-URL: Documentation, https://nc-py-frm.readthedocs.io
+Project-URL: Source, https://github.com/bigcat88/nc_py_frm
+Project-URL: Changelog, https://github.com/bigcat88/nc_py_frm/blob/master/CHANGELOG.md
+Keywords: python,application,framework,nextcloud
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Systems Administration
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: optional
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
+License-File: LICENSE
+
+Readme will be written later....
