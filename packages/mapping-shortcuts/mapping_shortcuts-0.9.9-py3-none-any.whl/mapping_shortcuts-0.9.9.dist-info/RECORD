@@ -1,0 +1,12 @@
+mapping_shortcuts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapping_shortcuts/decors.py,sha256=40Y75UHrGj43DG0e40-myZBV5ux3bKaI7mQLwI3Gmbs,655
+mapping_shortcuts/dirtools.py,sha256=sWrJupJEUnFK2rx6uU0MydR1w1-pXTDVo94IuQxpFSo,1207
+mapping_shortcuts/meta.py,sha256=ExOyUvm-zDjBOcYCUxoPOIwZ7GkyWonl_HedZzdv8aI,949
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=Kq4JubWAIln3hNL6DeU5Os-TGODGVa_FLCjti-naHrA,127
+tests/decors.py,sha256=yXQWhJXr2fQys5bhS65p8skapGcFzJpydgeFB-iJp5s,1415
+tests/meta.py,sha256=be9mN2pS3ND6Sg_m-WPmN86rEWYC1s4RQsvirPDBkW0,2392
+mapping_shortcuts-0.9.9.dist-info/METADATA,sha256=TH6Kfrl657fpW4PaJ8ZDRZvYP6ABpzvitOeZTA5Lo0U,2495
+mapping_shortcuts-0.9.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mapping_shortcuts-0.9.9.dist-info/top_level.txt,sha256=wI86QPLaMOeEt8jqs7VNQ8cJgAHDatL3iFehE4U6eDA,24
+mapping_shortcuts-0.9.9.dist-info/RECORD,,
