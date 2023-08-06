@@ -1,0 +1,11 @@
+gym_janggi/__init__.py,sha256=6Sw9tuwktFmYdVPHDl7F-cww7aypiRJX8Erc8xj18Kg,131
+gym_janggi/constants.py,sha256=GUeeeU0agQyW24eIuDmcmpbDIiMMNIKFZZqgGUB7b1w,175
+gym_janggi/play.py,sha256=g9V_00PMFByP07AgYOSmWNzDsQ0vY1xXrhiOmndT8JI,740
+gym_janggi/utils.py,sha256=fy1SZJqdJwkhd2nTCwqsraF10r_TvXLrTzhfqHzGtg4,2199
+gym_janggi/envs/__init__.py,sha256=f4OXNSfV_pMnZtC-1wRK7gds0S2uUQu5-aoTscQrljg,45
+gym_janggi/envs/janggi.py,sha256=X3mUwPlpiVipRQP9uYQlw-v_D9JnK1Ye2sIDhgJD-0Q,4208
+gym_janggi-0.9.13.dist-info/LICENSE,sha256=Z1-7RlgvfkqJ-QxhtMvcderOlGsRMyFccHMZQteBJWM,35128
+gym_janggi-0.9.13.dist-info/METADATA,sha256=-Uce8APLz-NbuNBDl6XAdZbMRkqfDWttjYaf_4vpNYo,829
+gym_janggi-0.9.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gym_janggi-0.9.13.dist-info/top_level.txt,sha256=Bm5vC7OKBJelik1LivoNZYJt5fP6g5YwF1I5nmzNR8s,27
+gym_janggi-0.9.13.dist-info/RECORD,,
