@@ -1,0 +1,7 @@
+_quickjs.cp310-win_amd64.pyd,sha256=YrABvLTXBWbpfGs8AjjyuhHKkP2J73rsISGOaHBjlc4,844800
+quickjs/__init__.py,sha256=CjcDiVOVkxbr7Ib6_QoqEU3m5NSybpsBkIKTklXqQIQ,3646
+quickjs-1.19.2.dist-info/LICENSE,sha256=SaaYusx0XeBxigK1AnCxXpcvYhsQPTRdeZB4N6ln_FA,1120
+quickjs-1.19.2.dist-info/METADATA,sha256=w3Jcz2fxTMfKVPGJVIRCiiRYY7Ph0ttmIEsuzXAt1NA,627
+quickjs-1.19.2.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+quickjs-1.19.2.dist-info/top_level.txt,sha256=KrXFdJGch2baRcvdgEGjrk8zdolgKFRZ0xx4UhDg7h8,17
+quickjs-1.19.2.dist-info/RECORD,,
