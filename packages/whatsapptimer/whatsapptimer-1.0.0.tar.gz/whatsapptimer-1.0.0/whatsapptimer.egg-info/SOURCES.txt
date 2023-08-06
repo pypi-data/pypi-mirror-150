@@ -1,0 +1,8 @@
+setup.py
+scheduler/__init__.py
+scheduler/whatsapp.py
+whatsapptimer.egg-info/PKG-INFO
+whatsapptimer.egg-info/SOURCES.txt
+whatsapptimer.egg-info/dependency_links.txt
+whatsapptimer.egg-info/requires.txt
+whatsapptimer.egg-info/top_level.txt

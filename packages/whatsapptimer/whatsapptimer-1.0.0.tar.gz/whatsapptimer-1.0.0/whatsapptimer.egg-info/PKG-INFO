@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: whatsapptimer
+Version: 1.0.0
+Summary: Basic Whatsapp Scheduler
+Home-page: UNKNOWN
+Author: aisgupta (Aishwarya Gupta)
+Author-email: <aisgupta06@gmail.com>
+License: UNKNOWN
+Keywords: python,whatsapp,message,scheduler,schedule,msg
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
+UNKNOWN
+
