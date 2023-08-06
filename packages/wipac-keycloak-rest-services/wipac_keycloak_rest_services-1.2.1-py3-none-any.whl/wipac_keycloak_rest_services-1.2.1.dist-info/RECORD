@@ -1,0 +1,15 @@
+krs/__init__.py,sha256=D0KzLTNpBiM-6BnrTEFjbKxkQFRJ1gwmc70kVvVGsFQ,513
+krs/apps.py,sha256=3kqc0qq2k2muJf323Ag64GOF0z4-wylu8yhwLDH80lc,20266
+krs/bootstrap.py,sha256=bBCKaQ7PqS1lL1uw6FkXBsXTrdthy5aHJusPRvHMUX4,15461
+krs/email.py,sha256=7nJzlyI8YZiZjbYLc0RhRE9Xswm-snbqUi66wy03Glw,2870
+krs/groups.py,sha256=mahT3CWAya7zOARwAOwucqOAiYInwUUD4uiMbX32-0o,10971
+krs/institutions.py,sha256=UAtDrWewA_QWGhJCcTLzDDxV2uHG_ZB4Dy5XZmX6Iic,8720
+krs/ldap.py,sha256=4H8LfYji6OxpeVk3L7HSj5zM4V5271OlXHcdEIft2vo,22784
+krs/rabbitmq.py,sha256=3ycDJx68pYUC17i5LQZZ_zeyGBGkBUMhiQ0bhoFTysE,5019
+krs/token.py,sha256=SMznKfA58TEf-4AeJ-ariTMijKIFKT36xYKCNPgdYwE,2250
+krs/users.py,sha256=_HmOWWs3lCavFHa2LC5bxHpNjHWgi4sulF_Y-vfQ09g,8091
+wipac_keycloak_rest_services-1.2.1.dist-info/LICENSE,sha256=yPbBJJYOv5daOAmk4CUZ2Yyeu8S8CGSXsapzJV5sKUc,1103
+wipac_keycloak_rest_services-1.2.1.dist-info/METADATA,sha256=kHQQas3HVO1Tt2cbarGFfkxOL5W6uk5y_2Yso55IibQ,4994
+wipac_keycloak_rest_services-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wipac_keycloak_rest_services-1.2.1.dist-info/top_level.txt,sha256=f6ecBMos3BNONWC77YGVuGUp9SG_9XU_j73C22Kr2MI,4
+wipac_keycloak_rest_services-1.2.1.dist-info/RECORD,,
