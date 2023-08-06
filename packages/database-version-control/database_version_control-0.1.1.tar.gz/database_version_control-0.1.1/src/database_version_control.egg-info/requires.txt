@@ -1,0 +1,7 @@
+psycopg2
+typer[all]
+pyyaml
+
+[dev]
+pytest
+sphinx
