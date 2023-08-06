@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+{%- for content in contents %}
+
+{%- if 'head' in content %}
+<h2 class="head">{{ content.head | title }}</h2>
+{%- endif %}
+
+{%- if 'subhead' in content %}
+<h3 class="subhead">{{ content.subhead | title }}</h3>
+{%- endif %}
+
+{%- if 'body' in content %}
+{% with data=content.body %}
+{% include "components/corr_translation.html" %}
+{% endwith %}
+{%- endif %}
+
+{%- if 'img' in content %}
+<div class="fig_wrapper">
+  {{ content.img.src }}
+  {%- if 'caption' in content.img -%}
+  {% with data=content.img.caption %}
+  {% include "components/corr_translation.html" %}
+  {% endwith %}
+  {%- endif %}
+</div>
+{%- endif %}
+
+{%- endfor %}
+{% endblock %}
