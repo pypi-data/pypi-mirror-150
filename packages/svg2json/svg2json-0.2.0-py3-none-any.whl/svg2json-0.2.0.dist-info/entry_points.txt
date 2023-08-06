@@ -1,0 +1,3 @@
+[console_scripts]
+svg2json = svg2json.svg2json:main
+
