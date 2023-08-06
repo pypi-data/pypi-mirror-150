@@ -1,0 +1,9 @@
+licensespring/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+licensespring/api/__init__.py,sha256=i4rf2Ndq9UoZ99lOggamvVzLH9AG2Il_I49eA8BL628,11360
+licensespring/api/authorization.py,sha256=XUFbPxV0o5NYRyOessgETaiLbJP_CqDTaeg2xCSH0n8,677
+licensespring/api/error.py,sha256=XWcxsVI-6m1J9FJjy0up5ITCB92DQBqxZti56Aaz4Qg,625
+licensespring/api/hardware.py,sha256=CKwxxafTMDQZPJIkQzSBfj1NW7sK8Lv1-wiHO9gLIVM,92
+licensespring/api/signature.py,sha256=jAb0fMYm3ctx5Hf-XK83SJnknFlDtT213-OZL7qT5eM,1517
+licensespring-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+licensespring-0.2.0.dist-info/METADATA,sha256=zqtbEm_LBp8Ec_X1akpkvnUQE4-8ZZft4snvaAxW83A,3247
+licensespring-0.2.0.dist-info/RECORD,,
