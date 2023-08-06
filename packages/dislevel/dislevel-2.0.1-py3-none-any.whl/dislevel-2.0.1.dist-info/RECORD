@@ -1,0 +1,17 @@
+dislevel/__init__.py,sha256=nKKZFOyhTRPe1gxXMeEPC1pkcOT46aHihFaEpdyYhAc,159
+dislevel/_cog.py,sha256=oMbbtgrBQunHilmnDFxLZvXAT-2coasDEfIYCbb5AbY,2570
+dislevel/_db_adapter.py,sha256=HwdO6Q1ygSYYUIUw2tcIKx12qwC4PqOmhkP3rPpEJc0,1477
+dislevel/_version.py,sha256=A2zdWRh9581pSUwILs9bAocYMDw_7XbK3axH8f3lC8I,238
+dislevel/card.py,sha256=M4IcwuGDShbkRV6wlICWvF-7btlteNNhgk99qxkeQcM,2294
+dislevel/connector.py,sha256=UcuKR2_QcSiNQGbdsae8o9EdpEgQWba3NIdB0zaNbyM,804
+dislevel/utils.py,sha256=jZK8iyc6YD2ppJFDhIm7ukuJ8OT5kZi236VQszm0miU,5374
+dislevel/assets/bg.png,sha256=u1bm2czLKX29FwBvDtDpmkUT3_0bPKWd92G_gUYQPiQ,129204
+dislevel/discord/__init__.py,sha256=oI6V_9_4m6e_dfV9I1Lj2v_Tv-I84d_Y_bdnLE_Alx4,94
+dislevel/discord/slash.py,sha256=bZEmOhaK1yHb_Ob2kSjdPJjGTtw45mJZkTDcSGzprIU,3067
+dislevel/nextcord/__init__.py,sha256=FSKn0iscm7j4bOzkCjLsZGYL-N7PIp-J-XMENAnMQg0,82
+dislevel/nextcord/slash.py,sha256=9iHBXYBi3e7K_3Rr5g1hVTrukgtPFt0qArN0lTOGceU,2938
+dislevel-2.0.1.dist-info/LICENSE,sha256=pPNdzpRDXFqlLBw6WFOZZP0SaRs6ADNnBniZs1-xPU0,1067
+dislevel-2.0.1.dist-info/METADATA,sha256=DQ9GHFfw_9G1QQCRRJlNLGxAclNrYgLrpsIwjR9JAbo,3934
+dislevel-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dislevel-2.0.1.dist-info/top_level.txt,sha256=sWqgyrOC98PBdMMNgC6k-EtWqhTw262nu43YdUy4U2s,9
+dislevel-2.0.1.dist-info/RECORD,,
