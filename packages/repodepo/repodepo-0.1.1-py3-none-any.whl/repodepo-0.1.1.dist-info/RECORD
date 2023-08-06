@@ -1,0 +1,16 @@
+repodepo/__init__.py,sha256=7z3s6BqUnTi8AaK4DLIFnNUE7KidtgR0YsU2aobSaYA,100
+repodepo/_version.py,sha256=JrUAVP4P5MxJyniaJ6eozDAntRyRAZDz0L_y0mqioMQ,24
+repodepo/initscript_postgres.sql,sha256=YPmTI6yyeDZvDjbxzyDUdOXRQnDtmyJQSN_5dFF0uSU,14551
+repodepo/initscript_sqlite.sql,sha256=2Z8wTQCx9U5c8drqBBguVc6Rdh_EoHudJVipAFmuzJ0,14199
+repodepo/misc.py,sha256=wrU8iaWYynYkxtqF03JfXM3u_1rxrNT8G6Q1PBW_RRo,660
+repodepo/repo_database.py,sha256=yUx5CAo46VdIdUtnG_2hRrUDlYKNj9EExME-wlmRINE,82939
+repodepo/data/botlist.csv,sha256=ap_v0krfVrD5Rt28M_mqo9Osoo7PndimkcMs-4ACJsw,1839
+repodepo/data/filters/filtered_packageedges.csv,sha256=EeMc785mph4ESNF3Y2cAyN7YUCY9cqLnjPo4-LDnb5U,7532
+repodepo/data/filters/filtered_packages.csv,sha256=lR6VDA_zV76Sh0HnleH8--s8JCtxLn2uu5n84Lob8rs,683
+repodepo/data/filters/filtered_repoedges.csv,sha256=obd5woMgrWEg2VsNBpY5S2d3qgNobfZ_FAvcloJg5sw,9932
+repodepo/data/filters/filtered_repos.csv,sha256=wJnG2d_8pM6eJ_Wea0OeSPGg9vZaB_HRmiax-BXFIu4,41
+repodepo-0.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+repodepo-0.1.1.dist-info/METADATA,sha256=jqSnf-04ZhwrFojKgI7Ak2B7f3J7Ofikpmu0Q5IH4ns,1062
+repodepo-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+repodepo-0.1.1.dist-info/top_level.txt,sha256=zdsp93kd0Gr2p_Dee3WmA1cU8E3GyxhXZVXleLKd2Ok,9
+repodepo-0.1.1.dist-info/RECORD,,
