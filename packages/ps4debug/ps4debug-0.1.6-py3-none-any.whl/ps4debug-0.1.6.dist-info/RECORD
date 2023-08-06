@@ -1,0 +1,9 @@
+ps4debug/__init__.py,sha256=o5kXUADjPjUAyvBlqJ3ofZJHU5z1BzLrLJ30tEUP2Y8,52640
+ps4debug/commands.py,sha256=85W_P7pIZ-Z4QQSlW_VOWPFxVKJzQPc4UNHvK1zepNw,1024
+ps4debug/core.py,sha256=MMpY8BRmKN7RKRQSImYBce2D-6vORgRXdARntCnD7Eo,6667
+ps4debug/exceptions.py,sha256=ZcdF6MBukIkBLFVEQeU4-IhnpfUupNcpU4qqeY5nQQA,129
+ps4debug-0.1.6.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+ps4debug-0.1.6.dist-info/METADATA,sha256=EbDpvf4EZ9oJoM8nvPoiywIJCSeFt406lZf7O1G1Y0c,20583
+ps4debug-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ps4debug-0.1.6.dist-info/top_level.txt,sha256=MAhaUX7ulnL_JicnFqA2XTX-3cTzEF4701PV0QmVuOc,9
+ps4debug-0.1.6.dist-info/RECORD,,
