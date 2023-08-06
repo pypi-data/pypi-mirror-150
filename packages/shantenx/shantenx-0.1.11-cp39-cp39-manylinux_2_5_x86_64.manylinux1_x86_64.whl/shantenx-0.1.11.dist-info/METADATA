@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: shantenx
+Version: 0.1.11
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# shantenx
+
+麻雀におけるシャンテン数の計算を提供します.
+
+# features
+## `max_fans`
+
+`limit` 枚以下の牌の入れ替えにより, 最大何翻の聴牌が作れるかを返します.
+
+| 引数名      | 概要        | e.g.                                   | default |
+|-------------|-------------|----------------------------------------|---------|
+| `pure`      | 純手牌      | `['1m','1m','1m','2m','3m','4m','5m']` |         |
+| `furo`      | 副露        | `['123m','666s','1111m','3__3z']`      |         |
+| `limit`     |             | `0`, `1`, `2`, ...                     |         |
+| `dora`      | ドラ        | `['1m', '1m', '6z']`                   |         |
+| `bakaze`    | 場風        | `'1z'`, `'2z'`, `'3z'`, `'4z'`         |         |
+| `jikaze`    | 自風        | `'1z'`, `'2z'`, `'3z'`, `'4z'`         |         |
+| `red_manzu` | 赤5萬の有無 | `True`, `False`                        | `False` |
+| `red_pinzu` | 赤5筒の有無 | `True`, `False`                        | `False` |
+| `red_souzu` | 赤5索の有無 | `True`, `False`                        | `False` |
+
+以下の役満を考慮します.
+
+- ダブル役満 (26翻)
+  - [x] 大四喜
+  - [x] 純正九蓮宝燈
+- 役満 (13翻)
+  - [x] 国士無双
+  - [x] 四槓子
+  - [x] 四暗刻
+  - [x] 大三元
+  - [x] 小四喜
+  - [x] 字一色
+  - [x] 清老頭
+  - [x] 緑一色
+  - [x] 九蓮宝燈
+
+これらを含まない場合, 以下の通常役を考慮します. ただし13翻以上の場合は 13翻を返します.
+
+- [x] ドラ
+- [x] 赤ドラ
+- [x] 断么
+- [x] 混老頭
+- [x] 清一色
+- [x] 混一色
+- [x] 自摸
+- [ ] 立直 (TODO)
+- [x] 三槓子
+- [x] 小三元
+- [x] 七対子
+- [x] 対々和
+- [x] 三暗刻
+- [x] 平和
+- [x] 役牌
+- [x] 一盃口
+- [x] 二盃口
+- [x] 純チャン
+- [x] チャンタ
+- [x] 一気通貫
+- [x] 三色同順
+- [x] 三色同刻
+
+### Examples
+```python
+import shantenx
+assert(shantenx.max_fans(
+    pure=['1m','1m','1m','2m','3m','4m','5m','6m','7m','8m','9m','9m','9m'],
+    furo=[],
+    limit=0,
+    dora=[],
+    jikaze='1z',
+    bakaze='2z') == 26)
+```
+
+### Verify
+```shell
+python3 pytest/test.py -t pytest/resources/shanten-online-testcases.json
+```
+
