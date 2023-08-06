@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yara-helper
+Version: 0.3.3
+Summary: A tool to parse Yara rules and help you edit Yara rules in your program
+Home-page: https://github.com/b1tkeeper/yara-helper
+Author: b1tkeeper
+Author-email: wbhan_cn@qq.com
+Project-URL: Bug Tracker, https://github.com/b1tkeeper/yara-helper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yara-helper
+A tool to parse Yara rules and help you edit Yara rules in your program
