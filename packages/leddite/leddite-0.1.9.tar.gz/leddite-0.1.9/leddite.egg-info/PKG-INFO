@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: leddite
+Version: 0.1.9
+Summary: leddite lets you create your own art with Neopixel displays easily
+Home-page: https://github.com/adishy/leddite
+Author: Aditya Shylesh
+Author-email: development-mails@adishy.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `leddite`
+The `leddite` project provides an easy to use library and hardware designs, to build and interact with AdaFruit Neopixel led strips. The library provides high-level abstractions that make it easier to display user-specified contents. It also provides a command-line tool and REST API, Documentation links provided below.
