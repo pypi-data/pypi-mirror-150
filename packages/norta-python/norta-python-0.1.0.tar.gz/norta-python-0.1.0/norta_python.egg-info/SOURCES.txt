@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+examples/example_two_normals.py
+figures/example_two_normals_figure_0.png
+figures/example_two_normals_figure_1.png
+norta/__init__.py
+norta/norta.py
+norta_python.egg-info/PKG-INFO
+norta_python.egg-info/SOURCES.txt
+norta_python.egg-info/dependency_links.txt
+norta_python.egg-info/requires.txt
+norta_python.egg-info/top_level.txt
