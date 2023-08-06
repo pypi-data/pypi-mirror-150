@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pypegasu
+Version: 0.1.17
+Summary: python
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Topic :: Software Development :: Libraries
