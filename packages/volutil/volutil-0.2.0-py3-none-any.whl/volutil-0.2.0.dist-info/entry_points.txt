@@ -1,0 +1,9 @@
+[console_scripts]
+vol-cat = volutil.cmdline.vol_cat:main
+vol-dice = volutil.cmdline.vol_dice:main
+vol-hist = volutil.cmdline.vol_hist:main
+vol-info = volutil.cmdline.vol_info:main
+vol-slice = volutil.cmdline.vol_slice:main
+vol-stats = volutil.cmdline.vol_stats:main
+vol-tr = volutil.cmdline.vol_tr:main
+vol-vol = volutil.cmdline.vol_vol:main
