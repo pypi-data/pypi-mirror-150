@@ -1,0 +1,17 @@
+rogue_net/README.md,sha256=6XW8FeAWYNVYx6zC012OQOQex1Mm4OZ5QJf62h4MSas,101
+rogue_net/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rogue_net/categorical_action_head.py,sha256=FpXr586QtA-O_K2B6iPe9mwh9Fozmt0lMqH3hz_eSKQ,2618
+rogue_net/embedding.py,sha256=1KvoCoUKZp-8IMLCp6mQl23SFTKysdMymhFyVT6KV7U,4659
+rogue_net/input_norm.py,sha256=zfCnRDjIiP7HJGsIbtkl-naEaZIFqy2Ce-dejxt4agk,3140
+rogue_net/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rogue_net/ragged_tensor.py,sha256=hRJzpiS2zk6JHG4YUfCaQ9jRcyuluXyB5ky3G587oMM,713
+rogue_net/relpos_encoding.py,sha256=9As-085Mz4tDQZPbNvMhSg2HEHOP-QsgQ00TobxMY8w,23176
+rogue_net/rogue_net.py,sha256=IbXkHKx3voFQta1cOZdpsKDetVn_V692N1qRQbVxpk0,9924
+rogue_net/select_entity_action_head.py,sha256=n8xC01i4Gc0pa0m_33pKTHzDU9xXrEn3OsbG6whg2Io,4606
+rogue_net/test_input_norm.py,sha256=CYR36q4Joj12z8mOhpVbzcMyHmUmhj0nia4vH-LBCOI,3671
+rogue_net/tests/test_action_head.py,sha256=RIS7F3D5cX35skRi9chnQGxTGWc0kuIFQIVJVDbnqv0,1175
+rogue_net/transformer.py,sha256=qiwtVrVdj_076k4wNYBfCJN76AAQYFTOEfBEWSTT1V0,10410
+rogue_net/translate_positions.py,sha256=XVsCu9xfO6FkyGlG1-9y1twjhJaLbOEV8RAGQt5u3L4,5246
+rogue_net-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+rogue_net-0.1.3.dist-info/METADATA,sha256=nBr8UHX3CPnNwHZffHNtVVBoLh0poYTqGdhvvC0_QKs,465
+rogue_net-0.1.3.dist-info/RECORD,,
