@@ -1,0 +1,28 @@
+2022-03-08 Version: 1.0.9
+- CreateTemplate adds input parameter Signature.
+
+2022-03-08 Version: 1.0.8
+- ListMessages add ErrorCode filter.
+
+2022-03-07 Version: 1.0.7
+- Add Report, Up, User APIs.
+
+2022-03-02 Version: 1.0.6
+- ListMessages add filters.
+- ListMessageMetrics add filters.
+
+2022-03-01 Version: 1.0.5
+- Add ListMessageMetrics API.
+
+2022-02-23 Version: 1.0.4
+- Upgrade ListMessages API.
+
+2022-02-22 Version: 1.0.2
+- Add ListMessages API.
+
+2022-02-21 Version: 1.0.1
+- Add Signature, Template API.
+
+2022-02-21 Version: 1.0.0
+- Init Version with SendMessage API.
+
