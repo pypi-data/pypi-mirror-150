@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pythagoras/__init__.py
+pythagoras/_dependency_discovery.py
+pythagoras/environmental.py
+pythagoras/p_cloud.py
+pythagoras/persistent_dicts.py
+pythagoras/utils.py
+pythagoras.egg-info/PKG-INFO
+pythagoras.egg-info/SOURCES.txt
+pythagoras.egg-info/dependency_links.txt
+pythagoras.egg-info/requires.txt
+pythagoras.egg-info/top_level.txt
