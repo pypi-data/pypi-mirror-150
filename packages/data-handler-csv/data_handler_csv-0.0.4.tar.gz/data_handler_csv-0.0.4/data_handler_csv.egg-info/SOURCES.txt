@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DataHandler/__init__.py
+DataHandler/data_handler.py
+data_handler_csv.egg-info/PKG-INFO
+data_handler_csv.egg-info/SOURCES.txt
+data_handler_csv.egg-info/dependency_links.txt
+data_handler_csv.egg-info/requires.txt
+data_handler_csv.egg-info/top_level.txt
