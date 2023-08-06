@@ -1,0 +1,15 @@
+qoscope/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+qoscope/__main__.py,sha256=S_e7q_nubBWX1QKBef6G4W40_zFaHA0Id6I1tLmPTf0,40
+qoscope/app.py,sha256=NAj2VdADA_hZYpkonyGoEfiTZjJIyb9U616us3fwWXw,646
+qoscope/bridge.py,sha256=rZdPYMghc17N7OGtLTR0ctmZIZM6A7o69OFwgLD886U,5627
+qoscope/controller.py,sha256=CbMR64aTEaV2eAC2MJ9Ane1TDL9_xw3QfmCongTpY7w,4743
+qoscope/device.py,sha256=iXaiw94O6CUsRezYJIgRuHkKcYZjN6-y8iLhcvt_zVQ,2268
+qoscope/main_window.py,sha256=RDnJO3zYScEMH2RmIOAj1vx1Usn3N74sxZOhl6yx7ew,7391
+qoscope/main_window.qml,sha256=rH64IW_gAFp0ZPdXsIIgMuHNFSTbifIvtEI1JVLaLqQ,9856
+qoscope/workers.py,sha256=y5rEaLJ_D4y2kPnppTfgITl2WksxjTjSPtYUWfBlpzw,636
+qoscope-1.0.0.dist-info/LICENSE,sha256=EeIiookPp0PlnN2DAg-Ghx7e-l43A4CVIBZkGQvcTPY,1089
+qoscope-1.0.0.dist-info/METADATA,sha256=UflYzQPxZvR1hEBMe--b2CnRgHLD6CykqtiaLkV4WQ0,2810
+qoscope-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qoscope-1.0.0.dist-info/entry_points.txt,sha256=Mx3PLqt-nW140otgPrC6eytUPNSW2hoE8GU2DWnmvZA,46
+qoscope-1.0.0.dist-info/top_level.txt,sha256=dINahpIAW698i16FEDjlHnD3x_I9VrzFGdJ7HGEhL7M,8
+qoscope-1.0.0.dist-info/RECORD,,
