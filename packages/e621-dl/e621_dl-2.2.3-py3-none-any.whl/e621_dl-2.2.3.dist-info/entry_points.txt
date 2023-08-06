@@ -1,0 +1,3 @@
+[console_scripts]
+e6=e621_dl:app
+
