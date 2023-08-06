@@ -1,0 +1,2 @@
+[babel.extractors]
+puente_jinja2 = puente.extract:extract_from_jinja2
