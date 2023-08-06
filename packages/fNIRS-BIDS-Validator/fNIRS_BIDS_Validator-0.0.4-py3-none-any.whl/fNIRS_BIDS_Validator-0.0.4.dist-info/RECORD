@@ -1,0 +1,13 @@
+fNIRS-BIDS-Validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fNIRS-BIDS-Validator/fNIRS_BIDS.py,sha256=QKmZ_xR5Hc9HYt7Y-w7lYHUg3PDhnSMyqTLgHkYowVQ,13237
+fNIRS-BIDS-Validator/fNIRS_BIDS_validator.py,sha256=OqQcXY5XFU7Gcl27Q7NSKilQHIWraJ9F-xdQDLPE504,388
+fNIRS-BIDS-Validator/setup.py,sha256=xAC5PM-ZY1RtUt91gH75nS7LflIA2cIGXEARaOpo308,4028
+fNIRS-BIDS-Validator/update_fNIRS_BIDS_schema.py,sha256=53YxGkzD28nu8I72w4FXNhCZFe5NL3eLtE0VXgnNB34,9508
+fNIRS_BIDS_Validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fNIRS_BIDS_Validator/fNIRS_BIDS.py,sha256=6DHUmd1KIhr8a23vJcdZP7HDZM9pmAgeCEnIONt9k4o,10833
+fNIRS_BIDS_Validator/fNIRS_BIDS_validator.py,sha256=vq7hOf-w9UwjXULZIvnhy36Ewyk-ZBeatIkpMK3EKTw,381
+fNIRS_BIDS_Validator/update_fNIRS_BIDS_schema.py,sha256=53YxGkzD28nu8I72w4FXNhCZFe5NL3eLtE0VXgnNB34,9508
+fNIRS_BIDS_Validator-0.0.4.dist-info/METADATA,sha256=wb0Xki2viejURZsLHhUoIb5nj9BEAgyF9gTcok1_cPM,704
+fNIRS_BIDS_Validator-0.0.4.dist-info/RECORD,,
+fNIRS_BIDS_Validator-0.0.4.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+fNIRS_BIDS_Validator-0.0.4.dist-info/top_level.txt,sha256=GYdrcNCSU9QjTB8DmA9Qc6dboUqbVNWsvvXMOwmXpAI,21
