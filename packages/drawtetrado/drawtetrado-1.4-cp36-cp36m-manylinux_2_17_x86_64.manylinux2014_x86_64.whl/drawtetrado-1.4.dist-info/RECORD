@@ -1,0 +1,11 @@
+optimizer.cpython-36m-x86_64-linux-gnu.so,sha256=dwt_cpOVMF9LfLqSzjBOqQbnF76j7prSNWbcF1qvFWA,691136
+drawtetrado/svg_painter.py,sha256=tdtxoZ4xnoGug4YhkGBJ7Q-1oBKVmsecLipmRSET4Sc,22304
+drawtetrado/main.py,sha256=DfW8tokuNsNYRT51LCsBGXlSF71nT_xNwn_pVwaiSDs,5869
+drawtetrado/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drawtetrado/structure.py,sha256=BP6i6kMT2tG43pKspHYCznBE4WQkqbhnS1pJkKTvlEs,24469
+drawtetrado-1.4.dist-info/entry_points.txt,sha256=cqa-EudFnZluP6bWaaBqsDG5251w5fXlO4-fYkiEdEM,55
+drawtetrado-1.4.dist-info/top_level.txt,sha256=KigJ2in7ju-vfl5yhCYtreHSFGqAc0LIIPbOxM5fsls,22
+drawtetrado-1.4.dist-info/LICENSE,sha256=1pnYN1IxYmey023umZdwygySIPEcYfT4okNIAEklP0Y,1075
+drawtetrado-1.4.dist-info/METADATA,sha256=e4nV8kjFVrg3OE3VsFuI6I8cumEY-YI1QApBJam0A4g,53932
+drawtetrado-1.4.dist-info/RECORD,,
+drawtetrado-1.4.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
