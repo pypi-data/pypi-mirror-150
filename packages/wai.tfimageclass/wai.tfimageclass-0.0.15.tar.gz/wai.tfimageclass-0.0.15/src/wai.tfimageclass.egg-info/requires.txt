@@ -1,0 +1,7 @@
+argparse
+numpy
+pillow
+tensorflow_hub
+simple-confusion-matrix
+redis
+redis-docker-harness
