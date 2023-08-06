@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: polynom
+Version: 0.0.2
+Summary: python package for evaluation and differentiation of polynomials in various basis representations
+Home-page: https://gitlab.com/berlinade/polynom
+Author: codima
+License: GPLv3
+Project-URL: Doc, https://berlinade.gitlab.io/polynom/
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
