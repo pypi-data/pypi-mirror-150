@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-api-decorators
+Version: 0.1.0
+Summary: A python library containing useful decorators specifically designed for API wrappers
+Home-page: https://github.com/vincentscode/py-api-decorators
+Author: vincentscode
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
