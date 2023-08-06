@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: runescape3-api
+Version: 2.0.0
+Summary: runescape3-api is an open-source wrapper, that allows interaction with the various APIs available for the popular MMORPG RuneScape3
+Home-page: https://gitlab.com/ballioli/runescape3-api
+Author: Baldur Óli Barkarson
+Author-email: ballioli1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Introduction
+
+`runescape3-api` is an open-source wrapper, written in [Python](https://www.python.org/), that allows interaction with the various APIs available for the popular MMORPG [RuneScape3](http://www.runescape.com).
+
+### Contact
+`ballioli1@gmail.com`
+
+### Installation
+
+```
+pip install runescape3-api
+```
+
+### Usage
+
+The implementation offers functionality to interact with the following:
+
+* [Bestiary](https://ballioli1.gitbook.io/runescape3-api/docs/bestiary)
+* [Hiscores](https://ballioli1.gitbook.io/runescape3-api/docs/hiscores)
+* [RuneMetrics](https://ballioli1.gitbook.io/runescape3-api/docs/runemetrics)
