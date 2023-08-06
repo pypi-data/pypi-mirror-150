@@ -1,0 +1,8 @@
+setup.py
+fusion_client.egg-info/PKG-INFO
+fusion_client.egg-info/SOURCES.txt
+fusion_client.egg-info/dependency_links.txt
+fusion_client.egg-info/requires.txt
+fusion_client.egg-info/top_level.txt
+test/__init__.py
+test/hello.py
