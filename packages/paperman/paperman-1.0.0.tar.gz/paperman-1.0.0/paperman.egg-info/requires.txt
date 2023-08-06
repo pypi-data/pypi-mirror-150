@@ -1,0 +1,4 @@
+appdirs
+argparse
+argcomplete
+pyyaml
