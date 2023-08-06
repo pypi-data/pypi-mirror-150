@@ -1,0 +1,3 @@
+[console_scripts]
+scc4onnx = scc4onnx:main
+
