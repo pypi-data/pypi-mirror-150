@@ -1,0 +1,17 @@
+psycopg_binary/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psycopg_binary/pq.cpython-36m-x86_64-linux-gnu.so,sha256=nESYUXXYbqtBdC4j8IDeBG4fdbAuzF-kdA4Rc_CcRhw,340784
+psycopg_binary/_psycopg.pyi,sha256=Wb_xtyOl0I8F7YaaeHCnqxcwr4Bh0DQ_s_Rl9jSpkn4,2535
+psycopg_binary/__init__.py,sha256=5kxw9Qdn8ubIi4ik92mxZOsjr5UO0vwq5T5S0BhCWGg,402
+psycopg_binary/_psycopg.cpython-36m-x86_64-linux-gnu.so,sha256=iO25VP34ipUEl3NGecQjn6kwvYbDuQvFSQZmVGnBfeU,1267856
+psycopg_binary/version.py,sha256=lWiz98Oc0cRKhemLYRoUOzVk6i6m8TMOHYPWSJQxqZY,247
+psycopg_binary-3.0.14.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+psycopg_binary-3.0.14.dist-info/top_level.txt,sha256=8OM_PsAa5oKkzVvRu8kDESihBQo_LXqwG_nrlecubIk,15
+psycopg_binary-3.0.14.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+psycopg_binary-3.0.14.dist-info/METADATA,sha256=uXI7iKcLqU7z_pBXX61mGc24Tgj0wuQJ3G-o3D_Daio,2370
+psycopg_binary-3.0.14.dist-info/RECORD,,
+psycopg_binary.libs/libldap_r-2-5c9a2198.4.so.2.11.6,sha256=lp8UJTGnd_gn13hzsOJv7zAlf_QlAakpZKRFyTgnRiw,375272
+psycopg_binary.libs/libpq-442b4ab5.so.5.12,sha256=2tRgMIKdPAJA8XlS-73kZx7loirR0IamJ6-6QG5S8Qk,345280
+psycopg_binary.libs/liblber-2-5c7394d2.4.so.2.11.6,sha256=TONtEth9PVSzzDayDwYA2tWIexZH3GGsqp0CguyqWcc,56784
+psycopg_binary.libs/libsasl2-8ef97dc8.so.3.0.0,sha256=ueEC6dx_soVQ4zD1O20ZydK-D6qVDj9zzxkl1PSVOSk,110968
+psycopg_binary.libs/libcrypto-f4bea926.so.1.1,sha256=zjiBiZrXRrFbIQxhjaXRxhx7n31o0Qs2zLhDzu0VE3Q,2730008
+psycopg_binary.libs/libssl-5babfe3f.so.1.1,sha256=Eyo4Zsj0fhjZkhVPDeAYpKhyqpQ7uGPc9IqOgGEFqUg,568064
