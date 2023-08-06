@@ -1,0 +1,1 @@
+# the actual __init__.py was replaced by __init__.c
