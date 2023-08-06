@@ -1,0 +1,10 @@
+tqdm
+pandas>=1.1.0
+pyarrow
+numpy
+dendropy
+biopython
+scipy
+typer
+rq
+redis
