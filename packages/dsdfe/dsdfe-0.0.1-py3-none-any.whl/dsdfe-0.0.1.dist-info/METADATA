@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dsdfe
+Version: 0.0.1
+Summary: Dukascopy data feed extractor
+Home-page: https://github.com/Havelkao/dsdfe
+Author: Ondrej Havelka
+Author-email: havelka.henry@gmail.com
+Project-URL: Bug Tracker, https://github.com/Havelkao/dsdfe/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
