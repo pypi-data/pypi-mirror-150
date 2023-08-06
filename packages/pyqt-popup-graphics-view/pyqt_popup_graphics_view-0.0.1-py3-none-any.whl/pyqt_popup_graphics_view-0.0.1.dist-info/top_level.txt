@@ -1,0 +1,1 @@
+pyqt_popup_graphics_view
