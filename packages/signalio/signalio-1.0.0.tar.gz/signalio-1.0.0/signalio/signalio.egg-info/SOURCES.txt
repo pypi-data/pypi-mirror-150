@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+signalio/lib/__init__.py
+signalio/lib/client.py
+signalio/lib/connection.py
+signalio/lib/event.py
+signalio/lib/parallel.py
+signalio/lib/secure_connection.py
+signalio/lib/server.py
+signalio/lib/signal.py
+signalio/signalio.egg-info/PKG-INFO
+signalio/signalio.egg-info/SOURCES.txt
+signalio/signalio.egg-info/dependency_links.txt
+signalio/signalio.egg-info/top_level.txt
