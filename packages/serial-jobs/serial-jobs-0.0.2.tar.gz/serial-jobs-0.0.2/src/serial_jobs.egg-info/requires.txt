@@ -1,0 +1,8 @@
+gmqtt
+minimalmodbus
+pyserial
+strictyaml
+
+[dev]
+pre-commit
+pylint

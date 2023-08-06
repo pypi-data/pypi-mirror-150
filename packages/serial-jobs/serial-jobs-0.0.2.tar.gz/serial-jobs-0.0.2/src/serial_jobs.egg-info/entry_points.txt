@@ -1,0 +1,4 @@
+[console_scripts]
+convert_config = serial_jobs.scripts.convert_config:validate_and_convert
+merge_config = serial_jobs.scripts.merge_config:merge_configs
+serial_jobs = serial_jobs.scripts.run:do_work
