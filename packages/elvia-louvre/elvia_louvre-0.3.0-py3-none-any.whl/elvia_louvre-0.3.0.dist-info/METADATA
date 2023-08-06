@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: elvia-louvre
+Version: 0.3.0
+Summary: elvia-louvre Python package
+Author: Elvia
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: elvia-vault (>=0.2.0)
+Requires-Dist: pillow (==9.0.1)
+Requires-Dist: Sphinx (==3.5.4)
+Provides-Extra: dev
+Requires-Dist: jupyterlab ; extra == 'dev'
+
+UNKNOWN
+
