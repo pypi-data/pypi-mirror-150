@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wn-editor
+Version: 0.4.0
+Summary: An editor for wordnets, extending the popular 'wn' package.
+Keywords: wn,wordnet,editor
+Author-email: Jannes Müller <jannes@mlrjs.de>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Project-URL: documentation, https://github.com/Hypercookie/wn-editor
+Project-URL: homepage, https://github.com/Hypercookie/wn-editor
+
+[![PyPI version](https://badge.fury.io/py/wn-editor.svg)](https://badge.fury.io/py/wn-editor)
+# wn-editor
+A extension for the popular wn package, making wordnets editable from python!
+
