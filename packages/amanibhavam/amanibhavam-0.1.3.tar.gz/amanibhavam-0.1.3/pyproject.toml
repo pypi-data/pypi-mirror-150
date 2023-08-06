@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "amanibhavam"
+version = "0.1.3"
+description = ""
+authors = ["Amanibhavam <iam@defn.sh>"]
+
+packages = [
+    { include = "amanibhavam" },
+    { include = "fogg" },
+    { include = "imports" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cdktf = "^0.10.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+amanibhavam = "amanibhavam:main"
