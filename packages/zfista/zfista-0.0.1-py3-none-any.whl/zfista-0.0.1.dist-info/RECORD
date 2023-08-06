@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_proximal_gradient.py,sha256=8M_jrwQaRA8V8LBCg7zRqkOqNCVXrBldZ1uyNpys-Nk,5365
+zfista/__init__.py,sha256=yLlGxKzS5CNOAbdSB4tvV1nDTYoJnGz1fC8E8pQyp6Q,121
+zfista/proximal_gradient.py,sha256=tIo20yfiCDTsmM_3jrY9ehf-Nr7DNvEgyIl7qSCLAc4,9781
+zfista-0.0.1.dist-info/LICENSE,sha256=zTjpA6kknOc4_6M2udUQbSSsAAmm-roUqWfoYNNC97I,1070
+zfista-0.0.1.dist-info/METADATA,sha256=_Phii78O72K8IeNlqRKYpHZFiresLgcgwD-UBIJyy9E,1487
+zfista-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zfista-0.0.1.dist-info/top_level.txt,sha256=JRH6JTM823u9_HDqgRtQ9zzjQQHLKt5SDuNAunnA9So,13
+zfista-0.0.1.dist-info/RECORD,,
