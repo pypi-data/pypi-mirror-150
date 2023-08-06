@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: confident
+Version: 0.2.2
+Summary: Loading configurations from multiple sources into a data model.
+License: MIT
+Author: limonyellow
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
