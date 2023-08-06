@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: wai.pytorchimageclass
+Version: 0.0.2
+Summary: Command-line tools for building and applying PyTorch image classification models.
+Home-page: https://github.com/waikato-datamining/pytorch/image-classification
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: BSD-3-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+The **pytorch-image-classification** command-line tools can be used for building
+image classification models with PyTorch using various model architectures.
+
+The code is base on the PyTorch imagenet example code:
+
+https://github.com/pytorch/examples/tree/master/imagenet
+
+
+Changelog
+=========
+
+0.0.2 (2022-05-10)
+------------------
+
+- fixed error in plain text output of `pic-info`
+- added `pic-predict-redis` console script (`pic/predict_redis.py`) for making predictions via Redis
+
+
+0.0.1 (2021-01-11)
+------------------
+
+- initial release
+
+
