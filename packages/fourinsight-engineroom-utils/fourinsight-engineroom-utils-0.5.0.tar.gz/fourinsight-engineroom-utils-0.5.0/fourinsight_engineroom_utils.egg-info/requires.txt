@@ -1,0 +1,3 @@
+pandas
+azure-storage-blob>=12.4.0
+pyarrow
