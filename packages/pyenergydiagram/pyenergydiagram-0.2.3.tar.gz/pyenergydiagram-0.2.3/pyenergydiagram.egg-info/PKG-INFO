@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyenergydiagram
+Version: 0.2.3
+Summary: Plot potential energy diagram in python
+Home-page: https://github.com/RemDelaporteMathurin/pyEnergyDiagram
+Author: Remi Delaporte-Mathurin
+Author-email: rdelaportemathurin@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/RemDelaporteMathurin/pyEnergyDiagram
+Project-URL: Tracker, https://github.com/RemDelaporteMathurin/pyEnergyDiagram/issues
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# matplotlib-extrac
+blabla
