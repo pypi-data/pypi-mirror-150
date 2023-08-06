@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: flask-classful-apispec
+Version: 0.1.7
+Summary: Auto docs generation from marshmallow schema for flask classfy
+Home-page: https://github.com/dev-rijan/flask-classful-apispec
+Author: Rijan adhikari
+Author-email: rijanadhikari@gmail.com
+License: MIT
+Project-URL: Issues, https://github.com/dev-rijan/flask-classful-apispec/issues
+Keywords: flask-classfull,flask-classful-swagger,apispec,swagger,openapi,specification,documentation,spec,rest,api,web,flask,frameworks
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: apispec (==5.1.1)
+Requires-Dist: flask-classful (==0.14.2)
+Provides-Extra: dev
+Requires-Dist: flake8-bugbear (==21.4.3) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: flake8-bugbear (==21.4.3) ; extra == 'lint'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+Flask classful apispec
+======================
+
+A pluggable API specification generator generator for `Flask classful <https://flask-classful.teracy.org/>`_ based on `apispec <https://apispec.readthedocs.io/en/latest/>`_
+
+Features
+========
+- Utilities for parsing flask classful docstrings
+- Support for `marshmallow <https://marshmallow.readthedocs.io/>`_
+
+Installation
+============
+
+::
+
+    $ pip install flask-classful-apispec
+
+Usage
+===================
+
+.. code-block:: python
+
+    import json
+    from flask import Flask
+    from flask_classful import FlaskView
+    from flask_classful_apispec import APISpec
+    from marshmallow import Schema, fields
+
+    app = Flask(__name__)
+
+    app.config["DOC_TITLE"] = "Swagger petstore"
+    app.config["DOC_VERSION"] = "0.1.1"
+    app.config["DOC_OPEN_API_VERSION"] = "3.0.2"
+
+    spec = APISpec(app)
+
+    pets = [
+        {'id': 0, 'name': 'Kitty', 'category': 'cat'},
+        {'id': 1, 'name': 'Coco', 'category': 'dog'}
+    ]
+
+    class PetSchema(Schema):
+        id = fields.Integer()
+        name = fields.String()
+        category = fields.String()
+
+    class PetView(FlaskView):
+        def index(self):
+            """A pet api endpoint.
+            ---
+            description: Get a list of pets
+            responses:
+              200:
+                schema: PetSchema
+            """
+            return PetSchema(many=True).dumps(pets)
+
+    PetView.register(app)
+
+    with app.test_request_context():
+    spec.paths(PetView, app)
+    print(json.dumps(spec.to_dict(), indent=2))
+
+    if __name__ == "__main__":
+        app.run()
+
+Generated OpenAPI Spec
+======
+.. code-block:: json
+
+    {
+      "paths": {
+        "/pet/": {
+          "get": {
+            "description": "Get a list of pets",
+            "responses": {
+              "200": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pet"
+                }
+              }
+            }
+          }
+        }
+      },
+      "info": {
+        "title": "Swagger petstore",
+        "version": "0.1.1"
+      },
+      "openapi": "3.0.2",
+      "components": {
+        "schemas": {
+          "Pet": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "category": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+
+Documentation
+=============
+- For apispec see  `apispec <https://apispec.readthedocs.io/en/latest/>`_
+- For Flask Clasful view see  `Flask classful <https://flask-classful.teracy.org/>`_
+- For Schema see `marshmallow <https://marshmallow.readthedocs.io/>`_
+
+License
+=======
+
+MIT licensed. See the bundled `LICENSE <https://github.com/dev-rijan/flask-classful-apispec/blob/master/LICENSE>`_ file for more details.
+
+
+
