@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/osdu_client.egg-info/PKG-INFO
+src/osdu_client.egg-info/SOURCES.txt
+src/osdu_client.egg-info/dependency_links.txt
+src/osdu_client.egg-info/requires.txt
+src/osdu_client.egg-info/top_level.txt
