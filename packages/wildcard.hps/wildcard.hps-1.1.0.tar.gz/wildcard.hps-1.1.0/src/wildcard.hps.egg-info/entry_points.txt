@@ -1,0 +1,9 @@
+
+    [celery_tasks]
+    castle = wildcard.hps.hook
+    [z3c.autoinclude.plugin]
+    target = plone
+    [console_scripts]
+    update_locale = wildcard.hps.locales.update:update_locale
+    reindex_hps = wildcard.hps.scripts.reindex:setup_and_run
+    
