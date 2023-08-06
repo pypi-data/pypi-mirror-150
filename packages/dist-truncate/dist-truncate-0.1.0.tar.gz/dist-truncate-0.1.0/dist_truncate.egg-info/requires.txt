@@ -1,0 +1,12 @@
+scipy>=1
+
+[dev]
+black
+isort
+mypy
+pre-commit
+pytest
+pytest-cov
+coveralls
+coverage
+flake8

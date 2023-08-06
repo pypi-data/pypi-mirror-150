@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dist_truncate/__init__.py
+dist_truncate/truncate.py
+dist_truncate.egg-info/PKG-INFO
+dist_truncate.egg-info/SOURCES.txt
+dist_truncate.egg-info/dependency_links.txt
+dist_truncate.egg-info/requires.txt
+dist_truncate.egg-info/top_level.txt
