@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vardautomation
+Version: 1.1.0
+Summary: Encoding automation tools via Vapoursynth
+Home-page: https://github.com/Ichunjo/vardautomation
+Author: Ichunjo
+Author-email: ichunjo.le.terrible@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vardautomation
+Package I'm using for my encoding stuff
+
+# How to install vardautomation
+This command will install vardautomation and the python dependencies
+
+```
+pip install vardautomation -U
+```
+
+Or from source
+```
+python -m pip install git+https://github.com/Ichunjo/vardautomation.git -U
+```
+
+# Requirements
+* Python 3.10 or newer
+* VapourSynth r58 & the following plugins `bas`, `ffms2`, `imwri`, `lsmas`, `scxvid`, `wwxd`
+* Other modules in `requirements.txt`
+
+
