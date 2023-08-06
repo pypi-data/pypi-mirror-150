@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sem_search
+Version: 0.0.1
+Summary: For quick semantic search
+Home-page: https://github.com/jamescalam/aesthetic_ascii
+Author: Phil Bell
+Author-email: philip.bell@cognino.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sem_search_fast
+ 
+This is designed to allow for rapid semantic search.
+
+It draws inspiration and code from Mathew Alexander's implementation here: https://towardsdatascience.com/billion-scale-semantic-similarity-search-with-faiss-sbert-c845614962e2

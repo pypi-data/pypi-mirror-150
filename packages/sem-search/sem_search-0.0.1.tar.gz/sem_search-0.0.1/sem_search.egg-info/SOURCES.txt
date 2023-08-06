@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+sem_search.egg-info/PKG-INFO
+sem_search.egg-info/SOURCES.txt
+sem_search.egg-info/dependency_links.txt
+sem_search.egg-info/top_level.txt
+sem_search_fast/__init__.py
+sem_search_fast/utils.py
