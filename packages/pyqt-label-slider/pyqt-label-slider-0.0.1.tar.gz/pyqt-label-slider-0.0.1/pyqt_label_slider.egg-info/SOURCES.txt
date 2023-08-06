@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_label_slider/__init__.py
+pyqt_label_slider/labelSlider.py
+pyqt_label_slider.egg-info/PKG-INFO
+pyqt_label_slider.egg-info/SOURCES.txt
+pyqt_label_slider.egg-info/dependency_links.txt
+pyqt_label_slider.egg-info/requires.txt
+pyqt_label_slider.egg-info/top_level.txt
