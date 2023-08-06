@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jihun-test
+Version: 1.1.8
+Summary: Simple Packaging by Python
+Home-page: UNKNOWN
+Author: jihun
+Author-email: pj522h@gmail.com
+License: UNKNOWN
+Keywords: test,package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: bleach (==5.0.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: cryptography (==37.0.2)
+Requires-Dist: docutils (==0.18.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.11.3)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: keyring (==23.5.0)
+Requires-Dist: pkginfo (==1.8.2)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: Pygments (==2.12.0)
+Requires-Dist: readme-renderer (==35.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==12.4.1)
+Requires-Dist: SecretStorage (==3.3.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: twine (==4.0.0)
+Requires-Dist: typing-extensions (==4.2.0)
+Requires-Dist: urllib3 (==1.26.9)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.8.0)
+
+UNKNOWN
+
