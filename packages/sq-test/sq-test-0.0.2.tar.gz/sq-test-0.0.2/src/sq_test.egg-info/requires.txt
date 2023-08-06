@@ -1,0 +1,5 @@
+selenium
+pytest
+xlrd
+allure-pytest
+loguru
