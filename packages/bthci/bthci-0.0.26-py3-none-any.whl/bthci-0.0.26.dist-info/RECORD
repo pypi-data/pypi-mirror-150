@@ -1,0 +1,15 @@
+bthci/__init__.py,sha256=WuQhJARKRTo3oMhwdKoVyZmcwCwVUumyd4cZIKc8sGw,6913
+bthci/bluez_hci.py,sha256=DajdO97Kt_BJzHNy2As62H9S_OxPWdlboDdHaA2T_CY,50927
+bthci/controller_error_codes.py,sha256=ynR5xFMOtFwUyEfhvCOck2eBqqfraH9vTSSC1waigXM,52527
+bthci/hci.py,sha256=Sq7jNny52NtMou8MUpg91jt38gaba9GvadDZs6CEp5k,471991
+bthci/hci_cmd_pkts.py,sha256=H7Ueb8-gXFfAx2ZPWwKPMwAYT7uXTbd3eZDSLGZirJ4,51243
+bthci/hci_evt_pkts.py,sha256=7HtfT6w3KcaJdjRIUmVNKzgVmyekZETOmwhpjvP3NK0,84431
+bthci/opcode_group_fields.py,sha256=M0y0_6dnxQhE9lm6CUYpnUtA6Gm6BG5W0E0II1FdzsM,4751
+bthci/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+bthci/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=IGcDU5tORezfx7akVupw2MfualOqsYneQBsz9Gt8mgE,1087608
+bthci/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=kLrW2zLt_kPHheJs2ozij44vu0NzpcE6Gs2_gJOPgdg,1198080
+bthci-0.0.26.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bthci-0.0.26.dist-info/METADATA,sha256=OsSj2SSfLjK8702qa3T3jrzXCNhjmSx6LrXbRYm3hqY,788
+bthci-0.0.26.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bthci-0.0.26.dist-info/top_level.txt,sha256=maXTUMwtplkB8UtEeE47MLI1ViDAsG9_yqZ17OoR1lA,6
+bthci-0.0.26.dist-info/RECORD,,
