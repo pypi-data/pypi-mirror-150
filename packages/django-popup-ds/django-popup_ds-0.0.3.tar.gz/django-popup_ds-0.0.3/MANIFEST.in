@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include popup/static *
+recursive-include popup/templates *
+recursive-exclude popup/migrations *
+recursive-exclude mytester *

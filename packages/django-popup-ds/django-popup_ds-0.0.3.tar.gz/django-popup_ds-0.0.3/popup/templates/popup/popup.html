@@ -1,0 +1,10 @@
+{% load static %}
+
+<link href="{% static 'popup/css/style.css' %}" rel="stylesheet">
+<script src="{% static 'popup/js/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'popup/js/jquery.cookie.js' %}"></script>
+
+{% include 'popup/noti.html' with noti_popup=noti_popup %}
+{% include 'popup/image.html' with image_popup=image_popup %}
+{% include 'popup/event.html' with event_popup=event_popup %}
+

@@ -1,0 +1,83 @@
+{% load static %}
+
+<style>
+  {% for npopup in noti_popup.all %}
+    {% if npopup.activate %}
+    #npopup_{{ npopup.pk }} .modal-dialog .modal-body {
+    background-size: cover;
+    background-image: url({% static 'popup/img/'|add:npopup.background|add:'.jpg' %});
+    {% if npopup.text_color == 'BL' %}
+      color: #082744;
+    {% elif npopup.text_color == 'WH' %}
+      color: #ffffff;
+    {% elif npopup.text_color == 'GR' %}
+      color: #444444;
+    {% endif %}
+    }
+    {% endif %}
+  {% endfor %}
+</style>
+
+<!-- Show modal if it doesn't set cacher-modal in the cookie -->
+<script>
+  {% for npopup in noti_popup.all %}
+    {% if npopup.activate %}
+    jQuery(document).ready(function($) {
+      if ($.cookie("ncacher-modal_{{ npopup.pk }}")) {
+        $("#npopup_{{ npopup.pk }}").remove();
+      } else {
+        $("#npopup_{{ npopup.pk }}").modal("show");
+      }
+
+      $("#npopup_suppress_{{ npopup.pk }}").click(function() {
+        if ($(this).is(":checked")) {
+            $("#npopup_{{ npopup.pk }}").modal("hide");
+            $.cookie("ncacher-modal_{{ npopup.pk }}", true);
+        } else {
+          $.cookie("ncacher-modal_{{ npopup.pk }}", false);
+        }
+      })
+    });
+    {% endif %}
+  {% endfor %}
+</script>
+
+<!-- Noti Popup Modal -->
+{% for npopup in noti_popup.all %}
+  {% if npopup.activate %}
+  <div class="modal fade" id="npopup_{{ npopup.pk }}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+       aria-labelledby="nstaticBackdropLabel_{{ npopup.pk }}" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="nstaticBackdropLabel_{{ npopup.pk }}">{{ npopup.title }}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <h4 class="text-center">{{ npopup.subtitle }}</h4>
+            {% autoescape off %}
+            <p class="text-center">{{ npopup.description }}</p>
+            {% endautoescape %}
+          </div>
+        </div>
+        {% if npopup.url %}
+        <div class="modal-footer justify-content-between">
+        {% else %}
+        <div class="modal-footer justify-content-start">
+        {% endif %}
+          <div class="popup-check">
+              <input type="checkbox" id="npopup_suppress_{{ npopup.pk }}" />
+              <label for="npopup_suppress_{{ npopup.pk }}" data-id="checkbox_text">
+                  다시보지않기
+              </label>
+          </div>
+          {% if npopup.url %}
+          <a href="{{ npopup.url }}" target="_blank">자세히보기</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
