@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tornado-webhook
+Version: 0.2.0
+Summary: Tornado Webhook is a web application to execute webhook actions.
+Project-URL: Documentation, https://github.com/hanwentao/tornado-webhook#readme
+Project-URL: Issues, https://github.com/hanwentao/tornado-webhook/issues
+Project-URL: Source, https://github.com/hanwentao/tornado-webhook
+Author-email: Wentao Han <wentao.han@gmail.com>
+Keywords: tornado,webhook
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pyyaml
+Requires-Dist: tornado
+Description-Content-Type: text/markdown
+
+# Tornado Webhook
+
+[![PyPI - Version](https://img.shields.io/pypi/v/tornado-webhook.svg)](https://pypi.org/project/tornado-webhook)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tornado-webhook.svg)](https://pypi.org/project/tornado-webhook)
+
+-----
+
+**Table of Contents**
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [License](#license)
+
+## Introduction
+
+Tornado Webhook is a web application to execute webhook actions.
+
+## Installation
+
+```console
+pip install tornado-webhook
+```
+
+## License
+
+`tornado-webhook` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
