@@ -1,0 +1,7 @@
+typing
+xlwings
+tqdm
+datetime
+interval
+pandas
+pyyaml

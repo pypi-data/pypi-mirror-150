@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: bztt-excl
+Version: 0.0.5
+Summary: bztt-excl
+Home-page: https://github.com/
+Author: ls_psz
+Author-email: 1160201372@qq.com
+License: MIT
+Description: 
+        # 处理表格数据
+        ----
+        # 具有的功能
+        - 的撒
+        - 反对
+        ---
+        # 使用步骤
+        - 打开文件
+        ---
+        # 打开文件
+        
+        ---
+        
+        
+        # 更新记录
+        # 变动类型说明
+        Added 新添加的功能。 [新增]
+        
+        Changed 对现有功能的变更。 [修改]
+        
+        Deprecated 已经不建议使用，准备很快移除的功能。 [荒废]
+        
+        Removed 已经移除的功能。  [移除]
+        
+        Fixed 对bug的修复 [修复]
+        
+        Security 对安全的改进  [安全]
+        
+        ---
+        # [0.0.1] - 2022-03-14
+        ## 新增
+        - 首次提交
+        
+        # [0.0.2] - 2022-03-14
+        ## 新增
+        - 日志显示函数 
+        ## 优化
+        ### 显示函数
+        - 复制文件
+        - 打开文件
+        - 复制单元格
+        - 删除重复项
+        - 筛选数据，计算数量，列
+        - 新建Shell
+        - 判断表格内容（ifs）
+        
+        # [0.0.3] - 2022-05-10 dev
+        ## 新增
+        - 高级筛选函数
+        - 增加版本文件，方便查看当前模块版本
+        
+        ## 优化
+        - 显示日志前面加上时间显示
+        
+        ## 修复
+        - __init__.py 文件包含不全引发的bug
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
