@@ -1,0 +1,10 @@
+telegram_send/__init__.py,sha256=15FgaBk5lDNwCfEFulXWuedIRMMiM4-cOy2smQeMBXA,110
+telegram_send/telegram_send.py,sha256=dtCLY7b6rGXSB7Sx0zQTrCz7ol-9D6Hkl8LjjgCi1bU,21967
+telegram_send/utils.py,sha256=bPdZ_HilhO_PBJksP6hRc8GMOToJ1LqwkMxfHN_mqK8,811
+telegram_send/version.py,sha256=uUEmT-0FQhekM-CV20y-EV8m5Zc23ciPG9MmgCa1x4A,23
+telegram_send-0.33.2.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+telegram_send-0.33.2.dist-info/METADATA,sha256=xX3_QR1Y2vayl5RKVg9GOzArUWkqQklqaSuOMR5tiPo,11875
+telegram_send-0.33.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+telegram_send-0.33.2.dist-info/entry_points.txt,sha256=1DlnkacngqHH_mHnZ973HEhMCLDMTO1NoA1AG7UM_g4,68
+telegram_send-0.33.2.dist-info/top_level.txt,sha256=p1caPsfF4vqshvK4zD3ZoFUjy9TbzrLwuIUFSMgnEGs,14
+telegram_send-0.33.2.dist-info/RECORD,,
