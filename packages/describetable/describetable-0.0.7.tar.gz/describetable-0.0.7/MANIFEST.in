@@ -1,0 +1,12 @@
+include describetable/describetable.min.js
+include describetable/describetable.min.js.map
+include describetable/async-*.js
+include describetable/async-*.js.map
+include describetable/*-shared.js
+include describetable/*-shared.js.map
+include describetable/metadata.json
+include describetable/main.css
+include describetable/package-info.json
+include README.md
+include LICENSE
+include package.json

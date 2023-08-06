@@ -1,0 +1,85 @@
+{
+  "src/lib/components/Describetable.react.js": {
+    "description": "",
+    "displayName": "Describetable",
+    "methods": [
+      {
+        "name": "getTableEm",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "handleToggle",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "scrollListener",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The id will be used in the innercontainer to insert the supplied html into."
+      },
+      "data": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Data is a stringified html output. Can be used with any pandas.to_html() but default *  * css is targeted specifically at the .describe() method."
+      },
+      "classAppendix": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "buttonText": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "buttonFloat": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "One of ['right', 'left', null] default left"
+      },
+      "fixHeaders": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Boolean to fix ['count', 'std'...] headers in place on horizontal scroll."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

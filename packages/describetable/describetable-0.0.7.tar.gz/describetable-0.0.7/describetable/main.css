@@ -1,0 +1,176 @@
+body {
+    background-color: #111111;
+}
+
+table {
+    border-collapse: collapse !important;
+}
+
+th:not(.CalendarDay) {
+    padding: 12px 15px;
+    text-align: center;
+    background-color: #f0f921;
+    color: #000;
+    border-bottom: 1px solid #000;
+    /* border-color: #000; */
+}
+
+thead tr:first-child {
+    background-color: #111111 !important;
+}
+td:not(.CalendarDay) {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+th:first-child:not(.CalendarDay),
+td:first-child:not(.CalendarDay) {
+    background-color: #f0f921;
+    color: #000;
+    /* border-color: #000; */
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+th:last-child:not(.CalendarDay),
+td:last-child:not(.CalendarDay) {
+    /* padding-right: 0; */
+}
+
+.dash-describe-outer {
+    width: 100%;
+    max-width: min(100%, 90vw);
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    transform: scaleY(0);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform-origin: top;
+}
+.dash-describe-outer-open {
+    transform: scaleY(1);
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
+    margin: 0.5rem 1rem;
+    opacity: 1;
+}
+.dash-describe-outer * {
+    color: #fff;
+    scrollbar-width: thin;
+    scrollbar-color: #5a02a3 #f0f921;
+}
+
+.dash-describe-inner {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: scroll;
+    padding: 0 6px 4px 0;
+}
+
+.dash-describe-inner table {
+    width: 100%;
+    color: #fff;
+}
+
+#dash-describe-toggle-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 0;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f0f921;
+    border: 1px solid transparent;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+        transform 0.15s ease-in-out;
+}
+
+#toggle-button-underline {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    transform: scaleX(0);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#toggle-button-underline-hovered {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    transform: scaleX(1);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    /* background: #f0f921; */
+    /* background-color: #111111; */
+    background-color: #111111;
+}
+
+*::-webkit-scrollbar-thumb {
+    /* background-color: #2186f4; */
+    background-color: #f0f921;
+    border-radius: 20px;
+}
+
+.button-container-float {
+    display: flex;
+    flex-direction: row;
+}
+.button-container-float.left {
+    justify-content: flex-start;
+}
+.button-container-float.right {
+    justify-content: flex-end;
+}
+.button-container-float.center {
+    justify-content: center;
+}
+
+.dash-describe-inner.fix-headers-true table tbody tr th {
+    position: fixed;
+    width: 68px;
+}
+
+.dash-describe-inner.fix-headers-true table tbody tr {
+    margin-left: 68px;
+}
+
+.describe-container-open-true {
+    /* height: fit-content; */
+    height: 450px;
+    min-height: fit-content;
+    transition: height 0.3s ease-in-out;
+}
+
+.describe-container-open-false {
+    height: 64px;
+}

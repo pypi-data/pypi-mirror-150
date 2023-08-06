@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+describetable/Describetable.py
+describetable/__init__.py
+describetable/_imports_.py
+describetable/describetable.min.js
+describetable/describetable.min.js.map
+describetable/main.css
+describetable/metadata.json
+describetable/package-info.json
+describetable.egg-info/PKG-INFO
+describetable.egg-info/SOURCES.txt
+describetable.egg-info/dependency_links.txt
+describetable.egg-info/top_level.txt

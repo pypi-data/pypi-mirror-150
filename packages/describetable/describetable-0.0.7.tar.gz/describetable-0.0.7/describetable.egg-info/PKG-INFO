@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: describetable
+Version: 0.0.7
+Summary: Project Description
+Author: iglooDevelopment <andrew@igloodevelopment.dev>
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A very simple input for Pandas.describe() method. The size and layout should work out of the box but the colors were designed with the plotly 'plasma' scheme in mind, but everything except the most critical should be easily overwritten without the !important flag./ ## Example Usage/ import describetable.Describetable as dTable/ dTable(id="innercontainerId", data=df.describe().to_html(), buttonText='Click to unfold')
+
