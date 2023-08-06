@@ -1,0 +1,13 @@
+df_db_connector/__init__.py,sha256=QommGT742PmRkTNg4oJ_p3hMOjqAWIgWd8BT1O0ns3k,2271
+df_db_connector/db_connector.py,sha256=KqvTlc5Gl4Q1mMEAManDD5H7J2KnYNRZ9LKMuETKUqU,2720
+df_db_connector/json_connector.py,sha256=lat8KtPG6L0VfRSlxaf10CnkL7LRs-M3pnwVOCYsILY,2166
+df_db_connector/pickle_connector.py,sha256=B2Z4i9h5OwnH6aHUkOMs7VHuhPSd8twg3BCYkAde8SA,1721
+df_db_connector/sql_connector.py,sha256=m17cNQ0YcPfIjZvl6gtdq9KVCchhf-H6R1669suabPU,5809
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=4cSGq4TlvPuu71XciKX7wcy2oZopIzjLpcpwBw4Q2Rg,470
+tests/test_df_db_connector.py,sha256=2F15eY-t43zOMLFYS2chH2XIlBhp_9K-JaMvXdDDAio,3781
+df_db_connector-0.1.1.dist-info/LICENSE,sha256=jIm8m8-DQhPjkzx0LMfnaj_RIJPfpWZiNbErQ98wEcM,11434
+df_db_connector-0.1.1.dist-info/METADATA,sha256=-UksSrQolUWI7OeUGw4U-s5dDXEJBx6LnAbFkr2FlAc,4732
+df_db_connector-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+df_db_connector-0.1.1.dist-info/top_level.txt,sha256=Ii5HpZ0E-HzBATcjCZr2xpktBdYMbzmQTmd_5IVI-cY,22
+df_db_connector-0.1.1.dist-info/RECORD,,
