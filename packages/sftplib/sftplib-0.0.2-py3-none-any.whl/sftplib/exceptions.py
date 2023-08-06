@@ -1,0 +1,4 @@
+
+class InvalidConnection(Exception):
+    pass
+
