@@ -1,0 +1,11 @@
+README.md
+setup.py
+psgresizer/__init__.py
+psgresizer/psgresizer.ico
+psgresizer/psgresizer.py
+psgresizer.egg-info/PKG-INFO
+psgresizer.egg-info/SOURCES.txt
+psgresizer.egg-info/dependency_links.txt
+psgresizer.egg-info/entry_points.txt
+psgresizer.egg-info/requires.txt
+psgresizer.egg-info/top_level.txt
