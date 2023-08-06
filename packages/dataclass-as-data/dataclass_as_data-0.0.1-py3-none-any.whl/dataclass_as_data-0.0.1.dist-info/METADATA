@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dataclass-as-data
+Version: 0.0.1
+Summary: Simple configurable conversion of dataclasses to raw data
+Home-page: https://gitlab.com/sigmath_bits/dataclass-as-data
+Author: Sigmath Bits
+License: GPLv3
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: tox (==3.25.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.950) ; extra == 'dev'
+Requires-Dist: build (==0.7.0) ; extra == 'dev'
+Requires-Dist: twine (==4.0.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: tox (==3.25.0) ; extra == 'test'
+Requires-Dist: mypy (==0.950) ; extra == 'test'
+
+# Dataclass as data
+Simple package for configurable conversion of dataclasses to raw data.
