@@ -1,0 +1,8 @@
+chtoolset/__init__.py,sha256=v5PevgvE2s54rod6TZnXN7XPp0ZiwxjxE9cScAMVHFo,20
+chtoolset/_query.cpython-39-darwin.so,sha256=qtHYIINGtqCRY7umCt8qmUtso9eYyHhcJ6r8yGAuJrU,250996448
+chtoolset/query.py,sha256=UXwqexsANfzvjZFz7WhwwKmOURAxDZ_zLa9w9LptckY,244
+clickhouse_toolset-0.19.dev0.dist-info/LICENSE,sha256=ErVqngkpgE88AZI3kII2t1KImK5_B4OZwuSB2VBme14,1518
+clickhouse_toolset-0.19.dev0.dist-info/METADATA,sha256=-XanXS3MxbDecfNj3GfUnQ6DerctXFL0onGV7LfsWQE,353
+clickhouse_toolset-0.19.dev0.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+clickhouse_toolset-0.19.dev0.dist-info/top_level.txt,sha256=wk9pWxqAkPFAf8tJy86marVPKIcd_zuADCyt9pMFqjQ,10
+clickhouse_toolset-0.19.dev0.dist-info/RECORD,,
