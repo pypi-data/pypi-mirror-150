@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: terminalle
+Version: 0.9
+Summary: A fancy drop-down terminal emulateur.
+Home-page: https://docs.will.party/terminalle
+Author: Will
+Author-email: author@will.party
+License: MIT
+Keywords: terminal,emulator,drop-down,freedesktop,gdk,gtk,gnome,vte,console,sick
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
