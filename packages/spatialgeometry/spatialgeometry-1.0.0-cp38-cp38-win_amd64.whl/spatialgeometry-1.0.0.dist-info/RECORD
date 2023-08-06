@@ -1,0 +1,13 @@
+scene.cp38-win_amd64.pyd,sha256=1DhoQtr3iZD6LN41n6pq6JdpF3NHPShmM6ZphAUcmVY,15872
+spatialgeometry/CollisionShape.py,sha256=-Scmv_ig8diTWHXCL-UUetJker-5HlHRq2JbwFOmg9Q,11866
+spatialgeometry/SceneGroup.py,sha256=Sn_kDgXfWqZpqW5jwknJ_B_2I_5PSM0AenuGxgHA-M8,643
+spatialgeometry/SceneNode.py,sha256=vkV6PFYlx7G4r93DbpkXvN3K7o69Y9CCVnXNmi7kOMM,9165
+spatialgeometry/Shape.py,sha256=pfYS7q2UfCZY4EvxEaqMwQbDB4EMqjUa45swyFqymoo,10659
+spatialgeometry/__init__.py,sha256=MHK8AFNmifd1nOQtsLvDGjq8yNmjJdSQISpKzU_sXWE,477
+spatialgeometry/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatialgeometry/tools/stdout_supress.py,sha256=tY3dlsEREppc2Ttw0JMLZpCulJO8nZQpyqO-nVDim2E,9611
+spatialgeometry-1.0.0.dist-info/LICENSE,sha256=S4MDYJpWcEdbKasK4bsGyqGC0QKtdtOBuKdBS1OHLoc,1092
+spatialgeometry-1.0.0.dist-info/METADATA,sha256=GX9wEtAxUvIFAWB1BCXrMipOqQ_rxdW76632_fDbCrU,2957
+spatialgeometry-1.0.0.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+spatialgeometry-1.0.0.dist-info/top_level.txt,sha256=EDEdgLBolYseg69bSX6k1OQAGxLAmftTuOaiLdLoPIM,22
+spatialgeometry-1.0.0.dist-info/RECORD,,
