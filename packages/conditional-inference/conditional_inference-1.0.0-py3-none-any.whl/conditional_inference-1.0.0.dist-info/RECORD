@@ -1,0 +1,17 @@
+conditional_inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conditional_inference/base.py,sha256=KUcTQ9mScGeSuZ0C3m7fRPoXUJ6GE94fKoamgwwj8mk,17015
+conditional_inference/confidence_set.py,sha256=cUzJ5j2rPcYMgAEXj7eX1ezwAhuhyXbbGC0bVtJ3CBc,25264
+conditional_inference/rank_condition.py,sha256=BdJyCcYPUC3y8AGDoqj2XiDVHqexinNtNlMQQvBEF0I,11174
+conditional_inference/significance_condition.py,sha256=IgX_lKgWM1qPlbqgEizskgCRq5seLwhkqarBazmiv-o,4459
+conditional_inference/stats.py,sha256=aKGtIaSWGaay9TjDoA-WBcTkfuK4JxotEh8VqJG71dY,23769
+conditional_inference/utils.py,sha256=k6wo2GqzfBHbi7HVYSu4dbL4LhxUHKrO0qs2J_yZvOs,4910
+conditional_inference/bayes/__init__.py,sha256=lssQo1v13v-EWXDHI5SyeELbS4cR7hsCFoKu4KgVLMI,102
+conditional_inference/bayes/base.py,sha256=BzjfBAf7kUuPXvmlXVXKt1S55WvfMH0M2Z0BE5GE-uo,12675
+conditional_inference/bayes/improper.py,sha256=re_H1sStdY6QvmEL_xppnuWlmiQO_-BapTG1msD-mG0,2291
+conditional_inference/bayes/nonparametric.py,sha256=Ux_rd0c-X81-NpzQnvzRjYqcc6aC64JgRsNMckTxZgA,8224
+conditional_inference/bayes/normal.py,sha256=1msmqPVYAjOVR3bWyOaBkVKg8vjUqQQHxzTm6q1qFU4,12670
+conditional_inference-1.0.0.dist-info/LICENSE,sha256=ghASXHlzIXyenosPgZLjkf7xKp3_N0VnrOtHjgITIME,1074
+conditional_inference-1.0.0.dist-info/METADATA,sha256=pNc9pskUIZfEakn0EJnFfwWqR212jBcCbTHDQOEN9_U,1842
+conditional_inference-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+conditional_inference-1.0.0.dist-info/top_level.txt,sha256=WtfAKBriwAdWP66flQt15_Wu5ld8iWSNjEo1aGs4e_0,22
+conditional_inference-1.0.0.dist-info/RECORD,,
