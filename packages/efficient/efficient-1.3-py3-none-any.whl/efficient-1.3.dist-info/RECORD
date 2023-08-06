@@ -1,0 +1,13 @@
+efficient/__init__.py,sha256=k49cgo8CbraYSIubit-TNVgiZfw3kjhmniNTFs5d20s,169
+efficient/date.py,sha256=aNzBjqpvKRpsXHmr4RyzPTQlu4d0nZaEM3FiA6vH3kc,1000
+efficient/dir.py,sha256=uE-g9_Yf6ZIurcRxAKDB8SqoQn4FUYmSjeQ9cYDt_i0,2052
+efficient/general.py,sha256=fbwrlAeWfC4hi6RoF2hDADzBp4UnrTXUkJB0_IdOG6c,2735
+efficient/json.py,sha256=D4_dHfTwxBOYVsWJtEhhNLS2g8lMw9zSsu5GyJa0Vik,2102
+efficient/url.py,sha256=wqJllYzuV1bCwd27J0VGYgMwDpK-K0EH_dsksdVzbrI,1274
+efficient/aide/LoggingAide.py,sha256=ALpwRtssSjJKgr6hRzDrsUhyiADr8USdn9Hc87_pC1I,2674
+efficient/aide/MySQLAide.py,sha256=T1UHr318h7NWxUL6W2WJ5hmmZIj0AlK1Y7rXFgKbMV8,7956
+efficient/aide/__init__.py,sha256=cnmIv9s9VQbS3lJWWfdF32FmP0toipGrXhl1kCQwKMQ,78
+efficient-1.3.dist-info/METADATA,sha256=AISJ1Kb1VzCbXmgG39cuD8a6pewZviHROtkVZipIvRQ,446
+efficient-1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+efficient-1.3.dist-info/top_level.txt,sha256=xjr3QSVCE1iuZjYVoOCp-m3AtIUA_ZQOshf9-J97Bqg,10
+efficient-1.3.dist-info/RECORD,,
