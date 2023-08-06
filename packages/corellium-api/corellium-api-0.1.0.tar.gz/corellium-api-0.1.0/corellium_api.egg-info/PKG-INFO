@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: corellium-api
+Version: 0.1.0
+Summary: Corellium API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Description:     REST API to manage your virtual devices.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Corellium API
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
