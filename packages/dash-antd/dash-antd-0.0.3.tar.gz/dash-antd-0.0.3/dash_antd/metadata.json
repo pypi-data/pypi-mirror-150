@@ -1,0 +1,5093 @@
+{
+  "src/ts/components/button/Button.tsx": {
+    "displayName": "Button",
+    "description": "A basic Button component",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "danger": {
+        "description": "Set the danger status of button",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disabled state of button",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "shape": {
+        "description": "The shape of the button",
+        "required": false,
+        "defaultValue": {
+          "value": "'default'",
+          "computed": false
+        },
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'default'",
+              "computed": false
+            },
+            {
+              "value": "'circle'",
+              "computed": false
+            },
+            {
+              "value": "'round'",
+              "computed": false
+            }
+          ],
+          "raw": "\"default\" | \"circle\" | \"round\""
+        }
+      },
+      "size": {
+        "description": "The size of the button",
+        "required": false,
+        "defaultValue": {
+          "value": "'middle'",
+          "computed": false
+        },
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "target": {
+        "description": "Same as target attribute of a, works when href is specified",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "type": {
+        "description": "The type of the button",
+        "required": false,
+        "defaultValue": {
+          "value": "'default'",
+          "computed": false
+        },
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'default'",
+              "computed": false
+            },
+            {
+              "value": "'primary'",
+              "computed": false
+            },
+            {
+              "value": "'ghost'",
+              "computed": false
+            },
+            {
+              "value": "'dashed'",
+              "computed": false
+            },
+            {
+              "value": "'link'",
+              "computed": false
+            },
+            {
+              "value": "'text'",
+              "computed": false
+            }
+          ],
+          "raw": "\"default\" | \"primary\" | \"ghost\" | \"dashed\" | \"link\" | \"text\""
+        }
+      },
+      "n_clicks": {
+        "description": "An integer that represents the number of times\nthat this element has been clicked on.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "href": {
+        "description": "Pass a URL (relative or absolute) to make the menu entry a link.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/checkbox/Checkbox.tsx": {
+    "displayName": "Checkbox",
+    "description": "Checkbox component.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "checked": {
+        "description": "Whether the checkbox is selected",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether the checkbox is disabled",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "indeterminate": {
+        "description": "Whether the checkbox is indeterminate",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/checkbox/CheckboxGroup.tsx": {
+    "displayName": "CheckboxGroup",
+    "description": "A collection of Checkboxes.",
+    "props": {
+      "value": {
+        "description": "Currently selected values",
+        "required": false,
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        },
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string",
+            "raw": "string"
+          },
+          "raw": "string[]"
+        }
+      },
+      "options": {
+        "description": "All options within the CheckboxGroup",
+        "required": false,
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        },
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "string",
+                "raw": "string"
+              },
+              "raw": "string[]"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number",
+                "raw": "number"
+              },
+              "raw": "number[]"
+            }
+          ],
+          "raw": "string[] | number[] | Option[]"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/datepicker/DatePicker.tsx": {
+    "displayName": "DatePicker",
+    "description": "Select Date or DateTime",
+    "props": {
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "open": {
+        "description": "The open state of picker",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "picker": {
+        "description": "Set picker type",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'date'",
+              "computed": false
+            },
+            {
+              "value": "'week'",
+              "computed": false
+            },
+            {
+              "value": "'month'",
+              "computed": false
+            },
+            {
+              "value": "'quarter'",
+              "computed": false
+            },
+            {
+              "value": "'year'",
+              "computed": false
+            }
+          ],
+          "raw": "\"date\" | \"week\" | \"month\" | \"quarter\" | \"year\""
+        }
+      },
+      "placeholder": {
+        "description": "The placeholder of date input",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "placement": {
+        "description": "The position where the selection box pops up",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottomLeft\" | \"bottomRight\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "show_time": {
+        "description": "Whether to provide an additional time selection",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "show_now": {
+        "description": "Whether to show 'Now' button on panel when show_time is set",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "To determine the size of the input box, the height of large and small,\nare 40px and 24px respectively, while default size is 32px",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "value": {
+        "description": "The selected date / datetime",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/datepicker/DateRangePicker.tsx": {
+    "displayName": "DateRangePicker",
+    "description": "Select Date or DateTime",
+    "props": {
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "open": {
+        "description": "The open state of picker",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "placement": {
+        "description": "The position where the selection box pops up",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottomLeft\" | \"bottomRight\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "show_time": {
+        "description": "Whether to provide an additional time selection",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "show_now": {
+        "description": "Whether to show 'Now' button on panel when show_time is set",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "To determine the size of the input box, the height of large and small,\nare 40px and 24px respectively, while default size is 32px",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "start": {
+        "description": "The selected start date / datetime",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "end": {
+        "description": "The selected end date / datetime",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/datepicker/TimePicker.tsx": {
+    "displayName": "TimePicker",
+    "description": "Select Date or DateTime",
+    "props": {
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "format": {
+        "description": "Time format - e.g. HH:mm:ss",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "hour_step": {
+        "description": "Interval between hours in picker",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "minute_step": {
+        "description": "Interval between minutes in picker",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "open": {
+        "description": "The open state of picker",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "picker": {
+        "description": "Set picker type",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'date'",
+              "computed": false
+            },
+            {
+              "value": "'week'",
+              "computed": false
+            },
+            {
+              "value": "'month'",
+              "computed": false
+            },
+            {
+              "value": "'quarter'",
+              "computed": false
+            },
+            {
+              "value": "'year'",
+              "computed": false
+            }
+          ],
+          "raw": "\"date\" | \"week\" | \"month\" | \"quarter\" | \"year\""
+        }
+      },
+      "placeholder": {
+        "description": "The placeholder of date input",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "placement": {
+        "description": "The position where the selection box pops up",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottomLeft\" | \"bottomRight\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "second_step": {
+        "description": "Interval between seconds in picker",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "show_now": {
+        "description": "Whether to show 'Now' button on panel when show_time is set",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "To determine the size of the input box, the height of large and small,\nare 40px and 24px respectively, while default size is 32px",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "value": {
+        "description": "The selected time",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/datepicker/TimeRangePicker.tsx": {
+    "displayName": "TimeRangePicker",
+    "description": "Select Date or DateTime",
+    "props": {
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "open": {
+        "description": "The open state of picker",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "placement": {
+        "description": "The position where the selection box pops up",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottomLeft\" | \"bottomRight\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "show_now": {
+        "description": "Whether to show 'Now' button on panel when show_time is set",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "To determine the size of the input box, the height of large and small,\nare 40px and 24px respectively, while default size is 32px",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "start": {
+        "description": "The selected start date / datetime",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "end": {
+        "description": "The selected start date / datetime",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/divider/Divider.tsx": {
+    "displayName": "Divider",
+    "description": "Divides content with a simple line and optional text included.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "dashed": {
+        "description": "Whether line is dashed",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "orientation": {
+        "description": "The position of title inside divider",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'left'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            },
+            {
+              "value": "'center'",
+              "computed": false
+            }
+          ],
+          "raw": "\"left\" | \"right\" | \"center\""
+        }
+      },
+      "orientation_margin": {
+        "description": "The margin-left/right between the title and its closest border,\nwhile the orientation must be left or right",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "plain": {
+        "description": "Divider text show as plain style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "type": {
+        "description": "The direction type of divider",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'vertical'",
+              "computed": false
+            }
+          ],
+          "raw": "\"horizontal\" | \"vertical\""
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/dropdown/DropdownButton.tsx": {
+    "displayName": "DropdownButton",
+    "description": "A button with an integrated dropdown menu",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "items": {
+        "description": "Items displayed in the dropdown menu",
+        "required": true,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "any",
+            "raw": "ItemType"
+          },
+          "raw": "ItemType[]"
+        }
+      },
+      "disabled": {
+        "description": "Disables all checkboxes within the group",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "n_clicks": {
+        "description": "An integer that represents the number of times\nthat this element has been clicked on.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/dropdown/DropdownMenu.tsx": {
+    "displayName": "DropdownMenu",
+    "description": "A Dropdown component",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "items": {
+        "description": "Items displayed in the dropdown menu",
+        "required": true,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "any",
+            "raw": "ItemType"
+          },
+          "raw": "ItemType[]"
+        }
+      },
+      "arrow": {
+        "description": "Whether the dropdown arrow should be visible",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether the dropdown menu is disabled",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "placement": {
+        "description": "Placement of popup menu",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottom'",
+              "computed": false
+            },
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottom\" | \"bottomLeft\" | \"bottomRight\" | \"top\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "trigger": {
+        "description": "The trigger mode which executes the dropdown action.\nNote that hover can't be used on touchscreens",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "enum",
+            "value": [
+              {
+                "value": "'click'",
+                "computed": false
+              },
+              {
+                "value": "'hover'",
+                "computed": false
+              },
+              {
+                "value": "'contextMenu'",
+                "computed": false
+              }
+            ],
+            "raw": "\"click\" | \"hover\" | \"contextMenu\""
+          },
+          "raw": "(\"click\" | \"hover\" | \"contextMenu\")[]"
+        }
+      },
+      "visible": {
+        "description": "Whether the dropdown menu is currently visible",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/icon/Icon.tsx": {
+    "displayName": "Icon",
+    "description": "Icon",
+    "props": {
+      "icon_name": {
+        "description": "Name fo the icon https://ant.design/components/icon/",
+        "required": true,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/input/Input.tsx": {
+    "displayName": "Input",
+    "description": "A basic widget for getting the user input is a text field.\nKeyboard and mouse can be used for providing or changing data.",
+    "props": {
+      "value": {
+        "description": "The input content value",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "addon_after": {
+        "description": "The label text displayed after (on the right side of) the input field",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "addon_before": {
+        "description": "The label text displayed before (on the left side of) the input field",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "autocomplete": {
+        "description": "This attribute indicates whether the value of the control can be\nautomatically completed by the browser.",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'on'",
+              "computed": false
+            },
+            {
+              "value": "'off'",
+              "computed": false
+            }
+          ],
+          "raw": "\"on\" | \"off\""
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether the input is disabled",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "max": {
+        "description": "The maximum (numeric or date-time) value for this item, which must not be\nless than its minimum (min attribute) value.",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "min": {
+        "description": "The minimum (numeric or date-time) value for this item, which must not be\ngreater than its maximum (max attribute) value.",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "max_length": {
+        "description": "The max length",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "readonly": {
+        "description": "Indicates whether the element can be edited.",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "show_count": {
+        "description": "Whether show character count",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "The size of the input box",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "n_blur": {
+        "description": "Number of times the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_blur_timestamp": {
+        "description": "Last time the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit": {
+        "description": "Number of times the `Enter` key was pressed while the input had focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit_timestamp": {
+        "description": "Last time that `Enter` was pressed.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "debounce": {
+        "description": "If true, changes to input will be sent back to the Dash server\nonly when the enter key is pressed or when the component loses\nfocus.  If it's false, it will sent the value back on every\nchange.",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "type": {
+        "description": "The type of control to render",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'number'",
+              "computed": false
+            },
+            {
+              "value": "'text'",
+              "computed": false
+            },
+            {
+              "value": "'password'",
+              "computed": false
+            },
+            {
+              "value": "'email'",
+              "computed": false
+            },
+            {
+              "value": "'range'",
+              "computed": false
+            },
+            {
+              "value": "'search'",
+              "computed": false
+            },
+            {
+              "value": "'tel'",
+              "computed": false
+            },
+            {
+              "value": "'url'",
+              "computed": false
+            },
+            {
+              "value": "'hidden'",
+              "computed": false
+            }
+          ],
+          "raw": "\"number\" | \"text\" | \"password\" | \"email\" | \"range\" | \"search\" | \"tel\" | \"url\" | \"hidden\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "placeholder": {
+        "description": "A hint to the user of what can be entered in the control.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/input/InputNumber.tsx": {
+    "displayName": "InputNumber",
+    "description": "InputNumber",
+    "props": {
+      "addon_after": {
+        "description": "The label text displayed after (on the right side of) the input field",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "addon_before": {
+        "description": "The label text displayed before (on the left side of) the input field",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "controls": {
+        "description": "Whether to show +- controls",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "debounce": {
+        "description": "If true, changes to input will be sent back to the Dash server\nonly when the enter key is pressed or when the component loses\nfocus.  If it's false, it will sent the value back on every\nchange.",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether the input is disabled",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "max": {
+        "description": "The max value",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "min": {
+        "description": "The min value",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "precision": {
+        "description": "The precision of input value",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "read_only": {
+        "description": "If readonly the input",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "prefix": {
+        "description": "The prefix icon for the Input",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "size": {
+        "description": "The height of input box",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "step": {
+        "description": "The number to which the current value is increased or decreased. It can be an integer or decimal",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "string_mode": {
+        "description": "Set value as string to support high precision decimals",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "value": {
+        "description": "The current value",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_blur": {
+        "description": "Number of times the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_blur_timestamp": {
+        "description": "Last time the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit": {
+        "description": "Number of times the `Enter` key was pressed while the input had focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit_timestamp": {
+        "description": "Last time that `Enter` was pressed.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/input/TextArea.tsx": {
+    "displayName": "TextArea",
+    "description": "TextArea component.",
+    "props": {
+      "value": {
+        "description": "The input content value",
+        "required": false,
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        },
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "allow_clear": {
+        "description": "If allow to remove input content with clear icon",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "cols": {
+        "description": "Defines the number of columns in a textarea.",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "max_length": {
+        "description": "The max length",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "show_count": {
+        "description": "Whether show text count",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "readonly": {
+        "description": "Indicates whether the element can be edited.",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "rows": {
+        "description": "Defines the number of rows in a text area.",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "placeholder": {
+        "description": "A hint to the user of what can be entered in the control.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "n_blur": {
+        "description": "Number of times the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_blur_timestamp": {
+        "description": "Last time the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit": {
+        "description": "Number of times the `Enter` key was pressed while the textarea had focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit_timestamp": {
+        "description": "Last time that `Enter` was pressed.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_clicks": {
+        "description": "An integer that represents the number of times\nthat this element has been clicked on.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "debounce": {
+        "description": "If true, changes to input will be sent back to the Dash server only on enter or when losing focus.\nIf it's false, it will sent the value back on every change.",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/layout/Content.tsx": {
+    "displayName": "Content",
+    "description": "Handling the overall layout of a page.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/layout/Footer.tsx": {
+    "displayName": "Footer",
+    "description": "Handling the overall layout of a page.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/layout/Header.tsx": {
+    "displayName": "Header",
+    "description": "Handling the overall layout of a page.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/layout/Layout.tsx": {
+    "displayName": "Layout",
+    "description": "Handling the overall layout of a page.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "has_sidebar": {
+        "description": "Whether a Sidebar is contained in children. Does not necessarily have to be specified,\nbut useful in ssr avoid style flickering.",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/layout/Sidebar.tsx": {
+    "displayName": "Sidebar",
+    "description": "Handling the overall layout of a page.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "collapsed": {
+        "description": "Whether the sidebar is collapsed",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "collapsed_width": {
+        "description": "Width of the collapsed sidebar, by setting to 0 a special trigger will appear",
+        "required": false,
+        "defaultValue": {
+          "value": "80",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "collapsible": {
+        "description": "Whether the sidebar can be collapsed",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "reverse_arrow": {
+        "description": "Reverse direction of arrow, for a sidebar that expands from the right",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "theme": {
+        "description": "Color theme of the sidebar",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'light'",
+              "computed": false
+            },
+            {
+              "value": "'dark'",
+              "computed": false
+            }
+          ],
+          "raw": "\"light\" | \"dark\""
+        }
+      },
+      "width": {
+        "description": "Width of the sidebar",
+        "required": false,
+        "defaultValue": {
+          "value": "200",
+          "computed": false
+        },
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "string | number"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/menu/Menu.tsx": {
+    "displayName": "Menu",
+    "description": "A versatile menu for navigation.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "expand_icon": {
+        "description": "custom expand icon of submenu",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "force_sub_menu_render": {
+        "description": "Render submenu into DOM before it becomes visible",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "inline_collapsed": {
+        "description": "Specifies the collapsed status when menu is inline mode",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "inline_indent": {
+        "description": "Indent (in pixels) of inline menu items on each level",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "items": {
+        "description": "Menu item content",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "any",
+            "raw": "ItemType"
+          },
+          "raw": "ItemType[]"
+        }
+      },
+      "mode": {
+        "description": "Type of menu",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'inline'",
+              "computed": false
+            }
+          ],
+          "raw": "\"vertical\" | \"horizontal\" | \"inline\""
+        }
+      },
+      "multiple": {
+        "description": "Allows selection of multiple items",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "open_keys": {
+        "description": "Array with the keys of currently opened sub-menus",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string",
+            "raw": "string"
+          },
+          "raw": "string[]"
+        }
+      },
+      "overflowed_indicator": {
+        "description": "Customized the ellipsis icon when menu is collapsed horizontally",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "selectable": {
+        "description": "Allows selecting menu items",
+        "required": false,
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "selected_keys": {
+        "description": "Array with the keys of currently selected menu items",
+        "required": false,
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        },
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string",
+            "raw": "string"
+          },
+          "raw": "string[]"
+        }
+      },
+      "sub_menu_close_delay": {
+        "description": "Delay time to hide submenu when mouse leaves (in seconds)",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "sub_menu_open_delay": {
+        "description": "Delay time to show submenu when mouse enters, (in seconds)",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "theme": {
+        "description": "Color theme of the menu",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'light'",
+              "computed": false
+            },
+            {
+              "value": "'dark'",
+              "computed": false
+            }
+          ],
+          "raw": "\"light\" | \"dark\""
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/menu/MenuItem.tsx": {
+    "displayName": "MenuItem",
+    "description": "MenuItem to be used as child elements to the \"Menu\" component.\nIf used, \"items\" property on menu must be left empty.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "danger": {
+        "description": "Display the danger style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether menu item is disabled",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "icon": {
+        "description": "The icon of the menu item",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "key": {
+        "description": "Unique ID of the menu item\n\n\nA unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": true,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "label": {
+        "description": "Menu label",
+        "required": true,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "title": {
+        "description": "Set display title for collapsed item",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/pageheader/PageHeader.tsx": {
+    "displayName": "PageHeader",
+    "description": "A header with common actions and design elements built in.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "back_icon": {
+        "description": "Custom back icon, if false the back icon will not be displayed",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "breadcrumb_routes": {
+        "description": "Routes for breadcrumbs to be displayed in page header",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "shape",
+            "value": {
+              "path": {
+                "description": "",
+                "required": true,
+                "name": "string",
+                "raw": "string"
+              },
+              "breadcrumbName": {
+                "description": "",
+                "required": true,
+                "name": "string",
+                "raw": "string"
+              },
+              "children": {
+                "description": "",
+                "required": true,
+                "name": "arrayOf",
+                "value": {
+                  "name": "shape",
+                  "value": {
+                    "path": {
+                      "description": "",
+                      "required": true,
+                      "name": "string",
+                      "raw": "string"
+                    },
+                    "breadcrumbName": {
+                      "description": "",
+                      "required": true,
+                      "name": "string",
+                      "raw": "string"
+                    }
+                  },
+                  "raw": "{ path: string; breadcrumbName: string; }"
+                },
+                "raw": "{ path: string; breadcrumbName: string; }[]"
+              }
+            },
+            "raw": "BreadcrumbRoute"
+          },
+          "raw": "BreadcrumbRoute[]"
+        }
+      },
+      "extra": {
+        "description": "Operating area, at the end of the line of the title line",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "footer": {
+        "description": "PageHeader's footer, generally used to render TabBar",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "ghost": {
+        "description": "PageHeader type, will change background color",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "sub_title": {
+        "description": "Custom subtitle text",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "title": {
+        "description": "Custom title text",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/pageheader/PageHeaderFooter.tsx": {
+    "displayName": "PageHeaderFooter",
+    "description": "Wrapper component to place content in the Footers section of a PageHeader",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/pageheader/PageHeaderOperation.tsx": {
+    "displayName": "PageHeaderOperation",
+    "description": "Wrapper component to place content in the Operations section of a PageHeader",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/radio/Radio.tsx": {
+    "displayName": "Radio",
+    "description": "Radio",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "checked": {
+        "description": "Specifies whether the radio is selected",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disable radio",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/radio/RadioButton.tsx": {
+    "displayName": "RadioButton",
+    "description": "RadioButton",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "checked": {
+        "description": "Specifies whether the radio is selected",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Disable radio",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/radio/RadioGroup.tsx": {
+    "displayName": "RadioGroup",
+    "description": "RadioGroup",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "button_style": {
+        "description": "The style type of radio button",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'outline'",
+              "computed": false
+            },
+            {
+              "value": "'solid'",
+              "computed": false
+            }
+          ],
+          "raw": "\"outline\" | \"solid\""
+        }
+      },
+      "disabled": {
+        "description": "Disable all radio buttons",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "options": {
+        "description": "Set children optional",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "string",
+                "raw": "string"
+              },
+              "raw": "string[]"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number",
+                "raw": "number"
+              },
+              "raw": "number[]"
+            }
+          ],
+          "raw": "string[] | number[] | { label: string; value: string; disabled?: boolean; }[]"
+        }
+      },
+      "option_type": {
+        "description": "Set Radio optionType",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'default'",
+              "computed": false
+            },
+            {
+              "value": "'button'",
+              "computed": false
+            }
+          ],
+          "raw": "\"default\" | \"button\""
+        }
+      },
+      "size": {
+        "description": "The size of radio button",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/select/Select.tsx": {
+    "displayName": "Select",
+    "description": "A dropdown component",
+    "props": {
+      "allow_clear": {
+        "description": "Show clear button",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "auto_clear_search_value": {
+        "description": "Whether the current search will be cleared on selecting an item.\nOnly applies when mode is set to multiple or tags",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "bordered": {
+        "description": "Whether has border style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "clear_icon": {
+        "description": "The custom clear icon",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "default_active_first_option": {
+        "description": "Whether to activate first option by default",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "disabled": {
+        "description": "Whether disabled select",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "dropdown_class_name": {
+        "description": "The className of dropdown menu",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "dropdown_match_select_width": {
+        "description": "Determine whether the dropdown menu and the select input are the same width.\nDefault set min-width same as input. Will ignore when value less than\nselect width false will disable virtual scroll",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "number | boolean"
+        }
+      },
+      "dropdown_style": {
+        "description": "The style of dropdown menu",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "fieldNames": {
+        "description": "Customize node label, value, options field name",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "filter_option": {
+        "description": "If true, filter options by input",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "label_in_value": {
+        "description": "Whether to embed label in value, turn the format of value from string to { value: string, label: ReactNode }",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "list_height": {
+        "description": "Config popup height",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "loading": {
+        "description": "Indicate loading state",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "max_tag_count": {
+        "description": "Max tag count to show. responsive will cost render performance",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "number | \"responsive\""
+        }
+      },
+      "max_tag_text_length": {
+        "description": "Max tag text length to show",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "menu_item_selected_icon": {
+        "description": "The custom menuItemSelected icon with multiple options",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "mode": {
+        "description": "Set mode of Select",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'multiple'",
+              "computed": false
+            },
+            {
+              "value": "'tags'",
+              "computed": false
+            }
+          ],
+          "raw": "\"multiple\" | \"tags\""
+        }
+      },
+      "open": {
+        "description": "Controlled open state of dropdown",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "option_filter_prop": {
+        "description": "Which prop value of option will be used for filter if filterOption is true.\nIf options is set, it should be set to 'label'",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "option_label_prop": {
+        "description": "Which prop value of option will render as content of select.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "options": {
+        "description": "Select options. Will get better perf than jsx definition\t{ label, value }[]",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object",
+            "raw": "object"
+          },
+          "raw": "object[]"
+        }
+      },
+      "placeholder": {
+        "description": "Placeholder of select",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "placement": {
+        "description": "The position where the selection box pops up",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bottomLeft'",
+              "computed": false
+            },
+            {
+              "value": "'bottomRight'",
+              "computed": false
+            },
+            {
+              "value": "'topLeft'",
+              "computed": false
+            },
+            {
+              "value": "'topRight'",
+              "computed": false
+            }
+          ],
+          "raw": "\"bottomLeft\" | \"bottomRight\" | \"topLeft\" | \"topRight\""
+        }
+      },
+      "remove_icon": {
+        "description": "The custom remove icon",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "show_arrow": {
+        "description": "Whether to show the drop-down arrow",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "show_search": {
+        "description": "Whether show search input in single mode",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "Size of Select input",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Set validation status",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'error'",
+              "computed": false
+            },
+            {
+              "value": "'warning'",
+              "computed": false
+            }
+          ],
+          "raw": "\"error\" | \"warning\""
+        }
+      },
+      "suffix_icon": {
+        "description": "The custom suffix icon",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "token_separators": {
+        "description": "Separator used to tokenize, only applies when mode=\"tags\"",
+        "required": false,
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string",
+            "raw": "string"
+          },
+          "raw": "string[]"
+        }
+      },
+      "value": {
+        "description": "Current selected option (considered as a immutable array)",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string",
+              "raw": "string"
+            },
+            {
+              "name": "number",
+              "raw": "number"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "string",
+                "raw": "string"
+              },
+              "raw": "string[]"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "number",
+                "raw": "number"
+              },
+              "raw": "number[]"
+            }
+          ],
+          "raw": "string | number | string[] | number[] | LabeledValue | LabeledValue[]"
+        }
+      },
+      "virtual": {
+        "description": "Disable virtual scroll when set to false",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "loading_state": {
+        "description": "Object that holds the loading state object coming from dash-renderer",
+        "required": false,
+        "type": {
+          "name": "shape",
+          "value": {
+            "is_loading": {
+              "description": "Determines if the component is loading or not",
+              "required": true,
+              "name": "bool",
+              "raw": "boolean"
+            },
+            "prop_name": {
+              "description": "Holds which property is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            },
+            "component_name": {
+              "description": "Holds the name of the component that is loading",
+              "required": true,
+              "name": "string",
+              "raw": "string"
+            }
+          },
+          "raw": "DashLoadingState"
+        }
+      },
+      "n_blur": {
+        "description": "Number of times the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_blur_timestamp": {
+        "description": "Last time the input lost focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit": {
+        "description": "Number of times the `Enter` key was pressed while the input had focus.",
+        "required": false,
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "n_submit_timestamp": {
+        "description": "Last time that `Enter` was pressed.",
+        "required": false,
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        },
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/space/Space.tsx": {
+    "displayName": "Space",
+    "description": "Set components spacing.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "align": {
+        "description": "Align items",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'start'",
+              "computed": false
+            },
+            {
+              "value": "'end'",
+              "computed": false
+            },
+            {
+              "value": "'center'",
+              "computed": false
+            },
+            {
+              "value": "'baseline'",
+              "computed": false
+            }
+          ],
+          "raw": "\"start\" | \"end\" | \"center\" | \"baseline\""
+        }
+      },
+      "direction": {
+        "description": "The space direction",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ],
+          "raw": "\"vertical\" | \"horizontal\""
+        }
+      },
+      "size": {
+        "description": "The space size",
+        "required": false,
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number",
+              "raw": "number"
+            }
+          ],
+          "raw": "Size | [Size, Size]"
+        }
+      },
+      "split": {
+        "description": "Set split",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "wrap": {
+        "description": "Auto wrap line, when horizontal effective",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/steps/Step.tsx": {
+    "displayName": "Step",
+    "description": "Step",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "description": {
+        "description": "Description of the step",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "disabled": {
+        "description": "Disable click",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "icon": {
+        "description": "Icon of the step",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "status": {
+        "description": "To specify the status. It will be automatically set by current of Steps if not configured",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'wait'",
+              "computed": false
+            },
+            {
+              "value": "'process'",
+              "computed": false
+            },
+            {
+              "value": "'finish'",
+              "computed": false
+            },
+            {
+              "value": "'error'",
+              "computed": false
+            }
+          ],
+          "raw": "\"wait\" | \"process\" | \"finish\" | \"error\""
+        }
+      },
+      "sub_title": {
+        "description": "Subtitle of the step",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "title": {
+        "description": "Title of the step",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/steps/Steps.tsx": {
+    "displayName": "Steps",
+    "description": "Steps",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "current": {
+        "description": "To set the current step, counting from 0. You can overwrite this state by using status of Step",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "direction": {
+        "description": "To specify the direction of the step bar, horizontal or vertical",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'vertical'",
+              "computed": false
+            }
+          ],
+          "raw": "\"horizontal\" | \"vertical\""
+        }
+      },
+      "initial": {
+        "description": "Set the initial step, counting from 0",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "label_placement": {
+        "description": "Place title and description with horizontal or vertical direction",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'vertical'",
+              "computed": false
+            }
+          ],
+          "raw": "\"horizontal\" | \"vertical\""
+        }
+      },
+      "percent": {
+        "description": "Progress circle percentage of current step in process status (only works on basic Steps)",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "progress_dot": {
+        "description": "Steps with progress dot style",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "responsive": {
+        "description": "Change to vertical direction when screen width smaller than 532px",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "size": {
+        "description": "To specify the size of the step bar",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'default'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"default\" | \"small\""
+        }
+      },
+      "status": {
+        "description": "Specify the status of current step",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'wait'",
+              "computed": false
+            },
+            {
+              "value": "'process'",
+              "computed": false
+            },
+            {
+              "value": "'finish'",
+              "computed": false
+            },
+            {
+              "value": "'error'",
+              "computed": false
+            }
+          ],
+          "raw": "\"wait\" | \"process\" | \"finish\" | \"error\""
+        }
+      },
+      "type": {
+        "description": "Type of steps",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'default'",
+              "computed": false
+            },
+            {
+              "value": "'navigation'",
+              "computed": false
+            }
+          ],
+          "raw": "\"default\" | \"navigation\""
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/tabs/TabPane.tsx": {
+    "displayName": "TabPane",
+    "description": "TabPane",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "close_icon": {
+        "description": "Customize close icon in TabPane's head. Only works while type=\"editable-card\"",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "force_render": {
+        "description": "Forced render of content in tabs, not lazy render after clicking on tabs",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "tab_key": {
+        "description": "TabPane's key",
+        "required": true,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "label": {
+        "description": "Show text in TabPane's head",
+        "required": true,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/tabs/Tabs.tsx": {
+    "displayName": "Tabs",
+    "description": "Tabs",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "value": {
+        "description": "Current TabPane's key",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "add_icon": {
+        "description": "Customize add icon",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "animated": {
+        "description": "Whether to change tabs with animation. Only works while tabPosition=\"top\"",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "centered": {
+        "description": "Centers tabs",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "hide_add": {
+        "description": "Hide plus icon or not. Only works while type=\"editable-card\"",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "more_icon": {
+        "description": "The custom icon of ellipsis",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "size": {
+        "description": "Preset tab bar size",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'large'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'small'",
+              "computed": false
+            }
+          ],
+          "raw": "\"large\" | \"middle\" | \"small\""
+        }
+      },
+      "tab_bar_gutter": {
+        "description": "The gap between tabs",
+        "required": false,
+        "type": {
+          "name": "number",
+          "raw": "number"
+        }
+      },
+      "tab_bar_style": {
+        "description": "Tab bar style object",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "tab_position": {
+        "description": "Position of tabs",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            },
+            {
+              "value": "'bottom'",
+              "computed": false
+            },
+            {
+              "value": "'left'",
+              "computed": false
+            }
+          ],
+          "raw": "\"top\" | \"right\" | \"bottom\" | \"left\""
+        }
+      },
+      "destroy_inactive_tab_pane": {
+        "description": "Whether destroy inactive TabPane when tab is changed",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "type": {
+        "description": "Basic style of tabs",
+        "required": false,
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'line'",
+              "computed": false
+            },
+            {
+              "value": "'card'",
+              "computed": false
+            },
+            {
+              "value": "'editable-card'",
+              "computed": false
+            }
+          ],
+          "raw": "\"line\" | \"card\" | \"editable-card\""
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/tag/CheckableTag.tsx": {
+    "displayName": "CheckableTag",
+    "description": "CheckableTag works like a Checkbox, click it to toggle checked state.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "checked": {
+        "description": "Checked status of Tag",
+        "required": false,
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        },
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  },
+  "src/ts/components/tag/Tag.tsx": {
+    "displayName": "Tag",
+    "description": "Tag for categorizing or markup.",
+    "props": {
+      "children": {
+        "description": "The children of this component.",
+        "required": false,
+        "type": {
+          "name": "node",
+          "raw": "ReactNode"
+        }
+      },
+      "closable": {
+        "description": "Whether the Tag can be closed",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "close_icon": {
+        "description": "Custom close icon",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "color": {
+        "description": "Color of the Tag",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "icon": {
+        "description": "Set the icon of tag",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "visible": {
+        "description": "Whether the Tag is closed or not",
+        "required": false,
+        "type": {
+          "name": "bool",
+          "raw": "boolean"
+        }
+      },
+      "id": {
+        "description": "Unique ID to identify this component in Dash callbacks.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "key": {
+        "description": "A unique identifier for the component, used to improve\nperformance by React.js while rendering components\nSee https://reactjs.org/docs/lists-and-keys.html for more info",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      },
+      "setProps": {
+        "description": "Update props to trigger callbacks.",
+        "required": false,
+        "type": {
+          "name": "func",
+          "raw": "(props: Record<string, any>) => void"
+        }
+      },
+      "style": {
+        "description": "Defines CSS styles which will override styles previously set.",
+        "required": false,
+        "type": {
+          "name": "object",
+          "raw": "object"
+        }
+      },
+      "class_name": {
+        "description": "Often used with CSS to style elements with common properties.",
+        "required": false,
+        "type": {
+          "name": "string",
+          "raw": "string"
+        }
+      }
+    },
+    "isContext": false
+  }
+}
