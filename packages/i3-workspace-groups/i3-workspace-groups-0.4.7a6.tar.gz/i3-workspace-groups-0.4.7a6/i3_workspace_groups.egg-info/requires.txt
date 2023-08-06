@@ -1,0 +1,13 @@
+i3ipc~=2.2
+toml~=0.10
+
+[dev]
+pylint~=2.11
+yapf~=0.31
+virtualenv~=20.8
+tox~=3.24
+pytest~=6.2
+pytest-cov~=3.0
+pytype~=2021.10
+pip-tools~=6.4
+codecov~=2.1
