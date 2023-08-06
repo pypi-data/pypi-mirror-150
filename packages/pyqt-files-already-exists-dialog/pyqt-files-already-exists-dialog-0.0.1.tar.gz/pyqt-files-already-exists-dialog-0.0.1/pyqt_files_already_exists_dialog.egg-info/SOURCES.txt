@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyqt_files_already_exists_dialog/__init__.py
+pyqt_files_already_exists_dialog/existsFileListWidget.py
+pyqt_files_already_exists_dialog/filesAlreadyExistDialog.py
+pyqt_files_already_exists_dialog.egg-info/PKG-INFO
+pyqt_files_already_exists_dialog.egg-info/SOURCES.txt
+pyqt_files_already_exists_dialog.egg-info/dependency_links.txt
+pyqt_files_already_exists_dialog.egg-info/requires.txt
+pyqt_files_already_exists_dialog.egg-info/top_level.txt
