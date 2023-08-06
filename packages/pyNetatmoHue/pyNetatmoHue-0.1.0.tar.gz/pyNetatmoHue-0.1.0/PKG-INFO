@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyNetatmoHue
+Version: 0.1.0
+Summary: Package that colours your lights as the PPM in your room change.
+Home-page: https://github.com/stevedep/Netatmo_PPM_Hue
+Author: Steve de Peijper
+Author-email: steve.depeijper@gmail.com
+License: GPL V3
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+
+# Description
+
+This package allows you to colour your lights as PPM level in your home changes. 
+
+Install via PIP with:
+python3 -m pip install pyNetatmoHue
