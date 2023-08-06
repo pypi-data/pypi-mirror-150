@@ -1,0 +1,14 @@
+dask
+xarray
+pandas
+numba
+PySoundFile
+dask_image
+matplotlib
+scipy
+numpy<1.22,>=1.18
+scikit_learn
+toolz
+opencv-python
+soundfile
+netCDF4
