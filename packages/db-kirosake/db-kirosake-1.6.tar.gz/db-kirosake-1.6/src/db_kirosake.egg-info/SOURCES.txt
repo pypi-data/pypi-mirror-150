@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/db_kirosake/__init__.py
+src/db_kirosake/dbkirosake.py
+src/db_kirosake.egg-info/PKG-INFO
+src/db_kirosake.egg-info/SOURCES.txt
+src/db_kirosake.egg-info/dependency_links.txt
+src/db_kirosake.egg-info/top_level.txt
