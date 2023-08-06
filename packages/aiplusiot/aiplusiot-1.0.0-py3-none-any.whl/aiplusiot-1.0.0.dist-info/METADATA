@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aiplusiot
+Version: 1.0.0
+Summary: aiPlus IOT library
+Home-page: UNKNOWN
+Author: aiplus
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hass-client
+
+# aiPlus-IOT
+
+Simple library to control a homeassistant installation using python
+
