@@ -1,0 +1,15 @@
+aprs/__init__.py,sha256=Xz9fY19GB_kMc5Omle-OYVSxQJRyW8rQArAVwzLFUh4,1387
+aprs/classes.py,sha256=ONtgpUyMb9xwfHV1EzyCOGBz2Ss6nGjK3DMb4Tbzxbs,17666
+aprs/constants.py,sha256=R8_YSRZ3bdJPGWWmgMHVfnZv87Svbs4MSGnBKB43iXY,1889
+aprs/decimaldegrees.py,sha256=8sEXNFHBVVH78JQ9vW13-MdDwWA_BNduh0INwm4utbM,4974
+aprs/exceptions.py,sha256=8KJrnoUQwSs_Fk6bosDMaiZPHnKkYgC_L0TGWLL82y4,421
+aprs/fcs.py,sha256=U6lGyBSvfIsdzMD9dRuFHyq-9G5VCKux7kc4UPvnCTw,3474
+aprs/functions.py,sha256=E4_Pq4ApAJoF9cYH18BJFLOCNnfRRZqKvYssDKVbYzM,6353
+aprs/geo_util.py,sha256=2bbA1FjPABwAo1n7m3QyCyWO9LKB0d3BRsCdcJXrllw,2441
+aprs/kiss_classes.py,sha256=gFFPHvyGMRORczVC2wLMZbnVFUgrVmvwHbqahyt4I2I,7411
+aprs/util.py,sha256=bcj5rnpm5-5lmde5SzB2zpUl4GKo6y5ZpRnL5uVqTx8,1731
+aprs3-8.0.0a0.dist-info/LICENSE,sha256=TFbFL7ADX9hEchOk6eNHxETzs1EdhuGTa-w8o21P4QQ,571
+aprs3-8.0.0a0.dist-info/METADATA,sha256=-Bc4GfpOdTh0LsPWoz3BMVU1XHCUkDNAaEIlnLVr2vs,5896
+aprs3-8.0.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aprs3-8.0.0a0.dist-info/top_level.txt,sha256=PkVmEBdyuhHwvgBIRYKjbH3synnMQ00SctAm16dlFA4,5
+aprs3-8.0.0a0.dist-info/RECORD,,
