@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dispatchmail
+Version: 0.0.1
+Summary: Light, simple, mailing api written in Python
+Home-page: https://github.com/wnstdrr/dispatchmail
+Author: Xander Tedder
+Author-email: xandertedder7@gmail.com
+License: Apache 2.0
+Keywords: smtp json ini mailing email dispatch
+License-File: LICENSE
