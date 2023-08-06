@@ -1,0 +1,9 @@
+serve_quik/__init__.py,sha256=i2SdoMAVIUEk2kPQV1LwybG-cGwACfFwWA5LjzcKLYc,169
+serve_quik/arg.py,sha256=-poryKPaFiuJSkMGbNSGfDBk_yE8NTSt5_N34w0fWuE,668
+serve_quik/container.py,sha256=Ow7gMhY4fmi6-12deb05-MjHW9whCsV7e565XLW1MzE,1642
+serve_quik/mar.py,sha256=llts7QRkrLpMYIKt-e1hJmypo4Bchh405uIQ-XhHju4,5597
+serve_quik/utils.py,sha256=YuMd6vaPHHRFuz30U3I0hfoXg1UQqvnwrcJhLD-94xk,2606
+serve_quik-0.0.1.dist-info/METADATA,sha256=e1uHw4v3T4uGKIXfdKbSK4dRuJMY5wb3223IFxO3S58,10077
+serve_quik-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+serve_quik-0.0.1.dist-info/top_level.txt,sha256=kM4v6n0rxT5nvv3hKSTlSZ3gFW87CZrFKdqmTeRZMco,11
+serve_quik-0.0.1.dist-info/RECORD,,
