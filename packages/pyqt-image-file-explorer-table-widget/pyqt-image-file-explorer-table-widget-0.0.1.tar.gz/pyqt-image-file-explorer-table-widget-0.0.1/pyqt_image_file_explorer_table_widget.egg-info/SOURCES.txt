@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pyqt_image_file_explorer_table_widget/__init__.py
+pyqt_image_file_explorer_table_widget/imageFileExplorerTableWidget.py
+pyqt_image_file_explorer_table_widget/imageLabelWidget.py
+pyqt_image_file_explorer_table_widget/imageWidget.py
+pyqt_image_file_explorer_table_widget.egg-info/PKG-INFO
+pyqt_image_file_explorer_table_widget.egg-info/SOURCES.txt
+pyqt_image_file_explorer_table_widget.egg-info/dependency_links.txt
+pyqt_image_file_explorer_table_widget.egg-info/requires.txt
+pyqt_image_file_explorer_table_widget.egg-info/top_level.txt
+pyqt_image_file_explorer_table_widget/style/__init__.py
+pyqt_image_file_explorer_table_widget/style/image.css
+pyqt_image_file_explorer_table_widget/style/table.css
