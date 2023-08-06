@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ampel"
+version = "0.8.2-alpha.0"
+description = "Asynchronous and Modular Platform with Execution Layers"
+authors = ["Valery Brinnel"]
+maintainers = ["Jakob van Santen <jakob.van.santen@desy.de>"]
+license = "BSD-3-Clause"
+homepage = "https://ampelproject.github.io"
+repository = "https://github.com/AmpelProject/Ampel-core"
+documentation = "https://ampelproject.github.io"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Typing :: Typed",
+]
+packages = []
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+ampel-interface = {version = ">=0.8.2-alpha.9,<0.8.3"}
+ampel-core = {version = ">=0.8.2-alpha.13,<0.8.3"}
+ampel-ipython = {version = "0.7"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=40.8.0"]
+build-backend = "poetry.core.masonry.api"
