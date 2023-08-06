@@ -1,0 +1,7 @@
+setup.py
+xnvme/__init__.py
+xnvme/libxnvme.pxd
+xnvme.egg-info/PKG-INFO
+xnvme.egg-info/SOURCES.txt
+xnvme.egg-info/dependency_links.txt
+xnvme.egg-info/top_level.txt

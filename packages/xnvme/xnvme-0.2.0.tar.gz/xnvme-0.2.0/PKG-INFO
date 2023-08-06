@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: xnvme
+Version: 0.2.0
+Home-page: https://github.com/OpenMPDK/xNVMe
+Author: Mads Ynddal
+Author-email: m.ynddal@samsung.com
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
