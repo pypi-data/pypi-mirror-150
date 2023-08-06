@@ -1,0 +1,10 @@
+adviceslip/__init__.py,sha256=_A7REsfsJ_2ZJH7Z35PvPkDNCAuoItzE0phIW9lgX8s,672
+adviceslip/__main__.py,sha256=Avlhe9cfFbzjW0UrdRA4yDd2HER14sjKnmnvdV0CAVI,139
+adviceslip/cli.py,sha256=l62EIvzwUKG9p3gRQGMJbwP02nDPXWpQEP5c6qRrpEw,692
+adviceslip/client.py,sha256=rNbJFwD_kgd1jjgv9xXPxedggH36lJx0Zh4hHOdnX9k,3830
+adviceslip/exceptions.py,sha256=VJQLljMHQLGBaehKfF8fB8mKPnzv0iLx7Kl_sVfCL9g,724
+adviceslip/objects.py,sha256=ecTbfUp57BvQBAzjLU1bg5sZpI_9WXkhwB8uQvYyEzc,925
+adviceslip-1.0.1.dist-info/entry_points.txt,sha256=AUBKYb0SArOYA2GNShFVcTFRfVxLEMaoP35jwSblZ8o,49
+adviceslip-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+adviceslip-1.0.1.dist-info/METADATA,sha256=_1AUvYXa9pJK8QsOD1cz1plHvsvKIgo07LTMiOnMGmA,595
+adviceslip-1.0.1.dist-info/RECORD,,
