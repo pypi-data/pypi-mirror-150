@@ -1,0 +1,10 @@
+keras_model_client/__init__.py,sha256=rGSh1HIk-mmHYKUrX2gQSHs5SD5J1DLanolzWWiY8Lk,118
+keras_model_client/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras_model_client/lib/models.py,sha256=7GSrDZHk48gRF9hLeumJRJSNFBF69qXsmTkMZeAFK04,343
+keras_model_client/lib/ops.py,sha256=wifMnMPqN0tWj8QrS35KN8t5Atk5smJISZzATkIC_wc,645
+keras_model_client/scripts/predict.py,sha256=-rKnterDs4P94Uw1Jluuoc0EC8tEcCWyGb-YBW4BMco,2787
+keras_model_client-0.1.1.dist-info/entry_points.txt,sha256=5syTJoemO4FjMHbn0gboxzQHolzZ7Oj02EiCJudHefA,80
+keras_model_client-0.1.1.dist-info/LICENSE,sha256=Thtz_pG78lBmBfMlEC9VUBqRdIBy_Tqd1xz5n4rflvg,1070
+keras_model_client-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+keras_model_client-0.1.1.dist-info/METADATA,sha256=D47BQFCySEn6jcM5W2pEtNiu1CVMpoxUK6k3sHyTf1M,1816
+keras_model_client-0.1.1.dist-info/RECORD,,
