@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: IndonesiaEarthquakeinfo
+Version: 0.4
+Summary: This package informs about the latest earthquake from Meteorology Climatology and Geophysics Agency(BMKG)
+Home-page: https://github.com/Bravelid/latestinformation-earthquake-indonesia
+Author: Muhammad Maulana B.
+Author-email: muhammadmaulanabdz@gmail.com
+Project-URL: Github, https://github.com/Bravelid/latestinformation-earthquake-indonesia
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# latest information earthquake indonesia
+<b>This package informs about the latest earthquake from Meteorology Climatology and Geophysics Agency(BMKG)</b>
+
+## HOW IT WORK?
+
+<h3>This package can scrape from bmkg(bmkg.go.id)</h3> 
+<br>
+<b>This package uses technology from beautifulsoup4 and requests</b>
+
+## HOW TO USE?
+```
+if __name__ == "__main__":
+    print("Latest earthquake information")
+    result = ekstrak()
+    showdata(result)
+```
