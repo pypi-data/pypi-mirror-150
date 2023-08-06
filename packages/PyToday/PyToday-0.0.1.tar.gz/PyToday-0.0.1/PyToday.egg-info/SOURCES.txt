@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyToday.egg-info/PKG-INFO
+PyToday.egg-info/SOURCES.txt
+PyToday.egg-info/dependency_links.txt
+PyToday.egg-info/top_level.txt
