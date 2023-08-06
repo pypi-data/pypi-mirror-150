@@ -1,0 +1,13 @@
+bdaservicetemplate/__init__.py,sha256=fXnvJs4Hyj8Y6_tSE7jt_sJ9p6blnnQCQWfj--5ltSU,228
+bdaservicetemplate/generic_service.py,sha256=ScyDMkJk3yV2C_M-ZOp-ZLBbPdyG55-I1aY0taIsmnQ,623
+bdaservicetemplate/io.py,sha256=rmBN33xZn4_5_gbNmpnlVLNchNk4p4ssNle4fj0TpXs,1708
+bdaservicetemplate/pandas_service.py,sha256=_VLblnJl6USmuJHqVd6ptu7R-u49YAJ9uVa8l9noTwo,1217
+bdaservicetemplate/processor_service.py,sha256=qlpbNtL_Thi9ELp8VOvxFJlnjSaDULOQehklszKtuuI,987
+bdaservicetemplate/sink_service.py,sha256=gjnK9uBVXRuV6BE4pFN-Gz8JTIN3zVmOyug3003sct0,736
+bdaservicetemplate/source_service.py,sha256=IBFf_YcP0eW9mEKLLaf5NPmffxRdNMQQcXHXpUNu-fQ,656
+bdaservicetemplate/spark_service.py,sha256=KpwrSTlGnX65YvzUJ0ovDX7Agw8mfwlwvHhwwgyto4Y,1460
+bdaservicetemplate/streaming_service.py,sha256=SecruGEKHGlxynNE-kVcnq9BSRg19jEFIRBd-p8nyTs,285
+bda_service_template-0.0.25.dist-info/METADATA,sha256=JAG2e0ZUeeXllPHB52DuuKqaW0z0DhF01h4h-vt00A4,701
+bda_service_template-0.0.25.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bda_service_template-0.0.25.dist-info/top_level.txt,sha256=EHGc4J7NJGkMBvlHwZCzuGrHxKajy-RlErAPM7f68Mc,19
+bda_service_template-0.0.25.dist-info/RECORD,,
