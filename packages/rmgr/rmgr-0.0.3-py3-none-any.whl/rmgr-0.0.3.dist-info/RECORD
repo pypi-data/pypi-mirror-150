@@ -1,0 +1,9 @@
+rmgr/__init__.py,sha256=XG8rTcR3x0ASDZSvQGNf3aa5Yw89gJd4_zmHuBW7vG4,92
+rmgr/core.py,sha256=-wJC8uTVktaUxP1yR8s28BmlxC621XQnjGWRiVV69yM,1437
+rmgr/path.py,sha256=99YHMtzWHopnWfU3Q-0z6pZMOUa9_iSPfD23pls3XFM,1065
+rmgr/proc.py,sha256=Y_KrDw2VZbGRerQmWdta5-mhz9NhjJE4WNqONE3EtnI,1161
+rmgr-0.0.3.dist-info/LICENSE,sha256=5rjRn1h_QpUx16KxGsCxeUqFqFOMglGCTzeXG5S_kJ0,11543
+rmgr-0.0.3.dist-info/METADATA,sha256=wYWgsP4kNltmNmMuQz5x4o0QIxW-0C7dV7TqZ70dOIs,320
+rmgr-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rmgr-0.0.3.dist-info/top_level.txt,sha256=BWFt6l898UcmbxzOD5YBSgDDRUhR9NSboxIuFdBE_Rk,5
+rmgr-0.0.3.dist-info/RECORD,,
