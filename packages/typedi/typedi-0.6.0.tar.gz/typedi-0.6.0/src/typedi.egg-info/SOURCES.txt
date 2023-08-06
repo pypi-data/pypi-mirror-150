@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/typedi/__init__.py
+src/typedi/container.py
+src/typedi/object_proxy.py
+src/typedi/resolution.py
+src/typedi/typing_utils.py
+src/typedi.egg-info/PKG-INFO
+src/typedi.egg-info/SOURCES.txt
+src/typedi.egg-info/dependency_links.txt
+src/typedi.egg-info/requires.txt
+src/typedi.egg-info/top_level.txt
