@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: serialization-utility
+Version: 1.0
+Summary: serialization/deserialization of json/yaml/toml
+Home-page: https://github.com/daniilandco
+Author: Daniil Bondarkov
+Author-email: daniilbondarcov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# python-bsuir
+A repo for bsuir python labs
+
+
