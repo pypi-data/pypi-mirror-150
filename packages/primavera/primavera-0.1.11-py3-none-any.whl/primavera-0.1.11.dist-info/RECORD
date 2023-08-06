@@ -1,0 +1,14 @@
+primavera/Primer.py,sha256=nwwYxWOPUwzI3oM5NPZg3z4I9nnHlYPpKHE_6BZSWRI,3548
+primavera/PrimerSelector.py,sha256=v9CS-ijNhetY166fIZS5lV17JE5hCu0M4HDbIZHabv8,31391
+primavera/ReadReferenceMatches.py,sha256=0BWe-c_iztqt86kxcyJRrHZW3Pn3MReWleqqy7YjgVE,26090
+primavera/SequencingReportGenerator.py,sha256=kCpzmA4vOLg2n6OtlweDWP4H99v7nWg0ofmlBDpywSA,6708
+primavera/__init__.py,sha256=pQJuLmV835m9JTaOyHOiqAYV4JSRkaxnDXBlRHIyfy8,554
+primavera/biotools.py,sha256=ia-72VcVjP70zfYDP48iFNg3NmS8wR9E1dVVyZ-Ypbo,10336
+primavera/sequencing_simulation.py,sha256=JMF9JAFyAinMfRXKJvnH52VWdT5pisEbCGj12Q1SyyA,3371
+primavera/tools.py,sha256=2fQzVvsMjkJuf_Z6LQdlaOGJXCe_4j7Bu30Gu9hNMO4,3369
+primavera/version.py,sha256=nllDrH0jyChMuuYrK0CC55iTBKUNTUjejtcwxyUF2EQ,23
+primavera-0.1.11.dist-info/LICENCE.txt,sha256=akVjFR4jDJtNakzf3avomKdfddMyA9WHJ5aVV08efxY,1081
+primavera-0.1.11.dist-info/METADATA,sha256=CD7YrmM7LKyq2nEKidq03AvPgxOKXXuWzoAzTxh-BJc,3181
+primavera-0.1.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+primavera-0.1.11.dist-info/top_level.txt,sha256=h-hrUW8-lIKS5Bw7mYLaCKNZXpzl1VnOykmledNMyEQ,10
+primavera-0.1.11.dist-info/RECORD,,
