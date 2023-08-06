@@ -1,0 +1,18 @@
+pydiffx<=1.999,>=1.0.1
+setuptools
+six>=1.8.0
+six>=1.8.0
+
+[:python_version < "3.0"]
+backports.shutil_get_terminal_size
+colorama<0.4,>=0.3
+texttable<1.7,>=1.6
+tqdm<5,>=4
+importlib_resources<3.4,>=3.3.1
+more-itertools==5.0.0
+zipp==1.0.0
+
+[:python_version > "3.0"]
+colorama
+texttable
+tqdm
