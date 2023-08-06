@@ -1,0 +1,83 @@
+'\" t
+.\"     Title: veld-lt
+.\"    Author: Gerrit J.J. van den Burg
+.\" Generator: Wilderness <https://pypi.org/project/wilderness>
+.\"      Date: 2022-05-15
+.\"    Manual: veld Manual
+.\"    Source: veld 0.1.1
+.\"  Language: English
+.\"
+.TH "VELD-LT" "1" "2022\-05\-15" "Veld 0\&.1\&.1" "Veld Manual"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting *
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+veld-lt \- Keep only inputs that are less than a given threshold
+.SH "SYNOPSIS"
+.sp
+.nf
+\fIveld lt [\-e ENCODING | \-\-encoding=ENCODING] [\-f | \-\-flatten] [\-i | \-\-ignore]
+        [\-s SEPARATOR | \-\-separator=SEPARATOR] [\-\-all] [file] <testvalue>
+.fi
+.sp
+.SH "OPTIONS"
+.sp
+.sp
+.sp
+\-h, \-\-help
+.RS 4
+show this help message and exit
+.RE
+.PP
+\-e, \-\-encoding
+.RS 4
+Specify the encoding of the input stream.
+.RE
+.PP
+\-f, \-\-flatten
+.RS 4
+With multidimensional input (more than one value per line) the operation is normally conducted on each dimension independently. With the \-\-flatten option, the input is flattened line\-wise (RowMajor order) and the operation is conducted on the resulting one\-dimensional stream.
+.RE
+.PP
+\-i, \-\-ignore
+.RS 4
+Ignore non\-numeric values in the input stream
+.RE
+.PP
+\-s, \-\-separator
+.RS 4
+Some of the Veld commands have support for multidimensional input data. The values on each line of the input stream are expected to be separated by this separator. By default, the tab character will be used as a separator.
+.RE
+.PP
+\-\-all
+.RS 4
+For multidimensional input the default behavior is to keep those rows where any value matches. With this option only the rows are kept where _all_ values match the filter.
+.RE
+.PP
+[file]
+.RS 4
+Veld is primarily designed for processing input streams, but it can also be applied on a file of data, which can be supplied with this argument. By default Veld will read the input data from stdin.
+.RE
+.PP
+<testvalue>
+.RS 4
+Value to test against
+.RE
+.PP
+.sp
