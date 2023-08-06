@@ -1,0 +1,3 @@
+adl2pydm
+dist
+pyqtdesignerpath
