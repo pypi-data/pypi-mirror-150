@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/diamondoracle/__init__.py
+src/diamondoracle/cardmeanings.py
+src/diamondoracle/clear.py
+src/diamondoracle/datelog.py
+src/diamondoracle/main.py
+src/diamondoracle/onecard.py
+src/haileysdiamond.egg-info/PKG-INFO
+src/haileysdiamond.egg-info/SOURCES.txt
+src/haileysdiamond.egg-info/dependency_links.txt
+src/haileysdiamond.egg-info/top_level.txt
