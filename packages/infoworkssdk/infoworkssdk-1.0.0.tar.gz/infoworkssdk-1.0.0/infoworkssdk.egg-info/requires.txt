@@ -1,0 +1,6 @@
+requests
+bson
+pycryptodomex>=3.13.0
+cryptography==37.0.2
+urllib3
+pandas==1.4.0
