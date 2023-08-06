@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: scuttlesort
+Version: 0.0.4
+Summary: scuttlesort - incremental convergent topological sort for SSB
+Home-page: https://github.com/tschudin/scuttlesort
+Author: Christian Tschudin
+Author-email: christian.tschudin@unibas.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ScuttleSort -- Incremental Convergent Topological Sort for Secure Scuttlebutt(SSB)
+
+## Synopsis
+
+ScuttleSort converts SSB's tangled append-only logs into a single
+linear sequence. Because this sequence changes as new log entries are
+incrementally added, an append-only stream of instructions ('insert'
+and 'move' commands) is derived as a side effect that permits to
+replicate and update copies of the sequence. ScuttleSort is convergent
+which means that the resulting sequence is the same for all receivers
+having seen the same set of log entries, regardless of the order in
+which they process a new log entry as long as it follows the
+append-order.
+
+
+## Notes on the Python Implementation
+
