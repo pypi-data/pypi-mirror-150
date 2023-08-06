@@ -1,0 +1,5 @@
+django>=3.2
+
+[testing]
+mock>=1.0.1
+six>=1.9.0
