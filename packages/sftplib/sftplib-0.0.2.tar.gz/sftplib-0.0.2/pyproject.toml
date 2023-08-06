@@ -1,0 +1,33 @@
+[project]
+name = "sftplib"
+version = "0.0.2"
+description = "A very simple S/FTP client python package"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["sftp", "ftp"]
+authors = [
+  {email = "areasviluppo@apconsulting.net"},
+  {name = "AP Consulting S.r.l."}
+]
+maintainers = [
+  {name = "Filippo Veneri", email = "filippo.veneri@apconsulting.net"}
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python"
+]
+
+dependencies = [
+  "paramiko >= 2.7.1"
+]
+
+#[project.optional-dependencies]
+#test = [
+#  "pytest < 5.0.0",
+#  "pytest-cov[all]"
+#]
+
+[project.urls]
+homepage = "https://github.com/apconsulting/sftplib"
+repository = "https://github.com/apconsulting/sftplib"

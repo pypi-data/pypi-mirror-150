@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+sftplib/__init__.py
+sftplib/exceptions.py
+sftplib/ftp.py
+sftplib/sftp.py
+sftplib.egg-info/PKG-INFO
+sftplib.egg-info/SOURCES.txt
+sftplib.egg-info/dependency_links.txt
+sftplib.egg-info/requires.txt
+sftplib.egg-info/top_level.txt
