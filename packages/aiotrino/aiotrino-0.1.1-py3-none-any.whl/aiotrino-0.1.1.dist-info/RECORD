@@ -1,0 +1,14 @@
+aiotrino/__init__.py,sha256=xUmaN8ohRRKG3JzkGFyK0R6sqXwOZrK2X42QPI022HA,634
+aiotrino/auth.py,sha256=byC5BuELvrt8QKm5S_qDKRjgVs9CX6z-TCm9A1wuNho,4068
+aiotrino/client.py,sha256=lLASAshUv38CByl1J_WQHhOLYVdNTFh1ntUYnp86UMo,23291
+aiotrino/constants.py,sha256=jeR_yiE59wZkwhrGHAA7FfuHHBPiw2c0ogCqVL04n6w,2089
+aiotrino/dbapi.py,sha256=ETzgNwPTsDN2ITWbfCVvuGsxkDF72PRSnus3VRNbU7w,17444
+aiotrino/exceptions.py,sha256=wrVxQsSbcXCZDUklG1zPh6WwprYKSKyyHnny_BvDcOk,5198
+aiotrino/logging.py,sha256=SURBHgjtl662ViSSipad25QLmBr0IQO22bN3b7d3ePo,765
+aiotrino/transaction.py,sha256=sfwGlCascbz3f3sAUh5a32pjmfdSpddwizy5J8BBI4Y,3580
+aiotrino/utils.py,sha256=CMfxHtQ21W2ix-g6kj5xeeC6aNmWnKZJKH-b-uvNnyo,431
+aiotrino-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aiotrino-0.1.1.dist-info/METADATA,sha256=NdlykGh1eich7D_rxRk0URqqCxje-8vk5xo-M_vrgOU,7659
+aiotrino-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiotrino-0.1.1.dist-info/top_level.txt,sha256=3IDhvKMHMD697oxg_Gw_VAJ5W1aIT7_skxZWyFUfbu0,9
+aiotrino-0.1.1.dist-info/RECORD,,
