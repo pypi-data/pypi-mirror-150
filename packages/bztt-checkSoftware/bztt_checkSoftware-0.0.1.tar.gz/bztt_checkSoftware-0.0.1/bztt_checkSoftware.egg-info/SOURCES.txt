@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bztt_checkSoftware/__init__.py
+bztt_checkSoftware/__version__.py
+bztt_checkSoftware/checkSoftware.py
+bztt_checkSoftware/core.py
+bztt_checkSoftware.egg-info/PKG-INFO
+bztt_checkSoftware.egg-info/SOURCES.txt
+bztt_checkSoftware.egg-info/dependency_links.txt
+bztt_checkSoftware.egg-info/requires.txt
+bztt_checkSoftware.egg-info/top_level.txt
