@@ -1,0 +1,6 @@
+numpy
+configparser
+scipy
+seaborn
+pandas
+networkx
