@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: xenon-lfp-analysis
+Version: 0.0.1
+Summary: Running Xenon LFP Analysis Platform
+Home-page: https://github.com/MicroBrew09/xenon-lfp-analysis.git
+Author: Arjun Mahadevan
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: Brotli ; extra == 'all'
+Requires-Dist: click ; extra == 'all'
+Requires-Dist: colorama ; extra == 'all'
+Requires-Dist: dash ; extra == 'all'
+Requires-Dist: dash-core-components ; extra == 'all'
+Requires-Dist: dash-daq ; extra == 'all'
+Requires-Dist: dash-html-components ; extra == 'all'
+Requires-Dist: dash-table ; extra == 'all'
+Requires-Dist: Flask ; extra == 'all'
+Requires-Dist: Flask-Compress ; extra == 'all'
+Requires-Dist: h5py ; extra == 'all'
+Requires-Dist: imageio ; extra == 'all'
+Requires-Dist: itsdangerous ; extra == 'all'
+Requires-Dist: Jinja2 ; extra == 'all'
+Requires-Dist: MarkupSafe ; extra == 'all'
+Requires-Dist: networkx ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: packaging ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: Pillow ; extra == 'all'
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: pyparsing ; extra == 'all'
+Requires-Dist: python-dateutil ; extra == 'all'
+Requires-Dist: pytz ; extra == 'all'
+Requires-Dist: PyWavelets ; extra == 'all'
+Requires-Dist: scikit-image ; extra == 'all'
+Requires-Dist: scipy ; extra == 'all'
+Requires-Dist: six ; extra == 'all'
+Requires-Dist: tenacity ; extra == 'all'
+Requires-Dist: tifffile ; extra == 'all'
+Requires-Dist: Werkzeug ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Requires-Dist: kaleido ; extra == 'all'
+
+# Xenon LFP Analysis Platform
+
+## Introduction
+This is an interactive platform for analyzing bandpass filtered (1 to 2048 Hz) Local Field Potential (LFP) activity and seizure-like activity. This GUI is built in Python using Plotly's Dash library for interactive visualizations, this includes several features to generate summary measures, plots, trace LFP activity over time, and for people familiar with basic Python this can also serve as a boiler plate to customize, add functions and visualization based on individual researchers’ analysis requirements. We demonstrate this new python-based software tool for analysis and tracking of local field potential activity using the 3Brain MEA recording system but it can easily be adapted to any MEA recording platform. This GUI is also easily adaptable to large-scale EEG recordings and likely can provide a useful mapping tool for In-Vivo LFP activity.  Our current GUI has a particular utility for analysis of seizure-like activity but can be used for analysis of any network LFP signal. 
+
+## Installation:
+pip install xenon_lfp_analysis
+
+## Documentation
+https://xenon-lfp-analysis.readthedocs.io/en/latest/index.html
+
+## PrePrint
+https://www.biorxiv.org/content/10.1101/2022.03.25.485521v1
