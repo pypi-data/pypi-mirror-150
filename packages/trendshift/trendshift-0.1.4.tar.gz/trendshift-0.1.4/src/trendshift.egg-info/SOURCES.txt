@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/trendshift/__init__.py
+src/trendshift/trendshift.py
+src/trendshift.egg-info/PKG-INFO
+src/trendshift.egg-info/SOURCES.txt
+src/trendshift.egg-info/dependency_links.txt
+src/trendshift.egg-info/requires.txt
+src/trendshift.egg-info/top_level.txt
+src/trendshift/cache/__init__.py
+src/trendshift/cache/pandascache.py
