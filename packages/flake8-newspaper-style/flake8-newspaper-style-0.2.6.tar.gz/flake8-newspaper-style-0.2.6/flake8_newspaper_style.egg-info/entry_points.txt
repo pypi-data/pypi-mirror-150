@@ -1,0 +1,3 @@
+[flake8.extension]
+NEWS100 = flake8_newspaper_style:Plugin
+
