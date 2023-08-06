@@ -1,0 +1,9 @@
+dnarecords/__init__.py,sha256=YgO4mBBqliHDgcC6UbwmfKT77BYFAp8Dr9F-Vw3bqJg,198
+dnarecords/helper.py,sha256=oNbHwk0kwn0Gkl6lGYjdvPK-IIvER0nzEvA42jmmD84,3599
+dnarecords/macros.py,sha256=_DGOrOU37sB0I8LkA0wO4_Izm9Lwtke8ElaN9B7i2fo,4508
+dnarecords/reader.py,sha256=FyTzCF8jyF3D3DxZyF3xME1-LC4OLrDvvtyQSO4RKUQ,15611
+dnarecords/writer.py,sha256=tXTaJFoh57Hic13gWjshFnehSZEJVNcFxVrfmdTar58,16888
+dnarecords-0.1.1.dist-info/LICENSE,sha256=zA1-tweVvTWLfmzbmmjOLz-EgJTiroSuFg-p4VBVFgQ,1108
+dnarecords-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dnarecords-0.1.1.dist-info/METADATA,sha256=8XNXOS7et3QM3Y6IxpqO6qcIPrpWCBCIaM-KeJfu-DU,5130
+dnarecords-0.1.1.dist-info/RECORD,,
