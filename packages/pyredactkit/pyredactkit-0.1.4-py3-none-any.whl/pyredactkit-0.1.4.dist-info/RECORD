@@ -1,0 +1,10 @@
+pyredactkit/__init__.py,sha256=9FopvJb3RMH4ejHb2lNf8TQQMfutZxHQBuIWWDIQVSQ,114
+pyredactkit/__main__.py,sha256=bTMufmjY9ve9SuNR8KxXAaXeOldqHb-NA88N_HQC3eE,643
+pyredactkit/identifiers.py,sha256=czBIpGhxV5jLaqs6dN0fj3layTHioPK4jXqh9naP_YY,6117
+pyredactkit/pyredactkit.py,sha256=ttt5Jr4ZQpoH52W-_ATYRDEk3jbpy8eR5L3UfpQ06PM,2950
+pyredactkit/redact.py,sha256=xzH0BGAHnq5f-zzZs7P-G5mKB17_rDxq1gFoNbfwrkM,9825
+pyredactkit-0.1.4.dist-info/entry_points.txt,sha256=peE3YMjL7HyGPc2PMQGuP2-jRt7R1--pViPTkH4tP48,100
+pyredactkit-0.1.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyredactkit-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyredactkit-0.1.4.dist-info/METADATA,sha256=SRVSmBxjq7cjZQGjRh0OFvXNsOfnd91wpLZi-3Nth7A,570
+pyredactkit-0.1.4.dist-info/RECORD,,
