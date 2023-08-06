@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: drawlinked
+Version: 0.0.0
+Summary: A litle drawing package inspired by turtle graphics
+Home-page: https://youtube.com
+Author: Link
+Author-email: lolimoz119@gmail.com
+Project-URL: Bug Tracker, https://youtube.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hi i'm not gonna make a long description because i don't have a lot to say so enjoy drawlinked

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/drawlinked.egg-info/PKG-INFO
+src/drawlinked.egg-info/SOURCES.txt
+src/drawlinked.egg-info/dependency_links.txt
+src/drawlinked.egg-info/top_level.txt
