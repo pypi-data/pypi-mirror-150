@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cdp-connector
+Version: 1.0.0
+Summary: Python Connector for Salesforce CDP
+Home-page: UNKNOWN
+Author: vishnu.prasad
+Author-email: 
+License: BSD-3-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
