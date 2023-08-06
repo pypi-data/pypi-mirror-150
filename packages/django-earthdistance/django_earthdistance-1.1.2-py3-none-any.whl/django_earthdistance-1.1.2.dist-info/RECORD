@@ -1,0 +1,11 @@
+django_earthdistance/__init__.py,sha256=kvWIDE3MWCc0dm9CxQUo1A2GBa-ZMDm7DwFke3BpQ8M,396
+django_earthdistance/models.py,sha256=FOtWmab9UmJKFyLZZrMK45TEbivmq5Nx3J0qG7kkJAg,3582
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=lX1jtOGrJkbNR8Ta8sml_CdVn_0YYxIeGFbTmZNzs6I,251
+tests/tests.py,sha256=vn9jnKQ9vLmw_gRTLHeUcCYxuLm6H6l4z0zUuh03ttw,1312
+django_earthdistance-1.1.2.dist-info/AUTHORS.rst,sha256=n_sJjeQQt_Zwvse9cOgPlL0FVn9GEg8rtD9QB3ikJa8,54
+django_earthdistance-1.1.2.dist-info/LICENSE,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
+django_earthdistance-1.1.2.dist-info/METADATA,sha256=dPdk6abL_vrulfPjwptpt79lFcRHVWD6Walc7QjiFuo,3523
+django_earthdistance-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_earthdistance-1.1.2.dist-info/top_level.txt,sha256=f0HkeK_YlARBR5XERnwlp9Llyxx2Vd8e664YwiokS1w,27
+django_earthdistance-1.1.2.dist-info/RECORD,,
