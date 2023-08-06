@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/impossible/__init__.py
+src/impossible.egg-info/PKG-INFO
+src/impossible.egg-info/SOURCES.txt
+src/impossible.egg-info/dependency_links.txt
+src/impossible.egg-info/top_level.txt
