@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-denorm-iplweb
+Version: 0.5.5
+Summary: Denormalization magic for Django
+Home-page: http://github.com/mpasternak/django-denorm-iplweb/
+Author-email: michal.dtz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+License-File: LICENSE
+License-File: AUTHORS.txt
+
+django-denorm-iplweb is a Django application to provide automatic management of denormalized database fields.
+
