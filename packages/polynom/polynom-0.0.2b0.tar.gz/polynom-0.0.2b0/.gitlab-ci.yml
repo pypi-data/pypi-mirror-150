@@ -1,0 +1,14 @@
+image: python:latest
+
+before_script:
+  - pip install -r requirements.mkdocs.txt
+
+pages:
+  stage: deploy
+  only:
+    - main
+  script:
+    - mkdocs build --site-dir public
+  artifacts:
+    paths:
+      - public
