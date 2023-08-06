@@ -1,0 +1,13 @@
+frostypy/__init__.py,sha256=l3wzPdE9wviK6-AovhSdmh0bkt30eIh1ZZp6qe6uARU,739
+frostypy/core.py,sha256=htxTBVdNmJj0Z-_1_ImvgeEynEpJvZR353dE8uAkNFg,9193
+frostypy/density.py,sha256=uG1-49WG3pPHSgvtKqCpV0jM5FoeNKFalGtq_ah9uzY,9882
+frostypy/porosity.py,sha256=4nbBfJ3YMPw3arc0cZt2yWez14WA0BTOy24_fplj5M4,1136
+frostypy/thermal_conductivity.py,sha256=W1xZHkLHO1MWTk93eng8C-DKucPcVdkfJChPG5p-xO4,2906
+frostypy/thickness.py,sha256=ls06C58AcQa2FP_WbDvdurxL1zFj7aMmEZQ1UM_Pya0,8694
+frostypy-0.0.17.data/data/my_data/data_file,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+frostypy-0.0.17.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+frostypy-0.0.17.dist-info/METADATA,sha256=nfb50BqT3mATqAPyRwYw3qGIbsU11_PpjjjgXR1VCqQ,1811
+frostypy-0.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+frostypy-0.0.17.dist-info/entry_points.txt,sha256=xPp6vFitqG85D-kOcIEWjIZmvD2l53YiMbrwjZFpjZw,39
+frostypy-0.0.17.dist-info/top_level.txt,sha256=vE3raiZoS2ofAE0cGMEAtLy3FkYT5pWD2zS1zF3odeE,9
+frostypy-0.0.17.dist-info/RECORD,,
