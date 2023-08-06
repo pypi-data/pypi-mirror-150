@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py-compart-model
+Version: 0.1.1
+Summary: User friendly syntax of compartment model, especially dedicated to epidemiological models.
+Home-page: https://github.com/toshiakiasakura/py_compart_model
+Author: toshiakiasakura
+Author-email: wordpress.akitoshi@gmail.com
+License: MIT
+Keywords: compartment epidemiology solve_ivp ODE population dynammics
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# py_compart_model 
+User friendly syntax of compartment model, especially dedicated to epidemiological models.
+
+

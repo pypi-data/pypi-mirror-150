@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+py_compart_model/__init__.py
+py_compart_model/__version__.py
+py_compart_model/main.py
+py_compart_model.egg-info/PKG-INFO
+py_compart_model.egg-info/SOURCES.txt
+py_compart_model.egg-info/dependency_links.txt
+py_compart_model.egg-info/requires.txt
+py_compart_model.egg-info/top_level.txt
