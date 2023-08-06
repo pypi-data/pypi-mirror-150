@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wgaio"
+version = "0.0.1"
+description = "Asynchronous Wargaming API client"
+authors = ["Sergey Tsaplin <me@sergeytsaplin.com>"]
+maintainers = ["Sergey Tsaplin <me@sergeytsaplin.com>"]
+license = "MIT"
+packages = [
+    { include = "wgaio" },
+]
+readme = "README.md"
+repository= "https://github.com/SergeyTsaplin/wgaio"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

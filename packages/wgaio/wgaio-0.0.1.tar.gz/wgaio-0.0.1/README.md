@@ -1,0 +1,1 @@
+# Ayncronous Wargaming API client
