@@ -1,0 +1,12 @@
+phytest/__init__.py,sha256=s7XKod4RZv4V3d5stzmjooXckftr-UVqUCimSL6tUfE,2851
+phytest/bio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phytest/bio/alignment.py,sha256=Q10RgsrcQzBdZ0aXNx2Fun3Lfix77U88hVamFLPEOMk,3357
+phytest/bio/sequence.py,sha256=sSjUoEQYlEPspsdtp8onuW_QllwaDDB0GSCPwaG2Nig,10421
+phytest/bio/tree.py,sha256=sR7VXfqa7gIAYDAcOUOLLmgWI0Z2XOkUnVlXBhQpWpc,11062
+phytest/cli.py,sha256=l1I8gATW2g86bICFSTeJVwm4oronP2mxteKnBxe4Co4,1415
+phytest/main.py,sha256=TdpNTw0ygPeTZ85BMaIBfxNc5mdzYxaFMHVLH7mfIsQ,1045
+phytest/utils.py,sha256=CDs7KWmD1mkhAzD-EFJAohGz_10dPuyPUkqGMJmwoJo,103
+phytest-0.1.2.dist-info/entry_points.txt,sha256=wY7FyYojp0TaNk8iIbonigA3n3fmae3GgqWdD42IQ0M,43
+phytest-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+phytest-0.1.2.dist-info/METADATA,sha256=CXfEJdLM8RQuuQ6Hl2CGgIckE8qEwV_hOFA6r1PoAps,6501
+phytest-0.1.2.dist-info/RECORD,,
