@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Astro-Lib
+Version: 0.0.1
+Summary: Astrology Information Package
+Home-page: UNKNOWN
+Author: AshmaKader
+Author-email: <ashmakader538@gamil.com>
+License: UNKNOWN
+Keywords: python,Astrology
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: sqlite3
+
+A package that allows to obtain Planets Infromation By Specific Date.
+
