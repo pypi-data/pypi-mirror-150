@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: voronoi-scatter
+Version: 1.0
+Summary: Scatterplot with voronoi label placement.
+Home-page: https://github.com/zhafen/augment
+Author: Zach Hafen
+Author-email: zachary.h.hafen@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# voronoi-scatter
+Matplotlib scatter plot using smart voronoi positioning for labels.

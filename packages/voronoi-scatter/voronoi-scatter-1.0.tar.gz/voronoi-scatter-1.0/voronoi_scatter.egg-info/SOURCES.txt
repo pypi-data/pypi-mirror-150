@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+voronoi_scatter.py
+voronoi_scatter.egg-info/PKG-INFO
+voronoi_scatter.egg-info/SOURCES.txt
+voronoi_scatter.egg-info/dependency_links.txt
+voronoi_scatter.egg-info/requires.txt
+voronoi_scatter.egg-info/top_level.txt
