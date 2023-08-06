@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/canadafire.c
+src/canadafire.egg-info/PKG-INFO
+src/canadafire.egg-info/SOURCES.txt
+src/canadafire.egg-info/dependency_links.txt
+src/canadafire.egg-info/top_level.txt
+test/test_canadafire.py
