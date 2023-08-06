@@ -1,0 +1,9 @@
+README.md
+setup.py
+dave_misc.egg-info/PKG-INFO
+dave_misc.egg-info/SOURCES.txt
+dave_misc.egg-info/dependency_links.txt
+dave_misc.egg-info/requires.txt
+dave_misc.egg-info/top_level.txt
+regx_entities/__init__.py
+regx_entities/ents.py
