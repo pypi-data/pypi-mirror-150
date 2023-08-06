@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tidyexp"
+version = "0.1.0"
+description = "Easy-to-use, offline-first ML experiment management solution."
+readme = "README.md"
+authors = ["TidyExp Team <500076406@stu.upes.ac.in>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+h5py = "3.6.0"
+pygit2 = "1.9.1"
+google-auth = "2.6.2"
+google-api-core = "2.7.1"
+google-api-python-client = "2.43.0"
+google-auth-httplib2 = "0.1.0"
+googleapis-common-protos = "1.56.0"
+rich = "^12.2.0"
+google-auth-oauthlib = "^0.5.1"
+pytest = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.3.2"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
