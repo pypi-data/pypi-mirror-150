@@ -1,0 +1,4 @@
+bitshares
+bitsharesapi
+bitsharesbase
+tests
