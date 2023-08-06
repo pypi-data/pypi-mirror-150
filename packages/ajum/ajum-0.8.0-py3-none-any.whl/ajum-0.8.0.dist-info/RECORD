@@ -1,0 +1,11 @@
+ajum/__init__.py,sha256=4WyDDbD1QdWFLwHrqAIwzSV31cWlKdU_yzZc_rZdBxs,68
+ajum/ajum.py,sha256=AoXIukZSj9xOcuUTEcJeWnCuc--T38eS5BRvQLaRsQs,28359
+ajum/cli.py,sha256=1iKBdsFJ1lfB0GCFVvCt0pWUqf-a99lMjJCKAbnv6cQ,12184
+ajum/utils.py,sha256=JM1K85vnEowEZf0khdrVAkTykv2O8As0wwKPZ0yadUg,3251
+ajum/data/index.json,sha256=b7ejopqhUldSP--h2qXdPyFLG9z3vI9dQV6PsebqBC4,5122678
+ajum-0.8.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+ajum-0.8.0.dist-info/METADATA,sha256=4ea-NBInGd_pKG8AfK3apPuR2ovY_fSKRmz52ukvhkU,5538
+ajum-0.8.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ajum-0.8.0.dist-info/entry_points.txt,sha256=sTc42MM1LdLk2JO5n7fgnxWdPH9dk7x-ILJC8jREVi4,57
+ajum-0.8.0.dist-info/top_level.txt,sha256=qXvfwdT9LZx0Ryn79AywE2-aDlyCroZKyWwmQ_YPBhc,5
+ajum-0.8.0.dist-info/RECORD,,
