@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: graphenelib
+Version: 1.5.4
+Summary: Python library for graphene-based blockchains
+Home-page: https://github.com/xeroc/python-graphenelib
+Author: Fabian Schuh
+Author-email: Fabian@chainsquad.com
+Maintainer: Fabian Schuh
+Maintainer-email: Fabian@chainsquad.com
+License: UNKNOWN
+Keywords: graphene,api,rpc,ecdsa,secp256k1
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: ecdsa (>0.14)
+Requires-Dist: requests (<3,>=2.22.0)
+Requires-Dist: websocket-client (<1,>=0.56.0)
+Requires-Dist: pylibscrypt (<2,>=1.8.0)
+Requires-Dist: pycryptodome (<4,>=3.9.1)
+Requires-Dist: appdirs (<2,>=1.4.3)
+Requires-Dist: scrypt (<0.9,>=0.8.13)
+Requires-Dist: websockets (>=9.1)
+Requires-Dist: aiohttp (<4,>=3.5.4)
+Requires-Dist: asyncinit (<0.3,>=0.2.4)
+Requires-Dist: expiringdict
+
+UNKNOWN
+
