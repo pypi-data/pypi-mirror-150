@@ -1,0 +1,11 @@
+getting_and_setting/__init__.py,sha256=3CyaA5KoecMkX6mFo80ZwlN0D7f3QfFj5gBcb7IX18Q,26
+getting_and_setting/mi_api.py,sha256=6ywe-lZ-jy1T1KtdiI2AIrYxU1A52uPcpmoDKGmdJhk,2781
+getting_and_setting/mi_cli.py,sha256=vG0lyn58FQa_5sBCOdqHh402j9qTOQHX_8N1OpKYK-k,5633
+getting_and_setting/mi_endpoints.py,sha256=3AOU-MNQox-SfzPdQXaz6LPIq2Ve_6Bs2U6WZzOIbzk,2225
+getting_and_setting/mi_models.py,sha256=FJBUk7nMHoivVpPo-S-A-c5x0aAWC58k-VBpPJJP6CE,1580
+getting_and_setting/mi_parser.py,sha256=nxakOIBUF0hezUZNj4nJ6nRFqei9M7cLunAyTo0cBy8,5230
+getting_and_setting/mi_request.py,sha256=YbgVAwdEssMtQcvRDwLgYhwxONjN6FE2UjHmm4sTpys,2255
+getting_and_setting-0.3.11.dist-info/entry_points.txt,sha256=hCC7PMpn_LTgG90zOnKdo8P1vv7QlCB-FpjiwIDIaOc,56
+getting_and_setting-0.3.11.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+getting_and_setting-0.3.11.dist-info/METADATA,sha256=3lF0G0RaxnQVYbm-YiDa-8w2pE7AkI_3Hbw8A1adAHo,475
+getting_and_setting-0.3.11.dist-info/RECORD,,
