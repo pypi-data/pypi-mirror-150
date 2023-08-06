@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_maze
+Version: 0.1.0
+Summary: NoneBot2交互式走迷宫插件
+Home-page: https://github.com/EtherLeaF/nonebot_plugin_maze
+Author: EtherLeaF
+Author-email: thetapilla@gmail.com
+Keywords: pip,nonebot2,nonebot,nonebot_plugin
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
