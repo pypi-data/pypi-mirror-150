@@ -1,0 +1,9 @@
+ec2instances/__init__.py,sha256=3YhqC9Za4Y-We5_GO9Qui3pLXKZWPiCoyNVPiooIPbo,68
+ec2instances/ec2_instance_mapping.py,sha256=pJjav_HH11rUC6t7CVzJlp3TWALC6O6QX6ZvXofKz_U,1532
+ec2instances/ec2_instance_proxy.py,sha256=QcJ3m1kqnOj5phoOxwxbtIvxJ1xfAwy0Sa3RqFomMwU,2854
+ec2instances/_common/session.py,sha256=KHO8KyCxQHLySy4Nz0v3BMh1Eg2uY-sKcVIaFn6XfF8,3438
+ec2instances/_common/user_data.py,sha256=JQLvzaKkXaaMBPEwz2OouaU8b88LF27UaTjRrew08q8,984
+ec2map-1.0.0.dist-info/LICENSE.md,sha256=cav6Rd67ka6suI_iD5PTZ-29Qp1-fr06j9wfEwdSrQ8,1065
+ec2map-1.0.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+ec2map-1.0.0.dist-info/METADATA,sha256=gXaHFZBkFiCmRsK25Q6O-k4ofyjmhqY5bgMCshpBG4c,1943
+ec2map-1.0.0.dist-info/RECORD,,
