@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: my-mess-project-server
+Version: 0.4.1
+Summary: Mess Server
+Home-page: UNKNOWN
+Author: Yaroslav Gusev
+Author-email: kireb83445@doerma.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
