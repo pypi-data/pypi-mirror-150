@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: croissant-sim
+Version: 0.0.1
+Summary: CROISSANT: Rapid spherical harmonics-based simulator of visibilities
+Home-page: https://github.com/christianhbye/croissant
+Author: Christian Hellum Bye
+Author-email: chbye@berkeley.edu
+License: MIT
+Description: # CROISSANT: spheriCal haRmOnics vISibility SimulAtor iN pyThon
+        
+        A rapid visiblity simulator in python based on spherical harmonics.
+        
+        ## Installation
+        pip install croissant-sim
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+Provides-Extra: dev
