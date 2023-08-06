@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AthenaCSS
+Version: 0.1.1
+Home-page: https://github.com/DirectiveAthena/VerSC-AthenaCSS
+Author: Andreas Sas
+Author-email: 
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/DirectiveAthena/VerSC-AthenaCSS/issues
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: AthenaColor (>=4.1.1)
+Requires-Dist: AthenaLib (>=0.1.0)
+
