@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: django-queue-health
+Version: 0.2.1
+Summary: Queue health checker for Django
+Home-page: https://gitlab.com/adaptiware/django-queue-health
+Author: Artem Markovskyi
+Author-email: artem@adaptiware.com
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Framework :: Django
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+Django Queue Health
+===
+
+Simple django app for checking queue health. Targeted to be used for Kubernetes deployments to periodically schedule `update_queue_timestamp` and set timestamp and verified by `test_queue_health` as a probe to verify if worker works and is not stucked.
+
+For an up to date and maintained version of this library, please checkout [gitlab.com](https://gitlab.com/adaptiware/django-queue-health)
+
+Installation
+---
+
+Using pip:
+```bash
+pip install django-queue-health
+```
+From git:
+```bash
+pip install git+https://gitlab.com/adaptiware/django-queue-health.git
+```
+
+Usage
+---
+
+1. Add "queuehealth" to your INSTALLED_APPS setting like this:
+
+```python
+INSTALLED_APPS = [
+...,
+'queuechecker',
+]
+```
+2. Add variable "DQH_TRESHOLD" to your settings like this:
+```python
+# Minutes treshold to check if there is queue log and if queue is running
+DQH_TRESHOLD = 10
+```
+3. Configure default [django cache](https://docs.djangoproject.com/en/4.0/topics/cache/).
+4. Queue Health use [django rq](https://github.com/rq/django-rq) or [celery](https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html).
+5. Use commands:
+```bash
+
+# Push job to queue that updates the timestamp 
+
+python manage.py update_queue_timestamp 
+
+# Check if timestamp in cache less than trashold
+
+python manage.py test_queue_health
+```
