@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: HiveNetCore
+Version: 0.1.1
+Summary: Provides the most commonly used basic objects and basic tool classes.
+Home-page: https://github.com/snakeclub/HiveNetAssemble/HiveNetCore
+Author: 黎慧剑
+Author-email: snakeclub@163.com
+Maintainer: 黎慧剑
+Maintainer-email: snakeclub@163.com
+License: Mozilla Public License 2.0
+Description: HiveNetCore is the core component of HiveNetAssembly, which provides the most commonly used basic objects and basic tool classes.
+        
+        HiveNetCore是HiveNetAssemble的核心组件, 提供了最常用的基础对象和基础工具类。
+Keywords: HiveNetAssemble HiveNetCore development python lib
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
