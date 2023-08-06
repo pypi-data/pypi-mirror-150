@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sample-packageee
+Version: 0.1.0
+Summary: Sample package
+Home-page: https://github.com/
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=22.3.0,<23.0.0)
+Requires-Dist: flake8 (>=4.0.1,<5.0.0)
+Requires-Dist: mypy (>=0.950,<0.951)
+Project-URL: Repository, https://github.com/
+Description-Content-Type: text/markdown
+
+# Sample package
+Test package
