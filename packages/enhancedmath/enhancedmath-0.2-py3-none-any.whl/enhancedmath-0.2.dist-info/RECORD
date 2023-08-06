@@ -1,0 +1,13 @@
+enhancedmath/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enhancedmath/array.py,sha256=JLpawAuxyGij8wEBn7xV5cGkso1mwokumQ9DtIaiCDg,306
+enhancedmath/constants.py,sha256=fW1MyAmGvviwpZXT5U4_decEFpvcPr1CXVOqaWXN33A,114
+enhancedmath/factorial.py,sha256=HVDBgK6Uybk7McN-VnUN09bhCEwiV-abfZHJsbuWiq4,103
+enhancedmath/func.py,sha256=Ck3QQV2Wk7LfINKrclpbU2qqAhiIYbbuX-03K9oSyus,142
+enhancedmath/advanced/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enhancedmath/advanced/polynomial.py,sha256=A8UTCsXZDZ_ASSERKAAnqm06ZlrFG1Igh5S4odTBsFY,371
+enhancedmath/advanced/radicals.py,sha256=jb7ObromLmuH6xc1LFZ33gG-LbO1B7L7KHaTp4bVAtQ,134
+enhancedmath/advanced/slope.py,sha256=hQsq1GfEFMSFTDLnad6kSqm7IkkoCUeJ0LMv6fokzyk,184
+enhancedmath-0.2.dist-info/METADATA,sha256=YgS-zTmYuSsj-ok6WCf2hxfrfowgfKOJOhyzBgsyesg,512
+enhancedmath-0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+enhancedmath-0.2.dist-info/top_level.txt,sha256=0nU33qGoRqPLi63sJg8pmz2H0SqzyY_shGhEjST5oQg,35
+enhancedmath-0.2.dist-info/RECORD,,
