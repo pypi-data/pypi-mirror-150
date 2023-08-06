@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: HiveNetSimpleSanic
+Version: 0.1.2
+Summary: Simplifies the complexity of building restful API based on Sanic.
+Home-page: https://github.com/snakeclub/HiveNetAssemble/HiveNetSimpleSanic
+Author: 黎慧剑
+Author-email: snakeclub@163.com
+Maintainer: 黎慧剑
+Maintainer-email: snakeclub@163.com
+License: Mozilla Public License 2.0
+Description: HiveNetSimpleSanic is the encapsulation of Sanic provided by HiveNetAssemble, which simplifies the complexity of building restful API based on Sanic.
+        
+        HiveNetSimpleSanic是HiveNetAssemble提供的对Sanic的封装, 简化基于Sanic构建Restful Api的复杂度。
+Keywords: HiveNetAssemble HiveNetSimpleSanic Sanic development python lib
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
