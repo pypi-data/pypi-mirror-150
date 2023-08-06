@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+Version
+redis_pubsub_dict.py
+requirements.txt
+setup.py
+redis_pubsub_dict_wo_cluster.egg-info/PKG-INFO
+redis_pubsub_dict_wo_cluster.egg-info/SOURCES.txt
+redis_pubsub_dict_wo_cluster.egg-info/dependency_links.txt
+redis_pubsub_dict_wo_cluster.egg-info/requires.txt
+redis_pubsub_dict_wo_cluster.egg-info/top_level.txt
