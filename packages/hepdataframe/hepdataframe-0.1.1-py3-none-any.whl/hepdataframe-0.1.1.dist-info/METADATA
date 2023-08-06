@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: hepdataframe
+Version: 0.1.1
+Summary: HEP Dataframe
+Home-page: https://github.com/hepdataframe/hepdataframe
+License: BSD-3-Clause
+Author: Felipe Silva
+Author-email: felipe.silva@cern.ch
+Maintainer: Felipe Silva
+Maintainer-email: felipe.silva@cern.ch
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: awkward (>=1.8.0,<2.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pytest (>=6); extra == "test" or extra == "dev"
+Requires-Dist: sphinx (>=4.0,<5.0); extra == "docs"
+Requires-Dist: sphinx_book_theme (>=0.1.0); extra == "docs"
+Requires-Dist: sphinx_copybutton (>=0.3.0); extra == "docs"
+Requires-Dist: typing_extensions (>=3.7); python_version < "3.8"
+Requires-Dist: uproot (>=4.2.2,<5.0.0)
+Project-URL: Repository, https://github.com/hepdataframe/hepdataframe
+Description-Content-Type: text/markdown
+
+# HEP Dataframe
+
+[![Actions Status][actions-badge]][actions-link]
+[![Documentation Status][rtd-badge]][rtd-link]
+
+<!-- [![Code style: black][black-badge]][black-link] -->
+
+[![PyPI version][pypi-version]][pypi-link]
+
+<!-- [![Conda-Forge][conda-badge]][conda-link] -->
+
+[![PyPI platforms][pypi-platforms]][pypi-link]
+
+[![GitHub Discussion][github-discussions-badge]][github-discussions-link]
+
+<!-- [![Gitter][gitter-badge]][gitter-link] -->
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/hepdataframe/hepdataframe/workflows/CI/badge.svg
+[actions-link]:             https://github.com/hepdataframe/hepdataframe/actions
+[black-badge]:              https://img.shields.io/badge/code%20style-black-000000.svg
+[black-link]:               https://github.com/psf/black
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/hepdataframe
+[conda-link]:               https://github.com/conda-forge/hepdataframe-feedstock
+[github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
+[github-discussions-link]:  https://github.com/hepdataframe/hepdataframe/discussions
+[gitter-badge]:             https://badges.gitter.im/https://github.com/hepdataframe/hepdataframe/community.svg
+[gitter-link]:              https://gitter.im/https://github.com/hepdataframe/hepdataframe/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[pypi-link]:                https://pypi.org/project/hepdataframe/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/hepdataframe
+[pypi-version]:             https://badge.fury.io/py/hepdataframe.svg
+[rtd-badge]:                https://readthedocs.org/projects/hepdataframe/badge/?version=latest
+[rtd-link]:                 https://hepdataframe.readthedocs.io/en/latest/?badge=latest
+[sk-badge]:                 https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg
+<!-- prettier-ignore-end -->
+
+A Dataframe class for HEP data analysis.
+
+_Author's note: This is NOT a work of fiction. Any similarity to
+[ROOT::RDataframe](https://root.cern/manual/data_frame/) or
+[Pandas](https://pandas.pydata.org/) is purely intentional._
+
