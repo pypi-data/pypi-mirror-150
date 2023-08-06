@@ -1,0 +1,33 @@
+[tool.poetry]
+name='quantum-image-classifier'
+version=0.1.2
+description='Quatum image classifier: A library of different quantum algorithms used to classify images'
+readme=README.md
+repository='https://github.com/jorgevazquezperez/Quantum-image-classifier'
+authors=['Jorge Vázquez Pérez <jorge.vazper@gmail.com>']
+license='MIT'
+classifiers=[
+    "Environment :: Console",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering"
+],
+keywords='qiskit quantum machine learning ml centroids',
+packages=[
+    "quantum_image_classifier", 
+    "quantum_image_classifier.classifier_algorithms", 
+    "quantum_image_classifier.encoding", 
+    "quantum_image_classifier.gates"]
+
+[tool.poetry.dependencies]
+numpy = "^1.22"
+qiskit-terra = "^0.20.0"
+setuptools = "^40.1.0"
+sklearn = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
