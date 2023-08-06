@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rule34easy
+Version: 0.1.0
+Summary: Package for easy use rule34 API
+Author: MoDiFy
+Author-email: mindustrys1@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
