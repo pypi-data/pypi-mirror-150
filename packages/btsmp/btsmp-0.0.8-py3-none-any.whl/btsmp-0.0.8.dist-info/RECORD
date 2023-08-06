@@ -1,0 +1,10 @@
+btsmp/__init__.py,sha256=57QTtx5ps521APKMpHPXOAxIBwRCZ1wwyJt3qbgoWcA,52317
+btsmp/smp.py,sha256=G9o6mAwAu5O24pWNKnfh1WhbacJGR3EbrV21trxC6EQ,54807
+btsmp/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+btsmp/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=IGcDU5tORezfx7akVupw2MfualOqsYneQBsz9Gt8mgE,1087608
+btsmp/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=kLrW2zLt_kPHheJs2ozij44vu0NzpcE6Gs2_gJOPgdg,1198080
+btsmp-0.0.8.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+btsmp-0.0.8.dist-info/METADATA,sha256=AdiQ2_MozohdKnpmCxumDo9TgTRo-gy1wqjArXeN5ak,777
+btsmp-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btsmp-0.0.8.dist-info/top_level.txt,sha256=AkNrNFaZpatE4Bt6feGQe_rqW_ePKxrjjX9ULwZMKtg,6
+btsmp-0.0.8.dist-info/RECORD,,
