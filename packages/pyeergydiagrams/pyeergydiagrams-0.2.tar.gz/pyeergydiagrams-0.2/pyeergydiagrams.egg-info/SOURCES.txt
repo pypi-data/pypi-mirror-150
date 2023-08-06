@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/python-publish.yml
+pyeergydiagrams.egg-info/PKG-INFO
+pyeergydiagrams.egg-info/SOURCES.txt
+pyeergydiagrams.egg-info/dependency_links.txt
+pyeergydiagrams.egg-info/requires.txt
+pyeergydiagrams.egg-info/top_level.txt
+pyenergydiagrams/__init__.py
+pyenergydiagrams/_version.py
+pyenergydiagrams/main.py
