@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: datapact
+Version: 0.2.1
+Summary: "improve how we work with evolving data"
+Home-page: https://github.com/skn0tt/datapact
+Author: Simon Knott
+Author-email: datapact@simonknott.de
+License: MIT
+Project-URL: Bug Tracker, https://github.com/skn0tt/datapact/issues
+Project-URL: Discussions, https://github.com/skn0tt/datapact/discussions
+Project-URL: Changelog, https://github.com/skn0tt/datapact/releases
+Keywords: "datapact,data,test,dataframe,pandas"
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: dataclasses-json
+
+# datapact
+
+This repository houses my bachelor thesis project.
