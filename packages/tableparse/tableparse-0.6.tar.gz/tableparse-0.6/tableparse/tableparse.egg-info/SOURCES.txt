@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tableparse/tableparse.egg-info/PKG-INFO
+tableparse/tableparse.egg-info/SOURCES.txt
+tableparse/tableparse.egg-info/dependency_links.txt
+tableparse/tableparse.egg-info/top_level.txt
