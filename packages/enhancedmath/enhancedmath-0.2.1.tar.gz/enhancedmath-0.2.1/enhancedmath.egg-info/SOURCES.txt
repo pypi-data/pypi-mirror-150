@@ -1,0 +1,16 @@
+README.txt
+setup.py
+enhancedmath/__init__.py
+enhancedmath/array.py
+enhancedmath/constants.py
+enhancedmath/factorial.py
+enhancedmath/func.py
+enhancedmath.egg-info/PKG-INFO
+enhancedmath.egg-info/SOURCES.txt
+enhancedmath.egg-info/dependency_links.txt
+enhancedmath.egg-info/requires.txt
+enhancedmath.egg-info/top_level.txt
+enhancedmath/advanced/__init__.py
+enhancedmath/advanced/polynomial.py
+enhancedmath/advanced/radicals.py
+enhancedmath/advanced/slope.py
