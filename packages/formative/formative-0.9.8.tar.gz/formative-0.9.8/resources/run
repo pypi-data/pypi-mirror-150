@@ -1,0 +1,6 @@
+#!/command/execlineb -P
+
+cd /opt/services/djangoapp/src
+with-contenv
+s6-setuidgid www-data
+gunicorn -c config/gunicorn.conf.py config.wsgi:application

@@ -1,0 +1,5 @@
+# execline
+
+cd /opt/services/djangoapp/requirements
+foreground { touch requirements.txt }
+pip install -r requirements.txt

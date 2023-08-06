@@ -1,0 +1,10 @@
+# execline
+
+cd /opt/services/djangoapp/src
+with-contenv
+if -t
+{
+  importas -D "" AUTO_MIGRATE AUTO_MIGRATE
+  test -n ${AUTO_MIGRATE}
+}
+python3 manage.py migrate --noinput
