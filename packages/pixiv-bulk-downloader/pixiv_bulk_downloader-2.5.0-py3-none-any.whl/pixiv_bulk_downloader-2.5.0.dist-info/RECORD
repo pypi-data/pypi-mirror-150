@@ -1,0 +1,13 @@
+pbd/__init__.py,sha256=6e01jpUa06PlM5Ai4Ujey_F6IfGUiYqwQg8htRTHMV0,536
+pbd/base.py,sha256=mdepmps-IpjZSSol6VjK0PnZGZzN0E9SLEOscKdcaxY,3194
+pbd/bookmarks.py,sha256=XzllkQkw29oVdZ3wchwZ7fjzlSKDVoeEU2-gK3mOnR4,1886
+pbd/followings.py,sha256=H_6wAOIZhafqId-IXZrpLbdUpcQGMTSiJ9-O8z7tpjI,3047
+pbd/main.py,sha256=p_NVtissjxYcHhhm9C46bVzP09K8cGveEyoQYqgcaMU,2088
+pbd/pixiv_types.py,sha256=__IlxFYJNgBk6peVSrtn6jTs_gAqU6FKa4uvLYraU1Y,568
+pbd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixiv_bulk_downloader-2.5.0.dist-info/LICENSE,sha256=lLRJHsVsmaxSZbaJI8KejnG307JJcHzF1MB4EBW9mKU,1075
+pixiv_bulk_downloader-2.5.0.dist-info/METADATA,sha256=RknXqkHj_biQAJmfXRoO5W5KsEvurRr8NVTh3RBZfOQ,3525
+pixiv_bulk_downloader-2.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pixiv_bulk_downloader-2.5.0.dist-info/entry_points.txt,sha256=q8YCcNQp2lpEx9K4-Aw12NpoBKLZnOuYG17WvS_LuM4,39
+pixiv_bulk_downloader-2.5.0.dist-info/top_level.txt,sha256=fKZqiIEzMz7QK72_z6bCxs1Ede1SIOkf37laOfIMhuA,4
+pixiv_bulk_downloader-2.5.0.dist-info/RECORD,,
