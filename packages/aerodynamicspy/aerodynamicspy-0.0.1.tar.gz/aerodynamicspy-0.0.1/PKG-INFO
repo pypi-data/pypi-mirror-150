@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aerodynamicspy
+Version: 0.0.1
+Summary: Lots of simple aerodynamics calculations, all in one place.
+Author: Mark C. Anderson
+Author-email: anderson.mark.az@gmail.com
+License: UNKNOWN
+Keywords: python,aerodynamics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE
+
+UNKNOWN
+

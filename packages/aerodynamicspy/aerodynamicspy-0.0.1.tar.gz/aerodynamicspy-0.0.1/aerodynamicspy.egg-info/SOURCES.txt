@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+aerodynamicspy.egg-info/PKG-INFO
+aerodynamicspy.egg-info/SOURCES.txt
+aerodynamicspy.egg-info/dependency_links.txt
+aerodynamicspy.egg-info/requires.txt
+aerodynamicspy.egg-info/top_level.txt
