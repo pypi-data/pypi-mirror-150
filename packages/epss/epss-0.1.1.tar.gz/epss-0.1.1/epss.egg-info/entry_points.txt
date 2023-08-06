@@ -1,0 +1,3 @@
+[console_scripts]
+epss = epss.cli:main
+
