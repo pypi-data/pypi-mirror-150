@@ -1,0 +1,14 @@
+fake/__init__.py,sha256=HGd4r3aoouk7wGUtTixHQC_l3Ubdo1o4WDNDoMf7T44,415
+fake/settings.py,sha256=gk6jj_FGIqnzJJ-Zzzw5fD5KH9zv1-FDbi1T8pxCEjM,2724
+fake/test_settings.py,sha256=XRc6YEL9vzckY49vJrwCdO1EqaUWs8a8P70WwmjXjWQ,785
+fake/urls.py,sha256=11uv4m3hGL-uG0G36livanYJ-TT0hvvaV1mCOMWpDZc,519
+fake/wsgi.py,sha256=PEbYu7kqF5GHCoMj1BIkhnYCgNZ0b0fiMR_S-mtdHvc,662
+loader/__init__.py,sha256=X-6JgpQ-8IoNSxTEJFPcRfneAaReiJzMBfkMTJj830Y,941
+loader/config.py,sha256=14PC3I7BhXoLm3rPk5scm7h8AoJyam0RZG9x2hvNOQw,3884
+loader/loader.py,sha256=FAHfaBlzBpnZbtHCipxS_a69OJkH_LS6SATfi5VxTwE,17156
+django_loader-0.0.10.dist-info/LICENSE,sha256=YwnWMlxbW1vj6fsYQtjhKFtcHvlwxRQGYMlGekwI89g,1100
+django_loader-0.0.10.dist-info/LICENSE.rst,sha256=WmvE_Xk6b79mN0a6RWea26Z5dRiI4mHxUYsuP_B6Qoc,1143
+django_loader-0.0.10.dist-info/METADATA,sha256=TRpS5ZIN2SJESXRELiDvloHYBJ37WNWCmKHf1k2BXL8,4975
+django_loader-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_loader-0.0.10.dist-info/top_level.txt,sha256=h4UHiv0wi0vVjn0vSBhjmqeffkiDg3tqi6qtRuT3uXk,12
+django_loader-0.0.10.dist-info/RECORD,,
