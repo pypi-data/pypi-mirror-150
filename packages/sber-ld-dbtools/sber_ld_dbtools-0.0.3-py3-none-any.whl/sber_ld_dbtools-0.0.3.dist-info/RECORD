@@ -1,0 +1,17 @@
+sber_ld_dbtools/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+sber_ld_dbtools/credentials/__init__.py,sha256=sJsqDEjj1UpsnzVG_UssOy1v6P0Pdn3zUYRC7pnqRxQ,48
+sber_ld_dbtools/credentials/_core.py,sha256=kzXLpnIfZw_489RoSEehlf2_fAaO1RAPtwIFhzwnKTA,3241
+sber_ld_dbtools/loader/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sber_ld_dbtools/loader/greenplum/__init__.py,sha256=-dMXf6Eq5KJLX0u8n9ReaN4wjh_K24LjbVo0b7pucoc,53
+sber_ld_dbtools/loader/greenplum/_core.py,sha256=WAykqZPGQM81sX4B_2fsMQyi4TwC9AgJCVAl7p5fnhU,2424
+sber_ld_dbtools/loader/oracle/__init__.py,sha256=CEC5lS8k_sF2j75x7OUD_M8mohqxLYdu69aSNQkY9xU,50
+sber_ld_dbtools/loader/oracle/_core.py,sha256=HUAmxTODW9_zgkmikgDzGEHImNrGZfYWz-h0ocb6u40,5734
+sber_ld_dbtools/loader/spark/__init__.py,sha256=vkiPsZoouSJQP2lniFWGFZYZwZjlfEFmo7o5HO1F-bA,49
+sber_ld_dbtools/loader/spark/_core.py,sha256=Eh_3yf-2O0aE9MvdXrRJiJoxIOLIJrU8WvVDq-mh7Zc,4765
+sber_ld_dbtools/loader/teradata/__init__.py,sha256=9X0Z1gbvKvMu8FhWZnDSrzA0iJIkEyh4AMVML3yuktk,52
+sber_ld_dbtools/loader/teradata/_core.py,sha256=29Kag2zKW2JYmT9Vt1f0tksyMT4FDquH3rrPUBqvv50,3683
+sber_ld_dbtools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sber_ld_dbtools-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sber_ld_dbtools-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sber_ld_dbtools-0.0.3.dist-info/METADATA,sha256=nRjArRBtzARzR2_X9p6IX8PsXCVn1IRkCJXvcccIjJw,1049
+sber_ld_dbtools-0.0.3.dist-info/RECORD,,
