@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rhoknp
+Version: 0.1.0
+Summary: Yet another Python binding for Juman++/KNP
+Home-page: https://github.com/ku-nlp/rhoknp
+License: MIT
+Author: Hirokazu Kiyomaru
+Author-email: h.kiyomaru@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/ku-nlp/rhoknp
