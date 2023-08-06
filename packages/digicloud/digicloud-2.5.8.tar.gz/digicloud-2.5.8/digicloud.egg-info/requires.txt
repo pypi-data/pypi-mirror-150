@@ -1,0 +1,11 @@
+cliff
+rich
+requests
+marshmallow
+setuptools
+tzlocal
+pytz
+sentry-sdk
+
+[dev]
+pytest==6.1.0
