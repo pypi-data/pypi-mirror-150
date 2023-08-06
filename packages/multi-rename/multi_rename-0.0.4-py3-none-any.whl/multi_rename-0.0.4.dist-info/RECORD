@@ -1,0 +1,9 @@
+multi_rename/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multi_rename/renamer.py,sha256=2jB8TPmDzQ8FDCRM5GRpHAXkiROmL8b3aJhsgpSd9ak,7578
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_renamer.py,sha256=m7YcRLNfLpeCXubRxlMFhpM7zVoxxz7WRPazqqC7eB4,3506
+multi_rename-0.0.4.dist-info/LICENSE,sha256=gJNPmh2L8to8OcohQCt7AP9nDxOQ2qfEXPMKiiVuH-o,1092
+multi_rename-0.0.4.dist-info/METADATA,sha256=UzYL2kImknfXDXMX8AvTKqi0VXJGM9eas2dM8cJBqvs,3669
+multi_rename-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+multi_rename-0.0.4.dist-info/top_level.txt,sha256=A0Dr5Gb5i-WghuV9x8kkSzi3cPAlg6bySOIFREA7yWI,19
+multi_rename-0.0.4.dist-info/RECORD,,
