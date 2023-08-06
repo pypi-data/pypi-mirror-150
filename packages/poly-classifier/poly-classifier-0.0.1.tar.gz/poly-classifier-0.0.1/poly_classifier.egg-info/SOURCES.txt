@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+poly_classifier/__init__.py
+poly_classifier/__main__.py
+poly_classifier/rooted_poly_decider.py
+poly_classifier/unrooted_poly_decider.py
+poly_classifier.egg-info/PKG-INFO
+poly_classifier.egg-info/SOURCES.txt
+poly_classifier.egg-info/dependency_links.txt
+poly_classifier.egg-info/requires.txt
+poly_classifier.egg-info/top_level.txt
