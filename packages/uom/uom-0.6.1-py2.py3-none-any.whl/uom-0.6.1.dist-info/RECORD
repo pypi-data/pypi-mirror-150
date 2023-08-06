@@ -1,0 +1,12 @@
+uom/__init__.py,sha256=PR-0hyFOQzFpXsyA3caV-faH6guWGmy19-qQtuXUqDc,229
+uom/cmd_line.py,sha256=g5_wCKTxuFiRwjAz4ygdwnA9DTd4iXDsVAniLASV0rk,1504
+uom/unit_alias.py,sha256=V39hsaFtEcnHNU88vdkxlliHhebY7EcWkKlfFVYkcL4,3755
+uom/uom.csv,sha256=ahmY852VsiXbBTMF1kKp025slDOnVTOZAD7cRA0twd4,144435
+uom/uom.py,sha256=3IkS25WVmTYo88uH54Xrys2tBlHYA4i-xVPmSK6WsM0,4274
+uom/uomdata.py,sha256=kRQi2icq9a2A9G7TLbyRSIeKVHatZ-GCaQM4jE_WIa8,203
+uom-0.6.1.dist-info/LICENSE.md,sha256=4CYT2ru-u0aQdnk6rJI4cRc_gqau_zuKEOHwRGsMpBo,1327
+uom-0.6.1.dist-info/METADATA,sha256=m5vfEIw0BPEpDvFTL2wiqiT596pw3GkYAdJSRuwU50E,4614
+uom-0.6.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+uom-0.6.1.dist-info/entry_points.txt,sha256=Oe578YAHO05MQGT3_0Lcs1GqswDLP-XjFsRdMiWahTc,106
+uom-0.6.1.dist-info/top_level.txt,sha256=ZHSmaorRlvr-sx85rgXW0Gdck0b8ghRDlZKMTED2tps,4
+uom-0.6.1.dist-info/RECORD,,
