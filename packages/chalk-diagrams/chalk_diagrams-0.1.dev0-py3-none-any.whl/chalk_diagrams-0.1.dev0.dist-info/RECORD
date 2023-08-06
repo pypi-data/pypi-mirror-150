@@ -1,0 +1,12 @@
+chalk/__init__.py,sha256=_oKl24-Ql4K-T1AyhV8Wq7iecfdGmxuUx2YfiD445h0,2965
+chalk/bounding_box.py,sha256=EOMkc_NMUEZ75Ye8UeTUMVQlcq9ZKaVFJIraAiuVEEs,2667
+chalk/core.py,sha256=RqiJjw8UUQWDBS_Kz5eteE04HwqLnLRRuqmkIXddb5o,13666
+chalk/point.py,sha256=jRyFhX1scXxXa67dbl4GIz-ElPDQMVEujXQbtX42udo,1340
+chalk/shape.py,sha256=AW1x8pJF0bazzzZH31VTXXflw4Wx1tpyfRodKUqJSDY,5919
+chalk/style.py,sha256=D4SbS_GJ91qg1cDRPUvLkT7mmoA7UvaX9y7X4MTzt0o,2025
+chalk/trail.py,sha256=oIblrCv6ZslxSKDRHz7PtBkvAlHfw6o5DIAGoMuOm-I,1396
+chalk/transform.py,sha256=RM43I9qQa4x9Q4Hu4h23mIkALIqcPp3jjUR8kO0l48U,1487
+chalk_diagrams-0.1.dev0.dist-info/METADATA,sha256=nbne1k_Eu1RuMS5c9j6WS5yBy99P7feoLXB-XkzU668,3507
+chalk_diagrams-0.1.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chalk_diagrams-0.1.dev0.dist-info/top_level.txt,sha256=1Q6_19IGYfNxSw50W8tYKEJ2t5HKQ3W9Wiw4ia5yg2c,6
+chalk_diagrams-0.1.dev0.dist-info/RECORD,,
