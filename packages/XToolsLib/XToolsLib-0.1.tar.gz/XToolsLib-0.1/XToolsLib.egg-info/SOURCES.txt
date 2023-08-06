@@ -1,0 +1,10 @@
+setup.py
+XToolsLib/FakeMail.py
+XToolsLib/MailChecker.py
+XToolsLib/Requests.py
+XToolsLib/__init__.py
+XToolsLib.egg-info/PKG-INFO
+XToolsLib.egg-info/SOURCES.txt
+XToolsLib.egg-info/dependency_links.txt
+XToolsLib.egg-info/requires.txt
+XToolsLib.egg-info/top_level.txt
