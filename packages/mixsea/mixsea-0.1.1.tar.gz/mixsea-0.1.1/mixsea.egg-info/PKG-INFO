@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mixsea
+Version: 0.1.1
+Summary: Ocean mixing parameterizations
+Home-page: https://github.com/modscripps/mixsea
+Author: mixsea Developers
+Author-email: 
+License: MIT License
+Project-URL: Documentation, https://mixsea.readthedocs.io
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+======
+mixsea
+======
+
+
+.. image:: https://img.shields.io/pypi/v/mixsea.svg
+        :target: https://pypi.python.org/pypi/mixsea
+
+.. image:: https://github.com/modscripps/mixsea/actions/workflows/mixsea-pytest.yml/badge.svg
+        :target: https://github.com/modscripps/mixsea/actions/workflows/mixsea-pytest.yml
+
+.. image:: https://readthedocs.org/projects/mixsea/badge/?version=stable
+        :target: https://mixsea.readthedocs.io/en/latest/?badge=stable
+        :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+        :target: https://github.com/psf/black
+
+
+Ocean mixing parameterizations in python. 
+
+* Free software: MIT license
+* Documentation: https://mixsea.readthedocs.io.
+
+
+Features
+--------
+
+* Thorpe scale based mixing estimates
+
+* Shear/strain based mixing estimates
+
+Credits
+-------
+
+For most parts based on theory and code previously developed in the
+oceanographic community.

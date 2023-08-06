@@ -1,0 +1,6 @@
+numpy
+gsw
+scipy
+
+[test]
+pytest
