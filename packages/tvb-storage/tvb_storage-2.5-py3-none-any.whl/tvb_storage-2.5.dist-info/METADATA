@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tvb-storage
+Version: 2.5
+Summary: A package which handles the storage of TVB data
+Home-page: http://www.thevirtualbrain.org
+Download-URL: https://github.com/the-virtual-brain/tvb-root
+Author: Lia Domide, Paula Prodan, Bogdan Valean, Robert Vincze
+Author-email: tvb.admin@thevirtualbrain.org
+License: GPL-3.0-or-later
+Keywords: tvb brain storage h5
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: cryptography
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pyAesCrypt
+Requires-Dist: scipy
+Provides-Extra: encrypt
+Requires-Dist: syncrypto ; extra == 'encrypt'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
