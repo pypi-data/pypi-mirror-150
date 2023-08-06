@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lilbulb
+Version: 1.0.3
+Summary: Dave's lil' bulb - small function lib for creating ilidata.xml files.
+Home-page: https://github.com/signedav/lilbulb
+Author: Dave Signer
+Author-email: david@opengis.ch
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![lilbulb](assets/lilbulb.png)
+
+Dave's lil' bulb - small function lib for creating ilidata.xml files and other utilities...
+
+```
+pip install lilbulb
+```
+
+```
+>>> import lilbulb
+
+>>> lilbulb.make_ilidata( path='.', project_name='daves_kbs15', owner='signedav@lilbulb.ws', dataset_version='2022-05-11', publishing_date='2022-05-31', linking_models=['KbS_V1_5'])
+```

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lilbulb/__init__.py
+lilbulb.egg-info/PKG-INFO
+lilbulb.egg-info/SOURCES.txt
+lilbulb.egg-info/dependency_links.txt
+lilbulb.egg-info/top_level.txt
