@@ -1,0 +1,15 @@
+phipsair/__init__.py,sha256=OFVyQwkR7wotRp8g5jQETM05bHHlvjCCMh02Ozuq07g,80
+phipsair/__main__.py,sha256=PgUA_dzjkHeHgSf-1TLzXktD7nMgwyo9PYrSG1vYrnA,69
+phipsair/cli.py,sha256=CO5bUlcSqYMLtF4N8pqk90YKhk2sw0TQrfFkSAdJS-w,3811
+phipsair/purifier.py,sha256=HxMgGewpIXx1UEfc096HyaXhesw24Yg2S3eGiZAIris,13005
+phipsair/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phipsair/coap/__init__.py,sha256=zoKGCl19fyLN3WTyAdG9uM-isUMdIILVS0OPTJdVN70,40
+phipsair/coap/aiocoap_monkeypatch.py,sha256=O5MrsmHPRVDMQv-_WoyDz84Hz_pQe5fnZWnLeygKxs4,685
+phipsair/coap/client.py,sha256=xDXGhpKroj-uA3hn3mG0KBbQAkUzMrLPYhyuRPVh8ZM,5785
+phipsair/coap/encryption.py,sha256=Ixnf1doW_k96H3-DKBwBvo8a_WI_eAEthC_fnF4QyxI,2196
+phipsair-0.5.0.dist-info/LICENSE,sha256=iS-NuG5IugGevziln8iNHfRMU3ZrGzPCgFYC5tVSkfI,1117
+phipsair-0.5.0.dist-info/METADATA,sha256=IUjlkDwSgTH3XLoSHmeXN1HLYEzYy4qw_diYYRFt-t4,1079
+phipsair-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+phipsair-0.5.0.dist-info/entry_points.txt,sha256=rTMr5bzOdBXVBSOnaYcRM8Oyn_JzSvhURFipJ_2_gQY,52
+phipsair-0.5.0.dist-info/top_level.txt,sha256=LV2Ixxi8t490b5DzWIsWlM-lkUEtwNRLqWJ1Uvmzm7w,9
+phipsair-0.5.0.dist-info/RECORD,,
