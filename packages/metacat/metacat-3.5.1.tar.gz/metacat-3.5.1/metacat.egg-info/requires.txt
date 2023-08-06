@@ -1,0 +1,4 @@
+pythreader>=2.6
+pyjwt
+pyyaml
+lark
