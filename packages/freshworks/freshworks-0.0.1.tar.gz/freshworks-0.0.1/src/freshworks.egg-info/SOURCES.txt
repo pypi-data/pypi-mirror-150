@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/freshworks.egg-info/PKG-INFO
+src/freshworks.egg-info/SOURCES.txt
+src/freshworks.egg-info/dependency_links.txt
+src/freshworks.egg-info/requires.txt
+src/freshworks.egg-info/top_level.txt
