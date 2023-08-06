@@ -1,0 +1,25 @@
+# Byte-compiled and optimized files
+__pycache__/
+*.py[co]
+*$py.class
+
+# Distribution / Packaging
+*.egg-info
+*.eggs
+MANIFEST
+build/
+dist/
+
+# Unit test and coverage files
+.cache/
+.coverage
+.coverage.*
+.tox/
+htmlcov/
+
+# OS X Finder
+.DS_Store
+.pytest_cache
+
+# auto-generated version file
+Lib/fontMath/_version.py
