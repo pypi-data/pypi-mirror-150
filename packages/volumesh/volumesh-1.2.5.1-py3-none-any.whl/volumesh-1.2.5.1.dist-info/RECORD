@@ -1,0 +1,11 @@
+volumesh/FastGeometryLoader.py,sha256=OvWqbuWjUqc95Ek-_g26NbNZL38GEmE5NiN2bnSr7AI,5130
+volumesh/GLTFMeshSequence.py,sha256=yElozz6QVcvtCHEyQ6PslwGrJs_BEBt2Ue1sw9gEZQU,12267
+volumesh/Volumesh.py,sha256=o0gxj3drgWhCgvXE0uVsqKn5QdRCNYLxYkOXCkaNx8Y,2973
+volumesh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volumesh/__main__.py,sha256=LmZGlNwIRLCRjYXhQQhH13UenbJockaPbrcJhRgRV38,2408
+volumesh/utils.py,sha256=D8Tk2P87vV7OhQUlq9ZDxLNHaMcsO7kyzJctvB8aLXk,998
+volumesh-1.2.5.1.dist-info/METADATA,sha256=Wps0a5oFveGvCQUzmV8RaMaU2O2vG-wIJVecKcSUgAo,3374
+volumesh-1.2.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+volumesh-1.2.5.1.dist-info/entry_points.txt,sha256=we6936Qwd7KrWJ_J4aWrTyv3LSeumndIqbXVb-gN_3Q,53
+volumesh-1.2.5.1.dist-info/top_level.txt,sha256=oyIjppDl3PpHfLpA-JvLnbqTIuLF_reMz5yxZglcMyk,9
+volumesh-1.2.5.1.dist-info/RECORD,,
