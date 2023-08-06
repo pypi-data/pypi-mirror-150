@@ -1,0 +1,11 @@
+linearAlgebraCalc/__init__.py,sha256=Kk2ePJ0ckATPe7-OIS61D5XYFeguGoqGrUd5TTh8qxk,2792
+linearAlgebraCalc/basicOperations.py,sha256=1T-65GaAIReKNuwX6M36FVVjtP8j0kFeVh2Q_0B8pfk,1455
+linearAlgebraCalc/eigan.py,sha256=jSX8PXCmPwdQQ1r5unAOaFXGxtkoSXV_pAiJ7CRE5k4,587
+linearAlgebraCalc/equations.py,sha256=chsYDpRjPVbDJuMgm84VW2Pt64POwX6mG1Eh1D8GXd8,38
+linearAlgebraCalc/globalFunctions.py,sha256=h0OB0bvcewC0V9pWIyxw-A_f3zqmiI1AO0LmK0lna3s,281
+linearAlgebraCalc/matrixOperations.py,sha256=Dg2JLjgiGgkRy92oKw5oCbZDQ7-o-b3c3vgghSDx9Tg,2836
+linearAlgebraCalc/main/__init__.py,sha256=K6nWamb2Pd60MFhTS8tN-fnt0LYE0FhxY3dl4G9tYGw,1904
+linearAlgebraCalc-0.0.20.dist-info/METADATA,sha256=KTkvqKlXZbpl18Qo0dRuffdRSuNazc_oPmO6lMI-oDs,633
+linearAlgebraCalc-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+linearAlgebraCalc-0.0.20.dist-info/top_level.txt,sha256=M3DIxzkgb40zsFArLo5sPgusZrCE1bQpALOIh5SXE2Y,18
+linearAlgebraCalc-0.0.20.dist-info/RECORD,,
