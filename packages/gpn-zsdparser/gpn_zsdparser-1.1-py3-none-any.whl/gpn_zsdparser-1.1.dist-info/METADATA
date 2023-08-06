@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gpn-zsdparser
+Version: 1.1
+Author: Anatoly Bryksin
+Author-email: anatoly.bryksin@gmail.com
+Requires-Python: >=3.8
+Requires-Dist: kaitaistruct (==0.9)
+Requires-Dist: psycopg2-binary (==2.9.1)
+Requires-Dist: SQLAlchemy (==1.4.22)
+
