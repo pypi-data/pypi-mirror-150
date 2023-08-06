@@ -1,0 +1,7 @@
+click>=4.1
+Pygments>=1.6
+prompt_toolkit>=3.0.8
+cli_helpers[styles]>=1.0.1
+PyJWT>=2.4.0
+requests
+urllib3>=1.21.1
