@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+pymailorganizer/__init__.py
+pymailorganizer/display.py
+pymailorganizer/imap.py
+pymailorganizer/main.py
+pymailorganizer.egg-info/PKG-INFO
+pymailorganizer.egg-info/SOURCES.txt
+pymailorganizer.egg-info/dependency_links.txt
+pymailorganizer.egg-info/entry_points.txt
+pymailorganizer.egg-info/requires.txt
+pymailorganizer.egg-info/top_level.txt
