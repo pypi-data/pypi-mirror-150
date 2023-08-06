@@ -1,0 +1,8 @@
+setup.py
+dateconfig/__init__.py
+dateconfig/dateconfig.py
+dateconfig.egg-info/PKG-INFO
+dateconfig.egg-info/SOURCES.txt
+dateconfig.egg-info/dependency_links.txt
+dateconfig.egg-info/not-zip-safe
+dateconfig.egg-info/top_level.txt
