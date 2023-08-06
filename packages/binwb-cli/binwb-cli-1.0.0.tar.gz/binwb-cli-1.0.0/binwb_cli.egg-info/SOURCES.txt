@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+binwb_cli/LICENSE
+binwb_cli/__init__.py
+binwb_cli/api.py
+binwb_cli/config.py
+binwb_cli/main.py
+binwb_cli.egg-info/PKG-INFO
+binwb_cli.egg-info/SOURCES.txt
+binwb_cli.egg-info/dependency_links.txt
+binwb_cli.egg-info/requires.txt
+binwb_cli.egg-info/top_level.txt
+scripts/binwb

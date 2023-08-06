@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+from binwb_cli.main import main
+main()
