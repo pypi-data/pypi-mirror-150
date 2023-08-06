@@ -1,0 +1,3 @@
+[console_scripts]
+biser = biser.__main__:console
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+biser/__init__.py
+biser/__main__.py
+biser/cover.py
+biser/version.py
+biser.egg-info/PKG-INFO
+biser.egg-info/SOURCES.txt
+biser.egg-info/dependency_links.txt
+biser.egg-info/entry_points.txt
+biser.egg-info/requires.txt
+biser.egg-info/top_level.txt
