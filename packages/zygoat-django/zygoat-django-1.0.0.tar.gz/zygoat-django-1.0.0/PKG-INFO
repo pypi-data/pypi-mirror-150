@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zygoat-django
+Version: 1.0.0
+Summary: 
+Author: Mark Rawls
+Author-email: markrawls96@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (>=2)
+Requires-Dist: django-environ (>=0.4.4)
+Requires-Dist: django-redis (>=5.0.0)
+Requires-Dist: djangorestframework (>=3.9.1)
+Requires-Dist: djangorestframework-camel-case (>=1.2.0)
+Requires-Dist: importlib-metadata (>=4.11.3,<5.0.0)
+Requires-Dist: uvicorn[standard] (>=0.13.0)
