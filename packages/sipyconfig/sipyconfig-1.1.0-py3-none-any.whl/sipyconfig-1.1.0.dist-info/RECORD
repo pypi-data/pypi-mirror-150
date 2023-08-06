@@ -1,0 +1,12 @@
+sipyconfig/__init__.py,sha256=XlGwmmcuLOmU_qHJwyNqeiTvziCX1MIg-B99_MhOEUc,200
+sipyconfig/card.py,sha256=u0jmoQFzSyTA8U4y-94jvV6vZRYjWa57SQhHWXoquK0,22816
+sipyconfig/comms.py,sha256=EMQfQ2VQp5Hv5JRQfeazo0pFdfJpJDl7cT7bsiDVoUQ,7186
+sipyconfig/crc.py,sha256=GRyNfXG7b1mytfeKPAYsMhS9s-yAQH1jpGcTCcEgY-k,1363
+sipyconfig/enums.py,sha256=IAFc-Fkf6af0HOgST2WY-mmczIqMziy5_VtP8EERuWc,6872
+sipyconfig/station.py,sha256=WOwKgyRVJNfWT76NptvES-gpNqqL9-6KhJWHS8Yj4bc,22971
+sipyconfig/utils.py,sha256=jg0sK7YbPLjU4IYgwhqDXm7cHwssCKXQlHl72XpGWA0,3170
+sipyconfig-1.1.0.dist-info/LICENSE,sha256=effMlpKuo0mE3kB4v2qtfWx6iFl0CZvID6GM49urYyw,35084
+sipyconfig-1.1.0.dist-info/METADATA,sha256=PY8H28EYYHx0jtM_EuaNIXFuRzD8S6bm-wGWxF1o0wI,1186
+sipyconfig-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sipyconfig-1.1.0.dist-info/top_level.txt,sha256=6dYXll8gMA1bNRZGmdoEjFcvjKTeTY7DYd88oe1CMbc,11
+sipyconfig-1.1.0.dist-info/RECORD,,
