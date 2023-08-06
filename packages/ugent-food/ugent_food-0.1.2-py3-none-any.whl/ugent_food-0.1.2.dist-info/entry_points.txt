@@ -1,0 +1,2 @@
+[console_scripts]
+ugent-food = ugent_food:main
