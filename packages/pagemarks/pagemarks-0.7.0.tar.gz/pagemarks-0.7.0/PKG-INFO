@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: pagemarks
+Version: 0.7.0
+Summary: Free, git-backed, self-hosted bookmarks
+Home-page: https://pagemarks.org
+Author: Barfuin
+Author-email: oss@barfuin.org
+License: GPL-3.0-only
+Project-URL: Documentation, https://pagemarks.org
+Project-URL: Release Notes, https://gitlab.com/barfuin/pagemarks/-/releases
+Project-URL: Source, https://gitlab.com/barfuin/pagemarks
+Project-URL: Tracker, https://gitlab.com/barfuin/pagemarks/-/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pagemarks
+
+Free, git-backed, self-hosted bookmarks
+
+## Requirements
+
+- Git (1.7.x or newer)
+- Python >= 3.10
+
+### Status
+
+Under development - do not use yet
+
+
+## Bookmark File Format
+
+Each bookmark is stored in a JSON document with the following fields:
+
+| Field        | Type             | Mandatory? | Description                         |
+|:-------------|:-----------------|:----------:|:------------------------------------|
+| `name`       | string           | no         | the bookmark's title                |
+| `url`        | string           | YES        | the bookmark's URL                  |
+| `tags`       | array of strings | no         | Tags must be `[a-z0-9_-]{1,20}`, that is 20 characters or shorter, lower-case alphanumeric plus hyphen and underscore. |
+| `notes`      | string           | no         | plain text notes about the bookmark |
+| `date_added` | string           | no         | Date when the bookmark was added, in the format `2021-08-05 16:12:00`. A date-only format is possible (`2018-10-15`) in which case the time is assumed to be `00:00:00`. The timezone is always UTC. Missing dates are treated as the epoch. |
+
+
+## Development
+
+Refresh CI image:
+
+    docker login registry.gitlab.com
+    docker pull python:3.10-slim-bullseye
+    docker build -t registry.gitlab.com/barfuin/pagemarks/ci:latest -f Dockerfile.ci --progress=plain .
+    docker push registry.gitlab.com/barfuin/pagemarks/ci:latest

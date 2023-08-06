@@ -1,0 +1,19 @@
+{
+    "http://example.com": "31/rhoonjcgu2owxg64agwhkj.json",
+    "https://example.com": "22/gj6d7wuhzyugqsffosmc3x.json",
+    "HTTPS://example.com": "22/gj6d7wuhzyugqsffosmc3x.json",
+    "http://example.com/": "31/rhoonjcgu2owxg64agwhkj.json",
+    "http://example.com/?": "05/czctmedgyhj3wsvqh4bqbl.json",
+    "http://example.com/#": "29/t64e6janwg4izdem5of7ht.json",
+    "http://example.com/foo": "31/5f5vuus7tj463ujy4ptosm.json",
+    "http://example.com/foo/": "31/5f5vuus7tj463ujy4ptosm.json",
+    "http://exAMPLE.cOm/foo/": "31/5f5vuus7tj463ujy4ptosm.json",
+    "http://user:pwd@example.com": "31/c7nbhyygqnsalaqt7b27md.json",
+    "http://user:PWD@example.com": "22/apbnqgjhy76pxkglpn7zqs.json",
+    "http://example.com/foo?key=value/": "19/uko4mqqlrmobfxd4ekwz5q.json",
+    "http://example.com/foo#hash": "05/qe7khxmmwa22dj32iwybxq.json",
+    "http://example.com/foo#HASH": "15/azydyq7zi6vigodkdnecfr.json",
+    "http://example.com/foo#hash/": "06/effmqn2yrrfweqogqytblz.json",
+    "http://example.com/foo?key=value&bar#hash": "31/pjnjlow5upb3od3yc6jlnp.json",
+    "http://example.com/foo?key=value&bar#hash/": "04/2tfzzfwhxitnbi5pso3htb.json"
+}
