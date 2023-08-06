@@ -1,0 +1,1 @@
+from inkript import enkrypt

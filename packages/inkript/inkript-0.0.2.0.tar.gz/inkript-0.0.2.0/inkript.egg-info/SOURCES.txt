@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+inkript/__init__.py
+inkript/enkrypt.py
+inkript.egg-info/PKG-INFO
+inkript.egg-info/SOURCES.txt
+inkript.egg-info/dependency_links.txt
+inkript.egg-info/requires.txt
+inkript.egg-info/top_level.txt
