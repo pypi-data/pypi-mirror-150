@@ -1,0 +1,13 @@
+fastapi_discord/__init__.py,sha256=dADoSvdvfb0gZPOzC-zM73vKrSWdLD_mSQWhIKLCEYA,137
+fastapi_discord/client.py,sha256=shJaf3rud7HPYv3HIlZnMBHkmEUVmmQ0xRdoF8q5b7A,6655
+fastapi_discord/config.py,sha256=cfAqo2hfjF55e_Ja-7gysdK9Rkj1cJq4AaAf88vekC4,243
+fastapi_discord/exceptions.py,sha256=IgRJbgUouGhASd_jN6nOaqZjKL-I7dcXsJ0OyfmayH4,741
+fastapi_discord/models/__init__.py,sha256=XvWVjiQJF90j5g_TxSevpKM793XVS7I_N419OaxdCaQ,85
+fastapi_discord/models/guild.py,sha256=ip1OSVL3_LP13au4LMUcSHotGL6_mTEibXWoWnhFSeM,410
+fastapi_discord/models/role.py,sha256=tKtejDwSD55hjW0UMHtmhyVT7CfJbhQp66XhfqnoPvo,176
+fastapi_discord/models/user.py,sha256=kRomNzGjJx-6fxsYQrjfeMRwZaT_dVY-gh2EMFG8jxQ,639
+fastapi_discord-0.2.2.dist-info/LICENSE,sha256=_LTHy3rii70Oyk1MJUF3e1NLVZL7O45frgYBxetOYtA,1048
+fastapi_discord-0.2.2.dist-info/METADATA,sha256=Q-WxO4d_A85Tr6dET3aFjBFE2o9ToI1h4mwIvFg8ksc,2772
+fastapi_discord-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastapi_discord-0.2.2.dist-info/top_level.txt,sha256=nOpN6y7FVddGzYkY0O87oIl8MqWtS6Qg2_DI1GnuTyE,16
+fastapi_discord-0.2.2.dist-info/RECORD,,
