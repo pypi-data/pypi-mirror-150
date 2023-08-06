@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tsfuse
+Version: 0.1.2
+Summary: Automated feature construction for multiple time series data
+Home-page: UNKNOWN
+Author: Arne De Brabandere
+License: Apache 2.0
+Project-URL: TSFuse documentation, https://arnedb.github.io/tsfuse/
+Project-URL: TSFuse source, https://github.com/arnedb/tsfuse
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: test
