@@ -1,0 +1,15 @@
+webargparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webargparse/__main__.py,sha256=YSTuq0x8cRvGWOfU-rqawrcTlLLTE0U_mhac7HWkrvM,1409
+webargparse/homepage.py,sha256=rRbwtjSp3z3mpMUaGwHExVS6xq7XaDKD2q2z9KRiYoI,3276
+webargparse/types.py,sha256=NPOjqAhsdWXNIjGBGYGfz_7MR0VzZQaDJWMy8J0Djtg,1553
+webargparse/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webargparse/example/demo.py,sha256=YE7EjpP0vIWtIJ24Lr4KuQ6VjdaLM2hpOdfVGF-eGAY,3631
+webargparse/example/demo1.py,sha256=H-Kbm6EMS-isQyFmKDsk9yuheqNRdgso4gXgiYe93Hw,1292
+webargparse/example/demo2.py,sha256=NZ12ZUaqd6XqzmoH0kAPPAjyGWCbQ6wHXeLtsebGEtw,782
+webargparse/pages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webargparse/pages/argparsepage.py,sha256=YpyCgVTOjDhFUXb0oTYVdLdpUwmjQxGAZU2AKKmPR8s,10876
+pywebargparse-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pywebargparse-0.1.dist-info/METADATA,sha256=jUYWHz2ZzdDxkWMVbR1Ql4uRMVbQsvdEsX0q4TNhvnY,385
+pywebargparse-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pywebargparse-0.1.dist-info/top_level.txt,sha256=JI3Zim2ljHejZ5laG_2SGPVuvYonJUgrbI6hPrHm21A,12
+pywebargparse-0.1.dist-info/RECORD,,
