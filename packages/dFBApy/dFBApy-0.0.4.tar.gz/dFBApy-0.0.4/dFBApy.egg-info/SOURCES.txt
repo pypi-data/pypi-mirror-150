@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+dFBApy.egg-info/PKG-INFO
+dFBApy.egg-info/SOURCES.txt
+dFBApy.egg-info/dependency_links.txt
+dFBApy.egg-info/requires.txt
+dFBApy.egg-info/top_level.txt
+dfbapy/BiGG_metabolite_names, parsed.json
+dfbapy/BiGG_metabolites, parsed.json
+dfbapy/__init__.py
+dfbapy/dfba.py
+test/__init__.py
+test/iSB619.xml
+test/model_kinetics.json
+test/test_dfbapy.py
