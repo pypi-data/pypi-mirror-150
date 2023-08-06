@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: threshold-elgamal
+Version: 0.0.12
+Summary: Threshold ElGamal cryptosystem
+Home-page: https://threshold-elgamal.readthedocs.io/en/latest/index.html
+Author: Katarina Boras
+Author-email: katarina.boras2@outlook.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/kboras/threshold-elgamal
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Threshold ElGamal cryptosystem
+
+This is a library that provides methods for threshold encryption, decryption and DKG (distributed key generation) algorithm using the ElGamal cryptosystem. Threshold ElGamal encryption and decryption algorithms were based on Cachin's [work](https://cachin.com/cc/sft12/distcrypto.pdf), and the algorithm used for distributed key pair generation was based on a 1999 [paper](https://link.springer.com/chapter/10.1007/3-540-48910-X_21) by Gennaro et al. Both algorithms use a form of secret sharing first introduced in a 1979 [paper](https://dl.acm.org/doi/abs/10.1145/359168.359176) by Shamir. 
+
+## Installation
+
+Before installing the library, make sure its dependencies are installed: `pycryptodome`, `gmpy2` and `setuptools`. The library is written for Python >= 3.9.
+
+You can then install the library via `pip`:
+
+```
+pip install threshold-elgamal
+```
+
+## Getting started
+The simplest way you can test out this library is by running its main function:
+
+```python
+from threshold_elgamal import run_tc_scheme
+
+res = run_tc_scheme(k=3, n=5, m=10)
+if res is True:
+    print("Success!")
+```
+
+You can also create your own threshold scheme manually, and then encrypt and decrypt a message of your choosing:
+```python
+from threshold_elgamal import create_tc_scheme
+
+message = 10
+public_key, players, scheme = create_tc_scheme(k=3, n=5)
+c1, c2 = scheme.encrypt(public_key, message=message)
+decryption_shares = {player.id: player.get_decryption_share(c1) for player in players}
+decrypted_msg = scheme.decrypt(c2, decryption_shares)
+
+if decrypted_msg == message:
+    print("Success!")
+```
+
+
+
