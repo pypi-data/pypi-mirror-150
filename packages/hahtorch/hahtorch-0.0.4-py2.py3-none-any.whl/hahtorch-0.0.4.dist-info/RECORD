@@ -1,0 +1,11 @@
+hahtorch/__init__.py,sha256=4_ENWpT4Pc_TuuppZjy5VwDn2KX89L1iqnms0fkg3WE,310
+hahtorch/_costs.py,sha256=Jpq3DT8nRUofdek6eFUOP2jEq2oEXletSXquumhIxgg,2394
+hahtorch/_extract_features.py,sha256=SPbd0lpeo4LJBraxUpnRQL4I7RG8bUHQVuB9wrJIyU0,2096
+hahtorch/_layers.py,sha256=QP8FdlU4L08ShTciKx0Sd_5l4fi2uMSjOoGEXbhzIKA,7215
+hahtorch/_models.py,sha256=M8Bn-4H0gL-ge3Kzegpm1Qdv-7sibbmD8pIIAbqplNk,6030
+hahtorch/_version.py,sha256=cfZEF5Q3WakBJfUb5ivfQ27M95bFuPHcF7xZ8JlzB1E,128
+hahtorch-0.0.4.dist-info/LICENSE,sha256=P0bngDY-dEFA8MXjh0rIXikC5gcEc3NugKaMPRDEbg8,1070
+hahtorch-0.0.4.dist-info/METADATA,sha256=G4bW4ORVWITaNT7bpZ6qenbu-PjrpCG6Fo40fhCURbg,1843
+hahtorch-0.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hahtorch-0.0.4.dist-info/top_level.txt,sha256=2xGC31OcE-HSXJidoAmcRZBvvm6xRlCB7UukbWu9C0U,9
+hahtorch-0.0.4.dist-info/RECORD,,
