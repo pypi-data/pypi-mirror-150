@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: nsfw-screen-detect
+Version: 0.1.0
+Summary: A small python package for detecting nsfw on a Windows display.
+Home-page: https://github.com/dickermoshe/nsfw_screen_detect
+Author: Moshe Dicker
+Author-email: dickermoshe@gmail.com
+License: GNU General Public License v3
+Keywords: nsfw_screen_detect
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: mss
+Requires-Dist: pyautogui
+
+
+# NSFW Screen Detect
+
+A small python package for detecting nsfw on a Windows display.
+
+```
+# Import and initialize the main Checker class
+
+from nsfw_screen_detect import Checker
+checker = Checker()
+
+# Run check on all monitors
+results = checker.check()
+
+# Run check on active window
+results = checker.check(input='active_window')
+
+# Run check for skin content
+results = checker.check(check_type='skin')
+
+# Run check without parsing real pictures from screenshot
+results = checker.check(parse_images=False)
+```
+
+Big thanks to NudeNet for their AI model.
