@@ -1,0 +1,11 @@
+resoto_plugin_digitalocean/__init__.py,sha256=wu57e4Po9WFiZ9we0xs3rQ7T9zZSAY9Sq6BcYQRDeFU,3156
+resoto_plugin_digitalocean/client.py,sha256=S5TyIYWbyN7AOohoRA84Fz9dsE7D396CE5UN8kzy2Tc,15169
+resoto_plugin_digitalocean/collector.py,sha256=z-52lqkuIPmVOr_D6YCyFryVie9fr0MSwMjML1hYRco,42497
+resoto_plugin_digitalocean/config.py,sha256=1lS-L-xkq1VvckaSLuyGGNFL8a7DcC6hKBDesQ2xPzc,569
+resoto_plugin_digitalocean/resources.py,sha256=SUbX86TgxEjEmkf2qa79NpZeJFePaoz6Thd4GeuOir8,23077
+resoto_plugin_digitalocean/utils.py,sha256=HW5gc-qWDrVHT1ovQMfxSY9mom1gYfO10EiOK6OC6U4,3597
+resoto_plugin_digitalocean-2.2.0.dist-info/METADATA,sha256=Apg288jAjdIcRwh4rk7IXfab0V4ADDRpdRx6hG_1jOw,932
+resoto_plugin_digitalocean-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resoto_plugin_digitalocean-2.2.0.dist-info/entry_points.txt,sha256=6RmgMlNtIsbCgX7GAgld8m5dFFSbYPyG9y9J0skxi_Q,97
+resoto_plugin_digitalocean-2.2.0.dist-info/top_level.txt,sha256=oxCDsyclRXwIELt7fCNcCSM4goBPH4uMiTCMDKrfMIw,27
+resoto_plugin_digitalocean-2.2.0.dist-info/RECORD,,
