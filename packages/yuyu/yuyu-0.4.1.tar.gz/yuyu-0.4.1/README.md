@@ -1,0 +1,174 @@
+# Yuyu Scanner Packages
+## A simple package to make your own scanner
+
+
+<img src='data:image/png;base64,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'>
+Create your Hacking Tools with Yuyu Scanner Packages.
+Yuyu Scanner was created by @justakazh using the python programming language which is integrated with several tools including:
+- nmap
+- wappalyzer
+- whois
+
+Yuyu uses several public APIs to get fast and maximum results, including:
+- Subdomain
+
+    ```
+    https://threatcrowd.org/
+    https://urlscan.io/
+    https://rapiddns.io/
+    https://otx.alienvault.com/
+    https://dnsdumpster.com/
+    https://crt.sh/
+    https://api.threatminer.org/
+    https://api.certspotter.com/
+    https://api.hackertarget.com/
+    https://riddler.io/
+    http://index.commoncrawl.org/
+    ```
+
+
+- Collect URL 
+    
+    ```
+    http://web.archive.org/
+    ```
+
+- Reverse IP 
+    
+    ```
+    https://hackertarget.com/
+    ```
+
+- Email Discovery
+    
+    ```
+    https://hunter.io
+    ```
+
+## Features
+
+- Subdomain Enumeration
+- Port Scanner 
+- Find Sensitive Files 
+- Check for live host
+- Collect Information From Website (Technology used)
+- Collect URL From Waybackurl
+- Reverse IP
+- WHOIS
+- Find Email Address 
+
+
+> Reconnaissance Is Key For Hacking
+
+
+## Installation
+
+Requirements:
+```sh
+sudo apt install nmap
+sudo apt install whois
+pip install yuyu
+```
+
+
+## Usage
+
+### Subdomain Enumeration
+```python
+from yuyu_scanner import subdomain
+
+target = "target.domain"
+get = subdomain.check(target).result # get list of subdomain are found
+#['subdomain1.target.domain', 'subdomain2.target.domain', 'subdomain3.target.domain']
+```
+
+### Check Host
+```python
+from yuyu_scanner import host
+
+lst_domain = ['target1.site', 'target2.site']
+get = host.check(lst_domain) 
+get_All = get.result # get all host with ip/status
+#[['target1.site', '0.0.0.0'], ['target2.site', '0.0.0.0']]
+get_Live = get.live # get host are live
+#['target1.site', 'target2.site']
+```
+
+### Collecting Information From Website
+```python
+from yuyu_scanner import information
+
+lst_domain = ['target1.site', 'target2.site']
+get = information.check(lst_domain).result # get list information found
+#[['target1.site', {'Bootstrap': {'versions': ['5.1.3']}, 'Google Tag Manager': {'versions': []}, 'jsDelivr': {'versions': []}, 'DoubleClick for Publishers (DFP)': {'versions': []}, 'Nginx': {'versions': []}, 'jQuery': {'versions': ['3.6.0']}}, 'WEBSITE TITLE'], ['target2.site', {'Bootstrap': {'versions': ['5.1.3']}, 'Google Tag Manager': {'versions': []}, 'jsDelivr': {'versions': []}, 'DoubleClick for Publishers (DFP)': {'versions': []}, 'Nginx': {'versions': []}, 'jQuery': {'versions': ['3.6.0']}}, 'WEBSITE TITLE']]
+```
+### Reverse IP
+```python
+from yuyu_scanner import reverse_ip
+
+target = "target.domain"
+apikey = ""  #you can blank it for trial 
+get = reverse_ip.check(target, apikey).result #get list of result reverse ip
+#['reverse.target.domain', 'randomdomain.domain']
+```
+
+### WHOIS
+```python
+from yuyu_scanner import whois
+
+target = "example.com"
+get = whois.check(target).result #get result of whois
+#Domain Name: EXAMPLE.COM\n   Registry Domain ID: 2336799_DOMAIN_COM-VRSN\n   Registrar WHOIS Server: whois.iana.org\n   Registrar URL: http://res-dom.iana.org\n   Updated Date: 2021-08-14T07:01:44Z\n   Creation Date: 1995-08-14T04:00:00Z\n   Registry Expiry Date: 2022-08-13T04:00:00Z\n   Registrar: RESERVED-Internet Assigned Numbers Authority\n   Registrar IANA ID: 376\n   Registrar Abuse Contact Email:\n   Registrar Abuse Contact Phone:\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\n   Name Server: A.IANA-SERVERS.NET\n   Name Server: B.IANA-SERVERS.NET\n   DNSSEC: signedDelegation\n   DNSSEC DS Data: 31589 8 1 3490A6806D47F17A34C29E2CE80E8A999FFBE4BE\n   DNSSEC DS Data: 31589 8 2 CDE0D742D6998AA554A92D890F8184C698CFAC8A26FA59875A990C03E576343C\n   DNSSEC DS Data: 43547 8 1 B6225AB2CC613E0DCA7962BDC2342EA4F1B56083\n   DNSSEC DS Data: 43547 8 2 615A64233543F66F44D68933625B17497C89A70E858ED76A2145997EDF96A918\n   DNSSEC DS Data: 31406 8 1 189968811E6EBA862DD6C209F75623D8D9ED9142\n   DNSSEC DS Data: 31406 8 2 F78CF3344F72137235098ECBBD08947C2C9001C7F6A085A17F518B5D8F6B916D\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\n'
+```
+### Collecting URL
+```python
+from yuyu_scanner import collect_url
+
+target = "target.domain"
+get = collect_url.check(target).result #get list of result url
+#['https://subdo.target.domain/?url', 'https://target.domain/path']
+```
+
+### Find Email Address
+```python
+from yuyu_scanner import email
+
+target = "target.domain"
+apikey = "" #required! get your apikey from hunter.io
+get = email.check(target, apikey).result #get list of result Email 
+#['admin@target.domain', 'john@target.domain']
+```
+
+### Scan Port
+```python
+from yuyu_scanner import scan_port
+
+lst_target = ['target1.domain', 'target2.domain']
+get = scan_port.check(lst_target).result #get list of result scan port
+#[['139.162.2.200', [['21', 'ftp', 'open'], ['53', 'domain', 'open'], ['80', 'http', 'open'], ['110', 'pop3', 'open'], ['143', 'imap', 'open'], ['443', 'https', 'open']]], ['172.67.136.101', [['53', 'domain', 'open'], ['80', 'http', 'open'], ['443', 'https', 'open']]]]
+```
+
+### Find Sensitive Files
+```python
+from yuyu_scanner import files
+
+lst_target = ['target1.domain', 'target2.domain']
+get = files.check(lst_target).result #get list of result scan port
+# ['http://target1.domain/.git/HEAD', 'http://target1.domain/.env']
+```
+
+
+
+## Publication
+- https://www.researchgate.net/publication/352295423_PENGEMBANGAN_APLIKASI_INFORMATION_GATHERING_MENGGUNAKAN_METODE_HYBRID_SCAN_BERBASIS_GRAPHICAL_USER_INTERFACE
+
+## Contact me
+- [akazh](https://twitter.com/akazh18/) - Twitter
+
+## References
+- https://github.com/screetsec/Sudomy
+- https://github.com/aboul3la/Sublist3r
+
+## Credits & Thanks
+- [Deddy Hariyadi](https://www.instagram.com/milisd4d/) 
+- [Redho Maland](https://github.com/screetsec/)
