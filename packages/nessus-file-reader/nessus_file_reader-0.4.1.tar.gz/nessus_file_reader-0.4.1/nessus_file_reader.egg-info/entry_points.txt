@@ -1,0 +1,3 @@
+[console_scripts]
+nfr = nessus_file_reader.__main__:main
+
