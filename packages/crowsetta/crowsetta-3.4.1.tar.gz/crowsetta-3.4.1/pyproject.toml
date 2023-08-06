@@ -1,0 +1,66 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "crowsetta"
+description = "A tool to work with any format for annotating vocalizations"
+authors = [
+    {name = "David Nicholson", email = "nickledave@users.noreply.github.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "attrs >=19.3.0",
+    "evfuncs >=0.3.5",
+    "birdsong-recognition-dataset >=0.3.2",
+    "numpy >=1.18.1",
+    "pandas >= 1.3.5",
+    "scipy >=1.4.1",
+    "SoundFile >=0.10.3",
+]
+version = "3.4.1"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    'License :: OSI Approved :: BSD License',
+    'Development Status :: 5 - Production/Stable',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: Implementation :: CPython',
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >=6.2.1",
+    "pytest-cov >=2.12.0"
+]
+doc = [
+    "Sphinx>=3.4.3",
+    "jupyterlab>=3.0.3"
+]
+dev = [
+    'flit',
+    'twine',
+]
+
+[project.entry-points."crowsetta.format"]
+birdsong-recognition-dataset = 'crowsetta.birdsongrec'
+csv = 'crowsetta.csv'
+generic-seq = 'crowsetta.generic'
+notmat = 'crowsetta.notmat'
+phn = 'crowsetta.phn'
+textgrid = 'crowsetta.textgrid'
+yarden = 'crowsetta.yarden'
+simple-seq = 'crowsetta.simple'
+
+[project.urls]
+Source = "https://github.com/NickleDave/crowsetta"
+Documentation = "https://crowsetta.readthedocs.io"
+
+[tool.flit.sdist]
+exclude = [
+    "tests/data_for_tests"
+]
