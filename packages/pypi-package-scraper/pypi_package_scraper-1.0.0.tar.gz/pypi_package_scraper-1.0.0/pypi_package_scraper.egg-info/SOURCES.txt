@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypi_package_scraper/__init__.py
+pypi_package_scraper.egg-info/PKG-INFO
+pypi_package_scraper.egg-info/SOURCES.txt
+pypi_package_scraper.egg-info/dependency_links.txt
+pypi_package_scraper.egg-info/requires.txt
+pypi_package_scraper.egg-info/top_level.txt

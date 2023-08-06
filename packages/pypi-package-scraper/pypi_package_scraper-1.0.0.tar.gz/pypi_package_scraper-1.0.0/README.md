@@ -1,0 +1,63 @@
+Pypi Package Scraper is a python library to scrape the search results from the pypi.
+
+### Example
+In this example we first import library, then we will fetch the data.
+```sh
+from pypi_package_scraper import *
+def print_the_data(data):
+	print("Data",data)
+	#data={"body":{"country":"Australia"}}
+	country=data["body"]["country"]
+	print("country",country)
+	
+dk=set_api_key(apiKey="put your api key here")
+dk.pypi_scraper(field_keywords="firebase",callback=print_the_data)
+```
+
+### Installation
+```sh
+pip install pypi-package-scraper
+```
+
+### Import Pypi Package Scraper
+```
+from pypi_package_scraper import *
+```
+
+### Get API Key
+You can get your api key from [here](https://datakund.com/account/login) after login.
+
+### Set API Key
+Set your api key to authenticate
+```sh
+dk=set_api_key(apiKey="put your api key here")
+```
+
+### Run a bot
+```sh
+dk.pypi_scraper(field_keywords="firebase",callback=print_the_data)
+```
+
+### Stop a bot
+It stops the current bot runing.
+```sh
+dk.stop()
+```
+
+### CallBack Function
+This func takes the data returned by bot as a parameter, If you want to operate on data returned by bot, then make your function first and then pass it in callback argument. Consider follwing example:-
+```sh
+from pypi_package_scraper import *
+def print_the_data(data):
+	print("Data",data)
+	#data={"body":{"country":"Australia"}}
+	country=data["body"]["country"]
+	
+dk=set_api_key(apiKey="put your api key here")
+dk.pypi_scraper(field_keywords="firebase",callback=print_the_data)
+```
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+* [Website](https://datakund.com)
+
