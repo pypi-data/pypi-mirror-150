@@ -1,0 +1,10 @@
+{
+  "Done": "موفق.",
+  "Submit": "عملیات با موفقیت انجام شد.",
+  "Page Not Found": "صفحه مورد نظر یافت نشد.",
+  "Undefined Error": "خطای ناشناخته.",
+  "Entered Data Is Not Valid": "اطلاعات ارسالی معتبر نمی‌باشد.",
+  "Bad Request": "درخواست اشتباه.",
+  "Invalid Method": "متد اشتباه.",
+  "Forbidden": "عدم دسترسی."
+}
