@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/gptcloud.egg-info/PKG-INFO
+src/gptcloud.egg-info/SOURCES.txt
+src/gptcloud.egg-info/dependency_links.txt
+src/gptcloud.egg-info/top_level.txt
