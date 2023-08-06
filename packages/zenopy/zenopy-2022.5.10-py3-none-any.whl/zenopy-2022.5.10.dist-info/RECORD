@@ -1,0 +1,12 @@
+zenopy/__init__.py,sha256=mp-wUs_C29uDV6eBts97k7nEGMPViSvMsx4hukGG7LM,287
+zenopy/_version.py,sha256=trg6Lf4EM5RXvmrMCR9KK4076MFdg5KtwnkFlSZmldM,501
+zenopy/zenopy.py,sha256=0TX7rPu-pmHH1g5vLb6biqY_kcRk-KYbc_azYxh7yxk,20583
+zenopy/data/README.md,sha256=gX1-M3tNt9xE4o7gUzbj914VU8jwJ3HM_c-zNp0eTyA,1139
+zenopy/data/look_and_say.dat,sha256=dp65R2oy2pZQvLuRLeAxw7gWbIfhv3omNFXP7DpsPVU,333
+zenopy/tests/__init__.py,sha256=tlIleLX_7zJFwQuwnqP9fJ0nQXdD1uA-l8uX8w4KUKM,112
+zenopy/tests/test_zenopy.py,sha256=bbm3lyg8Qaf_rYLWfROD6h2Jg68cAJ6Ve7Nn7zb7C_0,295
+zenopy-2022.5.10.dist-info/LICENSE,sha256=3CD-1NMK1aPjp5VQNIJfW_gKqDdkbp3YuegIg_PN1Bo,1455
+zenopy-2022.5.10.dist-info/METADATA,sha256=JjoV8zt5Z2TnDmaQvRyUf8_6mmqu3KWs7j2mwU14rTs,849
+zenopy-2022.5.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zenopy-2022.5.10.dist-info/top_level.txt,sha256=38garYBbbq4wRqsOY-ULhlLvlcU3RIkqNUwYc8NXbKM,7
+zenopy-2022.5.10.dist-info/RECORD,,
