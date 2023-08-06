@@ -1,0 +1,12 @@
+README.md
+setup.py
+kucoin/__init__.py
+kucoin/kucoin.py
+kucoin/websocket/SocketManager.py
+kucoin/websocket/SocketSubs.py
+kucoin/websocket/__init__.py
+kucoin_cli.egg-info/PKG-INFO
+kucoin_cli.egg-info/SOURCES.txt
+kucoin_cli.egg-info/dependency_links.txt
+kucoin_cli.egg-info/requires.txt
+kucoin_cli.egg-info/top_level.txt
