@@ -1,0 +1,4 @@
+pydm
+pyqtgraph
+timechart
+timechart_launcher
