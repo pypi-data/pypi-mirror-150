@@ -1,0 +1,8 @@
+volume_plot_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volume_plot_utils/plotter.py,sha256=lqVtJpHHo_heTos3JbP-umAXe7D22ZFQgO6iQbjcOHc,1416
+volume_plot_utils/template.html.txt,sha256=-9nJFhhHBlQtq4tKCy-OFmNEe9kIRELXzQBUdcUYW2I,16917
+fMRI_Volumetric_Renderer-0.2.4.dist-info/LICENSE,sha256=vwYqR7enZQxDGiAhagqs6D62MOOXnW5btyoLs7mMSQY,1088
+fMRI_Volumetric_Renderer-0.2.4.dist-info/METADATA,sha256=nAtIa-nEAkWfDTvoMAzYIVc6nxveu_RqaVXf5-6Y1os,1978
+fMRI_Volumetric_Renderer-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fMRI_Volumetric_Renderer-0.2.4.dist-info/top_level.txt,sha256=29AZXfVoSV0uNQuDq1_XY8WLmW9oEfhxvuKN3__OVqA,18
+fMRI_Volumetric_Renderer-0.2.4.dist-info/RECORD,,
