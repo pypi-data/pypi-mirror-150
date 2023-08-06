@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sinfonia
+Version: 0.0.1
+Summary: SINFONIA: scalable identification of spatially variable genes for deciphering spatial domains
+Home-page: https://github.com/BioX-NKU/SINFONIA
+Author: Shengquan Chen
+License: MIT Licence
+Keywords: pip,sinfonia
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6.0
+License-File: LICENSE.txt
+
+SINFONIA provides an effective and efficient way to identify spatially variable genes for deciphering spatial domains. All SINFONIA wheels distributed on PyPI are MIT licensed.
+
