@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rgbprint/__init__.py
+rgbprint.egg-info/PKG-INFO
+rgbprint.egg-info/SOURCES.txt
+rgbprint.egg-info/dependency_links.txt
+rgbprint.egg-info/top_level.txt
