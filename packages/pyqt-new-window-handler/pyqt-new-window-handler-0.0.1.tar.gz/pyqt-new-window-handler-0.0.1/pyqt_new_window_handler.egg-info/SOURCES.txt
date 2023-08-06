@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_new_window_handler/__init__.py
+pyqt_new_window_handler/newWindowHandler.py
+pyqt_new_window_handler.egg-info/PKG-INFO
+pyqt_new_window_handler.egg-info/SOURCES.txt
+pyqt_new_window_handler.egg-info/dependency_links.txt
+pyqt_new_window_handler.egg-info/requires.txt
+pyqt_new_window_handler.egg-info/top_level.txt

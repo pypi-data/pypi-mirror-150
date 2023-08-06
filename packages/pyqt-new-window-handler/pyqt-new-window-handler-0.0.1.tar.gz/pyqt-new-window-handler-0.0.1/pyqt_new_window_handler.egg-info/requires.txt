@@ -1,0 +1,3 @@
+PyQt5>=5.15
+pyqt-custom-titlebar-setter>=0.0.1
+pyqt-custom-titlebar-window>=0.0.1
