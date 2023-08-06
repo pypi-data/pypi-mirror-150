@@ -1,0 +1,15 @@
+MySerializers/json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MySerializers/json/json_serializer.py,sha256=32GJHQznufRvf0ZZXf5pvELPLItq43gLlANoT7HnfQw,522
+MySerializers/json/parser.py,sha256=_k2ryyfxd_z5-8kESHZPtSmItr4jQ5CHFp1em_2o0Vc,1743
+MySerializers/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MySerializers/src/constants.py,sha256=SDSqgimPZCCAhbgaMdSF3uUfNnBrzc2h3_7x_BuNQKU,988
+MySerializers/src/serializer.py,sha256=mUkH5uHYVUKEGM3J8Z8QWeVJJPo7RTscz-_CZyvcO9A,6150
+MySerializers/toml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MySerializers/toml/parser.py,sha256=loeWKKpua3Fe7Y9cpCvPfSNNkyCz-aZOYdLGKfh5Gko,1473
+MySerializers/toml/toml_serializer.py,sha256=TM29qE3Jn0MtCUg86P3Sz2I2KZhwFvMVakpLuhWQCn8,544
+MySerializers/yaml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MySerializers/yaml/yaml_serializer.py,sha256=cSqwfwNGq-htCZEZsKkOxtc-3eI_5zt3kKSSq5zfxvA,506
+MySerializers-1.2.dist-info/METADATA,sha256=ScxkMDHvzd4v7ZDtMENWGncH-WMdczHexQQmaTNsbqA,486
+MySerializers-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+MySerializers-1.2.dist-info/top_level.txt,sha256=UbCeWOlSXbiwyu0GdAOVOTQkbz_tzlOefMrNxkGOvSs,75
+MySerializers-1.2.dist-info/RECORD,,
