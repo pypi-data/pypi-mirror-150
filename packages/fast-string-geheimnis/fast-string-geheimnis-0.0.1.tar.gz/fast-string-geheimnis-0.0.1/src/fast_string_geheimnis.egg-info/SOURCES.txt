@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/base_str/__init__.py
+src/base_str/base.py
+src/fast_str/__init__.py
+src/fast_str/fast.py
+src/fast_string_geheimnis.egg-info/PKG-INFO
+src/fast_string_geheimnis.egg-info/SOURCES.txt
+src/fast_string_geheimnis.egg-info/dependency_links.txt
+src/fast_string_geheimnis.egg-info/top_level.txt

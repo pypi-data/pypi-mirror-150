@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fast-string-geheimnis
+Version: 0.0.1
+Summary: Fast String package
+Home-page: https://github.com/zainulabidin302/fast_string
+Author: MrChips
+Project-URL: Bug Tracker, https://github.com/zainulabidin302/fast_string/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fast String Package
+
+This is a very simple package. 
