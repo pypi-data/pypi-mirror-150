@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/ikaria_lean_belly_juice_where_to_buy.egg-info/PKG-INFO
+src/ikaria_lean_belly_juice_where_to_buy.egg-info/SOURCES.txt
+src/ikaria_lean_belly_juice_where_to_buy.egg-info/dependency_links.txt
+src/ikaria_lean_belly_juice_where_to_buy.egg-info/top_level.txt
