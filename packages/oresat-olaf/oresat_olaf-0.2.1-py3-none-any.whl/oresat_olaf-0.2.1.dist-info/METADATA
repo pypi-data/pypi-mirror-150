@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: oresat-olaf
+Version: 0.2.1
+Summary: Application framework for all OreSat Linux boards
+Home-page: https://github.com/oresat/oresat-olaf
+Author: PSAS
+Author-email: oresat@pdx.edu
+Maintainer: PSAS
+Maintainer-email: oresat@pdx.edu
+License: GPL-3.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: canopen
+Requires-Dist: psutil
+Requires-Dist: loguru
+
