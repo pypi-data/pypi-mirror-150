@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pycodecreator
+Version: 0.0.1
+Summary: A random code generator
+Home-page: https://github.com/zahur76/randomcode
+Author: zahur meerun
+Author-email: zahurmeerun@hotmail.com
+Project-URL: Bug Tracker, https://github.com/zahur76/randomcode/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Random Code
+
+## TABLE OF CONTENT 
+* [Introduction](#introduction)
+* [Installation](#installation)       
+* [Usage](#usage)
+
+
+
+## Introduction
+
+Function to generate random code string. Defaulted at 20 characters.
+
+## Installation
+
+Can be installed using pip.
+
+``` pip install pycodecreator ```
+
+## Usage
+
+```from codegenerator import codegenerator```
+
+Then use module as:
+
+```codegenerator.code()```
+
+Can also specify code length:
+
+e.g ``` codegenerator.code(10) ```
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/codegenerator/__init__.py
+src/codegenerator/codegenerator.py
+src/pycodecreator.egg-info/PKG-INFO
+src/pycodecreator.egg-info/SOURCES.txt
+src/pycodecreator.egg-info/dependency_links.txt
+src/pycodecreator.egg-info/top_level.txt
