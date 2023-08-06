@@ -1,0 +1,3 @@
+[console_scripts]
+useful=app.useful_app:main
+
