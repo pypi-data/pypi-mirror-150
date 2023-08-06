@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: datagen-example-pypi
+Version: 0.0.2
+Summary: Datagen SDK
+Home-page: https://datagen.tech/
+Author: Datagen Technologies Ltd.
+License: MIT
+License-File: LICENSE
+Requires-Dist: dependency-injector
+Requires-Dist: marshmallow-dataclass
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
