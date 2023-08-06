@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: polimap
+Version: 0.0.1
+Summary: Political mapping, made easy.
+Home-page: https://github.com/maclover7/polimap
+Author: Jon Moss
+Author-email: me@jonathanmoss.me
+License: MIT
+Keywords: election
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# polimap
+
+Political mapping, made easy.
+
+

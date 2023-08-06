@@ -1,0 +1,9 @@
+README.md
+setup.py
+polimap/__init__.py
+polimap/__main__.py
+polimap.egg-info/PKG-INFO
+polimap.egg-info/SOURCES.txt
+polimap.egg-info/dependency_links.txt
+polimap.egg-info/entry_points.txt
+polimap.egg-info/top_level.txt
