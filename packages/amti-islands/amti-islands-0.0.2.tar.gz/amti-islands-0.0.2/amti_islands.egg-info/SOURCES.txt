@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+amti/__init__.py
+amti/amti.py
+amti/py.typed
+amti_islands.egg-info/PKG-INFO
+amti_islands.egg-info/SOURCES.txt
+amti_islands.egg-info/dependency_links.txt
+amti_islands.egg-info/not-zip-safe
+amti_islands.egg-info/requires.txt
+amti_islands.egg-info/top_level.txt
