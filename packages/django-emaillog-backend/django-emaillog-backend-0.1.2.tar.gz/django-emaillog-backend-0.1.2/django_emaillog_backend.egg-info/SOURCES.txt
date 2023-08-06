@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_emaillog_backend/__init__.py
+django_emaillog_backend/backends.py
+django_emaillog_backend.egg-info/PKG-INFO
+django_emaillog_backend.egg-info/SOURCES.txt
+django_emaillog_backend.egg-info/dependency_links.txt
+django_emaillog_backend.egg-info/not-zip-safe
+django_emaillog_backend.egg-info/requires.txt
+django_emaillog_backend.egg-info/top_level.txt
