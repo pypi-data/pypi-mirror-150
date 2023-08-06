@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: genomeplot
+Version: 0.4.0
+Summary: A package for simplifying genome-wide plots
+Home-page: https://hardingnj.github.io/genomeplot
+License: MIT
+Keywords: genome,plotting,bioinformatics
+Author: Nick Harding
+Author-email: nickharding@cegx.co.uk
+Requires-Python: >=3.8,<=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bokeh (>=2.4.0,<2.5.0)
+Requires-Dist: pandas (>=1.4.0,<1.5.0)
+Requires-Dist: pyfaidx (>=0.1.3,<0.2.0)
+Project-URL: Repository, https://github.com/hardingnj/genomeplot
+Description-Content-Type: text/markdown
+
+# genomeplot
+
+## overview
+
+A simple wrapper to `bokeh`, streamlining genome-wide visualisations.
+
+## documentation
+
+https://hardingnj.github.io/genomeplot/
+
+## installation
+
+Either via pip:
+`python -m pip install genomeplot`
+
+or from source using `poetry`
+
+## requirements
+
+See `pyproject.toml`
+

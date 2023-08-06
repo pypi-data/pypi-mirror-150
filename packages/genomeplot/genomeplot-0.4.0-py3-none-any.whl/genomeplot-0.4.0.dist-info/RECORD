@@ -1,0 +1,15 @@
+genomeplot/__init__.py,sha256=WVyXUlR4oNx5q9r-IyfCCeNYPaqfKnZ1f1q5Tf9Edks,232
+genomeplot/genomeplot.py,sha256=Ki__8MXfAlMxa-lLwYr5h0t7dxc-K0-MyVsR4Q3nluc,6313
+genomeplot/prerolled/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genomeplot/prerolled/anophelesgambiae.py,sha256=Go8QexO86Kb8dCW2hb9my5wGEc2Qgt6tkizKg11el-s,863
+genomeplot/prerolled/data/anophelesgambiae.txt,sha256=GF4HphQaiwpsM6k6TKjeQHQNl7vtStebqKIAjlhsvnc,108
+genomeplot/prerolled/data/homosapiens.txt,sha256=lM62U-DebV4xylXRFvZVWhP94E4Y4E7RwttMvbE98kg,889
+genomeplot/prerolled/data/plasmodiumfalciparum.txt,sha256=82CtnlnkpqhX63MvsgNLE7Q7TAGp3ewmBs9R0kxpCLw,320
+genomeplot/prerolled/homosapiens.py,sha256=o3eoKkeKCAaqEiqkMyhC5ODTxq7YyNXUviRw8-YOTLI,716
+genomeplot/prerolled/plasmodiumfalciparum.py,sha256=x8xmsdRVvQiHIWjmfh1qz6WcNgl7hoV6ypQyotKjaSA,811
+genomeplot/prerolled/util.py,sha256=yETLzAKAHqN2kr_TRHQEujlff9kduegDavJEZ-U6lSM,1860
+LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+genomeplot-0.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+genomeplot-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+genomeplot-0.4.0.dist-info/METADATA,sha256=PWfurGENQeC0JHNM213coU4Sq1fHmGPVd7EN-VhLnlw,1068
+genomeplot-0.4.0.dist-info/RECORD,,
