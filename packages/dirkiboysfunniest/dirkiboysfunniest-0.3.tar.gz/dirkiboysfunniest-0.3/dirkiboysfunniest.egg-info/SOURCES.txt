@@ -1,0 +1,10 @@
+setup.py
+bin/funniest-joke
+dirkiboysfunniest/__init__.py
+dirkiboysfunniest/text.py
+dirkiboysfunniest.egg-info/PKG-INFO
+dirkiboysfunniest.egg-info/SOURCES.txt
+dirkiboysfunniest.egg-info/dependency_links.txt
+dirkiboysfunniest.egg-info/not-zip-safe
+dirkiboysfunniest.egg-info/requires.txt
+dirkiboysfunniest.egg-info/top_level.txt
