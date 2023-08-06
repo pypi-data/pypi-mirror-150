@@ -1,0 +1,33 @@
+# Copyright 2017-2022 RStudio, PBC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import os
+
+__pkgdir__ = os.path.dirname(os.path.dirname(__file__))
+
+
+from ._version import __version__
+
+
+def version():
+    # Maintained for backward compatibility (for now)
+    return __version__
+
+
+def test_version(req):
+    import re
+    from guild import python_util
+
+    version_without_dev = re.match(r"(\d+\.\d+\.\d+).*", __version__).groups()[0]
+    return python_util.test_package_version(version_without_dev, req)
