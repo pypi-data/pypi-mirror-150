@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dpart
+Version: 0.1.1
+Summary: dpart: General, flexible, and scalable framework for differentially private synthetic data generation
+Home-page: https://github.com/hazy/dpart
+Author: Sofiane Mahiou, Kai Xu, Georgi Ganev
+Author-email: info@hazy.com
+Project-URL: Bug Tracker, https://github.com/hazy/dpart/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dpart
