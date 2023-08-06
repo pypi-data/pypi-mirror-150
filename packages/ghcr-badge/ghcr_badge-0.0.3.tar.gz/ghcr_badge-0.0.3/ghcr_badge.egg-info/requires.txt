@@ -1,0 +1,11 @@
+anybadge
+flask
+gunicorn
+humanfriendly
+requests
+types-Flask
+types-humanfriendly
+types-requests
+
+[dev]
+pre-commit
