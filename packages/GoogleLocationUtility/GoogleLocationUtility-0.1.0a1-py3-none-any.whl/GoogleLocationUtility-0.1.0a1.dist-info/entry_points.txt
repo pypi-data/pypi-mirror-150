@@ -1,0 +1,2 @@
+[console_scripts]
+home = GLU.home:welcome
