@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+urestapi/AUTHORS
+urestapi/__init__.py
+urestapi/main.py
+urestapi/uptycs_rest_api.py
+urestapi.egg-info/PKG-INFO
+urestapi.egg-info/SOURCES.txt
+urestapi.egg-info/dependency_links.txt
+urestapi.egg-info/entry_points.txt
+urestapi.egg-info/requires.txt
+urestapi.egg-info/top_level.txt
