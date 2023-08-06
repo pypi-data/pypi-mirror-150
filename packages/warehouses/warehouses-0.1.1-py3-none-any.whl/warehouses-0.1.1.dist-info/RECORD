@@ -1,0 +1,8 @@
+warehouses/__init__.py,sha256=i57i-ZiywPbfGquPvAvOgtOd8zrdAbcYUK6Gr2tztWg,43
+warehouses/bigquery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+warehouses/bigquery/auth.py,sha256=TyL5nhKj33-1P1X63gtgmKHIegXY7wVOwseKSL_Cf2E,714
+warehouses/bigquery/bigquery.py,sha256=vIOoYi_UPS6iavE5oj6XcRfvC1ybmOYborneq9oGVSQ,1855
+warehouses-0.1.1.dist-info/LICENSE,sha256=p-ss2Cw9lc8UAjp_MQKsFsx3nkoqNYVw1om_rNmaf4w,1069
+warehouses-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+warehouses-0.1.1.dist-info/METADATA,sha256=8IDupMOr2rNCTJKml3Y6aPLdO0994m1mncAES0MVgn8,693
+warehouses-0.1.1.dist-info/RECORD,,
