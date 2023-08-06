@@ -1,0 +1,7 @@
+README.md
+setup.py
+streusel/streusel.egg-info/PKG-INFO
+streusel/streusel.egg-info/SOURCES.txt
+streusel/streusel.egg-info/dependency_links.txt
+streusel/streusel.egg-info/requires.txt
+streusel/streusel.egg-info/top_level.txt
