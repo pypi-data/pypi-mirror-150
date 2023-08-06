@@ -1,0 +1,5 @@
+argparse
+statistics
+numpy
+scipy
+alive_progress
