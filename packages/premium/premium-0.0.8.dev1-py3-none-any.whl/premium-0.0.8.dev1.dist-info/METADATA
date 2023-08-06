@@ -1,0 +1,246 @@
+Metadata-Version: 2.1
+Name: premium
+Version: 0.0.8.dev1
+Summary: Python AI toolkits
+Home-page: https://github.com/GaoangLiu/psox
+Author: slipper
+Author-email: byteleap@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: smart-open
+Requires-Dist: optuna
+
+
+- Day 1(20220329), 220
+- Day 2(20220330), 150
+- Day 3(20220331), 100
+- Day 4(20220401), 110
+- Day 5(20220402), 130
+  - Tensorflow + Bert do text classifition
+- Day 6(20220403), 120
+  - Bert classifcation again, practice makes perfect, keep grinding.
+- Day 7(20220404), 116
+  - Bert text classifcation 
+- Day 8(20220405), 157
+  - forecast time series with RNN
+- Day 9(20220406), 105
+  - Kaggle monthly contest, april tabular
+- 20220407 (Day 10), 170, simple LSTM, GRU works
+- 20220408 (Day 11), 151, move codes to `contest/tabular/april`
+- 20220409 (Day 12), 146, run through bidirectional lstm model
+
+
+# April 1
+With `bert-base-model` and `max_sentence_len=300`, the sentiment classification task `imdb` can reach 0.9334 val_accuracy in first epoch.
+
+# April 4
+- Make up for April 1, 2, 3 works.
+
+# April 7, Day 10
+continue with imdb sentiment analysis
+- using distilbert-base-uncased, length 512, batch_size = 10, ep 10, acc 0.9137
+- roberta-base, length 512, bs 3, ep 2, acc 0.9411,
+
+<img src="https://s2.loli.net/2022/04/07/oesuyzfwCdWDMT3.png" width=50%>
+   
+- roberta-base, length 512, bs 4, ep 3, acc 0.9295,
+
+
+# April 8, Day 11
+## April Tabular
+- Even without extra `diff` columns to the train data, `roc` can reach 0.9455 
+
+# April 9, Day 12
+Run through bidirectional lstm model. 
+
+# April 10, Day 13, 102
+Train a TF model to recognize `organization id`, given its `single_file_path`, dataset can be found on `oss_loader` private 
+
+# April 11, Day 14, 124
+- Add some customized callbacks to `premium/model/model_config: keras_callbacks`, 
+- Add m˚˚odel config dataclass to  `premium/model/model_config:ModelConfig`, 
+
+For this simple organization id recognization task, it is easily to achieve sparse accuracy 1 without adding noise, 0.998 when some noise added to the training data.
+
+# April 12, Day 15, 103
+Kaggle April Tabular contest.
+
+# April 13, Day 16, 100
+Kaggle April Tabular contest. 
+Finnaly understand the problem on `(None 60)` v.s., `(None, 1)`, you should use `GlobalMaxPooling1D()` before the final dense layer.
+
+# April 14, Day 17, 112
+- Learn  Auto Encoder.
+
+# April 15, Day 18, 130
+# April 16, Day 19, 147
+# April 17, Day 20, 116
+- Start training a multil-class classifier on 20 news groups. Dataset can be found [kaggle](https://bit.ly/3vo3yRn), we can also load data with sklearn, e.g., 
+```python
+from sklearn.datasets import fetch_20newsgroups
+X, y = fetch_20newsgroups(
+            return_X_y=True,
+            categories=[ # load only five categories
+                'alt.atheism',
+                'sci.med',
+                'comp.windows.x',
+                'misc.forsale',
+                'rec.autos',
+            ],
+        )
+        cf.info('20 news groups data loaded')
+        X = pd.DataFrame(X, columns=['text'])
+        y = pd.DataFrame(y, columns=['label'])
+```
+
+- Add a `multi_classifier.py` to `premium.models` for multi classification tasks.
+- Export all possible logs to `/data/logs` dir on working machine, since the `/tmp/` is almost full.
+
+### Results
+Note that the following results are for 5 categories. Not all 20 categories. When we do use all 20 categories, the bert large result reduce to 0.8568
+
+| Date     | Model                 | Args    | Validate score | Other               |
+| :------- | :-------------------- | :------ | :------------- | :------------------ |
+| 20220420 | RandomForst(RF)       | default | 0.9140         | tfidf (1)           |
+| 20220420 | RandomForst(RF)       | default | 0.9280         | countervectorize(2) |
+| 20220420 | Gradient Boosting(gb) | default | ?              | countervectorize(3) |
+| 20220421 | LigthGBM              | default | 0.9298         | countervectorize(4) |
+| 20220421 | LigthGBM              | default | 0.9385         | tiidf(4)            |
+| 20220423 | bert-base-uncased     | default | 0.9474         |                     |
+
+1. Use `tfidf(max_features=5000)` to get sentence representation.
+2. Use `coutervectorize(max_feature=5000)` 
+3. Gradient boosting is painfully slow, while random forest return results in a few seconds, gradient boosing never completed until I killed the process after a few minutes
+4. Tfidf works better than countervector with ligth gbm.
+
+# April 18, Day 21, 176 
+Found a bug in April Tabular contest code. We've set `monitor=val_auc` in callbacks, but mode remains `mode=min`, which explains the val auc is lower than expected.
+
+# April 19, Day 22, 117
+Tried copy and edit a Kaggel kernel on April Tabular contest, the final pb score is about 0.978. Then somehting must be wrong about my code. 
+
+# April 20, Day 23, 128
+Finally, BiLSTM on April Tabular contest run as expected.
+
+# April 21, Day 24, 107
+Train 20 news group with `bert-base-uncased`, accuracy reaches `0.9473`. Bert is awesome.
+
+# April 22, Day 25, 104
+
+# April 23, Day 26, 133
+
+# April 24, Day 27, 128
+- We're practicing on a new multiclass classification task, aka, emotion recoginization. Dataset can be found here on [kaggle](https://bit.ly/3EHHkhl).
+- We're also planning to try simple LSTM to see whether LSTM can 0.929 accuracy, as claimed in this [kernel](https://bit.ly/3Lg8tuo).
+
+| Date     | Model             | Args        | Validate score | More detail |
+| :------- | :---------------- | :---------- | :------------- | :---------- |
+| 20220424 | bert-base-uncased | max_len=64  | 0.9308         | 1           |
+| 20220424 | bert-base-uncased | max_len=128 | 0.9284         | 2           |
+| 20220425 | lstm              | max_len=200 | 0.9236         | 3           |
+| 20220425 | lstm              | max_len=300 | 0.9164         | 4           |
+- 3. 3 hidden layers 128, 128, 64
+
+
+# Kaggle April Tabluar Contest
+
+| Date     | Model              | Args    | Pb Result                       | More details                  |
+| :------- | :----------------- | :------ | :------------------------------ | :---------------------------- |
+| 20220416 | BiLSTM, GroupKFold | 10 fold | 0.904                           | -                             |
+| 20220417 | BiLSTM, GroupKFold | 5 fold  | [0.909](https://bit.ly/3Epvad8) | Add time lag and diff         |
+| 20220417 | BiLSTM, GroupKFold | 5 fold  | [0.904](https://bit.ly/3Ek0CJI) | Add both time lag and diff, 1 |
+| 20220418 | BiLSTM, GroupKFold | 5 fold  | [0.921](https://bit.ly/3jMbhDw) | Add both time lag and diff, 2 |
+| 20220419 | BiLSTM, GroupKFold | 5 fold  | [0.895](https://bit.ly/3jMbhDw) | 3                             |
+| 20220420 | BiLSTM, GroupKFold | 3 fold  | [0.957](https://bit.ly/3On2upy) | 4                             |
+| 20220420 | BiLSTM, GroupKFold | 3 fold  | [0.910](https://bit.ly/37wlaTh) | 5                             |
+| 20220420 | BiLSTM, GroupKFold | 3 fold  | 0.898                           | 6                             |
+| 20220420 | BiLSTM, GroupKFold | 3 fold  | 0.957                           | 7                             |
+
+Notes:
+1. Use deeper network, the result is still 0.904. The `val_auc` is as high as 0.95, maybe something is wrong with metric?
+2. Now fix a bug on callback mode, should set it `max` instead of `min`, now, the result is getting better, reaching PB score 0.921
+3. The result is NOT getting better. Labels `y` was merged to `X` and reshaped to `(-1, 60)`, the result is still 0.895
+4. Finally, run codes copied from a [kaggle kernel](https://bit.ly/387iwDa) and the score reached 0.957. 
+5. Almost found the problem. One difference between (4) and (5) is (5) used customized `premium.models.model_config:KerasCallbacks`, which is simply a wrapper of Keras builtin callbacks, nothing special. Another difference is assign `self.groups = x.sequence.unique()` in data loading part (5 did this) or in model training (4 did this).
+6. Do `self.groups().unique()` in training, the result is worse.
+7. The result is getting better, reaching 0.957, without using my own customized callbacks. The problem could be the callbacks.
+
+
+# April 25, Day 28, 100
+Start playing with NER. Following this colab article [Custom Named Entity Recognition with Bert](https://bit.ly/3rNKgEb) for more detail.
+
+# April 26, Day 29, 100
+- Yes, our first NER (with BiLSTM) is running.
+- A Chinese NER dataset for social media [weibo](https://github.com/hltcoe/golden-horse). Only person name entity included.
+
+# April 27, Day 30, 100
+# April 28, Day 31, 190
+C++ codes included. 
+
+# April 29, Day 32, 100
+- Start g on CoNLL 2003 NER dataset. A Github repo with data (train, test, valid) can be found [here](https://github.com/bhuvanakundumani/NER_tensorflow2.2.0/tree/master/data).
+
+# April 30, Day 33,  213
+- Re-learned Makefile, finnaly know how to use it
+- Rewrite ErrorLocator with C++.
+
+# May 1, Day 34, 108
+- Almost done ErrorLocator with C++.
+
+# May 2, Day 35, 113
+- Compilation is hard, that's why I use Rust.
+- Train NER model on Conll2003 data
+
+# May 3, Day 36, 186
+- Start Tabular May contest.
+
+# May 4, Day 37, 171
+- Tabular May CNN bess result 0.99447
+
+# May 5, Day 38, 176
+- Tabular May, wide/deep CNN not working very well. Best result is below 0.99
+
+# May 6, Day 39, 100
+- Tried Keras subclassing.
+- Try use autoencoder on May Tabular, and what we can do on it.
+
+# May 7, Day 40, 130
+Use Autoencoder to do dimentionality reduction on May tabular data. Code filename `dimension_reduction.py`.
+
+Use smaller batch size seems to yield better result on May Tabular result. No wonder Lecun said: Friends dont let friends use minibatches larger than 32 (orginal tweet is [here](https://twitter.com/ylecun/status/989610208497360896?lang=en)).
+
+# May 8, Day 41, 117
+Tried zero-shot transfer learning for a while.
+
+# May 9, Day 42, 100
+# May 10, Day 43, 100
+
+# May 11, Day 44, 117
+Start working on text similarity.
+
+OMG! I finally successfully installed Redis client [redis++](https://github.com/sewenew/redis-plus-plus) on Macbook mini M1.
+
+Code with C++ boost too.
+
+
+# May 12, Day 45, 107
+Tried a lot of C++ libs:
+1. redis
+2. Http request
+3. json
+
+All passed, what a miracle.
+
+# May 13, Day 46, 187
+Rewrite report yourself tool with C++.
+
+# May 14, Day 47, 148
+Work on sentence similarity checking. The idea is simple, get sentence vector from word vector (use pretrained word vector) with smooth inverse frequency. 
+
+
+
+
