@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: coingecko-scrape-data
+Version: 1.0.0
+Summary: Automation Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Keywords: A python library to scrape coin detail of the  link provided
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: datakund-cloud
+
+CoinGecko Scraper is a python library to fetch the detail of a Coins.
+
+### Installation
+```sh
+pip install bot_studio
+pip install coingecko_scrape_data
+```
+
+### Import CoinGecko Scraper
+```
+from coingecko_scrape_data import *
+```
+
+
+### Run a bot
+```sh
+dk.coingecko_scraper(callback=print_the_data)
+```
+
+### Stop a bot
+It stops the current bot runing.
+```sh
+dk.stop()
+```
+
+### CallBack Function
+#Example
+This func takes the data returned by bot as a parameter, If you want to operate on data returned by bot, then make your function first and then pass it in callback argument. Consider follwing example:-
+```sh
+from coingecko_scrape_data import *
+def print_the_data(data):
+	print("Data",data)
+	
+dk.coingecko_scrape_data(callback=print_the_data)
+```
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+* [Website](https://datakund.com)
+
+
+
