@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/scaler.c
+src/scaler.h
+src/tinyscaler.c
+src/tinyscaler.pyx
+tinyscaler.egg-info/PKG-INFO
+tinyscaler.egg-info/SOURCES.txt
+tinyscaler.egg-info/dependency_links.txt
+tinyscaler.egg-info/requires.txt
+tinyscaler.egg-info/top_level.txt
+tinyscaler.egg-info/zip-safe
