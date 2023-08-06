@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CDK-Blueprint
+Version: 0.0.2
+Summary: Declarative Attribute for CDKv2
+Home-page: https://github.com/VunkLai/cdk-blueprint
+Author: Vunk Lai
+Author-email: vunk.lai@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk-lib
+
+# CDK Blueprint
+
+A collection of declarative attribute to create AWS CDK Constructs.
+
+
