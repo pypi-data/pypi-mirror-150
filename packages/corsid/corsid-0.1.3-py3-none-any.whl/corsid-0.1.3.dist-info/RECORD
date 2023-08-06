@@ -1,0 +1,16 @@
+corsid/MWIS.py,sha256=1rwGok1gOG6CDCuetsRTnt0wo_OCf_ojx36tNezDUlM,3345
+corsid/__init__.py,sha256=KzcV3o223Znuk64d9GbIPtRX5r8HybynsK--Oswv2wk,15
+corsid/annotation.py,sha256=RJes6pYee5CUs4cw2ZBD8KQD0imqHaKDQFPPqex2Iw8,4240
+corsid/corsid.py,sha256=6_l1Lh8YbSpggigpqz9iyMddiOLC2rAwCEbEe77xBc8,17341
+corsid/corsid_annot.py,sha256=gubRsn8iCcYP0l7z31AjIUqxjmVbvxdU935vwpiauMA,7803
+corsid/heuristic.py,sha256=NLgZznW7yGbfC9dQMvVCmjuf2oBvdk1qPqbNbhJ52DA,3213
+corsid/solution.py,sha256=d6ceCxYVAx68AhL-2A_KbHQhZIHk7UlOSDy9U2WDSUw,10827
+corsid/util.py,sha256=vCi85pMQf-AQJPooyigNM9IYck0KMt_DtoI9hlRfK2Y,2778
+corsid/xgboost_model.json,sha256=cJJSIuEtL_n-T1X67FDShMxH4hbhFbhwO3B5imtO62Y,77699
+corsid-0.1.3.data/scripts/corsid,sha256=CVB8LkzndWvNa-VR62AaziWve-z6eZj36lqBEWC0q3M,47
+corsid-0.1.3.data/scripts/corsid_a,sha256=wo68liXLGG1yone0iS0nVEN06eznG25u9mEbnakbaCE,53
+corsid-0.1.3.dist-info/LICENSE,sha256=PHPO0OHdInnL1Tv1DMNhXZPWDwzV7UFH00KqFyP5MQk,1107
+corsid-0.1.3.dist-info/METADATA,sha256=-wFTphQO5_Ar-_5-Gj5CZcPFHN6jP-KBT3EcJIDnvNc,6496
+corsid-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+corsid-0.1.3.dist-info/top_level.txt,sha256=t4-cm0oNbX_ti_MtjrIgux5ns21FO0XxyE2bnN7TGJk,7
+corsid-0.1.3.dist-info/RECORD,,

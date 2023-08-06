@@ -1,0 +1,4 @@
+#!python
+
+from corsid.corsid import main
+main()
