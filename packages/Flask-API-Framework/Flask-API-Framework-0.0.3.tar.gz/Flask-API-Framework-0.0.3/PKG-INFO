@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Flask-API-Framework
+Version: 0.0.3
+Summary: Flask API Framework
+Home-page: UNKNOWN
+Author: Mattias Lindvall
+Author-email: mattias.lindvall@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://flask-api-framework.readthedocs.io/
+Project-URL: Source, https://github.com/thnee/flask-api-framework
+Keywords: flask api framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Flask
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: build
+License-File: LICENSE
+
+Please see the project links.
+
