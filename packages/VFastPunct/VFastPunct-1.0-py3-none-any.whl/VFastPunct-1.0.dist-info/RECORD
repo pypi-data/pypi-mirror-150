@@ -1,0 +1,12 @@
+vfastpunct/__init__.py,sha256=0RNegrxiUJN2KQ41uNdeDt4f3HcRVyBf3XVvad1VNh4,44
+vfastpunct/arguments.py,sha256=Q3h4Lixvr_pwV7Gg55bE7qFPNRHvsJGSL2VKFr6rMhs,4363
+vfastpunct/constants.py,sha256=XJ4VkjWVi2ua7s-0BtcOYmLuk80majJNTqbM_-sbvqE,369
+vfastpunct/log.py,sha256=aARmNkWxNiDCyh-nOGunGzXBix7dPXiWVwgN8XScuKI,576
+vfastpunct/models.py,sha256=Ky46lJ7b6GOoRAk95MieR1Bih79n6YQ62ZToKZbEClQ,2923
+vfastpunct/processor.py,sha256=YEQkJAUPckS1L6Y2jXQUJ2MoMXCPeKddAYfsySoJLDo,3939
+vfastpunct/trainer.py,sha256=1P-bbr9yrozKW_7-ly_vE5dcmAq-Xlld6edQavMXf04,7008
+vfastpunct/vfastpunct.py,sha256=FuciZm7jzKrQDxetLfamlI3eccsWTlVNeNRrVmN4nmU,220
+VFastPunct-1.0.dist-info/METADATA,sha256=fHY8QkB9MwHJiPJDrmZ90eJtQdufMvuEMZCwQjG7Qj0,838
+VFastPunct-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VFastPunct-1.0.dist-info/top_level.txt,sha256=p4TYFIYZD4A5_SiVHFFKtNi9_N2qYcCZsnsPf6U4bZk,11
+VFastPunct-1.0.dist-info/RECORD,,
