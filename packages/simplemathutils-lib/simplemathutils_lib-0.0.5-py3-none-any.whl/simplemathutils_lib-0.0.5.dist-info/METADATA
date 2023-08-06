@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: simplemathutils-lib
+Version: 0.0.5
+Summary: SimpleMathUtils-lib is a creative package for basic mathematical operations with Python.
+Home-page: UNKNOWN
+Author: Mattithyahu O
+Author-email: contactmattithyahu@gmail.com
+License: UNKNOWN
+Keywords: math
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+
+
+It provides:
+- 4 basic mathematical operations -> addition, subtraction, multiplication, division
+- and much more to come
+
+All SimpleMathUtils-lib wheels distributed on PyPI are MIT licensed.
+
+
