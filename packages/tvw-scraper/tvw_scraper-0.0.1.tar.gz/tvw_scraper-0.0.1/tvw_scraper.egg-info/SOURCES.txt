@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+src/__init__.py
+src/models.py
+src/rest.py
+src/schemas.py
+src/scraper.py
+tvw_scraper.egg-info/PKG-INFO
+tvw_scraper.egg-info/SOURCES.txt
+tvw_scraper.egg-info/dependency_links.txt
+tvw_scraper.egg-info/top_level.txt
