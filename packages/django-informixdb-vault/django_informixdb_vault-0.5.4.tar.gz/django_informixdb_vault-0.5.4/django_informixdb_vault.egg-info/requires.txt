@@ -1,0 +1,11 @@
+django_informixdb
+hvac
+
+[all]
+coverage
+
+[dev]
+check-manifest
+
+[test]
+coverage
