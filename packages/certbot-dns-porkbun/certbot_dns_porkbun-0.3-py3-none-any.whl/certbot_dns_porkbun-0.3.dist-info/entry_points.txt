@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-porkbun = certbot_dns_porkbun.cert.client:Authenticator
+

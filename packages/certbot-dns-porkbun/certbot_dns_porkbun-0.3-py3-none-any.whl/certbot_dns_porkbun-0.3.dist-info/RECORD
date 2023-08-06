@@ -1,0 +1,8 @@
+certbot_dns_porkbun/__init__.py,sha256=4vD2njJTh9lu2kyVrNoHjScb--r8v9vy3H_PA7rTkok,21
+certbot_dns_porkbun/cert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_porkbun/cert/client.py,sha256=RCaOuwAUfOIjojdhfWgZ6twael26yg0z8DlpHuod5P8,6267
+certbot_dns_porkbun-0.3.dist-info/METADATA,sha256=OCVqx8ZtMJy9vD8TTNotJ1GvvNXy-HDHjutSs-yPtF8,13031
+certbot_dns_porkbun-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+certbot_dns_porkbun-0.3.dist-info/entry_points.txt,sha256=vLE95zkdjikhasBdqnWVm9TnXGx1VG5oXuHpD1o21Pw,79
+certbot_dns_porkbun-0.3.dist-info/top_level.txt,sha256=VbN2AykzBY53CY3SRfejEirwYsIwIz0c1_3cQBWH914,20
+certbot_dns_porkbun-0.3.dist-info/RECORD,,
