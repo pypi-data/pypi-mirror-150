@@ -1,0 +1,4 @@
+
+    [console_scripts] 
+    cygnusx1=cygnusx1.main:run
+    

@@ -1,0 +1,12 @@
+cygnusx1/__init__.py,sha256=S28weGa649DtO8q2aGz7yrvlAEGlevldcQ2Fkg0a2Bw,55
+cygnusx1/bot.py,sha256=8b7pSg_FNCLcneuojpKhU9Db9tTHZCCoOhmfsrpU2oM,1989
+cygnusx1/config.py,sha256=1wYx0vDfeRHdjejE-0VowDWRpV5IlpxAo2J1rDUlEaU,291
+cygnusx1/downloader.py,sha256=N5-OY5suMg0ahCh296cWUly8yNwnpZwnj9RtikAWdlg,2167
+cygnusx1/helper.py,sha256=QSOhc9dWmzRP6dwgOJnJ05MsHgdRz8vczpH951wvRi8,1841
+cygnusx1/main.py,sha256=BuiuiU2om0xtRkfIEaOMWBXNNksrYJgP1X5YmFYUyPA,994
+cygnusx1/scraper.py,sha256=AAik_-8w8HE6YBYwckOe4aoK2_uOLbM4ZZEAaqGWb6c,4034
+CygnusX1-1.0.3.dist-info/METADATA,sha256=HV1o8QugOECLrLayMAkAOFbRZpn6VJwmjHS2OIC6uOI,3335
+CygnusX1-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CygnusX1-1.0.3.dist-info/entry_points.txt,sha256=1NXI1nc8qbKqgzAjvxyDnX9VIyYQsRzzlpFFpfObA3Y,59
+CygnusX1-1.0.3.dist-info/top_level.txt,sha256=ThRf_kRLCrNZI7H9nMnCZaHgb8EG8DEAbqrzYVa7ICE,9
+CygnusX1-1.0.3.dist-info/RECORD,,
