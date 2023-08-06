@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyEOCharging
+Version: 0.0.5
+Summary: EO Smart Charger Library
+Home-page: https://github.com/bfayers/pyEOCharging
+Author: bfayers
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/bfayers/pyEOCharging/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+
+# pyEOCharging
+
+Python Library For interacting with EO Home EV Chargers.
+
+This has only been tested with a EO Mini Pro 2.
+
+Example usage:
+
+```python
+import eocharging
+
+conn = eocharging.connection("email_address", "password")
+
+devices = conn.get_devices() #Get list of devices on account
+print(devices)
+
+sessions = devices[0].get_sessions()
+print(sessions) #Print list of sessions from all time from first device on account
+
+devices[0].disable() #Disable/lock the charger
+devices[0].enable() #Enable/unlock the charger
+```
+
