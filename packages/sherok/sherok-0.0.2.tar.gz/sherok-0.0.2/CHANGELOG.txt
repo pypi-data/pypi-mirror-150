@@ -1,0 +1,13 @@
+# CHANGELOG.md
+
+## 0.0.1
+
+Features:
+
+  - First 16 Commands
+
+## 0.0.18
+
+Features:
+
+  - Updated Readme
