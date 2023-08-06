@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+sajilo_orm/__init__.py
+sajilo_orm/exceptions.py
+sajilo_orm/field.py
+sajilo_orm/manager.py
+sajilo_orm/models.py
+sajilo_orm/query_manager.py
+sajilo_orm/settings.py
+sajilo_orm.egg-info/PKG-INFO
+sajilo_orm.egg-info/SOURCES.txt
+sajilo_orm.egg-info/dependency_links.txt
+sajilo_orm.egg-info/not-zip-safe
+sajilo_orm.egg-info/requires.txt
+sajilo_orm.egg-info/top_level.txt
