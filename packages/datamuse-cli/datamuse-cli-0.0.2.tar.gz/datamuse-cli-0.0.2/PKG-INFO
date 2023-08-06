@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: datamuse-cli
+Version: 0.0.2
+Summary: A command line interface that displays results from the Datamuse API
+Home-page: https://github.com/agmmnn/datamuse-cli
+Author: agmmnn
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
+
+![](https://user-images.githubusercontent.com/16024979/168290323-fa1fe5ee-2a4d-4e81-aee6-7faa6713e296.svg)
+
+# datamuse-cli
+
+<div align="center">
+
+<a href="https://github.com/agmmnn/datamuse-cli">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/agmmnn/datamuse-cli"></a>
+<a href="https://pypi.org/project/datamuse-cli/">
+<img alt="PyPI" src="https://img.shields.io/pypi/v/datamuse-cli"></a>
+
+A command line interface that displays results from the Datamuse API.
+
+</div>
+
+## Install:
+
+```
+pip install datamuse-cli
+```
+
+## Usage:
+
+```python
+> datamuse sky
+# Show results for "sky"
+
+> datamuse sky:color
+# Show results for the word "sky" related to the topic "color".
+
+> datamuse sky:color,human
+# Show results for the word "sky" related to the topics "color, human".
+```
+
+## Example Usage:
+
+```
+> datamuse thyme -m 7
+
+ ğŸ”¡synonyms/similars:                       ğŸ’­evocative:
+â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´
+ herb, oregano, rosemary, marjoram,         marjoram, oregano, thymus, eyebright,
+ parsley, tarragon, fennel                  harebell, thymol, hyssop
+
+
+ ğŸ“£sound[saÊŠnd]:              ğŸ§®similar spelling:          ğŸ‘‚rhymic:
+â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´
+ them, theme, tham, thein,    rhyme, theme, chyme, tyme,   time, paradigm, sublime,
+ thiem, thieme                thymy, thome                 rhyme, prime, crime, lime
+
+
+ ___ + thyme:                 thyme + ___:                 thyme...:
+â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´â•¶â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•´
+ wild, fresh, lemon, common,  oil, leaved, mixture,        thymectomy, thymene,
+ little, sweet, chopped       sauce, leaf, blossoms, bank  thymelaeaceae, thyme
+                                                           camphor, thymes,
+                                                           thyme-leaved speedwell
+```
+
+## Arguments
+
+```
+-h, --help         show this help message and exit
+-m, --max          maximum number of words to display
+-v, --version      show program's version number and exit
+```
+
+## Dependencies
+
+- [rich](https://pypi.org/project/rich/)
+- [aiohttp](https://pypi.org/project/aiohttp/)
