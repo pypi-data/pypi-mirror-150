@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+csp_scan/__init__.py
+csp_scan/__main__.py
+csp_scan/definitions.py
+csp_scan/directive.py
+csp_scan.egg-info/PKG-INFO
+csp_scan.egg-info/SOURCES.txt
+csp_scan.egg-info/dependency_links.txt
+csp_scan.egg-info/entry_points.txt
+csp_scan.egg-info/top_level.txt

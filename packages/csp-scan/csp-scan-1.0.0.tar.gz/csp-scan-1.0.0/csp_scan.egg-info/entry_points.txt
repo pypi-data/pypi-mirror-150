@@ -1,0 +1,3 @@
+[console_scripts]
+csp-scan = csp_scan.__main__:main
+
