@@ -1,0 +1,10 @@
+cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cache/holder/RedisCacheHolder.py,sha256=E2E-5PkY5RCTKacMo7DZw4cJLqBn4cRknpeDhQcjw-4,748
+cache/holder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cache/provider/RedisCacheProvider.py,sha256=CLZPo5734a27PC3983QpSc_c5vPnU8WblzHfj5Nihls,6081
+cache/provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persuader_technology_automata_redis-0.1.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+persuader_technology_automata_redis-0.1.4.dist-info/METADATA,sha256=UjTBybhaSPGFt5j3SemKCQvNGatPpO2XaHx21VhVsWg,691
+persuader_technology_automata_redis-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+persuader_technology_automata_redis-0.1.4.dist-info/top_level.txt,sha256=MK6JkuMNUdtq4HqG2RcDl29uaYgEV6lGo8HmP_6q-D4,6
+persuader_technology_automata_redis-0.1.4.dist-info/RECORD,,
