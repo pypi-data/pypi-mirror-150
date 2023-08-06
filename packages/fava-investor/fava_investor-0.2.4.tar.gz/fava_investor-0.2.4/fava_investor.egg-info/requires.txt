@@ -1,0 +1,5 @@
+beancount>=2.3.2
+fava>=1.15
+argh>=0.23.3
+argcomplete>=1.11.1
+tabulate>=0.8.3
