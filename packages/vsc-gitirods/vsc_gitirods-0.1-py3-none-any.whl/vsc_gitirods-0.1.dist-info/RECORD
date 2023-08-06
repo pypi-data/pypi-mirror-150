@@ -1,0 +1,14 @@
+gitirods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitirods/check_point.py,sha256=5689AQDCrVeQk4oRUO7yAv2n3dt7r52eZavBgyT2dAM,10005
+gitirods/main.py,sha256=L_dAMiwtIufCl4IPve5ksend-BzSKJQ6bN3uNiDzYi0,659
+gitirods/project.py,sha256=KbCENj61VPmWKqxVS4ucKJGfuNpX72xoF_3R2T_7qro,6298
+gitirods/util.py,sha256=VXQrAWXFB_zJtKUjosNxwXeTxGROcwMM2qI5tYCtbQo,888
+gitirods/iinit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitirods/iinit/iinit.py,sha256=9eieKArdybfJKl6dtzoe1LLbn5LEUpHl1GA7azHJzX4,5767
+gitirods/iinit/session.py,sha256=JtnbxqJVXGPFAh9ruFa_57zAN0IQ8tJiOuVIGNFbo0M,1367
+home/mustafa/.config/gitirods.conf,sha256=pbF0UN3WhLUHshCTQeFD_IdhlEnqoxN2P08PuXiek7E,81
+vsc_gitirods-0.1.dist-info/LICENSE,sha256=NZF5Q1RyM_mMbki9gCjTy8RqNiKmtBXwu7k3iDyl5ac,7376
+vsc_gitirods-0.1.dist-info/METADATA,sha256=0L7Cyf3nK5OC-GCa39w79aR9DTg4xXyvpYT_Yh1KmuE,3732
+vsc_gitirods-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vsc_gitirods-0.1.dist-info/top_level.txt,sha256=ZAZtb2V6XpmkmJMeaF8Ve5NqpLmzgN7P9ETUFvW11pU,9
+vsc_gitirods-0.1.dist-info/RECORD,,
