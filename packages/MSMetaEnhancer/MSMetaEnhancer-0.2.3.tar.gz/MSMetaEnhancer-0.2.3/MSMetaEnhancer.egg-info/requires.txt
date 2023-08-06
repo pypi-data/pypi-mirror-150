@@ -1,0 +1,11 @@
+matchms
+requests
+pandas
+aiohttp
+asyncstdlib
+frozendict
+tabulate
+
+[test]
+pytest
+pytest-cov
