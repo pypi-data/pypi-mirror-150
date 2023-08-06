@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+core/__init__.py
+core/cmd/__init__.py
+core/cmd/fib_numb.py
+core/fib_calcs/__init__.py
+core/fib_calcs/fib_number.py
+core/fib_calcs/fib_numbers.py
+fib_package.egg-info/PKG-INFO
+fib_package.egg-info/SOURCES.txt
+fib_package.egg-info/dependency_links.txt
+fib_package.egg-info/entry_points.txt
+fib_package.egg-info/top_level.txt

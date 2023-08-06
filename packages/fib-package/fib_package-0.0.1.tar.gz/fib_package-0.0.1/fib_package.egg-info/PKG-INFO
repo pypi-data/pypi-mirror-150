@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fib-package
+Version: 0.0.1
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/EvandroLippert/fib_package
+Author: Evandro Lippert
+Author-email: evandro.lippert@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+
+# fib_package
+
