@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: briansfirstpackage02
+Version: 0.0.3
+Summary: Brian's first Python package
+Home-page: UNKNOWN
+Author: Brian Hassard
+Author-email: <iamthebriguy@gmail.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Brian's first Python package with a slightly longer description
+
+

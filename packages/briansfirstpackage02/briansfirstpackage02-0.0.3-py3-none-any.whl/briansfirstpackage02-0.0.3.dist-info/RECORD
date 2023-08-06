@@ -1,0 +1,10 @@
+briansfirstpackage02/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+briansfirstpackage02/add.py,sha256=VMW4y5DsCgRIXfMZWJIL_Hxj74CSc8LwwCD44QFoAwA,29
+briansfirstpackage02/subtract.py,sha256=oprI7v0SuL4cG5YqCJcoKLdYznTEP-fALe28NvJfwP8,34
+briansfirstpackage02/extras/__init__.py,sha256=NIMDDcWWtTvZTT457qmE9zYMA4dH7vZz7L7H12LVI8I,58
+briansfirstpackage02/extras/divide.py,sha256=crYThphpYeAvmRfYQeKZ9PMBcp5YRW7V9Suui7MfJ1o,32
+briansfirstpackage02/extras/multiply.py,sha256=_edfwom9MThkFOI0rHEcQEyYVOuTijKWfSE_dEvSg-k,34
+briansfirstpackage02-0.0.3.dist-info/METADATA,sha256=k04cImHEexr1qFVGqfmReyMtFePcGAC6QH9MHzXijJE,552
+briansfirstpackage02-0.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+briansfirstpackage02-0.0.3.dist-info/top_level.txt,sha256=PPPZJ-IOa-4uedwkLlNDfflqME3dZFLw4RHfyyfKyBs,21
+briansfirstpackage02-0.0.3.dist-info/RECORD,,
