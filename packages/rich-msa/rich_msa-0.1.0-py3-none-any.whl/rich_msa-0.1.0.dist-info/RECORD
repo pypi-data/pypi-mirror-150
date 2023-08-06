@@ -1,0 +1,10 @@
+rich_msa/__init__.py,sha256=pHBH7ZAPdmVRm7slNuaEbMfrh7CnqspqW4eDUR982f0,5213
+rich_msa/__main__.py,sha256=ev6t1FIlUhYLSYDceY1ixjUeIwJgI8TcP0DvCihqjz0,51
+rich_msa/cli.py,sha256=biYYmSK0butIjsSs3y4SNeAGG8FFPd0TCH8gRvuueRI,2233
+rich_msa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rich_msa-0.1.0.dist-info/COPYING,sha256=dCmFFHwRyicElehFYZv1GT5BbQ0fh5tOT0PHOfqzYmg,1098
+rich_msa-0.1.0.dist-info/METADATA,sha256=b_QeFvbdUUGHSvZA5cUaOBdyTAuUobzonrkgxlUX18w,6000
+rich_msa-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rich_msa-0.1.0.dist-info/top_level.txt,sha256=XZwcbaee5iLR9b3oQnrOSD7Z9AfGVWNst91KtHbdfXg,9
+rich_msa-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rich_msa-0.1.0.dist-info/RECORD,,
