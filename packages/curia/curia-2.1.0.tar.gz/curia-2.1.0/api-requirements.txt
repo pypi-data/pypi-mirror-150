@@ -1,0 +1,3 @@
+# Note: do not try to install these deps, they are here to be picked up by depdenabot only
+packaging
+git+https://github.com/FoundryAI/curia-platform-api.git@v1.18.0#egg=curia-platform-api
