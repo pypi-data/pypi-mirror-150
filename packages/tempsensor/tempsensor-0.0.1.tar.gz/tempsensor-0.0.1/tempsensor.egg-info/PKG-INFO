@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tempsensor
+Version: 0.0.1
+Summary: tempsensor: Tools to work with temperature sensor data
+Home-page: https://github.com/redvypr/tempsensor
+Author: Peter Holtermann
+Author-email: peter.holtermann@systemausfall.org
+License: GPLv03
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
+License-File: LICENSE
+
+Tools to convert and fit temperature sensor data like NTC, thermocouple, platin sensors.
+

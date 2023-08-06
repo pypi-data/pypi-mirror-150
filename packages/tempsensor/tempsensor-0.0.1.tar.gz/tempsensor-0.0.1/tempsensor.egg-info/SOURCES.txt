@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tempsensor/VERSION
+tempsensor/__init__.py
+tempsensor.egg-info/PKG-INFO
+tempsensor.egg-info/SOURCES.txt
+tempsensor.egg-info/dependency_links.txt
+tempsensor.egg-info/not-zip-safe
+tempsensor.egg-info/top_level.txt
+tempsensor/ntc/__init__.py
