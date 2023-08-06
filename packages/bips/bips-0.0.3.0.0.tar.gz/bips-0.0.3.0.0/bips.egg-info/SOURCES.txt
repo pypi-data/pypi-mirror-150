@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+bips/__init__.py
+bips/bip_notifs.py
+bips.egg-info/PKG-INFO
+bips.egg-info/SOURCES.txt
+bips.egg-info/dependency_links.txt
+bips.egg-info/top_level.txt
