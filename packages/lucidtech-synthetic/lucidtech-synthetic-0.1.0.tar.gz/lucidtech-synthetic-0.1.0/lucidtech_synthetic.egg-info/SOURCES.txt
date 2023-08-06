@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lucidtech_synthetic.egg-info/PKG-INFO
+lucidtech_synthetic.egg-info/SOURCES.txt
+lucidtech_synthetic.egg-info/dependency_links.txt
+lucidtech_synthetic.egg-info/entry_points.txt
+lucidtech_synthetic.egg-info/requires.txt
+lucidtech_synthetic.egg-info/top_level.txt
+synthetic/__init__.py
+synthetic/__main__.py
+synthetic/__version__.py
+synthetic/iterdata.py
