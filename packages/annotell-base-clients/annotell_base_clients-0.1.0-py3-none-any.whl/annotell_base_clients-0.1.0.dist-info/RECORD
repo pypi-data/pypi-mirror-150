@@ -1,0 +1,14 @@
+annotell_base_clients-0.1.0-py3.8-nspkg.pth,sha256=QpBPPgWNKzm0ysnHOq_yHjdpWnH3BJrz1TQeNgOzolw,549
+annotell/base_clients/__init__.py,sha256=jihay0Ku5I8GnJv-dP689UoONTBuVLILjomachlzc4o,125
+annotell/base_clients/http_client.py,sha256=e9EfaeG3CEv73MUqv6903y_r7g71OwTmZ_0I9HJ0EcI,5254
+annotell/base_clients/models.py,sha256=ixvcwch0DdIjSAcHcjPDkibh6ESBIsctOT6QVoZMBqg,274
+annotell/base_clients/util.py,sha256=2EcyTpSs1yikko1l_WxEp-Asw1kO4wYogTE-SPjsZOs,1655
+annotell/base_clients/cloud_storage/__init__.py,sha256=Ubb1S7PEK8zpvXHauM7u9tn9-s4Pcw1jec0uGm-kxsA,54
+annotell/base_clients/cloud_storage/download_handler.py,sha256=XyjsR0PLMqi7diICOTNB6au2qz5-WyX_FjzXT_nTW2k,2264
+annotell/base_clients/cloud_storage/file_resource_client.py,sha256=WffWDt8oEp7xm7YAYBkAfVO2iEHh5QoWFv2_a4ldsPc,1819
+annotell/base_clients/cloud_storage/upload_handler.py,sha256=sXhK0G-GqxQgmEoufWya6DLGgvMZw53kXCGN1S5yJHk,3370
+annotell_base_clients-0.1.0.dist-info/METADATA,sha256=YzZAB71uymXLLxBC3pll98aODJDY9_obYl-JpmOV_m8,1062
+annotell_base_clients-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+annotell_base_clients-0.1.0.dist-info/namespace_packages.txt,sha256=ovwDyo5ajMsAZxqAovd0d4s8ZFftRtmvbKk1zN8Z0go,9
+annotell_base_clients-0.1.0.dist-info/top_level.txt,sha256=ovwDyo5ajMsAZxqAovd0d4s8ZFftRtmvbKk1zN8Z0go,9
+annotell_base_clients-0.1.0.dist-info/RECORD,,
