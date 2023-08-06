@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: minique
+Version: 0.6.0
+Summary: Minimal Redis job runner
+Home-page: https://github.com/valohai/minique
+Author: Valohai
+Author-email: hait@valohai.com
+Maintainer: Aarni Koskela
+Maintainer-email: akx@iki.fi
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: redis (>=2.10.0)
+Provides-Extra: sentry
+Requires-Dist: sentry-sdk (~=0.19.0) ; extra == 'sentry'
+
