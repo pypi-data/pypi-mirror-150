@@ -1,0 +1,16 @@
+CHANGELOG.md
+COPYING
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rich_msa/__init__.py
+rich_msa/__main__.py
+rich_msa/cli.py
+rich_msa/py.typed
+rich_msa.egg-info/PKG-INFO
+rich_msa.egg-info/SOURCES.txt
+rich_msa.egg-info/dependency_links.txt
+rich_msa.egg-info/requires.txt
+rich_msa.egg-info/top_level.txt
+rich_msa.egg-info/zip-safe
