@@ -1,0 +1,11 @@
+pyramid
+redis>=3.0
+python3-memcached
+
+[dev]
+black
+isort
+
+[test]
+pytest
+coverage
