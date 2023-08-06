@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "python-garminconnect-enhanced"
+version = "0.0.1"
+description = "A fork of python-garminconnect with additional functionality to upload activities"
+authors = ["Marvin Straathof <marvinstraathof@gmail.com>"]
+keywords=["garmin connect", "api", "client", "upload activity"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license="MIT"
+packages=[
+    {include="garminconnect"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+cloudscraper = "^1.2.60"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+mypy = "^0.950"
+isort = "^5.10.1"
+pyproject-flake8 = "^0.0.1-alpha.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
