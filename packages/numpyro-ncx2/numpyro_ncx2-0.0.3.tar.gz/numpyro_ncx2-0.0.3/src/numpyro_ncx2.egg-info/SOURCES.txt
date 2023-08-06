@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/numpyro_ncx2/__init__.py
+src/numpyro_ncx2/ncx2.py
+src/numpyro_ncx2/numpyro_ncx2_version.py
+src/numpyro_ncx2.egg-info/PKG-INFO
+src/numpyro_ncx2.egg-info/SOURCES.txt
+src/numpyro_ncx2.egg-info/dependency_links.txt
+src/numpyro_ncx2.egg-info/requires.txt
+src/numpyro_ncx2.egg-info/top_level.txt
+src/numpyro_ncx2.egg-info/zip-safe
+tests/test_ncx2.py
