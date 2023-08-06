@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: dave-misc
+Version: 0.1.0
+Summary: Dave micro services
+Home-page: https://www.iamdave.ai/
+Author: Dinesh
+Author-email: dinesh@iamdave.ai
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: six
+
+# Medium multiply
+A small demo library for a Medium publication about publishing libraries.
+
+### Installation
+```
+pip install dave-misc
+```
+
+### Get started
+How to match some pattern with string:
+
+```Python
+from regx_entities import RegxEntities
+
+# Instantiate a Multiplication object
+regx = RegxEntities()
+
+#Can added regular custom expressions
+regx.add_entity("otp", r"[0-9]{4}", priority=True)
+
+# Call the multiply method
+result = regx.get_matchs("the otp is 0204")
+
+```
+
