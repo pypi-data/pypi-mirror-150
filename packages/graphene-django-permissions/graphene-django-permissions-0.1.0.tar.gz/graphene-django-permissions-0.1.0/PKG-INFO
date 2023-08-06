@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: graphene-django-permissions
+Version: 0.1.0
+Summary: A performant holistic permissions layer for graphene-django/GraphQL.
+Home-page: https://github.com/sjdemartini/graphene-django-permissions
+License: MIT
+Author: Steven DeMartini
+Author-email: sjdemartini@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: graphene-django (>=2.15.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Graphene Django Permissions
+
+[![pypi](https://img.shields.io/pypi/v/graphene-django-permissions.svg)](https://pypi.org/project/graphene-django-permissions/)
+[![python](https://img.shields.io/pypi/pyversions/graphene-django-permissions.svg)](https://pypi.org/project/graphene-django-permissions/)
+[![Build Status](https://github.com/sjdemartini/graphene-django-permissions/actions/workflows/dev.yml/badge.svg)](https://github.com/sjdemartini/graphene-django-permissions/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/sjdemartini/graphene-django-permissions/branch/main/graphs/badge.svg)](https://codecov.io/github/sjdemartini/graphene-django-permissions)
+
+A performant, holistic permissions layer for graphene-django/GraphQL.
+
