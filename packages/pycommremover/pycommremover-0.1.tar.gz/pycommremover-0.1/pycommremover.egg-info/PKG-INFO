@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pycommremover
+Version: 0.1
+Summary: Library to remove block and line comments.
+Home-page: https://github.com/carlosplanchon/pycommremover
+Download-URL: https://github.com/carlosplanchon/pycommremover/archive/v0.1.tar.gz
+Author: Carlos A. Planchón and Agustín Céspedes
+Author-email: carlosandresplanchonprestes@gmail.com, agustinces17@gmail.com
+License: MIT
+Keywords: comment,remover
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pycommremover
+*Python3 Module to convert from duration to date and time.*
+
+## Installation
+### Install with pip
+```
+pip3 install -U pycommremover
+```
+
+## Usage
+```
+In [1]: import pycommremover
+
+In [2]: text = """
+print("First line")
+
+\"\"\"
+
+print("Commented line.")
+
+'''
+print("Commented line 2.")
+
+print("Commented line 3.")
+
+# Single line comment 1.
+'''
+
+# Single line comment.
+print("Commented line 4.")
+
+\"\"\"
+
+# Single line comment 2.
+
+print("Commented line 5")
+"""
+
+In [3]: output = pycommremover.remove_comments(text=text)
+
+
+In [4]: print(output)
+
+print("First line")
+
+
+
+
+
+print("Commented line 5")
+
+
+```
+
+

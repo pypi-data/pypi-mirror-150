@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pycommremover/__init__.py
+pycommremover.egg-info/PKG-INFO
+pycommremover.egg-info/SOURCES.txt
+pycommremover.egg-info/dependency_links.txt
+pycommremover.egg-info/top_level.txt
