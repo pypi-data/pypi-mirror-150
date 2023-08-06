@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pramda
+Version: 0.1.0
+Summary: Functional programming for python
+Home-page: http://github.com/pramda/pramda
+Author: Myuksal
+Author-email: jupyter@kakao.com
+License: MIT
+Keywords: function,tool
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Pramda
+
+Pramda helps you implement functional programming in Python
