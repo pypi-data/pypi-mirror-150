@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mager
+Version: 0.0.281
+Summary: Gmail sender + Copy type checker + More to come
+Home-page: https://github.com/Frank17/Mager
+Author: Frank Zhang
+Author-email: frankzhang314159@gmail.com
+License: MIT
+Keywords: assistant,helper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A module aims to address rare use cases you may encounter when dealing with built-in data types and structures
+
+
