@@ -1,0 +1,3 @@
+[console_scripts]
+bt-dualboot=bt_dualboot.cli.app:main
+
