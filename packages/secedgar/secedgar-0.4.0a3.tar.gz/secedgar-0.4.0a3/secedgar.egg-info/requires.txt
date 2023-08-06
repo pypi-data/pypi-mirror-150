@@ -1,0 +1,20 @@
+beautifulsoup4
+aiohttp
+async_timeout<4.0,>=3.0
+urllib3
+requests
+lxml
+tqdm
+
+[:python_version == "3.6"]
+typing_extensions<4.2.0
+
+[cli]
+beautifulsoup4
+aiohttp
+async_timeout<4.0,>=3.0
+urllib3
+requests
+lxml
+tqdm
+Click
