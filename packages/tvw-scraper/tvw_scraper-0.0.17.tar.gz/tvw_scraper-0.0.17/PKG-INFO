@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tvw-scraper
+Version: 0.0.17
+Summary: Scraping tradingview.com
+Home-page: https://github.com/ogremagi4/tvw_scraper
+License: MIT
+Keywords: python,scraping,market data,tradingview
+Author: fip
+Author-email: ogremagi9@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: dataclass-factory (>=2.14,<3.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: regex (>=2022.1.18,<2023.0.0)
+Requires-Dist: tenacity (>=8.0.1,<9.0.0)
+Requires-Dist: uplink (>=0.9.7,<0.10.0)
+Requires-Dist: websocket-client (>=1.2.3,<2.0.0)
+Requires-Dist: websockets (>=10.2,<11.0)
+Project-URL: Repository, https://github.com/ogremagi4/tvw_scraper
+Description-Content-Type: text/markdown
+
+# tvw_scraper
+use asyncio and websockets to retrieve candles and symbol info from tradingview.com
+
+Usage example:
+
+retrieve symbols to use them later in websocket queries
+```python
+from tvw_scraper.rest import SymbolScanner
+from tvw_scraper.models import Sectors
+
+SymbolScanner.get_sector_symbols(Sectors.russia)
+{'totalCount': 937, 'data': [{'s': 'MOEX:AFKS', 'd': []}, {'s': 'MOEX:JNJ-RM', 'd': []} . . .
+```
+
+retrieve candles and some info from tradingview websocket:
+```python
+import asyncio
+from tvw_scraper.scraper import TradingviewWsScraper
+from tvw_scraper.models import Intervals
+
+scraper = TradingviewWsScraper()
+
+async def main():
+    result = await asyncio.gather(*[
+        scraper.get_candles('NASDAQ:NVDA',Intervals.interval_1day), 
+        scraper.get_candles('NASDAQ:NVDA',Intervals.interval_1hour), 
+        scraper.get_symbol('NASDAQ:NVDA')
+        ])
+
+
+asyncio.get_event_loop().run_until_complete(main())
+```
