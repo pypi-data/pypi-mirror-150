@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fanompo
+Version: 0.0.1
+Summary: Propensity score matching for python and graphical plots
+Home-page: https://github.com/pypa/sampleproject
+Author: Author name here
+Author-email: author@example.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tkinter
+Requires-Dist: sqlite3
+Requires-Dist: tkcalendar
+Requires-Dist: functools
+Requires-Dist: collections
+Requires-Dist: itertools
+Requires-Dist: operator
+Requires-Dist: mako
+Requires-Dist: datetime
+Requires-Dist: calendar
+Requires-Dist: contextlib
+Requires-Dist: os
+Requires-Dist: re
+
+UNKNOWN
+
