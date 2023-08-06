@@ -1,0 +1,12 @@
+logitech_steering_wheel/__init__.py,sha256=V8lQR0Q5kS7Sj97yrdqc1Qzt2p3h4AYpiC1dlvr8nHI,94
+logitech_steering_wheel/_controllerproperties.py,sha256=MlOOtPlY8xGiorEIfwzezra2l-y1u25qqThDzyTAPdU,3252
+logitech_steering_wheel/_enums.py,sha256=SNrlx3PfgmqLnb2b3LESqtcUJEdYpC4Tt7lP4Igk2qA,1278
+logitech_steering_wheel/_state.py,sha256=x82ldNkycWEsdPh1xIcZ36NpoQXgaADLYtbt0xFYcKo,5673
+logitech_steering_wheel/_wrapper.py,sha256=XumFZ5TQsm1L2mkvJ_LmwBWgLgBfEXy6OGIOs6EnRE4,15557
+logitech_steering_wheel-1.0.data/data/lib/site-packages/logitech_steering_wheel/lib/x64/LogitechSteeringWheelEnginesWrapper.dll,sha256=hJaNemirV1mwC4JmjBKXLBWggyPhLgZncsV5gTeJXuY,14848
+logitech_steering_wheel-1.0.data/data/lib/site-packages/logitech_steering_wheel/lib/x86/LogitechSteeringWheelEnginesWrapper.dll,sha256=_FvXc7zn2GCyrjcODpVojK4qkvnvg2M4KWap-pr89tk,12800
+logitech_steering_wheel-1.0.dist-info/LICENSE,sha256=lhSWBAwPobZtFeEN2xoOvRXqLq4eWMjUhHe0s-fGKac,1138
+logitech_steering_wheel-1.0.dist-info/METADATA,sha256=L87sIka3Pio0sPr6OEmdBlfliY06gdvQvFQFbaq7vbs,4021
+logitech_steering_wheel-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logitech_steering_wheel-1.0.dist-info/top_level.txt,sha256=Rd2ILrnvB7edodsQWywJgssIxZc3yVs-TVDfPp8d4Kg,24
+logitech_steering_wheel-1.0.dist-info/RECORD,,
