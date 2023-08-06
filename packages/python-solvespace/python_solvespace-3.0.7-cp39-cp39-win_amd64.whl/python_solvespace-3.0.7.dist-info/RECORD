@@ -1,0 +1,11 @@
+python_solvespace/__init__.pxd,sha256=a99mtb8qROZYvqLuhmlasVCgbmAL9nzVzOJFrVSWLGE,3
+python_solvespace/__init__.py,sha256=SynmNLS9A_SMEHHo2YLBu5R370zKkh9LPh-g7pkZmVU,653
+python_solvespace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_solvespace/slvs.cp39-win_amd64.pyd,sha256=_O_zp0h4-0emhXEuaSCwElg2Wg-GDkw7Nh7kAQD9BhY,544256
+python_solvespace/slvs.pxd,sha256=U9fYT0wXM2ybhrFIVmeayiNymd27cRnHCcBSsk1Sebw,10154
+python_solvespace/slvs.pyi,sha256=AriBJWLi2XQIRTD5ILURHE8bkAtOU-W_1TwP0QLnlKo,7346
+python_solvespace/slvs.pyx,sha256=EgDIDdUtGLx1p7kc6Frk-7etk2YO-p7yopHWSEyssrY,39018
+python_solvespace-3.0.7.dist-info/METADATA,sha256=GaRGOliToCn2KQ2uqfNx28kcnNUSTvlbBb9Dq5qCCMo,2798
+python_solvespace-3.0.7.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+python_solvespace-3.0.7.dist-info/top_level.txt,sha256=KyM1VjJlIaxzqi6e0M7zVNRdjdtAn_oxSETI064wJZA,18
+python_solvespace-3.0.7.dist-info/RECORD,,
