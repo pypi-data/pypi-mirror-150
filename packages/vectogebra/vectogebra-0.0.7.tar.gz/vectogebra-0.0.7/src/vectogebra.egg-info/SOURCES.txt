@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/vectogebra/__init__.py
+src/vectogebra/geometry.py
+src/vectogebra/utilities.py
+src/vectogebra/vector.py
+src/vectogebra.egg-info/PKG-INFO
+src/vectogebra.egg-info/SOURCES.txt
+src/vectogebra.egg-info/dependency_links.txt
+src/vectogebra.egg-info/top_level.txt
+test/test_algebra.py
+test/test_attributes.py
+test/test_geometry.py
+test/test_utilities.py
