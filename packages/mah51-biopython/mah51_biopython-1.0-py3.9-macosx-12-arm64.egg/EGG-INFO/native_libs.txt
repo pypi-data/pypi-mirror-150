@@ -1,0 +1,9 @@
+Bio/cpairwise2.cpython-39-darwin.so
+Bio/Align/_aligners.cpython-39-darwin.so
+Bio/Cluster/_cluster.cpython-39-darwin.so
+Bio/Nexus/cnexus.cpython-39-darwin.so
+Bio/PDB/ccealign.cpython-39-darwin.so
+Bio/PDB/kdtrees.cpython-39-darwin.so
+Bio/PDB/QCPSuperimposer/qcprotmodule.cpython-39-darwin.so
+Bio/SeqIO/_twoBitIO.cpython-39-darwin.so
+Bio/motifs/_pwm.cpython-39-darwin.so
