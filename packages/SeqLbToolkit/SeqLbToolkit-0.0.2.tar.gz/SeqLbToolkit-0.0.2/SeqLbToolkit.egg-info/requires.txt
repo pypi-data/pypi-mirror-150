@@ -1,0 +1,9 @@
+nltk
+numpy
+regex
+seqeval
+torch
+tqdm
+transformers
+pytokenizations
+pytextspan
