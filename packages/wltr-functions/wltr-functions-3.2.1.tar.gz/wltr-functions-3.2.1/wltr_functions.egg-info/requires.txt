@@ -1,0 +1,8 @@
+boto3
+botocore
+simple-salesforce
+email-validator
+cx-Oracle
+pymongo
+pycryptodomex
+JayDeBeApi
