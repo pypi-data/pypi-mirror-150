@@ -1,0 +1,10 @@
+packaging
+redis<=4.3.1
+six>=1.12
+sortedcontainers
+
+[aioredis]
+aioredis
+
+[lua]
+lupa
