@@ -1,0 +1,13 @@
+resotoworker/__init__.py,sha256=56fR9ZiFF8epeFjlC9CAxrHWJ8MeGThcuRxU_VrNZ0Q,458
+resotoworker/__main__.py,sha256=591r0LOM610Yp05WAByeW_d0uwTQd-sOJHfni7eyNrk,8259
+resotoworker/cleanup.py,sha256=-XuxecTYU3rnVnFevzjBnc8o7BqGcLXjMOBb4PoN6aI,4612
+resotoworker/collect.py,sha256=ZHlctnnu24wevXpCmT2QBc8JBNDEtdkL0PhJG7HCha8,3822
+resotoworker/config.py,sha256=Kb0Wo6nm09m3_oi8gm9t9XzY71eVdsx3s72y7OfClg4,2696
+resotoworker/pluginloader.py,sha256=8NXcPXCiIVyySI7Bdin5X1aeyyqlLnb7lQGiBXRrw6M,3861
+resotoworker/resotocore.py,sha256=-r0BjwrKz9AYj2-hJ3nvaOFPCXwOS4zEiCuA8jETMzM,4159
+resotoworker/tag.py,sha256=5ML5YlnSoDVbkhy30bUo1FMFG-0R6OYzQilFMgeI-Q0,1094
+resotoworker-2.2.0.dist-info/METADATA,sha256=ljX5VBJ1iBD1K4FxF0yb1P8lyH8aQMiimUUsipK3804,5697
+resotoworker-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resotoworker-2.2.0.dist-info/entry_points.txt,sha256=YKw-_EchNlhi1UvakroeuSxJDILzWphkrLn5lwH0Vds,60
+resotoworker-2.2.0.dist-info/top_level.txt,sha256=v-pDD3_nNkFhmbsjHPtVdHbtPECktizppBPkXhk64DA,13
+resotoworker-2.2.0.dist-info/RECORD,,
