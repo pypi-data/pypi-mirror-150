@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pyspeechanalysis
+Version: 0.0.1
+Summary: Module for Speech Processing
+Home-page: UNKNOWN
+Author: Ittipon Bangudsareh
+Author-email: edocstudio.info@gmail.com
+License: MIT
+Keywords: python,speech,signal,processing,speech processing,signal processing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+# PySpeechAnalysis
+
+* Now Support
+    - autocorrelation, average_magnitude_difference, bandpass_filter, covariance, discrete_cosine_transfrom, 
+    - framming, hamming_window, mel_filter, moving_average, normalize_signal, 
+    - pre_emphasis, power_spectrum, standard_deviation 
+
+## Example
+
+How to use
+
+```python
+from scipy.io import wavfile
+from pyspeechanalysis import SpeechProcessing as SP
+
+inputfile = r'./audio.wav'
+[fs, X] = wavfile.read(inputfile)
+
+# PRE-PROCESSING
+x = SP.normalize_signal(X, is_figure = True)
+
+y = SP.pre_emphasis(x, is_figure = False)
+
+# FRAMING AND OVERLAPPING
+PERCENT = 80
+FRAME_MILLISEC = 0.032
+frame = SP.set_frame(fs, FRAME_MILLISEC)
+signal_vector = SP.framming(y, frame, PERCENT)
+```
+
+Check out: https://edocstudio.info
+
