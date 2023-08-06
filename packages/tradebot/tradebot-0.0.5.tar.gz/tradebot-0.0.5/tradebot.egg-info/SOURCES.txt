@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+tradebot/__init__.py
+tradebot.egg-info/PKG-INFO
+tradebot.egg-info/SOURCES.txt
+tradebot.egg-info/dependency_links.txt
+tradebot.egg-info/requires.txt
+tradebot.egg-info/top_level.txt
