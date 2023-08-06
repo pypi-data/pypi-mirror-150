@@ -1,0 +1,2 @@
+[console_scripts]
+streetviewdownloader = streetviewdownloader.__main__:main
