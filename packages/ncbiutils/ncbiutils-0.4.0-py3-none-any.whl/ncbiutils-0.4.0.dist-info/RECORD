@@ -1,0 +1,9 @@
+ncbiutils/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+ncbiutils/http.py,sha256=Pf1zVkETSBr_kgajn-Ae4iSq8HpBoZseJfK4QAVoPWg,949
+ncbiutils/ncbiutils.py,sha256=T3WgpHDVAw__ofCfOXvO5wakbXOCu5J3oVRgpFqTHVg,4799
+ncbiutils/pubmedxmlparser.py,sha256=ZdArhovB8gfj0iGpXz2qZCRB9L5N7_QtBhWaGYDBe7A,9469
+ncbiutils/types.py,sha256=_ppFc6gfDLRntacjqncZL-RB5SuwuVT7232zcU2q2ZY,472
+ncbiutils-0.4.0.dist-info/LICENSE,sha256=cKweWa8dRAiYX-w_GK4TeN_mqlXNX1gx01gZ-ZaioWQ,1064
+ncbiutils-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ncbiutils-0.4.0.dist-info/METADATA,sha256=YV7nd6zCwEtQen0YziqguD-Zgm6zuzQdV4Ip0wdYo1U,4929
+ncbiutils-0.4.0.dist-info/RECORD,,
