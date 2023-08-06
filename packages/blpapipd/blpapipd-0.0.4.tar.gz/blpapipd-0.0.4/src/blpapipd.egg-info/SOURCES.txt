@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/blpapipd.egg-info/PKG-INFO
+src/blpapipd.egg-info/SOURCES.txt
+src/blpapipd.egg-info/dependency_links.txt
+src/blpapipd.egg-info/top_level.txt
