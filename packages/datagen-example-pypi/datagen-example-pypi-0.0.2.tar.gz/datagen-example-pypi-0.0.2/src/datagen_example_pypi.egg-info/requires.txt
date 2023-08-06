@@ -1,0 +1,4 @@
+dependency-injector
+marshmallow-dataclass
+numpy
+opencv-python
