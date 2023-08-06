@@ -1,0 +1,9 @@
+jupyter-server-proxy
+jupyter_contrib_nbextensions
+matlab-proxy>=0.2.9
+
+[dev]
+black
+ruamel.yaml
+pytest
+pytest-cov
