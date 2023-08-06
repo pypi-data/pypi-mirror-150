@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cloudfm
+Version: 0.0.1
+Summary: An internal package to be used by the employees of CLOUDFM company
+Home-page: https://github.com/XiaozhanYang/asset-on-off-time-detection
+Author: Shashank Goud
+Author-email: s.goud@cloudfmgroup.com
+Project-URL: Bug Tracker, https://github.com/XiaozhanYang/asset-on-off-time-detection/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CloudFM Python Library
+
+This is a CloudFM python packages to be used by its employees for development pupose.
+detection_modules contains functions for on_off detection of asset
+report_modules contains functions for generation of plots for the site and its assets.

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cloudfm.egg-info/PKG-INFO
+src/cloudfm.egg-info/SOURCES.txt
+src/cloudfm.egg-info/dependency_links.txt
+src/cloudfm.egg-info/top_level.txt
+src/detection_modules/__init__.py
+src/detection_modules/functions.py
