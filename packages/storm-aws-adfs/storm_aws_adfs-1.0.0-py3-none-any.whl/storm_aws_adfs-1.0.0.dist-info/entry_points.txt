@@ -1,0 +1,3 @@
+[console_scripts]
+storm-aws-adfs=storm_aws_adfs.commands:cli
+
