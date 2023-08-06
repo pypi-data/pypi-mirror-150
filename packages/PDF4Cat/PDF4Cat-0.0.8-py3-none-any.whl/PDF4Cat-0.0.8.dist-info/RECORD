@@ -1,0 +1,14 @@
+PDF4Cat/__init__.py,sha256=R8-Qf--aFRqwl4CDew0Ujz3k6l7lQcWaQUHPUDaQjDA,106
+PDF4Cat/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PDF4Cat/cat.py,sha256=XJtrzaQQnjThUFDDJz8h44u3h4N-6YgjYYc6GEhdfjw,1268
+PDF4Cat/crypt.py,sha256=ctMjUVdhVuGkQ6k7BLN0H8dO02LOGj1UbmXrjB4zz98,1015
+PDF4Cat/doc.py,sha256=ZSbq9avrx13su_t12CeU64HTHTXFjGwElPsZqAalZyI,173
+PDF4Cat/helpers.py,sha256=LCz_Om-j-tGMCXKIjbZATH2jWK6rU5ktswHxvIwS57U,2175
+PDF4Cat/merger.py,sha256=H4Xc-JWxUTSjqHT7aKk13IcrnTDUitUGUM9MAbUbRn8,1358
+PDF4Cat/splitter.py,sha256=jjTE6fCKyS_efRdZK8j6QvjVaKRP1T_mRzHuUnkFHf0,1157
+PDF4Cat-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PDF4Cat-0.0.8.dist-info/METADATA,sha256=BodJyK2Yo0EfBix2lvwD4xklmJJUVuv9i8Jsfclqmao,1000
+PDF4Cat-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PDF4Cat-0.0.8.dist-info/entry_points.txt,sha256=Rh_dZ1J-TYXaGlNaIqX8801FO072vSYCWlLhdBX0xxQ,45
+PDF4Cat-0.0.8.dist-info/top_level.txt,sha256=AtNwY1phvq8kjXP7j_AjbFQH_JYkOM42T_sR3sMLRdo,8
+PDF4Cat-0.0.8.dist-info/RECORD,,
