@@ -1,0 +1,8 @@
+bomapi/__init__.py,sha256=zXAmNVdMajN2AF7RBcs0yRng3gUT1Pvycnx1zDnGzQ4,2861
+bomapi/aio.py,sha256=GD5ulssuA0fHGtgBcQX-SN70kelVTeU0jSYbj8zvDbw,3026
+bomapi/data_structures.py,sha256=uWdnds6MiKmc_f8dk3cZydehhgxlpC7secu1ue3fMp4,6975
+bomapi/exceptions.py,sha256=4H_VnCJXgi_g24d7w-5fQpacUK477LqcMGzukXvIO6g,396
+bomapi-0.1.0.dist-info/LICENSE,sha256=9TOmo6AVHkAr6Zf_hehdzPoBdoYuWMyEUDVCfl0SPz4,1501
+bomapi-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bomapi-0.1.0.dist-info/METADATA,sha256=HPDU1SGYPHvhdb8J1XR7Mtu-73tacOZZLpJko3nZmX8,1897
+bomapi-0.1.0.dist-info/RECORD,,
