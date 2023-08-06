@@ -1,0 +1,3 @@
+[console_scripts]
+memery=memery.cli:main
+
