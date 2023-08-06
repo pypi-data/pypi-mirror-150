@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: optitrack
+Version: 0.0.6
+Summary: optitrack c ++ wrapper for python 3.8, motive 2.3.0
+Author: Ana Soto
+Author-email: ana.sotodelacruz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
