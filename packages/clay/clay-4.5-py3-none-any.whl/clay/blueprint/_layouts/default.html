@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% block title %}Clay{% endblock %}</title>
+  <link rel="stylesheet" href="/static/normalize.css">
+  <link rel="stylesheet" href="/static/styles.css">
+  <meta name="theme-color" content="#f6f2ef">
+  <link rel="icon" href="/static/favicon.svg">
+  <meta name="generator" content="Clay (https://github.com/lucuma/clay)" />
+  <script src="/static/scripts.js" defer></script>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {% block content %}{% endblock %}
+</body>
+</html>
