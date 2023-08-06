@@ -1,0 +1,15 @@
+salesforcecdpconnector/__init__.py,sha256=DEHADjGRqv8F7_z4JUYmcN9CKLHuNpcV0OViGoUSh08,82
+salesforcecdpconnector/authentication_helper.py,sha256=iJtLd6G-kaBHV8hSaTgWoFwrsfRwdpmyroZk14ldtvA,6107
+salesforcecdpconnector/connection.py,sha256=w-WaMxSvXWekSRYnDwhf95DshDsLJgm3CtRfoTYF6wY,2379
+salesforcecdpconnector/constants.py,sha256=6QIsoKqvpmHSvu67I8dVTVGwvXFbUdPeFolmL3wh7cs,1581
+salesforcecdpconnector/cursor.py,sha256=n-yawkQ9OUdmXRGV4jwsdxSyVCEc2llYQ1dw69ITEr8,7675
+salesforcecdpconnector/exceptions.py,sha256=jbDNnerY6h_4cVJhoNuAWQPCLtSO80APdtTc0iBVzHk,438
+salesforcecdpconnector/pandas_utils.py,sha256=yyk0EnuAgGYlNYr-U6nRo0YD46mb7kJtUUWMxj4jCIw,3033
+salesforcecdpconnector/parsed_query_result.py,sha256=JM5hEVwmgWQ25caO_cdZuGaf4HH9UKBkgOlehTpWSnc,454
+salesforcecdpconnector/query_result_parser.py,sha256=OOJIJOoMXMaumawrKgtChKgW-uSIinAs84AluRmJFao,3370
+salesforcecdpconnector/query_submitter.py,sha256=2SbGq8hvWLPivglo1FHUF11PauhK6zfXtA3_936MalE,3892
+cdp_connector-1.0.1.dist-info/LICENSE.txt,sha256=LtUkxJqYKl1_unUxHxSXmPJ2XDEMk0mR3obMgPmVdvE,1506
+cdp_connector-1.0.1.dist-info/METADATA,sha256=jwLpvf-wu_ykcJg-ZLy1FI-93qdwBdazrFDL1KSYRVU,3756
+cdp_connector-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdp_connector-1.0.1.dist-info/top_level.txt,sha256=x28pgg-XfVC9unm4CfzXyfoHjbVSVOW7NKss1IiGzTU,23
+cdp_connector-1.0.1.dist-info/RECORD,,
