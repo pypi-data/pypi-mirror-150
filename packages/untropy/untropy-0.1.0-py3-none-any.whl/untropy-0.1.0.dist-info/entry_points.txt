@@ -1,0 +1,3 @@
+[console_scripts]
+untropy=untropy.cli:cli
+
