@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pylibsrcml
+Version: 1.0.0.post1
+Summary: A set of Python bindings for srcML.
+Home-page: https://www.srcml.org/
+Author: srcML Team
+Author-email: srcml@kent.edu
+License: LICENSE.txt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+
+# pylibsrcml
+Python bindings for libsrcml

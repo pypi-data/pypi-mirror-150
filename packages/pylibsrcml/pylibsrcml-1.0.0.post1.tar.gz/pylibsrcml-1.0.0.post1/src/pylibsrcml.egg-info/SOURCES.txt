@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pylibsrcml/__init__.py
+src/pylibsrcml/exception.py
+src/pylibsrcml/gen_options.py
+src/pylibsrcml/globals.py
+src/pylibsrcml/options.py
+src/pylibsrcml/srcml.py
+src/pylibsrcml/srcml_archive.py
+src/pylibsrcml/srcml_unit.py
+src/pylibsrcml.egg-info/PKG-INFO
+src/pylibsrcml.egg-info/SOURCES.txt
+src/pylibsrcml.egg-info/dependency_links.txt
+src/pylibsrcml.egg-info/top_level.txt
+test/test.py
