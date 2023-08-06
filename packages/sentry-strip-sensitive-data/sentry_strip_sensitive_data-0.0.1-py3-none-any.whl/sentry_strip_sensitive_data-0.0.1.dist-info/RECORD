@@ -1,0 +1,7 @@
+sentry_strip_sensitive_data/__init__.py,sha256=YQTTTl6TnIGxlW4x3Me9ay6HZ8nZvHTQxGJmmo_K2BU,90
+sentry_strip_sensitive_data/before_send_func_generator.py,sha256=09_m5CBcpBMbD6wH59UaddQskMt9APialr9FzcFWGno,1278
+sentry_strip_sensitive_data-0.0.1.dist-info/LICENSE,sha256=6K3ynGLKZuMcdABqNingdh6XW2fnkcTJc7yFf6CBT6I,1065
+sentry_strip_sensitive_data-0.0.1.dist-info/METADATA,sha256=O_eXZLDcaWh9DxofbrI-h8JvObnS6s5QCRJEWv86dBM,510
+sentry_strip_sensitive_data-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sentry_strip_sensitive_data-0.0.1.dist-info/top_level.txt,sha256=wWZi4JD_KDWM98SLxoxa6h6i-PQixP5RmNCeTt4PAeQ,28
+sentry_strip_sensitive_data-0.0.1.dist-info/RECORD,,
