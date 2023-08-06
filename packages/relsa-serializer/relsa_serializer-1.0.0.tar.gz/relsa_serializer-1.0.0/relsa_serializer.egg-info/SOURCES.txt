@@ -1,0 +1,17 @@
+setup.py
+relsa_serializer/__init__.py
+relsa_serializer.egg-info/PKG-INFO
+relsa_serializer.egg-info/SOURCES.txt
+relsa_serializer.egg-info/dependency_links.txt
+relsa_serializer.egg-info/top_level.txt
+relsa_serializer/serialize_modules/abstractserializer.py
+relsa_serializer/serialize_modules/formats_converter.py
+relsa_serializer/serialize_modules/json_serialize_module.py
+relsa_serializer/serialize_modules/serialize_factory.py
+relsa_serializer/serialize_modules/toml_serialize_module.py
+relsa_serializer/serialize_modules/yaml_serialize_module.py
+relsa_serializer/tools_modules/convert_to_universal_format.py
+relsa_serializer/tools_modules/return_to_normal_form.py
+relsa_serializer/tools_modules/work_with_function_module/ast_to_dict_module.py
+relsa_serializer/tools_modules/work_with_function_module/dic_to_ast_module.py
+relsa_serializer/tools_modules/work_with_function_module/unserialize_funct_module.py
