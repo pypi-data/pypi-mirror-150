@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_color_button/__init__.py
+pyqt_color_button/colorButton.py
+pyqt_color_button.egg-info/PKG-INFO
+pyqt_color_button.egg-info/SOURCES.txt
+pyqt_color_button.egg-info/dependency_links.txt
+pyqt_color_button.egg-info/requires.txt
+pyqt_color_button.egg-info/top_level.txt
