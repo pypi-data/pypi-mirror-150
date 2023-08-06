@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: filebeat
+Version: 0.0.1
+Summary: python uses filebeat, the purpose is to collect logs
+Home-page: https://gitee.com/maxbanana
+Author: hongbo liu
+Author-email: 782027465@qq.com
+License: Apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# filebeat
+
+#### 介绍
+python 项目使用filebeat
+
+#### 示例
+    import filebeat
+    
+    # 加载配置，is_linux=True 使用Linux版的filebeat，is_linux=False 使用Mac版的filebeat
+    fb = filebeat.load_config('/Users/lhb/work/gitee/learn_elk/filebeat_yamls/filebeat.yml', is_linux=False)
+    
+    # 运行
+    fb.run()
+
+
+
+
+

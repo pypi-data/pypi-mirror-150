@@ -1,0 +1,17 @@
+filebeat.inputs:
+- type: filestream
+  paths:
+    - /Users/lhb/work/gitee/learn_elk/log/rxthinking_functions_logfile.log**
+  parsers:
+    - ndjson:
+        keys_under_root: true
+        overwrite_keys: true
+        add_error_key: true
+        expand_keys: true
+
+output.logstash:
+  # Boolean flag to enable or disable the output module.
+  enabled: true
+
+  # The Logstash hosts
+  hosts: ["192.168.206.101:5144"]
