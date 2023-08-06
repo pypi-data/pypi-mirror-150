@@ -1,0 +1,2 @@
+[console_scripts]
+siibra = siibra_cli.cli:cli
