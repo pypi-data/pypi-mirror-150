@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: invoiceJB
+Version: 0.1.0
+Summary: Taiwan invoice number
+Home-page: https://github.com/JBProgramNotes/invoiceJB
+Author: JamesBang
+Author-email: JBProgramNotes@gmail.com
+License: UNKNOWN
+Keywords: invoice
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+﻿## 取得發票號碼
+### 安裝
+```
+pip install invoiceJB
+```
+### 匯入模組
+```
+from invoiceJB import invoice
+```
+### 使用
+```
+invoice.get_current()
+```
+### 傳回值
+```
+{'title': '111年 01~02月', '特別獎': '18927486', '特獎': '82050976', '頭獎': '46596321、75704516、48632657'}
+```
+
