@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/crypto_ai/__init__.py
+src/crypto_ai.egg-info/PKG-INFO
+src/crypto_ai.egg-info/SOURCES.txt
+src/crypto_ai.egg-info/dependency_links.txt
+src/crypto_ai.egg-info/requires.txt
+src/crypto_ai.egg-info/top_level.txt

@@ -1,0 +1,186 @@
+<p align="center">
+  <img src="https://i.ibb.co/v4dSB6M/Picsart-22-05-15-21-58-07-894.png" width=200/>
+  <h1 align="center">Crypto AI</h1>
+  <h3 align="center">A simple Python SDK for <a href="https://rapidapi.com/xk4rim/api/crypto-ai/">Crypto AI API</a></h3>
+</p>
+
+## Implementations
+
+**Crypto AI SDK is currently used in many diffrent applications, such as:**
+
+- [Crypto Predictor](https://t.me/predictCCbot) - a Telegram bot that allows its users to generate custom forecasts for 100+ cryptocurrencies
+- [BTC Predictor](https://twitter.com/predictBTC) - a Twitter bot that tweets daily forecasts about Bitcoin's price
+
+## Installation
+You can use [pip](https://pip.pypa.io/en/stable/) to install Crypto AI SDK:
+
+```bash
+pip3 install crypto-ai
+```
+
+## Usage
+
+```python
+from pprint import pprint
+from crypto_ai import AI
+
+API_KEY = "xxxxxxxxxxxxxxxxxxxx"  # your rapidapi key
+
+# initialize the sdk
+ai = AI(API_KEY)
+
+# generate a prediction on a specific time window
+prediction = ai.predict(
+                 symbol='BTCUSDT',
+                 timeframe='3d',
+             )
+
+# generate a series of short and long-term predictions
+forecast = ai.forecast(
+                 symbol='BTCUSDT',
+           )
+
+# print results
+print('\n==== Prediction:\n')
+pprint(prediction)
+
+print('\n==== Forecast:\n')
+pprint(forecast)
+
+```
+
+**Output:**
+```
+==== Prediction:
+
+{
+   "data":{
+      "prediction":{
+         "change":0.42,
+         "confidence":59.7,
+         "maximum":[
+            30510.0,
+            30664.0,
+            30444.0,
+            30711.0,
+            30424.0,
+            30364.0
+         ],
+         "mean":[
+            29551.0,
+            29700.0,
+            29487.0,
+            29745.0,
+            29468.0,
+            29411.0
+         ],
+         "minimum":[
+            28593.0,
+            28735.0,
+            28531.0,
+            28779.0,
+            28512.0,
+            28457.0
+         ]
+      },
+      "symbol":"BTCUSDT",
+      "timeframe":"3d"
+   },
+   "status":"ok"
+}
+
+==== Forecast:
+
+{
+   "data":{
+      "forecast":{
+         "12h":{
+            "change":-0.59,
+            "confidence":51.2,
+            "maximum":29911.91,
+            "mean":29814.17,
+            "minimum":29716.42
+         },
+         "15m":{
+            "change":-0.07,
+            "confidence":51.5,
+            "maximum":30175.29,
+            "mean":30129.35,
+            "minimum":30083.42
+         },
+         "1d":{
+            "change":-0.32,
+            "confidence":49.4,
+            "maximum":29981.0,
+            "mean":29919.0,
+            "minimum":29856.0
+         },
+         "1h":{
+            "change":-0.09,
+            "confidence":49.2,
+            "maximum":30127.75,
+            "mean":30017.03,
+            "minimum":29906.31
+         },
+         "1w":{
+            "change":-5.49,
+            "confidence":46.8,
+            "maximum":28902.7,
+            "mean":28521.1,
+            "minimum":28139.4
+         },
+         "2d":{
+            "change":1.91,
+            "confidence":50.8,
+            "maximum":30685.2,
+            "mean":30597.69,
+            "minimum":30510.17
+         },
+         "2w":{
+            "change":0.42,
+            "confidence":59.7,
+            "maximum":30364.0,
+            "mean":29411.0,
+            "minimum":28457.0
+         },
+         "30m":{
+            "change":-0.07,
+            "confidence":52.0,
+            "maximum":30151.82,
+            "mean":30103.13,
+            "minimum":30054.45
+         },
+         "3d":{
+            "change":3.94,
+            "confidence":50.5,
+            "maximum":31590.69,
+            "mean":31481.19,
+            "minimum":31371.69
+         },
+         "3h":{
+            "change":-0.22,
+            "confidence":50.3,
+            "maximum":30083.55,
+            "mean":29979.28,
+            "minimum":29875.02
+         },
+         "5m":{
+            "change":-0.01,
+            "confidence":49.0,
+            "maximum":30135.44,
+            "mean":30115.74,
+            "minimum":30096.04
+         },
+         "6h":{
+            "change":-0.27,
+            "confidence":51.0,
+            "maximum":30012.05,
+            "mean":29910.3,
+            "minimum":29808.54
+         }
+      },
+      "symbol":"BTCUSDT"
+   },
+   "status":"ok"
+}
+ ```
