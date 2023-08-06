@@ -1,0 +1,6 @@
+jsw_scrapy/__init__.py,sha256=M7krCYbKspQ2l-J3iW0SEolcvx6tbZw_QcGQ97-O1QY,247
+jsw_scrapy/pipelines/base_pipeline.py,sha256=TvpshwWPFysys8PGqV1NkaPYPSiQEgtRCLpAjmNr4cY,1421
+jsw_scrapy/spiders/base_spider.py,sha256=DRuj0KB-uOxRfc6Gaw5So0VY6KNUQ4PxYhcxtiQfS6k,1711
+jsw_scrapy-1.0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jsw_scrapy-1.0.8.dist-info/METADATA,sha256=5OfnrA21BNbunr1CYs1i2zB62xKd87bV7GiUoFGMlwo,1013
+jsw_scrapy-1.0.8.dist-info/RECORD,,
