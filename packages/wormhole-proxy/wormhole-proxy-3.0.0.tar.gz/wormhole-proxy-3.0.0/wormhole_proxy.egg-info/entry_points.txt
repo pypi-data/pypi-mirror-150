@@ -1,0 +1,2 @@
+[console_scripts]
+wormhole = wormhole.proxy:main
