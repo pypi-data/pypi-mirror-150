@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Classeviva.py
+Version: 0.0.0
+Summary: Classeviva Python API wrapper
+Home-page: https://github.com/Lioydiano/Classeviva
+Author: FLAK-ZOSO
+Author-email: mattia.marchese.2006@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Lioydiano/Classeviva/archive/refs/tags/v0.0.0.tar.gz
+Keywords: classeviva,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires: requests
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Classeviva
+Fast API wrapper for Python
+
+
