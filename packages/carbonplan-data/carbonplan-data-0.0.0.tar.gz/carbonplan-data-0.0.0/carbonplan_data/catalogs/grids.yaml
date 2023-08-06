@@ -1,0 +1,32 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  albers4k:
+    metadata:
+      title: Albers Equal Area 4km grid
+      summary: Grid definition for the CONUS/AK 4km Albers Equal Area study area
+      description: |
+        This dataset defines the grid used for many of our Albers Equal Area 4km data.
+        products. It is particularly useful as a target grid when regridding/reprojecting
+         other datasets to this (common) grid.
+      tags: [meta]
+      type: application/zarr
+      license: Creative Commons Attribution 4.0 International
+      providers:
+        - name: CarbonPlan
+          description: |
+            CarbonPlan is a registered non-profit public benefit corporation working on
+            the science and data of carbon removal.
+          url: https://carbonplan.org
+    parameters:
+      region:
+        description: conus or ak
+        type: str
+        default: conus
+        allowed: [conus, ak]
+    driver: zarr
+    args:
+      urlpath: '{{env(CARBONPLAN_DATA)}}/processed/grids/{{ region }}/4000m/domain.zarr/'
+      consolidated: True
