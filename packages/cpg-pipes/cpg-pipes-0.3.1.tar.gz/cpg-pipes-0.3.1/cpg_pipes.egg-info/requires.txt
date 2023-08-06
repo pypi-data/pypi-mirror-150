@@ -1,0 +1,13 @@
+click
+click-config-file
+pandas
+hail>=0.2.91
+cpg-gnomad
+google-cloud-storage
+google-cloud-secret-manager
+fsspec
+sample-metadata
+analysis-runner
+cloudpathlib[all]
+coloredlogs
+types-PyYAML
