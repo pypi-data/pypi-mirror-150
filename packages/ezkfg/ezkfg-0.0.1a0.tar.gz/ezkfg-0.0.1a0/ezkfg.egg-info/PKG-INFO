@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ezkfg
+Version: 0.0.1a0
+Summary: Easy Configuration
+Home-page: http://github.com/beiyuouo/ezkfg
+Author: Bingjie Yan
+Author-email: bj.yan.pa@qq.com
+License: Apache-2.0 License
+Keywords: configuration,config
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ezkfg
+
+Easy Configuration
+
+## Installation
+
+```bash
+pip install ezkfg
+```
+
+## Usage
+
+```python
+import ezkfg
+```
+
+## Acknowledgements
+
+This project is inspired by the [addict](https://github.com/mewwts/addict) and [mmdetection](https://github.com/open-mmlab/mmdetection).
