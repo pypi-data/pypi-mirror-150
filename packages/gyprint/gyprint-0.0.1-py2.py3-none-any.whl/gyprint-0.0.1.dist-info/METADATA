@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gyprint
+Version: 0.0.1
+Summary: Use for print one_s shape
+Home-page: UNKNOWN
+Author: PeppermintSummer
+Author-email: 528129929@qq.com
+Maintainer: PeppermintSummer
+License: MIT License
+Keywords: deep learning
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+UNKNOWN
+
