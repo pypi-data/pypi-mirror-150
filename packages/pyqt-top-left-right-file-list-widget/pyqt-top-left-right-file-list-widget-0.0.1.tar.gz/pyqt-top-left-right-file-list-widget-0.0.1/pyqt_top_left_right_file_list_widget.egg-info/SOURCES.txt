@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pyqt_top_left_right_file_list_widget/__init__.py
+pyqt_top_left_right_file_list_widget/topLeftRightFileListWidget.py
+pyqt_top_left_right_file_list_widget.egg-info/PKG-INFO
+pyqt_top_left_right_file_list_widget.egg-info/SOURCES.txt
+pyqt_top_left_right_file_list_widget.egg-info/dependency_links.txt
+pyqt_top_left_right_file_list_widget.egg-info/requires.txt
+pyqt_top_left_right_file_list_widget.egg-info/top_level.txt
+pyqt_top_left_right_file_list_widget/ico/__init__.py
+pyqt_top_left_right_file_list_widget/ico/add.svg
+pyqt_top_left_right_file_list_widget/ico/clear.svg
+pyqt_top_left_right_file_list_widget/ico/delete.svg

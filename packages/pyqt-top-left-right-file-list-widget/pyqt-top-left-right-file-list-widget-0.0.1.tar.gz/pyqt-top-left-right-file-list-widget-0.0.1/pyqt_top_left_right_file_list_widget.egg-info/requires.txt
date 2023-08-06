@@ -1,0 +1,4 @@
+PyQt5>=5.8
+simplePyQt5>=0.0.1
+pyqt-file-list-widget>=0.0.1
+pyqt-svg-icon-pushbutton>=0.0.1
