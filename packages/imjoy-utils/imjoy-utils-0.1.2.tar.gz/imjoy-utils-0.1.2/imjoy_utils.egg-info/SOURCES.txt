@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+imjoy_utils/VERSION
+imjoy_utils/__init__.py
+imjoy_utils.egg-info/PKG-INFO
+imjoy_utils.egg-info/SOURCES.txt
+imjoy_utils.egg-info/dependency_links.txt
+imjoy_utils.egg-info/not-zip-safe
+imjoy_utils.egg-info/top_level.txt

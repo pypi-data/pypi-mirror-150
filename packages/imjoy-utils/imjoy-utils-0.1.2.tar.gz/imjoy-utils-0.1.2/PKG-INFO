@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: imjoy-utils
+Version: 0.1.2
+Summary: Utility functions for ImJoy
+Home-page: https://github.com/imjoy-team/imjoy-utils
+Author: ImJoy-Team
+Author-email: imjoy.team@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ImJoy Utils
+
+Utility module for ImJoy in Python
+
+## Development
+
+- Install and set up development environment.
+
+  ```sh
+  pip install -r requirements_dev.txt
+  ```
+
+  This will install all requirements.
+It will also install this package in development mode, so that code changes are applied immediately without reinstall necessary.
+
+- Here's a list of development tools we use.
+  - [black](https://pypi.org/project/black/)
+  - [flake8](https://pypi.org/project/flake8/)
+  - [mypy](https://pypi.org/project/mypy/)
+  - [pydocstyle](https://pypi.org/project/pydocstyle/)
+  - [pylint](https://pypi.org/project/pylint/)
+  - [pytest](https://pypi.org/project/pytest/)
+  - [tox](https://pypi.org/project/tox/)
+- It's recommended to use the corresponding code formatter and linters also in your code editor to get instant feedback. A popular editor that can do this is [`vscode`](https://code.visualstudio.com/).
+- Run all tests, check formatting and linting.
+
+  ```sh
+  tox
+  ```
+
+- Run a single tox environment.
+
+  ```sh
+  tox -e lint
+  ```
+
+- Reinstall all tox environments.
+
+  ```sh
+  tox -r
+  ```
+
+- Run pytest and all tests.
+
+  ```sh
+  pytest
+  ```
+
+- Run pytest and calculate coverage for the package.
+
+  ```sh
+  pytest --cov-report term-missing --cov=imjoy_utils
+  ```
+
+- Continuous integration is by default supported via [GitHub actions](https://help.github.com/en/actions). GitHub actions is free for public repositories and comes with 2000 free Ubuntu build minutes per month for private repositories.
+
+
