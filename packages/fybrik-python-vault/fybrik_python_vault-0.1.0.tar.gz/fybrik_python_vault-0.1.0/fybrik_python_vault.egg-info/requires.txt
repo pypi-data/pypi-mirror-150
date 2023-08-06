@@ -1,0 +1,2 @@
+fybrik_python_logging
+requests

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fybrik-python-vault
+Version: 0.1.0
+Summary: Python vault Package for Fybrik Components
+Home-page: https://github.com/fybrik/fybrik/tree/master/python/vault
+Author: FybrikUser
+Author-email: FybrikUser@il.ibm.com
+License: Apache License, Version 2.0
+Description-Content-Type: text/markdown
+
+## Python Vault Package for Fybrik Components
