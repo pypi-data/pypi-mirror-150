@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CommonModules
+Version: 0.1.22
+Summary: Common Python modules/functionalities used in practice.
+Home-page: https://github.com/wanghewen/CommonModules
+Author: Wang Hewen
+Author-email: wanghewen2@sina.com
+License: MIT
+Keywords: library
+Platform: UNKNOWN
+Requires-Dist: wget
+Provides-Extra: advance_datastructure_io
+Requires-Dist: networkx ; extra == 'advance_datastructure_io'
+Requires-Dist: numpy ; extra == 'advance_datastructure_io'
+Requires-Dist: scipy ; extra == 'advance_datastructure_io'
+Requires-Dist: torch ; extra == 'advance_datastructure_io'
+Provides-Extra: advance_datastructureoperations
+Requires-Dist: scipy ; extra == 'advance_datastructureoperations'
+Requires-Dist: numpy ; extra == 'advance_datastructureoperations'
+
+UNKNOWN
+
+
