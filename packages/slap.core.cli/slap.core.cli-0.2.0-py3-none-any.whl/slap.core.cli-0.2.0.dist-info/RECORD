@@ -1,0 +1,11 @@
+slap/core/cli/__init__.py,sha256=bvKEW7sJEB3sJjthuv2cL79VwP8EhRYjItjfoYG-Dec,172
+slap/core/cli/app.py,sha256=89uCY7uTeB8mQfumKbX8fc77mZhzbMVnR_VuG8ER70Y,2813
+slap/core/cli/argparse.py,sha256=NpV94Ag0wgd-9WyhbK0tzJ9P6qf4X1_qPciMxAQOtpU,3299
+slap/core/cli/command.py,sha256=AuBEOCPZTD9pFwoUIrPN3ooFtmTuM6I2RBeJgycPXhI,3462
+slap/core/cli/completion.py,sha256=gEZde9MS8GMdC5mPcRm5NoL6Wd4Sbv2lzasKe6s7WN8,6798
+slap/core/cli/features.py,sha256=9ijGHBu_eR2M_no1cEy6LmkNP1QCw0M1N3stpDyMgx8,3692
+slap/core/cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slap.core.cli-0.2.0.dist-info/LICENSE,sha256=n1m2B7cI9M4RdEbzD0qQ9ZiNLlEhZAT0kRJSRClqpYw,988
+slap.core.cli-0.2.0.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+slap.core.cli-0.2.0.dist-info/METADATA,sha256=CZBmo5LNoEgAuU67TBEFJMlVEouqwQEEW85mADCdcnE,2594
+slap.core.cli-0.2.0.dist-info/RECORD,,
