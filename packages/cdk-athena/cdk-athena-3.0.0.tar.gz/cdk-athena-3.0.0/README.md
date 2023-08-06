@@ -1,0 +1,86 @@
+# CDK Athena WorkGroup
+
+[![Source](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/udondan/cdk-athena)
+[![Test](https://github.com/udondan/cdk-athena/workflows/Test/badge.svg)](https://github.com/udondan/cdk-athena/actions?query=workflow%3ATest)
+[![GitHub](https://img.shields.io/github/license/udondan/cdk-athena)](https://github.com/udondan/cdk-athena/blob/master/LICENSE)
+[![Docs](https://img.shields.io/badge/Construct%20Hub-cdk--athena-orange)](https://constructs.dev/packages/cdk-athena)
+
+[![npm package](https://img.shields.io/npm/v/cdk-athena?color=brightgreen)](https://www.npmjs.com/package/cdk-athena)
+[![PyPI package](https://img.shields.io/pypi/v/cdk-athena?color=brightgreen)](https://pypi.org/project/cdk-athena/)
+
+![Downloads](https://img.shields.io/badge/-DOWNLOADS:-brightgreen?color=gray)
+[![npm](https://img.shields.io/npm/dt/cdk-athena?label=npm&color=blueviolet)](https://www.npmjs.com/package/cdk-athena)
+[![PyPI](https://img.shields.io/pypi/dm/cdk-athena?label=pypi&color=blueviolet)](https://pypi.org/project/cdk-athena/)
+
+[AWS CDK](https://aws.amazon.com/cdk/) L3 construct for managing Athena [WorkGroups](https://docs.aws.amazon.com/athena/latest/ug/manage-queries-control-costs-with-workgroups.html) and named queries.
+
+Because I couldn't get [@aws-cdk/aws-athena.CfnWorkGroup](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-athena.CfnWorkGroup.html) to work and [@aws-cdk/custom-resources.AwsCustomResource](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_custom-resources.AwsCustomResource.html) has no support for tags.
+
+## Installation
+
+This package has peer dependencies, which need to be installed along in the expected version.
+
+For TypeScript/NodeJS, add these to your `dependencies` in `package.json`. For Python, add these to your `requirements.txt`:
+
+* cdk-ec2-key-pair
+* aws-cdk-lib (^2.0.0)
+* constructs (^10.0.0)
+
+## CDK compatibility
+
+* Version 3.x is compatible with the CDK v2.
+* Version 2.x is compatible with the CDK v1. There won't be regular updates for this.
+
+## Usage
+
+```python
+const workgroup = new WorkGroup(this, 'WorkGroup', {
+  name: 'TheName', // required
+  desc: 'Some description',
+  publishCloudWatchMetricsEnabled: true,
+  enforceWorkGroupConfiguration: true,
+  requesterPaysEnabled: true,
+  bytesScannedCutoffPerQuery: 11000000,
+  resultConfiguration: {
+    outputLocation: `s3://some-bucket/prefix`,
+    encryptionConfiguration: {
+      encryptionOption: EncryptionOption.SSE_S3,
+    },
+  },
+});
+
+const query = new NamedQuery(this, 'a-query', {
+  name: 'A Test Query',
+  database: 'audit',
+  desc: 'This is the description',
+  queryString: `
+    SELECT
+      count(*) AS assumed,
+      split(useridentity.principalid, ':')[2] AS user,
+      resources[1].arn AS role
+    FROM cloudtrail_logs
+    WHERE
+      eventname='AssumeRole' AND
+      useridentity.principalid is NOT NULL AND
+      useridentity.principalid LIKE '%@%'
+    GROUP BY
+      split(useridentity.principalid,':')[2],
+      resources[1].arn
+  `,
+  workGroup: workgroup,
+});
+
+cdk.Tag.add(workgroup, 'HelloTag', 'ok');
+
+new cdk.CfnOutput(this, 'WorkGroupArn', {
+  value: workgroup.arn,
+});
+
+new cdk.CfnOutput(this, 'WorkGroupName', {
+  value: workgroup.name,
+});
+
+new cdk.CfnOutput(this, 'QueryId', {
+  value: query.id,
+});
+```
