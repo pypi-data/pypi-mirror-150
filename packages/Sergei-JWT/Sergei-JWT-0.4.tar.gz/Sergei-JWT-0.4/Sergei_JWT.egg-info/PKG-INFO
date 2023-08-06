@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Sergei-JWT
+Version: 0.4
+Summary: "No man's JWT library for flexible JWT management"
+Author: kernelguardian
+License: MIT
+Keywords: django jwt pyjwt
+Classifier: Environment :: Web Environment
+
+SERGEI
