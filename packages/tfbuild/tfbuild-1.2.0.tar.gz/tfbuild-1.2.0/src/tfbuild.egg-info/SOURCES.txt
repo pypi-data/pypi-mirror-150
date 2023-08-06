@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/tfbuild/actions.py
+src/tfbuild/cli.py
+src/tfbuild/core.py
+src/tfbuild/workspace.py
+src/tfbuild.egg-info/PKG-INFO
+src/tfbuild.egg-info/SOURCES.txt
+src/tfbuild.egg-info/dependency_links.txt
+src/tfbuild.egg-info/entry_points.txt
+src/tfbuild.egg-info/requires.txt
+src/tfbuild.egg-info/top_level.txt
