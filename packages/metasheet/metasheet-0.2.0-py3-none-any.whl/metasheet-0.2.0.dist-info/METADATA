@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: metasheet
+Version: 0.2.0
+Summary: Metasheet parser, serializers, and repository manager
+Home-page: UNKNOWN
+Author: Pascal Heus
+Author-email: pascal.heus@mtna.us
+License: UNKNOWN
+Project-URL: Maintainer, http://www.mtna.us
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: openpyxl
+Requires-Dist: python-dateutil
+
+UNKNOWN
+
