@@ -1,0 +1,9 @@
+dzbee/__init__.py,sha256=D2iQKHu8LwpnLhRrROTHnfHKSsIwLVnXAuet_yd7htY,88
+dzbee/__main__.py,sha256=58jeq6BIKt7y1qgeCZ5vcK_35N1eOEqXH8VaC-BmV_g,905
+dzbee/dzbee.py,sha256=xMnMSrrJIQ5OOg32NJgaf25fb8oxRM4zkLegEzrKRf0,121
+dzbee/fundset.lzma,sha256=QPheYs4cCQ55_O5IScf8XsBlIUlJrCrFhcM4Wf9QmsA,2308402
+dzbee-0.1.1a0.dist-info/entry_points.txt,sha256=PxAaEC6xWxqflLFLH-P8fLNXAydfaXmERXMd1nloOl0,44
+dzbee-0.1.1a0.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+dzbee-0.1.1a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dzbee-0.1.1a0.dist-info/METADATA,sha256=lEu6y9iUCx9_5XmuxoFeF7eLstsfYSDovuxLE1w_6_M,1460
+dzbee-0.1.1a0.dist-info/RECORD,,
