@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cbpi4
+Version: 4.0.5a14
+Summary: CraftBeerPi
+Home-page: http://web.craftbeerpi.com
+Author: Manuel Fritsch
+Author-email: manuel@craftbeerpi.com
+License: UNKNOWN
+Project-URL: Documentation, https://openbrewing.gitbook.io/craftbeerpi4_support/
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+
+UNKNOWN
+
