@@ -1,0 +1,4 @@
+rr-base==1.0
+fastapi~=0.75.0
+uvicorn
+setuptools~=57.0.0
