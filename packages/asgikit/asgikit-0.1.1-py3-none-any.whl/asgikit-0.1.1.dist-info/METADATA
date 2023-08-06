@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: asgikit
+Version: 0.1.1
+Summary: Toolkit for building ASGI applications and libraries
+Home-page: https://github.com/livioribeiro/asgikit
+License: MIT
+Keywords: asgi,toolkit,asyncio,web
+Author: Livio Ribeiro
+Author-email: livioribeiro@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Project-URL: Repository, https://github.com/livioribeiro/asgikit
+Description-Content-Type: text/markdown
+
+# Asgikit - ASGI Toolkit
+
+Asgikit is a toolkit for building asgi applications and frameworks.
+
+It is intended to be a minimal library and provide the building blocks for other libraries.
+
+## Features:
+
+- Request
+  - Headers
+  - Cookies
+  - Body (bytes, str, json)
+  - Form
+    - url encoded
+    - multipart
+- Response
+  - Plain text
+  - Json
+  - Streaming
+  - File
+- Websockets
+
+## Example
+
+```python
+from asgikit.requests import HttpRequest
+from asgikit.responses import JsonResponse
+
+async def main(scope, receive, send):
+    request = HttpRequest(scope, receive, send)
+    body = await request.json()
+    data = {"lang": "Python", "async": True}
+    response = JsonResponse(content=data)
+    await response(scope, receive, send)
+```
