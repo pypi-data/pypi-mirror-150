@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: seakybox
+Version: 0.1
+Summary: This is Seaky's box of basic tools
+Home-page: https://github.com/sseaky
+Author: Seaky
+Author-email: seaky.cn@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: IPy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psutil
+Requires-Dist: puresnmp
+Requires-Dist: PyMySQL
+Requires-Dist: requests
+Requires-Dist: SocksiPy-branch
+Requires-Dist: sqlacodegen
+Requires-Dist: SQLAlchemy
+Requires-Dist: sshtunnel
+Requires-Dist: urllib3
+Requires-Dist: concurrent-log-handler
+Requires-Dist: xlrd
+Requires-Dist: openpyxl
+Requires-Dist: redis
+
+## About
+
+This is Seaky's box of basic tools
+
+
+
+## Update
+
+### 0.1
+
+detached from seakylib
