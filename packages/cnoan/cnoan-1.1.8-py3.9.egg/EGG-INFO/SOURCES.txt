@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cnoan.egg-info/PKG-INFO
+cnoan.egg-info/SOURCES.txt
+cnoan.egg-info/dependency_links.txt
+cnoan.egg-info/requires.txt
+cnoan.egg-info/top_level.txt
+cnoan.egg-info/zip-safe
