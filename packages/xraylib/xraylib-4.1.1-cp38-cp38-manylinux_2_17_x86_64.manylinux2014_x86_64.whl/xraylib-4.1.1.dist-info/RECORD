@@ -1,0 +1,7 @@
+_xraylib.cpython-38-x86_64-linux-gnu.so,sha256=TJ3afvIA4UIXpRNAREATQCxzEBoW2YFb16NsDUfVCX0,19759232
+xraylib.py,sha256=qiQ7cnN4a9xuBw9WkOeJP-iQefTTC3Ft09RFqkqkWUo,124978
+xraylib_np.cpython-38-x86_64-linux-gnu.so,sha256=wIOF8BAu0WL9iy6JBfGv1hH9uTaIGk3KfbBaD135ElQ,20716688
+xraylib-4.1.1.dist-info/WHEEL,sha256=RLh4R2uXcRFJXL5mNoVtEgIpRjoNGRIWN8BWrmqIXz4,139
+xraylib-4.1.1.dist-info/RECORD,,
+xraylib-4.1.1.dist-info/METADATA,sha256=aFFXjhxsZUQMACASMviD6FMZLVHY_is6uhfQlMh_i5s,84
+xraylib.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
