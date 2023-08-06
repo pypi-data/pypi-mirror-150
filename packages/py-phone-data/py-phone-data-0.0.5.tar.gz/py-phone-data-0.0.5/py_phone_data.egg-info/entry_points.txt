@@ -1,0 +1,2 @@
+[console_scripts]
+py-phone-data = phone_data.main:main
