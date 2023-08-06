@@ -1,0 +1,17 @@
+simpleconf/__init__.py,sha256=15J401evYNgAkEuSbDmfuuuHu3JRMaZ7T0yoKO3EpBo,65
+simpleconf/caster.py,sha256=t3L_AVxqSFmn2RDsbW1ShB-BssyG28Cox4GG_nnADNs,2319
+simpleconf/config.py,sha256=ITMdvOrYobF_KyuHmuDpWSHbQs0-ewipDxxCFpOO1DI,4424
+simpleconf/exceptions.py,sha256=URt6Y6VfbETjsRcHAzEcaAgF9Q_HLrW6T3wILqXERb0,172
+simpleconf/loaders/__init__.py,sha256=IC5ZeTbVmc4MIENqhbj5bsbzeIa2mnzkYaDakQQy4jc,743
+simpleconf/loaders/dict.py,sha256=gKalRaj0nUXpmhVRnGHahzOafITXzHa0sd8BqO3d4jY,235
+simpleconf/loaders/env.py,sha256=nDx_dTT5EHnEjvIiFQb6mG4-iEdx9wIz26YRaYGGcWE,1337
+simpleconf/loaders/ini.py,sha256=qoreTGNpXzuq5rWEkJKaEEQDaonk0JOOOtPqQlZwuN4,1732
+simpleconf/loaders/json.py,sha256=eZehIMCz3QFNVeQJxxnN9yXuNdvAX7qbrMMRQjvYkpo,300
+simpleconf/loaders/osenv.py,sha256=b0HnKe86NrBsoqUdbqc8-vGxQvv63-xwL80C8Qz08dI,1459
+simpleconf/loaders/toml.py,sha256=lMUW4cqNLm8AuGoxAqu5AsXPRh-w46uGD5Kf_f_jr4I,491
+simpleconf/loaders/yaml.py,sha256=072cyNyL-0U9qV_qXKBtEA76B5bnhj1JVPcuypYHTAI,388
+simpleconf/utils.py,sha256=fIzHhmOhZks33c7zmtOeF4oGpt8TSiAH8HrmrG72xuc,1292
+python_simpleconf-0.5.0.dist-info/LICENSE,sha256=2j7OLS2vXIEshgbSkiCU9RgYJY1M4OBBtO6ECbo7OB8,1056
+python_simpleconf-0.5.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+python_simpleconf-0.5.0.dist-info/METADATA,sha256=x-jBPl7izUixdhVJ9XrDL9gWYbnd-ZI07ooBEwjaF6o,6160
+python_simpleconf-0.5.0.dist-info/RECORD,,
