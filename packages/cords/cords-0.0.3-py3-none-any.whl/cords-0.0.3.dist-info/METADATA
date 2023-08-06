@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cords
+Version: 0.0.3
+Summary: cords is a package for data subset selection for efficient and robust machine learning.
+Home-page: https://github.com/decile-team/cords
+Author: Krishnateja Killamsetty, Dheeraj Bhat, Rishabh Iyer
+Author-email: krishnatejakillamsetty@gmail.com
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: apricot-select (>=0.6.0)
+Requires-Dist: numba (>=0.43.0)
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: scikit-learn
+Requires-Dist: torch (>=1.8.0)
+Requires-Dist: torchvision
+Requires-Dist: tqdm (>=4.24.0)
+Requires-Dist: sphinxcontrib-napoleon
+Requires-Dist: sphinxcontrib-bibtex
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: torchvision (>=0.10.1)
+Requires-Dist: pillow (>=8.4.0)
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: torchtext (~=0.10.1)
+Requires-Dist: scikit-image (>=0.17.0)
+Requires-Dist: pyyaml (~=5.4.1)
+Requires-Dist: dotmap (~=1.3.24)
+Requires-Dist: setuptools (>=58.0.4)
+Requires-Dist: ray[tune]
+Requires-Dist: ray[default]
+Requires-Dist: datasets
+
+CORDS is COReset and Data Selection library for making machine learning time, energy, cost, and compute efficient. CORDS is built on top of PyTorch. Today, deep learning systems are extremely compute-intensive, with significant turnaround times, energy inefficiencies, higher costs, and resource requirements [7, 8]. CORDS is an effort to make deep learning more energy, cost, resource, and time-efficient while not sacrificing accuracy.
