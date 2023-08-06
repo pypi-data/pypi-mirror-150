@@ -1,0 +1,3 @@
+[console_scripts]
+musicdl = musicdl.musicdl:musicdlcmd
+
