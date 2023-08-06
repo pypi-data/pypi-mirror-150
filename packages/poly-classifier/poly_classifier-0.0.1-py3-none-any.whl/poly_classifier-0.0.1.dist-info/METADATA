@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: poly-classifier
+Version: 0.0.1
+Summary: A command-line tool for automatically classifying LCL problems on regular trees in the polynomial region.
+License: Unlicense
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rooted-tree-classifier
+Requires-Dist: networkx
+
+
+## Description
+
+This folder contains a program that decides round complexity of homogenous LCL problems on (binary) trees in the polynomial region.
+
+## Usage
+
+1. Install package using pip by running `pip3 install .`.
+
+2. Run `python -m poly_classifier` and describe (on standard input) configurations of a problem.
+For example:
+
+_Note that one needs to first run the classifier (`python -m poly_classifier`) and only afterwards provide an input
+on a separate lines._
+
+```
+> python -m poly_classifier 
+Polynomial classifier for homogenous trees (currently for binary rooted & unrooted trees)
+For unrooted case, use node configuration in form: 'A B C' and edge configurations in form 'A B'
+For rooted case, use only node configurations in form 'A: B C'.
+Node configurations: (each configuration on a new line and end with empty line)
+a a a
+b b b
+
+Edge configurations: (each configuration on a new line and end with empty line)
+a b
+
+Complexity of the problem is Θ(n^(1/1)).
+
+```
+## Tests
+
+To execute tests, run the following from the root directory:
+
+```
+python -m unittest discover
+```
+
+

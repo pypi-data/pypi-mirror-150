@@ -1,0 +1,9 @@
+poly_classifier/__init__.py,sha256=28vcod4xI3RblH7zn3LMg3_Clc853U6SUYjSsiQdWdU,151
+poly_classifier/__main__.py,sha256=U7DmnGHH3BbtRdywRA_0MAh_JEclI4RTMTpMjrVlmdI,1849
+poly_classifier/rooted_poly_decider.py,sha256=9eU2n25NyyTjbfBK6Su-hjIbxRMrcm7Sd2qkwaj3gIk,2809
+poly_classifier/unrooted_poly_decider.py,sha256=H-fFYOBnoCSbXmYr9rHV0TC4kZD9vd8yot9KzsIxuHk,5260
+poly_classifier-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+poly_classifier-0.0.1.dist-info/METADATA,sha256=VPb6IoYFbk_pj6sxwk8yKGyeLzwYTaUEIaMlZ6lD5eg,1587
+poly_classifier-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+poly_classifier-0.0.1.dist-info/top_level.txt,sha256=cDHlJi07w90oWskWa5d48uF25VHrHA1baM1uQBnrrQs,16
+poly_classifier-0.0.1.dist-info/RECORD,,
