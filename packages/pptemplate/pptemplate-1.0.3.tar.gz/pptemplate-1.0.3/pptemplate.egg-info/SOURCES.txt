@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mypackage/__init__.py
+mypackage/main.py
+mypackage/my_module.py
+pptemplate.egg-info/PKG-INFO
+pptemplate.egg-info/SOURCES.txt
+pptemplate.egg-info/dependency_links.txt
+pptemplate.egg-info/requires.txt
+pptemplate.egg-info/top_level.txt
