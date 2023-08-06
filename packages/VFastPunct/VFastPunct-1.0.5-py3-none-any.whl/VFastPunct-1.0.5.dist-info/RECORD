@@ -1,0 +1,11 @@
+vfastpunct/__init__.py,sha256=KH1ow8FCeh6m16esJcTuuvZ0c6R_FL7rKdY8FltZxl0,127
+vfastpunct/constants.py,sha256=1IGxVWpWCS9RQ-rQjeJouB8FGWM7atO-lVDYS4tAKFk,731
+vfastpunct/log.py,sha256=aARmNkWxNiDCyh-nOGunGzXBix7dPXiWVwgN8XScuKI,576
+vfastpunct/models.py,sha256=Ky46lJ7b6GOoRAk95MieR1Bih79n6YQ62ZToKZbEClQ,2923
+vfastpunct/predictor.py,sha256=hhgSloji4F8jAfkjyjgsgetHzE78Fr3-pMP-7oIPghc,4246
+vfastpunct/processor.py,sha256=hvYniJ88uhmFpE6JR3HShBhj1lakVxWIWclJ9kvshag,93
+vfastpunct/ultis.py,sha256=lLq0UiRx5ddow8BZ-MTLMw2U6yOFmEIRhpMFmspt5_M,1056
+VFastPunct-1.0.5.dist-info/METADATA,sha256=uEze1cakm0VKwRWkKEVRkzOf74iU37LwIbeRG3GpKLQ,1514
+VFastPunct-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VFastPunct-1.0.5.dist-info/top_level.txt,sha256=p4TYFIYZD4A5_SiVHFFKtNi9_N2qYcCZsnsPf6U4bZk,11
+VFastPunct-1.0.5.dist-info/RECORD,,
