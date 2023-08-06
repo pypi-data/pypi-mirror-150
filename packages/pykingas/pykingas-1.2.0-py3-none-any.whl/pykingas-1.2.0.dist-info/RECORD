@@ -1,0 +1,14 @@
+pykingas/KineticGas.so,sha256=CUEW15qaMV0a3eyO_HpLG7Kk6fJ4msYhIbgaz8j81j8,226508
+pykingas/KineticGas_d.so,sha256=81oEMEwXv3_RKtvKIAinjHVPx-3Q-BV8OSbEEYuuqaA,2548300
+pykingas/KineticGas_r.so,sha256=6knb0jcfG6ugESA-5012MFOFXIXpqMqe90hsevapxAQ,260612
+pykingas/__init__.py,sha256=8qbjet0EH1IqvifVQ49WSjbw-Lv75IsVAn5ZeFZ8RVI,1177
+pykingas/__main__.py,sha256=OgGYwk09T8tpAwDwuSuJenSEQyq_tE0G9a8nrXQZUg8,1070
+pykingas/collision_integral_unittests.py,sha256=diFuOt547C3AiTLmBy17vlITkVu5LclSjwsb0IioVNA,2780
+pykingas/mie_unittests.py,sha256=B6pMG_wIVcvFKqWWzgKiRu1sEwK0aoKtSscDFKfqpcE,8107
+pykingas/py_KineticGas.py,sha256=gqPaXSaRBGwmCdXA0f-1DaVZTA7CY6Vmx712VzMDsY4,14325
+pykingas/test_inside.py,sha256=LdJugf37c0_vZQiSDX-cxVC66xKGR8EbfGosetc4iLo,114
+pykingas-1.2.0.dist-info/LICENSE,sha256=wKXc16jZyLuBPpxDdNYtgEmBcM5AtAdJhcjumW0hIBw,1080
+pykingas-1.2.0.dist-info/METADATA,sha256=t1X0lVj2dp70lH8nEHUUOQI5jFHwT7UXPTKkEgZF4IE,3832
+pykingas-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pykingas-1.2.0.dist-info/top_level.txt,sha256=IQ10q-Lm74ChbHnKmuJKh3MQoiCfQxvGLz68roAQeI0,9
+pykingas-1.2.0.dist-info/RECORD,,
