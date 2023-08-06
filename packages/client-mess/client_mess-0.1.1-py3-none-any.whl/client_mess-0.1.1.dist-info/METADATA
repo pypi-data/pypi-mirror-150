@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: client-mess
+Version: 0.1.1
+Summary: Client
+Home-page: UNKNOWN
+Author: Dmitry Bykov
+Author-email: dmitrij-bykov91@bk.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
+
