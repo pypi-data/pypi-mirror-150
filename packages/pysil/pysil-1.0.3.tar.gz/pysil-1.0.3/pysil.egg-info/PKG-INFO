@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pysil
+Version: 1.0.3
+Summary: system information gathering made simple
+Home-page: https://github.com/Bamboooz/pysil
+Author: Bamboooz
+Author-email: bambusixmc@gmail.com
+License: LGPL-2.1
+Keywords: system
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+pysil - python system information library
+
+1.0.1 - added to pypi
+1.0.2 - should be uploadable by pypi
+
