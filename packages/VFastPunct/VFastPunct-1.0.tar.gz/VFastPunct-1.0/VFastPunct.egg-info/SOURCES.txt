@@ -1,0 +1,15 @@
+README.md
+setup.py
+VFastPunct.egg-info/PKG-INFO
+VFastPunct.egg-info/SOURCES.txt
+VFastPunct.egg-info/dependency_links.txt
+VFastPunct.egg-info/requires.txt
+VFastPunct.egg-info/top_level.txt
+vfastpunct/__init__.py
+vfastpunct/arguments.py
+vfastpunct/constants.py
+vfastpunct/log.py
+vfastpunct/models.py
+vfastpunct/processor.py
+vfastpunct/trainer.py
+vfastpunct/vfastpunct.py
