@@ -1,0 +1,11 @@
+audiosetmanager/AudioSet.py,sha256=GgZgJkrTdqNGLtZFudfLCTsNlwEzWc2EqH2boH1AaFs,3742
+audiosetmanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audiosetmanager/__main__.py,sha256=334Sgw7m9sh9RGmP_KOhU6Os_f3LZi0yHweN0lcKiyk,839
+audiosetmanager/constants.py,sha256=N8NoBRs925Hy5Wy-Ivt8OvQKUTfFNCfkLYaN5N7PpLU,178
+audiosetmanager/AudioSet Data/balanced_train_segments.txt,sha256=O4Pl_57XLP2jfU42zgglDhB8HqcPEJ9qtmaKwgDbXpQ,1211931
+audiosetmanager/AudioSet Data/class_labels_indices.txt,sha256=zdEEmDPEuGEnwnc6wNFKJ1S2ptDReYAC7Vxm5plwhCk,14675
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audioset_manager-0.0.8.dist-info/METADATA,sha256=05Lu51rlzlGHNLhStMEWU5gjMkmgwybJjb7W4-0v0LY,5212
+audioset_manager-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+audioset_manager-0.0.8.dist-info/top_level.txt,sha256=Zf0FGxAlKqEYcVoQ-mPsfJGZQ_VJ1Up2iay6-G9qXME,22
+audioset_manager-0.0.8.dist-info/RECORD,,
