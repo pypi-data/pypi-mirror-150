@@ -1,0 +1,9 @@
+hvac
+loguru
+pydantic
+pyyml
+requests
+setuptools
+slackclient
+user_agent
+zeep~=4.0.0
