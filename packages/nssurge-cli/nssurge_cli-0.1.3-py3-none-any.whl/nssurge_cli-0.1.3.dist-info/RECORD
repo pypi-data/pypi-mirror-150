@@ -1,0 +1,14 @@
+nssurge_cli/__init__.py,sha256=ighOWow75SmcAMcWdZIYcUylRerJ9lot08EjD8io1nE,292
+nssurge_cli/cli.py,sha256=vCNFnT1Gzj02-G878JpzMQn4Ussyt4-8RjdeibmZW3k,7527
+nssurge_cli/config.py,sha256=eA8X8i7V56h5sTy-ZX7un4ES8zYRASyz6kC0iInLAWM,2249
+nssurge_cli/dns_commands.py,sha256=cVCX190qefwOct-YbV_wz_4c0slMcsmVAEiiaTLq4kM,1472
+nssurge_cli/group_commands.py,sha256=j6pfoN1WoemOOC9bVFIMnecdJPkfaQpTeWtpmdAxPJE,3132
+nssurge_cli/modules_commands.py,sha256=3ER4WyIS_9h8nmFDhEwwnz13uLWxEYOTIJnWTSaQO8s,1086
+nssurge_cli/profiles_commands.py,sha256=6QHGKbTa-HJCQqzoaYV0JTUkcEd11DF1fKA7rkKMeHg,2312
+nssurge_cli/types.py,sha256=x1RYEkU6LGaa0NOUzwJ5MdHJxptIhXCLLgRbyn1RcF0,134
+nssurge_cli/utils.py,sha256=-P0nlzWUxPOJWtsLqV40n7Oiw4jDG3GImQimZcb837g,1397
+nssurge_cli-0.1.3.dist-info/entry_points.txt,sha256=dmQc8EAjV8cYkGzBr0dm6YzEUP-6J8h29qjtbLxjYI4,43
+nssurge_cli-0.1.3.dist-info/LICENSE,sha256=iDPU2JFPtGTxMtJ4js-KodAQR-IHm4NPaG5m8cRoutA,1100
+nssurge_cli-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nssurge_cli-0.1.3.dist-info/METADATA,sha256=rlaV0V7sHkLHNR5c1YVIz1onLF7V6zHcf5ShierY29A,742
+nssurge_cli-0.1.3.dist-info/RECORD,,

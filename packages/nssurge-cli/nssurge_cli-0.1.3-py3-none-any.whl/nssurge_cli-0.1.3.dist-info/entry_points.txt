@@ -1,0 +1,3 @@
+[console_scripts]
+nsg=nssurge_cli:cli.app
+
