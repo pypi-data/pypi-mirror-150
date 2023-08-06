@@ -1,0 +1,7 @@
+fastapi_simple_pagination/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_simple_pagination/deps.py,sha256=6P7jtUas1zum3eaeQyukxatsjUcKFVh0taxrpeIkRoc,1848
+fastapi_simple_pagination/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_simple_pagination/schemas.py,sha256=UHCg0YqAG0VafZ-WB2x4LUsGkXd8Cuj5gqYNcrNX3Dw,1219
+fastapi_simple_pagination-1.0a1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastapi_simple_pagination-1.0a1.dist-info/METADATA,sha256=jsDuLg-m-yyz3l38bW0aOLBj4aoVFOtoxh1lMpDVE24,396
+fastapi_simple_pagination-1.0a1.dist-info/RECORD,,
