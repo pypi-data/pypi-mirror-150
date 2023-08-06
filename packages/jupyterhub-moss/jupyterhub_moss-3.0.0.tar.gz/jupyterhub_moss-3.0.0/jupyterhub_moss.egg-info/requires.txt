@@ -1,0 +1,10 @@
+batchspawner
+jinja2
+jupyterhub
+traitlets
+
+[dev]
+build
+bump2version
+flake8
+black
