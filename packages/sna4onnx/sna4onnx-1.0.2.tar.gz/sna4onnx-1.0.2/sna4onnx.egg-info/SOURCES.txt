@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sna4onnx/__init__.py
+sna4onnx/__main__.py
+sna4onnx/onnx_operation_adder.py
+sna4onnx.egg-info/PKG-INFO
+sna4onnx.egg-info/SOURCES.txt
+sna4onnx.egg-info/dependency_links.txt
+sna4onnx.egg-info/entry_points.txt
+sna4onnx.egg-info/requires.txt
+sna4onnx.egg-info/top_level.txt
