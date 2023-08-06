@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gzsonic
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: maplelost
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+
+支持python3.9以上
+
