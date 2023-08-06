@@ -1,0 +1,17 @@
+PyHamcrest<2.1,>=2.0.0
+typing-extensions<4.2,>=4.1.1
+
+[allure]
+screenpy_adapter_allure
+
+[appium]
+screenpy_appium
+
+[pyotp]
+screenpy_pyotp
+
+[requests]
+screenpy_requests
+
+[selenium]
+screenpy_selenium
