@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/richify/__init__.py
+src/richify/richify.py
+src/richify.egg-info/PKG-INFO
+src/richify.egg-info/SOURCES.txt
+src/richify.egg-info/dependency_links.txt
+src/richify.egg-info/entry_points.txt
+src/richify.egg-info/top_level.txt

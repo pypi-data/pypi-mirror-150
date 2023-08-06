@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: richify
+Version: 0.0.1
+Summary: Rich highlight arbitrary text output in your terminal
+Home-page: https://github.com/coryg89/richify
+Author: Cory Gross
+Author-email: coryg89@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/coryg89/richify/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# richify
+
+Automatically rich highlight arbitrary text output in your terminal.
+
+## Dependencies
+
+ - [Python 3.x](https://python.org)
+ - [Textualize/rich](https://github.com/Textualize/rich)
+
+## Installation
+
+```sh
+$  pip install richify
+```
+
+## Usage Examples
+
+```sh
+$  dmesg | richify
+```
+
+```sh
+$  apt show git | richify
+```
+
+```sh
+ifconfig | richify
+```
+
+```sh
+journalctl -ru ssh | richify --color=always | less -R
+```
+
