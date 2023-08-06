@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: totality
+Version: 0.0.6
+Summary: Code, data, and models to examine cultural production in its essential aspect as a totality. Rooted in the digital humanities, the package assists in corpus management, text analysis, and machine learning and AI. It is increasingly developing methods of synthesisizing knowledge, pooling data, and creating shared ontologies.
+Home-page: https://github.com/deterritorial/totality.git
+Author: Ryan Heuser
+Author-email: rj416@cam.ac.uk
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# totality
+
+Code, data, and models to examine cultural production in its essential aspect as a totality. Rooted in the digital humanities, the package assists in corpus management, text analysis, and machine learning and AI. It is increasingly developing methods of synthesisizing knowledge, pooling data, and creating shared ontologies.
+
