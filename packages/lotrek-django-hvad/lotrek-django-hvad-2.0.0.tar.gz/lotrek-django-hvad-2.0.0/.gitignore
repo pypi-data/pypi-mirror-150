@@ -1,0 +1,14 @@
+*.pyc
+*~
+.coverage
+/dist/
+build/
+*egg-info*
+*.xml
+/htmlcov/
+*.sqlite
+/docs/_build
+/docs/src/
+/env/
+/lib/
+/include/
