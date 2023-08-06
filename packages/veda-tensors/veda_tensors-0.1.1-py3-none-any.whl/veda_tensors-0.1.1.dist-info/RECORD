@@ -1,0 +1,21 @@
+veda/tensors/LICENSE, sha256=YnSGopDGJS9GdQ5iKK7kjgkcB9tcrtgilusqFvMPfNc=, 1531
+veda/tensors/cmake/FindVEDATensors.cmake, sha256=xPBHtTSGGVFRCGu9R+3f7bbTB1DFSnGuLflq19ohD3w=, 2970
+veda/tensors/include/veda/tensors/api.h, sha256=/RK8gQN/PW1ENH1sxRXjxQU73uZcxg0IwfkZu6Gmxj4=, 523
+veda/tensors/include/veda/tensors/device.h, sha256=7NYhl75u6cSIMn6zWpAZXu5dMqdNfJaZ3/WVsTD052M=, 3732
+veda/tensors/include/veda/tensors/enums.h, sha256=p5MOJ/6OrpWcGpGjrYyH4Q+/+X/Y1AWR48+93GilVvk=, 3778
+veda/tensors/include/veda/tensors/get.h, sha256=MJyE5UaVYZGmu8T7Jx7eUQpo6p8LrSC2UZEN923DTSs=, 756
+veda/tensors/include/veda/tensors/high_level.h, sha256=1PwJqNCEaFkUpUFndLA0/DDhh/f2U9IkCQbAAU/b25Y=, 5450
+veda/tensors/include/veda/tensors/init.h, sha256=4CX3/NZpM97zB4PG1+b9Dqem7vX5gxiAwn1O1VZIB80=, 441
+veda/tensors/include/veda/tensors/low_level.h, sha256=XVEk8HXcfS3m6eFv3N4X4Ux+PQ7Jb0mCy2iomF7e9fw=, 6925
+veda/tensors/include/veda/tensors/macros.h, sha256=JOVID2wOPgcgR1SN828/gb6iey+UcuXwbLppgwY3wIo=, 533
+veda/tensors/include/veda/tensors/scalar.h, sha256=DLHb6mvFGy7i2rVJg8XD1iTKWfuUayvTSj1LgPMN2Z0=, 2335
+veda/tensors/include/veda/tensors/types.h, sha256=0A5UDw8F1gdiWcbmVxMbanboHFluIIJV2iCVvSDCzG0=, 1323
+veda/tensors/include/veda/tensors/version.h, sha256=vLae5oadg8sjfCWcXaOX1dtO+6ffOe6I6V01jBRkhw8=, 37
+veda/tensors/lib64/libveda-tensors.so, sha256=s7/VpX/hfcRblmW4BchnbWU5VMykn4d74fhusv2RuI4=, 27
+veda/tensors/lib64/libveda-tensors.so.0, sha256=RxV7til+13m3mabBce9OevqYToVD7a4//0CA+SDnno8=, 106392
+veda/tensors/lib64/libveda-tensors.so.0.1.1, sha256=s7/VpX/hfcRblmW4BchnbWU5VMykn4d74fhusv2RuI4=, 27
+veda/tensors/libve/libveda-tensors.vso, sha256=Z4iemfXi3AnweQq2AmUPgIrHoG6Fo7xKB7ud27P+K/o=, 7278224
+veda_tensors-0.1.1.dist-info/METADATA, sha256=o7iIpj5Ece/GuEJS16lrtBQ3Ns3L197w/NXA1RWk3kA=, 756
+veda_tensors-0.1.1.dist-info/top_list.txt, sha256=BNlh0PZeLpIMeHuET4CC9c4QcJJ1bd3ZvjnNFqaC+kM=, 12
+veda_tensors-0.1.1.dist-info/WHEEL, sha256=FdEgsWvvs3IxAKUHMCrYD7JWoewd2YATO1HF2kUyfRY=, 83
+veda_tensors-0.1.1.dist-info/RECORD, , 

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: veda-tensors
+Version: 0.1.1
+Requires-Python: >=3.7
+Summary: VEDA Tensors
+Author: Nicolas Weber
+Author-email: nicolas.weber@neclab.eu
+License: 3 BSD-License
+Platform: linux_x86_x64
+Requires-Dist: veda (>= 1.3.1, < 2)
+Requires-Dist: tungl (>= 0.1, < 1)
+Description-Content-Type: text/markdown
+
+# VEDA Tensors Library
+
+VEDA Tensors is a library to provide generic usable high performance kernels
+usually used in AI frameworks. VEDA Tensors is still beta and far from being
+complete.
+
+## Release Notes
+<table>
+<tr><th>Version</th><th>Comment</th></tr>
+
+<tr><td>v0.1.1</td><td>
+<ul>
+	<li>Added AdaDelta, AdaGrad, Adam and AdaMax optimizer functions</li>
+</ul>
+</td></tr>
+
+<tr><td>v0.1.0</td><td>
+Initial Release
+</td></tr>
+
+</table>
