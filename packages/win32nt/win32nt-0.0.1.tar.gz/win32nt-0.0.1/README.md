@@ -1,0 +1,1 @@
+A pywin32 compatible library to interact with the WinAPI; specifically ntdll functions, featuring modern Pythonic syntax and most of the functions.
