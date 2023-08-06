@@ -1,0 +1,10 @@
+LICENSE,sha256=iUt030E_hvl4i2ZURu3BfO7cicecn6G1kJA_JzT7TiA,1073
+tvw_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvw_scraper/models.py,sha256=CqukH7dgWjaevXZQa_xUM2KhRUhbfV1asqM-e96FWeI,1309
+tvw_scraper/rest.py,sha256=s2GCsHn67h0gDAUrDjoksZQKs1agF4z8MP4tANtMh8A,905
+tvw_scraper/schemas.py,sha256=QoVCqdg2EN6e0yitb4OGdVCSfen5kkNqK_bGL-DFZbY,5048
+tvw_scraper/scraper.py,sha256=awRqi8hy9DwbXL9Svd4AuFC5ngDfiqb63N3_S_020rQ,7082
+tvw_scraper-0.0.14.dist-info/LICENSE,sha256=iUt030E_hvl4i2ZURu3BfO7cicecn6G1kJA_JzT7TiA,1073
+tvw_scraper-0.0.14.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tvw_scraper-0.0.14.dist-info/METADATA,sha256=3ePX386Zh8hE8oMCu3IJsmxHGG0dQt92Q79fdEOjqxA,1828
+tvw_scraper-0.0.14.dist-info/RECORD,,
