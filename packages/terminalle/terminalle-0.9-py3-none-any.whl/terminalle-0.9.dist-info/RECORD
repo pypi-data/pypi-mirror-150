@@ -1,0 +1,14 @@
+terminalle/__init__.py,sha256=3vgeJsIrfovdOvCf2fVHQfW-hRHP0L_7gbo7FBbGFOM,101
+terminalle/__main__.py,sha256=yHdaxQJLd9xGoj6ELYtxAVCvd7VY95dTnCTKiCrys5M,3397
+terminalle/auto.py,sha256=8dpCV6vZzp088N7nNzWBHoxlSeUJQup4AIjYCWfWgwk,4229
+terminalle/party.will.Terminalle.service,sha256=sf3RffMC-rND-plMAgBk0MPuH3eAOveht2afdEK-87M,79
+terminalle/settings.py,sha256=kd3cNpLSsv39KINejBq5mbKAGMwqRxquKBYEiW6RmSk,5289
+terminalle/terminalle.desktop,sha256=ameqIx4sayn1ZanEmMQ6OFf86oZnqFMPKNVfyTJvnzM,139
+terminalle/terminalle.py,sha256=3HLNjaa0kZxK6LwXsqq1uU68oGXHHS3JvQIYdEitypk,9989
+terminalle-0.9.data/data/share/man/man1/terminalle.1,sha256=eaU4tUWpIMlfMM-YjIwQr5NImW6R4mn7PmjVUYJHW80,2042
+terminalle-0.9.dist-info/LICENSE,sha256=mlHqA7D2CBpAu91paQVSUiLr5KO-aTC-nAszIYjnzUo,1067
+terminalle-0.9.dist-info/METADATA,sha256=SAGW4r8vIjfK1dR7Q0fDy_0bOoXbsirT-YbFuwzXaB8,417
+terminalle-0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+terminalle-0.9.dist-info/entry_points.txt,sha256=Aj_6963kuxx1F5q0m8SjL42kM5atM3BfbjSsrXnwtBM,56
+terminalle-0.9.dist-info/top_level.txt,sha256=4KunbBBCtg8QnoN9dH7KDZ4XCnb_fT4rhByJes-SNfU,11
+terminalle-0.9.dist-info/RECORD,,
