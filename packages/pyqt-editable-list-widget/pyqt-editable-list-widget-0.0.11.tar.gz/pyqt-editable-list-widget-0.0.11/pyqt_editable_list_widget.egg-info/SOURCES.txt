@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_editable_list_widget/__init__.py
+pyqt_editable_list_widget/editableListWidget.py
+pyqt_editable_list_widget.egg-info/PKG-INFO
+pyqt_editable_list_widget.egg-info/SOURCES.txt
+pyqt_editable_list_widget.egg-info/dependency_links.txt
+pyqt_editable_list_widget.egg-info/requires.txt
+pyqt_editable_list_widget.egg-info/top_level.txt
