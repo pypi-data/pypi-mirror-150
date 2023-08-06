@@ -1,0 +1,15 @@
+gtfast/_Messages.py,sha256=Q5Z_CNvJH0nIkIgeUbt2dMh747x6RBSTzT11zeo429Y,2518
+gtfast/__init__.py,sha256=fgxMSBX2_5oMNtVQ7132C6Tt91U6S-gNQVHOAqLfs5k,387
+gtfast/_add_GTF_annotations_to_adata.py,sha256=IS505jlosHktNVLzJTFfldJ0-m9QXdF0M72FJJ3PpTk,1087
+gtfast/_cache_parsed_filepaths.py,sha256=2GZmhPnQG8TC29JjLCDRFsA0m7Iw01LIpGomaXEVYXQ,1329
+gtfast/_create_gtf_csv_dir.py,sha256=r7nf4XfvPWJ2WzJsrI95k006JI6Nzu75ljxRl8umK90,798
+gtfast/_filter_gtf_df.py,sha256=PHVBAdSI93mMVHb4CqCqhzP6sFtth411zZRsRPBCnME,1063
+gtfast/_gtfparse.py,sha256=3_IKlmbU5S2LTL7OkWxGcDHBf7QDvfy6xYHMm7DxbS0,413
+gtfast/_parse_GTF_to_csv.py,sha256=jTRMFpvAaiy1VbBzP_72MPe2AB58Q0NScfqRhOXpf20,3327
+gtfast/_read_GTF_csv.py,sha256=d8kWPpjnhXu9lJ6gsg1QvZwwvjSr9wkN0UbTep193gM,2051
+gtfast/_write_GTF_csv.py,sha256=5Q3um7MbvVp3-IuheI9MXLKJuxszvx7ilCgUjWGgj9Y,352
+GTFast-0.0.3.dist-info/LICENSE,sha256=jXNk8OCt5ZKcsUH97c3CKMzPjoa6z2j2Adwg0Wxbw9A,1072
+GTFast-0.0.3.dist-info/METADATA,sha256=GFkLUijCjxObhLXxfdB0ygbJ8b89ckooreZNss8jCSI,4068
+GTFast-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GTFast-0.0.3.dist-info/top_level.txt,sha256=ANq-iKuGtKdOJ27cnCbWt2kY1neMj-kihZW1nsqP1iY,7
+GTFast-0.0.3.dist-info/RECORD,,
