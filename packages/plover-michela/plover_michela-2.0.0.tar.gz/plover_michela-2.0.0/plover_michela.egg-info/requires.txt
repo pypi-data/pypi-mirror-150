@@ -1,0 +1,6 @@
+plover>=4.0.0.dev1
+plover-midi>=0.2.6
+
+[test]
+libcst
+pytest
