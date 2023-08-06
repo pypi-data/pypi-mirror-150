@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+d2r_data.egg-info/PKG-INFO
+d2r_data.egg-info/SOURCES.txt
+d2r_data.egg-info/dependency_links.txt
+d2r_data.egg-info/top_level.txt
