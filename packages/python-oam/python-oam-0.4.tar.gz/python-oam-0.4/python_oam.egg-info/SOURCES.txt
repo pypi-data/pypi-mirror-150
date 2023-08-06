@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+oam/__init__.py
+python_oam.egg-info/PKG-INFO
+python_oam.egg-info/SOURCES.txt
+python_oam.egg-info/dependency_links.txt
+python_oam.egg-info/not-zip-safe
+python_oam.egg-info/requires.txt
+python_oam.egg-info/top_level.txt
