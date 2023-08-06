@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: suanfagongpx
+Version: 0.1.0
+Summary: 验证算法公平性
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+
+UNKNOWN
+
+
