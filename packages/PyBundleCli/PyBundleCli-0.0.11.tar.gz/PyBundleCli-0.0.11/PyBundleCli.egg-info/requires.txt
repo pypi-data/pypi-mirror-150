@@ -1,0 +1,2 @@
+fire>=0.4.0
+setuptools>=58.2.0
