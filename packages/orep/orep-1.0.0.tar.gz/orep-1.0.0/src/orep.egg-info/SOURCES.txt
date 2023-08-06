@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/orep/__init__.py
+src/orep/__main__.py
+src/orep/orep.py
+src/orep.egg-info/PKG-INFO
+src/orep.egg-info/SOURCES.txt
+src/orep.egg-info/dependency_links.txt
+src/orep.egg-info/top_level.txt
