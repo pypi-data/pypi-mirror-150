@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+py_api_decorators/__init__.py
+py_api_decorators/json.py
+py_api_decorators.egg-info/PKG-INFO
+py_api_decorators.egg-info/SOURCES.txt
+py_api_decorators.egg-info/dependency_links.txt
+py_api_decorators.egg-info/top_level.txt
