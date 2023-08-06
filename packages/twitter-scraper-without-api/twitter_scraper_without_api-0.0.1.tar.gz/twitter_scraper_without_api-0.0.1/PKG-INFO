@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: twitter_scraper_without_api
+Version: 0.0.1
+Summary: twitter_scraper without API
+Home-page: https://github.com/HamedMinaeizaeim/twitter_scraper
+Author: Hamed
+Author-email: hamed.minaei@gmail.com
+Project-URL: Bug Tracker, https://github.com/HamedMinaeizaeim/twitter_scraper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+long_description
