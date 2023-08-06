@@ -1,0 +1,2 @@
+[console_scripts]
+pyccapt = pyccapt.__main__:main
