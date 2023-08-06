@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "homebrew-python"
+version = "0.1.3"
+description = ""
+authors = ["Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tddschn/homebrew-python"
+repository = "https://github.com/tddschn/homebrew-python"
+classifiers = [
+	"Topic :: Utilities"
+]
+keywords = ["homebrew", "python"]
+[tool.poetry.scripts]
+hbp = "homebrew_python.cli:app"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tddschn/homebrew-python/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+toml = "^0.10.2"
+yapf = "^0.32.0"
+better-exceptions = "^0.3.3"
+bump2version = "^1.0.1"
+icecream = "^2.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
