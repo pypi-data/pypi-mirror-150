@@ -1,0 +1,7 @@
+ConfigArgParse
+joblib
+jpype1
+numpy
+pandas
+psutil
+requests
