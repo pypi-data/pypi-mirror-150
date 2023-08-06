@@ -1,0 +1,15 @@
+shapes/___init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+shapes/__main__.py,sha256=1EwxJjuOeJQvbScT5nf6ZJ1LE0rVSxKiB9krq_ibNrM,3951
+shapes/interpreter.py,sha256=0BXk1FEVduw_my-La2dC7-WUGJ50z4jUaCQFXL9tP7s,15408
+shapes/parser.py,sha256=yhWu2hKhcNuJ6xPaRdWmLY4G5YpwWHF3cienV3HzuBw,21256
+shapes/shape.py,sha256=nQofzd8muF7hnDVQBXNuNsTNvN36xhqdQnW9IgN_sOM,6736
+shapes/shapes39/__main__.py,sha256=rSuYLmABe4zhqczhWk9kCL8kU3PVJK6HAsCfK5iWIcU,3938
+shapes/shapes39/interpreter.py,sha256=8YK_OWg2OkiZd7u44d3XYb0AVo_KabE4c7eY88Nl-cI,14681
+shapes/shapes39/parser.py,sha256=IKvFDxiH4PS76Az9MQ9595631cpN-yPLQSBG4SR8D0A,21265
+shapes/shapes39/shape.py,sha256=mL0CG5oOhI0og-Bw4Q72ukkPcjldPAAwgtjUxaWQG5M,6745
+shapes/shapes39/utils.py,sha256=7YJn7RykOBQD5MbMbfNezlxHAWTvNx75MRTFGlHnaSc,93
+shapes/utils.py,sha256=7YJn7RykOBQD5MbMbfNezlxHAWTvNx75MRTFGlHnaSc,93
+shaapes-0.1.0.dev7.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+shaapes-0.1.0.dev7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+shaapes-0.1.0.dev7.dist-info/METADATA,sha256=pmQiYz8WJmdNEgIlWP-4xPJpWpVDfGP33a9spNO_wN0,2485
+shaapes-0.1.0.dev7.dist-info/RECORD,,
