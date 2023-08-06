@@ -1,0 +1,3 @@
+[console_scripts]
+md2api=md2api.run:main
+
