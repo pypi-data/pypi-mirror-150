@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pytermor/__init__.py
+pytermor/fmt.py
+pytermor/registry.py
+pytermor/seq.py
+pytermor/sgr.py
+pytermor/util.py
+pytermor.egg-info/PKG-INFO
+pytermor.egg-info/SOURCES.txt
+pytermor.egg-info/dependency_links.txt
+pytermor.egg-info/top_level.txt
