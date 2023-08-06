@@ -1,0 +1,11 @@
+exact_cover/__init__.py,sha256=M2oad2YsIXH4wqiJfM8w8Z7HUCYelje5MI-tmj4PBuE,51
+exact_cover/error.py,sha256=x8DnQkZNGjgrL2oQGv5PboCyWdHqZyJ0BDDoO1-Ef-Y,143
+exact_cover/helpers.py,sha256=bEDVFBM6BiEF4E3SSwBA0CrmgGGqtKqk4hxGvQBwe6I,2623
+exact_cover/io.py,sha256=1MdJcZTCnW0rUUqYg-sGX-v-J8WRC4Jy3cLsLbUnz7s,169
+exact_cover/wrapper.py,sha256=7qxIP5MmNCar3zQTTWezarW7llcldcvd-MTX3totML4,276
+exact_cover_impl.cpython-37m-darwin.so,sha256=hDUBa_xUTT1tEUlhg4Jx_2vcJXeIKpzvUYgaM8RfiDM,57136
+exact_cover-1.0.0a1.dist-info/entry_points.txt,sha256=IZdWfdPL2lzhgy5NXvbsDHyvPphwpwf8QGedpaZumTQ,145
+exact_cover-1.0.0a1.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+exact_cover-1.0.0a1.dist-info/WHEEL,sha256=6MTtk8-9K5j_LmKEKDVIY6Bb7x2ywGuAfJROePcTpz0,102
+exact_cover-1.0.0a1.dist-info/METADATA,sha256=4YjZ9tVS4UKUgfz4Jkrk3LS27Boa6_JHXo-u5mzzN_E,5864
+exact_cover-1.0.0a1.dist-info/RECORD,,
