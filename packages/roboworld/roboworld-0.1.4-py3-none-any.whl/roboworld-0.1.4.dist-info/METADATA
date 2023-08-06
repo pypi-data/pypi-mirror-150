@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: roboworld
+Version: 0.1.4
+Summary: Educational roboter world to learn basic programming concepts.
+Home-page: https://github.com/BZoennchen/robo-world
+Author: Benedikt Zoennchen
+Author-email: benedikt.zoennchen@web.de
+Maintainer: BZoennchen
+Maintainer-email: benedikt.zoennchen@web.de
+Keywords: education,gamification,cellular automaton,roboter,learning,beginners,computational thinking
+Requires-Python: >=3.7.0,<4.0.0
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+
+``roboworld`` is an educational ``Python``-package designed for students to learn basic programming concepts, such as,
+
++ variables,
++ function calls,
++ conditionals, 
++ loops and
++ recursion.
+
+Students have to navigate ``Robo`` (a roboter) through different two-dimensional discrete ``Worlds``.
+``Robo`` represents a very simplistic machine that can only deal with very basic instructions, i.e., method calls.
+Therefore, students have to extend the missing functionality step by step.
+By this process they learn
+
+1. to divde a problem into smaller pieces,
+2. to abstract,
+3. to recoginze pattern, and 
+4. to design and implement algorithms.
+
+Documentation can be found here: https://robo-world-doc.readthedocs.io/en/latest/index.html
