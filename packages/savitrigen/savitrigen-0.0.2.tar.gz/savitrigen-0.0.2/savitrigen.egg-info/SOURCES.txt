@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+savitrigen/__init__.py
+savitrigen/__main__.py
+savitrigen/bootstrap.py
+savitrigen/commandline.py
+savitrigen/logging.py
+savitrigen/path.py
+savitrigen/util.py
+savitrigen.egg-info/PKG-INFO
+savitrigen.egg-info/SOURCES.txt
+savitrigen.egg-info/dependency_links.txt
+savitrigen.egg-info/requires.txt
+savitrigen.egg-info/top_level.txt
