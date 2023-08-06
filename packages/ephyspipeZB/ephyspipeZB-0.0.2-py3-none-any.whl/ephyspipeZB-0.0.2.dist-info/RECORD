@@ -1,0 +1,12 @@
+ephyspipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ephyspipe/behavior.py,sha256=n7T4QvWG4a_wCHW8lH_hSP7tr21tH4kewWg8GLAVSEU,4085
+ephyspipe/brain.py,sha256=KJ5EIdinK_Hiy7FlNRPBMnesqguvMpCbuB2nTjSTXQY,14159
+ephyspipe/config.py,sha256=o-xvLv4-JsPeQUX14aPi9JvBth-bEzZ59O4USYN0lYk,125
+ephyspipe/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ephyspipe/tests/test_behavior.py,sha256=L34q1vC9Ndq0CX2q115NwKJ5pugGZpiYyxLxd5Gkt-Y,2196
+ephyspipe/tests/test_brain.py,sha256=TBA5a93tJ2UhxtJMLYsXwOVFeyiv4jZSSnqUGWTpEN0,4166
+ephyspipeZB-0.0.2.dist-info/LICENSE,sha256=g_uBgHCg8grgJayI3gYlW5ysTl72Y-Gpv-YvTlTvn-o,1073
+ephyspipeZB-0.0.2.dist-info/METADATA,sha256=f4IWJzVb6Vkfb5z4Sm3oc-SDOYqp8DwrMByYwR7jzP4,1121
+ephyspipeZB-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ephyspipeZB-0.0.2.dist-info/top_level.txt,sha256=MreEukUntPaS_06yYtFerZwotbDpsYx14XIhSje4cBQ,10
+ephyspipeZB-0.0.2.dist-info/RECORD,,
