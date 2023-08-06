@@ -1,0 +1,30 @@
+
+
+class ChannelItem():
+
+    def __init__(self, author="", authorId="", authorUrl="", authorThumbnails=[],
+                       subCount=0, videoCount=0, description="", descriptionHtml=""):
+        """ChannelItem class. Used in search."""
+        self.author = author
+        self.authorId = authorId
+        self.authorUrl = authorUrl
+        self.authorThumbnails = authorThumbnails
+        self.subCount = subCount
+        self.videoCount = videoCount
+        self.description = description
+        self.descriptionHtml = descriptionHtml
+
+    def loadFromDict(self, dct):
+        """Loads ChannelItem info from dictionary"""
+        self.author = dct['author']
+        self.authorId = dct['authorId']
+        self.authorUrl = dct['authorUrl']
+        self.authorThumbnails = dct['authorThumbnails']
+        self.subCount = dct['subCount']
+        self.videoCount = dct['videoCount']
+        self.description = dct['description']
+        self.descriptionHtml = dct['descriptionHtml']
+
+
+
+
