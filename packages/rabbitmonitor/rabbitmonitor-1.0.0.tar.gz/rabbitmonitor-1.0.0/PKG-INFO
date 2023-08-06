@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rabbitmonitor
+Version: 1.0.0
+Summary: A simple server monitor
+Home-page: https://github.com/Rabbit-Company/RabbitMonitor
+Author: Rabbit Company LLC
+Author-email: info@rabbit-company.com
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/Rabbit-Company/RabbitMonitor/issues
+Keywords: rabbit,monitor
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rabbit Monitor
+
+Rabbit Monitor is a simple program that fetch your computer data every 5 seconds (By default) and create API endpoints for other programs to collect it.
+
+Required packages:
+- argparse
+- psutil
+- py-cpuinfo
+- quart
+
+API Endpoints:
+- /cpu
+- /memory
+- /swap
+- /storage
+- /network
+- /sensors
+- /system
+- /stats
+- /metrics (Support Prometheus)
