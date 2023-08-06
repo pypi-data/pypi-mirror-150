@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sbat
+Version: 0.0.5
+Summary: A tool for strand bias analysis of NGS data
+Home-page: https://github.com/alex-skyslakova/strand-bias-analysis-tool
+Author: Alexandra Skyslakova
+Author-email: alexandra.skyslakova@gmail.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# strand-bias-analysis-tool
