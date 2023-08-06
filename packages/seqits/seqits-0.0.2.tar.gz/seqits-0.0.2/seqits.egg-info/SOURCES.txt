@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+seqits/__init__.py
+seqits/__main__.py
+seqits/formatseq.py
+seqits/randseq.py
+seqits/retest.py
+seqits/search.py
+seqits.egg-info/PKG-INFO
+seqits.egg-info/SOURCES.txt
+seqits.egg-info/dependency_links.txt
+seqits.egg-info/requires.txt
+seqits.egg-info/top_level.txt
