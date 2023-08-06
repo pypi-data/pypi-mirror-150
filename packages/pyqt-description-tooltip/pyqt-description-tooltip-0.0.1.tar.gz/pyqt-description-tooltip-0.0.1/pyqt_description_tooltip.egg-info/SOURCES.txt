@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyqt_description_tooltip/__init__.py
+pyqt_description_tooltip/descriptionToolTipGetter.py
+pyqt_description_tooltip.egg-info/PKG-INFO
+pyqt_description_tooltip.egg-info/SOURCES.txt
+pyqt_description_tooltip.egg-info/dependency_links.txt
+pyqt_description_tooltip.egg-info/top_level.txt
