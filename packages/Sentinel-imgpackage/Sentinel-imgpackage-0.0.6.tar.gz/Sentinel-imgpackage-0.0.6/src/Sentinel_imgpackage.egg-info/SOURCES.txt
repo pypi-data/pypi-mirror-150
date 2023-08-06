@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Sentinel_imgpackage.egg-info/PKG-INFO
+src/Sentinel_imgpackage.egg-info/SOURCES.txt
+src/Sentinel_imgpackage.egg-info/dependency_links.txt
+src/Sentinel_imgpackage.egg-info/requires.txt
+src/Sentinel_imgpackage.egg-info/top_level.txt
+src/senpkg/Analysis.py
+src/senpkg/LandCoverCla.py
+src/senpkg/LandCoverMod.py
+src/senpkg/__init__.py
+src/senpkg/base.py
