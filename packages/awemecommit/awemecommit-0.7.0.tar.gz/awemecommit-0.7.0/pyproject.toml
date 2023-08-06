@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "awemecommit"
+version = "0.7.0"
+description = ""
+authors = ["Zijie Fang <fangzijie.proalex@bytedance.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+awemecommit = "awemecommit.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+questionary = "^1.10.0"
+pyperclip = "^1.8.2"
+GitPython = "^3.1.27"
+typer = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
