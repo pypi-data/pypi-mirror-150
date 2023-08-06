@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pyrateShield
+Version: 1.0.3
+Summary: Generate radiation-dose maps
+Home-page: https://bitbucket.org/MedPhysNL/pyrateShield
+Author: Marcel Segbers, Rob van Rooij
+Author-email: msegbers@gmail.com
+License: GNU GPLv3
+Keywords: pyrateShield radiation radiology nuclear medicine
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# Pyrateshield 
+
+Pyrateshield is a python application that performs radiation shielding 
+calculations for nuclear medicine and radiology departments in hospitals.
+The application has a user friendly graphical interface and no python coding 
+or commandline intereactions are needed at all.
+
+The application is intended to calculate the (necessaryradiation shielding in 
+entire radiology and nuclear medicine departments. Nuclear Medicine sources, CT
+sources and Xray sources can be defined and positioned on a floorplan in the GUI. 
+Walls with a defined thickness and material can be drawn using the mouse.
+
+The radiation dose rate can be visualized as heatmaps and (dose) isocontours 
+on the floorplan. Critical points can be added to calculate the exact dose 
+rate in specific points. Critical point results can be easily exported to Excel.
+
+## Intended users 
+
+(Medical) physicists and radiation protection officers who are working at a 
+a nuclear medicine or radiology department in a hospital. 
+
+## How to start pyateshield 
+
+
+### Windows
+
+For windows standalone executables are distributed. To obatain a 
+standalone executable look in the Windows folder of the dropbox link below:
+
+[standalone windows executables](https://www.dropbox.com/sh/npu9e23rxlgsjm6/AADQDKJwMzWEmh75Dir3vQYGa?dl=0)
+
+
+### Cross Platform
+
+Use 'pip install pyrateshield' to install the package in a python environment of
+your choice. Type 'pyrateshield' to start the application. Pyrateshield 
+requires python version 3.8 or later.
+
+Python savy users can also install directly from our repository.
+
+https://bitbucket.org/MedPhysNL/pyrateshield
+
+When using an anaconda environment and having spyder installed within that 
+environment may cause issues with spyder. Best practice is not to install 
+pyrateshield and spyder within the same anaconda environment.A workaround could 
+be reinstalling pyqt5 after installing pyrateshield('pip install pyqt5==version', 
+with version the required version by spyder). 
+
+### Examples
+
+Pyrateshield projects can be saved as a .zip file. There are a few examples 
+available on the repository. The example zip files can be directly downloaded
+from the links below:
+
+[small_project_example](https://www.dropbox.com/s/kohplxt1vntesdo/small_project_example.zip?dl=0)
+
+[large_project_example](https://www.dropbox.com/s/wji0e6duwxipwor/large_project_example.zip?dl=0)
+
+
+### Legacy
+
+Older version of pyrateshield use .psp files to store projects. They can still 
+be read by later version of pyrateshield and saved as the newer .zip files
+
+### Contact 
+
+Authors:
+
+Marcel Segbers (m.segbers@erasmusmc.nl)
+Rob van Rooij (r.vanrooij-3@umcutrecht.nl)
+
+Feature requests and bug reports please use the issue tracker of the repository:
+
+https://bitbucket.org/MedPhysNL/pyrateshield
+
+
