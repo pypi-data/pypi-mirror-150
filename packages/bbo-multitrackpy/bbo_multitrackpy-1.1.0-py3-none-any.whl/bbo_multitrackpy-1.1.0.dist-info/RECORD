@@ -1,0 +1,13 @@
+multitrackpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multitrackpy/__main__.py,sha256=zpEOSBM_XM31KjjqZPQvGwNBuGSXGM7RTCGOMkPoRvU,1799
+multitrackpy/helper.py,sha256=gA89YaZj8Mute97WF0xqmtrvAWqKUcYkccM-QskWsdg,127
+multitrackpy/image.py,sha256=o_0XLdrf4JcP3_oGiWAYI26ZDPOESjzofQCqWo8DKNQ,2218
+multitrackpy/mtt.py,sha256=Y4-BejPiLS6WB729qM_SrcNIwzgnX9MwzDVPv1DWo7U,1646
+multitrackpy/pointcloud.py,sha256=-Nv5RihSTOxom8gzvCTdBcJIFBvJ-TIRZtZuSE53mgE,1631
+multitrackpy/rigid_body_transform_3d.py,sha256=P7RpT6Yza075QRIHEPQthVhPehU-OIQBkEFw5uxL7S8,2640
+multitrackpy/tracking.py,sha256=ieaR5ai8vmVCEHWhC0LBK9_hIqIIoaL4_WdCYx9e9uQ,4984
+bbo_multitrackpy-1.1.0.dist-info/LICENSE,sha256=FcwqWdJ1y58xL4VedPMvjrMsWOOj5pabuTfCFanJwVQ,1539
+bbo_multitrackpy-1.1.0.dist-info/METADATA,sha256=3EoSUyKSnZ0Mc4wkzTtH6ef8KFODv43ylnI_QZrhnjg,1765
+bbo_multitrackpy-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bbo_multitrackpy-1.1.0.dist-info/top_level.txt,sha256=soZdva2E7vzrDSumADZckszZTRjNkXf-tcyqsfsHurY,13
+bbo_multitrackpy-1.1.0.dist-info/RECORD,,
