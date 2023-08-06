@@ -1,0 +1,16 @@
+scf/__init__.py,sha256=qq34YkTEeXUw3gUHUmou4l0X2rLuCK9UrTB1_FogUd4,70
+scf/__main__.py,sha256=LAFBVWr8ia_cvrhLVCCPLkpFcXdqXSWzHvpD5VdKgp0,160
+scf/_version.py,sha256=uZsygMXMKRw-7qhWojAjnpm8GFPXU92xW6XA8O5GwFY,22
+scf/cli.py,sha256=5c9OrUFugt8rVAkkdbM9lJr6WYTL-LQFHEp6S_DvarY,6747
+scf/config.py,sha256=hBzXHXxk_BR_sKhy-h0iJtuE5ljrwOVyKHvqBkeY2Bs,324
+scf/models.py,sha256=-YVuiL38_n6BF7tFl5y4Bb3gdPp3eVotxYStd-F1b9k,6967
+scf/server.py,sha256=kemcS70oRTvdK6O1iGEzDmjAPmYf9A_GG5K6iDMJjI4,1939
+scf/settings.toml,sha256=gI9ESeUrEWPo-cn8hQv0MMT3_aeB_IiwVbk-KDc-1b4,288
+scf/suse.py,sha256=tLJ40SamOERpCVW5hGWbXDKyl1KMmTSRtHJnUv9IIrI,4713
+scf/utils.py,sha256=HlMRzBstmKkhMusOAHhzqsQhtJqjb0hZmTSRGgoMK5w,841
+python_scf-0.1.3.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+python_scf-0.1.3.dist-info/METADATA,sha256=-AGkbymQQe5l6z13v9aNLLAI4SItI8QomJ5kw0CqSA4,2184
+python_scf-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_scf-0.1.3.dist-info/entry_points.txt,sha256=FXV3RAHBuLgLJ7etxvWKAxB36kXuUX99MGuTi9FpDuU,36
+python_scf-0.1.3.dist-info/top_level.txt,sha256=1okdh2iKv0JZOY0sAVjjVTpWH-OtJWQ6cicQe_n9G8I,4
+python_scf-0.1.3.dist-info/RECORD,,
