@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: elysium
+Version: 0.0.1
+Summary: Deta Base Typed ODM
+License: MIT
+Author: Ian Kollipara
+Author-email: ian.kollipara@cune.org
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: deta (>=1.1.0,<2.0.0)
+Requires-Dist: typing-extensions (>=4.2.0,<5.0.0)
