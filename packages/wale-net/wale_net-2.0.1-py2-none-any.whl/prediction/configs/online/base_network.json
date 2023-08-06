@@ -1,0 +1,14 @@
+{
+    "pred_config_path": "mod_prediction/configs/30input.json",
+    "pred_model_path": "mod_prediction/trained_models/30input.tar",
+    "gpu": "",
+    "min_obs_length": 0,
+    "on_pred_horizon": null,
+    "on_lr": null,
+    "on_pred_learn_density": null,
+    "on_pred_learn_method": "default",
+    "online_layer": null,
+    "on_loss": null,
+    "on_optimizer": null,
+    "on_train_loss_th": null
+}

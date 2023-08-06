@@ -1,0 +1,14 @@
+{
+    "gpu": "",
+    "pred_config_path": "mod_prediction/configs/online_learning.json",
+    "pred_model_path": "mod_prediction/trained_models/online_learning.tar",
+    "min_obs_length": 0,
+    "on_pred_horizon": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+    "on_lr": 2e-4,
+    "on_pred_learn_density": 5,
+    "on_pred_learn_method": "switch_layer",
+    "online_layer": 10,
+    "on_loss": "NLL",
+    "on_optimizer": "SGD",
+    "on_train_loss_th": 50
+}
