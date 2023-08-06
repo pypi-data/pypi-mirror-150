@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/create_giant_tour.egg-info/PKG-INFO
+src/create_giant_tour.egg-info/SOURCES.txt
+src/create_giant_tour.egg-info/dependency_links.txt
+src/create_giant_tour.egg-info/top_level.txt
+src/giant_tour_smartlog_ai/__init__.py
+src/giant_tour_smartlog_ai/giant_tour.py

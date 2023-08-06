@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: create-giant-tour
+Version: 0.3
+Summary: My first Python library
+Home-page: UNKNOWN
+Author: Me
+License: MIT
+Description: # Example Package
+        This is a class that includes functions to generate a giant tour.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
