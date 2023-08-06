@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xtracer
+Version: 0.2
+Summary: Simple Python3 IP Tracer
+Home-page: https://github.com/ph-fox/xt
+Author: Anikin Luke Abales
+Author-email: abalesluke@gmail.com
+Project-URL: Bug Tracker, https://github.com/ph-fox/xt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
