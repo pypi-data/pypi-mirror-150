@@ -1,0 +1,15 @@
+pybundler/__init__.py,sha256=RX67_go_eTAzVixnXA13NEQkjJWkJdO562Obt8W2JtQ,22
+pybundler/get_config.py,sha256=QTh0h0xTA7Or3YzQCaEAcjg5R1v7S6e91l_abI9qMn8,754
+pybundler/make_gitignore.py,sha256=xOUuAvbzqqAMYyRvTVIcBsWoVAoYX5moN-GbwBEjR04,1908
+pybundler/make_init.py,sha256=QN5XeBf6-jX8K5KtHCyItA9E69sTU6T7Re8M-AtYnMk,128
+pybundler/make_license.py,sha256=ImCVE8Yw33GKZ0xW_OhgT62vTr16ny3rcsZRlbA-XVA,1186
+pybundler/make_project.py,sha256=d9QLE9KiouHqWn_WRHh7m8XQXn1pNCUzfZzIITtA_OY,132
+pybundler/make_readme.py,sha256=_RYSEFbuxVKFMW-jlWCJGJsQaGowrZo8ahAfkxqp9Gk,101
+pybundler/make_setup.py,sha256=tagFJI6W6F14VGxZpu33_Wp1jYkv_0BN4P5SRCaNklU,918
+pybundler/pybundler.py,sha256=wBsdZJ2ndZHcHeEFm7E9Otw3KS1n40futC2RE3CSPt4,2015
+PyBundleCli-0.0.4.dist-info/LICENSE,sha256=uH8BBoeEtNCntts-OsSdIqONs9G2qix57RpyMhOdrDA,1072
+PyBundleCli-0.0.4.dist-info/METADATA,sha256=01mBGy2DvLMcacxtXlv3bD23Eu49gv7eZ2gCvFl6oQw,1589
+PyBundleCli-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyBundleCli-0.0.4.dist-info/entry_points.txt,sha256=1E8I00-7AEIlSGnzdppFqnhjBhZE9p_nUdEdv0gRjeM,54
+PyBundleCli-0.0.4.dist-info/top_level.txt,sha256=nkXGvsl4kqr-jIF7sdiSICg-Wn0lvxq3j1I5MbZiw7c,10
+PyBundleCli-0.0.4.dist-info/RECORD,,
