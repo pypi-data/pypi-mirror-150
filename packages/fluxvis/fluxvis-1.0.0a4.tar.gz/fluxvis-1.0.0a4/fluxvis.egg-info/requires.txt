@@ -1,0 +1,5 @@
+numpy
+scikit_image
+
+[notebook]
+ipywidgets<8,>=7.4
