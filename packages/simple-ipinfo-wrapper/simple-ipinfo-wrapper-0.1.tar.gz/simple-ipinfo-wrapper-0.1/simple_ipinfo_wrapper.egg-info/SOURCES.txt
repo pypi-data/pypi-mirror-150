@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+simple-ipinfo-wrapper/__init__.py
+simple-ipinfo-wrapper/wrapper.py
+simple_ipinfo_wrapper.egg-info/PKG-INFO
+simple_ipinfo_wrapper.egg-info/SOURCES.txt
+simple_ipinfo_wrapper.egg-info/dependency_links.txt
+simple_ipinfo_wrapper.egg-info/requires.txt
+simple_ipinfo_wrapper.egg-info/top_level.txt

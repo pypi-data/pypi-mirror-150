@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simple-ipinfo-wrapper
+Version: 0.1
+Summary: Ipinfo wrapper
+Home-page: UNKNOWN
+Author: MrProCatYT
+Author-email: alexthecool374@gmail.com
+License: UNKNOWN
+Keywords: python,ip,ipinfo,ipinfo.io
+Platform: UNKNOWN
+
+A simple ipinfo.io wrapper for python. See https://github.com/MrProCatYT/simple-ipinfo-wrapper for more info
+
