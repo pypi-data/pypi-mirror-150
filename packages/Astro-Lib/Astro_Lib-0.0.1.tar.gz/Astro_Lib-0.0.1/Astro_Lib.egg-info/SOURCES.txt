@@ -1,0 +1,8 @@
+setup.py
+AstroLib/AstroLib.py
+AstroLib/__init__.py
+Astro_Lib.egg-info/PKG-INFO
+Astro_Lib.egg-info/SOURCES.txt
+Astro_Lib.egg-info/dependency_links.txt
+Astro_Lib.egg-info/requires.txt
+Astro_Lib.egg-info/top_level.txt
