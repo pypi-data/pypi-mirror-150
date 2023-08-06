@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qoala
+Version: 0.1.dev2
+Summary: Qoala - Quantum netwOrk Application LAnguage
+Author: QuTech
+Author-email: b.vandervecht@tudelft.nl
+License: MIT
+Description-Content-Type: text/markdown
+Provides-Extra: tests
