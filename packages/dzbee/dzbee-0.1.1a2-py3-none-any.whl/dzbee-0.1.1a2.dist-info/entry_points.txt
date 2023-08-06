@@ -1,0 +1,3 @@
+[console_scripts]
+dzbee=dzbee.__main__:app
+
