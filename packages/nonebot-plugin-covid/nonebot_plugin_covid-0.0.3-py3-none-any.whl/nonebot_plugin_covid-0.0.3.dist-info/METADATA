@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-covid
+Version: 0.0.3
+Summary: search covid data of China
+Home-page: https://github.com/nicklly/nonebot2_covid_plugin
+Author: TonyKun
+Author-email: 1134741727@qq.com
+License: GPL Licence
+Keywords: pip,nonebot_plugin_covid
+Platform: any
+Requires-Dist: pydantic (>=1.9.0)
+Requires-Dist: nonebot2 (>=2.0.0b1)
+Requires-Dist: nonebot-adapter-onebot (>=2.0.0b1)
+
+search covid data of China
