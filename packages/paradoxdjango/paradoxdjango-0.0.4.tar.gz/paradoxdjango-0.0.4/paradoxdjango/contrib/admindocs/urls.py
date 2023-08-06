@@ -1,0 +1,50 @@
+from paradoxdjango.contrib.admindocs import views
+from paradoxdjango.urls import path, re_path
+
+urlpatterns = [
+    path(
+        "",
+        views.BaseAdminDocsView.as_view(template_name="admin_doc/index.html"),
+        name="paradoxdjango-admindocs-docroot",
+    ),
+    path(
+        "bookmarklets/",
+        views.BookmarkletsView.as_view(),
+        name="paradoxdjango-admindocs-bookmarklets",
+    ),
+    path(
+        "tags/",
+        views.TemplateTagIndexView.as_view(),
+        name="paradoxdjango-admindocs-tags",
+    ),
+    path(
+        "filters/",
+        views.TemplateFilterIndexView.as_view(),
+        name="paradoxdjango-admindocs-filters",
+    ),
+    path(
+        "views/",
+        views.ViewIndexView.as_view(),
+        name="paradoxdjango-admindocs-views-index",
+    ),
+    path(
+        "views/<view>/",
+        views.ViewDetailView.as_view(),
+        name="paradoxdjango-admindocs-views-detail",
+    ),
+    path(
+        "models/",
+        views.ModelIndexView.as_view(),
+        name="paradoxdjango-admindocs-models-index",
+    ),
+    re_path(
+        r"^models/(?P<app_label>[^\.]+)\.(?P<model_name>[^/]+)/$",
+        views.ModelDetailView.as_view(),
+        name="paradoxdjango-admindocs-models-detail",
+    ),
+    path(
+        "templates/<path:template>/",
+        views.TemplateDetailView.as_view(),
+        name="paradoxdjango-admindocs-templates",
+    ),
+]

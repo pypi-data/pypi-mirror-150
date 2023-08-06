@@ -1,0 +1,2 @@
+[console_scripts]
+paradoxdjango-admin = paradoxdjango.core.management:execute_from_command_line
