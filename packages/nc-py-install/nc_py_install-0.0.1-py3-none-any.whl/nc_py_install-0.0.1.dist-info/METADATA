@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: nc-py-install
+Version: 0.0.1
+Summary: Python 3.9+ package for installing Nextcloud Python Framework
+Home-page: https://github.com/bigcat88/nc_py_install
+Author: Alexander Piskun
+Author-email: bigcat88@users.noreply.github.com
+License: Apache-2.0
+Project-URL: Documentation, https://nc-py-install.readthedocs.io
+Project-URL: Source, https://github.com/bigcat88/nc_py_install
+Project-URL: Changelog, https://github.com/bigcat88/nc_py_install/blob/master/CHANGELOG.md
+Keywords: python,install,framework,nextcloud
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=4.4) ; extra == 'docs'
+Requires-Dist: sphinx-issues (>=3.0.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=1.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+Readme will be written later....
