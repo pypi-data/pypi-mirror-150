@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dune-gdt
+Version: 2022.1.1.603
+Summary: Python for Dune-Gdt
+Home-page: https://github.com/dune-community/dune-gdt
+Author: The dune-gdt devs
+Author-email: dune-gdt-dev@listserv.uni-muenster.de
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: dune-xt (~=2022.1)
+Provides-Extra: all
+Requires-Dist: bokeh ; extra == 'all'
+Requires-Dist: pymumps ; extra == 'all'
+Requires-Dist: metis ; extra == 'all'
+Requires-Dist: dune-xt[visualisation] (~=2022.1) ; extra == 'all'
+Provides-Extra: parallel
+Requires-Dist: bokeh ; extra == 'parallel'
+Requires-Dist: pymumps ; extra == 'parallel'
+Requires-Dist: metis ; extra == 'parallel'
+Provides-Extra: visualisation
+Requires-Dist: dune-xt[visualisation] (~=2022.1) ; extra == 'visualisation'
+
+UNKNOWN
+
