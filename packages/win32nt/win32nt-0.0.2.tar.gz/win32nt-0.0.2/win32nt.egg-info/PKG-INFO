@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: win32nt
+Version: 0.0.2
+Summary: A pywin32 compatible library to interact with the WinAPI; specifically ntdll functions.
+Home-page: https://github.com/Itzsten/win32nt
+Author: Itzsten
+Author-email: itzsten@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Education
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+
+A pywin32 compatible library to interact with the WinAPI; specifically ntdll functions, featuring modern Pythonic syntax and most of the functions.
+

@@ -1,0 +1,6 @@
+README.md
+setup.py
+win32nt.egg-info/PKG-INFO
+win32nt.egg-info/SOURCES.txt
+win32nt.egg-info/dependency_links.txt
+win32nt.egg-info/top_level.txt
