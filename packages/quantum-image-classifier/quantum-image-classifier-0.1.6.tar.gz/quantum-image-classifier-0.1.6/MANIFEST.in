@@ -1,0 +1,2 @@
+include env/requirements.txt
+include LICENSE
