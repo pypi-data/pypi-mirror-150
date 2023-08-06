@@ -1,0 +1,11 @@
+numpy
+h5py>=3.3.0
+hdf5plugin
+pandas
+Pillow
+tables
+torch
+scikit-image
+torchvision
+psutil
+tqdm
