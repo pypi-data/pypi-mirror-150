@@ -1,0 +1,5 @@
+cvai_cacher/__init__.py,sha256=WMJTYd0S52WKKcdE8qDQyixbnEsOBovKFIbL7WDPyUo,77
+cvai_cacher/caching.py,sha256=6sHT8tRP4XBUHgbpBWGfUzHs8pO7pN3m0bXQI1yIXco,1563
+cvai_cacher-0.4.12.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cvai_cacher-0.4.12.dist-info/METADATA,sha256=MoUt-1eM-Qa3LAiuPYSFTUlnKIprEy0i1pKfJM37A8I,552
+cvai_cacher-0.4.12.dist-info/RECORD,,
