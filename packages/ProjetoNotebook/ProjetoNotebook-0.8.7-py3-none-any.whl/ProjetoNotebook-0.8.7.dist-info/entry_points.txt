@@ -1,0 +1,8 @@
+[ProjetoNotebook.Analista]
+Analista = ProjetoNotebook:Analista
+
+[ProjetoNotebook.Gerente]
+Gerente = ProjetoNotebook:Gerente
+
+[ProjetoNotebook.ProcessoAutomatizado]
+ProcessoAutomatizado = ProjetoNotebook:ProcessoAutomatizado
