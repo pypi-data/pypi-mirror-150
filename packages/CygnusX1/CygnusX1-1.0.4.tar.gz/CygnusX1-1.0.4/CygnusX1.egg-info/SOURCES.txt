@@ -1,0 +1,15 @@
+README.md
+setup.py
+CygnusX1.egg-info/PKG-INFO
+CygnusX1.egg-info/SOURCES.txt
+CygnusX1.egg-info/dependency_links.txt
+CygnusX1.egg-info/entry_points.txt
+CygnusX1.egg-info/requires.txt
+CygnusX1.egg-info/top_level.txt
+cygnusx1/__init__.py
+cygnusx1/bot.py
+cygnusx1/config.py
+cygnusx1/downloader.py
+cygnusx1/helper.py
+cygnusx1/main.py
+cygnusx1/scraper.py
