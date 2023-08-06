@@ -1,0 +1,14 @@
+open3d
+opencv-python
+pye57
+numpy
+rdflib
+cv2
+typing_extensions
+matplotlib
+ifcopenshell
+scipy
+PIL
+xlsxwriter
+trimesh
+mpl_toolkit
