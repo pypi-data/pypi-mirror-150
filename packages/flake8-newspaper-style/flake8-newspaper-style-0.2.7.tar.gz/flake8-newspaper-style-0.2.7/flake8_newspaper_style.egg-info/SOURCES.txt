@@ -1,0 +1,10 @@
+README.md
+flake8_newspaper_style.py
+setup.cfg
+setup.py
+flake8_newspaper_style.egg-info/PKG-INFO
+flake8_newspaper_style.egg-info/SOURCES.txt
+flake8_newspaper_style.egg-info/dependency_links.txt
+flake8_newspaper_style.egg-info/entry_points.txt
+flake8_newspaper_style.egg-info/requires.txt
+flake8_newspaper_style.egg-info/top_level.txt
