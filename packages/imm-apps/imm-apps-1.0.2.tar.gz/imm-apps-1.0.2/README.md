@@ -1,0 +1,54 @@
+## Webform
+### V1.3.0 
+- Done BCPNP 
+### V1.2.0
+- Added bcpnp 
+### V1.1.0
+- published on April 26, 2020. Based on new page model
+### V1.0.1 
+- create .prportalenv including rcics' account and password info in user's home directory
+
+## Case
+
+### V1.0.13
+- pr: can generate 0008, 5406,5562,5669 excel sheets according to models
+- lmia: added functions for generate excels for periods of assess, job post, and recruitment summary.
+### V1.0.5
+- bcpnp: generate company info, employer recommendation letter, employer training, employee training, job description, job offer form xml and rep form xml.
+- exp: experience related doc auto generate: resume, employment certificate
+- trv: read 5257,1294,1295,5708,5709,5710,and 5645
+- recruit: generate job ad, job offer, and recruitment summary
+- lmia: generate submission letter, employer training, employee training 
+### V1.0.3 
+- excel: add function. Now can add any number of excels instead of only 2. sub function is same 
+- lmia: submission letter, employer training, employee traning for 5593 5626 5627 
+- bcpnp: employer recommendation letter, company info, employer/employee training, job description auto doc makers
+- job: job ad, job offer, employment certificate, resume for autodoc makers
+
+## Model
+### v1.0.16
+- Added lmia assess stage data 
+### V1.0.15 
+- Added PR models for 0008 5669 5562 5406
+
+## Source
+### V1.0.24 增加了validation,comment 功能。 
+### V1.0.9
+- Excel：去除了info-sheet 变量改变成大写开头。
+### V1.0.6
+- Excel: 改写了 __add__. 原来只能2个excel相加，现在可以任意excel相加了。 
+
+### V1.0.5 
+- makeExcel: 更新。 原来输入sheets/tables的时候，如果是None或[]都是一样处理。导致如果是[]的时候也像None一样处理，于是产生了不需要的sheets/tables。现在只对None处理，如果是None才产生所有的;
+如果是[]，则不产生对应的sheets/tables 
+    sheets=sheets if sheets is not None else self.sheets.values()
+    tables=tables if tables is not None else self.tables.values()
+
+### V1.0.4
+- Excel + ： 行和列都相加，并且能合并相同的行 （相同行定义是该行前3列数据一样）改回原来的。
+
+### V1.0.3 
+- Excel + ： 只是把行append到原来的excel中。 准备考虑放弃。
+
+### V1.0.2 
+- Excel + ： 行和列都相加，并且能合并相同的行 （相同行定义是该行前3列数据一样）
