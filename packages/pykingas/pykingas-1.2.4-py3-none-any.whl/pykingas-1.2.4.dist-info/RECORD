@@ -1,0 +1,15 @@
+pykingas/KineticGas_d.so,sha256=5mU2AHYw---NxcJnh1N2ac8UdDPH-dZpJISA2v_SqEQ,2708772
+pykingas/KineticGas_r.so,sha256=U4MjdmYLRm-MubFayxytadNFgdV7NbHBktLumLLRKsM,273068
+pykingas/OmegaDb.py,sha256=Ms5xdoxy1muw0CcKdfUfu2C0m9RK_7eG7hVE0RxZHWw,4892
+pykingas/__init__.py,sha256=8qbjet0EH1IqvifVQ49WSjbw-Lv75IsVAn5ZeFZ8RVI,1177
+pykingas/__main__.py,sha256=UfUVtBrmx0Eau13j1WEkxxvPPh2WTDpfsHjqXzSB09k,1059
+pykingas/collision_integral_unittests.py,sha256=Kwd7ANPHFXTR6h70yTMzVAgUh6UPEDQ-lYxhFYDE9Ro,2862
+pykingas/mie_unittests.py,sha256=B6pMG_wIVcvFKqWWzgKiRu1sEwK0aoKtSscDFKfqpcE,8107
+pykingas/omega_db.json,sha256=kGcadeClGKFDV9QEFHthZf9f9Ddvssibk-iH6mMFarE,689
+pykingas/py_KineticGas.py,sha256=bhzqOWCXDx9rP8KjGuwzTLBctEsrQ2sUgNuvsckzm0s,13439
+pykingas/py_unittest.py,sha256=kuSxiG_hBDjnV3qwZNTX8ooE531cZDb6_l5Eed8QGY8,5140
+pykingas-1.2.4.dist-info/LICENSE,sha256=wKXc16jZyLuBPpxDdNYtgEmBcM5AtAdJhcjumW0hIBw,1080
+pykingas-1.2.4.dist-info/METADATA,sha256=Kpcei2A--bwmoVZ0STRmRV_-78gpErJpZ3lEqVw95mk,3832
+pykingas-1.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pykingas-1.2.4.dist-info/top_level.txt,sha256=IQ10q-Lm74ChbHnKmuJKh3MQoiCfQxvGLz68roAQeI0,9
+pykingas-1.2.4.dist-info/RECORD,,
