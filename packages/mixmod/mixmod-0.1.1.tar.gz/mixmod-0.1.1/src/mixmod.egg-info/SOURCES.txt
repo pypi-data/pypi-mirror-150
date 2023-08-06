@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/mixmod/__init__.py
+src/mixmod/estimators.py
+src/mixmod/mixture.py
+src/mixmod.egg-info/PKG-INFO
+src/mixmod.egg-info/SOURCES.txt
+src/mixmod.egg-info/dependency_links.txt
+src/mixmod.egg-info/requires.txt
+src/mixmod.egg-info/top_level.txt
