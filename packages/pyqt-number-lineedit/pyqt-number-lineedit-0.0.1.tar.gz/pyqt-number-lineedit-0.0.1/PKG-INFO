@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyqt-number-lineedit
+Version: 0.0.1
+Summary: QLineEdit which allows only numeric input
+Home-page: https://github.com/yjg30737/pyqt-number-lineedit.git
+Author: Jung Gyu Yoon
+Author-email: yjg30737@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pyqt-number-lineedit
+QLineEdit which allows only numeric input. Isn't that awesome!?
+
+`setComma(True)` insert comma between numbers like 1,333,333... Isn't that awesome!?
+
+## Requirements
+* PyQt5 >= 5.8
+
+## Setup
+`python -m pip install pyqt-number-lineedit`
+
+
+
