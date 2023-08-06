@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MoodleTUI-common
+Version: 0.0.1
+Summary: Backend Library for the MoodleTUI project
+Home-page: https://github.com/kiwifuit/MoodleTUI-common
+Author: CarbonFodder
+Author-email: mahkiwi123@gmail.common
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# MoodleTUI Common Library
+Backend Library for the MoodleTUI project
