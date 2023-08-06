@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cofactr
+Version: 3.0.0
+Summary: Client library for accessing Cofactr data.
+Home-page: https://github.com/Cofactr/cofactr-client
+License: MIT
+Keywords: cofactr
+Author: Noah Trueblood
+Author-email: noah@cofactr.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: urllib3 (>=1.26.9,<2.0.0)
+Project-URL: Repository, https://github.com/Cofactr/cofactr-client
+Description-Content-Type: text/markdown
+
+# Cofactr
+
+Python client library for accessing Cofactr.
+
+## Example
+
+```python
+from typing import List
+from cofactr.core import get_part, get_parts, search_parts
+# Flagship is the default schema.
+from cofactr.schema.flagship.part import Part
+
+part_res = get_part(id=cpid, external=False)
+part: Part = res["data"]
+
+parts_res = search_parts(query="esp32", external=False)
+parts: List[Part] = res["data"]
+```
+
