@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_vertical_tab_widget/__init__.py
+pyqt_vertical_tab_widget/verticalTabWidget.py
+pyqt_vertical_tab_widget.egg-info/PKG-INFO
+pyqt_vertical_tab_widget.egg-info/SOURCES.txt
+pyqt_vertical_tab_widget.egg-info/dependency_links.txt
+pyqt_vertical_tab_widget.egg-info/requires.txt
+pyqt_vertical_tab_widget.egg-info/top_level.txt
