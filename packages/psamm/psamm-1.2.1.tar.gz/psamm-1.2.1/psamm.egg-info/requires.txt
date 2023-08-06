@@ -1,0 +1,12 @@
+pyyaml>=4.2b1
+six
+xlsxwriter
+numpy
+scipy
+future
+pandas
+
+[docs]
+sphinx
+sphinx_rtd_theme
+mock
