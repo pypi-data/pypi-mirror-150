@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sweetconfusionmatrix
+Version: 0.1
+Summary: A tool to generate sweet confusion matrix
+Home-page: https://github.com/cedced19/sweet-confusion-matrix
+Author: Cédric Jung
+Author-email: cedced19@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# sweet-confusion-matrix
+Confusion Matrix in Python using Matplotlib
+
+
+## Demo
+```
+import sweetconfusionmatrix
+sweetconfusionmatrix.cm([1, 1, 1, 2, 1],[1, 1, 1, 2, 2], [1,2], title="Demo matrix", filename="demo.png")
+```
+
+
+![demo.png](demo.png)
+
+## Build
+
+```
+python3 setup.py bdist_wheel
+python3 -m pip install dist/sweetconfusionmatrix-0.1-py3-none-any.whl
+```
+
