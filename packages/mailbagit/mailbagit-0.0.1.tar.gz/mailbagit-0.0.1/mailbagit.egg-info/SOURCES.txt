@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+mailbag/__init__.py
+mailbag/emailModel.py
+mailbag/parser.py
+mailbag/parsers/example.py
+mailbag/parsers/mbox.py
+mailbagit.egg-info/PKG-INFO
+mailbagit.egg-info/SOURCES.txt
+mailbagit.egg-info/dependency_links.txt
+mailbagit.egg-info/entry_points.txt
+mailbagit.egg-info/requires.txt
+mailbagit.egg-info/top_level.txt
