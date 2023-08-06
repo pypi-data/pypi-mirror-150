@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dir_to_crx
+Version: 1.0.3
+Summary: Convert directory to .crx for google extension
+Home-page: https://github.com/chernyshev-aleksey/dir_fo_crx
+Author: Aleksey Chernyshev
+Author-email: chernyshev.prog@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Directory to crx
+
+![GitHub all releases](https://img.shields.io/github/downloads/chernyshev-aleksey/dir_fo_crx/total) ![GitHub](https://img.shields.io/github/license/chernyshev-aleksey/dir_fo_crx)
+
+## Installation
+```
+pip install dir_to_crx
+```
+
