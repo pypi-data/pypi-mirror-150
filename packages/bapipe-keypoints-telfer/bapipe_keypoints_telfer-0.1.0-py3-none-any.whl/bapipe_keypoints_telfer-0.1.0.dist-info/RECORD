@@ -1,0 +1,9 @@
+bapipe/__init__.py,sha256=1JyyMyPF0dfssUwQ3k2gWm_NQ_ZVW5X8_CqyNsfgCso,63
+bapipe/api.py,sha256=1ZngxaMD6EAHiNXQ5dbcFtI9-XkD1hyAatf9g-VoOkU,15467
+bapipe/configs.py,sha256=DrvXmh8FFzASbqCpn4qdKGE_pP3n-5Kw7KD76ff0P64,862
+bapipe/utils.py,sha256=oGISoaxYqrSU2DDzjaWlIE29JfR9E1Q-GAItrrMA-Ww,3864
+bapipe_keypoints_telfer-0.1.0.dist-info/LICENSE,sha256=M5mohU8oviYdGo4TtHcQjAdZVTmupmrKsWzKnTqjWUg,1069
+bapipe_keypoints_telfer-0.1.0.dist-info/METADATA,sha256=fz9rjdSY8QD7vDnVX7-j9fvYf7usNG-SHexjlhrYf-Y,14002
+bapipe_keypoints_telfer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bapipe_keypoints_telfer-0.1.0.dist-info/top_level.txt,sha256=N3qFIKDeA_t6ykot-dBq1wI3xp0D1rhF-r9aSO5bamk,7
+bapipe_keypoints_telfer-0.1.0.dist-info/RECORD,,
