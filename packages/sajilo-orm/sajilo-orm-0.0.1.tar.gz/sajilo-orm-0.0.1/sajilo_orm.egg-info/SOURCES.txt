@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sajilo_orm.egg-info/PKG-INFO
+sajilo_orm.egg-info/SOURCES.txt
+sajilo_orm.egg-info/dependency_links.txt
+sajilo_orm.egg-info/requires.txt
+sajilo_orm.egg-info/top_level.txt
