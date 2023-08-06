@@ -1,0 +1,8 @@
+split_words/__init__.py,sha256=LPYr67sJsjg4nt6fWMgBm2W3oUNYWr06LQblH8rGL00,149
+split_words/ngram_probs.json,sha256=sUX1-6kBaYR50-iJJVz5NC_n5sNZP4D33Bky0XWb578,40447815
+split_words/splitter.py,sha256=--_73LOXi1HbExJX01jBJAL5XQDP2f6SQ35OikWCiNA,5809
+split_words/training.py,sha256=XLx_wSgH3Q9j73hT3kk-jXkYiGxCyQmBDc0ejyDZrLw,2962
+split_words-0.1.1.dist-info/LICENSE,sha256=Vaiiz3rh51-UQcu1DJt6KKO0swxHamUV2jNqAIAGDyo,1059
+split_words-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+split_words-0.1.1.dist-info/METADATA,sha256=MfKpldRxbJ3SqQZzhj-S-7-puiv279cyLNRBJZ5ZRZo,315
+split_words-0.1.1.dist-info/RECORD,,
