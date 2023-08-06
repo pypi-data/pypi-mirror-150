@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: create-giant-tour-class
+Version: 1.0.0
+Summary: Create a giant tour
+Author: Mr. Hanh
+Author-email: author@example.com
+License: UNKNOWN
+Keywords: giant_tour,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example package
+We create a class for generating a gaint tour
+

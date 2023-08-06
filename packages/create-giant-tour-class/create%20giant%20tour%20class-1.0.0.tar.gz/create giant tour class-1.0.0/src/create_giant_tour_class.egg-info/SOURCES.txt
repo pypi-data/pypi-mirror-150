@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/create_giant_tour_class.egg-info/PKG-INFO
+src/create_giant_tour_class.egg-info/SOURCES.txt
+src/create_giant_tour_class.egg-info/dependency_links.txt
+src/create_giant_tour_class.egg-info/requires.txt
+src/create_giant_tour_class.egg-info/top_level.txt
