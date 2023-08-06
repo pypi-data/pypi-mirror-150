@@ -1,0 +1,2 @@
+[console_scripts]
+chakin = chakin.cli:chakin

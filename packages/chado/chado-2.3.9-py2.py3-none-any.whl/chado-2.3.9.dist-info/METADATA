@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: chado
+Version: 2.3.9
+Summary: Chado library
+Home-page: https://github.com/galaxy-genome-annotation/python-chado
+Author: Anthony Bretaudeau
+Author-email: anthony.bretaudeau@inrae.fr
+License: MIT
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.txt
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2-binary
+Requires-Dist: biopython (>=1.78)
+Requires-Dist: bcbio-gff
+Requires-Dist: wrapt
+Requires-Dist: click (<8)
+Requires-Dist: pyyaml
+Requires-Dist: future
+
+UNKNOWN
+
