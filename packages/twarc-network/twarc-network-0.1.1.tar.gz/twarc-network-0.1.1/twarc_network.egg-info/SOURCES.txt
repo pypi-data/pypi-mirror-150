@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+twarc_network/__init__.py
+twarc_network/index.html
+twarc_network.egg-info/PKG-INFO
+twarc_network.egg-info/SOURCES.txt
+twarc_network.egg-info/dependency_links.txt
+twarc_network.egg-info/entry_points.txt
+twarc_network.egg-info/requires.txt
+twarc_network.egg-info/top_level.txt
