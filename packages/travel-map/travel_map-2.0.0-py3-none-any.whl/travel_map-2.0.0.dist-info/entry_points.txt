@@ -1,0 +1,3 @@
+[console_scripts]
+travel-map=travel_map.scripts.commands:travel_map
+
