@@ -1,0 +1,7 @@
+README.md
+setup.py
+gym_janggi.egg-info/PKG-INFO
+gym_janggi.egg-info/SOURCES.txt
+gym_janggi.egg-info/dependency_links.txt
+gym_janggi.egg-info/requires.txt
+gym_janggi.egg-info/top_level.txt
