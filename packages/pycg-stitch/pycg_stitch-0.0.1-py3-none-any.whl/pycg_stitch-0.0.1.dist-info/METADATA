@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pycg-stitch
+Version: 0.0.1
+Summary: Stitcher for FASTEN Python call graphs
+Author: Vitalis Salis, Giorgos Drosos
+Author-email: vitsalis@gmail.com, drosos007@gmail.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
+Requires-Dist: flask
+
+UNKNOWN
+
