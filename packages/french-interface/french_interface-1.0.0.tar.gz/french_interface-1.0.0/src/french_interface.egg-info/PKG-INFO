@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: french-interface
+Version: 1.0.0
+Summary: Infos des interfaces réseau de Windows
+Home-page: https://lassainora.fr/librairies/interface
+Author: Axelle Viandier
+Author-email: axelleviandier@lassainora.fr
+Project-URL: Bug Tracker, https://github.com/LassaInora/Interface/issues
+Classifier: Natural Language :: French
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# <p id="title">Interface</p>
+
+## **/!\ This library is only compatible for Windows computers with the language in French**
+
+Infos des interfaces réseau de Windows.
+
+Librairie Python par Lassa Inora.
+
+--------
+## Sommaire
+
+- **[Liens](#links)**
+- **[Contacts](#contact)**
+- **[Class Interface](#class_interface)**
+  - ***[Interface initialization](#interface__init__)***
+  - ***[Methods](#interface_methods)***
+- **[Class Connexion](#class_connexion)**
+  - ***[Connexion initialization](#connexion__init__)***
+  - ***[Methods](#connexion_methods)***
+--------
+
+## <p id="links">Liens</p>
+
+- [GitHub personnel](https://github.com/LassaInora)
+- [GitHub du projet](https://github.com/LassaInora/Interface)
+- [Site web du projet](https://lassainora.fr/projet/librairies/interface)
+
+## <p id="contact">Contacts</p>
+
+- [Email personnel](mailto:axelleviandier@lassainora.fr)
+- [Email professionnel](mailto:lassainora@lassainora.fr)
+--------
+## <p id="class_interface">Class Interface:</p>
+
+- ### <p id="interface_methods">Méthodes:</p>
+
+  - str(time):
+    - Envoie les informations de l'Interface et de ses connexions.
+
+--------
+## <p id="class_connexion">Class Connexion:</p>
+
+- ### <p id="connexion__init__">Initialisation de Connexion.</p>
+
+  - infos: Le texte contenant toutes les infos de connexion.
+
+- ### <p id="connexion_methods">Méthodes:</p>
+
+  - get_me(interface):
+    - Récupère l'instance correspondant à la variable Connexion actuel
+  - speedtest(duree):
+    - Test de la vitesse de la connexion.
+  - async_speedtest(duree):
+    - Test de la vitesse de la connexion de façon asynchrone.
+  - str(time):
+    - Envoie les informations de la connexion.
