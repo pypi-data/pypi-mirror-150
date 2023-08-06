@@ -1,0 +1,48 @@
+[build-system]
+requires = [ "poetry>=0.12",]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "python-simpleconf"
+version = "0.5.4"
+description = "Simple configuration management with python."
+authors = [ "pwwang <pwwang@pwwang.com>",]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pwwang/simpleconf"
+repository = "https://github.com/pwwang/simpleconf"
+packages = [
+    {include = "simpleconf"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+diot = "^0.1"
+python-dotenv = { version="^0.20", optional = true}
+pyyaml = { version="^6", optional = true}
+rtoml = {version = "^0.7", optional = true}
+iniconfig = {version = "^1.1.1", optional = true}
+
+[tool.poetry.extras]
+ini = [ "iniconfig" ]
+env = [ "python-dotenv"]
+yaml = [ "pyyaml"]
+toml = [ "rtoml"]
+all = [ "iniconfig", "python-dotenv", "pyyaml", "rtoml"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7"
+pytest-cov = "^3"
+
+[tool.pytest.ini_options]
+addopts = "-vv --cov=simpleconf --cov-report xml:cov.xml --cov-report term-missing"
+filterwarnings = [
+    "error"
+]
+console_output_style = "progress"
+junit_family = "xunit1"
+
+[tool.black]
+line-length = 80
+target-version = ['py37', 'py38', 'py39']
+include = '\.pyi?$'
