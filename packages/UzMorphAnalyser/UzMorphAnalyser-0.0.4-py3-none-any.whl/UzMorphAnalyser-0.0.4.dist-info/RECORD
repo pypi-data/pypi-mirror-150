@@ -1,0 +1,13 @@
+UzMorphAnalyser/UzMorphAnalyser.py,sha256=ImB6RjPkUMvaAzhBtEDlTAh5SCo3VFBNmNMyMsAvH4w,9045
+UzMorphAnalyser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UzMorphAnalyser/affixes.csv,sha256=djVJBEVE59Jsywfp7owQz_isYvY1CKkWFDf1pWipfCU,28474
+UzMorphAnalyser/exception_stems.csv,sha256=I2JT2ey5yYbjV_G4HBSpP9T2DZtrvgdVfyWjNYMwfjw,1558
+UzMorphAnalyser/non_affixed_stems.csv,sha256=9u4zb9cmhtlvMOz9rTGlu53pTlQMNQ0arPE5mauI8Jw,783
+UzMorphAnalyser/number_stems.csv,sha256=hDHm5AWiXovroJixjI9z64u1ZqxAVRDrApz00AocgXg,178
+UzMorphAnalyser/small_stems.csv,sha256=JIS-zHCzN5re7uLSJ4sYTymL39MLxw9gg619xygCje8,29
+UzMorphAnalyser/word-sense-disambiguation.csv,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UzMorphAnalyser-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+UzMorphAnalyser-0.0.4.dist-info/METADATA,sha256=HZbSMBpAhzzRPum8gRAlaYWcrGzL9e2sBV08Bodo6Bs,3474
+UzMorphAnalyser-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+UzMorphAnalyser-0.0.4.dist-info/top_level.txt,sha256=4UcpLCa4gRAUd23PQHclTCzICtvI9sZCOFn_dss4rY4,16
+UzMorphAnalyser-0.0.4.dist-info/RECORD,,
