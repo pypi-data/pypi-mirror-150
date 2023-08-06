@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lumflux
+Version: 0.1.0
+Summary: Illuminating web applications.
+Home-page: https://github.com/Jhsmit/lumflux
+Author: Jochem H. Smit
+Author-email: jhsmit@gmail.com
+Maintainer: Jochem H. Smit
+Maintainer-email: jhsmit@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Provides-Extra: docs
+Provides-Extra: dev
