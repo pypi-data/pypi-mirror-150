@@ -1,0 +1,93 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "freezerbox"
+author = "Kale Kundert"
+author-email = "kale@thekunderts.net"
+home-page = 'https://github.com/kalekundert/freezerbox'
+description-file = 'README.rst'
+requires-python = "~=3.8"
+requires = [
+  'byoc',
+  'autoprop',
+  'autosnapgene',
+  'biopython',
+  'docopt',
+  'entrypoints',
+  'exmemo',
+  'inform~=1.21',
+  'mako',
+  'mergedeep',
+  'more_itertools~=8.0',
+  'natsort',
+  'networkx',
+  'numpy',
+  'pandas',
+  'parsy',
+  'rtoml',
+  'sklearn',
+  'stepwise~=0.23',
+  'stringcase',
+  'tidyexc',
+  'tqdm',
+  'voluptuous',
+]
+classifiers = [
+  'Programming Language :: Python :: 3',
+  'License :: OSI Approved :: MIT License',
+]
+
+[tool.flit.scripts]
+freezerbox = "freezerbox.cli.main:main"
+
+[tool.flit.entrypoints."freezerbox.databases"]
+excel = "freezerbox.loaders.excel"
+
+[tool.flit.entrypoints."freezerbox.make"]
+sw = "freezerbox.stepwise.make:StepwiseMaker"
+order = "freezerbox.stepwise.make:OrderMaker"
+dilute = "freezerbox.stepwise.dilute:Dilute"
+
+[tool.flit.entrypoints."stepwise.protocols"]
+protocols = "freezerbox.stepwise:Plugin"
+
+[tool.flit.metadata.requires-extra]
+test = [
+  'pytest',
+  'pytest-cov',
+  'coveralls',
+  'parametrize_from_file',
+  're_assert',
+]
+doc = [
+  'sphinx',
+  'sphinx_rtd_theme',
+  'autoclasstoc',
+]
+
+[tool.flit.metadata.urls]
+'Documentation' = 'https://freezerbox.readthedocs.io/en/latest/'
+'Version Control' = 'https://github.com/kalekundert/freezerbox'
+'Bug Tracker' = 'https://github.com/kalekundert/freezerbox/issues'
+'Continuous Integration' = 'https://github.com/kalekundert/freezerbox/actions'
+'Test Coverage' = 'https://coveralls.io/github/kalekundert/freezerbox'
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --doctest-glob='*.rst'"
+doctest_optionflags = 'NORMALIZE_WHITESPACE'
+filterwarnings = [
+  'ignore::DeprecationWarning:xlrd.xlsx',
+  'ignore::PendingDeprecationWarning:Bio.Alphabet',
+]
+
+[tool.pccc]
+header_length = 72
+types = ["chore", "docs", "feat", "fix", "refactor", "style", "test"]
+ignore_generated_commits = true
+generated_commits = ['^Merge']
+
+[tool.semantic_release]
+version_variable = 'freezerbox/__init__.py:__version__'
+build_command = 'python -m pip install flit && flit build'

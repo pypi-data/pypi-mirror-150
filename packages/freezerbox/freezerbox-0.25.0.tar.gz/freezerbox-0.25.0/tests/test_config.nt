@@ -1,0 +1,98 @@
+test_load_config:
+  -
+    id: cwd
+    files:
+      .config/freezerbox/conf.toml:
+        > use = 'db1'
+        >
+        > [[database.db1]]
+        > format = 'A'
+        >
+        > [[database.db2]]
+        > format = 'B'
+      subdir/.freezerboxrc:
+        # This file should be ignored for this test.
+        > use = 'db2'
+    cwd: .
+    expected_config:
+      use: db1
+      database:
+        db1:
+          -
+            format: A
+        db2:
+          -
+            format: B
+      features:
+        -
+          name: AmpR
+          role: resistance
+        -
+          name: KanR
+          role: resistance
+        -
+          name: CmR
+          role: resistance
+        -
+          name: pUC
+          role: ori
+        -
+          name: pSC101
+          role: ori
+        -
+          name: p15A
+          role: ori
+    expected_paths:
+      use: DIR/'.config/freezerbox/conf.toml'
+      database:
+        db1: DIR/'.config/freezerbox/conf.toml'
+        db2: DIR/'.config/freezerbox/conf.toml'
+      features: BUILTIN_CONF
+  -
+    id: subdir
+    files:
+      .config/freezerbox/conf.toml:
+        > use = 'db1'
+        >
+        > [[database.db1]]
+        > format = 'A'
+        >
+        > [[database.db2]]
+        > format = 'B'
+      subdir/.freezerboxrc:
+        > use = 'db2'
+    cwd: subdir
+    expected_config:
+      use: db2
+      database:
+        db1:
+          -
+            format: A
+        db2:
+          -
+            format: B
+      features:
+        -
+          name: AmpR
+          role: resistance
+        -
+          name: KanR
+          role: resistance
+        -
+          name: CmR
+          role: resistance
+        -
+          name: pUC
+          role: ori
+        -
+          name: pSC101
+          role: ori
+        -
+          name: p15A
+          role: ori
+    expected_paths:
+      use: DIR/'subdir/.freezerboxrc'
+      database:
+        db1: DIR/'.config/freezerbox/conf.toml'
+        db2: DIR/'.config/freezerbox/conf.toml'
+      features: BUILTIN_CONF
