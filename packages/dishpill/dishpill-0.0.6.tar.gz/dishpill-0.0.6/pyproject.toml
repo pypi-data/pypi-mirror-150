@@ -1,0 +1,19 @@
+[tool.pyright]
+
+include = [
+    "dishpill/version.py",
+    "dishpill/logger.py",
+    "dishpill/envs/registration.py",
+    "dishpill/spaces/**.py",
+    "dishpill/core.py",
+    "dishpill/utils/**",
+]
+exclude = [
+    "**/node_modules",
+    "**/__pycache__",
+]
+strict = ["dishpill/version.py", "dishpill/logger.py"]
+
+reportMissingImports = true
+reportMissingTypeStubs = false
+verboseOutput = true

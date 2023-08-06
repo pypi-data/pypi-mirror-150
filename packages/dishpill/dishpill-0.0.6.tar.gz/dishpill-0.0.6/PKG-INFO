@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dishpill
+Version: 0.0.6
+Summary: corticallabs game environment
+Home-page: https://www.corticallabs.com/
+Author: Cortical labs
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Provides-Extra: pong
+Provides-Extra: all
+License-File: LICENSE.md

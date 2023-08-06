@@ -1,0 +1,11 @@
+numpy>=1.18.0
+cloudpickle>=1.2.0
+
+[:python_version < "3.10"]
+importlib_metadata>=4.10.0
+
+[all]
+pygame==2.1.0
+
+[pong]
+pygame==2.1.0
