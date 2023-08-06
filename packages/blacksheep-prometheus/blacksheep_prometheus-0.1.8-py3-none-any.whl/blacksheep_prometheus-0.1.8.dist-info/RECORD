@@ -1,0 +1,9 @@
+LICENSE,sha256=0rsaDQ5bZ91xgWBA6uNcP4EpiUpyBkUNG0Uzhw8DLbI,1071
+blacksheep_prometheus/__init__.py,sha256=WTjMxDODjL6kRaAMnUExpU05R9sLLkk13s0BrLTbKVk,648
+blacksheep_prometheus/middleware.py,sha256=Of-r6ha2EMfFXbAonBwsDPW81ShLy9gonPCaR5raSaU,2959
+blacksheep_prometheus/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blacksheep_prometheus/view.py,sha256=hMUc1gUEsFvkKDbad4XEIY6bV0n_U82Sp_dSB6Xm5T8,691
+blacksheep_prometheus-0.1.8.dist-info/LICENSE,sha256=0rsaDQ5bZ91xgWBA6uNcP4EpiUpyBkUNG0Uzhw8DLbI,1071
+blacksheep_prometheus-0.1.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+blacksheep_prometheus-0.1.8.dist-info/METADATA,sha256=B4kH1y_sOePtZGOSbmdn7jD1rJGzAbB6W4H0tKwX9lk,3972
+blacksheep_prometheus-0.1.8.dist-info/RECORD,,
