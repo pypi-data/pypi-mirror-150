@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+sinfonia/__init__.py
+sinfonia/metrics.py
+sinfonia/statistics.py
+sinfonia/utils.py
+sinfonia.egg-info/PKG-INFO
+sinfonia.egg-info/SOURCES.txt
+sinfonia.egg-info/dependency_links.txt
+sinfonia.egg-info/requires.txt
+sinfonia.egg-info/top_level.txt
