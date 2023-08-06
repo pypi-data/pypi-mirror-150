@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_search_bar_menu/__init__.py
+pyqt_search_bar_menu/searchBarMenu.py
+pyqt_search_bar_menu.egg-info/PKG-INFO
+pyqt_search_bar_menu.egg-info/SOURCES.txt
+pyqt_search_bar_menu.egg-info/dependency_links.txt
+pyqt_search_bar_menu.egg-info/requires.txt
+pyqt_search_bar_menu.egg-info/top_level.txt

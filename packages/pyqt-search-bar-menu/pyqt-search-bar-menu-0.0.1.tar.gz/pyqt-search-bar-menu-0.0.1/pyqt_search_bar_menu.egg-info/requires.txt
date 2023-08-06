@@ -1,0 +1,2 @@
+PyQt5>=5.8
+pyqt-auto-search-bar>=0.0.1
