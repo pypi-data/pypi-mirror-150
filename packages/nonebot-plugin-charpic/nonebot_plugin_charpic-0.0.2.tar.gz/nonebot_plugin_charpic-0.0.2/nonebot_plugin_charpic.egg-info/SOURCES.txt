@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+nonebot_plugin_charpic/__init__.py
+nonebot_plugin_charpic/data_source.py
+nonebot_plugin_charpic.egg-info/PKG-INFO
+nonebot_plugin_charpic.egg-info/SOURCES.txt
+nonebot_plugin_charpic.egg-info/dependency_links.txt
+nonebot_plugin_charpic.egg-info/requires.txt
+nonebot_plugin_charpic.egg-info/top_level.txt
+nonebot_plugin_charpic/font/consola.ttf
