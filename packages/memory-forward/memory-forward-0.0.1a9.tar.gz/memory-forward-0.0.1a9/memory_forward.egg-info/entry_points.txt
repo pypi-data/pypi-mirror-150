@@ -1,0 +1,2 @@
+[console_scripts]
+memory-forward = memory_forward.cli:main
