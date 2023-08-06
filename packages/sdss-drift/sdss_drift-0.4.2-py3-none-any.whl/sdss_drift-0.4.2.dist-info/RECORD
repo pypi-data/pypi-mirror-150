@@ -1,0 +1,8 @@
+drift/__init__.py,sha256=0gVL-2GaitbMkbRib0_zeJMg5Jdq5RHVvO3yVjYhBVI,556
+drift/adaptors.py,sha256=dffBgzYMf7JdONl5LSqnvDgon_0X-xxfYM7pXgRil3k,2868
+drift/drift.py,sha256=dUB3khHAPZ0yfQFvWUW_9C_zPLBoTG5knWBypZOQa2Q,24346
+drift/exceptions.py,sha256=E__U_viQcMgVeCKONAccIM8rL7mRwStVmE48GIuEMLU,615
+sdss_drift-0.4.2.dist-info/LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+sdss_drift-0.4.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sdss_drift-0.4.2.dist-info/METADATA,sha256=4rWE0gmz3yp4O6PRkDHON50jJdWtqC6GD9hzbS9ZI5Q,2982
+sdss_drift-0.4.2.dist-info/RECORD,,
