@@ -1,0 +1,9 @@
+README.md
+__init__.py
+pyproject.toml
+setup.cfg
+thttp.py
+thttp.egg-info/PKG-INFO
+thttp.egg-info/SOURCES.txt
+thttp.egg-info/dependency_links.txt
+thttp.egg-info/top_level.txt
