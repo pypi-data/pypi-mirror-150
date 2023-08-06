@@ -1,0 +1,7 @@
+dynamic_logger/.gitignore,sha256=74oa8YR8gNxKxB6lCtoqmgtB2xpZnWM539Qsl4wI_lg,12
+dynamic_logger/LICENSE,sha256=zLfyGjKZa6BaNfG765Nk4a9vgdogw6c15MzXQLCpZds,1062
+dynamic_logger/__init__.py,sha256=ErRrexrTVBQuGWPdbPaBeeQGXzZwE-3Xpuh7NFzQtWw,10662
+dynamic_logger/examples/example.py,sha256=IWj8xr_7JY1z4ElRvC9FmFy84ONqWkzGoZH93yuVZ8o,2422
+dynamic_logger-1.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dynamic_logger-1.0.1.dist-info/METADATA,sha256=IVWzTTHgAycL9ymahy1TQriVnMOBz5SqNtSREMvc7YA,2590
+dynamic_logger-1.0.1.dist-info/RECORD,,
