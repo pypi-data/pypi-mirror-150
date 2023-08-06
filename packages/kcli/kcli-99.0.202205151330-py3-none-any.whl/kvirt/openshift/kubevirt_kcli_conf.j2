@@ -1,0 +1,7 @@
+default:
+ client: mycli
+mycli:
+ type: kubevirt
+{% if kubeconfig != None %}
+ kubeconfig: ~/.kcli/kubeconfig
+{% endif %}
