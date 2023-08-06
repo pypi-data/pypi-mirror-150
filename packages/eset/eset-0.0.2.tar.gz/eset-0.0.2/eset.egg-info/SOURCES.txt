@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+eset/__init__.py
+eset.egg-info/PKG-INFO
+eset.egg-info/SOURCES.txt
+eset.egg-info/dependency_links.txt
+eset.egg-info/top_level.txt
