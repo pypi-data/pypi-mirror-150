@@ -1,0 +1,6 @@
+setup.py
+textio/__init__.py
+textio.egg-info/PKG-INFO
+textio.egg-info/SOURCES.txt
+textio.egg-info/dependency_links.txt
+textio.egg-info/top_level.txt
