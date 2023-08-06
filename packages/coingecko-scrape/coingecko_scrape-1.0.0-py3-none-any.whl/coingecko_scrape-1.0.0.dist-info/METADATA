@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: coingecko-scrape
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Arshi Khan
+Author-email: arshi.khan67@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+
+# COINGECKO
+
+This package is  created for scrape the website detail of coingecko
+get the data of coingecko website and use it according to your need using twine lib
+you will find this on GeeksForGes as soon as it published
+
+# New Features!
+
+  - There are 2 bots deployed in this package
+
+# Function
+
+
+
+### Installation
+```
+pip install coingecko-scraper
+```
+You can reach out me at, 
+- arshi.khan67@gmail.com
+-
+README.md
+Displaying README.m
+
