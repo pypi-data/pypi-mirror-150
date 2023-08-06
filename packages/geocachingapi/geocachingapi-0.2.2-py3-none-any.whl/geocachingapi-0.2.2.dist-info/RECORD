@@ -1,0 +1,12 @@
+geocachingapi/__init__.py,sha256=ZmFpQObn5iYU0NMe1nMJMau6XOd1OHClGuOX5u2fxqc,181
+geocachingapi/const.py,sha256=zty0e9WpHKpsHQW2OU8ZkKCFQcrEA3Ir9xQlMuQEfyw,716
+geocachingapi/exceptions.py,sha256=s3erWOppSQhrQiNdgkQIshLRLOPfanlDqjB0RNeUYzg,471
+geocachingapi/geocachingapi.py,sha256=UbwJV0JfWM11WUzt-daaQy_SoUCadNR2xw71KRBGKBU,7372
+geocachingapi/models.py,sha256=uNMfG_GVBDD1VPZ7-W6oOBRrKu2IrNt4xBaniCn-2pE,5509
+geocachingapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geocachingapi/utils.py,sha256=8dVgRhRB_gphIbLEkxuNbIbjOK6uotek9DxXIcun7fM,485
+geocachingapi-0.2.2.dist-info/LICENSE,sha256=7TeGhrDvK3RrnRUFXxKq7foHsudWTaeRGkDgo040dvE,1059
+geocachingapi-0.2.2.dist-info/METADATA,sha256=Fe7o1LoH3zKPNgs6jl-rGuym9t5c3CHCZNXJH33EcsY,922
+geocachingapi-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+geocachingapi-0.2.2.dist-info/top_level.txt,sha256=W0i8Wabo6VOmNQMUExr_Oxe9YaPuQQoWsNtZ4dDkGfw,14
+geocachingapi-0.2.2.dist-info/RECORD,,
