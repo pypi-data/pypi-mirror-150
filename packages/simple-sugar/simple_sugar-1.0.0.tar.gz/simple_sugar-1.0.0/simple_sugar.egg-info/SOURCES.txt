@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simple_sugar/__init__.py
+simple_sugar/simple_sugar.py
+simple_sugar.egg-info/PKG-INFO
+simple_sugar.egg-info/SOURCES.txt
+simple_sugar.egg-info/dependency_links.txt
+simple_sugar.egg-info/top_level.txt
+test/__init__.py
+test/test_cases.py

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: simple_sugar
+Version: 1.0.0
+Summary: Syntactic sugar for beginners!
+Home-page: https://github.com/jmoseley99/simple_sugar
+Author: Jacob Moseley
+Author-email: jm01295@surrey.ac.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simple_sugar
+Simple Sugar is a beginner-oriented library that includes syntactic sugar covering the more basic building blocks of Python - including dictionaries, mathematical operations and file handling. 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install simple_sugar.
+
+```bash
+pip install simple_sugar
+```
+
+## Usage
+
+```python
+import simple_sugar
+
+# Get a random number between 3 and 9
+num = get_random(3, 9)
+
+# Declare a dictionary and get all values
+my_dict = dictionary()
+my_dict.one = "First"
+my_dict.two = "Second"
+
+my_dict.get_values() # ["First", "Second"]
+
+# Find the average of a list of numbers
+my_list = [3, 5, 10, 9, 12]
+average(my_list) # 7.8
+
+# Get a file without punctuation
+path = "file.txt"
+my_file = get_file(path, punctuation=False)
+```
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
+
