@@ -1,0 +1,9 @@
+simplemathutils_lib/__init__.py,sha256=OGaz65tGXJw1XzVZaAp0E7SgGtHR9aAhPUcbWP0tW38,57
+simplemathutils_lib/simplemath.py,sha256=YK_qhd-pGhU6C_NvPBb5ySKBnvECQHvXszf4Z5yUDuM,1808
+tests/__init__.py,sha256=OGaz65tGXJw1XzVZaAp0E7SgGtHR9aAhPUcbWP0tW38,57
+tests/simplemath_test.py,sha256=NmZGD_pAkk7KxB0953G9gHb4EFQcSZYuXEfLcoYTFYA,1369
+simplemathutils_lib-0.0.4.dist-info/LICENSE.txt,sha256=dnK6Y6UDK9T4Y4PRRO3MabVTCfzKeveDbTyWXz9T-T8,1058
+simplemathutils_lib-0.0.4.dist-info/METADATA,sha256=zMIqsd5AqgL2dNow92AZbTU-6RyvXXyBIxmq9cJKomQ,1597
+simplemathutils_lib-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simplemathutils_lib-0.0.4.dist-info/top_level.txt,sha256=4dwQKNXyBCmmSBnjRSvvjuaMhbgLOiRQNA6xa-Wrfe4,26
+simplemathutils_lib-0.0.4.dist-info/RECORD,,
