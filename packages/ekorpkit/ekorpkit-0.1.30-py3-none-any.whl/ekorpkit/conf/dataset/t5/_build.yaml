@@ -1,0 +1,19 @@
+defaults:
+  - /io: t5
+  - /info: _build_t5
+  - /pipeline: _build_dataset
+
+_target_: ekorpkit.io.fetch.build.DatasetBuilder
+name:
+category: general
+data_dir: ${dir.dataset}/t5/${.name}
+filetype: .csv
+verbose: ${oc.select:..verbose, true}
+autoload: true
+
+normalize:
+  preprocessor:
+    normalizer: ${oc.select:dataset.t5.preprocessor.normalizer,null}
+segment:
+  preprocessor:
+    segmenter: ${oc.select:dataset.t5.preprocessor.segmenter,null}
