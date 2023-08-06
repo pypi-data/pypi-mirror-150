@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: torram
+Version: 0.0.1
+Summary: Machine Learning essential tools for PyTorch.
+Home-page: https://github.com/simon-schaefer/torram
+Author: Simon Schaefer
+Author-email: simon.k.schaefer@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
