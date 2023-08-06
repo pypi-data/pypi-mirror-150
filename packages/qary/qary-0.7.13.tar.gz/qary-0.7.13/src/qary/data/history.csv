@@ -1,0 +1,5 @@
+,user_text,bot_confidence,bot_text,bot_skill,bot
+0,,,,,I'm not sure I understand you fully.
+1,What's up??,0.23737373737373738,I'm not sure I understand you fully.,qary.skills.eliza,Please go on.
+2,I need help!!!,0.25,Please go on.,qary.skills.eliza,What would it mean to you if you got help!!! ?
+3,exit,0.23553719008264462,What would it mean to you if you got help!!! ?,qary.skills.eliza,
