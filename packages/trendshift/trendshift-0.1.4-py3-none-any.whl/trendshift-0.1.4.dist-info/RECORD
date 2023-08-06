@@ -1,0 +1,9 @@
+trendshift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trendshift/trendshift.py,sha256=e9LSjfl-hJlb-uLxUvaMznY24Qsp833ZvNCehJ6NCXc,7842
+trendshift/cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trendshift/cache/pandascache.py,sha256=4md23XOucNSvcJY3n8fWwBcbSWXabLoJOBIOjlLRzY4,1423
+trendshift-0.1.4.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+trendshift-0.1.4.dist-info/METADATA,sha256=VoGxFTftYVRuhWnbgNKrjGobqXBR0JgDTwXggoOwacI,4666
+trendshift-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trendshift-0.1.4.dist-info/top_level.txt,sha256=gVCyWCjQSn34eJslaMONUUxCE3JpW_jFxeJA7rT3YMc,23
+trendshift-0.1.4.dist-info/RECORD,,
