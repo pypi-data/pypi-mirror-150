@@ -1,0 +1,7 @@
+numpy
+pysam
+pandas
+pytablewriter
+tqdm
+xgboost
+sklearn
