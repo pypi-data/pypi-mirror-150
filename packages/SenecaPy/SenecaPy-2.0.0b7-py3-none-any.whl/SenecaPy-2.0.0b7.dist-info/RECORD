@@ -1,0 +1,17 @@
+seneca/__init__.py,sha256=et_Sf-SCWTEC4do0XWb5VfW0GVbHma8y6fUq_wX4VU0,975
+seneca/Modules/Profile.py,sha256=kHjdJszQMzSianzPF2Q1Jxh5p6tviFcFnCtVPgMfF6o,2072
+seneca/Modules/Sessions.py,sha256=PQ3UGgNElFM5FgPaeX7yu-nti_o_YnKTGmp4cehJexI,3495
+seneca/Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seneca/Modules/course.py,sha256=9WNf_tOoVIKKwrEpFy7WFHtjEMhjRvScb1nBfq5ma34,6529
+seneca/Modules/data.py,sha256=aCOvMFEls5_XqWAtYzqqA9oTZCxRqqwygOaHZBOcuuo,28720
+seneca/Modules/errors.py,sha256=kT1pBoq-0NMBQvXLRaIWuwB31BHmhCnRE0PtMD7_ol8,393
+seneca/Modules/info.py,sha256=EJsYI0JfcC7aPsxPjQ95II9q7SJpkCYVdseH8OTg5Nw,3601
+seneca/Modules/key.py,sha256=bdJZ4MABrcksIcLxSyCaaHOQBfv70Qo9EcEFayaC8rQ,117
+seneca/Modules/memories.py,sha256=Gtxage09tWyGLbB65gt2dK5ccp--xRPd17ZSEj2HCBo,3151
+seneca/Modules/profile.py,sha256=kHjdJszQMzSianzPF2Q1Jxh5p6tviFcFnCtVPgMfF6o,2072
+seneca/Modules/token.py,sha256=xR4kiZRbELxHyCQtajUQ0JRkw1BsD74QH-vFM-W4tJY,2380
+SenecaPy-2.0.0b7.dist-info/LICENSE,sha256=Mtau-y9HKH2Kilce_hJtr3y0BcyPI2eUoXE8mHdCOhQ,1144
+SenecaPy-2.0.0b7.dist-info/METADATA,sha256=9zIekQiRu16C9Z54R1vqEyscYk2ho9Gb676vO-JdeUg,658
+SenecaPy-2.0.0b7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SenecaPy-2.0.0b7.dist-info/top_level.txt,sha256=oNQFO8HGTwLRkdrYvjRMdF93x4v6Yfe8iOxS3s7KZ3c,7
+SenecaPy-2.0.0b7.dist-info/RECORD,,
