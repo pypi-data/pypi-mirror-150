@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysustrans
+Version: 0.0.109
+Summary: pysustran is a statistical Python package for Transportation data analysis.
+Author: Rahul Raoniar
+Author-email: rahul.raoniar@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+text/markdown
+
