@@ -1,0 +1,5 @@
+snakes
+snakes-utils>=2.0.2
+dimod
+dwave-neal
+pandas
