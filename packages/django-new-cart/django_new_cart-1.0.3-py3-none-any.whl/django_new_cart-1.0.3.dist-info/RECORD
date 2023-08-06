@@ -1,0 +1,16 @@
+django_cart/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cart/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cart/apps.py,sha256=CIE8lpcOTSxO4wJeAfnfKrSXQyK9mAv-X9G603-XVc4,90
+django_cart/cart.py,sha256=xjBZPtYbcStPDQSPFLVD0JngLjKxYSdJWhZiTp6mAZQ,2710
+django_cart/context_processor.py,sha256=Gia0xLNwL6Va5e2gpilOtNsRhZSeBsPGs5VnZGurN0Y,338
+django_cart/multi.py,sha256=rj1OOhQJdx65YdEf94U88OPKe4LTp6kBl2k2frpfzCc,3774
+django_cart/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cart/templatetags/cart_tag.py,sha256=uopucpvsamsubJvnE2j6Ec4xY1SeTt4-ULASswRaAl4,1332
+django_cart/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_cart/utils/utils.py,sha256=3B_7nOsA3p6JwEP14H53Ezf8Yi-Y_DHlSewYuvJcVlc,4674
+django_cart/utils/wrapper.py,sha256=efff1aOA7jDTbXBzZ5fMlEKtkjOFhA-RCIAS3ZWpnTM,236
+django_new_cart-1.0.3.dist-info/LICENSE,sha256=OTS_5QyhBr6V9UNbppcgFnLtc41TZqtdxD6aRhs9PtI,669
+django_new_cart-1.0.3.dist-info/METADATA,sha256=BURuvahCOwOaYa4uoCsVRrjmHjd6gI7U_awrb3L0wBk,3940
+django_new_cart-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_new_cart-1.0.3.dist-info/top_level.txt,sha256=l2GIVaq-Gvjewfdi8KW-c9Uwwdv0gsQhKd3t_2AxTH0,12
+django_new_cart-1.0.3.dist-info/RECORD,,
