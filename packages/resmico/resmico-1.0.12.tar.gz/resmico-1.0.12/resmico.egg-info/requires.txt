@@ -1,0 +1,12 @@
+cmake>=3.13
+ipython
+keras
+numpy>=1.17.0
+pandas
+pathos
+pytest
+snakemake>=5.31.1
+tables
+tensorflow
+tensorboard<2.9.0
+toolz
