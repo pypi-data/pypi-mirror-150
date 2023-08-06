@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fastapi-simple-pagination
+Version: 1.0a1
+Summary: Simple and generic pagination dependencies for FastAPI.
+Author: Francisco Del Roio
+Author-email: francipvb@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi (<1.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
