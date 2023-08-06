@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: django-model-auditmatic
+Version: 0.1.0
+Summary: Audit support for Django models using PostgreSQL triggers and stored procedures.
+Home-page: https://github.com/BillSchumacher/django-model-auditmatic
+Author: Bill Schumacher
+Author-email: william.schumacher@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: psycopg2
+
+Work in progress
+================
+- this probably doesn't work well yet.
+
+
+Usage
+-----
+- Add django_auditmatic to INSTALLED_APPS.
+
+Example::
+
+    INSTALLED_APPS.append("django_auditmatic")
+
+
+- Configure which models you want to audit in settings.py
+
+Example::
+
+    AUDITMATIC = {
+        "apps": {
+            "auth": {
+                "User": {"m2m": any},
+            }
+        }
+    }
+
+
+In this example will only include the User model from the auth app, along with any many-to-many relationships.
+
+- Then run::
+
+    python manage.py install_audit
