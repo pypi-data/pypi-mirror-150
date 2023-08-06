@@ -1,0 +1,12 @@
+egsnrc_dosxyz/__init__.py,sha256=H1whPqVZ5N-ojq5SDStttKuOPiDibQloF6El43kNqPE,192
+egsnrc_dosxyz/dcm2egs_3ddose.py,sha256=3EDA0B28jgMpAbRsM2LHUJ9KoGbWMBPeEVfWfi5-zJw,2398
+egsnrc_dosxyz/dcm2egs_angles.py,sha256=x91TDvjwT54Rw6eQd2QxN5SHYo1P5BSfGCATh4sBQhg,1182
+egsnrc_dosxyz/dose3d2vtr.py,sha256=djFzGhbnGq-eGQJh8Uob4c24L1kbaU-wElNonjsz5CE,589
+egsnrc_dosxyz/egs3ddose.py,sha256=9XmdwZMW_iYL72vVz5WArFzqQFVKeKEME7i_G0RzEaw,2710
+egsnrc_dosxyz/egsphant.py,sha256=eCc6F8s9Vy8_0HjBkAyBuvlV-po_SMUvMWADxMjIbVI,8256
+egsnrc_dosxyz/iaeaphsp_header.py,sha256=Vsl-MdpPc0bcObNFAX3vmBLTSNsOfK3lWXoBPP2g9II,11183
+egsnrc_dosxyz-0.0.4.dist-info/LICENSE,sha256=0mMu3IUGy4IVXi_JwKiHhLVFN8s37l1e6yLFxGPua78,1065
+egsnrc_dosxyz-0.0.4.dist-info/METADATA,sha256=wCU1pnLnw__EP30gTBn6hQBXG5rVBs3Bset2CK2Lfkk,571
+egsnrc_dosxyz-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+egsnrc_dosxyz-0.0.4.dist-info/top_level.txt,sha256=JoRmtQABCwtx5f7C6e7dZV-M6ZgLxtGv3DssFxzYIac,14
+egsnrc_dosxyz-0.0.4.dist-info/RECORD,,
