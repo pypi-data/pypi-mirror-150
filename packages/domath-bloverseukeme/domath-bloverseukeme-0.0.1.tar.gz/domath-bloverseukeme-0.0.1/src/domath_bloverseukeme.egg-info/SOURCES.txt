@@ -1,0 +1,9 @@
+LICENSE.txt
+pyproject.toml
+setup.cfg
+src/domath_bloverseukeme.egg-info/PKG-INFO
+src/domath_bloverseukeme.egg-info/SOURCES.txt
+src/domath_bloverseukeme.egg-info/dependency_links.txt
+src/domath_bloverseukeme.egg-info/top_level.txt
+src/functions/__init__.py
+src/functions/do_math.py
