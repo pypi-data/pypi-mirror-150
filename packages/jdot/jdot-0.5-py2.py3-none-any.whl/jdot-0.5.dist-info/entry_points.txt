@@ -1,0 +1,2 @@
+[console_scripts]
+jdot = jdot.__main__:main

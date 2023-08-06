@@ -1,0 +1,13 @@
+jdot/__init__.py,sha256=iyBduwZZD27Pq0eIxLq7BzDJerAu09ENXtmgcpNZ5gE,764
+jdot/__main__.py,sha256=KG7gl2TuuOkrn9PWFQDSHYhogteNKxS5jX0neCVYhD4,3327
+jdot/decoder.py,sha256=VvlFeFHWjNlf_s33iTHj5wlyGYQfubb86SzFqt5wBYQ,11242
+jdot/encoder.py,sha256=iD3snihE6-YLXl4rXWFWr9FIRLogAY02jziVNaNJJNk,4852
+jdot/formatter.py,sha256=oYPE35QucERnHPhFsrU2L2W4BXzEm0xwzXUvSlFXnhc,11687
+jdot/jdot.py,sha256=mT6R-omfyvgnL21JQo4XdYToz79ArYw9tXxW7yJzpoo,3427
+jdot/test_jdot.py,sha256=yO3yui1OxRd-PyLQKjT81aisyJxsl9I_PZHJ2v5uWaE,3300
+jdot-0.5.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+jdot-0.5.dist-info/METADATA,sha256=E3UyVG2pEJIjxK1b2lYETAwdWx9jr1kroMwlKrUbKC4,157
+jdot-0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jdot-0.5.dist-info/entry_points.txt,sha256=7eBUGKHpM2l19AFB05jXY-55g6wWg5E3Ny5Tg5huWPQ,44
+jdot-0.5.dist-info/top_level.txt,sha256=6qGEaxh9hs-gls7UTbS1IWfcwNSc-d-HjSL4bqhk1l4,5
+jdot-0.5.dist-info/RECORD,,
