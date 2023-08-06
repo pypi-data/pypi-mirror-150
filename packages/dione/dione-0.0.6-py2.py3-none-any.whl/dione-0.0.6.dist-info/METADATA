@@ -1,0 +1,179 @@
+Metadata-Version: 2.1
+Name: dione
+Version: 0.0.6
+Summary: DIONE tool.
+Home-page: https://github.com/JRCSTU/dione
+Author: Vincenzo Arcidiacono
+Author-email: vinci1it2000@gmail.com
+License: EUPL 1.1+
+Download-URL: https://github.com/JRCSTU/dione/tarball/v0.0.6
+Project-URL: Documentation, http://JRCSTU.github.io/dione
+Project-URL: Issue tracker, https://github.com/JRCSTU/dione/issues
+Keywords: python,utility,library,fleet,fuel,scientific,engineering,forecast
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: numpy (<=1.19.3)
+Requires-Dist: pandas
+Requires-Dist: lmfit
+Requires-Dist: scipy
+Requires-Dist: schedula (>=1.2.4)
+Requires-Dist: xlref
+Requires-Dist: openpyxl
+Requires-Dist: pymoo (>=0.5.0)
+Requires-Dist: tqdm
+Requires-Dist: pyarrow
+Provides-Extra: all
+Requires-Dist: Pygments ; extra == 'all'
+Requires-Dist: click ; extra == 'all'
+Requires-Dist: click-log ; extra == 'all'
+Requires-Dist: dash ; extra == 'all'
+Requires-Dist: dash-bootstrap-components ; extra == 'all'
+Requires-Dist: docutils ; extra == 'all'
+Requires-Dist: flask ; extra == 'all'
+Requires-Dist: graphviz ; extra == 'all'
+Requires-Dist: jinja2 ; extra == 'all'
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: ray[default] ; extra == 'all'
+Requires-Dist: regex ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Provides-Extra: cli
+Requires-Dist: click ; extra == 'cli'
+Requires-Dist: click-log ; extra == 'cli'
+Provides-Extra: dev
+Requires-Dist: Pygments ; extra == 'dev'
+Requires-Dist: click ; extra == 'dev'
+Requires-Dist: click-log ; extra == 'dev'
+Requires-Dist: dash ; extra == 'dev'
+Requires-Dist: dash-bootstrap-components ; extra == 'dev'
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: flask ; extra == 'dev'
+Requires-Dist: graphviz ; extra == 'dev'
+Requires-Dist: jinja2 ; extra == 'dev'
+Requires-Dist: plotly ; extra == 'dev'
+Requires-Dist: ray[default] ; extra == 'dev'
+Requires-Dist: regex ; extra == 'dev'
+Requires-Dist: requests ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: gitchangelog ; extra == 'dev'
+Requires-Dist: mako ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: ddt ; extra == 'dev'
+Requires-Dist: sphinxcontrib-restbuilder ; extra == 'dev'
+Requires-Dist: nose ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: sphinx-click ; extra == 'dev'
+Requires-Dist: pyinstaller ; extra == 'dev'
+Provides-Extra: gui
+Requires-Dist: dash ; extra == 'gui'
+Requires-Dist: dash-bootstrap-components ; extra == 'gui'
+Requires-Dist: plotly ; extra == 'gui'
+Requires-Dist: flask ; extra == 'gui'
+Requires-Dist: regex ; extra == 'gui'
+Requires-Dist: graphviz ; extra == 'gui'
+Requires-Dist: requests ; extra == 'gui'
+Requires-Dist: Pygments ; extra == 'gui'
+Requires-Dist: jinja2 ; extra == 'gui'
+Requires-Dist: docutils ; extra == 'gui'
+Provides-Extra: parallel
+Requires-Dist: ray[default] ; extra == 'parallel'
+Provides-Extra: plot
+Requires-Dist: flask ; extra == 'plot'
+Requires-Dist: regex ; extra == 'plot'
+Requires-Dist: graphviz ; extra == 'plot'
+Requires-Dist: requests ; extra == 'plot'
+Requires-Dist: Pygments ; extra == 'plot'
+Requires-Dist: jinja2 ; extra == 'plot'
+Requires-Dist: docutils ; extra == 'plot'
+
+
+What is DIONE?
+**************
+
+DIONE is a family of software applications that the JRC has been
+developing since 2014 to support EU transport emission reduction
+policies. It is presently employed to support road vehicle CO:sub:`2`
+emissions standards within EC’s Fit for 55 package. It has also been
+supporting the European Strategy for Low-Emission Mobility.
+
+The assessment of the costs of potential road vehicle CO:sub:`2`
+emissions standards is carried out through the following computational
+modules:
+
+*  DIONE Cost Curve Module: Develops CO:sub:`2` reduction cost curves,
+   applying an optimisation technique, which provide cost estimates
+   associated with reaching a given CO:sub:`2` reduction for different
+   vehicle segments and powertrains.
+
+*  DIONE Cross-Optimization and Energy Consumption Module: Identifies
+   cost-optimal strategies to reach given emission targets and
+   respective vehicle manufacturing costs, building on the cost
+   curves. Cross-optimization outcomes can be used to assess the
+   impact of different policy options on manufacturing costs for
+   different manufacturer categories, contributing to the economic
+   assessment.
+
+*  DIONE Total Cost of Ownership (TCO) Module: Computes total costs of
+   ownership under different regulation options, summarizing the
+   results from the previous steps and adding in operation and
+   maintenance costs. Results allow assessing the societal costs
+   associated with a policy option, as well as the costs for consumers
+   (new vehicle buyers and second-hand vehicle buyers).
+
+
+Installation
+************
+
+To install it use (with root privileges):
+
+.. code:: console
+
+   $ pip install dione
+
+Or download the last git version and use (with root privileges):
+
+.. code:: console
+
+   $ python setup.py install
+
+
+Install extras
+==============
+
+Some additional functionality is enabled installing the following
+extras:
+
+*  cli: enables the command line interface.
+
+*  gui: enables the graphical user interface.
+
+*  plot: enables to plot the model process and its workflow.
+
+*  dev: installs all libraries plus the development libraries.
+
+To install DIONE and all extras (except development libraries), do:
+
+.. code:: console
+
+   $ pip install 'dione[all]'
+
+
