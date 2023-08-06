@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: resmico
+Version: 1.0.12
+Summary: Increasing the quality of metagenome-assembled genomes with deep learning
+Home-page: https://github.com/leylabmpi/resmico
+Author: Nick Youngblut, Daniel Danciu
+Author-email: nyoungb2@gmail.com
+License: MIT license
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: cmake (>=3.13)
+Requires-Dist: ipython
+Requires-Dist: keras
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: pandas
+Requires-Dist: pathos
+Requires-Dist: pytest
+Requires-Dist: snakemake (>=5.31.1)
+Requires-Dist: tables
+Requires-Dist: tensorflow
+Requires-Dist: tensorboard (<2.9.0)
+Requires-Dist: toolz
+
+Increasing the quality of metagenome-assembled genomes with deep learning
+ See README for more information.
