@@ -1,0 +1,10 @@
+lpde/__init__.py,sha256=cxE34YJlR_m7ZC9-t0X8kIvtNs-MPnDU_eM8UIMuzcs,1154
+lpde/dataset.py,sha256=CUROfkSM_mx7Sc8Lx3-e8NPPjclmhnm1MW574qWoPPc,5495
+lpde/model.py,sha256=bA3v0z4capL3tyF1z_nV0jGu8eAH1bNQEtdycio8PWk,11276
+lpde/network.py,sha256=XSaAFv_ICYJOxOOB8diB0Pqx4jy0e-2WXIMSeLUujIc,6743
+lpde/utils.py,sha256=aAJehh4nzkQWHuF_y5LeXr8n0VBSie3UkTrIdy75DGw,1946
+lpde-0.0.2.dist-info/LICENSE,sha256=P94bbV62zOVzGTVBZVXv1KDPjPkgiv96LJc4A66gFME,1069
+lpde-0.0.2.dist-info/METADATA,sha256=c8eBtNLAlahkMIZkSGOu-FHBHg75Rv34PGg7IR1AlDo,3116
+lpde-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lpde-0.0.2.dist-info/top_level.txt,sha256=ole-zopohdLxzFZ1kqNE-KE0S8h9OdNX99hKmulw8Dw,5
+lpde-0.0.2.dist-info/RECORD,,
