@@ -1,0 +1,10 @@
+ngtpy.cpython-310-x86_64-linux-gnu.so,sha256=ikoreGrDLrz25x0qfOlZ9DsOPtXygtjiA63y5k8thwA,14220968
+ngt.libs/libngt-8a48a388.so.1.14.5,sha256=m8DhEIvC6hyuDywLr4O6z36hDe7DnE3OdMhZZWT8WWw,1794848
+ngt.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+ngt/base.py,sha256=4HPxUbZUitgcFJ4gTDN_QYG-GNB9AjLh6QeIzRWe5Hc,18446
+ngt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ngt-1.14.5.dist-info/METADATA,sha256=2oZ_Ka3_dxM13lpcmqRNWlp0wNJYRP_ecpWLR7T7Bq4,2612
+ngt-1.14.5.dist-info/top_level.txt,sha256=mUjg2zG_FhV7ZmJ-32KY5tQUsBPhf_JNQLa7IxD2pVQ,10
+ngt-1.14.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ngt-1.14.5.dist-info/RECORD,,
+ngt-1.14.5.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
