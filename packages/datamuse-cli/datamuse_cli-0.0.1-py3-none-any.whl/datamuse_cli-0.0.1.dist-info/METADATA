@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: datamuse-cli
+Version: 0.0.1
+Summary: A command line interface that displays results from the Datamuse API
+Home-page: https://github.com/agmmnn/datamuse-cli
+Author: agmmnn
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: aiohttp
+
+![](https://i.imgur.com/XRKfwBP.png)
+
+# datamuse-cli
+
+<!-- <div align="center">
+<a href="https://github.com/agmmnn/datamuse-cli">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/agmmnn/datamuse-cli"></a>
+<a href="https://pypi.org/project/datamuse-cli/">
+<img alt="PyPI" src="https://img.shields.io/pypi/v/datamuse-cli"></a> -->
+<!-- </div> -->
+
+A command line interface that displays results from the Datamuse API.
+
+## Install:
+
+```
+pip install datamuse-cli
+```
+
+## Usage:
+
+```python
+datamuse sky
+# Show results for "sky"
+
+datamuse sky:color
+# Show results for the word "sky" related to the topic "color".
+
+datamuse sky:color,human
+# Show results for the word "sky" related to the topics "color, human".
+```
+
+## Arguments
+
+```
+-h, --help         show this help message and exit
+-m, --max          maximum number of words to display
+-v, --version      show program's version number and exit
+```
+
+## Dependencies
+
+- [rich](https://pypi.org/project/rich/)
+- [aiohttp](https://pypi.org/project/aiohttp/)
