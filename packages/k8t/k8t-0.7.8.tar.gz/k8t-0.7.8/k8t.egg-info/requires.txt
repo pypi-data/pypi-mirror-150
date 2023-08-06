@@ -1,0 +1,10 @@
+Jinja2
+ruamel.yaml
+boto3
+click
+coloredlogs
+simple_tools
+bitmath
+
+[ujson]
+ujson
