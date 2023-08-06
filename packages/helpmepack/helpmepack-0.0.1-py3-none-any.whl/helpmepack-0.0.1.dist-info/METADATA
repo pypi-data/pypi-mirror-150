@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: helpmepack
+Version: 0.0.1
+Summary: Python Package helper CLI
+Home-page: https://github.com/dviralfi/HelpMePack
+Author: Dvir Alfi
+Author-email: dviralafiprogram@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Package helper
+Python Package helper CLI 
+
+### LEARN
+
+[Learn about Python packaging](https://packaging.python.org/en/latest/)
+
+[Simple Python packaging tuitorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
+## Installation
+```
+pip install git+https://github.com/dviralfi/HelpMePack.git
+```
+
+## Usage
+
+Please make sure you have your '.git' folder, and README.md, .gitignore, requirments.txt, LICENSE files - in your project directory.
+
+All the other project files will be moved to the 'src' folder.
+
+Make sure you running in the Project Main Directory
+
+
+## 
+Run Python (in cmd/bash) in your project directory 
+
+```
+from helpmepack import helpmepack 
+```
+
+```
+helpmepack.main()
+```
