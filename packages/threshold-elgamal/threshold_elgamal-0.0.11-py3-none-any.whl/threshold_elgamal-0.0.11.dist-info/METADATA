@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: threshold-elgamal
+Version: 0.0.11
+Summary: Threshold ElGamal cryptosystem.
+Home-page: UNKNOWN
+Author: Katarina Boras
+Author-email: katarina.boras2@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Threshold ElGamal cryptosystem
+
+Library that provides functions for encryption, decrpytion and DKG algorithm using the ElGamal cryptosystem.
+
+## Installation
+
+```
+pip install threshold-elgamal
+```
+
+## Getting started
+The simplest way you can test out this library is by running its main function:
+
+```python
+from threshold_elgamal import run_tc_scheme
+
+res = run_tc_scheme(3, 5, m=10)
+if res is True:
+    print("Success!")
+```
+
+You can also create your own threshold scheme manually, and then encrypt and decrypt a message of your choosing:
+```python
+from threshold_elgamal import create_tc_scheme
+
+public_key, players, scheme = create_tc_scheme(3, 5)
+c1, c2 = scheme.encrypt(public_key, message=10)
+decryption_shares = {player.id: player.get_decryption_share(c1) for player in players}
+decrypted_msg = scheme.decrypt(c2, decryption_shares)
+
+if decrypted_msg == 10:
+    print("Success!")
+```
+
+
+
