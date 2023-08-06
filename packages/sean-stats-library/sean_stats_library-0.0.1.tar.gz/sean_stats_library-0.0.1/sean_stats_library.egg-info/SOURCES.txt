@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+main_code/__init__.py
+sean_statistics_library.egg-info/SOURCES.txt
+sean_statistics_library.egg-info/dependency_links.txt
+sean_statistics_library.egg-info/top_level.txt
+sean_stats_library.egg-info/PKG-INFO
+sean_stats_library.egg-info/SOURCES.txt
+sean_stats_library.egg-info/dependency_links.txt
+sean_stats_library.egg-info/requires.txt
+sean_stats_library.egg-info/top_level.txt
