@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+vid2emoji/__init__.py
+vid2emoji/encode.py
+vid2emoji.egg-info/PKG-INFO
+vid2emoji.egg-info/SOURCES.txt
+vid2emoji.egg-info/dependency_links.txt
+vid2emoji.egg-info/entry_points.txt
+vid2emoji.egg-info/requires.txt
+vid2emoji.egg-info/top_level.txt
+vid2emoji/emojEncode/__init__.py
+vid2emoji/emojEncode/emojencoder.py
+vid2emoji/emojEncode/emojiGamutPartitioned.json

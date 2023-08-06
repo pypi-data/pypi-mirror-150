@@ -1,0 +1,2 @@
+[console_scripts]
+vid2emoji = vid2emoji.encode:main
