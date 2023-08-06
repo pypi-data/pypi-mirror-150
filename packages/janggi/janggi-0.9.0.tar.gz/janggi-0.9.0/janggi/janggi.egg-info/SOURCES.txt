@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+janggi/janggi.egg-info/PKG-INFO
+janggi/janggi.egg-info/SOURCES.txt
+janggi/janggi.egg-info/dependency_links.txt
+janggi/janggi.egg-info/requires.txt
+janggi/janggi.egg-info/top_level.txt
