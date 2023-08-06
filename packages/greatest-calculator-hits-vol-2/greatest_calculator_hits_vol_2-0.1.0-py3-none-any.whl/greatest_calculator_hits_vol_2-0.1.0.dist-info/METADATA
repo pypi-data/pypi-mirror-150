@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: greatest-calculator-hits-vol-2
+Version: 0.1.0
+Summary: A very basic python calculator
+Home-page: https://github.com/heliossjr/greatest_calculator_hits
+License: MIT
+Author: heliossjr
+Author-email: helio.junior@loggi.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/heliossjr/greatest_calculator_hits
+Description-Content-Type: text/x-rst
+
+
