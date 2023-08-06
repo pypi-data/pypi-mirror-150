@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ampel
+Version: 0.8.2a0
+Summary: Asynchronous and Modular Platform with Execution Layers
+Home-page: https://ampelproject.github.io
+License: BSD-3-Clause
+Author: Valery Brinnel
+Maintainer: Jakob van Santen
+Maintainer-email: jakob.van.santen@desy.de
+Requires-Python: >=3.9,<3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Typing :: Typed
+Requires-Dist: ampel-core (>=0.8.2-alpha.13,<0.8.3)
+Requires-Dist: ampel-interface (>=0.8.2-alpha.9,<0.8.3)
+Requires-Dist: ampel-ipython (==0.7)
+Project-URL: Documentation, https://ampelproject.github.io
+Project-URL: Repository, https://github.com/AmpelProject/Ampel-core
