@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: npy-patcher
+Version: 1.0.2
+Summary: C++ based NumPy N-Dimesional patch extraction.
+Home-page: https://https://github.com/m-lyon/npy-cpp-patches
+Author: Matthew Lyon
+Author-email: matthewlyon18@gmail.com
+License: MIT License
+Download-URL: https://https://github.com/m-lyon/npy-cpp-patches/archive/v1.0.2.tar.gz
+Description: # npy-cpp-patches
+        Read N-Dimensional patches from `.npy` files. This module is built using `C++` and has `Python3` bindings.
+        
+        ## Data Specifications
+        
+        - Arrays must be saved in `C-contiguous` format, i.e. **NOT** `Fortran-contiguous`.
+        - First dimension is indexed using `qspace_index`, and therefore is a non-contiguous patch dimension.
+        - Next dimensions are specified by a patch shape `C++` vector or `Python` tuple. To extract patches of lower dimensionality than that of the data, set the corresponding dimensions to `1`.
+        
+        
+        ## Python Usage
+        
+        ### Install
+        ```pip install cpp-npy-patcher```
+        
+        ### Usage
+        ```python
+        
+        from npy_patcher import PatcherDouble, PatcherFloat, PatcherInt, PatcherLong
+        
+        
+        
+        ```
+        
+        ## C++ Usage
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
