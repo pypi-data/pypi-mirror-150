@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: daletou
+Version: 0.0.1
+Summary: example package
+Author: ch_lgp
+Author-email: 1158200486@qq.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# study Package
+This is a simple study package.
