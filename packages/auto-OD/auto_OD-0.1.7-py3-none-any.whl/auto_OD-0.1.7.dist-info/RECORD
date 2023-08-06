@@ -1,0 +1,15 @@
+auto_OD/All_Models,sha256=Y4M-9-GIIRxWGMuNs4b8TucFUxSTKo1ADDNnRvcP1Ok,6944
+auto_OD/IoU.py,sha256=OGX4yZACvuWYVe5rgdalTLDbmVqxKEapDTi3lZy6PcI,3491
+auto_OD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_OD/auto_object_detection.py,sha256=O67TW2a-I710x999r44i5CQrw3pHx4PMFwtX8DzNhdY,19480
+auto_OD/auto_object_detection_colab.py,sha256=cHzFQk1jJB2bYSn2fAhvivvQYHqcDcmNCdFpHKQfcxQ,18383
+auto_OD/fullyfunctionality.py,sha256=oJV9lkMnRz__JvuvvC5iZ1A0f5ukc1M8JP3cljHtCB0,4456
+auto_OD/inference.py,sha256=EGo-6ElCyfauTpmAN4Qw3sMbKt4zZxaw7PfvTKoNcD4,5638
+auto_OD/prepare_data.py,sha256=elBg1-8vyElNUNDxcj2VpZsCAnRJtvEs_4WKl2S3-ZE,8875
+auto_OD/resize_images.py,sha256=JQ6t5e0xShRJmHFcWB6J2MtM2cPAoNNQZ0W_o8V2qnk,642
+auto_OD/scenario_detection_pm.py,sha256=21vogwsSuj20BzVamfdz9Ceqebkqw_MhXLhZsFpmPvg,10890
+auto_OD/video_stream.py,sha256=xE48FmP2a0f0mxoj78tt746FvFDe3GGOC5Q8sxfTa0g,3223
+auto_OD-0.1.7.dist-info/METADATA,sha256=L3bZsSTnavYpeKre9tNEP3hlnjKjyIfKBymEoXpFFvo,3742
+auto_OD-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+auto_OD-0.1.7.dist-info/top_level.txt,sha256=gcCKM4f4xNs86T9KPOQdaHeMOt2qR2IENORkrLZqFGc,8
+auto_OD-0.1.7.dist-info/RECORD,,
