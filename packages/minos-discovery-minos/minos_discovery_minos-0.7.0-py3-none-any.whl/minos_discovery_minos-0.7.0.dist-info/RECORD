@@ -1,0 +1,6 @@
+minos/plugins/minos_discovery/__init__.py,sha256=XIGLhdQl8CyW2msB9p0mDkqCegcpRY2a1KnbN-HWQ6c,195
+minos/plugins/minos_discovery/client.py,sha256=FvfgT8XBGiENvtsD19bFjWrEGfzaGTluSjkxIp0LexU,2973
+minos_discovery_minos-0.7.0.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_discovery_minos-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minos_discovery_minos-0.7.0.dist-info/METADATA,sha256=eYkRcIof08gbD39FbJ98D-WvL1cwrfrSFyOB4WWiSIM,3261
+minos_discovery_minos-0.7.0.dist-info/RECORD,,
