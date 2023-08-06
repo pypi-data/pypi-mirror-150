@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_wkw.py,sha256=WBOUOMnRAcjo79UFUB-Jdz4JPBGCYEw1fBloNUIbvZY,12371
+wkw/__init__.py,sha256=C8S2ZDb83A3B1ju1MomYGwJhbLVxp2RUfEpsKPLCImw,80
+wkw/wkw.py,sha256=nO8vJP1R1ZFW9RMgx1czJuYRSMLfrz9heTxRizklH4A,7705
+wkw/lib/libwkw.dylib,sha256=5NQvp-I0xYolb7qXUScKIiEaPxnfMId_kL2yaPKjSEg,1074121
+wkw/lib/wkw.h,sha256=15kfer3IiB3tylwlH5TY9ZsgETtsEtYSTQDXQ9TGexs,764
+wkw-1.1.16.dist-info/METADATA,sha256=WUytB-47pSUcY7ISg4CWlbMzvTWHqd1FleQhOkzJN4c,292
+wkw-1.1.16.dist-info/WHEEL,sha256=gNPKutA5NboElEkRMN-MbD3d83RHob7sZACeWrbs6wg,148
+wkw-1.1.16.dist-info/top_level.txt,sha256=0BducfE2ZKmIPqw2P8xo9WUO3JgEEAeX1qreqtWLbaM,10
+wkw-1.1.16.dist-info/RECORD,,
