@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+findfile_path/__init__.py
+findfile_path/_version.py
+findfile_path/findfile_path.py
+findfile_path.egg-info/PKG-INFO
+findfile_path.egg-info/SOURCES.txt
+findfile_path.egg-info/dependency_links.txt
+findfile_path.egg-info/entry_points.txt
+findfile_path.egg-info/requires.txt
+findfile_path.egg-info/top_level.txt
+findfile_path.egg-info/zip-safe
