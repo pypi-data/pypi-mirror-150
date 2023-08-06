@@ -1,0 +1,9 @@
+Django>=4.0.0
+numpy>=1.22.3
+pandas>=1.4.2
+Pillow>=9.1.0
+Pint>=0.19.2
+
+[dev]
+pytest>=3.7
+jupyter>=1.0.0
