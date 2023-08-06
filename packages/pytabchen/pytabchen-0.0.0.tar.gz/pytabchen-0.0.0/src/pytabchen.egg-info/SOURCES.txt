@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pytabchen/__init__.py
+src/pytabchen.egg-info/PKG-INFO
+src/pytabchen.egg-info/SOURCES.txt
+src/pytabchen.egg-info/dependency_links.txt
+src/pytabchen.egg-info/requires.txt
+src/pytabchen.egg-info/top_level.txt
+src/pytabchen/utils/__init__.py
+src/pytabchen/utils/io_utils.py
