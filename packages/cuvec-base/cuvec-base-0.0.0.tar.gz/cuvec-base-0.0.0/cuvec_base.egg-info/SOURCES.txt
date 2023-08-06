@@ -1,0 +1,10 @@
+.gitignore
+.pre-commit-config.yaml
+README.rst
+setup.cfg
+setup.py
+cuvec_base.egg-info/PKG-INFO
+cuvec_base.egg-info/SOURCES.txt
+cuvec_base.egg-info/dependency_links.txt
+cuvec_base.egg-info/requires.txt
+cuvec_base.egg-info/top_level.txt
