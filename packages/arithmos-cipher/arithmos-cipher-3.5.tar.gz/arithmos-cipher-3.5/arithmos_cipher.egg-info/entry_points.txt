@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        arithmos=arithmos.cli:cli
+    
