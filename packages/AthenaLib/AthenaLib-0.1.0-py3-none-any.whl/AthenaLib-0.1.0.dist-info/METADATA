@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AthenaLib
+Version: 0.1.0
+Summary: A Library of various code, used by Directive Athena Packages and applications
+Home-page: https://github.com/DirectiveAthena/VerSC-AthenaLib
+Author: Andreas Sas
+Author-email: 
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/DirectiveAthena/VerSC-AthenaLib/issues
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: nest-asyncio (>=1.5.5)
+
