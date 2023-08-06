@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+xia_pypi/__init__.py
+xia_pypi/example.py
+xia_pypi.egg-info/PKG-INFO
+xia_pypi.egg-info/SOURCES.txt
+xia_pypi.egg-info/dependency_links.txt
+xia_pypi.egg-info/top_level.txt

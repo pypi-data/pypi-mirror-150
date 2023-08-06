@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xia-pypi
+Version: 0.0.1
+Summary: xia pypi
+Home-page: https://github.com/bobenxia/xia_pypi
+Author: xia
+Author-email: xiazheng1996@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+License-File: LICENSE
