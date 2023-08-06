@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+storylines.py
+StoryLines.egg-info/PKG-INFO
+StoryLines.egg-info/SOURCES.txt
+StoryLines.egg-info/dependency_links.txt
+StoryLines.egg-info/top_level.txt
