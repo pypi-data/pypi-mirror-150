@@ -1,0 +1,11 @@
+pubmad/VERSION,sha256=w2_bz1ftM0jlnaN77rxcNpaz5FG3_-FvLrtsm17lkWs,4
+pubmad/__init__.py,sha256=9Th4b3DadqG6nK8fjjvQ60K9s7RRY1soww_FXl7EUsM,81
+pubmad/pipeline.py,sha256=C_64fxNT6RmN1qldoRadHWTZnCp0JbVnQ6nHqLCq-yk,4681
+pubmad/types.py,sha256=45-4Z7unjADFjSEPivwt2GSV7Cnvw5-KRQ0K0rUm-sw,1642
+pubmad/utils.py,sha256=s1hL3XQTus3UD9fv_HC1MnJTrSbk5JVAJ6qIq-DeKFc,21990
+pubmad/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+pubmad-0.4.dist-info/LICENSE.txt,sha256=3k_1_9ns-BACqCKYo8ETjeEUg_h7qgfixjW2ijtOQAg,12059
+pubmad-0.4.dist-info/METADATA,sha256=zvpk6SdrgukKPV4PJDTWofh7i6v57-HxkUe_955lDYM,1567
+pubmad-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pubmad-0.4.dist-info/top_level.txt,sha256=_hbTYAEphqPnhhPKDq-2XkbzfX2UK31674QxE5zaDYs,7
+pubmad-0.4.dist-info/RECORD,,
