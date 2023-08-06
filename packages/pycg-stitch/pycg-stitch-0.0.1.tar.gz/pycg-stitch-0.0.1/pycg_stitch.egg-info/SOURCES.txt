@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.py
+pycg_stitch.egg-info/PKG-INFO
+pycg_stitch.egg-info/SOURCES.txt
+pycg_stitch.egg-info/dependency_links.txt
+pycg_stitch.egg-info/entry_points.txt
+pycg_stitch.egg-info/requires.txt
+pycg_stitch.egg-info/top_level.txt
+stitcher/__init__.py
+stitcher/__main__.py
+stitcher/api.py
+stitcher/cg.py
+stitcher/node.py
+stitcher/stitcher.py
