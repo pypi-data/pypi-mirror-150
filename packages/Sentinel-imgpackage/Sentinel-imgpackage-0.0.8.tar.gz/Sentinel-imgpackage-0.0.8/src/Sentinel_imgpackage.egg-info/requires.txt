@@ -1,0 +1,9 @@
+matplotlib
+numpy
+rasterio
+plotly
+earthpy
+tensorboard
+rich
+lightgbm
+seaborn
