@@ -1,0 +1,3 @@
+[console_scripts]
+sc-html2pdf = sc_html2pdf.main:main
+
