@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+formula1_collector/__init__.py
+formula1_collector/f1_requests.py
+formula1_collector/utils.py
+formula1_collector.egg-info/PKG-INFO
+formula1_collector.egg-info/SOURCES.txt
+formula1_collector.egg-info/dependency_links.txt
+formula1_collector.egg-info/requires.txt
+formula1_collector.egg-info/top_level.txt
