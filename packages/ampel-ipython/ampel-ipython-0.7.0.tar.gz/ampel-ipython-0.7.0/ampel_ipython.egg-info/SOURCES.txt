@@ -1,0 +1,6 @@
+setup.py
+ampel_ipython.egg-info/PKG-INFO
+ampel_ipython.egg-info/SOURCES.txt
+ampel_ipython.egg-info/dependency_links.txt
+ampel_ipython.egg-info/top_level.txt
+ampel_quick_import/__init__.py
