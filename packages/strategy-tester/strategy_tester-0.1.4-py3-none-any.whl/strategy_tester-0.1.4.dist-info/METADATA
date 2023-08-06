@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: strategy-tester
+Version: 0.1.4
+Summary: A python package for testing strategies
+Home-page: UNKNOWN
+Author: Ali Ardakani
+Author-email: aliardakani78@gmail.com
+License: UNKNOWN
+Keywords: python,strategy,tester,trading,backtesting,performance
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: aiosignal (==1.2.0)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: dateparser (==1.1.1)
+Requires-Dist: frozenlist (==1.3.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: multidict (==6.0.2)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: pandas (==1.4.2)
+Requires-Dist: pandas-ta (==0.3.14b0)
+Requires-Dist: python-binance (==1.0.15)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.1)
+Requires-Dist: pytz-deprecation-shim (==0.1.0.post0)
+Requires-Dist: regex (==2022.3.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tzdata (==2022.1)
+Requires-Dist: tzlocal (==4.2)
+Requires-Dist: ujson (==5.1.0)
+Requires-Dist: urllib3 (==1.26.9)
+Requires-Dist: websockets (==9.1)
+Requires-Dist: yarl (==1.7.2)
+
+# strategy tester
+## Installation
+``` bash
+pip install -r requirements.txt
+```
+## Usage
+Here a snippet of the strategy tester:
+
+```python
+from strategy_tester import StrategyTester
+import pandas as pd
+import pandas_ta as ta
+from pandas_ta_supplementary_libraries import *
+import numpy as np
+
+class SimpleStrategy(Strategy):
+
+    def indicators(strategy):
+        # Set all indicators here
+        strategy.in_long = False
+        strategy.in_short = False
+        ma = Indicator("ma", ta.sma, args=(strategy.close, 100))
+
+    def condition(strategy):
+        strategy.conditions = ma,
+
+    def trade_calc(strategy, row):
+        if row.close > row.ma:
+            if strategy.in_short:
+                strategy.exit("short")
+                strategy.in_short = False
+            strategy.entry("long", "long")
+            strategy.in_long = True
+        elif row.close < row.ma:
+            if strategy.in_long:
+                strategy.exit("long")
+                strategy.in_long = False
+            strategy.entry("short", "short")
+            strategy.in_short = True
+
+strategy = SimpleStrategy(data)
+# Run the strategy tester
+strategy.run()
+# Get back test results
+backtest = strategy.backtest()
+# Get list of trades
+list_of_trades = strategy.list_of_trades()
+# Get list of open positions
+list_of_open_positions = strategy.open_positions
+# Get list of closed positions
+list_of_closed_positions = strategy.closed_positions
+```
+
+## Repository
+[Github](https://github.com/ali-ardakani/strategy_tester)
+[pypi](https://pypi.org/project/strategy-tester/)
+
