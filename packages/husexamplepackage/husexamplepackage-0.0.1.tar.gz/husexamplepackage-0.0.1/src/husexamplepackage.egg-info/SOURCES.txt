@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/example_package/__init__.py
+src/example_package/example.py
+src/husexamplepackage.egg-info/PKG-INFO
+src/husexamplepackage.egg-info/SOURCES.txt
+src/husexamplepackage.egg-info/dependency_links.txt
+src/husexamplepackage.egg-info/top_level.txt
