@@ -1,0 +1,10 @@
+pdfminer
+marshmallow
+lxml
+pandas
+numpy
+parse
+
+[build]
+wheel
+twine
