@@ -1,0 +1,6 @@
+numpy
+qutip
+qiskit
+pandas
+sys
+regex
