@@ -1,0 +1,15 @@
+janggi/__init__.py,sha256=OtoNt0cHYsvXW4UAD3iel7ko2VGwDJIFKV15EzrM8gE,234
+janggi/board.py,sha256=1uyrif7392kKnvCIEY5yA3-c2uQwSzf6t1Rnho_zYMU,5195
+janggi/camp.py,sha256=A4CosXjSJbKu-kFwbwQ9-WluzrO301EQSTfya1wxMYU,501
+janggi/constants.py,sha256=0ejVZJDEwZgFX_zFtI7bZ_g-cL4nc0ZA5Sf9JGhjb9E,199
+janggi/formation.py,sha256=aqm3dHXGf2OrfvJhjimwVi09l9HyEv7e-zVdXKB6Vug,2870
+janggi/janggi_game.py,sha256=gmMDmOMOwDiIgj_OBGFUVYcoRHpnsa7vY1gBhldSP70,8544
+janggi/location.py,sha256=hn5iXX82Ola0p_BAABwCbXG_0gjCW6FcmyfOFod76tA,1344
+janggi/main.py,sha256=wbAUosgRr_PUMxG42u6gSWuuo3HRA9dBuACRG_Cr2Gs,435
+janggi/move.py,sha256=rSzw4Ub-wKNrskSIQ_1aBUBmMjukjF2T3ZYFGuykvFc,3511
+janggi/piece.py,sha256=7vXwxg7O8Em3PGYUERYgHvmPeRRnyXj_vJ_Dm50HwLE,7701
+janggi-0.9.2.dist-info/LICENSE,sha256=mLT2r-SnGyT9ONnGYvdtlKt0sDAB-JmRYlBFO5Jl_zI,1066
+janggi-0.9.2.dist-info/METADATA,sha256=KS0PJeQeewNmOK1kiGuoNziV-SQpS4E22XFnJ0-DurE,712
+janggi-0.9.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+janggi-0.9.2.dist-info/top_level.txt,sha256=sdyTNrjwwVDgRe9WbdRem93Cjr0Qk997mAMdbleBS5s,7
+janggi-0.9.2.dist-info/RECORD,,
