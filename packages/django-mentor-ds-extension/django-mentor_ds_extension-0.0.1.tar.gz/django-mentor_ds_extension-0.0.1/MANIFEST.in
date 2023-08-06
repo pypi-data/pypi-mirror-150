@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+recursive-include mentor_ds/static *
+recursive-include mentor_ds/templates *
+recursive-include lang/static *
+recursive-include lang/templates *
+
+recursive-exclude _data *
+recursive-exclude _static *
+recursive-exclude mytester *
