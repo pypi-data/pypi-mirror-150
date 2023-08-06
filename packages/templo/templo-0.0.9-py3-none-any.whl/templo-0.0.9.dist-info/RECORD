@@ -1,0 +1,13 @@
+templo/__init__.py,sha256=pv9SSyIl0ULUnJz5zoB0S_s061bjbTglDLqNoTCaWrs,31
+templo/lex.py,sha256=7XPwpmSyCnSyaT2YtmO9pwBwPM2rwTgEMPzGvm242Q8,3479
+templo/lexer.py,sha256=1ZZvqQiSVKeGZZ8-U5ZoTgC8ynR8AO59UM3wiqreWN0,3335
+templo/parser.py,sha256=eiE-AbYV28wAyr8i2apjnbNWy8nbNiqtJy5wEp1GuAE,5215
+templo/parsetab.py,sha256=QTQWNok1olh8n8WuKTZzwlOBLyxV7IX5EdFP12sivJM,22137
+templo/run.py,sha256=oIdnoIRCxw30oLlXvrr53AsXbz1gh6XtJaXAP9MDgbc,4897
+templo/tests.py,sha256=_ydFsVVd5fU6NENXTBq3yQbUFkdQd6o7kZ5yhbXZw8g,3856
+templo/yacc.py,sha256=rinaSJBmOoaw1MuTsLbT05UUusD7nklEHZzPbgrVmwM,6662
+templo-0.0.9.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+templo-0.0.9.dist-info/METADATA,sha256=m7RYSWX52dImn4PKP00UKcer2m-rbx7sMU9P_w_le1s,1288
+templo-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+templo-0.0.9.dist-info/top_level.txt,sha256=ULBS0X3U1kEUrHbpkjdkgEqR_68TTA0KKMmyCZhSwwA,7
+templo-0.0.9.dist-info/RECORD,,
