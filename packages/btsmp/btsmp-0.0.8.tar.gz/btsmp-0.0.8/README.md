@@ -1,0 +1,3 @@
+# btsmp
+
+Bluetooth SMP Utilities

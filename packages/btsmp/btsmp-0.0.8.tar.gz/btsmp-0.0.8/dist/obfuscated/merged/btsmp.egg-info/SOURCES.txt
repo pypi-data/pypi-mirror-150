@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/merged/btsmp/__init__.py
+dist/obfuscated/merged/btsmp/smp.py
+dist/obfuscated/merged/btsmp.egg-info/PKG-INFO
+dist/obfuscated/merged/btsmp.egg-info/SOURCES.txt
+dist/obfuscated/merged/btsmp.egg-info/dependency_links.txt
+dist/obfuscated/merged/btsmp.egg-info/requires.txt
+dist/obfuscated/merged/btsmp.egg-info/top_level.txt
+dist/obfuscated/merged/btsmp/pytransform/__init__.py
+dist/obfuscated/merged/btsmp/pytransform/platforms/linux/aarch64/_pytransform.so
+dist/obfuscated/merged/btsmp/pytransform/platforms/linux/x86_64/_pytransform.so
+test/test.py
