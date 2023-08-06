@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ichika-utils
+Version: 0.1.0
+Summary: Stats Utils for Ichika
+Home-page: https://github.com/No767/Ichika-Utils
+License: MIT
+Author: No767
+Author-email: 73260931+No767@users.noreply.github.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Project-URL: Repository, https://github.com/No767/Ichika-Utils
+Description-Content-Type: text/markdown
+
+# Ichika Utils
+
+A set of utils used by Ichika. This is not production ready, and not even ready for anything. this is highly experimental.
