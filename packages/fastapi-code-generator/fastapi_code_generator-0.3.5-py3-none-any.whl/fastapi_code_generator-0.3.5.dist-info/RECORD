@@ -1,0 +1,9 @@
+fastapi_code_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_code_generator/__main__.py,sha256=Uh50C9F9r0j1bUqZq7SOERrjZ-ZhIS_opCQR3QyUqtQ,5140
+fastapi_code_generator/parser.py,sha256=aFOcTbMokjzYTVELTvAWeM4CjfJbN0LQlL6hJL7nv5k,16443
+fastapi_code_generator/template/main.jinja2,sha256=2wA8qiKQfOzNjE2Rm4zIcycVavmF-K38owJUqjFLD8s,1065
+fastapi_code_generator-0.3.5.dist-info/entry_points.txt,sha256=oX-J1SgDkFCZnRS_L2gURcyaJ7wcS3aCsVb7xJnGMzk,71
+fastapi_code_generator-0.3.5.dist-info/LICENSE,sha256=C-b8aEu2fDN5YT24yaLhHLdTAHlv3PIRbuoi5K2jP5k,1068
+fastapi_code_generator-0.3.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastapi_code_generator-0.3.5.dist-info/METADATA,sha256=lTIIlFhEekiEUsaE7CFXyMttnCHaBbT8HmFbuQfPKoI,10060
+fastapi_code_generator-0.3.5.dist-info/RECORD,,
