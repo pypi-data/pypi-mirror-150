@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qoala
+Version: 0.1.dev2
+Summary: Qoala - Quantum netwOrk Application LAnguage
+Author: QuTech
+Author-email: b.vandervecht@tudelft.nl
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: netqasm (==0.11.0a3)
+Provides-Extra: tests
+Requires-Dist: pytest (<8.0,>=7.1) ; extra == 'tests'
+Requires-Dist: flake8 (<5.0,>=4.0) ; extra == 'tests'
+Requires-Dist: isort (<5.11,>=5.10) ; extra == 'tests'
+Requires-Dist: black (<22.4,>=22.3) ; extra == 'tests'
+Requires-Dist: mypy (<0.951,>=0.950) ; extra == 'tests'
+
