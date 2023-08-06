@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyNetatmoHue
+Version: 0.0.4
+Summary: Simple API to access Netatmo weather station data from any python script.
+Home-page: https://github.com/stevedep/Netatmo_PPM_Hue
+Author: Steve de Peijper
+Author-email: steve.depeijper@gmail.com
+License: GPL V3
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: python-dateutil
+
+#Description
+
+This package allows you to colour your lights as PPM level in your home changes. 
