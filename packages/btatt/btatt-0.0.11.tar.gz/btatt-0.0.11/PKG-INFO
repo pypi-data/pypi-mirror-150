@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: btatt
+Version: 0.0.11
+Summary: Bluetooth ATT Utilities
+Home-page: https://pypi.org/project/btatt
+Author: Sourcell Xu
+Author-email: sourcell.xu@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# btatt
+
+Bluetooth ATT Utilities
+
+
