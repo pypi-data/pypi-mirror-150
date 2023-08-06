@@ -1,0 +1,3111 @@
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: I stubbed my toe yesterday and the world is ending.
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: Horrible
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45575757575757575
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: 'Which distortion does this fall under?
+
+    EVERYTHING = all or nothing
+
+    GENERALIZING = over generalization
+
+    FILTERING = mental filter
+
+    DISCOUNTING = Discounting the positives
+
+    ASSUMPTIONS = Jumping to conclusions
+
+    DISPROPORTIONIZING = Magnification or minimization
+
+    REASONING = Emotional Reasoning
+
+    SHOULDING = Should statements
+
+    LABELING = labeling
+
+    BLAMING = Personalization and blame
+
+    If a proper selection is not made, I will ask the question again.'
+  skills:
+  - qary.skills.life
+  statement: '90'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4628099173553719
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: Re-rate your feelings on a scale of 0-100.
+  skills:
+  - qary.skills.life
+  statement: DISPROPORTIONIZING
+- conversation_manager: qary.clibot
+  reply_confidence: 0.46969696969696967
+  reply_context:
+    turn_count: 5
+  reply_skill: null
+  reply_text: Now how do you feel?
+  skills:
+  - qary.skills.life
+  statement: '70'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.46464646464646464
+  reply_context:
+    turn_count: 6
+  reply_skill: null
+  reply_text: Is there anything else that you're feeling?
+  skills:
+  - qary.skills.life
+  statement: Great!
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4602272727272727
+  reply_context:
+    turn_count: 7
+  reply_skill: null
+  reply_text: Session is already over! Type "quit" to exit or press "Enter" for a
+    new session
+  skills:
+  - qary.skills.life
+  statement: Nope
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: stubbed toe
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: horrible
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45575757575757575
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: 'Which distortion does this fall under?
+
+    EVERYTHING = all or nothing
+
+    GENERALIZING = over generalization
+
+    FILTERING = mental filter
+
+    DISCOUNTING = Discounting the positives
+
+    ASSUMPTIONS = Jumping to conclusions
+
+    DISPROPORTIONIZING = Magnification or minimization
+
+    REASONING = Emotional Reasoning
+
+    SHOULDING = Should statements
+
+    LABELING = labeling
+
+    BLAMING = Personalization and blame
+
+    If a proper selection is not made, I will ask the question again.'
+  skills:
+  - qary.skills.life
+  statement: '90'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4628099173553719
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: Re-rate your feelings on a scale of 0-100.
+  skills:
+  - qary.skills.life
+  statement: disproportionate pessimism
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: whatever
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: goo
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: '10'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: nope
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 5
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: 'no'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 6
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: yep
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 7
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: stop
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: ''
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: ''
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: ''
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: '10'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 5
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: yep
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 6
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: nope
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 7
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: maybe
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4659090909090909
+  reply_context:
+    turn_count: 8
+  reply_skill: null
+  reply_text: Three options (yep->EXTEND/nope->DISTORTION/maybe->RERATE,stop->finish/quit)
+  skills:
+  - qary.skills.life
+  statement: stop
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: mad
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: mad
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: worry
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: worry
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: terrible
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4727272727272727
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Describe an upsetting event.
+  skills:
+  - qary.skills.life
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4675324675324675
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: How did this make you feel?
+  skills:
+  - qary.skills.life
+  statement: whatever
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45959595959595956
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: On a scale of 0 (the least) to 100 (the highest). How would you rate
+    this feeling?
+  skills:
+  - qary.skills.life
+  statement: miserable
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45584415584415583
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'A woman went on vacation and asked a friend to look after her cat.
+    A week later, 8 grown cats were living in the apartment.
+
+    Let''s see how fast you can solve this mystery by asking me questions. The fewer
+    questions you ask the better player you are.
+
+    Remember: I can only answer with "yes" or "no". Or, sometimes. with "irrelevant".
+
+    Let''s play! Ready?'
+  skills:
+  - qary.skills.yes_no
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45933014354066987
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: 'Great! Ask me your first question.
+
+    Remember: each question should bring you closer to solving the puzzle.'
+  skills:
+  - qary.skills.yes_no
+  statement: 'yes'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4574780058651026
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: 'And here is a little tip: If you carefully read an initial problem
+    statement, then you''ll need fewer questions to solve it. See "grown cats" in
+    the initial statement'
+  skills:
+  - qary.skills.yes_no
+  statement: Did her cat have babies?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: 'Yes'
+  skills:
+  - qary.skills.yes_no
+  statement: Did her cat make friends?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: 'Yes'
+  skills:
+  - qary.skills.yes_no
+  statement: Did her cat get lost?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 5
+  reply_skill: null
+  reply_text: 'Yes'
+  skills:
+  - qary.skills.yes_no
+  statement: Did her neighbor find her cat for her?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45596590909090906
+  reply_context:
+    turn_count: 6
+  reply_skill: null
+  reply_text: This kind of puzzle teaches you to check your assumptions about any
+    situation. You need to be open-minded, flexible and creative in your questioning
+    and able to put lots of different clues and pieces of information together. Once
+    you reach a viable solution you keep going in order to refine it or replace it
+    with a better solution. This is lateral thinking!
+  skills:
+  - qary.skills.yes_no
+  statement: Do you know what you're saying?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 7
+  reply_skill: null
+  reply_text: Yes.
+  skills:
+  - qary.skills.yes_no
+  statement: Who are you?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45596590909090906
+  reply_context:
+    turn_count: 8
+  reply_skill: null
+  reply_text: This kind of puzzle teaches you to check your assumptions about any
+    situation. You need to be open-minded, flexible and creative in your questioning
+    and able to put lots of different clues and pieces of information together. Once
+    you reach a viable solution you keep going in order to refine it or replace it
+    with a better solution. This is lateral thinking!
+  skills:
+  - qary.skills.yes_no
+  statement: Can you say no?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45596590909090906
+  reply_context:
+    turn_count: 9
+  reply_skill: null
+  reply_text: This kind of puzzle teaches you to check your assumptions about any
+    situation. You need to be open-minded, flexible and creative in your questioning
+    and able to put lots of different clues and pieces of information together. Once
+    you reach a viable solution you keep going in order to refine it or replace it
+    with a better solution. This is lateral thinking!
+  skills:
+  - qary.skills.yes_no
+  statement: Seems like anythong I ask you always say yes?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45933014354066987
+  reply_context:
+    turn_count: 10
+  reply_skill: null
+  reply_text: 'Great! Ask me your first question.
+
+    Remember: each question should bring you closer to solving the puzzle.'
+  skills:
+  - qary.skills.yes_no
+  statement: yes?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 11
+  reply_skill: null
+  reply_text: 'No'
+  skills:
+  - qary.skills.yes_no
+  statement: and you don't manage state very well.
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45584415584415583
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'A woman went on vacation and asked a friend to look after her cat.
+    A week later, 8 grown cats were living in the apartment.
+
+    Let''s see how fast you can solve this mystery by asking me questions. The fewer
+    questions you ask the better player you are.
+
+    Remember: I can only answer with "yes" or "no". Or, sometimes. with "irrelevant".
+
+    Let''s play! Ready?'
+  skills:
+  - qary.skills.yes_no
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.45933014354066987
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: 'Great! Ask me your first question.
+
+    Remember: each question should bring you closer to solving the puzzle.'
+  skills:
+  - qary.skills.yes_no
+  statement: 'yes'
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4574780058651026
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: 'And here is a little tip: If you carefully read an initial problem
+    statement, then you''ll need fewer questions to solve it. See "grown cats" in
+    the initial statement'
+  skills:
+  - qary.skills.yes_no
+  statement: Did the cat have babies?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.4574780058651026
+  reply_context:
+    turn_count: 3
+  reply_skill: null
+  reply_text: 'And here is a little tip: If you carefully read an initial problem
+    statement, then you''ll need fewer questions to solve it. See "grown cats" in
+    the initial statement'
+  skills:
+  - qary.skills.yes_no
+  statement: Did the cat have kittens?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 4
+  reply_skill: null
+  reply_text: 'Yes'
+  skills:
+  - qary.skills.yes_no
+  statement: Did her cat run away?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.46969696969696967
+  reply_context:
+    turn_count: 5
+  reply_skill: null
+  reply_text: Please ask me a question.
+  skills:
+  - qary.skills.yes_no
+  statement: Was the main a cat lady?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 6
+  reply_skill: null
+  reply_text: 'No'
+  skills:
+  - qary.skills.yes_no
+  statement: Did the man have pet cats?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 7
+  reply_skill: null
+  reply_text: 'No'
+  skills:
+  - qary.skills.yes_no
+  statement: Was the man helping her find her lost cat?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 8
+  reply_skill: null
+  reply_text: 'Yes'
+  skills:
+  - qary.skills.yes_no
+  statement: Did she lose her cat?
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.23737373737373738
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.25
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: So what's up Eliza?
+- conversation_manager: qary.clibot
+  reply_confidence: 0.23737373737373738
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.23737373737373738
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 0.25
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: What's up??
+- conversation_manager: qary.clibot
+  reply_confidence: 0.23553719008264462
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What would it mean to you if you got help!!! ?
+  skills:
+  - qary.skills.eliza
+  statement: I need help!!!
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.eliza
+  reply_text: I'm not sure I understand you fully.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.eliza
+  reply_text: What does that suggest to you ?
+  skills:
+  - qary.skills.eliza
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 0
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.05
+  reply_context:
+    turn_count: 2
+  reply_skill: qary.skills.glossary
+  reply_text: I don't understand. That doesn't sound like a question I can answer
+    using my glossary.
+  skills:
+  - qary.skills.glossary
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: 'Welcome
+
+    I will ask you a few Python questions. Please answer ''yes'' if you would like
+    to continue'
+  skills:
+  - qary.skills.quiz
+  statement: null
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 1
+  reply_skill: null
+  reply_text: Name the two fundamental numerical data types in Python
+  skills:
+  - qary.skills.quiz
+  statement: 'Yes! '
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 2
+  reply_skill: null
+  reply_text: State is Q2_exact
+  skills:
+  - qary.skills.quiz
+  statement: foo
+- conversation_manager: qary.clibot
+  reply_confidence: 1.0
+  reply_context:
+    turn_count: 0
+  reply_skill: null
+  reply_text: Hello!
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: Hi
+- conversation_manager: qary.clibot
+  reply_confidence: 0.5
+  reply_context:
+    turn_count: 1
+  reply_skill: qary.skills.eliza
+  reply_text: Please go on.
+  skills:
+  - qary.skills.eliza
+  - qary.skills.pattern
+  statement: null
