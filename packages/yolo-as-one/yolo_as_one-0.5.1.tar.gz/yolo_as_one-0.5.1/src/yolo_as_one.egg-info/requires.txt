@@ -1,0 +1,17 @@
+Pillow
+PyYAML>=5.3.1
+loguru
+matplotlib>=3.2.2
+ninja
+numpy
+opencv_python
+pandas>=1.1.4
+pycocotools
+requests>=2.23.0
+scikit-image
+scikit-learn
+tabulate
+thop
+thop
+torchvision
+tqdm
