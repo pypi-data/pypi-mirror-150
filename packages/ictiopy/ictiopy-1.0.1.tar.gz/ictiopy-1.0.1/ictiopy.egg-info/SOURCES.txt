@@ -1,0 +1,14 @@
+ICTIO_ORG_LICENSE.md
+LICENSE
+MANIFEST.in
+README.md
+ictiopy.py
+setup.py
+./__init__.py
+./ictiopy.py
+ictiopy.egg-info/PKG-INFO
+ictiopy.egg-info/SOURCES.txt
+ictiopy.egg-info/dependency_links.txt
+ictiopy.egg-info/requires.txt
+ictiopy.egg-info/top_level.txt
+test/test01.py
