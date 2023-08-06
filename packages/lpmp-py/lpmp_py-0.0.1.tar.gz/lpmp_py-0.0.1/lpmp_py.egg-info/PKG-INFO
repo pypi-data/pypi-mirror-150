@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lpmp-py
+Version: 0.0.1
+Summary: LPMP bindings for python with differentiable torch wrappers
+Author: Paul Swoboda
+Author-email: pswoboda@mpi-inf.mpg.de
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
