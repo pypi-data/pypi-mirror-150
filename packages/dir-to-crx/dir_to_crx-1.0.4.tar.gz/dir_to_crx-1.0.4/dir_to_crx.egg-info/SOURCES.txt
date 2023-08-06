@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dir_to_crx/__init__.py
+dir_to_crx/create.py
+dir_to_crx/crx-packer.py
+dir_to_crx/crx3_pb2.py
+dir_to_crx.egg-info/PKG-INFO
+dir_to_crx.egg-info/SOURCES.txt
+dir_to_crx.egg-info/dependency_links.txt
+dir_to_crx.egg-info/requires.txt
+dir_to_crx.egg-info/top_level.txt
