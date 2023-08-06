@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pointextract
+Version: 0.0.41
+Summary: Extract points information from 2d images to build a 3D object
+Home-page: https://engineering.case.edu/centers/sdle/
+Author: Roger French(ORCID:000000-0002-6162-0532), Liangyi Huang(ORCID:0000-0003-0845-3293)
+Author-email: roger.french@case.edu, lxh442@case.edu
+License: BSD License (BSD-3)
+Keywords: pointextract,PowerPlant,Engineering,3d visualization
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+UNKNOWN
+
