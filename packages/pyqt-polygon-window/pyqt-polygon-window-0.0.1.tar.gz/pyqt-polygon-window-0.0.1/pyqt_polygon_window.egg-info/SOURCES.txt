@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pyqt_polygon_window/__init__.py
+pyqt_polygon_window/polygonWindow.py
+pyqt_polygon_window.egg-info/PKG-INFO
+pyqt_polygon_window.egg-info/SOURCES.txt
+pyqt_polygon_window.egg-info/dependency_links.txt
+pyqt_polygon_window.egg-info/requires.txt
+pyqt_polygon_window.egg-info/top_level.txt
+pyqt_polygon_window/ico/__init__.py
+pyqt_polygon_window/ico/close.png
+pyqt_polygon_window/style/__init__.py
+pyqt_polygon_window/style/button.css
