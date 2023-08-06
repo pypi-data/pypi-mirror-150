@@ -1,0 +1,25 @@
+numpy
+ebmlite>=3.1.0
+
+[docs]
+numpy
+ebmlite>=3.1.0
+sphinx
+pydata-sphinx-theme
+
+[example]
+numpy
+ebmlite>=3.1.0
+matplotlib
+
+[test]
+numpy
+ebmlite>=3.1.0
+pytest>=4.6
+pytest-xdist[psutil]
+mock
+pytest-cov
+sphinx
+
+[test:python_version < "3.10"]
+scipy
