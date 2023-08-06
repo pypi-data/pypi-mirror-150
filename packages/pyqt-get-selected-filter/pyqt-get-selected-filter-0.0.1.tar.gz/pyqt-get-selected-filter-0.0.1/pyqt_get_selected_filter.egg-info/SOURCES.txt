@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pyqt_get_selected_filter/__init__.py
+pyqt_get_selected_filter/getSelectedFilter.py
+pyqt_get_selected_filter.egg-info/PKG-INFO
+pyqt_get_selected_filter.egg-info/SOURCES.txt
+pyqt_get_selected_filter.egg-info/dependency_links.txt
+pyqt_get_selected_filter.egg-info/top_level.txt

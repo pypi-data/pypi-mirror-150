@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyqt-get-selected-filter
+Version: 0.0.1
+Summary: Get selected filter string for QFileDialog
+Home-page: https://github.com/yjg30737/pyqt-get-selected-filter.git
+Author: Jung Gyu Yoon
+Author-email: yjg30737@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pyqt-get-selected-filter
+Get selected filter string for QFileDialog
+
+## Setup
+`python -m pip install pyqt-get-selected-filter`
+
+## Example
+```python
+### code start ###
+from pyqt_get_selected_filter import getSelectedFilter
+
+lst = ['.bmp', '.jpg', '.jpeg', '.gif', '.png']
+print(getSelectedFilter(lst))
+### code end ###
+
+>> (*.bmp *.jpg *.jpeg *.gif *.png) # result
+```
+
+
