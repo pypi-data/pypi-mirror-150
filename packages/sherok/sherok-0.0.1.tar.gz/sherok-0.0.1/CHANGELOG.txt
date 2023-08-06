@@ -1,0 +1,7 @@
+# CHANGELOG.md
+
+## 0.0.1
+
+Features:
+
+  - First 16 Commands
