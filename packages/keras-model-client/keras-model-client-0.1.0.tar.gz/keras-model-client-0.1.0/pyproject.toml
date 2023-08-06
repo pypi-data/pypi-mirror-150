@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "keras-model-client"
+version = "0.1.0"
+description = "Python client API for the Keras Model Server"
+authors = ["Kevin Barnard <kbarnard@mbari.org>"]
+
+[tool.poetry.scripts]
+model-server-predict = 'keras_model_client.scripts.predict:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+dataclasses-json = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
