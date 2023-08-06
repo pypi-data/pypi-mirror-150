@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+create_giant_tour.egg-info/PKG-INFO
+create_giant_tour.egg-info/SOURCES.txt
+create_giant_tour.egg-info/dependency_links.txt
+create_giant_tour.egg-info/top_level.txt
