@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: DirectGuiExtension
+Version: 22.5
+Summary: A set of extensions for the DirectGUI system of the Panda3D engine
+Home-page: https://github.com/fireclawthefox/DirectGuiExtension
+Author: Fireclaw
+Author-email: fireclawthefox@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/fireclawthefox/DirectGuiExtension/wiki
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: panda3d
+
+# DirectGuiExtension
+A set of extensions for the DirectGUI system of the Panda3D engine
+
+## Features
+Extends the DirectGUI system with the following features
+
+Simple layout system
+- DirectAutoSizer
+- DirectBoxSizer
+- DirectGridSizer
+- DirectSplitFrame
+- DirectCollapsibleFrame
+
+Widgets
+- DirectDatePicker
+- DirectDiagram
+- DirectMenuItem
+- DirectSpinBox
+- DirectTooltip
+
+Window system
+- DirectScrolledWindowFrame
+
+Helper Class
+- DirectGuiHelper
+
+## Install
+Install the DirectGuiExtension via pip
+
+```bash
+pip install DirectGuiExtension
+```
+
+## How to use
+
+Check the wiki on github for a detailed documentation about how to use the individual elements of this extension:<br>
+<a href="https://github.com/fireclawthefox/DirectGuiExtension/wiki">wiki</a> (https://github.com/fireclawthefox/DirectGuiExtension/wiki)
+
+
