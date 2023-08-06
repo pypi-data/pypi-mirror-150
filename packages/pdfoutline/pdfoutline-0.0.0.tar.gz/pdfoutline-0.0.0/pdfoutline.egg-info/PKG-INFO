@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: pdfoutline
+Version: 0.0.0
+Summary: A command line tool for adding an outline to pdf files
+Home-page: https://github.com/eggplants/getjump
+Author: Yuta Yamamoto
+Author-email: jichael.y.yuta1995@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# ![](img/bookmark_border-24px.svg) pdfoutline
+
+A command line tool for adding an outline (a bookmark, or table of contents) to pdf files.
+
+## Prerequisites
+
+Make sure you have `ghostscript` installed.
+
+```sh
+# Mac
+brew install ghostscript
+
+# Debian, Ubuntu
+sudo apt install ghostscript
+```
+
+`ghostscript` for windows can be installed from [the official website](https://www.ghostscript.com/releases/gsdnld.html)
+
+## Usage
+
+```shellsession
+$ pip install pdfoutline
+...
+
+$ pdfoutline sample.pdf sample.toc sample-out.pdf
+ |██████████████████████----------------------------| 118/263
+```
+
+optionally, the ghost script executable can be specified as well
+
+```sh
+pdfoutline sample.pdf sample.toc sample-out.pdf --gs_path 'C:\Program Files\gs\gs9.55.0\bin\gswin64.exe'
+```
+
+## Demo
+
+![demo](img/demo.png)
+
+Sample output:
+
+![sample](img/demo-output.png)
+
+## Sample Table of contents file: `sample.toc`
+
+```toc
+# this is a comment
+First Chapter 1
+    first section 1
+        first subsection 1
+    second section 4
+    third section 5
+
+# a command to fix a gap between pdf pages and content pages
++10
+
+Second Chapter 10
+    some entry 10
+    some entry 11
+```
+
+
+

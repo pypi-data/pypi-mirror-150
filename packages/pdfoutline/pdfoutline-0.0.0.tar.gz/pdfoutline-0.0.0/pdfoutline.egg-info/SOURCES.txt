@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pdfoutline/__init__.py
+pdfoutline/main.py
+pdfoutline/pdfoutline.py
+pdfoutline.egg-info/PKG-INFO
+pdfoutline.egg-info/SOURCES.txt
+pdfoutline.egg-info/dependency_links.txt
+pdfoutline.egg-info/entry_points.txt
+pdfoutline.egg-info/requires.txt
+pdfoutline.egg-info/top_level.txt

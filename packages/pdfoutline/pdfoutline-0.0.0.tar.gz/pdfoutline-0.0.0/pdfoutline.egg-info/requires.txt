@@ -1,0 +1,4 @@
+
+[dev]
+per-commit
+setuptools>=46.4.0
