@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "ironik"
+version = "0.1.5"  # <<COOKIETEMPLE_FORCE_BUMP>>
+description = "In Rancher Openstack; Now Install Kubernetes (Ironik); Python CLI Tool for deploying Kubernetes on OpenStack via Rancher."
+authors = ["Jonathan Decker <jonathan.decker@uni-goettingen.de>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://gitlab.gwdg.de/jonathan.decker1/ironik"
+repository = "https://gitlab.gwdg.de/jonathan.decker1/ironik"
+documentation = "https://ironik.readthedocs.io"
+packages = [
+    { include = "ironik", from = "src" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.0"
+rich = "^10.1.0"
+PyYAML = "^5.4.1"
+Jinja2 = "^2.11.3"
+openstacksdk = "^0.61.0"
+kubernetes = "^23.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+coverage = {extras = ["toml"], version = "^5.3"}
+safety = "^1.9.0"
+mypy = "^0.812"
+typeguard = "^2.12.0"
+xdoctest = {extras = ["colors"], version = "^0.15.0"}
+sphinx = "^4.3.1"
+sphinx-autobuild = "^2021.3.14"
+pre-commit = "^2.11.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+flake8-bandit = "^3.0.0"
+flake8-bugbear = "^21.4.3"
+flake8-docstrings = "^1.5.0"
+flake8-rst-docstrings = "^0.0.14"
+pep8-naming = "^0.11.1"
+darglint = "^1.5.8"
+reorder-python-imports = "^2.4.0"
+pre-commit-hooks = "^3.3.0"
+sphinx-rtd-theme = "^1.0.0"
+sphinx-click = "^4.0.3"
+Pygments = "^2.8.1"
+markupsafe = "2.0.1"
+
+[tool.poetry.scripts]
+ironik = "ironik.__main__:main"
+
+[tool.black]
+line-length = 120
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["ironik"]
+
+[tool.coverage.report]
+show_missing = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
