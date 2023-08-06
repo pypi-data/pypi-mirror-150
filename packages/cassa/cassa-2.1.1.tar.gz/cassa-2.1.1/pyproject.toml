@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "cassa"
+version = "2.1.1"
+description = "Python package to perform unsupervised and semi-supervised machine learning (ML) classification algorithms on generic tensors of pre-processed data"
+authors = [
+  "Karl Nordstrom <karl.am.nordstrom@gmail.com>",
+  "Giorgio Savastano <giorgiosavastano@gmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = "^1.22.3"
+scipy = "^1.8.0"
+seaborn = "^0.11.2"
+scikit-learn = "^1.0.2"
+progress = {version = "^1.6", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.0"
+coverage = "^6.3.2"
+pre-commit = "^2.17.0"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.extras]
+docs = ['sphinx']
+progress = ["progress"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+testpaths=[
+    "tests"
+]
+markers =[
+    "unit: Unit tests.",
+]
