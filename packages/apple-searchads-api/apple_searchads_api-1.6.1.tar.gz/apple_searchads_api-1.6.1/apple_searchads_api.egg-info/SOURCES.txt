@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+apple_searchads_api.egg-info/PKG-INFO
+apple_searchads_api.egg-info/SOURCES.txt
+apple_searchads_api.egg-info/dependency_links.txt
+apple_searchads_api.egg-info/requires.txt
+apple_searchads_api.egg-info/top_level.txt
+searchads_api/__init__.py
+searchads_api/api.py
