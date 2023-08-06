@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+simplyfile.egg-info/PKG-INFO
+simplyfile.egg-info/SOURCES.txt
+simplyfile.egg-info/dependency_links.txt
+simplyfile.egg-info/top_level.txt
+srcdr/__init__.py
