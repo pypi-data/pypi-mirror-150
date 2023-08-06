@@ -1,0 +1,10 @@
+[crowsetta.format]
+birdsong-recognition-dataset=crowsetta.birdsongrec
+csv=crowsetta.csv
+generic-seq=crowsetta.generic
+notmat=crowsetta.notmat
+phn=crowsetta.phn
+simple-seq=crowsetta.simple
+textgrid=crowsetta.textgrid
+yarden=crowsetta.yarden
+
