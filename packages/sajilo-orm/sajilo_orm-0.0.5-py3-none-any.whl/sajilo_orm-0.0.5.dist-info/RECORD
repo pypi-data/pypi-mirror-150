@@ -1,0 +1,12 @@
+sajilo_orm/__init__.py,sha256=Bz3V2VeKWgCV_B9t-HAopM_QLQMfG4szcDOPb1u8M5o,503
+sajilo_orm/exceptions.py,sha256=bY8eNd0xzcok2SvYTyrdj82O4z-PsZmrSeJkquWJHf8,1917
+sajilo_orm/field.py,sha256=zU5eHPJX95L4D3Kex2cFiOitlYLzG0uBY0eHw38JuXg,2151
+sajilo_orm/manager.py,sha256=uiK5HqX_Tk5tf9fMyryARnEkiQFIrw7L_VEemb2oc9w,1212
+sajilo_orm/models.py,sha256=bA35VMis1jQMRiB7A6fxmzInYiS3f2vmbPS7EtZRzMg,1316
+sajilo_orm/query_manager.py,sha256=lKKej6LdM2XmPLF1gAN8Z1qGSXuk1s5OEt5xCWNk7sw,4489
+sajilo_orm/settings.py,sha256=bNFaXLp_3TzCRaSF2OZ5G-ceEgCNB_n2NZNKg3tghlA,163
+sajilo_orm-0.0.5.dist-info/LICENSE.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sajilo_orm-0.0.5.dist-info/METADATA,sha256=rnzU3OEKtxx2l69gO42A-xIDPGXYd2n3tAmHWdfqIfE,6248
+sajilo_orm-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sajilo_orm-0.0.5.dist-info/top_level.txt,sha256=mZdzllXgWeSYgx5_8Tmi0NRyFOx-LbrBE5uLtvlX3KU,11
+sajilo_orm-0.0.5.dist-info/RECORD,,
