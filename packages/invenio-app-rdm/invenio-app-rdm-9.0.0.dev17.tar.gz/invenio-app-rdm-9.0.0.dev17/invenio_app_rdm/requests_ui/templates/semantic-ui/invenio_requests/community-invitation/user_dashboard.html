@@ -1,0 +1,16 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2022 CERN.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{% set title = request.title %}
+{% extends "invenio_requests/details/index.html" %}
+
+{% block request_header_title %}
+  {{ request.title }}
+{% endblock request_header_title %}
+
+{% set active_dashboard_menu_item = 'requests' %}
