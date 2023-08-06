@@ -1,0 +1,19 @@
+CHANGELOG
+
+0.0.1
+
+Features:
+
+  - First 16 Commands
+
+0.0.2
+
+Features:
+
+  - Updated Readme
+
+0.0.18
+
+Features:
+
+  - Updated CHANGELOG

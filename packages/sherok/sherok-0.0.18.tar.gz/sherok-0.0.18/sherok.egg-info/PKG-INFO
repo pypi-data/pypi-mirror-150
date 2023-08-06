@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sherok
+Version: 0.0.18
+Summary: A Python library to make everything simpler.
+Home-page: UNKNOWN
+Author: Sreehari.S
+Author-email: sreehariaaryan@gmail.com
+License: MIT
+Keywords: sh,sherok,python,simpler
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+A new epic library for making python simpler.                           
+
+Here is the documentation - https://github.com/SreehariTheProgrammer/SherokDocumentation/blob/main/README.md
+
+CHANGELOG
+
+0.0.1
+
+Features:
+
+  - First 16 Commands
+
+0.0.2
+
+Features:
+
+  - Updated Readme
+
+0.0.18
+
+Features:
+
+  - Updated CHANGELOG
+
