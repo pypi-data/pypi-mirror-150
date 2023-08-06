@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/calculadora/__init__.py
+src/calculadora/operacoes.py
+src/tutorial_empacotar.egg-info/PKG-INFO
+src/tutorial_empacotar.egg-info/SOURCES.txt
+src/tutorial_empacotar.egg-info/dependency_links.txt
+src/tutorial_empacotar.egg-info/top_level.txt
