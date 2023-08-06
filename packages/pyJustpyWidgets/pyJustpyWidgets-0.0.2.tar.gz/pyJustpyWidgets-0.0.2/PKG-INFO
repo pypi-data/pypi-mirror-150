@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyJustpyWidgets
+Version: 0.0.2
+Summary: justpy Widgets
+Home-page: http://wiki.bitplan.com/index.php/pyJustpyWidgets
+Author: Wolfgang Fahl
+Author-email: wf@bitplan.com
+License: Apache
+Download-URL: https://github.com/WolfgangFahl/pyJustpyWidgets
+Project-URL: Code, https://github.com/WolfgangFahl/pyJustpyWidgets
+Project-URL: Issue tracker, https://github.com/WolfgangFahl/pyJustpyWidgets/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyJustpyWidgets
+Widgets and demo for Justpy
+
+[![pypi](https://img.shields.io/pypi/pyversions/pyJustpyWidgets)](https://pypi.org/project/pyJustpyWidgets/)
+[![Github Actions Build](https://github.com/WolfgangFahl/pyJustpyWidgets/workflows/Build/badge.svg?branch=main)](https://github.com/WolfgangFahl/pyJustpyWidgets/actions?query=workflow%3ABuild+branch%3Amain)
+[![PyPI Status](https://img.shields.io/pypi/v/pyJustpyWidgets.svg)](https://pypi.python.org/pypi/pyJustpyWidgets/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/pyJustpyWidgets.svg)](https://github.com/WolfgangFahl/pyJustpyWidgets/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/pyJustpyWidgets.svg)](https://github.com/WolfgangFahl/pyJustpyWidgets/issues/?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/WolfgangFahl/pyJustpyWidgets.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Documentation
+[Wiki](http://wiki.bitplan.com/index.php/pyJustpyWidgets)
+
+### Authors
+* [Wolfgang Fahl](http://www.bitplan.com/Wolfgang_Fahl)
+
+

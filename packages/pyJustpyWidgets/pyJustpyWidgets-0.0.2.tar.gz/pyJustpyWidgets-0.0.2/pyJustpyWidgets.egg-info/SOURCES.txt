@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+jpdemo/__init__.py
+jpdemo/eventdemo1.py
+jpwidgets/__init__.py
+jpwidgets/version.py
+jpwidgets/widgets.py
+pyJustpyWidgets.egg-info/PKG-INFO
+pyJustpyWidgets.egg-info/SOURCES.txt
+pyJustpyWidgets.egg-info/dependency_links.txt
+pyJustpyWidgets.egg-info/not-zip-safe
+pyJustpyWidgets.egg-info/requires.txt
+pyJustpyWidgets.egg-info/top_level.txt
