@@ -1,0 +1,12 @@
+toxassign/Automation.py,sha256=TsF0Qczj_st6MqH-C_44JjWhoqeXXpGu3zStDoedl6c,1874
+toxassign/Format.py,sha256=WyDCZHMo4XpYLXDI-lGVQc7zOU5olXP46ssI55CE_s0,2736
+toxassign/Match.py,sha256=7b_v9-4Jmizt_upfVLBraHAQR6L-tZFsaKpjlK215Lk,1912
+toxassign/Merge.py,sha256=RXnO71Mr6wIjN_DVAIuiYU1Hh5ZdwCuGiBeEjxNkEHQ,2691
+toxassign/PubChem.py,sha256=FyDMR0tXVchaQTQOgCopqVG17gIzpWEkdSFwBUG-x4w,8203
+toxassign/Writer.py,sha256=7Z0RwzInvC2_bws41u-JnrLc8R7tJpvnNUwCfnmTHVE,898
+toxassign/__init__.py,sha256=4UY0NNKLlBo-ZNzP5G-rxPmbfHfiffTxNX5JuEEN4sU,86
+toxassign-0.5.1.dist-info/entry_points.txt,sha256=oYqG2j4vuDKxNjpKBk_2kbe515vlU8sXaAeTxTfaeDM,55
+toxassign-0.5.1.dist-info/LICENSE,sha256=IAtBW220QwDROVc1n0FSnIijHSXF2-hQJmEJHJw3kF8,1065
+toxassign-0.5.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+toxassign-0.5.1.dist-info/METADATA,sha256=FPEDZkxcJ2PlJNnoYo0yd1VlYVCxMBGS6CT6RBAvCEU,6031
+toxassign-0.5.1.dist-info/RECORD,,
