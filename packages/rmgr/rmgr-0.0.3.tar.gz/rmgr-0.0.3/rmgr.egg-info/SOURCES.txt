@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+inc/rmgr/__init__.py
+inc/rmgr/core.py
+inc/rmgr/path.py
+inc/rmgr/proc.py
+rmgr.egg-info/PKG-INFO
+rmgr.egg-info/SOURCES.txt
+rmgr.egg-info/dependency_links.txt
+rmgr.egg-info/requires.txt
+rmgr.egg-info/top_level.txt
