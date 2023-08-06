@@ -1,0 +1,12 @@
+missingrepo/Missing.py,sha256=TEKRh4HxKqnBrYt-WO-irrVx-pZosDoEEPxhKqINIjg,385
+missingrepo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+missingrepo/repository/MissingRepository.py,sha256=583NmjjSUe3NrS1sNFK-A17b8mrgmxolLXEgg_XyAtk,1828
+missingrepo/repository/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+missingrepo/repository/serialize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+missingrepo/repository/serialize/missing_deserializer.py,sha256=Hp831yU_UHlRkmHGG62xAx9T1-bKE4Mn1KTt7--BKPA,769
+missingrepo/repository/serialize/missing_serializer.py,sha256=mOkopCeEQNaFSjwjVI9pmVI8i8a8mSPXm9nSELjuMBs,398
+persuader_technology_automata_missing_repository-0.0.2.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+persuader_technology_automata_missing_repository-0.0.2.dist-info/METADATA,sha256=WRKosk75bgVbxtZXOuVzZ3SJkbVnVclZWytU4RvaQX8,544
+persuader_technology_automata_missing_repository-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+persuader_technology_automata_missing_repository-0.0.2.dist-info/top_level.txt,sha256=qAH5Rn0hiRAV7rwUW78CwVri3RWK9C3RPDUsfTqQKKk,12
+persuader_technology_automata_missing_repository-0.0.2.dist-info/RECORD,,
