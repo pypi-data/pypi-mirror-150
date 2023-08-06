@@ -1,0 +1,12 @@
+FRETpredict/FRET.py,sha256=_2HEE6jslB4-iudqE7QpvyDYh4zLuX1WnPQ7_ouhXRg,24590
+FRETpredict/R0_calculation.py,sha256=Dt8GcutpNJyU51ytr5VPWn9_FSpapf-ZhuvYjNkHMrw,3281
+FRETpredict/__init__.py,sha256=VXEoPvjincAi4cPvedQLw11Xteq6Lgh5wq6vl91WWx8,222
+FRETpredict/lennardjones.py,sha256=410k0dVLQ586oZMBDhaXssT-X-Id8oreJayrUnSz93U,542
+FRETpredict/libraries.py,sha256=hBlEmOn9t-MTXXIiQxV7EvcJ_dfW76gxM5mkICwFaGM,4928
+FRETpredict/rotamer_libraries.py,sha256=e7ojc_3wcQy45PBNxfFWrRhR1q1_fbVHPZNHH9dNuMk,21165
+FRETpredict/utils.py,sha256=GtGqHO0Qt15j0WOA9VhvZa8umwA1L-b4k68oT-hkj0g,17391
+FRETpredict-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+FRETpredict-0.1.0.dist-info/METADATA,sha256=L7z9nlWIeKDZCHF4qOIo1LR91PmI6PAmFn4lMynaTtY,4181
+FRETpredict-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+FRETpredict-0.1.0.dist-info/top_level.txt,sha256=Bawb8WkBTL57-9ZJbEvi1o4py2SDU-XWyzpTEn84TvI,12
+FRETpredict-0.1.0.dist-info/RECORD,,
