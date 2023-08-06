@@ -1,0 +1,5 @@
+pandas
+LAC
+bs4
+jieba
+selenium

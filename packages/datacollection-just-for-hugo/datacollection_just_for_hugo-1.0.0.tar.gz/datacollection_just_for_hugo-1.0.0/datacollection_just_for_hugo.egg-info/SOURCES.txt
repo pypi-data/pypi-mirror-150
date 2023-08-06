@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+datacollection_just_for_hugo.egg-info/PKG-INFO
+datacollection_just_for_hugo.egg-info/SOURCES.txt
+datacollection_just_for_hugo.egg-info/dependency_links.txt
+datacollection_just_for_hugo.egg-info/requires.txt
+datacollection_just_for_hugo.egg-info/top_level.txt
