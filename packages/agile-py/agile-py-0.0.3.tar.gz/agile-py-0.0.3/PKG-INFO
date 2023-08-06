@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: agile-py
+Version: 0.0.3
+Summary: agile python project utilities
+Home-page: https://github.com/Janus-Shiau/agile-py
+Author: Jia-Yau Shiau
+Author-email: jiayau.shiau@gmail.com
+License: Apache Software License (Apache-2.0)
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
