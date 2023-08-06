@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bsteno"
+version = "0.1.0"
+description = "A python steganography package to insert/extract binary data into/from PNG files"
+authors = ["Blackthorn <sosaria@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://bitbucket.org/lordblackthorn/bsteno/src"
+
+[tool.poetry.scripts]
+bsteno_extract = "bsteno.bsteno_extract:main"
+bsteno_insert = "bsteno.bsteno_insert:main"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+Pillow = "^9.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
