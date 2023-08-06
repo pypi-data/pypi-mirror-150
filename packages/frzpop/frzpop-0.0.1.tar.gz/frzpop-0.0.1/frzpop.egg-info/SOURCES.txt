@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+frzpop/__init__.py
+frzpop/constants.py
+frzpop/phrases.py
+frzpop/tracker.py
+frzpop.egg-info/PKG-INFO
+frzpop.egg-info/SOURCES.txt
+frzpop.egg-info/dependency_links.txt
+frzpop.egg-info/requires.txt
+frzpop.egg-info/top_level.txt
