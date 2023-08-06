@@ -1,0 +1,11 @@
+pymailorganizer/__init__.py,sha256=9NouLmPI7D8bQixpHdZf2E2LhtKWlTrvuKcpbwVzW5s,65
+pymailorganizer/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymailorganizer/display.py,sha256=923x71wLm0BQqUPcBVZBlnYxomXBah-UvnIXhsRiMEU,7500
+pymailorganizer/imap.py,sha256=GezA6RWPEtM-ADxH3Semzlc1n3fwOg1F4LsWwAwaX_I,7210
+pymailorganizer/main.py,sha256=kU2xqOd6hDmB1SluZnymjF25zWmNg_vW2MdSiyBQILQ,821
+pymailorganizer-0.6.2.dist-info/LICENSE,sha256=O7x0YzAgKoqmeupz4qvwdov6GtCjjSsPve0uJ3-SsU0,1092
+pymailorganizer-0.6.2.dist-info/METADATA,sha256=FUjKj6U8OGG39IiCZ5Xxnua0MSHYpmvWjlyzjHh4nzg,2124
+pymailorganizer-0.6.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymailorganizer-0.6.2.dist-info/entry_points.txt,sha256=8Ut9IxMlvcKDnGzALVv0wtQH0a1mhbZnFnez2MQCA7A,64
+pymailorganizer-0.6.2.dist-info/top_level.txt,sha256=8MZpr-KX8hSoG3R-QWF0sP8ziTFhlJqnUwXKSKK4HBA,16
+pymailorganizer-0.6.2.dist-info/RECORD,,
