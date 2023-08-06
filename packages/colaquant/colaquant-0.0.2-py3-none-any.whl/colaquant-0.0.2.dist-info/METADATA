@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: colaquant
+Version: 0.0.2
+Summary: 可乐的量化分析框架
+Home-page: https://pypi.org/project/colaquant/
+Author: Cola Li
+Author-email: Indigocola121@gmail.com
+Description-Content-Type: text/markdown
+
