@@ -1,0 +1,11 @@
+[console_scripts]
+browse-ocrd = ocrd_browser.main:main
+
+[ocrd_browser_view]
+diff = ocrd_browser.view:ViewDiff
+html = ocrd_browser.view:ViewHtml
+images = ocrd_browser.view:ViewImages
+page = ocrd_browser.view:ViewPage
+text = ocrd_browser.view:ViewText
+xml = ocrd_browser.view:ViewXml
+
