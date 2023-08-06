@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hagtl
+Version: 0.0.1a0
+Summary: H&A Geotechnical Design and Python Library (GTL)
+Home-page: https://www.haleyaldrich.com/
+Author: Haley & Aldrich, Inc.
+Author-email: nmachairas@haleyaldrich.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ha-geotechnical-library
+H&amp;A Geotechnical Design and Python Library (GTL)
