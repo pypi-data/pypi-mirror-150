@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "rule34easy"
+version = "0.1.2"
+description = "Package for easy use rule34 API"
+authors = ["MoDiFy <mindustrys1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
