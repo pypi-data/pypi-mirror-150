@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: craft-ai-sdk
+Version: 0.0.0
+Summary: Craft.AI – MLOps platform
+Home-page: https://www.craft.ai/
+Author: craft ai
+Author-email: contat@craft.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyJWT (>=2.3.0,<3.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Craft.AI Python SDK
+
+This Python SDK lets you interact with Craft.AI MLOps Platform.
+
