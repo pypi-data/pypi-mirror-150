@@ -1,0 +1,6 @@
+numpy
+prettytable
+pyxdg
+pint
+scipy
+tifffile
