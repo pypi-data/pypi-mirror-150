@@ -1,0 +1,15 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+neuralwatermark/__init__.py
+neuralwatermark/neuralwatermark.py
+neuralwatermark.egg-info/PKG-INFO
+neuralwatermark.egg-info/SOURCES.txt
+neuralwatermark.egg-info/dependency_links.txt
+neuralwatermark.egg-info/not-zip-safe
+neuralwatermark.egg-info/requires.txt
+neuralwatermark.egg-info/top_level.txt

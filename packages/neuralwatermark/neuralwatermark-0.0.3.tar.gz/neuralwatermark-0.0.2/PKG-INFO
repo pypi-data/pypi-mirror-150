@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: neuralwatermark
+Version: 0.0.2
+Summary: Python package to watermark AI models
+Home-page: https://github.com/skp-github/neuralwatermark
+Author: doodle
+Author-email: linkme06@gmail.com
+License: GNU General Public License v3
+Keywords: neuralwatermark
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+# neuralwatermark
+
+
+[![image](https://img.shields.io/pypi/v/neuralwatermark.svg)](https://pypi.python.org/pypi/neuralwatermark)
+
+[![image](https://img.shields.io/conda/vn/conda-forge/neuralwatermark.svg)](https://anaconda.org/conda-forge/neuralwatermark)
+
+[![image](https://pyup.io/repos/github/skp-github/neuralwatermark/shield.svg)](https://pyup.io/repos/github/skp-github/neuralwatermark)
+
+
+**Python package to watermark AI models**
+
+
+-   Free software: GNU General Public License v3
+-   Documentation: https://skp-github.github.io/neuralwatermark
+    
+
+## Features
+
+-   TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
+
+
