@@ -1,0 +1,14 @@
+[console_scripts]
+freezerbox=freezerbox.cli.main:main
+
+[freezerbox.databases]
+excel=freezerbox.loaders.excel
+
+[freezerbox.make]
+dilute=freezerbox.stepwise.dilute:Dilute
+order=freezerbox.stepwise.make:OrderMaker
+sw=freezerbox.stepwise.make:StepwiseMaker
+
+[stepwise.protocols]
+protocols=freezerbox.stepwise:Plugin
+
