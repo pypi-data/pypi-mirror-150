@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tChat/__init__.py
+tChat/__main__.py
+tChat/command_line_argument_parser.py
+tChat/config.py
+tChat/customizer.py
+tChat/irc_connection.py
+tChat/main.py
+tChat/twitch_message_parser.py
+tChat.egg-info/PKG-INFO
+tChat.egg-info/SOURCES.txt
+tChat.egg-info/dependency_links.txt
+tChat.egg-info/entry_points.txt
+tChat.egg-info/top_level.txt
