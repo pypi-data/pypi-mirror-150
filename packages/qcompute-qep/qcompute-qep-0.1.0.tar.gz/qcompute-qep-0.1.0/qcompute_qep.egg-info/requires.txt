@@ -1,0 +1,16 @@
+qcompute>=2.0.4
+numpy>=1.22.3
+scipy>=1.8.0
+qiskit>=0.36.1
+qutip>=4.6.2
+bidict>=0.22.0
+protobuf>=3.20.1
+requests>=2.27.1
+matplotlib>=3.5.2
+bce-python-sdk>=0.8.64
+antlr4-python3-runtime==4.9.3
+py-expression-eval>=0.3.14
+websocket-client>=1.3.2
+tqdm>=4.64.0
+networkx>=2.8
+sparse>=0.13.0
