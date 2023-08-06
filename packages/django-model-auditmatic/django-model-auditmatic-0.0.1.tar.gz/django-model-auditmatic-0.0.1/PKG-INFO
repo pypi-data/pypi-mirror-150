@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-model-auditmatic
+Version: 0.0.1
+Summary: Audit support for Django models using PostgreSQL triggers and stored procedures.
+Home-page: https://github.com/BillSchumacher/django-model-auditmatic
+Author: Bill Schumacher
+Author-email: william.schumacher@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+Work in progress - this probably doesn't work well yet or at all.
