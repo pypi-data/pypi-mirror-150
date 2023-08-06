@@ -1,0 +1,11 @@
+polymera/__init__.py,sha256=088Xly-fuHxSKrMznQJ2SFNGCEyz9JcUTZkhkNd8L3A,123
+polymera/polymera.py,sha256=ZXjcAetXG5naklkc2PGKtMo3Pqi3EToFtsD3osgWZZo,12379
+polymera/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+polymera/bio/__init__.py,sha256=ZaLJA4VSOwdDHNRCgUCwbgdhe0amTb4RgG8g2X5k98A,66
+polymera/bio/dna.py,sha256=yQ25UidIdoyLTziabxNPgxA7NkV8-sjvDVoXSCmGQR0,429
+polymera/bio/protein.py,sha256=HZlFNSElMCevOHXHjmJoQOL6qmb5KlZ1rk5qZkzKSLI,460
+polymera-0.1.2.dist-info/LICENSE,sha256=TAHmZesNQIq1nnxvHkojvEO3l41w0u7QuUVzbEwSF5o,1081
+polymera-0.1.2.dist-info/METADATA,sha256=Z-Ad2lR3MennXsz-q24fVL53Z9k9ITovgE6V3kLgR_I,1125
+polymera-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+polymera-0.1.2.dist-info/top_level.txt,sha256=R_NQJgjNgbuSJemiKp7MOgz0KSuDcORyyqONqFLqkfc,9
+polymera-0.1.2.dist-info/RECORD,,
