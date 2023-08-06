@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: c7n-awscc
+Version: 0.1.1
+Summary: Cloud Custodian - AWS Cloud Control Provider
+Home-page: https://cloudcustodian.io
+Author: Cloud Custodian Project
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.7,<4.0
+Description-Content-Type: text/markdown
+Requires-Dist: argcomplete (==2.0.0)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: boto3 (==1.21.42)
+Requires-Dist: botocore (==1.24.42)
+Requires-Dist: c7n (==0.9.16)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: importlib-metadata (==4.11.3)
+Requires-Dist: importlib-resources (==5.7.1)
+Requires-Dist: jmespath (==1.0.0)
+Requires-Dist: jsonschema (==4.4.0)
+Requires-Dist: pyrsistent (==0.18.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: s3transfer (==0.5.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: typing-extensions (==4.2.0)
+Requires-Dist: urllib3 (==1.26.9)
+Requires-Dist: zipp (==3.8.0)
+Requires-Dist: jsonpatch (==1.32) ; (python_version >= "2.7" and python_full_version < "3.0.0") or python_full_version >= "3.5.0"
+Requires-Dist: importlib-metadata (==4.11.3) ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: typing-extensions (==4.2.0) ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: zipp (==3.8.0) ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: jsonpointer (==2.3) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+Requires-Dist: click (==8.1.2) ; python_version >= "3.7"
+Requires-Dist: colorama (==0.4.4) ; python_version >= "3.7" and python_full_version < "3.0.0" and platform_system == "Windows" or platform_system == "Windows" and python_version >= "3.7" and python_full_version >= "3.5.0"
+
+
+# Custodian AWS Cloud Control Provider
+
+
+
+
