@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+locass/src/locass.py
+locass/src/locass.egg-info/PKG-INFO
+locass/src/locass.egg-info/SOURCES.txt
+locass/src/locass.egg-info/dependency_links.txt
+locass/src/locass.egg-info/top_level.txt
