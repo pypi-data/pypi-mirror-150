@@ -1,0 +1,3 @@
+[console_scripts]
+hypy=hypy.__main__:cli
+
