@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: hscp
+Version: 0.2.0
+Summary: Client library for HyScores.
+Home-page: https://github.com/moonburnt/hscp
+License: MIT
+Author: moonburnt
+Author-email: moonburnt@disroot.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: requests (==2.27.1)
+Description-Content-Type: text/markdown
+
+# HSCP
+
+## Description:
+
+**HSCP** is a [HyScores](https://github.com/0x5b/hyscores) Client, written in 
+Python. Its designed to be a simple and efficient library to use in your games.
+
+## Usage:
+
+```python3
+
+from hscp import HyScoresClient
+
+client = HyScoresClient(
+    # replace this with url of actually running instance of HyScores
+    url = "http://example.com",
+    # and this with name of your application
+    app = "hyscores",
+)
+
+# If you arent registered on this instance yet
+client.register("your_login", "your_password") 
+
+client.login("your_login", "your_password")
+
+# This will get list of scores already uploaded to server
+print(client.get_scores())
+```
+
+## License:
+
+[MIT](https://github.com/moonburnt/hscp/blob/master/LICENSE)
+
