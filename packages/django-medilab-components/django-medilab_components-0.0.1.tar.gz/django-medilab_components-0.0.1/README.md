@@ -1,0 +1,24 @@
+django-medilab_components
+==========
+
+components collection for medilab_ds
+
+Supported components
+------------
+# 필수 컴포넌트
+'popup',
+'base',
+'hero',
+
+# 선택 공통 컴포넌트
+'whyus',
+'about',
+'counts',
+'faq',
+'cta',
+'team',
+'contact',
+
+# 선택 유니크 컴포넌트
+
+
