@@ -1,0 +1,2 @@
+[console_scripts]
+bancor3_simulator = bancor3_simulator.__main__:cli
