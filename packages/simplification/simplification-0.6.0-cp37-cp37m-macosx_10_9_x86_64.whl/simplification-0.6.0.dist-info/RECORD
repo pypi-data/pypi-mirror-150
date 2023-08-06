@@ -1,0 +1,14 @@
+simplification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplification/cutil.c,sha256=Ur7kU-s4vehdToSn5ILKhYuDAiymzVnv5tiMyxJ42yA,889980
+simplification/cutil.cpython-37m-darwin.so,sha256=5gRcm3gKRNo2WISKOmewaqtnte4_ZzsIDYbG4pmBYnk,207584
+simplification/cutil.pyx,sha256=JWXnha6na2Vl0u98e4J6BDFKjSCKomYKwLp9RjvA_Bk,6754
+simplification/header.h,sha256=DYfoiczoZXp2953bn-KvauT6YXKdKWLfzwlawSmCYWA,5476
+simplification/librdp.dylib,sha256=VIZcJaOSMMKxyLm1idlRMG7A0BUKJO2qdsUHpPThCaQ,315968
+simplification/rdp_p.pxd,sha256=orpnm1x7_7Mv_CUpKB3Nd-xEilnqmlDVAbZSwdR94vA,689
+simplification/stdbool.h,sha256=Kh3yV7KFb1KFWAI41x-ekYZe4tLiQruhr5YP5jmmBEU,68
+simplification/util.py,sha256=D9yuIfxLQgEp7__6Hf9aWDR0QFX5NrYIP7W9j_EYvhk,5717
+simplification-0.6.0.dist-info/METADATA,sha256=q7Cp3c8vhsoY2lx-uz9rvn0m8ULM96nGiC662VdLq9E,6457
+simplification-0.6.0.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+simplification-0.6.0.dist-info/license.txt,sha256=TtEIG22Hz9WWDQ5Rx1Z_RwvJq9qNwymc7mAG1ZjYPyc,1081
+simplification-0.6.0.dist-info/top_level.txt,sha256=lJID9g5MiPOFux6Cv4ykfEGrZoG7aOrKCU27q-bVaXA,15
+simplification-0.6.0.dist-info/RECORD,,
