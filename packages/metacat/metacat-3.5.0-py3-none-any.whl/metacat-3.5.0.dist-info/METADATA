@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: metacat
+Version: 3.5.0
+Summary: General purpose metadata database
+Home-page: https://github.com/ivmfnal/metacat
+Author: Igor Mandrichenko
+Author-email: ivm@fnal.gov
+License: BSD 3-clause
+Keywords: metadata,data management,database,web service
+Platform: UNKNOWN
+Requires-Dist: pythreader (>=2.6)
+Requires-Dist: pyjwt
+Requires-Dist: pyyaml
+Requires-Dist: lark
+
+UNKNOWN
+
+
