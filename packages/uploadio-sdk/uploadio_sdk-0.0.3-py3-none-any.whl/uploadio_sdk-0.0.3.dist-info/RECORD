@@ -1,0 +1,13 @@
+uploadio_sdk/__init__.py,sha256=9KpOYxRREiIeE-tC7Dmif6U3nXAuSlru0WU78JXxPK4,37
+uploadio_sdk/main.py,sha256=u_UgqNuYWle63HISdSlyJizP93l4ISN4lUl8hLhH1ow,958
+uploadio_sdk/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uploadio_sdk/schemas/get_file_urls_schema.py,sha256=WsCzrB-w-srLv43bqSUOl3j_6YoFGxTMd8desBhwaWU,768
+uploadio_sdk/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uploadio_sdk/services/base_service.py,sha256=r1WL0zygr0yGvle4TMM1OwbA7eNdK26G13z7wKaQhYI,338
+uploadio_sdk/services/get_file_urls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uploadio_sdk/services/get_file_urls/get_file_urls_service.py,sha256=jhIl9w55WdRk1MWyLvr7ZQEcX8IRSVmrREf1cWH4S9M,2545
+uploadio_sdk-0.0.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+uploadio_sdk-0.0.3.dist-info/METADATA,sha256=b5So0tcxyQwv3cmF85fB635knqs2nulzNcoEgae1sHY,554
+uploadio_sdk-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uploadio_sdk-0.0.3.dist-info/top_level.txt,sha256=EprFWBU6afLbugQqeZ_6SMGRP4NM9kU9Qp0kPnq_u14,13
+uploadio_sdk-0.0.3.dist-info/RECORD,,

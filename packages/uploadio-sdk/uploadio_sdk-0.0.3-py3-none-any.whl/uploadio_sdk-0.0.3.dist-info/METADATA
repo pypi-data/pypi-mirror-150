@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: uploadio-sdk
+Version: 0.0.3
+Summary: uploadio_sdk
+Home-page: https://github.com/pypa/sampleproject
+Author: soreka
+Author-email: rezafm1001@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pydantic
+Requires-Dist: redis
+
+test
