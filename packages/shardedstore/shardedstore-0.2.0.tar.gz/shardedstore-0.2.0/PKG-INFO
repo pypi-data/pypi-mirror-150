@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: shardedstore
+Version: 0.2.0
+Summary: Provides a sharded Zarr store.
+Author-email: Matt McCormick <matt.mccormick@kitware.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: zarr >=2.11.3
+Requires-Dist: dask ; extra == "test"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: xarray-datatree >=0.0.5 ; extra == "test"
+Requires-Dist: scipy ; extra == "test"
+Project-URL: Home, https://github.com/thewtex/sharedstore
+Provides-Extra: test
+
+# shardedstore
+
+[![image](https://img.shields.io/pypi/v/shardedstore.svg)](https://pypi.python.org/pypi/shardedstore/)
+[![Test](https://github.com/thewtex/shardedstore/actions/workflows/test.yml/badge.svg)](https://github.com/thewtex/shardedstore/actions/workflows/test.yml)
+[![DOI](https://zenodo.org/badge/489549406.svg)](https://zenodo.org/badge/latestdoi/489549406)
+
+Provides a sharded Zarr store.
+
+## Installation
+
+```sh
+pip install shardedstore
+```
+
+## Development
+
+Contributions are welcome and appreciated.
+
+```
+git clone https://github.com/thewtex/shardedstore
+cd shardedstore
+pip install -e ".[test]"
+pytest
+```
+
