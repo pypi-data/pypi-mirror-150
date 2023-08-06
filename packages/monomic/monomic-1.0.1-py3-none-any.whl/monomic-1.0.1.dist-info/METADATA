@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: monomic
+Version: 1.0.1
+Summary: Sedai Package
+Home-page: UNKNOWN
+Author: Team Hash
+Author-email: 180253@tkmce.ac.in
+License: MIT
+Keywords: monolith microservice serverless django
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a tool to convert a monolith application to an intermediate microservice and deploy it using serverless 
+
+
