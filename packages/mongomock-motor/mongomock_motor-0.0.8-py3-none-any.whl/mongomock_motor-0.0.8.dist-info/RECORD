@@ -1,0 +1,14 @@
+mongomock_motor/__init__.py,sha256=ClZj4uIaKsViaqInTVjf2jwiPsnILrzLZuUxxmrbwNA,4715
+mongomock_motor/patches.py,sha256=mpLtvFLCR82VcPADLgOBT_5nSro8f2rKbka-Z2X-WHE,1609
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=rf8hW655DiHCwfpVnormlS0ktb6I2N7wmW2Cjghp44k,74
+tests/test_async_cursor.py,sha256=eN3jhJ4ILffrsSsbZCp2FCglsXkQTgXUmcWIthZncOo,1190
+tests/test_beanie.py,sha256=eVmUGwS3XIaazHSJJiuuAcr-qJ-EwYqXkzJZIlCrypo,1875
+tests/test_showcase.py,sha256=drLfMLVA4MnaBFWcBXkT8VkF5jGZJ6DB9ndOfD3BHwY,373
+tests/test_umongo.py,sha256=ZCKMeihMc4BikeqCsZQGXxbv3xKXgjpcDIxGgCG79_M,1401
+tests/test_unique.py,sha256=0lsm7nmWN6qxRZbJwYc78kLqkXc7KuXNyJc9a7P8uF4,846
+tests/test_workflow.py,sha256=a3TW7wK0ZXcNC9N5nlSNB8wWARlhd5p6Tx36EvplQqM,1659
+mongomock_motor-0.0.8.dist-info/METADATA,sha256=Glog9oqhPbfCXFeM6_gK_sv5Nf5u_DYNgeyCiOm853o,1398
+mongomock_motor-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mongomock_motor-0.0.8.dist-info/top_level.txt,sha256=PIxBYWGIonzGO2zK9KRYmPtGg-eX1H0UqlxJZL31ciI,22
+mongomock_motor-0.0.8.dist-info/RECORD,,
