@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+aiymakerkit/__init__.py
+aiymakerkit/audio.py
+aiymakerkit/ring_buffer.py
+aiymakerkit/utils.py
+aiymakerkit/vision.py
+aiymakerkit.egg-info/PKG-INFO
+aiymakerkit.egg-info/SOURCES.txt
+aiymakerkit.egg-info/dependency_links.txt
+aiymakerkit.egg-info/requires.txt
+aiymakerkit.egg-info/top_level.txt
