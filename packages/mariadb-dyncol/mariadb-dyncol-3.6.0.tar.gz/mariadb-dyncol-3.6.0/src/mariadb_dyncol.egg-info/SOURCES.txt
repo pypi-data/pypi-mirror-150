@@ -1,0 +1,15 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/mariadb_dyncol/__init__.py
+src/mariadb_dyncol/base.py
+src/mariadb_dyncol/py.typed
+src/mariadb_dyncol.egg-info/PKG-INFO
+src/mariadb_dyncol.egg-info/SOURCES.txt
+src/mariadb_dyncol.egg-info/dependency_links.txt
+src/mariadb_dyncol.egg-info/not-zip-safe
+src/mariadb_dyncol.egg-info/top_level.txt
