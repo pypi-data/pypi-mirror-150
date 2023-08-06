@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: threshold_elgamal
+Version: 0.0.8
+Summary: Threshold ElGamal cryptosystem.
+Home-page: UNKNOWN
+Author: Katarina Boras
+Author-email: katarina.boras2@outlook.com
+License: UNKNOWN
+Description: Threshold ElGamal cryptosystem
+        
+        Library that provides functions for encryption, decrpytion and DKG algorithm using the ElGamal cryptosystem.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
