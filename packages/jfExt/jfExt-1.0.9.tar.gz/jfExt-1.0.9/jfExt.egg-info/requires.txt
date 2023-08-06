@@ -1,0 +1,11 @@
+flask
+flask_mail
+six
+prettytable
+requests
+hashlib
+uuid
+validators
+geoip2
+icecream
+urllib3
