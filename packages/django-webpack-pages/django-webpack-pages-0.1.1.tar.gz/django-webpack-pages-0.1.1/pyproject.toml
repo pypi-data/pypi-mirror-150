@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "django-webpack-pages"
+version = "0.1.1"
+description = "Use webpack with your multi-page, multi-lingual django webapp"
+authors = ["MrP01 <peter@waldert.at>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MrP01/django-webpack-pages"
+keywords = ["django", "webpack", "assets"]
+packages = [{ include = "webpack_pages" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django-webpack-loader = "^1.5.0"
+Django = ">=3.0"
+Jinja2 = ">=3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.3.0"
+pylint = "^2.13.9"
+isort = "^5.10.1"
+
+[tool.nitpick]
+style = ["github://MrP01/lint-me-now/nitpick-base-style.toml", "github://MrP01/lint-me-now/nitpick-python-style.toml"]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[tool.pylint]
+
+[tool.pylint.MASTER]
+jobs = 1
+extension-pkg-whitelist = "pydantic"
+
+[tool.pylint.REPORTS]
+output-format = "colorized"
+
+[tool.pylint.FORMAT]
+max-line-length = 120
+max-module-lines = 1000
+indent-after-paren = 4
+
+[tool.pylint.BASIC]
+good-names-rgxs = "^[_a-z][_a-z0-9]?$"
+
+[tool.flakeheaven]
+ignore = "D107,D202,D203,D401,E203,E402,E501,W503"
+max_line_length = 120
+inline-quotes = "double"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
