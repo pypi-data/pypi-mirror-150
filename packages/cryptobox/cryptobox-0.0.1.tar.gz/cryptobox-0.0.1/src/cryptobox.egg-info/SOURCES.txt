@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/cryptobox/__init__.py
+src/cryptobox.egg-info/PKG-INFO
+src/cryptobox.egg-info/SOURCES.txt
+src/cryptobox.egg-info/dependency_links.txt
+src/cryptobox.egg-info/top_level.txt
