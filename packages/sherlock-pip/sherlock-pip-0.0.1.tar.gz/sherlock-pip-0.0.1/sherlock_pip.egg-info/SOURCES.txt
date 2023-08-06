@@ -1,0 +1,5 @@
+setup.py
+sherlock_pip.egg-info/PKG-INFO
+sherlock_pip.egg-info/SOURCES.txt
+sherlock_pip.egg-info/dependency_links.txt
+sherlock_pip.egg-info/top_level.txt
