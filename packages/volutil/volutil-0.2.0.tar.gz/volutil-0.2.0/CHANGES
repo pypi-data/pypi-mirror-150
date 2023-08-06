@@ -1,0 +1,16 @@
+change log for volutil
+https://github.com/chaselgrove/volutil
+
+0.0.1 -- 10 May 2022
+
+    Initial version.
+
+    Utilities for neuroimaging volumes.
+
+0.2.0 -- 12 May 2022
+
+    Fix error reporting bug in vol-slice.
+
+    Fix version (0.0.1) in CHANGES.
+
+    Include CHANGES in distribution.
