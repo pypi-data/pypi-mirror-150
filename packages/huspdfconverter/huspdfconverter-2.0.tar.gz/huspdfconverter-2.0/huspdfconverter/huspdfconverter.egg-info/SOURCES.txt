@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+huspdfconverter/huspdfconverter.egg-info/PKG-INFO
+huspdfconverter/huspdfconverter.egg-info/SOURCES.txt
+huspdfconverter/huspdfconverter.egg-info/dependency_links.txt
+huspdfconverter/huspdfconverter.egg-info/top_level.txt
