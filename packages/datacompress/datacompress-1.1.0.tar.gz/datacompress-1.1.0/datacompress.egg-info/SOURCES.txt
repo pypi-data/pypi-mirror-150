@@ -1,0 +1,7 @@
+README.rst
+setup.py
+datacompress/datacompress.py
+datacompress.egg-info/PKG-INFO
+datacompress.egg-info/SOURCES.txt
+datacompress.egg-info/dependency_links.txt
+datacompress.egg-info/top_level.txt
