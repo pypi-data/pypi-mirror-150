@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sums-learner"
+version = "0.4"
+description = "LSTM RNN to learn the sums"
+authors = ["Nikita Loik <nikita.loik@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+tqdm = "^4.64.0"
+numpy = "^1.22.3"
+torch = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
