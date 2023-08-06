@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pbd/__init__.py
+pbd/base.py
+pbd/bookmarks.py
+pbd/followings.py
+pbd/main.py
+pbd/pixiv_types.py
+pixiv_bulk_downloader.egg-info/PKG-INFO
+pixiv_bulk_downloader.egg-info/SOURCES.txt
+pixiv_bulk_downloader.egg-info/dependency_links.txt
+pixiv_bulk_downloader.egg-info/entry_points.txt
+pixiv_bulk_downloader.egg-info/requires.txt
+pixiv_bulk_downloader.egg-info/top_level.txt
