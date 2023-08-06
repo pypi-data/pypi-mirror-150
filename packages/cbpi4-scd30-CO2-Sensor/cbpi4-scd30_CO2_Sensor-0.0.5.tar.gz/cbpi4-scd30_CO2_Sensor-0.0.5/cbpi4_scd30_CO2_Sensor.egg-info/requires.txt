@@ -1,0 +1,2 @@
+smbus2
+scd30_i2c
