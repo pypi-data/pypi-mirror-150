@@ -1,0 +1,3 @@
+[console_scripts]
+sit4onnx = sit4onnx:main
+
