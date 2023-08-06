@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyeph
+Version: 1.1.5
+Summary: PyEPH es una librería para el procesamiento de la Encuesta Permanente de Hogares (eph) en Python. Permite la descarga de archivos de EPH's y otros como la canasta basica y adulto equivalente , como asi también algunos calculos rápidos relacionados con las mismas
+License: MIT
+Author: Maria Carolina Trogliero, Mariano Valdez Anopa, Maria Gaska
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipykernel (>=6.13.0,<7.0.0)
+Requires-Dist: pandas (>=1.1.5,<2.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
