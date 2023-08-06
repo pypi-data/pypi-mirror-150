@@ -1,0 +1,8 @@
+homebrew_python/__init__.py,sha256=5CQhP3VcWDQ9NNblra4VjmI1RCQwEBM9v_91-H3fr0U,55
+homebrew_python/cli.py,sha256=VivaesZr3ohVqJolVpCpTg2ozXkk2Lxpd5mnRNGUQa8,153
+homebrew_python/utils.py,sha256=RYssK9wiMhHMr5ikXKsnJ8XJKTb0t-rwsRuhCOfdCy4,1085
+homebrew_python-0.1.3.dist-info/entry_points.txt,sha256=BNdgXjPbSbEIVfkrBQ8oWyrpcsf_O0ktJ1czX-zJIec,47
+homebrew_python-0.1.3.dist-info/LICENSE,sha256=iDPU2JFPtGTxMtJ4js-KodAQR-IHm4NPaG5m8cRoutA,1100
+homebrew_python-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+homebrew_python-0.1.3.dist-info/METADATA,sha256=sTHQeTGWpg2wmR7Wi9UjGdFH46f7H-G2hSgh1Z3wkgo,673
+homebrew_python-0.1.3.dist-info/RECORD,,
