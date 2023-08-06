@@ -1,0 +1,2 @@
+[console_scripts]
+dxt-explorer = explore.dxt:main
