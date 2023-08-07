@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sil-thot
+Version: 3.3.6
+Summary: A toolkit for statistical word alignment and machine translation
+Home-page: https://github.com/sillsdev/thot
+Author: SIL International
+Maintainer: Damien Daspit
+Maintainer-email: damien_daspit@sil.org
+License: LGPL-3.0
+Project-URL: Repository, https://github.com/sillsdev/thot
+Keywords: statistical machine translation word alignment natural language processing
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.7, <4.0
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: COPYING.LESSER
+License-File: AUTHORS
+
+# SIL Thot
+SIL Thot is a C++ library for statistical machine translation and word alignment. This is a fork of the [Thot Toolkit](https://github.com/daormar/thot) developed by Daniel Ortiz-Martínez. This fork has packaged the original Thot toolkit into a shared library. This allows the functionality to be embedded in other applications. The fork also includes ew alignment models, such as IBM-3, IBM-4, and Fast Align.
