@@ -1,0 +1,14 @@
+dms_influx2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dms_influx2/authorizations.py,sha256=vinxBGDTSjnnviY1WHQ7VGQMxK0nD0bcw1PZbc1hfRM,4976
+dms_influx2/buckets.py,sha256=FRQEi6kVeBLpw8Z8PraBNYQ__qMAnK3lWT0PwTlLi00,5712
+dms_influx2/decorators.py,sha256=z024WS2KFkTN32cGQb-xZtSgoyeAVyACbiIFPRvcNkU,609
+dms_influx2/delete.py,sha256=Nan_yCmJ5lDFeDhdgqHuNWz3DB1Hht2XGb8zNP33bvc,2321
+dms_influx2/exceptions.py,sha256=sxljXPdbtKn3VM2-DiN8Tju-fs9yAvcMmls4wckkPQE,160
+dms_influx2/lib.py,sha256=muTXUAsb8mhvUioKpL4HQe_MA_PXyiwQFhO--2rFimE,16173
+dms_influx2/organisations.py,sha256=y2dM70Y7w3V8-2Hc-NTuxABPuwI7znUL9lgQPWZpiFM,1092
+dms_influx2/query.py,sha256=5t1uC6zg_zIocMrsW8kTgz7rVUCQ1MPrvct-f5cbPiA,5170
+dms_influx2/utils.py,sha256=DCIWKYqxBaH2bTmv0meTzcJ6fD-ZRg4X7p-5zO_va8E,405
+dms_influx2-0.1.3.dist-info/METADATA,sha256=Jc4Oj08Tgsi6sxz_EW4R4bUgxEjc9YblW5fXUMNrP04,709
+dms_influx2-0.1.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+dms_influx2-0.1.3.dist-info/top_level.txt,sha256=51lfdjYUnZsFUYN-rZ-g9lL2kd7gh0W8dpLsy5gj7Rg,12
+dms_influx2-0.1.3.dist-info/RECORD,,
