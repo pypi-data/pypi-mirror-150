@@ -1,0 +1,10 @@
+pysustrans/__init__.py,sha256=6-ZNuZCXSjYzjO8u8bURLGl9ZOhVSCmAIuoa8vrXUss,251
+pysustrans/association.py,sha256=QpPVfDIQzosWN2js3rDQ31IkTcHor9wvYwpk4mBWUKU,4970
+pysustrans/correlation.py,sha256=dz1RLPBWigr6Vr8TyBTgUp0K3mx_QdPtHWiYOlJEekw,6346
+pysustrans/pysustrans.py,sha256=diiAtlJ853NsWzAoozdjfcgtA-Oo1xAaDfloZb0KQdE,49
+pysustrans/sustrans.py,sha256=diiAtlJ853NsWzAoozdjfcgtA-Oo1xAaDfloZb0KQdE,49
+pysustrans-0.0.111.dist-info/LICENSE.txt,sha256=kGFbTcNvQ8L3SnznH4t5FQaTn4bZVaRVCQubK1Ow1vQ,1096
+pysustrans-0.0.111.dist-info/METADATA,sha256=HYzhZJ-KQCn2aBzpR6-kRxyxLOWF4Nt4oN2QWeN6gUM,1012
+pysustrans-0.0.111.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysustrans-0.0.111.dist-info/top_level.txt,sha256=J_ArA9oheA-4xKs39gWRg26vL_m2VWsu6bKZjjrwuWo,11
+pysustrans-0.0.111.dist-info/RECORD,,
