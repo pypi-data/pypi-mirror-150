@@ -1,0 +1,11 @@
+README.md
+license.txt
+setup.py
+Dbase_connectors/connectors.py
+Dbase_connectors/init.py
+Dbase_connectors/test.py
+Dbase_connectors.egg-info/PKG-INFO
+Dbase_connectors.egg-info/SOURCES.txt
+Dbase_connectors.egg-info/dependency_links.txt
+Dbase_connectors.egg-info/requires.txt
+Dbase_connectors.egg-info/top_level.txt
